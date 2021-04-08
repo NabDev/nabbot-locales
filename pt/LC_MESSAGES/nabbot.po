@@ -1,20 +1,17 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Spanish translation for NabBot
+# Copyright (C) 2021 Allan Galarza
+# Allan Galarza <allan.galarza@gmail.com>, 2021.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-08 15:16-0700\n"
+"POT-Creation-Date: 2021-04-08 15:15-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Last-Translator: Allan Galarza <allan.galarza@gmail.com>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: cogs/admin.py:32
@@ -77,7 +74,8 @@ msgstr ""
 msgid ""
 "Checks the channel's permissions.\n"
 "\n"
-"            Makes sure that the bot has all the required permissions to work properly.\n"
+"            Makes sure that the bot has all the required permissions to work "
+"properly.\n"
 "            If no channel is specified, the current one is checked."
 msgstr ""
 
@@ -130,7 +128,9 @@ msgid "I only need this to create watchlists."
 msgstr ""
 
 #: cogs/admin.py:113
-msgid "I need this to create server logs, news and levels channels, as well aswatchlist feeds."
+msgid ""
+"I need this to create server logs, news and levels channels, as well "
+"aswatchlist feeds."
 msgstr ""
 
 #: cogs/admin.py:115
