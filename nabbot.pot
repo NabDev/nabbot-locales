@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-08 13:07-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cogs/admin.py:32
+msgid "World"
+msgstr ""
+
+#: cogs/admin.py:33
+msgid "News channel"
+msgstr ""
+
+#: cogs/admin.py:34
+msgid "News tickers"
+msgstr ""
+
+#: cogs/admin.py:35
+msgid "Events channel"
+msgstr ""
+
+#: cogs/admin.py:36
+msgid "Server Log channel"
+msgstr ""
+
+#: cogs/admin.py:37
+msgid "Tracking channel"
+msgstr ""
+
+#: cogs/admin.py:38
+msgid "Min Announce Level"
+msgstr ""
+
+#: cogs/admin.py:39
+msgid "Prefix"
+msgstr ""
+
+#: cogs/admin.py:40
+msgid "Welcome message"
+msgstr ""
+
+#: cogs/admin.py:41
+msgid "Welcome channel"
+msgstr ""
+
+#: cogs/admin.py:42
+msgid "Default Announcements"
+msgstr ""
+
+#: cogs/admin.py:43
+msgid "Show User in Announcements"
+msgstr ""
+
+#: cogs/admin.py:46
+msgid "I couldn't find that channel, are you sure it exists?"
+msgstr ""
