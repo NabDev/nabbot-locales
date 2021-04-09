@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-09 08:20-0700\n"
+"POT-Creation-Date: 2021-04-09 08:48-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,6 +71,18 @@ msgstr ""
 
 #: cogs/admin.py:47
 msgid "I couldn't find that channel, are you sure it exists?"
+msgstr ""
+
+#: cogs/admin.py:61
+msgid "You can't remove this prefix."
+msgstr ""
+
+#: cogs/admin.py:63
+msgid "The prefix can't be longer than 20 characters."
+msgstr ""
+
+#: cogs/admin.py:71
+msgid "Settings can't be modified on private messages."
 msgstr ""
 
 #: cogs/admin.py:88
@@ -161,341 +173,502 @@ msgstr ""
 msgid "Use the subcommands to change the settings for this server."
 msgstr ""
 
-#: cogs/admin.py:225
-msgid "The desired language or `none`"
+#: cogs/admin.py:154
+msgid ""
+"Sets whether simple level/death messages will be used instead of random custom messages.\n"
+"\n"
+"            When enabled, all level up and death messages will be the same, a simple and short message."
 msgstr ""
 
-#: cogs/admin.py:226
-msgid "language/none"
-msgstr ""
-
-#: cogs/admin.py:228
-msgid "Language is currently not supported."
-msgstr ""
-
-#: cogs/admin.py:229
+#: cogs/admin.py:161
 #, python-brace-format
-msgid "Do you want to set the language to `{language}`?"
+msgid "{yes_no} (Global default)"
 msgstr ""
 
-#: cogs/admin.py:237
-#, python-brace-format
-msgid "This server messages will now be in {language}"
+#: cogs/admin.py:168
+msgid "I will use simple messages from now on."
 msgstr ""
 
-#: cogs/admin.py:255 cogs/admin.py:297 cogs/admin.py:398
-msgid "A channel's name or id, or `none`."
+#: cogs/admin.py:171
+msgid "I will use randomized custom messages from now on."
 msgstr ""
 
-#: cogs/admin.py:256 cogs/admin.py:298 cogs/admin.py:399
-msgid "channel/none"
+#: cogs/admin.py:180
+msgid ""
+"Changes the channel where upcoming events are announced.\n"
+"    \n"
+"            This is where announcements of events about to happen will be made.\n"
+"            If the assigned channel is deleted or forbidden, the top channel will be used.\n"
+"    \n"
+"            If this is disabled, users that subscribed to the event will still receive notifications via PM.\n"
+"            "
 msgstr ""
 
-#: cogs/admin.py:275
-#, python-brace-format
-msgid "`{default_level}` (global default)"
+#: cogs/admin.py:195
+msgid "Event announcements are already disabled."
 msgstr ""
 
-#: cogs/admin.py:278
-msgid "Any number greater than 1"
+#: cogs/admin.py:197
+msgid "Are you sure you want to disable events announcements?"
 msgstr ""
 
-#: cogs/admin.py:278
-msgid "level"
-msgstr ""
-
-#: cogs/admin.py:280
-msgid "Level can't be lower than 1."
-msgstr ""
-
-#: cogs/admin.py:283
-#, python-brace-format
-msgid "Minimum announce level has been set to `{level}`."
-msgstr ""
-
-#: cogs/admin.py:319
-msgid "True (Global default)"
-msgstr ""
-
-#: cogs/admin.py:325
-msgid "I will announce news ticker along news and featured articles from now on."
-msgstr ""
-
-#: cogs/admin.py:328
-msgid "I won't announce news ticker from now on."
-msgstr ""
-
-#: cogs/admin.py:353
-#, python-brace-format
-msgid "{prefixes} and mentions"
-msgstr ""
-
-#: cogs/admin.py:354
-msgid "Mentions only"
-msgstr ""
-
-#: cogs/admin.py:355 cogs/admin.py:453
-msgid "Any text"
-msgstr ""
-
-#: cogs/admin.py:355
-msgid "prefix"
-msgstr ""
-
-#: cogs/admin.py:362
-#, python-brace-format
-msgid "Do you want to remove `{prefix}` as a prefix?"
-msgstr ""
-
-#: cogs/admin.py:366
-msgid "You can't have more than 5 command prefixes."
-msgstr ""
-
-#: cogs/admin.py:368
-#, python-brace-format
-msgid "Do you want to add `{prefix}` as a prefix?"
-msgstr ""
-
-#: cogs/admin.py:376
-#, python-brace-format
-msgid "The prefix `{prefix}` was removed."
-msgstr ""
-
-#: cogs/admin.py:379
-#, python-brace-format
-msgid "The prefix `{prefix}` was added."
-msgstr ""
-
-#: cogs/admin.py:425
-msgid "I will show users on level up and death messages from now on."
-msgstr ""
-
-#: cogs/admin.py:428
-msgid "I won't show users on level up and death messages from now on."
-msgstr ""
-
-#: cogs/admin.py:453
-msgid "message/disable"
-msgstr ""
-
-#: cogs/admin.py:455
-msgid "disable"
-msgstr ""
-
-#: cogs/admin.py:457
-msgid "Welcome messages are already disabled."
-msgstr ""
-
-#: cogs/admin.py:459
-msgid "Are you sure you want to disable welcome messages?"
-msgstr ""
-
-#: cogs/admin.py:464
-msgid "This message is too long! {length:,}/1000 characters."
-msgstr ""
-
-#: cogs/admin.py:474
-#, python-brace-format
-msgid "Unknown keyword {key}."
-msgstr ""
-
-#: cogs/admin.py:482
-msgid "The welcome message has been disabled."
-msgstr ""
-
-#: cogs/admin.py:484
-msgid "Welcome message updated."
-msgstr ""
-
-#: cogs/admin.py:502
-msgid "A channel's name or ID, or `private`."
-msgstr ""
-
-#: cogs/admin.py:503
-msgid "channel/private"
-msgstr ""
-
-#: cogs/admin.py:505
-msgid "private"
-msgstr ""
-
-#: cogs/admin.py:507
-msgid "Welcome messages are already private."
-msgstr ""
-
-#: cogs/admin.py:509
-msgid "Are you sure you want to make welcome messages private?"
-msgstr ""
-
-#: cogs/admin.py:519
+#: cogs/admin.py:207 cogs/admin.py:541
 #, python-brace-format
 msgid "I don't have permission to use {channel}."
 msgstr ""
 
-#: cogs/admin.py:521
+#: cogs/admin.py:209
+#, python-brace-format
+msgid "Are you sure you want {channel} as the new events channel?"
+msgstr ""
+
+#: cogs/admin.py:219
+msgid "The events channel has been disabled."
+msgstr ""
+
+#: cogs/admin.py:221
+#, python-brace-format
+msgid "{channel} will now be used for events."
+msgstr ""
+
+#: cogs/admin.py:230
+msgid "The desired language or `none`"
+msgstr ""
+
+#: cogs/admin.py:231
+msgid "language/none"
+msgstr ""
+
+#: cogs/admin.py:233
+msgid "Language is currently not supported."
+msgstr ""
+
+#: cogs/admin.py:234
+#, python-brace-format
+msgid "Do you want to set the language to `{language}`?"
+msgstr ""
+
+#: cogs/admin.py:242
+#, python-brace-format
+msgid "This server messages will now be in {language}"
+msgstr ""
+
+#: cogs/admin.py:249
+msgid ""
+"Changes the channel where levelup and deaths are announced.\n"
+"    \n"
+"            This is where all level ups and deaths of registered characters will be announced.\n"
+"            By default, the highest channel on the list where the bot can send messages will be used.\n"
+"            If the assigned channel is deleted or forbidden, the top channel will be used again.\n"
+"    \n"
+"            If this is disabled, Announcements won't be made, but there will still be tracking."
+msgstr ""
+
+#: cogs/admin.py:260 cogs/admin.py:307 cogs/admin.py:414
+msgid "A channel's name or id, or `none`."
+msgstr ""
+
+#: cogs/admin.py:261 cogs/admin.py:308 cogs/admin.py:415
+msgid "channel/none"
+msgstr ""
+
+#: cogs/admin.py:275
+msgid ""
+"Sets the minimum level for death and level up announcements.\n"
+"    \n"
+"            Level ups and deaths under the minimum level are still and can be seen by checking the character directly.\n"
+"            "
+msgstr ""
+
+#: cogs/admin.py:283
+#, python-brace-format
+msgid "`{default_level}` (global default)"
+msgstr ""
+
+#: cogs/admin.py:286
+msgid "Any number greater than 1"
+msgstr ""
+
+#: cogs/admin.py:286
+msgid "level"
+msgstr ""
+
+#: cogs/admin.py:288
+msgid "Level can't be lower than 1."
+msgstr ""
+
+#: cogs/admin.py:291
+#, python-brace-format
+msgid "Minimum announce level has been set to `{level}`."
+msgstr ""
+
+#: cogs/admin.py:298
+msgid ""
+"Changes the channel where Tibia news are announced.\n"
+"    \n"
+"            This is where all news and articles posted in Tibia.com will be announced.\n"
+"            If the assigned channel is deleted or forbidden, the top channel will be used.\n"
+"            "
+msgstr ""
+
+#: cogs/admin.py:322
+msgid ""
+"Enables or disables news tickers from Tibia.com in this server.\n"
+"\n"
+"            Disabling this will make NabBot only announce news and featured articles.\n"
+"            For news tickers to be announced, news announcement must be enabled.\n"
+"            "
+msgstr ""
+
+#: cogs/admin.py:331
+msgid "True (Global default)"
+msgstr ""
+
+#: cogs/admin.py:337
+msgid "I will announce news ticker along news and featured articles from now on."
+msgstr ""
+
+#: cogs/admin.py:340
+msgid "I won't announce news ticker from now on."
+msgstr ""
+
+#: cogs/admin.py:349
+msgid ""
+"Changes the command prefixes for this server.\n"
+"\n"
+"            The prefixes are the characters that go before a command's name, in order for the bot to recognize the command.\n"
+"            A maximum of 5 prefixes can be set per server.\n"
+"        \n"
+"            To remove an existing prefix, use it as a parameter.\n"
+"        \n"
+"            Prefixes are case-insensitive, and they will always be saved as lowercase.\n"
+"        \n"
+"            If you want to have a space at the end, such as: `nabbot help`, you have to use double quotes \"nabbot \".\n"
+"            Multiple words also require using quotes.\n"
+"        \n"
+"            Mentioning the bot is always a valid command and can't be changed."
+msgstr ""
+
+#: cogs/admin.py:367
+#, python-brace-format
+msgid "{prefixes} and mentions"
+msgstr ""
+
+#: cogs/admin.py:368
+msgid "Mentions only"
+msgstr ""
+
+#: cogs/admin.py:369 cogs/admin.py:473
+msgid "Any text"
+msgstr ""
+
+#: cogs/admin.py:369
+msgid "prefix"
+msgstr ""
+
+#: cogs/admin.py:376
+#, python-brace-format
+msgid "Do you want to remove `{prefix}` as a prefix?"
+msgstr ""
+
+#: cogs/admin.py:380
+msgid "You can't have more than 5 command prefixes."
+msgstr ""
+
+#: cogs/admin.py:382
+#, python-brace-format
+msgid "Do you want to add `{prefix}` as a prefix?"
+msgstr ""
+
+#: cogs/admin.py:390
+#, python-brace-format
+msgid "The prefix `{prefix}` was removed."
+msgstr ""
+
+#: cogs/admin.py:393
+#, python-brace-format
+msgid "The prefix `{prefix}` was added."
+msgstr ""
+
+#: cogs/admin.py:407
+msgid ""
+"Changes the channel used as the server log.\n"
+"\n"
+"            In this channel, character registrations and server changes are announced."
+msgstr ""
+
+#: cogs/admin.py:429
+msgid ""
+"Sets whether level/death messages should show the user the character is registered to.\n"
+"\n"
+"            When enabled, level up and death messages will show a tag with the character's owner."
+msgstr ""
+
+#: cogs/admin.py:443
+msgid "I will show users on level up and death messages from now on."
+msgstr ""
+
+#: cogs/admin.py:446
+msgid "I won't show users on level up and death messages from now on."
+msgstr ""
+
+#: cogs/admin.py:455
+#, python-brace-format
+msgid ""
+"Changes the message new members receive when joining.\n"
+"\n"
+"            This is initially disabled.\n"
+"    \n"
+"            You can use formatting to show dynamic values:\n"
+"            - {server} -> The server's name.\n"
+"            - {server.owner} -> The server's owner name\n"
+"            - {server.owner.mention} -> Mention to the server's owner.\n"
+"            - {owner} -> The name of the server owner\n"
+"            - {owner.mention} -> Mention the server owner.\n"
+"            - {user} -> The name of the user that joined.\n"
+"            - {user.mention} -> Mention the user that joined.\n"
+"            - {bot} -> The name of the bot\n"
+"    \n"
+"            Be sure to change the welcome channel too."
+msgstr ""
+
+#: cogs/admin.py:473
+msgid "message/disable"
+msgstr ""
+
+#: cogs/admin.py:475
+msgid "disable"
+msgstr ""
+
+#: cogs/admin.py:477
+msgid "Welcome messages are already disabled."
+msgstr ""
+
+#: cogs/admin.py:479
+msgid "Are you sure you want to disable welcome messages?"
+msgstr ""
+
+#: cogs/admin.py:484
+msgid "This message is too long! {length:,}/1000 characters."
+msgstr ""
+
+#: cogs/admin.py:494
+#, python-brace-format
+msgid "Unknown keyword {key}."
+msgstr ""
+
+#: cogs/admin.py:502
+msgid "The welcome message has been disabled."
+msgstr ""
+
+#: cogs/admin.py:504
+msgid "Welcome message updated."
+msgstr ""
+
+#: cogs/admin.py:511
+msgid ""
+"Changes the channel where new members are welcomed.\n"
+"\n"
+"            A welcome message must be set for this setting to work.\n"
+"            If the channel becomes unavailable, private messages will be used.\n"
+"    \n"
+"            Note that private messages are not reliable since new users can have them disabled before joining.\n"
+"            To disable this, you must disable welcome messages using `settings welcome`.\n"
+"            "
+msgstr ""
+
+#: cogs/admin.py:524
+msgid "A channel's name or ID, or `private`."
+msgstr ""
+
+#: cogs/admin.py:525
+msgid "channel/private"
+msgstr ""
+
+#: cogs/admin.py:527
+msgid "private"
+msgstr ""
+
+#: cogs/admin.py:529
+msgid "Welcome messages are already private."
+msgstr ""
+
+#: cogs/admin.py:531
+msgid "Are you sure you want to make welcome messages private?"
+msgstr ""
+
+#: cogs/admin.py:543
 #, python-brace-format
 msgid "Are you sure you want {channel} as the new welcome channel?"
 msgstr ""
 
-#: cogs/admin.py:531
+#: cogs/admin.py:553
 msgid "Welcome messages will be sent privately."
 msgstr ""
 
-#: cogs/admin.py:533
+#: cogs/admin.py:555
 #, python-brace-format
 msgid "{channel} will now be used for welcome messages."
 msgstr ""
 
-#: cogs/admin.py:544
+#: cogs/admin.py:562
+msgid ""
+"Changes the world this Discord server tracks.\n"
+"\n"
+"            The tracked world is the Tibia world that this Discord server is following.\n"
+"            Only characters in that world will be registered."
+msgstr ""
+
+#: cogs/admin.py:568
 msgid "Any Tibia world or `none` to disable."
 msgstr ""
 
-#: cogs/admin.py:544
+#: cogs/admin.py:568
 msgid "world/none"
 msgstr ""
 
-#: cogs/admin.py:549
+#: cogs/admin.py:573
 msgid "This server is already not tracking any world."
 msgstr ""
 
-#: cogs/admin.py:551
+#: cogs/admin.py:575
 #, python-brace-format
 msgid "Are you sure you want to unassign **{world}** from this server?"
 msgstr ""
 
-#: cogs/admin.py:556
+#: cogs/admin.py:580
 msgid "There's no world with that name."
 msgstr ""
 
-#: cogs/admin.py:558
+#: cogs/admin.py:582
 #, python-brace-format
 msgid "Are you sure you want to assign **{w}** to this server?"
 msgstr ""
 
-#: cogs/admin.py:570
+#: cogs/admin.py:594
 msgid "This server is no longer tracking any world."
 msgstr ""
 
-#: cogs/admin.py:572
+#: cogs/admin.py:596
 #, python-brace-format
 msgid "This server is now tracking **{world}**"
 msgstr ""
 
-#: cogs/admin.py:589
+#: cogs/admin.py:613
 #, python-brace-format
 msgid "The {name} channel was disabled."
 msgstr ""
 
-#: cogs/admin.py:590
+#: cogs/admin.py:614
 #, python-brace-format
 msgid "{name} disabled by {author}."
 msgstr ""
 
-#: cogs/admin.py:596
+#: cogs/admin.py:620
 #, python-brace-format
 msgid "{name} updated by {author}."
 msgstr ""
 
 #. 0 is the new channel, 1 is the type of channel
-#: cogs/admin.py:610
+#: cogs/admin.py:634
 #, python-brace-format
 msgid "{0} will now be used as the {1}."
 msgstr ""
 
-#: cogs/admin.py:613
+#: cogs/admin.py:637
 #, python-brace-format
 msgid "I was not able to create a webhook for channel {0}"
 msgstr ""
 
-#: cogs/admin.py:630
+#: cogs/admin.py:654
 msgid "Private Messages"
 msgstr ""
 
-#: cogs/admin.py:632
+#: cogs/admin.py:656
 msgid "Disabled."
 msgstr ""
 
-#: cogs/admin.py:634 cogs/admin.py:656
+#: cogs/admin.py:658 cogs/admin.py:680
 msgid "None."
 msgstr ""
 
-#: cogs/admin.py:636
+#: cogs/admin.py:660
 msgid "None, previous channel was deleted."
 msgstr ""
 
-#: cogs/admin.py:638
+#: cogs/admin.py:662
 #, python-brace-format
 msgid "{channel}, but I can't use the channel."
 msgstr ""
 
-#: cogs/admin.py:643
+#: cogs/admin.py:667
 msgid " I will send direct messages meanwhile."
 msgstr ""
 
-#: cogs/admin.py:647
+#: cogs/admin.py:671
 msgid " I have no channel to use."
 msgstr ""
 
-#: cogs/admin.py:649
+#: cogs/admin.py:673
 #, python-brace-format
 msgid " I will use {channel} meanwhile."
 msgstr ""
 
-#: cogs/admin.py:663
+#: cogs/admin.py:687
 msgid "None, webhook was deleted by a user."
 msgstr ""
 
-#: cogs/admin.py:665
+#: cogs/admin.py:689
 msgid "I'm not able to get the current value, please try again later."
-msgstr ""
-
-#: cogs/admin.py:674
-#, python-brace-format
-msgid "{emoji} {title} - Settings"
-msgstr ""
-
-#: cogs/admin.py:676
-msgid "📄 Current value"
-msgstr ""
-
-#: cogs/admin.py:677
-msgid "📝 Edit"
-msgstr ""
-
-#: cogs/admin.py:679
-msgid "☑ Accepted values"
-msgstr ""
-
-#: cogs/admin.py:681
-#, python-brace-format
-msgid "Use \"{prefix}help {command} {subcommand} for more info"
 msgstr ""
 
 #: cogs/admin.py:698
 #, python-brace-format
+msgid "{emoji} {title} - Settings"
+msgstr ""
+
+#: cogs/admin.py:700
+msgid "📄 Current value"
+msgstr ""
+
+#: cogs/admin.py:701
+msgid "📝 Edit"
+msgstr ""
+
+#: cogs/admin.py:703
+msgid "☑ Accepted values"
+msgstr ""
+
+#: cogs/admin.py:705
+#, python-brace-format
+msgid "Use \"{prefix}help {command} {subcommand} for more info"
+msgstr ""
+
+#: cogs/admin.py:722
+#, python-brace-format
 msgid "There's no {name} channel set."
 msgstr ""
 
-#: cogs/admin.py:699
+#: cogs/admin.py:723
 #, python-brace-format
 msgid "Are you sure you want to disable the set {name}?"
 msgstr ""
 
-#: cogs/admin.py:708
+#: cogs/admin.py:732
 #, python-brace-format
 msgid "I need `Manage Webhooks` permissions to assign a {name}."
 msgstr ""
 
-#: cogs/admin.py:711
+#: cogs/admin.py:735
 #, python-brace-format
 msgid "Are you sure you want {new_channel} as the new {name}?"
 msgstr ""
 
-#: cogs/admin.py:722
+#: cogs/admin.py:746
 msgid "Yes"
 msgstr ""
 
-#: cogs/admin.py:722
+#: cogs/admin.py:746
 msgid "No"
 msgstr ""
 
