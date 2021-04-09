@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-09 08:48-0700\n"
-"PO-Revision-Date: 2021-04-09 16:04\n"
+"PO-Revision-Date: 2021-04-09 21:50\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -71,19 +71,19 @@ msgstr "Mostrar usuario en anuncios"
 
 #: cogs/admin.py:47
 msgid "I couldn't find that channel, are you sure it exists?"
-msgstr ""
+msgstr "No pude encontrar ese canal, ¿estás seguro de que existe?"
 
 #: cogs/admin.py:61
 msgid "You can't remove this prefix."
-msgstr ""
+msgstr "No puedes eliminar este prefijo."
 
 #: cogs/admin.py:63
 msgid "The prefix can't be longer than 20 characters."
-msgstr ""
+msgstr "El prefijo no puede tener más de 20 caracteres."
 
 #: cogs/admin.py:71
 msgid "Settings can't be modified on private messages."
-msgstr ""
+msgstr "La configuración no se puede modificar mediante mensajes privados."
 
 #: cogs/admin.py:88
 msgid "Checks the channel's permissions.\n\n"
