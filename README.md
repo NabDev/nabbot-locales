@@ -9,9 +9,6 @@ Locales for NabBot multilanguage feature.
     ```
 2. Punctuation should be the same on the translation string, do not add or remove periods at the end or remove spaces before the string. For example:
    ```po
-    msgid "Current value:"
-    msgstr "Valor actual:"
-   
     msgid " I will send direct messages meanwhile."
     msgstr " seguire usando mensajes directos por lo pronto."
     ```
