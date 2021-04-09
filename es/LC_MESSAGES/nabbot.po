@@ -1,18 +1,21 @@
-# Spanish translation for NabBot
-# Copyright (C) 2021 Allan Galarza
-# Allan Galarza <allan.galarza@gmail.com>, 2021.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-09 08:48-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Allan Galarza <allan.galarza@gmail.com>\n"
-"Language: es\n"
+"PO-Revision-Date: 2021-04-09 16:04\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: nabbot\n"
+"X-Crowdin-Project-ID: 450322\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /main/nabbot.pot\n"
+"X-Crowdin-File-ID: 6\n"
 
 #: cogs/admin.py:32
 msgid "World"
@@ -83,11 +86,8 @@ msgid "Settings can't be modified on private messages."
 msgstr ""
 
 #: cogs/admin.py:88
-msgid ""
-"Checks the channel's permissions.\n"
-"\n"
-"            Makes sure that the bot has all the required permissions to work "
-"properly.\n"
+msgid "Checks the channel's permissions.\n\n"
+"            Makes sure that the bot has all the required permissions to work properly.\n"
 "            If no channel is specified, the current one is checked."
 msgstr ""
 
@@ -98,8 +98,7 @@ msgstr "**Revisando {channel}:**"
 
 #: cogs/admin.py:98
 #, python-brace-format
-msgid ""
-"\n"
+msgid "\n"
 "{check} I have `Administrator` permission."
 msgstr ""
 
@@ -140,9 +139,7 @@ msgid "I only need this to create watchlists."
 msgstr ""
 
 #: cogs/admin.py:113
-msgid ""
-"I need this to create server logs, news and levels channels, as well as "
-"watchlist feeds."
+msgid "I need this to create server logs, news and levels channels, as well as watchlist feeds."
 msgstr ""
 
 #: cogs/admin.py:115
@@ -152,19 +149,16 @@ msgstr ""
 #. Explanation for each missing permission
 #: cogs/admin.py:125
 #, python-brace-format
-msgid ""
-"\n"
+msgid "\n"
 "Missing `{perm_name}` permission\n"
 "\t{icon} {explain}"
 msgstr ""
 
 #: cogs/admin.py:129
 #, python-brace-format
-msgid ""
-"\n"
+msgid "\n"
 "{check} All permissions are correct!"
-msgstr ""
-"\n"
+msgstr "\n"
 "{check} ¡Todos los permisos son correctos!"
 
 #: cogs/admin.py:139
@@ -176,12 +170,8 @@ msgid "Use the subcommands to change the settings for this server."
 msgstr ""
 
 #: cogs/admin.py:154
-msgid ""
-"Sets whether simple level/death messages will be used instead of random "
-"custom messages.\n"
-"\n"
-"            When enabled, all level up and death messages will be the same, "
-"a simple and short message."
+msgid "Sets whether simple level/death messages will be used instead of random custom messages.\n\n"
+"            When enabled, all level up and death messages will be the same, a simple and short message."
 msgstr ""
 
 #: cogs/admin.py:161
@@ -198,16 +188,12 @@ msgid "I will use randomized custom messages from now on."
 msgstr ""
 
 #: cogs/admin.py:180
-msgid ""
-"Changes the channel where upcoming events are announced.\n"
+msgid "Changes the channel where upcoming events are announced.\n"
 "    \n"
-"            This is where announcements of events about to happen will be "
-"made.\n"
-"            If the assigned channel is deleted or forbidden, the top channel "
-"will be used.\n"
+"            This is where announcements of events about to happen will be made.\n"
+"            If the assigned channel is deleted or forbidden, the top channel will be used.\n"
 "    \n"
-"            If this is disabled, users that subscribed to the event will "
-"still receive notifications via PM.\n"
+"            If this is disabled, users that subscribed to the event will still receive notifications via PM.\n"
 "            "
 msgstr ""
 
@@ -261,18 +247,13 @@ msgid "This server messages will now be in {language}"
 msgstr ""
 
 #: cogs/admin.py:249
-msgid ""
-"Changes the channel where levelup and deaths are announced.\n"
+msgid "Changes the channel where levelup and deaths are announced.\n"
 "    \n"
-"            This is where all level ups and deaths of registered characters "
-"will be announced.\n"
-"            By default, the highest channel on the list where the bot can "
-"send messages will be used.\n"
-"            If the assigned channel is deleted or forbidden, the top channel "
-"will be used again.\n"
+"            This is where all level ups and deaths of registered characters will be announced.\n"
+"            By default, the highest channel on the list where the bot can send messages will be used.\n"
+"            If the assigned channel is deleted or forbidden, the top channel will be used again.\n"
 "    \n"
-"            If this is disabled, Announcements won't be made, but there will "
-"still be tracking."
+"            If this is disabled, Announcements won't be made, but there will still be tracking."
 msgstr ""
 
 #: cogs/admin.py:260 cogs/admin.py:307 cogs/admin.py:414
@@ -284,11 +265,9 @@ msgid "channel/none"
 msgstr ""
 
 #: cogs/admin.py:275
-msgid ""
-"Sets the minimum level for death and level up announcements.\n"
+msgid "Sets the minimum level for death and level up announcements.\n"
 "    \n"
-"            Level ups and deaths under the minimum level are still and can "
-"be seen by checking the character directly.\n"
+"            Level ups and deaths under the minimum level are still and can be seen by checking the character directly.\n"
 "            "
 msgstr ""
 
@@ -315,24 +294,17 @@ msgid "Minimum announce level has been set to `{level}`."
 msgstr ""
 
 #: cogs/admin.py:298
-msgid ""
-"Changes the channel where Tibia news are announced.\n"
+msgid "Changes the channel where Tibia news are announced.\n"
 "    \n"
-"            This is where all news and articles posted in Tibia.com will be "
-"announced.\n"
-"            If the assigned channel is deleted or forbidden, the top channel "
-"will be used.\n"
+"            This is where all news and articles posted in Tibia.com will be announced.\n"
+"            If the assigned channel is deleted or forbidden, the top channel will be used.\n"
 "            "
 msgstr ""
 
 #: cogs/admin.py:322
-msgid ""
-"Enables or disables news tickers from Tibia.com in this server.\n"
-"\n"
-"            Disabling this will make NabBot only announce news and featured "
-"articles.\n"
-"            For news tickers to be announced, news announcement must be "
-"enabled.\n"
+msgid "Enables or disables news tickers from Tibia.com in this server.\n\n"
+"            Disabling this will make NabBot only announce news and featured articles.\n"
+"            For news tickers to be announced, news announcement must be enabled.\n"
 "            "
 msgstr ""
 
@@ -341,8 +313,7 @@ msgid "True (Global default)"
 msgstr ""
 
 #: cogs/admin.py:337
-msgid ""
-"I will announce news ticker along news and featured articles from now on."
+msgid "I will announce news ticker along news and featured articles from now on."
 msgstr ""
 
 #: cogs/admin.py:340
@@ -350,24 +321,18 @@ msgid "I won't announce news ticker from now on."
 msgstr ""
 
 #: cogs/admin.py:349
-msgid ""
-"Changes the command prefixes for this server.\n"
-"\n"
-"            The prefixes are the characters that go before a command's name, "
-"in order for the bot to recognize the command.\n"
+msgid "Changes the command prefixes for this server.\n\n"
+"            The prefixes are the characters that go before a command's name, in order for the bot to recognize the command.\n"
 "            A maximum of 5 prefixes can be set per server.\n"
 "        \n"
 "            To remove an existing prefix, use it as a parameter.\n"
 "        \n"
-"            Prefixes are case-insensitive, and they will always be saved as "
-"lowercase.\n"
+"            Prefixes are case-insensitive, and they will always be saved as lowercase.\n"
 "        \n"
-"            If you want to have a space at the end, such as: `nabbot help`, "
-"you have to use double quotes \"nabbot \".\n"
+"            If you want to have a space at the end, such as: `nabbot help`, you have to use double quotes \"nabbot \".\n"
 "            Multiple words also require using quotes.\n"
 "        \n"
-"            Mentioning the bot is always a valid command and can't be "
-"changed."
+"            Mentioning the bot is always a valid command and can't be changed."
 msgstr ""
 
 #: cogs/admin.py:367
@@ -412,20 +377,13 @@ msgid "The prefix `{prefix}` was added."
 msgstr ""
 
 #: cogs/admin.py:407
-msgid ""
-"Changes the channel used as the server log.\n"
-"\n"
-"            In this channel, character registrations and server changes are "
-"announced."
+msgid "Changes the channel used as the server log.\n\n"
+"            In this channel, character registrations and server changes are announced."
 msgstr ""
 
 #: cogs/admin.py:429
-msgid ""
-"Sets whether level/death messages should show the user the character is "
-"registered to.\n"
-"\n"
-"            When enabled, level up and death messages will show a tag with "
-"the character's owner."
+msgid "Sets whether level/death messages should show the user the character is registered to.\n\n"
+"            When enabled, level up and death messages will show a tag with the character's owner."
 msgstr ""
 
 #: cogs/admin.py:443
@@ -438,9 +396,7 @@ msgstr ""
 
 #: cogs/admin.py:455
 #, python-brace-format
-msgid ""
-"Changes the message new members receive when joining.\n"
-"\n"
+msgid "Changes the message new members receive when joining.\n\n"
 "            This is initially disabled.\n"
 "    \n"
 "            You can use formatting to show dynamic values:\n"
@@ -490,17 +446,12 @@ msgid "Welcome message updated."
 msgstr ""
 
 #: cogs/admin.py:511
-msgid ""
-"Changes the channel where new members are welcomed.\n"
-"\n"
+msgid "Changes the channel where new members are welcomed.\n\n"
 "            A welcome message must be set for this setting to work.\n"
-"            If the channel becomes unavailable, private messages will be "
-"used.\n"
+"            If the channel becomes unavailable, private messages will be used.\n"
 "    \n"
-"            Note that private messages are not reliable since new users can "
-"have them disabled before joining.\n"
-"            To disable this, you must disable welcome messages using "
-"`settings welcome`.\n"
+"            Note that private messages are not reliable since new users can have them disabled before joining.\n"
+"            To disable this, you must disable welcome messages using `settings welcome`.\n"
 "            "
 msgstr ""
 
@@ -539,11 +490,8 @@ msgid "{channel} will now be used for welcome messages."
 msgstr ""
 
 #: cogs/admin.py:562
-msgid ""
-"Changes the world this Discord server tracks.\n"
-"\n"
-"            The tracked world is the Tibia world that this Discord server is "
-"following.\n"
+msgid "Changes the world this Discord server tracks.\n\n"
+"            The tracked world is the Tibia world that this Discord server is following.\n"
 "            Only characters in that world will be registered."
 msgstr ""
 
@@ -719,3 +667,4 @@ msgstr ""
 #: utils/constants.py:29
 msgid "No changes will be done then."
 msgstr ""
+
