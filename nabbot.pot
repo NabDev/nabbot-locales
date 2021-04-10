@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-10 11:37-0700\n"
+"POT-Creation-Date: 2021-04-10 12:12-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1009,6 +1009,125 @@ msgstr ""
 #: cogs/calculators.py:710
 #, python-brace-format
 msgid "Character **{name}** doesn't exist!"
+msgstr ""
+
+#: cogs/core.py:262
+#, python-brace-format
+msgid "You already have these characters in {world} registered: *{characters}*"
+msgstr ""
+
+#: cogs/core.py:315
+msgid "Sorry, `Embed Links` permission is required for this command."
+msgstr ""
+
+#: cogs/core.py:317
+#, python-brace-format
+msgid "Command aborted. {error}"
+msgstr ""
+
+#: cogs/core.py:319
+#, python-brace-format
+msgid ""
+"You must be in the official server to validate your status.\n"
+"<{invite_url}>"
+msgstr ""
+
+#: cogs/core.py:322
+#, python-brace-format
+msgid ""
+"You don't have access to premium features. To get premium benefits become a patron:\n"
+"<{patreon_url}>.\n"
+"*If you already joined, make sure your Discord account is linked to Patreon.*"
+msgstr ""
+
+#: cogs/core.py:340
+#, python-brace-format
+msgid "Parameter `{param}` must be numeric."
+msgstr ""
+
+#: cogs/core.py:341
+#, python-brace-format
+msgid ""
+"{error}\n"
+"Try `{prefix}help {command}` for more info."
+msgstr ""
+
+#: cogs/core.py:353
+msgid "Tibia.com is currently down for maintenance."
+msgstr ""
+
+#: cogs/core.py:356
+msgid "I'm having network issues right now. Please try again in a moment."
+msgstr ""
+
+#: cogs/core.py:358
+#, python-brace-format
+msgid "Too many registered characters ({count}/{limit})."
+msgstr ""
+
+#: cogs/core.py:362
+msgid "Sorry, the message was too long to send."
+msgstr ""
+
+#: cogs/core.py:366
+msgid "Support Server"
+msgstr ""
+
+#: cogs/core.py:368
+msgid "Please report this bug in the support server."
+msgstr ""
+
+#. Content
+#: cogs/core.py:381
+#, python-brace-format
+msgid ""
+"Hi, I've been added to this server. Check out our **getting started guide**\n"
+"<{guide_url}>\n"
+"\n"
+"Some things you should know:\n"
+"‣ My command prefix is: `{prefix}` (it is customizable)\n"
+"‣ You can see all my commands with: `{prefix}help` or `{prefix}commands`\n"
+"‣ You can configure me using: `{prefix}settings`\n"
+"‣ You can set a world for me to track by using `{prefix}settings world`\n"
+"‣ Set the channel for level up and deaths using `{prefix}settings levelschannel`\n"
+"‣ People can register their characters using `{prefix}im characterName`\n"
+"‣ To set a logging channel, use `{prefix}settings serverlog`\n"
+"‣ If you need help, join my support server: **<{url_support}>**\n"
+"‣ For more information and links in: `{prefix}about`"
+msgstr ""
+
+#: cogs/core.py:398
+msgid "NabBot has joined the server"
+msgstr ""
+
+#: cogs/core.py:400
+#, python-brace-format
+msgid ""
+"Hi, I've been added to this server. Check out our **[getting started guide]({guide_url})**\n"
+"\n"
+"Some things you should know:\n"
+"‣ You can see all my commands with: `{prefix}help` or `{prefix}commands`\n"
+"‣ You can configure me using: `{prefix}settings`\n"
+"‣ You can set a world for me to track by using `{prefix}settings world`\n"
+"‣ Set the channel for level up and deaths using `{prefix}settings levelschannel`\n"
+"‣ People can register their characters using `{prefix}im characterName`\n"
+"‣ To set a logging channel, use `{prefix}settings serverlog`\n"
+"‣ My command prefix is: `{prefix}` (it is customizable)\n"
+"‣ If you need help, join my support server: **<{url_support}>**\n"
+"‣ For more information and links in: `{prefix}about`"
+msgstr ""
+
+#: cogs/core.py:415
+msgid "Links"
+msgstr ""
+
+#: cogs/core.py:416
+#, python-brace-format
+msgid "[Invite NabBot]({web}) | [Docs]({docs}) | [Donate]({donate}) | [Patreon]({patreon})"
+msgstr ""
+
+#: cogs/core.py:418
+msgid "NabBot is now in {count:,} Discord servers"
 msgstr ""
 
 #: utils/constants.py:24
