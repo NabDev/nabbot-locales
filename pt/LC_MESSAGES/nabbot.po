@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-10 11:37-0700\n"
-"PO-Revision-Date: 2021-04-10 18:38\n"
+"POT-Creation-Date: 2021-04-10 12:42-0700\n"
+"PO-Revision-Date: 2021-04-10 19:44\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -965,6 +965,286 @@ msgstr ""
 #: cogs/calculators.py:710
 #, python-brace-format
 msgid "Character **{name}** doesn't exist!"
+msgstr ""
+
+#: cogs/core.py:262
+#, python-brace-format
+msgid "You already have these characters in {world} registered: *{characters}*"
+msgstr ""
+
+#: cogs/core.py:315
+msgid "Sorry, `Embed Links` permission is required for this command."
+msgstr ""
+
+#: cogs/core.py:317
+#, python-brace-format
+msgid "Command aborted. {error}"
+msgstr ""
+
+#: cogs/core.py:319
+#, python-brace-format
+msgid "You must be in the official server to validate your status.\n"
+"<{invite_url}>"
+msgstr ""
+
+#: cogs/core.py:322
+#, python-brace-format
+msgid "You don't have access to premium features. To get premium benefits become a patron:\n"
+"<{patreon_url}>.\n"
+"*If you already joined, make sure your Discord account is linked to Patreon.*"
+msgstr ""
+
+#: cogs/core.py:340
+#, python-brace-format
+msgid "Parameter `{param}` must be numeric."
+msgstr ""
+
+#: cogs/core.py:341
+#, python-brace-format
+msgid "{error}\n"
+"Try `{prefix}help {command}` for more info."
+msgstr ""
+
+#: cogs/core.py:353
+msgid "Tibia.com is currently down for maintenance."
+msgstr ""
+
+#: cogs/core.py:356
+msgid "I'm having network issues right now. Please try again in a moment."
+msgstr ""
+
+#: cogs/core.py:358
+#, python-brace-format
+msgid "Too many registered characters ({count}/{limit})."
+msgstr ""
+
+#: cogs/core.py:362
+msgid "Sorry, the message was too long to send."
+msgstr ""
+
+#: cogs/core.py:366
+msgid "Support Server"
+msgstr ""
+
+#: cogs/core.py:368
+msgid "Please report this bug in the support server."
+msgstr ""
+
+#. Content
+#: cogs/core.py:381
+#, python-brace-format
+msgid "Hi, I've been added to this server. Check out our **getting started guide**\n"
+"<{guide_url}>\n\n"
+"Some things you should know:\n"
+"‣ My command prefix is: `{prefix}` (it is customizable)\n"
+"‣ You can see all my commands with: `{prefix}help` or `{prefix}commands`\n"
+"‣ You can configure me using: `{prefix}settings`\n"
+"‣ You can set a world for me to track by using `{prefix}settings world`\n"
+"‣ Set the channel for level up and deaths using `{prefix}settings levelschannel`\n"
+"‣ People can register their characters using `{prefix}im characterName`\n"
+"‣ To set a logging channel, use `{prefix}settings serverlog`\n"
+"‣ If you need help, join my support server: **<{url_support}>**\n"
+"‣ For more information and links in: `{prefix}about`"
+msgstr ""
+
+#: cogs/core.py:398
+msgid "NabBot has joined the server"
+msgstr ""
+
+#: cogs/core.py:400
+#, python-brace-format
+msgid "Hi, I've been added to this server. Check out our **[getting started guide]({guide_url})**\n\n"
+"Some things you should know:\n"
+"‣ You can see all my commands with: `{prefix}help` or `{prefix}commands`\n"
+"‣ You can configure me using: `{prefix}settings`\n"
+"‣ You can set a world for me to track by using `{prefix}settings world`\n"
+"‣ Set the channel for level up and deaths using `{prefix}settings levelschannel`\n"
+"‣ People can register their characters using `{prefix}im characterName`\n"
+"‣ To set a logging channel, use `{prefix}settings serverlog`\n"
+"‣ My command prefix is: `{prefix}` (it is customizable)\n"
+"‣ If you need help, join my support server: **<{url_support}>**\n"
+"‣ For more information and links in: `{prefix}about`"
+msgstr ""
+
+#: cogs/core.py:415
+msgid "Links"
+msgstr ""
+
+#: cogs/core.py:416
+#, python-brace-format
+msgid "[Invite NabBot]({web}) | [Docs]({docs}) | [Donate]({donate}) | [Patreon]({patreon})"
+msgstr ""
+
+#: cogs/core.py:418
+msgid "NabBot is now in {count:,} Discord servers"
+msgstr ""
+
+#: cogs/general.py:42
+msgid "Checks if you can receive PMs from the bot.\n\n"
+"            If you can't receive PMs, 'Allow direct messages from server members.' must be enabled in the \n"
+"            Privacy Settings of any server where NabBot is in."
+msgstr ""
+
+#: cogs/general.py:48
+msgid "This is a private message, so yes... PMs are working."
+msgstr ""
+
+#: cogs/general.py:50
+msgid "Testing PMs..."
+msgstr ""
+
+#: cogs/general.py:51
+msgid "You can receive PMs."
+msgstr ""
+
+#: cogs/general.py:53
+msgid "You can't receive my PMs.\n"
+"To enable, go to Server > Privacy Settings and enable the checkbox in any server I'm in."
+msgstr ""
+
+#: cogs/general.py:60
+msgid "Chooses between multiple choices.\n"
+"    \n"
+"            Each choice is separated by spaces. For choices that contain spaces surround it with quotes.\n"
+"            e.g. \"Choice A\" ChoiceB \"Choice C"
+msgstr ""
+
+#: cogs/general.py:66
+msgid "I can't tell you what to choose if you don't give me choices"
+msgstr ""
+
+#: cogs/general.py:69
+#, python-brace-format
+msgid "Alright, {user}, I choose: \"{choice}\""
+msgstr ""
+
+#: cogs/general.py:79
+msgid "Shows a member's permissions in the current channel.\n\n"
+"            If no member is provided, it will show your permissions.\n"
+"            Optionally, a channel can be provided as the second parameter, to check permissions in said channel."
+msgstr ""
+
+#: cogs/general.py:87
+#, python-brace-format
+msgid "Permissions in #{channel}"
+msgstr ""
+
+#: cogs/general.py:98
+msgid "Allowed"
+msgstr ""
+
+#: cogs/general.py:101
+msgid "Denied"
+msgstr ""
+
+#: cogs/general.py:111
+msgid "Shows a messages by its ID or link.\n"
+"    \n"
+"            In order to get the message's link, you can right click and select **Copy Link**.\n"
+"    \n"
+"            In order to get a message's id, you need to enable Developer Mode.\n"
+"            Developer mode is found in `User Settings > Appearance`.\n"
+"            Once enabled, you can right click a message and select **Copy ID**.\n"
+"    \n"
+"            Using a message link is faster than using an Id.\n"
+"    \n"
+"            Note that the bot won't attempt to search in channels you can't read.\n"
+"            Additionally, messages in NSFW channels can't be quoted in regular channels."
+msgstr ""
+
+#: cogs/general.py:132
+msgid "I can't find that message, or it is in a channel you can't access."
+msgstr ""
+
+#: cogs/general.py:135
+msgid "I can't quote embed messages."
+msgstr ""
+
+#: cogs/general.py:138
+msgid "I can't quote messages from NSFW channels in regular channels."
+msgstr ""
+
+#: cogs/general.py:140
+msgid "Jump to original"
+msgstr ""
+
+#: cogs/general.py:148
+#, python-brace-format
+msgid "In #{channel_name}"
+msgstr ""
+
+#: cogs/general.py:154
+msgid "Attached file"
+msgstr ""
+
+#: cogs/general.py:162
+msgid "Rolls a die.\n"
+"    \n"
+"            By default, it rolls a 6-sided die once.\n"
+"            You can specify how many times you want the die to be rolled.\n"
+"    \n"
+"            You can also specify the number of sides of the die, using the format `TdS` where T is times and S is sides.\n"
+"    \n"
+"            The highest dice has 120 sides and the maximum number of throws is 20."
+msgstr ""
+
+#: cogs/general.py:182
+msgid "Invalid parameter! I'm expecting `<times>d<rolls>`."
+msgstr ""
+
+#: cogs/general.py:185
+msgid "You want me to roll the die zero times? Ok... There, done."
+msgstr ""
+
+#: cogs/general.py:188
+msgid "It's impossible to roll negative times!"
+msgstr ""
+
+#: cogs/general.py:191
+msgid "There's no dice with zero or less sides!"
+msgstr ""
+
+#: cogs/general.py:194
+#, python-brace-format
+msgid "I can't roll the die that many times. Only up to {limit}."
+msgstr ""
+
+#: cogs/general.py:197
+#, python-brace-format
+msgid "I don't have dice with more than {limit} sides."
+msgstr ""
+
+#: cogs/general.py:201
+#, python-brace-format
+msgid "{user} rolled a **{sides}**-sided die **{times}** time and got:\n"
+"\t{results_str}"
+msgid_plural "{user} rolled a **{sides}**-sided die **{times}** times and got:\n"
+"\t{results_str}"
+msgstr[0] ""
+msgstr[1] ""
+
+#. When rolling a 1 sided die.
+#: cogs/general.py:206
+msgid "\n"
+"Who would have thought? 🙄"
+msgstr ""
+
+#: cogs/general.py:209
+#, python-brace-format
+msgid "\n"
+"For a total of **{sum}**"
+msgstr ""
+
+#: cogs/general.py:220
+msgid "That's not a valid message link or message id."
+msgstr ""
+
+#: cogs/general.py:222
+msgid "I can't quote private messages."
+msgstr ""
+
+#: cogs/general.py:224
+msgid "I can't quote messages from other servers."
 msgstr ""
 
 #: utils/constants.py:24
