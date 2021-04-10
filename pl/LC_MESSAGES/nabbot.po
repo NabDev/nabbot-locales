@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-10 09:05-0700\n"
-"PO-Revision-Date: 2021-04-10 16:06\n"
+"POT-Creation-Date: 2021-04-10 09:09-0700\n"
+"PO-Revision-Date: 2021-04-10 17:05\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -646,6 +646,116 @@ msgstr ""
 
 #: cogs/admin.py:750
 msgid "No"
+msgstr ""
+
+#: cogs/calculators.py:82
+msgid "Unknown vocation."
+msgstr ""
+
+#: cogs/calculators.py:83
+msgid "Percentage must be between 1 and 100."
+msgstr ""
+
+#: cogs/calculators.py:84
+msgid "Loyalty must be between 0 and 50, and multiples of 5."
+msgstr ""
+
+#: cogs/calculators.py:85
+msgid "Exercise Dummies"
+msgstr ""
+
+#: cogs/calculators.py:86
+msgid "Expert Exercise Dummies"
+msgstr ""
+
+#: cogs/calculators.py:87
+msgid "Online training time"
+msgstr ""
+
+#: cogs/calculators.py:88
+msgid "Offline training time"
+msgstr ""
+
+#. Message displayed when the training time is excessively long
+#: cogs/calculators.py:90
+msgid "Longer than what you will live."
+msgstr ""
+
+#: cogs/calculators.py:171
+msgid "Very funny... Now tell me a valid level."
+msgstr ""
+
+#: cogs/calculators.py:176
+msgid "\n"
+"Blessing of the Inquisition costs **{price:,}** gold coins."
+msgstr ""
+
+#: cogs/calculators.py:178
+msgid "At that level you will pay **{price:,}** gold coins per blessing for a total of **{total:,}** gold coins.{inquisition}\n"
+"Mountain blessings cost **{mountain_bless_price:,}** each, for a total of **{mountain_total:,}**."
+msgstr ""
+
+#: cogs/calculators.py:198
+msgid "Target skill must be greater than current skill."
+msgstr ""
+
+#: cogs/calculators.py:200
+msgid "Your current skill can't be lower than 10."
+msgstr ""
+
+#: cogs/calculators.py:202
+msgid "Your target skill can't be greater than 200."
+msgstr ""
+
+#: cogs/calculators.py:210 cogs/calculators.py:261
+#, python-format
+msgid " with a loyalty bonus of %d%%."
+msgstr ""
+
+#: cogs/calculators.py:212
+msgid "🏹 Distance Skill Calculator"
+msgstr ""
+
+#: cogs/calculators.py:213
+#, python-brace-format
+msgid "From distance level {current} ({percentage}% to next level) to {target} as a {voc}{loyalty_str}"
+msgstr ""
+
+#: cogs/calculators.py:216
+msgid "You need **{hits:,}** hits to reach the target level."
+msgstr ""
+
+#: cogs/calculators.py:245
+msgid "Target level must be greater than current level."
+msgstr ""
+
+#: cogs/calculators.py:247
+msgid "Your current level can't be lower than 0."
+msgstr ""
+
+#: cogs/calculators.py:249
+msgid "Your target level can't be greater than 200."
+msgstr ""
+
+#: cogs/calculators.py:251
+msgid "Your target level can't be greater than 30 for knights."
+msgstr ""
+
+#: cogs/calculators.py:253
+msgid "Your target level can't be greater than 60 for paladins."
+msgstr ""
+
+#: cogs/calculators.py:265
+msgid "🔮 Magic Level Calculator"
+msgstr ""
+
+#: cogs/calculators.py:266
+#, python-brace-format
+msgid "From magic level {current} ({percentage}% to next level) to {target} as a {voc}{loyalty_str}"
+msgstr ""
+
+#: cogs/calculators.py:278
+msgid "You need to spend **{mana:,}** mana to reach magic level {target}"
 msgstr ""
 
 #: utils/constants.py:24
