@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-10 12:42-0700\n"
+"POT-Creation-Date: 2021-04-10 16:19-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: utils/constants.py:24
+msgid "That character doesn't exist."
+msgstr ""
+
+#: utils/constants.py:25
+msgid "I couldn't fetch the character, please try again."
+msgstr ""
+
+#: utils/constants.py:26
+msgid "I'm having network issues, please try again."
+msgstr ""
+
+#: utils/constants.py:28
+msgid "You took to long to confirm. Aborting."
+msgstr ""
+
+#: utils/constants.py:29
+msgid "No changes will be done then."
+msgstr ""
 
 #: cogs/admin.py:32
 msgid "World"
@@ -1118,7 +1138,7 @@ msgid ""
 "‣ For more information and links in: `{prefix}about`"
 msgstr ""
 
-#: cogs/core.py:415
+#: cogs/core.py:415 cogs/info.py:71
 msgid "Links"
 msgstr ""
 
@@ -1311,22 +1331,367 @@ msgstr ""
 msgid "I can't quote messages from other servers."
 msgstr ""
 
-#: utils/constants.py:24
-msgid "That character doesn't exist."
+#: cogs/info.py:54
+msgid "Shows basic information about the bot."
 msgstr ""
 
-#: utils/constants.py:25
-msgid "I couldn't fetch the character, please try again."
+#: cogs/info.py:62
+msgid "Prefixes"
 msgstr ""
 
-#: utils/constants.py:26
-msgid "I'm having network issues, please try again."
+#: cogs/info.py:63
+msgid "Authors"
 msgstr ""
 
-#: utils/constants.py:28
-msgid "You took to long to confirm. Aborting."
+#: cogs/info.py:65 cogs/info.py:363
+msgid "Created"
 msgstr ""
 
-#: utils/constants.py:29
-msgid "No changes will be done then."
+#: cogs/info.py:65
+msgid "March 30th 2016"
+msgstr ""
+
+#: cogs/info.py:66 cogs/info.py:101
+msgid "Version"
+msgstr ""
+
+#: cogs/info.py:67
+msgid "Platform"
+msgstr ""
+
+#: cogs/info.py:69 cogs/info.py:107
+msgid "Servers"
+msgstr ""
+
+#: cogs/info.py:70 cogs/info.py:109
+msgid "Users"
+msgstr ""
+
+#: cogs/info.py:77
+#, python-brace-format
+msgid "Uptime | {uptime}"
+msgstr ""
+
+#: cogs/info.py:86
+msgid "Shows advanced information about the bot."
+msgstr ""
+
+#: cogs/info.py:102
+msgid "Uptime"
+msgstr ""
+
+#: cogs/info.py:106
+msgid "Ping"
+msgstr ""
+
+#: cogs/info.py:108 cogs/info.py:278
+msgid "Channels"
+msgstr ""
+
+#: cogs/info.py:110
+msgid "Characters"
+msgstr ""
+
+#: cogs/info.py:111
+msgid "Level ups"
+msgstr ""
+
+#: cogs/info.py:112
+msgid "Deaths"
+msgstr ""
+
+#: cogs/info.py:125
+msgid ""
+"Shows information about a channel.\n"
+"\n"
+"            If no channel is specified, the information for the current channel is shown."
+msgstr ""
+
+#: cogs/info.py:132
+msgid "You are not supposed to see that channel, so I can't show you anything."
+msgstr ""
+
+#: cogs/info.py:136
+msgid "Category"
+msgstr ""
+
+#: cogs/info.py:138
+msgid "Slowmode Delay"
+msgstr ""
+
+#: cogs/info.py:139
+msgid "Visible by"
+msgstr ""
+
+#: cogs/info.py:139
+msgid "{count:,} members"
+msgstr ""
+
+#: cogs/info.py:140
+msgid "Mention"
+msgstr ""
+
+#: cogs/info.py:141
+msgid "NSFW"
+msgstr ""
+
+#: cogs/info.py:142 cogs/info.py:275
+msgid "Created on"
+msgstr ""
+
+#: cogs/info.py:150
+msgid ""
+"Shows a simple list of all commands.\n"
+"    \n"
+"            This displays all the commands you can use, with no description or subcommand information.\n"
+"            Note that different commands might show up in server channels and in private messages.\n"
+"    \n"
+"            For more details, use `help`."
+msgstr ""
+
+#: cogs/info.py:158
+#, python-brace-format
+msgid "For a more detailed list, try '{prefix}help' or '{prefix}help [command_name]'"
+msgstr ""
+
+#: cogs/info.py:176
+msgid ""
+"Shows information about an emoji, or shows all emojis.\n"
+"\n"
+"            If the command is used with no arguments, all the server emojis are shown.\n"
+"    \n"
+"            If an emoji, its id or name is provided, it will show more information about it.\n"
+"    \n"
+"            Only emojis in the current servers can be checked."
+msgstr ""
+
+#: cogs/info.py:189
+msgid "This server has no custom emojis."
+msgstr ""
+
+#: cogs/info.py:192
+msgid "Custom Emojis"
+msgstr ""
+
+#: cogs/info.py:193
+#, python-brace-format
+msgid "To view information of a specific emoji, use '{prefix}{command} <emoji>'"
+msgstr ""
+
+#: cogs/info.py:196
+msgid "Regular"
+msgstr ""
+
+#: cogs/info.py:197
+msgid "Animated"
+msgstr ""
+
+#: cogs/info.py:261
+msgid "Shows the server's information."
+msgstr ""
+
+#: cogs/info.py:267
+#, python-brace-format
+msgid "I'm not in any server with ID {server}."
+msgstr ""
+
+#: cogs/info.py:269
+msgid "That is not a valid id."
+msgstr ""
+
+#: cogs/info.py:274
+msgid "Owner"
+msgstr ""
+
+#: cogs/info.py:277
+msgid "Voice Region"
+msgstr ""
+
+#: cogs/info.py:279
+msgid "Text"
+msgstr ""
+
+#: cogs/info.py:280
+msgid "Voice"
+msgstr ""
+
+#: cogs/info.py:281
+msgid "Categories"
+msgstr ""
+
+#: cogs/info.py:289
+msgid "Members"
+msgstr ""
+
+#: cogs/info.py:290
+msgid "Humans"
+msgstr ""
+
+#: cogs/info.py:291
+msgid "Bots"
+msgstr ""
+
+#: cogs/info.py:292 cogs/info.py:380
+msgid "Roles"
+msgstr ""
+
+#: cogs/info.py:302
+msgid "Boosters"
+msgstr ""
+
+#: cogs/info.py:303
+msgid "Level"
+msgstr ""
+
+#. People boosting the server
+#: cogs/info.py:305 cogs/info.py:387
+msgid "Boosting"
+msgstr ""
+
+#: cogs/info.py:307
+msgid "Upload Size"
+msgstr ""
+
+#: cogs/info.py:308
+msgid "Voice Bitrate"
+msgstr ""
+
+#: cogs/info.py:309
+msgid "Emoji Limit"
+msgstr ""
+
+#: cogs/info.py:310
+msgid "Limits"
+msgstr ""
+
+#: cogs/info.py:314
+msgid "Tracked World"
+msgstr ""
+
+#. When the bot was added to the server
+#: cogs/info.py:316
+msgid "Added"
+msgstr ""
+
+#: cogs/info.py:321
+msgid "Splash screen"
+msgstr ""
+
+#: cogs/info.py:328
+msgid "Shows how long the bot has been running."
+msgstr ""
+
+#: cogs/info.py:329
+#, python-brace-format
+msgid "I have been running for {0}."
+msgstr ""
+
+#: cogs/info.py:338
+msgid ""
+"Shows a user's information.\n"
+"    \n"
+"            If no user is provided, it shows your own information.\n"
+"    \n"
+"            About user statuses:\n"
+"    \n"
+"            - Server Owner: Owner of the server\n"
+"            - Server Admin: User with `Administrator` permission\n"
+"            - Server Moderator: User with `Manage Server` permissions.\n"
+"            - Channel Moderator: User with `Manage Channels` permissions in at least one channel."
+msgstr ""
+
+#: cogs/info.py:354
+#, python-brace-format
+msgid "Could not find user `{user}`"
+msgstr ""
+
+#: cogs/info.py:362
+msgid "Member since"
+msgstr ""
+
+#: cogs/info.py:366
+msgid "Server Owner)"
+msgstr ""
+
+#: cogs/info.py:368
+msgid "Server Admin"
+msgstr ""
+
+#: cogs/info.py:370
+msgid "Server Moderator"
+msgstr ""
+
+#: cogs/info.py:372
+msgid "Channel Moderator"
+msgstr ""
+
+#: cogs/info.py:374
+msgid "Bot"
+msgstr ""
+
+#: cogs/info.py:376
+msgid "Regular User"
+msgstr ""
+
+#: cogs/info.py:377
+msgid "User Status"
+msgstr ""
+
+#: cogs/info.py:379
+msgid "Shared Servers"
+msgstr ""
+
+#: cogs/info.py:381
+msgid "Highest role"
+msgstr ""
+
+#: cogs/info.py:382
+msgid "Ranking"
+msgstr ""
+
+#: cogs/info.py:383
+#, python-brace-format
+msgid ""
+"{0} oldest member\n"
+"{1} oldest account here"
+msgstr ""
+
+#: cogs/info.py:421
+msgid "RAM"
+msgstr ""
+
+#: cogs/info.py:422
+msgid "Total RAM"
+msgstr ""
+
+#: cogs/info.py:426
+msgid "CPU"
+msgstr ""
+
+#: cogs/info.py:450
+msgid "Created at"
+msgstr ""
+
+#: cogs/info.py:451
+msgid "ID"
+msgstr ""
+
+#: cogs/info.py:452
+msgid "Usage"
+msgstr ""
+
+#: cogs/info.py:454
+msgid "Twitch integration"
+msgstr ""
+
+#: cogs/info.py:455
+msgid "Requires colons"
+msgstr ""
+
+#: cogs/info.py:456
+msgid "Role limited"
+msgstr ""
+
+#: cogs/info.py:459
+msgid "Attributes"
 msgstr ""
