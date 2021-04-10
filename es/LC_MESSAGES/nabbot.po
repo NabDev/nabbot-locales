@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-10 16:19-0700\n"
+"POT-Creation-Date: 2021-04-10 16:47-0700\n"
 "PO-Revision-Date: 2021-04-09 16:04\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
@@ -1773,6 +1773,173 @@ msgstr ""
 
 #: cogs/info.py:459
 msgid "Attributes"
+msgstr ""
+
+#: cogs/logging.py:74
+msgid "Autorole changes"
+msgstr ""
+
+#: cogs/logging.py:78
+msgid "Added roles"
+msgstr ""
+
+#: cogs/logging.py:80
+msgid "Removed roles"
+msgstr ""
+
+#: cogs/logging.py:91
+msgid "Characters registered"
+msgstr ""
+
+#: cogs/logging.py:109 cogs/logging.py:114 cogs/logging.py:129
+#: cogs/logging.py:419 cogs/logging.py:438
+msgid "No guild"
+msgstr ""
+
+#: cogs/logging.py:126
+msgid "Unregistered characters"
+msgstr ""
+
+#: cogs/logging.py:158
+msgid "Character name change"
+msgstr ""
+
+#: cogs/logging.py:181
+msgid "Character transferred"
+msgstr ""
+
+#: cogs/logging.py:200
+msgid "Automatic role deleted"
+msgstr ""
+
+#: cogs/logging.py:201
+#, python-brace-format
+msgid "Automatic role **{role}** deleted."
+msgstr ""
+
+#: cogs/logging.py:211
+msgid "Group deleted"
+msgstr ""
+
+#: cogs/logging.py:212
+#, python-brace-format
+msgid "Joinable role **{role}** deleted."
+msgstr ""
+
+#: cogs/logging.py:225
+msgid "Watchlist channel deleted"
+msgstr ""
+
+#: cogs/logging.py:226
+#, python-brace-format
+msgid "Channel `#{channel}` was deleted. All its entries were deleted."
+msgstr ""
+
+#: cogs/logging.py:266
+msgid "Tracked World Updated"
+msgstr ""
+
+#: cogs/logging.py:267
+#, python-brace-format
+msgid "Tracked world updated from {before} to {after}"
+msgstr ""
+
+#: cogs/logging.py:322
+msgid "Emoji removed"
+msgstr ""
+
+#: cogs/logging.py:327
+msgid "Emoji added"
+msgstr ""
+
+#: cogs/logging.py:334
+msgid "Emoji renamed"
+msgstr ""
+
+#: cogs/logging.py:349
+msgid "Server updated)"
+msgstr ""
+
+#: cogs/logging.py:354
+#, python-brace-format
+msgid "Name changed from **{before}** to **{after}**"
+msgstr ""
+
+#: cogs/logging.py:357
+msgid "Icon changed"
+msgstr ""
+
+#: cogs/logging.py:360
+#, python-brace-format
+msgid "Ownership transferred to {new_owner}"
+msgstr ""
+
+#: cogs/logging.py:374
+msgid "Member banned"
+msgstr ""
+
+#: cogs/logging.py:382 cogs/logging.py:400 cogs/logging.py:449
+msgid "Reason"
+msgstr ""
+
+#: cogs/logging.py:389
+#, python-brace-format
+msgid "{name} joined."
+msgstr ""
+
+#: cogs/logging.py:390
+msgid "Member joined"
+msgstr ""
+
+#: cogs/logging.py:392
+msgid "Discord user since"
+msgstr ""
+
+#: cogs/logging.py:395
+#, python-brace-format
+msgid "Bot {name} added."
+msgstr ""
+
+#: cogs/logging.py:421
+msgid "Registered characters"
+msgstr ""
+
+#: cogs/logging.py:429
+msgid "Member kicked or left"
+msgstr ""
+
+#: cogs/logging.py:435
+msgid ""
+"\n"
+"Registered characters:"
+msgstr ""
+
+#: cogs/logging.py:445
+msgid "Member kicked"
+msgstr ""
+
+#: cogs/logging.py:453
+msgid "Member left"
+msgstr ""
+
+#: cogs/logging.py:465
+msgid "Member updated"
+msgstr ""
+
+#: cogs/logging.py:468
+msgid "New nickname"
+msgstr ""
+
+#: cogs/logging.py:471
+msgid "Nickname removed"
+msgstr ""
+
+#: cogs/logging.py:474
+msgid "Nickname changed"
+msgstr ""
+
+#: cogs/logging.py:487
+msgid "Member unbanned"
 msgstr ""
 
 #, python-brace-format
