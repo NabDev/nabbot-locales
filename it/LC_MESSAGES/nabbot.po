@@ -5,85 +5,85 @@ msgstr ""
 "POT-Creation-Date: 2021-04-10 09:09-0700\n"
 "PO-Revision-Date: 2021-04-10 17:05\n"
 "Last-Translator: \n"
-"Language-Team: Spanish\n"
-"Language: es_ES\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: nabbot\n"
 "X-Crowdin-Project-ID: 450322\n"
-"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-Language: it\n"
 "X-Crowdin-File: /main/nabbot.pot\n"
 "X-Crowdin-File-ID: 6\n"
 
 #: cogs/admin.py:32
 msgid "World"
-msgstr "Mundo"
+msgstr ""
 
 #: cogs/admin.py:33
 msgid "Language"
-msgstr "Idioma"
+msgstr ""
 
 #: cogs/admin.py:34
 msgid "News channel"
-msgstr "Canal de noticias"
+msgstr ""
 
 #: cogs/admin.py:35
 msgid "News tickers"
-msgstr "Noticias cortas"
+msgstr ""
 
 #: cogs/admin.py:36
 msgid "Events channel"
-msgstr "Canal de eventos"
+msgstr ""
 
 #: cogs/admin.py:37
 msgid "Server Log channel"
-msgstr "Canal de server log"
+msgstr ""
 
 #: cogs/admin.py:38
 msgid "Tracking channel"
-msgstr "Canal de niveles y muertes"
+msgstr ""
 
 #: cogs/admin.py:39
 msgid "Min Announce Level"
-msgstr "Nivel minimo de anuncios"
+msgstr ""
 
 #: cogs/admin.py:40
 msgid "Prefix"
-msgstr "Prefijo"
+msgstr ""
 
 #: cogs/admin.py:41
 msgid "Welcome message"
-msgstr "Mensaje de bienvenida"
+msgstr ""
 
 #: cogs/admin.py:42
 msgid "Welcome channel"
-msgstr "Canal de Bienvenida"
+msgstr ""
 
 #: cogs/admin.py:43
 msgid "Default Announcements"
-msgstr "Anuncios predeterminados"
+msgstr ""
 
 #: cogs/admin.py:44
 msgid "Show User in Announcements"
-msgstr "Mostrar usuario en anuncios"
+msgstr ""
 
 #: cogs/admin.py:47
 msgid "I couldn't find that channel, are you sure it exists?"
-msgstr "No pude encontrar ese canal, ¿estás seguro de que existe?"
+msgstr ""
 
 #: cogs/admin.py:65
 msgid "You can't remove this prefix."
-msgstr "No puedes eliminar este prefijo."
+msgstr ""
 
 #: cogs/admin.py:67
 msgid "The prefix can't be longer than 20 characters."
-msgstr "El prefijo no puede tener más de 20 caracteres."
+msgstr ""
 
 #: cogs/admin.py:75
 msgid "Settings can't be modified on private messages."
-msgstr "La configuración no se puede modificar mediante mensajes privados."
+msgstr ""
 
 #: cogs/admin.py:92
 msgid "Checks the channel's permissions.\n\n"
@@ -94,7 +94,7 @@ msgstr ""
 #: cogs/admin.py:100
 #, python-brace-format
 msgid "**Checking {channel}:**"
-msgstr "**Revisando {channel}:**"
+msgstr ""
 
 #: cogs/admin.py:102
 #, python-brace-format
@@ -158,12 +158,11 @@ msgstr ""
 #, python-brace-format
 msgid "\n"
 "{check} All permissions are correct!"
-msgstr "\n"
-"{check} ¡Todos los permisos son correctos!"
+msgstr ""
 
 #: cogs/admin.py:143
 msgid "Checks or sets various server-specific settings."
-msgstr "Revisa o modifica las configuraciones del servidor."
+msgstr ""
 
 #: cogs/admin.py:148
 msgid "Use the subcommands to change the settings for this server."
