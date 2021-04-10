@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-10 12:42-0700\n"
-"PO-Revision-Date: 2021-04-10 19:44\n"
+"PO-Revision-Date: 2021-04-10 20:42\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -104,7 +104,7 @@ msgstr ""
 
 #: cogs/admin.py:112
 msgid "I won't be able to see commands in here."
-msgstr ""
+msgstr "No podré ver comandos aquí."
 
 #: cogs/admin.py:113
 msgid "I won't be able to respond in here."
@@ -112,11 +112,11 @@ msgstr ""
 
 #: cogs/admin.py:114 cogs/admin.py:116
 msgid "Pagination or commands that require reaction confirmation won't work."
-msgstr ""
+msgstr "La paginación o comandos que requieran confirmación de reacción no funcionarán."
 
 #: cogs/admin.py:115
 msgid "I won't be able to show my emojis in some commands."
-msgstr ""
+msgstr "No podré mostrar mis emojis en algunos comandos."
 
 #: cogs/admin.py:117
 msgid "Command pagination won't work well."
