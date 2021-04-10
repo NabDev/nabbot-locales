@@ -1,2 +1,3 @@
 cogs/admin.py
+cogs/calculators.py
 utils/constants.py
