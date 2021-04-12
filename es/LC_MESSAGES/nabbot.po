@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-10 16:47-0700\n"
-"PO-Revision-Date: 2021-04-11 17:36\n"
+"PO-Revision-Date: 2021-04-12 04:23\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -184,7 +184,7 @@ msgstr "Revisa o modifica las configuraciones del servidor."
 
 #: cogs/admin.py:154
 msgid "Settings"
-msgstr ""
+msgstr "Configuraciones"
 
 #: cogs/admin.py:155
 msgid "Use the subcommands to change the settings for this server."
@@ -307,11 +307,11 @@ msgstr ""
 
 #: cogs/admin.py:305
 msgid "level"
-msgstr ""
+msgstr "nivel"
 
 #: cogs/admin.py:307
 msgid "Level can't be lower than 1."
-msgstr ""
+msgstr "El nivel no puede ser menor que 1."
 
 #: cogs/admin.py:310
 #, python-brace-format
@@ -363,19 +363,19 @@ msgstr ""
 #: cogs/admin.py:389
 #, python-brace-format
 msgid "{prefixes} and mentions"
-msgstr ""
+msgstr "{prefixes} y menciones"
 
 #: cogs/admin.py:390
 msgid "Mentions only"
-msgstr ""
+msgstr "Solo menciones"
 
 #: cogs/admin.py:391 cogs/admin.py:498
 msgid "Any text"
-msgstr ""
+msgstr "Cualquier texto"
 
 #: cogs/admin.py:391
 msgid "prefix"
-msgstr ""
+msgstr "prefijo"
 
 #: cogs/admin.py:398
 #, python-brace-format
@@ -452,11 +452,11 @@ msgstr ""
 
 #: cogs/admin.py:504
 msgid "Are you sure you want to disable welcome messages?"
-msgstr ""
+msgstr "¿Estás seguro de que quieres desactivar los mensajes de bienvenida?"
 
 #: cogs/admin.py:509
 msgid "This message is too long! {length:,}/{limit} characters."
-msgstr ""
+msgstr "¡Este mensaje es demasiado largo! {longitud:,}/{limit} caracteres."
 
 #: cogs/admin.py:519
 #, python-brace-format
@@ -465,11 +465,11 @@ msgstr ""
 
 #: cogs/admin.py:527
 msgid "The welcome message has been disabled."
-msgstr ""
+msgstr "El mensaje de bienvenida ha sido desactivado."
 
 #: cogs/admin.py:529
 msgid "Welcome message updated."
-msgstr ""
+msgstr "Mensaje de bienvenida actualizado."
 
 #: cogs/admin.py:537
 msgid "Changes the channel where new members are welcomed.\n\n"
