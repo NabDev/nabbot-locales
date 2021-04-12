@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-12 16:56-0700\n"
+"POT-Creation-Date: 2021-04-12 16:59-0700\n"
 "PO-Revision-Date: 2021-04-12 04:23\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
@@ -115,25 +115,26 @@ msgstr ""
 msgid "In **experience points** (Rookgaard), {0} has rank **{2}**"
 msgstr ""
 
-#: utils/tibia.py:197 cogs/tibia.py:2156
+#. Subject pronoun: he, she
+#: utils/tibia.py:198 cogs/tibia.py:2156
 msgid "He"
 msgstr ""
 
-#: utils/tibia.py:197 cogs/tibia.py:2156
+#: utils/tibia.py:198 cogs/tibia.py:2156
 msgid "She"
 msgstr ""
 
 #. Possesive personal pronouns: his, her
-#: utils/tibia.py:202
+#: utils/tibia.py:203
 msgid "His"
 msgstr ""
 
-#: utils/tibia.py:202 utils/tibia.py:207
+#: utils/tibia.py:203 utils/tibia.py:208
 msgid "Her"
 msgstr ""
 
-#. Objective personal pronouns: him, her
-#: utils/tibia.py:207
+#. Possesive adjective: him, her
+#: utils/tibia.py:208
 msgid "Him"
 msgstr ""
 
