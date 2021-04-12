@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-12 09:09-0700\n"
+"POT-Creation-Date: 2021-04-12 16:38-0700\n"
 "PO-Revision-Date: 2021-04-10 23:49\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Crowdin-File: /main/nabbot.pot\n"
 "X-Crowdin-File-ID: 6\n"
 
-#: utils/constants.py:24
+#: utils/constants.py:24 cogs/tibia.py:521
 msgid "That character doesn't exist."
 msgstr ""
 
@@ -37,7 +37,105 @@ msgstr ""
 msgid "No changes will be done then."
 msgstr ""
 
-#: cogs/admin.py:32
+#: utils/tibia.py:87
+msgid "In **achievement points**, {0} has rank **{2}**, with **{1:,}** points"
+msgstr ""
+
+#: utils/tibia.py:88
+#, python-brace-format
+msgid "In **axe fighting**, {0} has rank **{2}**, with level **{1}**"
+msgstr ""
+
+#: utils/tibia.py:89
+#, python-brace-format
+msgid "In **club fighting**, {0} has rank **{2}**, with level **{1}**"
+msgstr ""
+
+#: utils/tibia.py:90
+#, python-brace-format
+msgid "In **experience points**, {0} has rank **{2}**"
+msgstr ""
+
+#: utils/tibia.py:91
+#, python-brace-format
+msgid "In **distance fighting**, {0} has rank **{2}**, with level **{1}**"
+msgstr ""
+
+#: utils/tibia.py:92
+#, python-brace-format
+msgid "In **fishing**, {0} has rank **{2}**, with level **{1}**"
+msgstr ""
+
+#: utils/tibia.py:93
+#, python-brace-format
+msgid "In **fist fighting**, {0} has rank **{2}**, with level **{1}**"
+msgstr ""
+
+#: utils/tibia.py:94
+#, python-brace-format
+msgid "In **loyalty points**, {0} has rank **{2}**, with **{1}**"
+msgstr ""
+
+#: utils/tibia.py:95
+#, python-brace-format
+msgid "In **magic level**, {0} has rank **{2}**, with level **{1}**"
+msgstr ""
+
+#: utils/tibia.py:96
+#, python-brace-format
+msgid "In **magic level** (knights), {0} has rank **{2}**, with level **{1}**"
+msgstr ""
+
+#: utils/tibia.py:97
+#, python-brace-format
+msgid "In **magic level** (paladins), {0} has rank **{2}**, with level **{1}**"
+msgstr ""
+
+#: utils/tibia.py:98
+#, python-brace-format
+msgid "In **shielding**, {0} has rank **{2}**, with level **{1}**"
+msgstr ""
+
+#: utils/tibia.py:99
+#, python-brace-format
+msgid "In **sword fighting**, {0} has rank **{2}**, with level **{1}**"
+msgstr ""
+
+#: utils/tibia.py:100
+#, python-brace-format
+msgid "In **Goshnar's Taint**, {0} has rank **{2}**, with **{1}** points"
+msgstr ""
+
+#: utils/tibia.py:101
+msgid "In **charm points**, {0} has rank **{2}**, with **{1:,}** points"
+msgstr ""
+
+#: utils/tibia.py:102
+#, python-brace-format
+msgid "In **experience points** (Rookgaard), {0} has rank **{2}**"
+msgstr ""
+
+#: utils/tibia.py:197
+msgid "He"
+msgstr ""
+
+#: utils/tibia.py:197
+msgid "She"
+msgstr ""
+
+#: utils/tibia.py:201
+msgid "His"
+msgstr ""
+
+#: utils/tibia.py:201 utils/tibia.py:205
+msgid "Her"
+msgstr ""
+
+#: utils/tibia.py:205
+msgid "Him"
+msgstr ""
+
+#: cogs/admin.py:32 cogs/tibia.py:1949
 msgid "World"
 msgstr ""
 
@@ -109,8 +207,7 @@ msgstr ""
 msgid ""
 "Checks the channel's permissions.\n"
 "\n"
-"            Makes sure that the bot has all the required permissions to work "
-"properly.\n"
+"            Makes sure that the bot has all the required permissions to work properly.\n"
 "            If no channel is specified, the current one is checked."
 msgstr ""
 
@@ -163,9 +260,7 @@ msgid "I only need this to create watchlists."
 msgstr ""
 
 #: cogs/admin.py:122
-msgid ""
-"I need this to create server logs, news and levels channels, as well as "
-"watchlist feeds."
+msgid "I need this to create server logs, news and levels channels, as well as watchlist feeds."
 msgstr ""
 
 #: cogs/admin.py:124
@@ -199,11 +294,9 @@ msgstr ""
 
 #: cogs/admin.py:166
 msgid ""
-"Sets whether simple level/death messages will be used instead of random "
-"custom messages.\n"
+"Sets whether simple level/death messages will be used instead of random custom messages.\n"
 "\n"
-"            When enabled, all level up and death messages will be the same, "
-"a simple and short message."
+"            When enabled, all level up and death messages will be the same, a simple and short message."
 msgstr ""
 
 #: cogs/admin.py:173
@@ -223,13 +316,10 @@ msgstr ""
 msgid ""
 "Changes the channel where upcoming events are announced.\n"
 "    \n"
-"            This is where announcements of events about to happen will be "
-"made.\n"
-"            If the assigned channel is deleted or forbidden, the top channel "
-"will be used.\n"
+"            This is where announcements of events about to happen will be made.\n"
+"            If the assigned channel is deleted or forbidden, the top channel will be used.\n"
 "    \n"
-"            If this is disabled, users that subscribed to the event will "
-"still receive notifications via PM.\n"
+"            If this is disabled, users that subscribed to the event will still receive notifications via PM.\n"
 "            "
 msgstr ""
 
@@ -290,15 +380,11 @@ msgstr ""
 msgid ""
 "Changes the channel where levelup and deaths are announced.\n"
 "    \n"
-"            This is where all level ups and deaths of registered characters "
-"will be announced.\n"
-"            By default, the highest channel on the list where the bot can "
-"send messages will be used.\n"
-"            If the assigned channel is deleted or forbidden, the top channel "
-"will be used again.\n"
+"            This is where all level ups and deaths of registered characters will be announced.\n"
+"            By default, the highest channel on the list where the bot can send messages will be used.\n"
+"            If the assigned channel is deleted or forbidden, the top channel will be used again.\n"
 "    \n"
-"            If this is disabled, Announcements won't be made, but there will "
-"still be tracking."
+"            If this is disabled, Announcements won't be made, but there will still be tracking."
 msgstr ""
 
 #: cogs/admin.py:278 cogs/admin.py:327 cogs/admin.py:437
@@ -313,8 +399,7 @@ msgstr ""
 msgid ""
 "Sets the minimum level for death and level up announcements.\n"
 "    \n"
-"            Level ups and deaths under the minimum level are still and can "
-"be seen by checking the character directly.\n"
+"            Level ups and deaths under the minimum level are still and can be seen by checking the character directly.\n"
 "            "
 msgstr ""
 
@@ -344,10 +429,8 @@ msgstr ""
 msgid ""
 "Changes the channel where Tibia news are announced.\n"
 "    \n"
-"            This is where all news and articles posted in Tibia.com will be "
-"announced.\n"
-"            If the assigned channel is deleted or forbidden, the top channel "
-"will be used.\n"
+"            This is where all news and articles posted in Tibia.com will be announced.\n"
+"            If the assigned channel is deleted or forbidden, the top channel will be used.\n"
 "            "
 msgstr ""
 
@@ -355,10 +438,8 @@ msgstr ""
 msgid ""
 "Enables or disables news tickers from Tibia.com in this server.\n"
 "\n"
-"            Disabling this will make NabBot only announce news and featured "
-"articles.\n"
-"            For news tickers to be announced, news announcement must be "
-"enabled.\n"
+"            Disabling this will make NabBot only announce news and featured articles.\n"
+"            For news tickers to be announced, news announcement must be enabled.\n"
 "            "
 msgstr ""
 
@@ -367,8 +448,7 @@ msgid "True (Global default)"
 msgstr ""
 
 #: cogs/admin.py:358
-msgid ""
-"I will announce news ticker along news and featured articles from now on."
+msgid "I will announce news ticker along news and featured articles from now on."
 msgstr ""
 
 #: cogs/admin.py:361
@@ -379,21 +459,17 @@ msgstr ""
 msgid ""
 "Changes the command prefixes for this server.\n"
 "\n"
-"            The prefixes are the characters that go before a command's name, "
-"in order for the bot to recognize the command.\n"
+"            The prefixes are the characters that go before a command's name, in order for the bot to recognize the command.\n"
 "            A maximum of 5 prefixes can be set per server.\n"
 "        \n"
 "            To remove an existing prefix, use it as a parameter.\n"
 "        \n"
-"            Prefixes are case-insensitive, and they will always be saved as "
-"lowercase.\n"
+"            Prefixes are case-insensitive, and they will always be saved as lowercase.\n"
 "        \n"
-"            If you want to have a space at the end, such as: `nabbot help`, "
-"you have to use double quotes \"nabbot \".\n"
+"            If you want to have a space at the end, such as: `nabbot help`, you have to use double quotes \"nabbot \".\n"
 "            Multiple words also require using quotes.\n"
 "        \n"
-"            Mentioning the bot is always a valid command and can't be "
-"changed."
+"            Mentioning the bot is always a valid command and can't be changed."
 msgstr ""
 
 #: cogs/admin.py:389
@@ -442,17 +518,14 @@ msgstr ""
 msgid ""
 "Changes the channel used as the server log.\n"
 "\n"
-"            In this channel, character registrations and server changes are "
-"announced."
+"            In this channel, character registrations and server changes are announced."
 msgstr ""
 
 #: cogs/admin.py:453
 msgid ""
-"Sets whether level/death messages should show the user the character is "
-"registered to.\n"
+"Sets whether level/death messages should show the user the character is registered to.\n"
 "\n"
-"            When enabled, level up and death messages will show a tag with "
-"the character's owner."
+"            When enabled, level up and death messages will show a tag with the character's owner."
 msgstr ""
 
 #: cogs/admin.py:467
@@ -521,13 +594,10 @@ msgid ""
 "Changes the channel where new members are welcomed.\n"
 "\n"
 "            A welcome message must be set for this setting to work.\n"
-"            If the channel becomes unavailable, private messages will be "
-"used.\n"
+"            If the channel becomes unavailable, private messages will be used.\n"
 "    \n"
-"            Note that private messages are not reliable since new users can "
-"have them disabled before joining.\n"
-"            To disable this, you must disable welcome messages using "
-"`settings welcome`.\n"
+"            Note that private messages are not reliable since new users can have them disabled before joining.\n"
+"            To disable this, you must disable welcome messages using `settings welcome`.\n"
 "            "
 msgstr ""
 
@@ -569,8 +639,7 @@ msgstr ""
 msgid ""
 "Changes the world this Discord server tracks.\n"
 "\n"
-"            The tracked world is the Tibia world that this Discord server is "
-"following.\n"
+"            The tracked world is the Tibia world that this Discord server is following.\n"
 "            Only characters in that world will be registered."
 msgstr ""
 
@@ -591,7 +660,7 @@ msgstr ""
 msgid "Are you sure you want to unassign **{world}** from this server?"
 msgstr ""
 
-#: cogs/admin.py:607
+#: cogs/admin.py:607 cogs/tibia.py:806 cogs/tibia.py:1157 cogs/tibia.py:1698
 msgid "There's no world with that name."
 msgstr ""
 
@@ -764,8 +833,7 @@ msgstr ""
 msgid ""
 "Calculates the price of blessings for a specific level.\n"
 "\n"
-"            For player over level 100, it will also display the cost of the "
-"Blessing of the Inquisition."
+"            For player over level 100, it will also display the cost of the Blessing of the Inquisition."
 msgstr ""
 
 #: cogs/calculators.py:174
@@ -780,19 +848,15 @@ msgstr ""
 
 #: cogs/calculators.py:181
 msgid ""
-"At that level you will pay **{price:,}** gold coins per blessing for a total "
-"of **{total:,}** gold coins.{inquisition}\n"
-"Mountain blessings cost **{mountain_bless_price:,}** each, for a total of "
-"**{mountain_total:,}**."
+"At that level you will pay **{price:,}** gold coins per blessing for a total of **{total:,}** gold coins.{inquisition}\n"
+"Mountain blessings cost **{mountain_bless_price:,}** each, for a total of **{mountain_total:,}**."
 msgstr ""
 
 #: cogs/calculators.py:193
 msgid ""
-"Calculates the training time required to reach a target distance skill "
-"level.\n"
+"Calculates the training time required to reach a target distance skill level.\n"
 "\n"
-"        It shows the needed hits, online training time and offline training "
-"time.\n"
+"        It shows the needed hits, online training time and offline training time.\n"
 "        For paladins, it also shows exercise weapons needed.\n"
 "        "
 msgstr ""
@@ -820,9 +884,7 @@ msgstr ""
 
 #: cogs/calculators.py:217
 #, python-brace-format
-msgid ""
-"From distance level {current} ({percentage}% to next level) to {target} as a "
-"{voc}{loyalty_str}"
+msgid "From distance level {current} ({percentage}% to next level) to {target} as a {voc}{loyalty_str}"
 msgstr ""
 
 #: cogs/calculators.py:220 cogs/calculators.py:324
@@ -833,8 +895,7 @@ msgstr ""
 msgid ""
 "Calculates the training time required to reach a target magic level.\n"
 "\n"
-"            It shows the needed mana, offline training time and exercise "
-"weapons needed."
+"            It shows the needed mana, offline training time and exercise weapons needed."
 msgstr ""
 
 #: cogs/calculators.py:252
@@ -863,9 +924,7 @@ msgstr ""
 
 #: cogs/calculators.py:273
 #, python-brace-format
-msgid ""
-"From magic level {current} ({percentage}% to next level) to {target} as a "
-"{voc}{loyalty_str}"
+msgid "From magic level {current} ({percentage}% to next level) to {target} as a {voc}{loyalty_str}"
 msgstr ""
 
 #: cogs/calculators.py:285
@@ -876,8 +935,7 @@ msgstr ""
 msgid ""
 "Calculates the training time required to reach a target skill level.\n"
 "    \n"
-"            It shows the needed hits, online training time and offline "
-"training time.\n"
+"            It shows the needed hits, online training time and offline training time.\n"
 "            For knights, it also shows exercise weapons needed.\n"
 "    \n"
 "            This only applies to axe, club and sword fighting."
@@ -889,22 +947,17 @@ msgstr ""
 
 #: cogs/calculators.py:321
 #, python-brace-format
-msgid ""
-"From skill level {current} ({percentage}% to next level) to {target} as a "
-"{voc}{loyalty_str}"
+msgid "From skill level {current} ({percentage}% to next level) to {target} as a {voc}{loyalty_str}"
 msgstr ""
 
 #: cogs/calculators.py:347
 msgid ""
 "Calculates the way to split loot based on the Party Hunt Analyzer.\n"
 "\n"
-"            Shows the instructions to split the balance between the members, "
-"without needing to sell and split the loot.\n"
-"            The instructions can be copied by double clicking and then "
-"pasted to a bank NPC.\n"
+"            Shows the instructions to split the balance between the members, without needing to sell and split the loot.\n"
+"            The instructions can be copied by double clicking and then pasted to a bank NPC.\n"
 "    \n"
-"            It also shows the percentage of damage and healing contribution "
-"of each member in the party."
+"            It also shows the percentage of damage and healing contribution of each member in the party."
 msgstr ""
 
 #: cogs/calculators.py:356
@@ -937,15 +990,12 @@ msgstr ""
 msgid ""
 "Tells you the time you have to wait to restore stamina.\n"
 "\n"
-"            To use it, you must provide your current stamina, in this "
-"format: `hh:mm`.\n"
-"            The bot will show the time needed to reach full stamina if you "
-"were to start sleeping now.\n"
+"            To use it, you must provide your current stamina, in this format: `hh:mm`.\n"
+"            The bot will show the time needed to reach full stamina if you were to start sleeping now.\n"
 "    \n"
 "            Optionally, you can provide the target stamina you want.\n"
 "    \n"
-"            The footer text shows the time in your timezone where your "
-"stamina would be at the target stamina."
+"            The footer text shows the time in your timezone where your stamina would be at the target stamina."
 msgstr ""
 
 #: cogs/calculators.py:403
@@ -973,9 +1023,7 @@ msgstr ""
 
 #: cogs/calculators.py:429
 #, python-brace-format
-msgid ""
-"You need to rest **{remaining}** to get back to **{hours}:{tminutes:02}** "
-"stamina."
+msgid "You need to rest **{remaining}** to get back to **{hours}:{tminutes:02}** stamina."
 msgstr ""
 
 #: cogs/calculators.py:433
@@ -986,20 +1034,17 @@ msgstr ""
 msgid ""
 "Calculates character stats based on vocation and level.\n"
 "    \n"
-"            Shows hitpoints, mana, capacity, total experience and experience "
-"to next level.\n"
+"            Shows hitpoints, mana, capacity, total experience and experience to next level.\n"
 "    \n"
 "            This command can be used in two ways:\n"
 "    \n"
-"            1. To calculate the stats for a certain level and vocation. "
-"(`stats <level>,<vocation>`)\n"
+"            1. To calculate the stats for a certain level and vocation. (`stats <level>,<vocation>`)\n"
 "            2. To calculate the stats of a character. (`stats <character>`)\n"
 "            "
 msgstr ""
 
 #: cogs/calculators.py:455
-msgid ""
-"There's no level lower than 1, it doesn't matter how bad you are at Tibia."
+msgid "There's no level lower than 1, it doesn't matter how bad you are at Tibia."
 msgstr ""
 
 #. Shown when trying to enter a very high level.
@@ -1035,8 +1080,7 @@ msgstr ""
 
 #: cogs/calculators.py:497
 msgid ""
-"To reach **{capacity:,}** oz. capacity, you need at least the following "
-"levels per vocation:\n"
+"To reach **{capacity:,}** oz. capacity, you need at least the following levels per vocation:\n"
 "\t"
 msgstr ""
 
@@ -1052,8 +1096,7 @@ msgstr ""
 
 #: cogs/calculators.py:524
 msgid ""
-"To reach **{mana:,}** mana points, you need at least the following levels "
-"per vocation:\n"
+"To reach **{mana:,}** mana points, you need at least the following levels per vocation:\n"
 "\t"
 msgstr ""
 
@@ -1110,8 +1153,7 @@ msgstr ""
 #: cogs/core.py:322
 #, python-brace-format
 msgid ""
-"You don't have access to premium features. To get premium benefits become a "
-"patron:\n"
+"You don't have access to premium features. To get premium benefits become a patron:\n"
 "<{patreon_url}>.\n"
 "*If you already joined, make sure your Discord account is linked to Patreon.*"
 msgstr ""
@@ -1165,8 +1207,7 @@ msgid ""
 "‣ You can see all my commands with: `{prefix}help` or `{prefix}commands`\n"
 "‣ You can configure me using: `{prefix}settings`\n"
 "‣ You can set a world for me to track by using `{prefix}settings world`\n"
-"‣ Set the channel for level up and deaths using `{prefix}settings "
-"levelschannel`\n"
+"‣ Set the channel for level up and deaths using `{prefix}settings levelschannel`\n"
 "‣ People can register their characters using `{prefix}im characterName`\n"
 "‣ To set a logging channel, use `{prefix}settings serverlog`\n"
 "‣ If you need help, join my support server: **<{url_support}>**\n"
@@ -1180,15 +1221,13 @@ msgstr ""
 #: cogs/core.py:400
 #, python-brace-format
 msgid ""
-"Hi, I've been added to this server. Check out our **[getting started guide]"
-"({guide_url})**\n"
+"Hi, I've been added to this server. Check out our **[getting started guide]({guide_url})**\n"
 "\n"
 "Some things you should know:\n"
 "‣ You can see all my commands with: `{prefix}help` or `{prefix}commands`\n"
 "‣ You can configure me using: `{prefix}settings`\n"
 "‣ You can set a world for me to track by using `{prefix}settings world`\n"
-"‣ Set the channel for level up and deaths using `{prefix}settings "
-"levelschannel`\n"
+"‣ Set the channel for level up and deaths using `{prefix}settings levelschannel`\n"
 "‣ People can register their characters using `{prefix}im characterName`\n"
 "‣ To set a logging channel, use `{prefix}settings serverlog`\n"
 "‣ My command prefix is: `{prefix}` (it is customizable)\n"
@@ -1202,9 +1241,7 @@ msgstr ""
 
 #: cogs/core.py:416
 #, python-brace-format
-msgid ""
-"[Invite NabBot]({web}) | [Docs]({docs}) | [Donate]({donate}) | [Patreon]"
-"({patreon})"
+msgid "[Invite NabBot]({web}) | [Docs]({docs}) | [Donate]({donate}) | [Patreon]({patreon})"
 msgstr ""
 
 #: cogs/core.py:418
@@ -1215,8 +1252,7 @@ msgstr ""
 msgid ""
 "Checks if you can receive PMs from the bot.\n"
 "\n"
-"            If you can't receive PMs, 'Allow direct messages from server "
-"members.' must be enabled in the \n"
+"            If you can't receive PMs, 'Allow direct messages from server members.' must be enabled in the \n"
 "            Privacy Settings of any server where NabBot is in."
 msgstr ""
 
@@ -1235,16 +1271,14 @@ msgstr ""
 #: cogs/general.py:53
 msgid ""
 "You can't receive my PMs.\n"
-"To enable, go to Server > Privacy Settings and enable the checkbox in any "
-"server I'm in."
+"To enable, go to Server > Privacy Settings and enable the checkbox in any server I'm in."
 msgstr ""
 
 #: cogs/general.py:60
 msgid ""
 "Chooses between multiple choices.\n"
 "    \n"
-"            Each choice is separated by spaces. For choices that contain "
-"spaces surround it with quotes.\n"
+"            Each choice is separated by spaces. For choices that contain spaces surround it with quotes.\n"
 "            e.g. \"Choice A\" ChoiceB \"Choice C"
 msgstr ""
 
@@ -1262,8 +1296,7 @@ msgid ""
 "Shows a member's permissions in the current channel.\n"
 "\n"
 "            If no member is provided, it will show your permissions.\n"
-"            Optionally, a channel can be provided as the second parameter, "
-"to check permissions in said channel."
+"            Optionally, a channel can be provided as the second parameter, to check permissions in said channel."
 msgstr ""
 
 #: cogs/general.py:87
@@ -1283,21 +1316,16 @@ msgstr ""
 msgid ""
 "Shows a messages by its ID or link.\n"
 "    \n"
-"            In order to get the message's link, you can right click and "
-"select **Copy Link**.\n"
+"            In order to get the message's link, you can right click and select **Copy Link**.\n"
 "    \n"
-"            In order to get a message's id, you need to enable Developer "
-"Mode.\n"
+"            In order to get a message's id, you need to enable Developer Mode.\n"
 "            Developer mode is found in `User Settings > Appearance`.\n"
-"            Once enabled, you can right click a message and select **Copy "
-"ID**.\n"
+"            Once enabled, you can right click a message and select **Copy ID**.\n"
 "    \n"
 "            Using a message link is faster than using an Id.\n"
 "    \n"
-"            Note that the bot won't attempt to search in channels you can't "
-"read.\n"
-"            Additionally, messages in NSFW channels can't be quoted in "
-"regular channels."
+"            Note that the bot won't attempt to search in channels you can't read.\n"
+"            Additionally, messages in NSFW channels can't be quoted in regular channels."
 msgstr ""
 
 #: cogs/general.py:132
@@ -1332,11 +1360,9 @@ msgid ""
 "            By default, it rolls a 6-sided die once.\n"
 "            You can specify how many times you want the die to be rolled.\n"
 "    \n"
-"            You can also specify the number of sides of the die, using the "
-"format `TdS` where T is times and S is sides.\n"
+"            You can also specify the number of sides of the die, using the format `TdS` where T is times and S is sides.\n"
 "    \n"
-"            The highest dice has 120 sides and the maximum number of throws "
-"is 20."
+"            The highest dice has 120 sides and the maximum number of throws is 20."
 msgstr ""
 
 #: cogs/general.py:182
@@ -1414,7 +1440,7 @@ msgstr ""
 msgid "Authors"
 msgstr ""
 
-#: cogs/info.py:65 cogs/info.py:363
+#: cogs/info.py:65 cogs/info.py:363 cogs/tibia.py:1951
 msgid "Created"
 msgstr ""
 
@@ -1475,8 +1501,7 @@ msgstr ""
 msgid ""
 "Shows information about a channel.\n"
 "\n"
-"            If no channel is specified, the information for the current "
-"channel is shown."
+"            If no channel is specified, the information for the current channel is shown."
 msgstr ""
 
 #: cogs/info.py:132
@@ -1499,7 +1524,7 @@ msgstr ""
 msgid "{count:,} members"
 msgstr ""
 
-#: cogs/info.py:140
+#: cogs/info.py:140 cogs/roles.py:489
 msgid "Mention"
 msgstr ""
 
@@ -1507,7 +1532,7 @@ msgstr ""
 msgid "NSFW"
 msgstr ""
 
-#: cogs/info.py:142 cogs/info.py:275
+#: cogs/info.py:142 cogs/info.py:275 cogs/roles.py:490
 msgid "Created on"
 msgstr ""
 
@@ -1515,29 +1540,24 @@ msgstr ""
 msgid ""
 "Shows a simple list of all commands.\n"
 "    \n"
-"            This displays all the commands you can use, with no description "
-"or subcommand information.\n"
-"            Note that different commands might show up in server channels "
-"and in private messages.\n"
+"            This displays all the commands you can use, with no description or subcommand information.\n"
+"            Note that different commands might show up in server channels and in private messages.\n"
 "    \n"
 "            For more details, use `help`."
 msgstr ""
 
 #: cogs/info.py:158
 #, python-brace-format
-msgid ""
-"For a more detailed list, try '{prefix}help' or '{prefix}help [command_name]'"
+msgid "For a more detailed list, try '{prefix}help' or '{prefix}help [command_name]'"
 msgstr ""
 
 #: cogs/info.py:176
 msgid ""
 "Shows information about an emoji, or shows all emojis.\n"
 "\n"
-"            If the command is used with no arguments, all the server emojis "
-"are shown.\n"
+"            If the command is used with no arguments, all the server emojis are shown.\n"
 "    \n"
-"            If an emoji, its id or name is provided, it will show more "
-"information about it.\n"
+"            If an emoji, its id or name is provided, it will show more information about it.\n"
 "    \n"
 "            Only emojis in the current servers can be checked."
 msgstr ""
@@ -1552,8 +1572,7 @@ msgstr ""
 
 #: cogs/info.py:193
 #, python-brace-format
-msgid ""
-"To view information of a specific emoji, use '{prefix}{command} <emoji>'"
+msgid "To view information of a specific emoji, use '{prefix}{command} <emoji>'"
 msgstr ""
 
 #: cogs/info.py:196
@@ -1597,7 +1616,7 @@ msgstr ""
 msgid "Categories"
 msgstr ""
 
-#: cogs/info.py:289
+#: cogs/info.py:289 cogs/roles.py:483
 msgid "Members"
 msgstr ""
 
@@ -1675,11 +1694,10 @@ msgid ""
 "            - Server Owner: Owner of the server\n"
 "            - Server Admin: User with `Administrator` permission\n"
 "            - Server Moderator: User with `Manage Server` permissions.\n"
-"            - Channel Moderator: User with `Manage Channels` permissions in "
-"at least one channel."
+"            - Channel Moderator: User with `Manage Channels` permissions in at least one channel."
 msgstr ""
 
-#: cogs/info.py:354
+#: cogs/info.py:354 cogs/respawn.py:487
 #, python-brace-format
 msgid "Could not find user `{user}`"
 msgstr ""
@@ -1979,9 +1997,7 @@ msgid "Member unbanned"
 msgstr ""
 
 #: cogs/loot.py:123
-msgid ""
-"You need to upload a picture of your loot and type the command in the "
-"comment."
+msgid "You need to upload a picture of your loot and type the command in the comment."
 msgstr ""
 
 #: cogs/loot.py:128
@@ -1989,9 +2005,7 @@ msgid "That's not an image!"
 msgstr ""
 
 #: cogs/loot.py:131
-msgid ""
-"That image was too big! Try splitting it into smaller images, or cropping "
-"out anything irrelevant."
+msgid "That image was too big! Try splitting it into smaller images, or cropping out anything irrelevant."
 msgstr ""
 
 #: cogs/loot.py:135
@@ -2008,9 +2022,7 @@ msgstr ""
 
 #: cogs/loot.py:159
 #, python-brace-format
-msgid ""
-"Sorry {user}, I couldn't find any loot in that image. Loot parsing will only "
-"work on high quality images, so make sure your image wasn't compressed."
+msgid "Sorry {user}, I couldn't find any loot in that image. Loot parsing will only work on high quality images, so make sure your image wasn't compressed."
 msgstr ""
 
 #: cogs/loot.py:170
@@ -2046,8 +2058,7 @@ msgstr ""
 #: cogs/loot.py:295
 msgid ""
 "\n"
-"💎 Items marked with this are used in imbuements and might be worth more in "
-"the market."
+"💎 Items marked with this are used in imbuements and might be worth more in the market."
 msgstr ""
 
 #: cogs/loot.py:311
@@ -2055,8 +2066,7 @@ msgid "Original Message"
 msgstr ""
 
 #: cogs/loot.py:315
-msgid ""
-"The results are too long to display, they have been attached as a text file."
+msgid "The results are too long to display, they have been attached as a text file."
 msgstr ""
 
 #: cogs/loot.py:329
@@ -2076,9 +2086,7 @@ msgid "Detecting item slots"
 msgstr ""
 
 #: cogs/loot.py:385
-msgid ""
-"I couldn't find any inventory slots in your image. Make sure your image is "
-"not stretched out or that overscaling is off."
+msgid "I couldn't find any inventory slots in your image. Make sure your image is not stretched out or that overscaling is off."
 msgstr ""
 
 #: cogs/loot.py:388
@@ -2092,8 +2100,7 @@ msgstr ""
 msgid ""
 "Cleans the channel from bot commands.\n"
 "\n"
-"            If the bot has `Manage Messages` permission, it will also delete "
-"command invocation messages."
+"            If the bot has `Manage Messages` permission, it will also delete command invocation messages."
 msgstr ""
 
 #: cogs/mod.py:115
@@ -2114,10 +2121,8 @@ msgid ""
 "\n"
 "        Commands cannot be used in ignored channels or by ignored users.\n"
 "\n"
-"        The command accepts a list of names, ids or mentions of users or "
-"channels.\n"
-"        If the command is used with no parameters, it ignores the current "
-"channel.\n"
+"        The command accepts a list of names, ids or mentions of users or channels.\n"
+"        If the command is used with no parameters, it ignores the current channel.\n"
 "\n"
 "        Ignores are bypassed by users with the `Manage Server` permission."
 msgstr ""
@@ -2162,8 +2167,7 @@ msgstr ""
 msgid ""
 "Makes the bot say a message.\n"
 "\n"
-"        If the user using the command doesn't have mention everyone "
-"permissions, the message will be cleaned of\n"
+"        If the user using the command doesn't have mention everyone permissions, the message will be cleaned of\n"
 "        mass mentions.\n"
 "        "
 msgstr ""
@@ -2213,8 +2217,7 @@ msgstr ""
 msgid ""
 "Shows a list of unregistered guild members.\n"
 "\n"
-"        Unregistered guild members can be either characters not registered "
-"to NabBot or\n"
+"        Unregistered guild members can be either characters not registered to NabBot or\n"
 "        registered to users not in the server."
 msgstr ""
 
@@ -2247,23 +2250,18 @@ msgstr ""
 #: cogs/premium.py:208
 #, python-brace-format
 msgid ""
-"Congratulations! You are now a patron! To enjoy the benefits in one of your "
-"servers, try the `nab.premium add` command on the server of your choice.\n"
+"Congratulations! You are now a patron! To enjoy the benefits in one of your servers, try the `nab.premium add` command on the server of your choice.\n"
 " For more information visit: {url}"
 msgstr ""
 
 #: cogs/premium.py:215
-msgid ""
-"It seems like you have lost your Patron status. The privileges of any "
-"premium servers you had will be lost. If you believe this was a mistake, let "
-"us know."
+msgid "It seems like you have lost your Patron status. The privileges of any premium servers you had will be lost. If you believe this was a mistake, let us know."
 msgstr ""
 
 #: cogs/premium.py:235
 #, python-brace-format
 msgid ""
-"You have left NabBot's server. We cannot validate your patron status "
-"anymore.\n"
+"You have left NabBot's server. We cannot validate your patron status anymore.\n"
 "Please join again to enjoy your benefits: <{url}>"
 msgstr ""
 
@@ -2280,8 +2278,7 @@ msgstr ""
 
 #: cogs/premium.py:270
 msgid ""
-"The member giving premium has left the official server and their status can "
-"no longer be validated.\n"
+"The member giving premium has left the official server and their status can no longer be validated.\n"
 "This server's benefits willbe removed."
 msgstr ""
 
@@ -2316,8 +2313,7 @@ msgstr ""
 msgid ""
 "Assigns premium to the current server or one you specify.\n"
 "\n"
-"        If you use it without parameters, it will try to add premium to the "
-"current server.\n"
+"        If you use it without parameters, it will try to add premium to the current server.\n"
 "\n"
 "        To obtain a server's ID, you can use the `serverinfo` command or\n"
 "        enable Developer Settings to view IDs with right click."
@@ -2332,8 +2328,7 @@ msgstr ""
 msgid ""
 "You must tell me the id of the server you want to give premium to.\n"
 "You can use `{prefix}serverinfo` on the server to get the ID.\n"
-"Alternatively, you can use the command in the desired server with no "
-"parameters."
+"Alternatively, you can use the command in the desired server with no parameters."
 msgstr ""
 
 #: cogs/premium.py:382
@@ -2352,12 +2347,10 @@ msgstr ""
 msgid ""
 "Shows your current premium days balance.\n"
 "\n"
-"        Premium days in your account can be assigned to servers you're in to "
-"give them\n"
+"        Premium days in your account can be assigned to servers you're in to give them\n"
 "        premium privileges.\n"
 "\n"
-"        Note that once you give premium to a server, it can't be taken "
-"back,\n"
+"        Note that once you give premium to a server, it can't be taken back,\n"
 "        even if you stop being part of the server."
 msgstr ""
 
@@ -2393,12 +2386,10 @@ msgstr ""
 msgid ""
 "Registers a Tibia Coin transfer to purchase NabBot premium.\n"
 "\n"
-"        In order to buy premium, you must transfer the coins to **Nab "
-"Broker** and\n"
+"        In order to buy premium, you must transfer the coins to **Nab Broker** and\n"
 "        then register the transaction here.\n"
 "\n"
-"        After that, you must specify the amount transferred, and the "
-"character where you transferred the coins from."
+"        After that, you must specify the amount transferred, and the character where you transferred the coins from."
 msgstr ""
 
 #: cogs/premium.py:437
@@ -2417,16 +2408,14 @@ msgstr ""
 #: cogs/premium.py:447
 #, python-brace-format
 msgid ""
-"Do you confirm that you transferred **{amount}** Tibia coins from "
-"**{character}** to **{recipient}**?\n"
+"Do you confirm that you transferred **{amount}** Tibia coins from **{character}** to **{recipient}**?\n"
 "*Abuse may result in being banned from NabBot services.*"
 msgstr ""
 
 #: cogs/premium.py:455
 #, python-brace-format
 msgid ""
-"Payment sent for verification (ID: {id}). It might take some time for "
-"premium to be assigned.\n"
+"Payment sent for verification (ID: {id}). It might take some time for premium to be assigned.\n"
 "You will receive confirmation via DM when your payment is approved."
 msgstr ""
 
@@ -2435,23 +2424,19 @@ msgstr ""
 msgid ""
 "\n"
 "\n"
-"*Make sure you're able to receive direct messages from me*. You can use "
-"`{prefix}checkdm` to check."
+"*Make sure you're able to receive direct messages from me*. You can use `{prefix}checkdm` to check."
 msgstr ""
 
 #: cogs/premium.py:466
 msgid ""
 "Shows your transactions history, and the servers you've given days to.\n"
 "\n"
-"        This shows a combination of the purchases you have done, and the "
-"servers you've given premium to.\n"
+"        This shows a combination of the purchases you have done, and the servers you've given premium to.\n"
 "\n"
 "        To only show purchases, you can add `purchases` at the end.\n"
-"        To only show which servers you have given premium to, add `servers` "
-"at the end.\n"
+"        To only show which servers you have given premium to, add `servers` at the end.\n"
 "\n"
-"        To view more information about a specific purchase transaction, use "
-"`transaction view <id>`."
+"        To view more information about a specific purchase transaction, use `transaction view <id>`."
 msgstr ""
 
 #: cogs/premium.py:486
@@ -2468,25 +2453,19 @@ msgstr ""
 
 #: cogs/premium.py:514
 msgid ""
-"Shows you a list of the servers you're currently giving premium to as a "
-"Patreon.\n"
+"Shows you a list of the servers you're currently giving premium to as a Patreon.\n"
 "\n"
-"        Users that acquired premium through Patreon are given slots that "
-"they can use to grant premium to a server.\n"
-"        This commands shows them the list of servers they're giving premium "
-"to, as well as the number of remaining slots\n"
+"        Users that acquired premium through Patreon are given slots that they can use to grant premium to a server.\n"
+"        This commands shows them the list of servers they're giving premium to, as well as the number of remaining slots\n"
 "         they have.\n"
 "\n"
-"        For regular premium users, they can use `premium history` to see "
-"which servers they have given premium days to.\n"
+"        For regular premium users, they can use `premium history` to see which servers they have given premium days to.\n"
 "        "
 msgstr ""
 
 #: cogs/premium.py:524
 #, python-brace-format
-msgid ""
-"You currently do not have any premium servers. To assign one use: `{prefix}"
-"premium add`"
+msgid "You currently do not have any premium servers. To assign one use: `{prefix}premium add`"
 msgstr ""
 
 #: cogs/premium.py:535
@@ -2506,9 +2485,7 @@ msgstr ""
 #, python-brace-format
 msgid ""
 "The price for **30** days of premium is **{price} {tc_emoji}**.\n"
-"To purchase, transfer to **{recipient}** and then submit the payment using: "
-"`{prefix}premium buy <amount> <character>` replacing with the amount sent "
-"and the character you transferred the coins from.\n"
+"To purchase, transfer to **{recipient}** and then submit the payment using: `{prefix}premium buy <amount> <character>` replacing with the amount sent and the character you transferred the coins from.\n"
 "\n"
 "*Remember to remove the `<` `>` symbols!*"
 msgstr ""
@@ -2543,16 +2520,13 @@ msgstr ""
 msgid ""
 "Unassigns premium from a server you gave premium to as a Patreon.\n"
 "\n"
-"        You can't remove premium days you have given to a server, this is "
-"only for servers that a Patreon user gave a\n"
+"        You can't remove premium days you have given to a server, this is only for servers that a Patreon user gave a\n"
 "        slot to.\n"
 "\n"
-"        If you use it without parameters, it will attempt to remove the "
-"current server.\n"
+"        If you use it without parameters, it will attempt to remove the current server.\n"
 "        Otherwise, the server's id must be provided.\n"
 "\n"
-"        You can't remove a premium server if it was assigned less than 5 "
-"days ago."
+"        You can't remove a premium server if it was assigned less than 5 days ago."
 msgstr ""
 
 #: cogs/premium.py:584
@@ -2560,15 +2534,12 @@ msgstr ""
 msgid ""
 "You must tell me the id of the server you want to remove premium from.\n"
 "You can use `{prefix}serverinfo` on the server to get the ID.\n"
-"Alternatively, you can use the command in the desired server with no "
-"parameters."
+"Alternatively, you can use the command in the desired server with no parameters."
 msgstr ""
 
 #: cogs/premium.py:596
 #, python-brace-format
-msgid ""
-"You currently do not have any premium servers. To assign one use: `{prefix}"
-"{command} add`"
+msgid "You currently do not have any premium servers. To assign one use: `{prefix}{command} add`"
 msgstr ""
 
 #: cogs/premium.py:601
@@ -2617,8 +2588,7 @@ msgstr ""
 msgid ""
 "Shows details about a specific transaction.\n"
 "\n"
-"        You can only view your own transactions. To see a list of them use "
-"`premium history`."
+"        You can only view your own transactions. To see a list of them use `premium history`."
 msgstr ""
 
 #: cogs/premium.py:769
@@ -2649,8 +2619,7 @@ msgid ""
 msgstr ""
 
 #: cogs/premium.py:813
-msgid ""
-"You cannot assign premium to a server that a Patron is giving premium to."
+msgid "You cannot assign premium to a server that a Patron is giving premium to."
 msgstr ""
 
 #: cogs/premium.py:822
@@ -2685,4 +2654,1986 @@ msgstr ""
 
 #: cogs/premium.py:861
 msgid "Additional Comments"
+msgstr ""
+
+#: cogs/respawn.py:30
+msgid "No respawns were registered."
+msgstr ""
+
+#: cogs/respawn.py:84
+#, python-brace-format
+msgid "Respawn system is not configured for this server. Use `{prefix}respawn setup` to configure."
+msgstr ""
+
+#: cogs/respawn.py:202
+#, python-brace-format
+msgid "Your time at **{respawn}** (Server: {server}) has ended."
+msgstr ""
+
+#: cogs/respawn.py:217
+#, python-brace-format
+msgid "It's your turn to take **{respawn.name}** (`{respawn.code}`). Do you want to take it?"
+msgstr ""
+
+#: cogs/respawn.py:227
+msgid "Alright, the respawn was not assigned to you."
+msgstr ""
+
+#: cogs/respawn.py:231
+#, python-brace-format
+msgid "You are now hunting in **{respawn.name}** (`{respawn.code}`)."
+msgstr ""
+
+#: cogs/respawn.py:240
+msgid ""
+"Manages respawns.\n"
+"\n"
+"        Try the subcommands for more information."
+msgstr ""
+
+#: cogs/respawn.py:243
+#, python-brace-format
+msgid ""
+"To manage the Respawn List, use one of the subcommands.\n"
+"Try `{prefix}help {command}`."
+msgstr ""
+
+#: cogs/respawn.py:252
+msgid ""
+"Claims a respawn, indicating you will be hunting there.\n"
+"\n"
+"        The duration of the hunt is determined by the server's configuration."
+msgstr ""
+
+#: cogs/respawn.py:257
+#, python-brace-format
+msgid ""
+"Someone is already hunting in **{respawn.name}**.\n"
+"You can add yourself to the queue using `{ctx.clean_prefix}respawn next {code}`."
+msgstr ""
+
+#: cogs/respawn.py:267
+#, python-brace-format
+msgid "Do you want to start hunting in **{respawn.name}**? This will end your hunt at **{current_respawn.name}**."
+msgstr ""
+
+#: cogs/respawn.py:271
+#, python-brace-format
+msgid "Do you want to start hunting in **{respawn.name}**?"
+msgstr ""
+
+#: cogs/respawn.py:277
+#, python-brace-format
+msgid ""
+"You are now hunting in **{respawn.name}**.\n"
+"Your hunt should end at the following local time:"
+msgstr ""
+
+#: cogs/respawn.py:285
+msgid "Removes the current hunter and the entire queue of a respawn."
+msgstr ""
+
+#: cogs/respawn.py:287
+#, python-brace-format
+msgid "Do you want to clear **{respawn.name}**?"
+msgstr ""
+
+#: cogs/respawn.py:292
+#, python-brace-format
+msgid "**{respawn.name}** has been cleared."
+msgstr ""
+
+#: cogs/respawn.py:300
+msgid "Hunting History"
+msgstr ""
+
+#: cogs/respawn.py:301
+msgid "There is no hunt history for this respawn."
+msgstr ""
+
+#: cogs/respawn.py:313
+msgid "History"
+msgstr ""
+
+#: cogs/respawn.py:329 cogs/respawn.py:338
+msgid "an unknown user"
+msgstr ""
+
+#: cogs/respawn.py:331
+msgid "Current hunt should end at"
+msgstr ""
+
+#: cogs/respawn.py:332 cogs/respawn.py:505
+msgid "Time left"
+msgstr ""
+
+#: cogs/respawn.py:334
+#, python-brace-format
+msgid "This spawn is currently being used by {user_name}."
+msgstr ""
+
+#. Next user on a respawn
+#: cogs/respawn.py:341 cogs/respawn.py:702
+msgid "Next"
+msgstr ""
+
+#: cogs/respawn.py:343
+msgid "This respawn is currently available."
+msgstr ""
+
+#: cogs/respawn.py:348 cogs/tibia.py:1722
+msgid "Location"
+msgstr ""
+
+#: cogs/respawn.py:358
+msgid ""
+"Removes a user from a respawn or a queue.\n"
+"\n"
+"        If no user is specified, it will remove the current user hunting in the respawn.\n"
+"        To remove a specific user in the queue, specify the name of the user.\n"
+"\n"
+"        Only server managers can use this."
+msgstr ""
+
+#: cogs/respawn.py:372
+#, python-brace-format
+msgid "There is no one hunting in **{respawn.name}**."
+msgstr ""
+
+#: cogs/respawn.py:373
+#, python-brace-format
+msgid "{user} is not hunting or in the queue of **{respawn.name}**."
+msgstr ""
+
+#: cogs/respawn.py:377
+#, python-brace-format
+msgid "Do you want to kick {user} from **{respawn.name}**?"
+msgstr ""
+
+#: cogs/respawn.py:379
+#, python-brace-format
+msgid "Do you want to remove {user} from the queue of **{respawn.name}**?"
+msgstr ""
+
+#: cogs/respawn.py:386
+#, python-brace-format
+msgid "{user} was kicked from **{respawn.name}**."
+msgstr ""
+
+#: cogs/respawn.py:388
+#, python-brace-format
+msgid "{user} was removed from the queue of **{respawn.name}**."
+msgstr ""
+
+#: cogs/respawn.py:395
+msgid "Leaves the respawn you're currently hunting at, or the queue you're at."
+msgstr ""
+
+#: cogs/respawn.py:399
+#, python-brace-format
+msgid "You're not hunting nor in the queue of **{respawn.name}**."
+msgstr ""
+
+#: cogs/respawn.py:402
+#, python-brace-format
+msgid ""
+"Are you sure you want to leave **{respawn.name}**?\n"
+"You have {time} left."
+msgstr ""
+
+#: cogs/respawn.py:406
+#, python-brace-format
+msgid "Are you sure you want to remove yourself from the queue of **{respawn.name}**?"
+msgstr ""
+
+#: cogs/respawn.py:409
+#, python-brace-format
+msgid "You're currently not hunting or in the queue of **{respawn.name}**."
+msgstr ""
+
+#: cogs/respawn.py:416
+#, python-brace-format
+msgid "You have left **{respawn.name}** (`{respawn.code}`)."
+msgstr ""
+
+#: cogs/respawn.py:418
+#, python-brace-format
+msgid "You have left the queue for **{respawn.name}** (`{respawn.code}`)."
+msgstr ""
+
+#: cogs/respawn.py:425
+msgid "Shows the complete list of respawns."
+msgstr ""
+
+#: cogs/respawn.py:438
+msgid "Respawn List"
+msgstr ""
+
+#: cogs/respawn.py:447
+msgid ""
+"Joins the queue of a respawn.\n"
+"\n"
+"        You will be notified when it is your turn for the spawn via direct message.\n"
+"        It is important to ensure you can receive private messages using the `checkdm` command.\n"
+"\n"
+"        To instead, claim a respawn that is not taken, use `respawn claim`."
+msgstr ""
+
+#: cogs/respawn.py:455
+#, python-brace-format
+msgid "The respawn **{respawn.name}** is currently available. Try using `{ctx.clean_prefix}respawn claim` instead."
+msgstr ""
+
+#: cogs/respawn.py:459
+#, python-brace-format
+msgid "You're already hunting in **{respawn.name}**."
+msgstr ""
+
+#: cogs/respawn.py:461
+#, python-brace-format
+msgid "You're already in the queue for **{respawn.name}**."
+msgstr ""
+
+#: cogs/respawn.py:462
+#, python-brace-format
+msgid "Do you want to join the queue for **{respawn.name}** (`{respawn.code}`)?"
+msgstr ""
+
+#: cogs/respawn.py:464
+#, python-format
+msgid "There is %d person in the queue"
+msgid_plural "There are %d persons in the queue."
+msgstr[0] ""
+msgstr[1] ""
+
+#: cogs/respawn.py:471
+#, python-brace-format
+msgid ""
+"You have joined the queue for **{respawn.name}** (`{respawn.code}`).\n"
+"Make sure you can receive DMs by using `{prefix}checkdm`"
+msgstr ""
+
+#: cogs/respawn.py:478
+msgid ""
+"Shows a user's current hunt or queues.\n"
+"\n"
+"        If no parameter is provided, it will show your own information.\n"
+"        A username, user id, mention or user#discriminator can be provided as parameter."
+msgstr ""
+
+#: cogs/respawn.py:494
+#, python-brace-format
+msgid "{user} is currently not hunting or in any queues."
+msgstr ""
+
+#: cogs/respawn.py:501 cogs/respawn.py:513
+msgid "Unknown Respawn"
+msgstr ""
+
+#: cogs/respawn.py:509
+msgid "Currently hunting in"
+msgstr ""
+
+#. Respawns which the user is waiting for
+#: cogs/respawn.py:518
+msgid "Currently waiting for"
+msgstr ""
+
+#: cogs/respawn.py:525
+msgid ""
+"Setups the default duration for new hunts in this server.\n"
+"\n"
+"        This does not affect the duration of existing hunts."
+msgstr ""
+
+#: cogs/respawn.py:531
+#, python-format
+msgid "The default duration cannot be more than %d hours."
+msgstr ""
+
+#: cogs/respawn.py:535
+#, python-brace-format
+msgid "Do you want to set the default duration for hunts for this server to **{new_duration}**?"
+msgstr ""
+
+#: cogs/respawn.py:544
+msgid "The hunt default duration has been updated."
+msgstr ""
+
+#: cogs/respawn.py:550
+msgid ""
+"Sets the maximum number of people in a respawn's queue.\n"
+"\n"
+"        Note that changing this won't affect existing queues."
+msgstr ""
+
+#: cogs/respawn.py:556 cogs/respawn.py:558
+#, python-format
+msgid "The limit cannot be lower than %d."
+msgstr ""
+
+#: cogs/respawn.py:560
+#, python-format
+msgid "Do you want to set respawn queue limit for this server to **%d**?"
+msgstr ""
+
+#: cogs/respawn.py:565
+msgid "The queue limit has been updated."
+msgstr ""
+
+#: cogs/respawn.py:571
+msgid ""
+"Setups the respawn system for this server.\n"
+"\n"
+"        This will create a channel where the currently occupied respawns will be placed."
+msgstr ""
+
+#: cogs/respawn.py:575
+#, python-brace-format
+msgid "This feature is only for premium users. For more information on how to getpremium use: `{prefix}premium info`"
+msgstr ""
+
+#: cogs/respawn.py:579
+msgid "This server's respawn system is already setup."
+msgstr ""
+
+#: cogs/respawn.py:582
+msgid "I need `Manage Channels` permission in order to setup the respawn system."
+msgstr ""
+
+#: cogs/respawn.py:593
+msgid "Sorry, I don't have permissions to create channels."
+msgstr ""
+
+#: cogs/respawn.py:595
+msgid "Something went wrong, please try again later."
+msgstr ""
+
+#: cogs/respawn.py:597
+msgid ""
+"This is where I will post a list of spawns **currently taken**.The attached image displays the **complete** respawn list with their codes.\n"
+"Edit this channel's permissions to allow the roles you want.\n"
+"This channel can be renamed freely.\n"
+"If this channel is deleted, you will have to setup respawns again.\n"
+"**It is important to not allow anyone to write in here**\n"
+"*This message can be deleted now.*"
+msgstr ""
+
+#: cogs/respawn.py:605
+msgid "Chanel created successfully"
+msgstr ""
+
+#: cogs/respawn.py:669 cogs/respawn.py:685
+msgid "Respawns"
+msgstr ""
+
+#: cogs/respawn.py:670
+msgid "There is currently no one hunting in any respawns."
+msgstr ""
+
+#: cogs/respawn.py:682
+msgid "And more"
+msgstr ""
+
+#: cogs/respawn.py:694 cogs/respawn.py:700
+msgid "Unknown User"
+msgstr ""
+
+#: cogs/roles.py:108 cogs/roles.py:109
+msgid "Automatic roles"
+msgstr ""
+
+#: cogs/roles.py:146
+msgid ""
+"Autorole commands.\n"
+"\n"
+"        All the subcommands require having `Manage Roles` permission."
+msgstr ""
+
+#: cogs/roles.py:156
+msgid ""
+"Creates a new autorole rule.\n"
+"\n"
+"        Rules consist of a role, and a guild name.\n"
+"        When a user has a registered character in said guild, they receive the role.\n"
+"        If they stop having a character in the guild, the role is removed.\n"
+"\n"
+"        If `*` is used as a guild. It means that the role will be given for having any assigned character\n"
+"        in the tracked world.\n"
+"\n"
+"        You can also specify a required rank in the guild to get the role. For example:\n"
+"        `Keeper@Redd Alliance` will give the role only if the character has the rank Keeper in Redd Alliance.\n"
+"\n"
+"        Role names, role mentions or role ids are allowed. Role names with multiple words must be quoted.\n"
+"        Note that current members will be updated until their characters or guilds change."
+msgstr ""
+
+#: cogs/roles.py:175
+msgid ""
+"That's not a valid rule. Valid rules are:\n"
+"\t- `*` - All users with registered characters\n"
+"\t - `*@GuildName` / `GuildName` - All users with characters belonging to **GuildName**\n"
+"\t - `RankName@GuildName` - All users with characters belonging to **GuildName** and with rank **RankName**."
+msgstr ""
+
+#: cogs/roles.py:190
+#, python-brace-format
+msgid "There's no guild named `{name}`"
+msgstr ""
+
+#: cogs/roles.py:197
+msgid "Autorole rule already exists."
+msgstr ""
+
+#: cogs/roles.py:202
+msgid "You can't create a rule for a role higher or equals than your highest role."
+msgstr ""
+
+#: cogs/roles.py:204
+msgid "I can't create a rule for a role higher than my highest role."
+msgstr ""
+
+#: cogs/roles.py:206
+#, python-brace-format
+msgid "Members of guild `{name}` and rank `{rank}` will automatically receive the {role} role."
+msgstr ""
+
+#: cogs/roles.py:208
+#, python-brace-format
+msgid "Members of guild `{name}` will automatically receive the {role} role. "
+msgstr ""
+
+#: cogs/roles.py:210
+#, python-brace-format
+msgid "All users with registered characters will automatically receive the {role} role."
+msgstr ""
+
+#: cogs/roles.py:211
+msgid "Is this correct?"
+msgstr ""
+
+#: cogs/roles.py:219
+msgid "Autorole rule created."
+msgstr ""
+
+#: cogs/roles.py:226
+msgid "Shows a list of autorole rules."
+msgstr ""
+
+#: cogs/roles.py:229 cogs/roles.py:239
+msgid "This server has no autorole rules."
+msgstr ""
+
+#: cogs/roles.py:244
+msgid "Autorole rules"
+msgstr ""
+
+#: cogs/roles.py:254
+msgid ""
+"Triggers a refresh on all members.\n"
+"\n"
+"        This will apply existing rules to all members.\n"
+"        Note that guild changes from members that haven't been online won't be detected.\n"
+"        Deleted rules won't have any effect.\n"
+"\n"
+"        This command can only be used once per server every day."
+msgstr ""
+
+#: cogs/roles.py:261
+msgid ""
+"This will make me check the guilds of all registered characters to apply existing rules.\n"
+"Note that character with outdated information won't be updated until they are online again or checked using `whois`\n"
+"Are you sure you want this?."
+msgstr ""
+
+#: cogs/roles.py:270
+msgid "Starting role refreshing..."
+msgstr ""
+
+#: cogs/roles.py:274 cogs/roles.py:276
+msgid "Refresh done, roles will be updated shortly."
+msgstr ""
+
+#: cogs/roles.py:283
+msgid ""
+"Removes an autorole rule.\n"
+"\n"
+"        Role names, mentions and ids are accepted. Role names with multiple words need to be quoted.\n"
+"\n"
+"        Note that members that currently have the role won't be affected."
+msgstr ""
+
+#: cogs/roles.py:294
+msgid "That rule doesn't exist."
+msgstr ""
+
+#: cogs/roles.py:300
+msgid "You can't delete a role rule for a role higher than yours."
+msgstr ""
+
+#: cogs/roles.py:303
+msgid "Auto role rule removed. Note that the role won't be removed from current members."
+msgstr ""
+
+#: cogs/roles.py:311
+msgid ""
+"Joins or leaves a group (role).\n"
+"\n"
+"        If you're not in the group, you will be added.\n"
+"        If you're already in the group, you will be removed.\n"
+"\n"
+"        To see a list of joinable groups, use `group list`"
+msgstr ""
+
+#: cogs/roles.py:321
+#, python-brace-format
+msgid "Role {name} is not a joinable role."
+msgstr ""
+
+#: cogs/roles.py:329
+msgid "I can't manage groups of roles higher than mine."
+msgstr ""
+
+#: cogs/roles.py:331
+msgid "Joined group"
+msgstr ""
+
+#: cogs/roles.py:333
+msgid "Left group"
+msgstr ""
+
+#: cogs/roles.py:335
+msgid "I need `Manage Roles` to manage groups."
+msgstr ""
+
+#: cogs/roles.py:337
+msgid "Something went wrong. Try again later."
+msgstr ""
+
+#: cogs/roles.py:340
+#, python-brace-format
+msgid "You joined {name}."
+msgstr ""
+
+#: cogs/roles.py:342
+#, python-brace-format
+msgid "You left {name}."
+msgstr ""
+
+#: cogs/roles.py:350
+msgid ""
+"Creates a new group for members to join.\n"
+"\n"
+"        The group can be a new role that will be created with this command.\n"
+"        If the name matches an existent role, that role will become joinable.\n"
+"\n"
+"        You need `Manage Roles` permissions to use this command."
+msgstr ""
+
+#: cogs/roles.py:367
+msgid "I need `Manage Roles` permission to create a group."
+msgstr ""
+
+#: cogs/roles.py:370
+msgid "Invalid group name."
+msgstr ""
+
+#: cogs/roles.py:375
+#, python-brace-format
+msgid "Group {name} already exists."
+msgstr ""
+
+#: cogs/roles.py:380
+msgid "You can't make a group from a role higher or equals than your highest role."
+msgstr ""
+
+#: cogs/roles.py:382
+msgid "I can't make a group from a role higher or equals than my highest role."
+msgstr ""
+
+#: cogs/roles.py:385
+#, python-brace-format
+msgid "Group {name} created successfully."
+msgstr ""
+
+#: cogs/roles.py:391
+msgid "Shows a list of available groups."
+msgstr ""
+
+#: cogs/roles.py:394
+msgid "This server has no joinable groups."
+msgstr ""
+
+#: cogs/roles.py:403
+#, python-format
+msgid "`%d member`"
+msgid_plural "`%d members`"
+msgstr[0] ""
+msgstr[1] ""
+
+#: cogs/roles.py:409
+msgid "Joinable groups"
+msgstr ""
+
+#: cogs/roles.py:420
+msgid ""
+"Removes a group.\n"
+"\n"
+"        Removes a group, making members unable to join.\n"
+"        When removing a group, you can optionally delete the role too."
+msgstr ""
+
+#: cogs/roles.py:428
+#, python-brace-format
+msgid "{role} is not a group."
+msgstr ""
+
+#: cogs/roles.py:433
+msgid "You can't delete a group of a role higher than your highest role."
+msgstr ""
+
+#: cogs/roles.py:435
+msgid "I can't delete a group of a role higher than my highest role."
+msgstr ""
+
+#: cogs/roles.py:437
+#, python-brace-format
+msgid "Group {name} will be removed. Do you want to remove the role too?"
+msgstr ""
+
+#: cogs/roles.py:442
+#, python-brace-format
+msgid "Group removed by {user}"
+msgstr ""
+
+#: cogs/roles.py:443
+#, python-brace-format
+msgid "Group {name} was removed and the role was deleted."
+msgstr ""
+
+#: cogs/roles.py:445
+#, python-brace-format
+msgid "Group {name} removed."
+msgstr ""
+
+#: cogs/roles.py:446
+msgid "I need `Manage Roles` permission to delete the Discord role."
+msgstr ""
+
+#: cogs/roles.py:448
+#, python-brace-format
+msgid "Group {name} was removed."
+msgstr ""
+
+#: cogs/roles.py:456
+msgid "Shows a list of members with no roles."
+msgstr ""
+
+#: cogs/roles.py:465
+msgid "There are no members without roles."
+msgstr ""
+
+#: cogs/roles.py:471
+msgid "Members with no roles"
+msgstr ""
+
+#: cogs/roles.py:484
+msgid "Mentionable"
+msgstr ""
+
+#. Whether the role appears separate in the right side of Discord
+#: cogs/roles.py:486
+msgid "Hoisted"
+msgstr ""
+
+#: cogs/roles.py:487
+msgid "Position"
+msgstr ""
+
+#: cogs/roles.py:488
+msgid "Color"
+msgstr ""
+
+#: cogs/roles.py:502
+#, python-brace-format
+msgid "Seems like there are no members with the role {name}."
+msgstr ""
+
+#: cogs/roles.py:505
+#, python-brace-format
+msgid "Members with the role '{name}'"
+msgstr ""
+
+#: cogs/roles.py:521
+msgid ""
+"Sends a message mentioning a role.\n"
+"\n"
+"        This allows using a role mention for roles that have mentioning disabled.\n"
+"        Mentions for the role are enabled, the message is sent and role mentions are disabled again.\n"
+"\n"
+"        The message is signed by the command author.\n"
+"        "
+msgstr ""
+
+#: cogs/roles.py:532
+msgid "You can't mention a role highest than your highest role."
+msgstr ""
+
+#: cogs/roles.py:535
+msgid "I can't mention a role highest than my highest role."
+msgstr ""
+
+#: cogs/roles.py:537
+#, python-brace-format
+msgid ""
+"The message will mention the role {name}. Your name will appear at the bottom of the message.\n"
+"Please tell me the content of the message.\n"
+"You can also say `cancel` to exit."
+msgstr ""
+
+#: cogs/roles.py:545
+msgid "...I guess you changed your mind."
+msgstr ""
+
+#: cogs/roles.py:548
+msgid "Alright, no message will be sent."
+msgstr ""
+
+#: cogs/roles.py:551
+msgid "The message can't be longer than {limit:,} characters."
+msgstr ""
+
+#: cogs/roles.py:558
+#, python-brace-format
+msgid "Turn mentions on for role mention by {user}"
+msgstr ""
+
+#: cogs/roles.py:560
+#, python-brace-format
+msgid "Message sent by {user}"
+msgstr ""
+
+#: cogs/roles.py:564
+msgid "Reverting mentionable"
+msgstr ""
+
+#: cogs/roles.py:571
+msgid ""
+"Shows a user's roles or a list of server roles.\n"
+"\n"
+"        If a user is specified, it will list their roles.\n"
+"        If user is blank, I will list all the server's roles."
+msgstr ""
+
+#: cogs/roles.py:576
+msgid "Roles in this server"
+msgstr ""
+
+#: cogs/roles.py:579
+msgid "There are no roles in this server."
+msgstr ""
+
+#: cogs/roles.py:584
+#, python-brace-format
+msgid "I don't see any user named **{user}**."
+msgstr ""
+
+#: cogs/roles.py:586
+#, python-brace-format
+msgid "Roles for @{user}"
+msgstr ""
+
+#: cogs/roles.py:589
+#, python-brace-format
+msgid "{user} has no roles."
+msgstr ""
+
+#: cogs/roles.py:598
+msgid "member"
+msgid_plural "members"
+msgstr[0] ""
+msgstr[1] ""
+
+#: cogs/stats.py:37
+msgid "Shows command statistics."
+msgstr ""
+
+#: cogs/stats.py:50 cogs/stats.py:90
+msgid "{count:,} command use"
+msgid_plural "{count:,} command uses"
+msgstr[0] ""
+msgstr[1] ""
+
+#: cogs/stats.py:52
+msgid "Command Stats"
+msgstr ""
+
+#: cogs/stats.py:53 cogs/stats.py:93
+msgid "Tracking usage since"
+msgstr ""
+
+#: cogs/stats.py:57 cogs/stats.py:65 cogs/stats.py:97 cogs/stats.py:107
+#: cogs/stats.py:114
+msgid "{count:,} use"
+msgid_plural "{count:,} uses"
+msgstr[0] ""
+msgstr[1] ""
+
+#: cogs/stats.py:59 cogs/stats.py:99
+msgid "Top commands"
+msgstr ""
+
+#: cogs/stats.py:64 cogs/stats.py:113
+#, python-brace-format
+msgid "<User {id}>"
+msgstr ""
+
+#: cogs/stats.py:67 cogs/stats.py:116
+msgid "Top users"
+msgstr ""
+
+#: cogs/stats.py:77
+msgid "Shows command statistics of all servers."
+msgstr ""
+
+#: cogs/stats.py:92
+msgid "Global Command Stats"
+msgstr ""
+
+#: cogs/stats.py:104
+msgid "Private Message"
+msgstr ""
+
+#: cogs/stats.py:106
+#, python-brace-format
+msgid "<Server {id}>"
+msgstr ""
+
+#: cogs/stats.py:109
+msgid "Top servers"
+msgstr ""
+
+#: cogs/stats.py:146
+msgid "There is not enough data to build the graph."
+msgstr ""
+
+#: cogs/stats.py:148
+msgid "Server Count History"
+msgstr ""
+
+#: cogs/stats.py:150
+#, python-brace-format
+msgid "Showing data from {from_date} to {to_date}"
+msgstr ""
+
+#: cogs/stats.py:166
+msgid "Could not find data."
+msgstr ""
+
+#: cogs/tibia.py:227
+msgid "Shows information about a bazaar auction."
+msgstr ""
+
+#: cogs/tibia.py:230
+#, python-brace-format
+msgid "There is no auction with ID {auction_id}"
+msgstr ""
+
+#: cogs/tibia.py:239
+msgid ""
+"Shows all the auctions a character has been involved in.\n"
+"\n"
+"        An indicator is shown for finished auctions, showing if it was successful (character was sold) or not.\n"
+"        If the auction is still being processed, it is unknown if the auction will be successful or not."
+msgstr ""
+
+#: cogs/tibia.py:252
+msgid "Could not find any auctions for this character."
+msgstr ""
+
+#: cogs/tibia.py:272
+msgid "Sold"
+msgstr ""
+
+#: cogs/tibia.py:278
+#, python-brace-format
+msgid "Auctions of {name}"
+msgstr ""
+
+#: cogs/tibia.py:286
+msgid ""
+"Shows currently active auctions containing a specific item.\n"
+"\n"
+"        Only auctions in progress are shown. The data displayed is not live and bid amounts might be outdated."
+msgstr ""
+
+#: cogs/tibia.py:301
+msgid "That item does not exist or it has never been in an auction."
+msgstr ""
+
+#: cogs/tibia.py:331
+msgid "There are no active auctions with that item."
+msgstr ""
+
+#: cogs/tibia.py:335
+#, python-brace-format
+msgid "Auctions with {item}"
+msgstr ""
+
+#: cogs/tibia.py:346
+msgid "Shows a summary of auctions."
+msgstr ""
+
+#: cogs/tibia.py:349
+msgid "Auction Statistics"
+msgstr ""
+
+#: cogs/tibia.py:349 cogs/tibia.py:412
+msgid "Last updated"
+msgstr ""
+
+#: cogs/tibia.py:350
+msgid "There's a total of **{count:,}** auctions."
+msgstr ""
+
+#: cogs/tibia.py:352
+msgid "By Status"
+msgstr ""
+
+#: cogs/tibia.py:357
+msgid ""
+"The total worth of all characters successfully traded is **{total_tc:,.0f}** {TC}.\n"
+"The total of all fees and commissions paid is **{total_fees:,.0f}** {TC}"
+msgstr ""
+
+#: cogs/tibia.py:360
+msgid "Most Expensive"
+msgstr ""
+
+#: cogs/tibia.py:369
+msgid ""
+"Shows a world's bosses predictions.\n"
+"\n"
+"        Shows the chances of boss respawning, the last time a boss was seen, or the expected time to see the boss.\n"
+"        Data is provided by TibiaBosses.com.\n"
+"        "
+msgstr ""
+
+#: cogs/tibia.py:377
+msgid "You must specify the world you want predictions for."
+msgstr ""
+
+#: cogs/tibia.py:380
+msgid "There is no world with that name."
+msgstr ""
+
+#: cogs/tibia.py:384
+msgid "Could not fetch boss predictions."
+msgstr ""
+
+#: cogs/tibia.py:388
+msgid "For premium predictions, check out [TibiaBosses.com](https://www.tibiabosses.com/premium/)"
+msgstr ""
+
+#: cogs/tibia.py:390
+#, python-brace-format
+msgid "Boss predictions for {world}"
+msgstr ""
+
+#: cogs/tibia.py:402
+msgid "Gets the boosted creature of the day."
+msgstr ""
+
+#: cogs/tibia.py:405
+msgid "Today's boosted creature"
+msgstr ""
+
+#: cogs/tibia.py:407
+#, python-brace-format
+msgid ""
+"The boosted creature of the day is **{name}**.\n"
+"They will yield double experience, double loot and will respawn twice as fast!\n"
+"\n"
+"*Try `{prefix}monster {name}` to see more info!*"
+msgstr ""
+
+#: cogs/tibia.py:419
+msgid "Gets the most recent boosted creature entries."
+msgstr ""
+
+#: cogs/tibia.py:422
+msgid "There are no saved boosted creature entries."
+msgstr ""
+
+#: cogs/tibia.py:424
+msgid "Recent Boosted Creatures"
+msgstr ""
+
+#: cogs/tibia.py:433
+msgid "Shows the events of the current month, according to Tibia.com"
+msgstr ""
+
+#: cogs/tibia.py:437
+msgid "Events for {date:%B %Y}"
+msgstr ""
+
+#: cogs/tibia.py:438
+msgid "All events start and end at the server save of the day specified."
+msgstr ""
+
+#: cogs/tibia.py:443
+msgid "Until {event.end_date:%b %d}"
+msgstr ""
+
+#: cogs/tibia.py:445
+msgid "From {event.start_date:%b %d}"
+msgstr ""
+
+#: cogs/tibia.py:447
+msgid "From {event.start_date:%b %d} to {event.end_date:%b %d}"
+msgstr ""
+
+#: cogs/tibia.py:466
+msgid "Previous events"
+msgstr ""
+
+#: cogs/tibia.py:468
+msgid "Current events"
+msgstr ""
+
+#: cogs/tibia.py:470
+msgid "Upcoming events"
+msgstr ""
+
+#: cogs/tibia.py:476
+msgid ""
+"Shows the latest CM posts in the forum.\n"
+"\n"
+"        Posts made by Community Managers on the Tibia forums."
+msgstr ""
+
+#: cogs/tibia.py:481
+msgid "There are no CM posts in the last 30 days."
+msgstr ""
+
+#: cogs/tibia.py:490
+msgid "Recent CM Posts"
+msgstr ""
+
+#: cogs/tibia.py:501
+msgid ""
+"Shows a character's recent deaths or the recent deaths of characters in the server.\n"
+"\n"
+"        When no name is specified, the recent deaths of characters in the server are displayed.\n"
+"\n"
+"        When used in a private channel, only deaths from Tibia.com will be shown."
+msgstr ""
+
+#: cogs/tibia.py:507
+msgid "This server is not tracking any Tibia worlds."
+msgstr ""
+
+#: cogs/tibia.py:513
+msgid ""
+"Cannot use this command without parameters in private messages.\n"
+"Please specify the name of a character."
+msgstr ""
+
+#: cogs/tibia.py:516
+msgid "Recent deaths"
+msgstr ""
+
+#: cogs/tibia.py:525
+msgid "There are no recent deaths."
+msgstr ""
+
+#: cogs/tibia.py:542
+msgid "Shows the latest deaths caused by a specific monster."
+msgstr ""
+
+#: cogs/tibia.py:559
+msgid "There are no registered deaths by that killer."
+msgstr ""
+
+#: cogs/tibia.py:563
+#, python-brace-format
+msgid "{monster} latest kills"
+msgstr ""
+
+#: cogs/tibia.py:573
+msgid "Shows a user's recent deaths on his/her registered characters."
+msgstr ""
+
+#: cogs/tibia.py:576 cogs/tibia.py:1063 cogs/tibia.py:1416
+msgid "I don't see any users with that name."
+msgstr ""
+
+#: cogs/tibia.py:590
+msgid "There are not registered deaths by this user."
+msgstr ""
+
+#: cogs/tibia.py:592
+#, python-brace-format
+msgid "{user} latest deaths"
+msgstr ""
+
+#: cogs/tibia.py:606
+msgid ""
+"Shows death statistics\n"
+"\n"
+"        Shows the total number of deaths, the characters and users with more deaths, and the most common killers.\n"
+"\n"
+"        To see a shorter period, use `week` or `month` as a parameter."
+msgstr ""
+
+#: cogs/tibia.py:615
+msgid " in the last 7 days."
+msgstr ""
+
+#: cogs/tibia.py:618
+msgid " in the last 30 days."
+msgstr ""
+
+#: cogs/tibia.py:621
+msgid " in the last 365 days."
+msgstr ""
+
+#: cogs/tibia.py:622
+#, python-brace-format
+msgid "For a shorter period, try `{prefix}{name} week` or `{prefix}{name} month`"
+msgstr ""
+
+#: cogs/tibia.py:625
+msgid "There are {total:,} deaths registered{duration}."
+msgstr ""
+
+#: cogs/tibia.py:638
+msgid "Most deaths per character"
+msgstr ""
+
+#: cogs/tibia.py:650
+msgid "Most deaths per user"
+msgstr ""
+
+#: cogs/tibia.py:660
+msgid "Most deaths per killer"
+msgstr ""
+
+#: cogs/tibia.py:667
+msgid "Shows the contents of a forum post."
+msgstr ""
+
+#: cogs/tibia.py:670
+msgid "There's no forum with that id."
+msgstr ""
+
+#: cogs/tibia.py:675
+msgid "See more…"
+msgstr ""
+
+#: cogs/tibia.py:680
+#, python-brace-format
+msgid "Posted by {author}"
+msgstr ""
+
+#: cogs/tibia.py:682
+msgid "Posted on"
+msgstr ""
+
+#: cogs/tibia.py:690
+msgid ""
+"Shows online characters in a guild.\n"
+"\n"
+"        Show's the number of members the guild has and a list of their users.\n"
+"        It also shows whether the guild has a guildhall or not, and their funding date.\n"
+"        "
+msgstr ""
+
+#: cogs/tibia.py:697 cogs/tibia.py:733
+#, python-brace-format
+msgid "The guild {0} doesn't exist."
+msgstr ""
+
+#: cogs/tibia.py:702 cogs/tibia.py:737
+#, python-brace-format
+msgid "The guild was founded on {guild.founded}"
+msgstr ""
+
+#: cogs/tibia.py:705
+#, python-brace-format
+msgid "They own the guildhall {gh_url}."
+msgstr ""
+
+#: cogs/tibia.py:709
+msgid "Nobody is online. It has **{guild.member_count:,}** members."
+msgstr ""
+
+#: cogs/tibia.py:716
+#, python-brace-format
+msgid "It has **{online}** player online out of **{member_count}**:"
+msgstr ""
+
+#: cogs/tibia.py:728
+msgid ""
+"Shows basic information and stats about a guild.\n"
+"\n"
+"        It shows their description, homepage, guildhall, number of members and more."
+msgstr ""
+
+#. Guild application status
+#: cogs/tibia.py:747
+msgid "Open"
+msgstr ""
+
+#: cogs/tibia.py:747
+msgid "Closed"
+msgstr ""
+
+#. Guild applications
+#: cogs/tibia.py:750
+msgid "Applications"
+msgstr ""
+
+#: cogs/tibia.py:752
+msgid "Homepage"
+msgstr ""
+
+#: cogs/tibia.py:764
+msgid "Members online"
+msgstr ""
+
+#: cogs/tibia.py:765
+msgid "Average level"
+msgstr ""
+
+#: cogs/tibia.py:766
+msgid "Highest member"
+msgstr ""
+
+#: cogs/tibia.py:768
+msgid "Vocation distribution"
+msgstr ""
+
+#: cogs/tibia.py:775
+msgid ""
+"Shows a list of all guild members.\n"
+"\n"
+"        Online members have an icon next to their name."
+msgstr ""
+
+#: cogs/tibia.py:780
+#, python-brace-format
+msgid "The guild {name} doesn't exist."
+msgstr ""
+
+#: cogs/tibia.py:804
+msgid "Shows the list of guilds of a world."
+msgstr ""
+
+#: cogs/tibia.py:810
+msgid "There are no guilds in this world."
+msgstr ""
+
+#. For guilds that are still not fully consolidated, e.g. doesn't have 4 vices yet
+#: cogs/tibia.py:815
+msgid "In formation"
+msgstr ""
+
+#: cogs/tibia.py:822
+#, python-brace-format
+msgid "Guilds in {world}"
+msgstr ""
+
+#: cogs/tibia.py:833
+msgid ""
+"Shows the highscores for a given world and category.\n"
+"\n"
+"        If the server is already tracking a world, the tracked world will be used if no world is specified.\n"
+"\n"
+"        To see the highscores of all worlds, use \"global\" or \"all\" as the world parameter.\n"
+"\n"
+"        Available categories are: experience, magic, sword, club, axe, shielding, fishing, fist, distance, goshnar,\n"
+"        charms and loyalty.\n"
+"        Available vocations are: all, none, paladin, druid, sorcerer, knight."
+msgstr ""
+
+#: cogs/tibia.py:864
+#, python-brace-format
+msgid ""
+"Invalid category or world.\n"
+"Valid categories are: {0}"
+msgstr ""
+
+#: cogs/tibia.py:869
+#, python-brace-format
+msgid "Invalid vocation, valid vocations are: {0}."
+msgstr ""
+
+#: cogs/tibia.py:877
+msgid "I couldn't find any highscores entries."
+msgstr ""
+
+#: cogs/tibia.py:897
+msgid "all worlds"
+msgstr ""
+
+#: cogs/tibia.py:898
+#, python-brace-format
+msgid "🏆 {category} highscores for {world}"
+msgstr ""
+
+#: cogs/tibia.py:910
+msgid ""
+"Shows the last scan times of the highscores for each world and category.\n"
+"\n"
+"        A checkmark indicates the last scan belongs to the same server save segment or not."
+msgstr ""
+
+#: cogs/tibia.py:937
+msgid ""
+"Shows info for a house or guildhall.\n"
+"\n"
+"        By default, it shows the current status of a house for the current tracked world (if any).\n"
+"        If used on private messages, no world is looked up unless specified.\n"
+"\n"
+"        To specify a world, add the world at the end separated with a comma."
+msgstr ""
+
+#: cogs/tibia.py:962
+msgid "TibiaWiki module is unavailable for the moment, try again later."
+msgstr ""
+
+#: cogs/tibia.py:966
+msgid "I couldn't find a house with that name."
+msgstr ""
+
+#: cogs/tibia.py:995
+msgid ""
+"Shows a character's or everyone's recent level ups.\n"
+"\n"
+"        If a character is specified, it displays a list of its recent level ups.\n"
+"        If no character is specified, it will show the recent level ups of all registered characters in the server.\n"
+"\n"
+"        This only works for characters registered in the bots database, which are the characters owned\n"
+"        by the users of this Discord server."
+msgstr ""
+
+#: cogs/tibia.py:1009
+msgid "Latest level ups"
+msgstr ""
+
+#: cogs/tibia.py:1029 cogs/tibia.py:1032 cogs/tibia.py:1375 cogs/tibia.py:1378
+msgid "I don't have a character with that name registered."
+msgstr ""
+
+#: cogs/tibia.py:1036
+#, python-brace-format
+msgid "{emoji} {name} latest level ups"
+msgstr ""
+
+#: cogs/tibia.py:1043
+msgid "There are no registered levels."
+msgstr ""
+
+#: cogs/tibia.py:1060
+msgid "Shows a user's recent level ups on their registered characters."
+msgstr ""
+
+#: cogs/tibia.py:1079
+msgid "There are not registered level ups by this user."
+msgstr ""
+
+#: cogs/tibia.py:1082
+#, python-brace-format
+msgid "{user} latest level ups"
+msgstr ""
+
+#: cogs/tibia.py:1094
+msgid ""
+"Shows the latest news articles from Tibia.com.\n"
+"\n"
+"        If no id is supplied, a list of recent articles is shown, otherwise, a snippet of the article is shown."
+msgstr ""
+
+#: cogs/tibia.py:1101
+msgid "Something went wrong getting recent news."
+msgstr ""
+
+#: cogs/tibia.py:1107
+msgid "There's no article with that id."
+msgstr ""
+
+#: cogs/tibia.py:1109
+msgid "I couldn't fetch the recent news, I'm having network problems."
+msgstr ""
+
+#: cogs/tibia.py:1119
+msgid "Something went wrong getting recent news ticker."
+msgstr ""
+
+#: cogs/tibia.py:1121
+msgid "Recent news ticker"
+msgstr ""
+
+#: cogs/tibia.py:1128
+msgid ""
+"Searches for online characters that meet the criteria.\n"
+"\n"
+"        There are 3 ways to use this command:\n"
+"\n"
+"        - Find a character in share range with another character. (`searchworld <name>`)\n"
+"        - Find a character in share range with a certain level. (`searchworld <level>`)\n"
+"        - Find a character in a level range. (`searchworld <min>,<max>`)\n"
+"\n"
+"        By default, the tracked world is searched, unless specified at the end of the parameters\n"
+"\n"
+"        You can add the world where you want to look in by adding a comma, followed by the name of the world.\n"
+"        Example: `searchworld Cachero,Calmera`\n"
+"        "
+msgstr ""
+
+#: cogs/tibia.py:1141
+#, python-brace-format
+msgid ""
+"Invalid arguments used, examples:\n"
+"```{prefix}{command} charname[,world]\n"
+"{prefix}{command} level[,world]\n"
+"{prefix}{command} minlevel,maxlevel[,world]```"
+msgstr ""
+
+#: cogs/tibia.py:1173 cogs/tibia.py:1615
+msgid "I couldn't find a character with that name."
+msgstr ""
+
+#: cogs/tibia.py:1178
+#, python-brace-format
+msgid "Characters online in share range with {0}({1}-{2}):"
+msgstr ""
+
+#: cogs/tibia.py:1190 cogs/tibia.py:1199
+msgid "You entered an invalid level."
+msgstr ""
+
+#: cogs/tibia.py:1194
+#, python-brace-format
+msgid "Characters online between level {0} and {1}"
+msgstr ""
+
+#: cogs/tibia.py:1195
+#, python-brace-format
+msgid "I didn't find anyone between levels **{0}** and **{1}**"
+msgstr ""
+
+#: cogs/tibia.py:1202
+#, python-brace-format
+msgid "Characters online in share range with level {0} ({1}-{2})"
+msgstr ""
+
+#: cogs/tibia.py:1203
+#, python-brace-format
+msgid "I didn't find anyone in share range with level **{0}** ({1}-{2})"
+msgstr ""
+
+#: cogs/tibia.py:1208
+msgid "You must tell me the world where you want to search."
+msgstr ""
+
+#. This really shouldn't happen...
+#: cogs/tibia.py:1213
+#, python-brace-format
+msgid "There's no world named **{world}**."
+msgstr ""
+
+#: cogs/tibia.py:1217
+#, python-brace-format
+msgid "There is no one online in {world}."
+msgstr ""
+
+#: cogs/tibia.py:1228
+#, python-brace-format
+msgid "**{0.name}** - Level {0.level} {1}"
+msgstr ""
+
+#: cogs/tibia.py:1243
+msgid ""
+"Shows the sharing range for that level or character or list of characters.\n"
+"\n"
+"        This command can be used in three ways:\n"
+"\n"
+"        1. Find the share range of a certain level. (`share <level>`)\n"
+"        2. Find the share range of a character. (`share <name>`)\n"
+"        3. Find the joint share range of a group of characters. (`share <name1, name2...>`)\n"
+"        "
+msgstr ""
+
+#: cogs/tibia.py:1258
+#, python-format
+msgid "The level must be %d or higher."
+msgstr ""
+
+#: cogs/tibia.py:1260
+#, python-format
+msgid "The level must be %d or lower."
+msgstr ""
+
+#: cogs/tibia.py:1262
+msgid "A level {level:,} can share experience with levels **{low:,}** to **{high:,}**."
+msgstr ""
+
+#: cogs/tibia.py:1269
+#, python-format
+msgid "You must specify a level, a character's name or up to %d character names."
+msgstr ""
+
+#: cogs/tibia.py:1272
+#, python-format
+msgid "I can only check up to %d characters at a time."
+msgstr ""
+
+#: cogs/tibia.py:1277
+msgid "There is no character with that name."
+msgstr ""
+
+#: cogs/tibia.py:1282
+msgid "**{name}** ({level:,}) can share experience with levels **{low:,}** to **{high:,}**."
+msgstr ""
+
+#: cogs/tibia.py:1287
+msgid "I'm not sure if sharing with yourself counts as sharing, but yes, you can share."
+msgstr ""
+
+#: cogs/tibia.py:1293
+#, python-brace-format
+msgid "There is no character named **{name}**."
+msgstr ""
+
+#: cogs/tibia.py:1305
+#, python-brace-format
+msgid "**{lowest_name}** ({lowest_level}) needs {diff} more level to share experience with **{highest_name}** ({highest_level}."
+msgid_plural "**{lowest_name}** ({lowest_level}) needs {diff} more level to share experience with **{highest_name}** ({highest_level}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: cogs/tibia.py:1315
+msgid "They can all share experience with each other."
+msgstr ""
+
+#: cogs/tibia.py:1317
+msgid "**{lowest_name}** ({lowest_level:,}) and **{highest_name}** ({highest_level:,}) can share experience."
+msgstr ""
+
+#: cogs/tibia.py:1320
+msgid "Their share range is from level **{low:,}** to **{high:,}**."
+msgstr ""
+
+#: cogs/tibia.py:1328
+msgid ""
+"Shows a character's recent level ups and deaths.\n"
+"\n"
+"        If no character is provided, the timeline of all registered characters in the server will be shown.\n"
+"\n"
+"        Characters must be registered in order to have a timeline.\n"
+"\n"
+"        - 🌟 Indicates level ups\n"
+"        - 💀 Indicates deaths\n"
+"        "
+msgstr ""
+
+#: cogs/tibia.py:1346
+msgid "Timeline"
+msgstr ""
+
+#: cogs/tibia.py:1397 cogs/tibia.py:1440
+msgid "There are no registered deaths or level ups."
+msgstr ""
+
+#: cogs/tibia.py:1413
+msgid "Shows a user's recent level ups and deaths on their characters."
+msgstr ""
+
+#: cogs/tibia.py:1425
+#, python-brace-format
+msgid "{user} timeline"
+msgstr ""
+
+#: cogs/tibia.py:1452
+msgid ""
+"Displays Tibia server's time and time until server save.\n"
+"\n"
+"        Server moderators can manage displayed timezones using the subcommands."
+msgstr ""
+
+#: cogs/tibia.py:1463
+#, python-brace-format
+msgid ""
+"It's currently **{tibia_time}** in Tibia's website ({timezone_name}).\n"
+"Server save is in **{time_until}**."
+msgstr ""
+
+#: cogs/tibia.py:1469
+#, python-brace-format
+msgid "Rashid is in **{city}** today."
+msgstr ""
+
+#. The local time in a city/timezone.
+#: cogs/tibia.py:1481
+#, python-brace-format
+msgid "**{time}** in {name}\n"
+msgstr ""
+
+#: cogs/tibia.py:1488
+msgid ""
+"Adds a new timezone to display.\n"
+"\n"
+"        You can look by city, country or region.\n"
+"        Once the timezone is found, you can set the name you want to show on the `time` command.\n"
+"\n"
+"        Only Server Moderators can use this command."
+msgstr ""
+
+#: cogs/tibia.py:1500
+msgid "No timezones found matching that name."
+msgstr ""
+
+#: cogs/tibia.py:1505
+#, python-brace-format
+msgid ""
+"The time in `{timezone}` is **{local_time}**.\n"
+"What display name do you want to assign? You can `cancel` if you changed your mind."
+msgstr ""
+
+#: cogs/tibia.py:1510
+msgid "I guess you changed your mind."
+msgstr ""
+
+#: cogs/tibia.py:1517 cogs/tibia.py:1585
+#, python-format
+msgid "The display name can't be longer than %d characters."
+msgstr ""
+
+#: cogs/tibia.py:1523
+msgid "That timezone already exists."
+msgstr ""
+
+#: cogs/tibia.py:1524
+#, python-brace-format
+msgid "Timezone `{name}` saved successfully as `{display_name}`."
+msgstr ""
+
+#: cogs/tibia.py:1532
+msgid ""
+"Shows a list of all the currently added timezones.\n"
+"\n"
+"        Only Server Moderators can use this command."
+msgstr ""
+
+#: cogs/tibia.py:1537 cogs/tibia.py:1574
+msgid "This server doesn't have any timezones saved yet."
+msgstr ""
+
+#: cogs/tibia.py:1541
+msgid "Saved times"
+msgstr ""
+
+#: cogs/tibia.py:1550
+msgid ""
+"Removes a timezone from the list.\n"
+"\n"
+"        Only Server Moderators can use this command."
+msgstr ""
+
+#: cogs/tibia.py:1557 cogs/tibia.py:1581
+msgid ""
+"There's no timezone saved with that name.\n"
+"Remember to use the timezone's real name, not the display name.\n"
+msgstr ""
+
+#: cogs/tibia.py:1562
+#, python-brace-format
+msgid "Timezone {name} ({display_name}) removed successfully."
+msgstr ""
+
+#: cogs/tibia.py:1569
+msgid ""
+"Renames a timezone\n"
+"        \n"
+"        Only Server Moderators can use this command."
+msgstr ""
+
+#: cogs/tibia.py:1589
+#, python-brace-format
+msgid "Timezone `{timezone}` was renamed from `{old_name}` to `{new_name}`."
+msgstr ""
+
+#: cogs/tibia.py:1596
+msgid ""
+"Shows a character's or a Discord user's information.\n"
+"\n"
+"        If the parameter matches a Discord user, it displays a list of the characters linked to that user.\n"
+"        If the parameter matches a character, it will display the character's info\n"
+"\n"
+"        If the character found is registered to a Discord user, it will show the owner of the character.\n"
+"\n"
+"        Users can be looked through their username, user#discriminator or their user id.\n"
+"\n"
+"        Additionally, if the character is in the highscores, their ranking will be shown.\n"
+"        "
+msgstr ""
+
+#: cogs/tibia.py:1633
+msgid "I don't see any user or character with that name."
+msgstr ""
+
+#: cogs/tibia.py:1642 cogs/tibia.py:1679
+msgid "Character"
+msgstr ""
+
+#: cogs/tibia.py:1667
+msgid "Highest character"
+msgstr ""
+
+#: cogs/tibia.py:1669 cogs/tibia.py:2044
+msgid "Last login"
+msgstr ""
+
+#: cogs/tibia.py:1690
+msgid ""
+"Shows basic information about a Tibia world.\n"
+"\n"
+"        Shows information like PvP type, online count, server location, vocation distribution, and more."
+msgstr ""
+
+#: cogs/tibia.py:1703
+msgid "This world is offline."
+msgstr ""
+
+#: cogs/tibia.py:1707
+msgid "Players online"
+msgstr ""
+
+#: cogs/tibia.py:1708
+msgid "The players online record is {count:,}"
+msgstr ""
+
+#: cogs/tibia.py:1725
+msgid "PvP Type"
+msgstr ""
+
+#: cogs/tibia.py:1727
+msgid "Premium restricted"
+msgstr ""
+
+#: cogs/tibia.py:1729
+msgid "Transfers"
+msgstr ""
+
+#: cogs/tibia.py:1733
+msgid "Vocations distribution"
+msgstr ""
+
+#: cogs/tibia.py:1747
+msgid ""
+"Shows a list of worlds.\n"
+"\n"
+"        You can pass a list of parameters separated by commas to change the sorting or filter worlds.\n"
+"\n"
+"        `online` to sort by online count.\n"
+"        `descending` to reverse the order.\n"
+"        `europe`, `south america` or `north america` to filter by location.\n"
+"        `optional pvp`, `open pvp`, `retro open pvp`, `hardcore pvp` or `retro hardcore pvp` to filter by pvp type."
+msgstr ""
+
+#: cogs/tibia.py:1794
+msgid "There's no worlds matching the query."
+msgstr ""
+
+#: cogs/tibia.py:1841
+#, python-format
+msgid "and %d more"
+msgstr ""
+
+#: cogs/tibia.py:1922
+#, python-brace-format
+msgid "ID: {auction_id} | Auction ending"
+msgstr ""
+
+#: cogs/tibia.py:1950
+msgid "Skills"
+msgstr ""
+
+#: cogs/tibia.py:1952
+msgid "Regular Transfer"
+msgstr ""
+
+#: cogs/tibia.py:1953
+msgid "Gold"
+msgstr ""
+
+#: cogs/tibia.py:1954
+msgid "Achievement Points"
+msgstr ""
+
+#: cogs/tibia.py:1955
+msgid "Charms"
+msgstr ""
+
+#: cogs/tibia.py:1955
+msgid "Expansion"
+msgstr ""
+
+#: cogs/tibia.py:1956
+msgid "Outfits"
+msgstr ""
+
+#: cogs/tibia.py:1956 cogs/tibia.py:1957
+msgid "Store"
+msgstr ""
+
+#: cogs/tibia.py:1957
+msgid "Mounts"
+msgstr ""
+
+#: cogs/tibia.py:1958
+msgid "Completed Bestiary"
+msgstr ""
+
+#: cogs/tibia.py:1966
+msgid "Character Info"
+msgstr ""
+
+#: cogs/tibia.py:1969
+msgid "Sales Arguments"
+msgstr ""
+
+#: cogs/tibia.py:2000
+msgid "ID: {article.id} | Posted on {article.date:%A, %B %d, %Y}"
+msgstr ""
+
+#: cogs/tibia.py:2003
+msgid "Read more"
+msgstr ""
+
+#: cogs/tibia.py:2012
+#, python-brace-format
+msgid "To see a specific entry, use the command `{prefix}news <id>`"
+msgstr ""
+
+#: cogs/tibia.py:2025
+#, python-brace-format
+msgid "{char.link} is a level {char.level} __{char.vocation}__. {char.he_she} resides in __{char.residence}__ in the world of __{char.world}__"
+msgstr ""
+
+#. Former world
+#: cogs/tibia.py:2030
+#, python-brace-format
+msgid " (formerly __{former_world}__)"
+msgstr ""
+
+#: cogs/tibia.py:2031
+msgid ". {char.he_she} has {char.achievement_points:,} achievement point."
+msgid_plural ". {char.he_she} has {char.achievement_points:,} achievement points."
+msgstr[0] ""
+msgstr[1] ""
+
+#: cogs/tibia.py:2035
+#, python-brace-format
+msgid ""
+"\n"
+"{char.his_her} title is **{char.title}**."
+msgstr ""
+
+#: cogs/tibia.py:2037
+#, python-brace-format
+msgid ""
+"\n"
+"{char.he_she} is __{char.guild_rank}__ of the {char.guild_link}."
+msgstr ""
+
+#: cogs/tibia.py:2039
+#, python-brace-format
+msgid ""
+"\n"
+"{char.he_she} is married to {char.married_link}."
+msgstr ""
+
+#: cogs/tibia.py:2041
+#, python-brace-format
+msgid "[{house.name}]({house.url}) in {house.town}"
+msgstr ""
+
+#: cogs/tibia.py:2042
+#, python-brace-format
+msgid ""
+"\n"
+"{char.he_she} owns {house_list}."
+msgstr ""
+
+#: cogs/tibia.py:2047
+#, python-brace-format
+msgid "{char.he_she} has never logged in."
+msgstr ""
+
+#: cogs/tibia.py:2052
+msgid "**Has Comment**"
+msgstr ""
+
+#: cogs/tibia.py:2056
+msgid "**Hidden**"
+msgstr ""
+
+#: cogs/tibia.py:2059
+msgid "**{other_character_count:,} Visible Character**"
+msgid_plural "**{other_character_count:,} Visible Characters**"
+msgstr[0] ""
+msgstr[1] ""
+
+#. If the character was recently traded in the baazaar
+#: cogs/tibia.py:2070
+msgid "**Traded**"
+msgstr ""
+
+#: cogs/tibia.py:2083
+msgid "Highscores entries"
+msgstr ""
+
+#: cogs/tibia.py:2085
+msgid "Global Highscores entries"
+msgstr ""
+
+#: cogs/tibia.py:2107
+#, python-brace-format
+msgid "**{user}** has no registered characters here."
+msgstr ""
+
+#: cogs/tibia.py:2120
+#, python-brace-format
+msgid "and {count} more"
+msgstr ""
+
+#: cogs/tibia.py:2122
+#, python-brace-format
+msgid "**{user}**'s character is: {character_list}"
+msgid_plural "**{user}**'s characters are: {character_list}"
+msgstr[0] ""
+msgstr[1] ""
+
+#: cogs/tibia.py:2135
+msgid "house"
+msgstr ""
+
+#: cogs/tibia.py:2135
+msgid "guildhall"
+msgstr ""
+
+#: cogs/tibia.py:2136
+msgid "bed"
+msgid_plural "beds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: cogs/tibia.py:2151
+#, python-brace-format
+msgid ""
+"\n"
+"En **{world}**, this {house_type} is "
 msgstr ""

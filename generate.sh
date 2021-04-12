@@ -5,8 +5,8 @@ xgettext \
   --add-comments \
   --from-code utf-8 \
   --directory ../ \
+  --no-wrap \
   --output nabbot.pot \
-  --no-wrap
 
 for locale in */; do
 file="$locale/LC_MESSAGES/nabbot"
@@ -15,6 +15,7 @@ msgmerge \
   --update \
   --no-fuzzy-matching \
   --backup off \
+  --no-wrap \
   "$file.po" \
   nabbot.pot
 
