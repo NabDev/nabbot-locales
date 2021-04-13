@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 12:30-0700\n"
-"PO-Revision-Date: 2021-04-13 20:31\n"
+"PO-Revision-Date: 2021-04-13 21:48\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -836,7 +836,8 @@ msgstr ""
 #: cogs/calculators.py:179
 msgid "\n"
 "Blessing of the Inquisition costs **{price:,}** gold coins."
-msgstr ""
+msgstr "\n"
+"Blessing of the Inquisition cuesta **{price:.}** gold."
 
 #: cogs/calculators.py:181
 msgid "At that level you will pay **{price:,}** gold coins per blessing for a total of **{total:,}** gold coins.{inquisition}\n"
@@ -852,7 +853,7 @@ msgstr ""
 
 #: cogs/calculators.py:202 cogs/calculators.py:303
 msgid "Target skill must be greater than current skill."
-msgstr ""
+msgstr "La skill deseada debe ser mayor que la skill actual."
 
 #: cogs/calculators.py:204 cogs/calculators.py:305
 msgid "Your current skill can't be lower than 10."
@@ -986,7 +987,7 @@ msgstr ""
 
 #: cogs/calculators.py:405
 msgid "Current stamina is already equal to target."
-msgstr ""
+msgstr "La stamina actual ya es igual que la deseada."
 
 #: cogs/calculators.py:422
 #, python-brace-format
@@ -1026,12 +1027,12 @@ msgstr ""
 
 #: cogs/calculators.py:455
 msgid "There's no level lower than 1, it doesn't matter how bad you are at Tibia."
-msgstr ""
+msgstr "No hay nivel menor a 1, no importa lo malo que seas en Tibia."
 
 #. Shown when trying to enter a very high level.
 #: cogs/calculators.py:458
 msgid "Why do you care? You will __**never**__ reach this level 🙄"
-msgstr ""
+msgstr "¿Por qué te importa? __**nunca**__ alcanzarás este nivel 🙄"
 
 #: cogs/calculators.py:472
 msgid "with no vocation"
@@ -1135,7 +1136,7 @@ msgstr ""
 #: cogs/core.py:340
 #, python-brace-format
 msgid "Parameter `{param}` must be numeric."
-msgstr ""
+msgstr "El parámetro `{param}` debe ser numérico."
 
 #: cogs/core.py:341
 #, python-brace-format
@@ -1149,7 +1150,7 @@ msgstr ""
 
 #: cogs/core.py:356
 msgid "I'm having network issues right now. Please try again in a moment."
-msgstr ""
+msgstr "Estoy teniendo problemas de red en este momento. Por favor, inténtalo de nuevo en un momento."
 
 #: cogs/core.py:358
 #, python-brace-format
@@ -1158,15 +1159,15 @@ msgstr ""
 
 #: cogs/core.py:362
 msgid "Sorry, the message was too long to send."
-msgstr ""
+msgstr "Lo siento, el mensaje es demasiado largo para enviar."
 
 #: cogs/core.py:366 cogs/premium.py:561
 msgid "Support Server"
-msgstr ""
+msgstr "Servidor de Soporte"
 
 #: cogs/core.py:368
 msgid "Please report this bug in the support server."
-msgstr ""
+msgstr "Por favor reporte este error en el servidor de soporte."
 
 #. Content
 #: cogs/core.py:381
@@ -1187,7 +1188,7 @@ msgstr ""
 
 #: cogs/core.py:398
 msgid "NabBot has joined the server"
-msgstr ""
+msgstr "NabBot se ha unido al servidor"
 
 #: cogs/core.py:400
 #, python-brace-format
@@ -1206,7 +1207,7 @@ msgstr ""
 
 #: cogs/core.py:415 cogs/info.py:71
 msgid "Links"
-msgstr ""
+msgstr "Enlaces"
 
 #: cogs/core.py:416
 #, python-brace-format
@@ -1371,7 +1372,8 @@ msgstr ""
 #, python-brace-format
 msgid "\n"
 "For a total of **{sum}**"
-msgstr ""
+msgstr "\n"
+"Para un total de **{sum}**"
 
 #: cogs/general.py:220
 msgid "That's not a valid message link or message id."
@@ -1391,11 +1393,11 @@ msgstr ""
 
 #: cogs/info.py:62
 msgid "Prefixes"
-msgstr ""
+msgstr "Prefijos"
 
 #: cogs/info.py:63
 msgid "Authors"
-msgstr ""
+msgstr "Autores"
 
 #: cogs/info.py:65 cogs/info.py:363 cogs/tibia.py:1951
 msgid "Created"
@@ -1440,11 +1442,11 @@ msgstr ""
 
 #: cogs/info.py:108 cogs/info.py:278
 msgid "Channels"
-msgstr ""
+msgstr "Canales"
 
 #: cogs/info.py:110
 msgid "Characters"
-msgstr ""
+msgstr "Personajes"
 
 #: cogs/info.py:111
 msgid "Level ups"
@@ -1529,89 +1531,89 @@ msgstr ""
 
 #: cogs/info.py:196
 msgid "Regular"
-msgstr ""
+msgstr "Regulares"
 
 #: cogs/info.py:197
 msgid "Animated"
-msgstr ""
+msgstr "Animados"
 
 #: cogs/info.py:261
 msgid "Shows the server's information."
-msgstr ""
+msgstr "Muestra la información del servidor."
 
 #: cogs/info.py:267
 #, python-brace-format
 msgid "I'm not in any server with ID {server}."
-msgstr ""
+msgstr "No estoy en ningún servidor con ID {server}."
 
 #: cogs/info.py:269 cogs/tracking.py:1064
 msgid "That is not a valid id."
-msgstr ""
+msgstr "Eso no es un id válido."
 
 #: cogs/info.py:274
 msgid "Owner"
-msgstr ""
+msgstr "Dueño"
 
 #: cogs/info.py:277
 msgid "Voice Region"
-msgstr ""
+msgstr "Región de voz"
 
 #: cogs/info.py:279
 msgid "Text"
-msgstr ""
+msgstr "Texto"
 
 #: cogs/info.py:280
 msgid "Voice"
-msgstr ""
+msgstr "Voz"
 
 #: cogs/info.py:281
 msgid "Categories"
-msgstr ""
+msgstr "Categorías"
 
 #: cogs/info.py:289 cogs/roles.py:483
 msgid "Members"
-msgstr ""
+msgstr "Miembros"
 
 #: cogs/info.py:290
 msgid "Humans"
-msgstr ""
+msgstr "Humanos"
 
 #: cogs/info.py:291
 msgid "Bots"
-msgstr ""
+msgstr "Bots"
 
 #: cogs/info.py:292 cogs/info.py:380
 msgid "Roles"
-msgstr ""
+msgstr "Roles"
 
 #: cogs/info.py:302
 msgid "Boosters"
-msgstr ""
+msgstr "Mejoras"
 
 #: cogs/info.py:303 cogs/logging.py:108 cogs/logging.py:139
 msgid "Level"
-msgstr ""
+msgstr "Nivel"
 
 #. People boosting the server
 #: cogs/info.py:305 cogs/info.py:387
 msgid "Boosting"
-msgstr ""
+msgstr "Mejorando"
 
 #: cogs/info.py:307
 msgid "Upload Size"
-msgstr ""
+msgstr "Tamaño de carga"
 
 #: cogs/info.py:308
 msgid "Voice Bitrate"
-msgstr ""
+msgstr "Bitrate de voz"
 
 #: cogs/info.py:309
 msgid "Emoji Limit"
-msgstr ""
+msgstr "Límite de emojis"
 
 #: cogs/info.py:310
 msgid "Limits"
-msgstr ""
+msgstr "Límites"
 
 #: cogs/info.py:314
 msgid "Tracked World"
