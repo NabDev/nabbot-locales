@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 12:30-0700\n"
-"PO-Revision-Date: 2021-04-13 20:32\n"
+"PO-Revision-Date: 2021-04-13 22:53\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -131,25 +131,25 @@ msgstr "Ela"
 #: utils/tibia.py:209
 msgctxt "Possesive pronouns"
 msgid "His"
-msgstr ""
+msgstr "Dele"
 
 #. Example: That is her house.
 #: utils/tibia.py:212
 msgctxt "Possesive pronouns"
 msgid "Her"
-msgstr ""
+msgstr "Dela"
 
 #. Example: The monster killed him; The sword is for him.
 #: utils/tibia.py:218
 msgctxt "Possesive adjective"
 msgid "Him"
-msgstr ""
+msgstr "Ele"
 
 #. Example: The gift is for her.
 #: utils/tibia.py:221
 msgctxt "Possesive adjective"
 msgid "Her"
-msgstr ""
+msgstr "Ela"
 
 #: cogs/admin.py:32 cogs/tibia.py:1949
 msgid "World"
@@ -288,42 +288,44 @@ msgstr "Eu só preciso disso para mostrar o autor das ações no log do servidor
 #, python-brace-format
 msgid "Missing `{perm_name}` permission\n"
 "\t{icon} {explain}"
-msgstr ""
+msgstr "Faltando permissão `{perm_name}`\n"
+"\t{icon} {explain}"
 
 #: cogs/admin.py:139
 #, python-brace-format
 msgid "{check} All permissions are correct!"
-msgstr ""
+msgstr "{check} Todas as permissões estão corretas!"
 
 #: cogs/admin.py:150
 msgid "Checks or sets various server-specific settings."
-msgstr ""
+msgstr "Verifica ou define várias configurações específicas do servidor."
 
 #: cogs/admin.py:154
 msgid "Settings"
-msgstr ""
+msgstr "Configurações"
 
 #: cogs/admin.py:155
 msgid "Use the subcommands to change the settings for this server."
-msgstr ""
+msgstr "Use os subcomandos para alterar as configurações deste servidor."
 
 #: cogs/admin.py:166
 msgid "Sets whether simple level/death messages will be used instead of random custom messages.\n\n"
 "            When enabled, all level up and death messages will be the same, a simple and short message."
-msgstr ""
+msgstr "Define se as mensagens simples de nível/morte serão usadas em vez de mensagens personalizadas aleatórias.\n\n"
+"            Quando habilitado, todas as mensagens de nível acima e de morte serão iguais, uma mensagem simples e curta."
 
 #: cogs/admin.py:173
 #, python-brace-format
 msgid "{yes_no} (Global default)"
-msgstr ""
+msgstr "{yes_no} (Padrão Global)"
 
 #: cogs/admin.py:180
 msgid "I will use simple messages from now on."
-msgstr ""
+msgstr "De agora em diante utilizarei mensagens simples."
 
 #: cogs/admin.py:183
 msgid "I will use randomized custom messages from now on."
-msgstr ""
+msgstr "De agora em diante usarei mensagens personalizadas aleatórias."
 
 #: cogs/admin.py:193
 msgid "Changes the channel where upcoming events are announced.\n"
@@ -333,60 +335,66 @@ msgid "Changes the channel where upcoming events are announced.\n"
 "    \n"
 "            If this is disabled, users that subscribed to the event will still receive notifications via PM.\n"
 "            "
-msgstr ""
+msgstr "Altera o canal onde os eventos futuros são anunciados.\n"
+"    \n"
+"            Será onde serão feitos anúncios de eventos prestes a acontecer.\n"
+"            Se o canal atribuído for excluído ou proibido, o canal superior será usado.\n"
+"    \n"
+"            Se estiver desabilitado, usuários que assinaram o evento ainda receberão notificações via mensagem privada.\n"
+"            "
 
 #: cogs/admin.py:208
 msgid "Event announcements are already disabled."
-msgstr ""
+msgstr "Anúncios de eventos já estão desativados."
 
 #: cogs/admin.py:210
 msgid "Are you sure you want to disable events announcements?"
-msgstr ""
+msgstr "Tem certeza que deseja desativar os avisos de eventos?"
 
 #: cogs/admin.py:220 cogs/admin.py:567
 #, python-brace-format
 msgid "I don't have permission to use {channel}."
-msgstr ""
+msgstr "Eu não tenho permissão para usar {channel}."
 
 #: cogs/admin.py:222
 #, python-brace-format
 msgid "Are you sure you want {channel} as the new events channel?"
-msgstr ""
+msgstr "Você tem certeza que deseja {channel} como o novo canal de eventos?"
 
 #: cogs/admin.py:232
 msgid "The events channel has been disabled."
-msgstr ""
+msgstr "O canal de eventos foi desabilitado."
 
 #: cogs/admin.py:234
 #, python-brace-format
 msgid "{channel} will now be used for events."
-msgstr ""
+msgstr "{channel} será usado para eventos."
 
 #: cogs/admin.py:242
 msgid "Sets the language for this server."
-msgstr ""
+msgstr "Define o idioma para este servidor."
 
 #: cogs/admin.py:247
 msgid "The desired language or `none`"
-msgstr ""
+msgstr "O idioma desejado ou `nenhum`"
 
 #: cogs/admin.py:248
 msgid "language/none"
-msgstr ""
+msgstr "idioma/nenhum"
 
 #: cogs/admin.py:250
 msgid "Language is currently not supported."
-msgstr ""
+msgstr "Idioma não suportado no momento."
 
 #: cogs/admin.py:251
 #, python-brace-format
 msgid "Do you want to set the language to `{language}`?"
-msgstr ""
+msgstr "Você quer definir o idioma para `{language}`?"
 
 #: cogs/admin.py:259
 #, python-brace-format
 msgid "This server messages will now be in {language}"
-msgstr ""
+msgstr "Este servidor agora estará em {language}"
 
 #: cogs/admin.py:267
 msgid "Changes the channel where levelup and deaths are announced.\n"
