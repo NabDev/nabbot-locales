@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 12:30-0700\n"
-"PO-Revision-Date: 2021-04-13 21:48\n"
+"PO-Revision-Date: 2021-04-13 22:53\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1617,7 +1617,7 @@ msgstr "Límites"
 
 #: cogs/info.py:314
 msgid "Tracked World"
-msgstr ""
+msgstr "Mundo seguido"
 
 #. When the bot was added to the server
 #: cogs/info.py:316
@@ -1626,16 +1626,16 @@ msgstr ""
 
 #: cogs/info.py:321
 msgid "Splash screen"
-msgstr ""
+msgstr "Pantalla de inicio"
 
 #: cogs/info.py:328
 msgid "Shows how long the bot has been running."
-msgstr ""
+msgstr "Muestra el tiempo que el bot ha estado ejecutando."
 
 #: cogs/info.py:329
 #, python-brace-format
 msgid "I have been running for {0}."
-msgstr ""
+msgstr "He estado online por {0}."
 
 #: cogs/info.py:338
 msgid "Shows a user's information.\n"
@@ -1648,16 +1648,25 @@ msgid "Shows a user's information.\n"
 "            - Server Admin: User with `Administrator` permission\n"
 "            - Server Moderator: User with `Manage Server` permissions.\n"
 "            - Channel Moderator: User with `Manage Channels` permissions in at least one channel."
-msgstr ""
+msgstr "Muestra la información de un usuario.\n"
+"    \n"
+"            Si no se proporciona ningún usuario, muestra su propia información.\n"
+"    \n"
+"            Sobre los estados de usuario:\n"
+"    \n"
+"            - Propietario del servidor: Propietario del servidor\n"
+"            - Administrador del servidor: Usuario con permiso `Administrador`\n"
+"            - Moderador del servidor: Usuario con permisos `Gestionar servidor`.\n"
+"            - Moderador de canales: Usuario con permisos `Gestionar canales` en al menos un canal."
 
 #: cogs/info.py:354 cogs/respawn.py:487
 #, python-brace-format
 msgid "Could not find user `{user}`"
-msgstr ""
+msgstr "No pude encontrar al usuario `{user}`"
 
 #: cogs/info.py:362
 msgid "Member since"
-msgstr ""
+msgstr "Miembro desde"
 
 #: cogs/info.py:366
 msgid "Server Owner)"
@@ -1795,16 +1804,16 @@ msgstr ""
 #: cogs/logging.py:206
 #, python-brace-format
 msgid "Automatic role **{role}** deleted."
-msgstr ""
+msgstr "Rol automático **{role}** eliminado."
 
 #: cogs/logging.py:216
 msgid "Group deleted"
-msgstr ""
+msgstr "Grupo eliminado"
 
 #: cogs/logging.py:217
 #, python-brace-format
 msgid "Joinable role **{role}** deleted."
-msgstr ""
+msgstr "Rol unible **{role}** eliminado."
 
 #: cogs/logging.py:230
 msgid "Watchlist channel deleted"
@@ -1842,24 +1851,24 @@ msgstr ""
 
 #: cogs/logging.py:272
 msgid "Tracked World Updated"
-msgstr ""
+msgstr "Mundo seguido actualizado"
 
 #: cogs/logging.py:273
 #, python-brace-format
 msgid "Tracked world updated from {before} to {after}"
-msgstr ""
+msgstr "Mundo seguido actualizado de {before} a {after}"
 
 #: cogs/logging.py:328
 msgid "Emoji removed"
-msgstr ""
+msgstr "Emoji removido"
 
 #: cogs/logging.py:333
 msgid "Emoji added"
-msgstr ""
+msgstr "Emoji añadido"
 
 #: cogs/logging.py:340
 msgid "Emoji renamed"
-msgstr ""
+msgstr "Emoji renombrado"
 
 #: cogs/logging.py:355
 msgid "Server updated)"
@@ -1969,7 +1978,7 @@ msgstr ""
 
 #: cogs/loot.py:148
 msgid "Status: Reading"
-msgstr ""
+msgstr "Estado: Leyendo"
 
 #: cogs/loot.py:159
 #, python-brace-format
@@ -2102,7 +2111,7 @@ msgstr ""
 
 #: cogs/mod.py:175
 msgid "Ignored entries"
-msgstr ""
+msgstr "Entradas ignoradas"
 
 #: cogs/mod.py:185
 msgid "Makes the bot say a message.\n\n"
@@ -2118,71 +2127,72 @@ msgstr ""
 #: cogs/mod.py:212
 #, python-brace-format
 msgid "{channel} is no longer ignored."
-msgstr ""
+msgstr "{channel} ya no está ignorado."
 
 #: cogs/mod.py:213
 #, python-brace-format
 msgid "{channel} wasn't ignored."
-msgstr ""
+msgstr "{channel} no estaba siendo ignorado."
 
 #: cogs/mod.py:220
 #, python-brace-format
 msgid "{count} is now ignored."
 msgid_plural "{count} are now unignored."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{count} es ahora ignorado."
+msgstr[1] "{count} son ahora ignorados."
 
 #: cogs/mod.py:222
 msgid "No entries were unignored."
-msgstr ""
+msgstr "Ninguna entrada fue designorada."
 
 #: cogs/mod.py:229
 msgid "Shows a list of users with no registered characters."
-msgstr ""
+msgstr "Muestra una lista de usuarios sin personajes registrados."
 
 #: cogs/mod.py:239
 msgid "Joined"
-msgstr ""
+msgstr "Se unió en"
 
 #: cogs/mod.py:243 cogs/mod.py:283
 msgid "There are no unregistered users."
-msgstr ""
+msgstr "No hay usuarios sin registrar."
 
 #: cogs/mod.py:248
 msgid "Unregistered members"
-msgstr ""
+msgstr "Miembros sin registrar"
 
 #: cogs/mod.py:258
 msgid "Shows a list of unregistered guild members.\n\n"
 "        Unregistered guild members can be either characters not registered to NabBot or\n"
 "        registered to users not in the server."
-msgstr ""
+msgstr "Muestra una lista de miembros de guild sin registrar.\n\n"
+"        Los miembros no registrados pueden ser personajes no registrados con NabBot o registrados a usuarios que no están en este servidor."
 
 #: cogs/mod.py:264 cogs/tracking.py:1495 cogs/tracking.py:1949
 msgid "There's no guild with that name."
-msgstr ""
+msgstr "No hay un guild con ese nombre."
 
 #: cogs/mod.py:266
 #, python-brace-format
 msgid "**{guild}** is not in **{world}**"
-msgstr ""
+msgstr "El guild **{guild}** no esta en **{world}**"
 
 #: cogs/mod.py:287
 #, python-brace-format
 msgid "Unregistered members for {guild}"
-msgstr ""
+msgstr "Miembros sin registrar de {guild}"
 
 #: cogs/premium.py:158 cogs/premium.py:338
 msgid "Premium Lost"
-msgstr ""
+msgstr "Premium perdido"
 
 #: cogs/premium.py:158
 msgid "Premium time has expired."
-msgstr ""
+msgstr "El tiempo premium ha expirado."
 
 #: cogs/premium.py:162
 msgid "Premium expired"
-msgstr ""
+msgstr "Premium expiro"
 
 #: cogs/premium.py:208
 #, python-brace-format
@@ -3573,11 +3583,11 @@ msgstr ""
 
 #: cogs/tibia.py:516
 msgid "Recent deaths"
-msgstr ""
+msgstr "Muertes recientes"
 
 #: cogs/tibia.py:525
 msgid "There are no recent deaths."
-msgstr ""
+msgstr "No hay muertes recientes."
 
 #: cogs/tibia.py:542
 msgid "Shows the latest deaths caused by a specific monster."
@@ -3585,29 +3595,29 @@ msgstr ""
 
 #: cogs/tibia.py:559
 msgid "There are no registered deaths by that killer."
-msgstr ""
+msgstr "No hay muertes registradas por ese monstruo."
 
 #: cogs/tibia.py:563
 #, python-brace-format
 msgid "{monster} latest kills"
-msgstr ""
+msgstr "Últimas muertes por {monster}"
 
 #: cogs/tibia.py:573
 msgid "Shows a user's recent deaths on his/her registered characters."
-msgstr ""
+msgstr "Muestra las muertes recientes de un usuario en sus caracteres registrados."
 
 #: cogs/tibia.py:576 cogs/tibia.py:1063 cogs/tibia.py:1416 cogs/tracking.py:868
 msgid "I don't see any users with that name."
-msgstr ""
+msgstr "No veo a ningún usuario con ese nombre."
 
 #: cogs/tibia.py:590
 msgid "There are not registered deaths by this user."
-msgstr ""
+msgstr "No hay muertes registradas de este usuario."
 
 #: cogs/tibia.py:592
 #, python-brace-format
 msgid "{user} latest deaths"
-msgstr ""
+msgstr "Muertes más recientes de {user}"
 
 #: cogs/tibia.py:606
 msgid "Shows death statistics\n\n"
@@ -3617,32 +3627,32 @@ msgstr ""
 
 #: cogs/tibia.py:615
 msgid " in the last 7 days."
-msgstr ""
+msgstr " en los últimos 7 días."
 
 #: cogs/tibia.py:618
 msgid " in the last 30 days."
-msgstr ""
+msgstr " en los últimos 30 días."
 
 #: cogs/tibia.py:621
 msgid " in the last 365 days."
-msgstr ""
+msgstr " en los últimos 365 días."
 
 #: cogs/tibia.py:622
 #, python-brace-format
 msgid "For a shorter period, try `{prefix}{name} week` or `{prefix}{name} month`"
-msgstr ""
+msgstr "Para un período más corto, intenta `{prefix}{name} week` o `{prefix}{name} month`"
 
 #: cogs/tibia.py:625
 msgid "There are {total:,} deaths registered{duration}."
-msgstr ""
+msgstr "Hay {total:,} muertes registradas{duration}."
 
 #: cogs/tibia.py:638
 msgid "Most deaths per character"
-msgstr ""
+msgstr "Más muertes por personaje"
 
 #: cogs/tibia.py:650
 msgid "Most deaths per user"
-msgstr ""
+msgstr "Más muertes por usuario"
 
 #: cogs/tibia.py:660
 msgid "Most deaths per killer"
@@ -3650,24 +3660,24 @@ msgstr ""
 
 #: cogs/tibia.py:667
 msgid "Shows the contents of a forum post."
-msgstr ""
+msgstr "Muestra el contenido de un post del foro."
 
 #: cogs/tibia.py:670
 msgid "There's no forum with that id."
-msgstr ""
+msgstr "No hay un foro con ese id."
 
 #: cogs/tibia.py:675
 msgid "See more…"
-msgstr ""
+msgstr "Ver más…"
 
 #: cogs/tibia.py:680
 #, python-brace-format
 msgid "Posted by {author}"
-msgstr ""
+msgstr "Posteado por {author}"
 
 #: cogs/tibia.py:682
 msgid "Posted on"
-msgstr ""
+msgstr "Posteado el"
 
 #: cogs/tibia.py:690
 msgid "Shows online characters in a guild.\n\n"
@@ -3689,16 +3699,16 @@ msgstr ""
 #: cogs/tibia.py:705
 #, python-brace-format
 msgid "They own the guildhall {gh_url}."
-msgstr ""
+msgstr "Son dueños del guildhall {gh_url}."
 
 #: cogs/tibia.py:709
 msgid "Nobody is online. It has **{guild.member_count:,}** members."
-msgstr ""
+msgstr "Nadie está en línea. Tiene **{guild.member_count:,}** miembros."
 
 #: cogs/tibia.py:716
 #, python-brace-format
 msgid "It has **{online}** player online out of **{member_count}**:"
-msgstr ""
+msgstr "Tiene **{online}** jugadores en línea de **{member_count}**:"
 
 #: cogs/tibia.py:728
 msgid "Shows basic information and stats about a guild.\n\n"
@@ -3708,41 +3718,42 @@ msgstr ""
 #. Guild application status
 #: cogs/tibia.py:747
 msgid "Open"
-msgstr ""
+msgstr "Abiertas"
 
 #: cogs/tibia.py:747
 msgid "Closed"
-msgstr ""
+msgstr "Cerradas"
 
 #. Guild applications
 #: cogs/tibia.py:750
 msgid "Applications"
-msgstr ""
+msgstr "Aplicaciones"
 
 #: cogs/tibia.py:752
 msgid "Homepage"
-msgstr ""
+msgstr "Página Web"
 
 #: cogs/tibia.py:764
 msgid "Members online"
-msgstr ""
+msgstr "Miembros en línea"
 
 #: cogs/tibia.py:765
 msgid "Average level"
-msgstr ""
+msgstr "Nivel promedio"
 
 #: cogs/tibia.py:766
 msgid "Highest member"
-msgstr ""
+msgstr "Miembro más alto"
 
 #: cogs/tibia.py:768
 msgid "Vocation distribution"
-msgstr ""
+msgstr "Distribución por vocación"
 
 #: cogs/tibia.py:775
 msgid "Shows a list of all guild members.\n\n"
 "        Online members have an icon next to their name."
-msgstr ""
+msgstr "Muestra una lista de todos los miembros del guild.\n\n"
+"        Los miembros en línea tienen un icono junto a su nombre."
 
 #: cogs/tibia.py:780
 #, python-brace-format
@@ -3760,12 +3771,12 @@ msgstr ""
 #. For guilds that are still not fully consolidated, e.g. doesn't have 4 vices yet
 #: cogs/tibia.py:815
 msgid "In formation"
-msgstr ""
+msgstr "En formación"
 
 #: cogs/tibia.py:822
 #, python-brace-format
 msgid "Guilds in {world}"
-msgstr ""
+msgstr "Guilds en {world}"
 
 #: cogs/tibia.py:833
 msgid "Shows the highscores for a given world and category.\n\n"
@@ -3968,30 +3979,30 @@ msgstr ""
 #: cogs/tibia.py:1258
 #, python-format
 msgid "The level must be %d or higher."
-msgstr ""
+msgstr "El nivel debe ser %d o mayor."
 
 #: cogs/tibia.py:1260
 #, python-format
 msgid "The level must be %d or lower."
-msgstr ""
+msgstr "El nivel debe ser %d o menor."
 
 #: cogs/tibia.py:1262
 msgid "A level {level:,} can share experience with levels **{low:,}** to **{high:,}**."
-msgstr ""
+msgstr "Un nivel {level:,} puede compartir experiencia con niveles **{low:,}** a **{high:,}**."
 
 #: cogs/tibia.py:1269
 #, python-format
 msgid "You must specify a level, a character's name or up to %d character names."
-msgstr ""
+msgstr "Debes especificar un nivel, el nombre de un personaje o hasta %d nombres de personajes."
 
 #: cogs/tibia.py:1272
 #, python-format
 msgid "I can only check up to %d characters at a time."
-msgstr ""
+msgstr "Sólo puedo revisar hasta %d caracteres a la vez."
 
 #: cogs/tibia.py:1277
 msgid "There is no character with that name."
-msgstr ""
+msgstr "No hay ningún personaje con ese nombre."
 
 #: cogs/tibia.py:1282
 msgid "**{name}** ({level:,}) can share experience with levels **{low:,}** to **{high:,}**."
