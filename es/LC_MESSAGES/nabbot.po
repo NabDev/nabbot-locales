@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-12 16:38-0700\n"
-"PO-Revision-Date: 2021-04-12 23:39\n"
+"POT-Creation-Date: 2021-04-12 16:59-0700\n"
+"PO-Revision-Date: 2021-04-13 00:01\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -115,23 +115,26 @@ msgstr ""
 msgid "In **experience points** (Rookgaard), {0} has rank **{2}**"
 msgstr ""
 
-#: utils/tibia.py:197
+#. Subject pronoun: he, she
+#: utils/tibia.py:198 cogs/tibia.py:2156
 msgid "He"
 msgstr ""
 
-#: utils/tibia.py:197
+#: utils/tibia.py:198 cogs/tibia.py:2156
 msgid "She"
 msgstr ""
 
-#: utils/tibia.py:201
+#. Possesive personal pronouns: his, her
+#: utils/tibia.py:203
 msgid "His"
 msgstr ""
 
-#: utils/tibia.py:201 utils/tibia.py:205
+#: utils/tibia.py:203 utils/tibia.py:208
 msgid "Her"
 msgstr ""
 
-#: utils/tibia.py:205
+#. Possesive adjective: him, her
+#: utils/tibia.py:208
 msgid "Him"
 msgstr ""
 
@@ -4378,6 +4381,31 @@ msgstr[1] ""
 #: cogs/tibia.py:2151
 #, python-brace-format
 msgid "\n"
-"En **{world}**, this {house_type} is "
+"In **{world}**, this {house_type} is "
+msgstr ""
+
+#: cogs/tibia.py:2157
+msgid "rented by {owner}. The rent is paid until **{paid_until:%d %b %Y %H:%M %Z}**"
+msgstr ""
+
+#: cogs/tibia.py:2161
+msgid ".\n"
+" {pronoun} will move out on **{transfer_date:%d %b %Y %H:%M %Z}**"
+msgstr ""
+
+#: cogs/tibia.py:2173
+msgid "on auction."
+msgstr ""
+
+#: cogs/tibia.py:2176
+msgid " The highest bid is **{house.highest_bid:,}** gold, by [{house.highest_bidder}]({house.highest_bidder_url}). The auction ends on **{house.auction_end:%d %b %Y %H:%M %Z}**"
+msgstr ""
+
+#: cogs/tibia.py:2181
+msgid " The auction has not started yet."
+msgstr ""
+
+#: cogs/tibia.py:2182
+msgid "TibiaWiki article"
 msgstr ""
 
