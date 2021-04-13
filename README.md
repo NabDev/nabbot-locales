@@ -15,3 +15,4 @@ Locales for NabBot multilanguage feature.
 3. Discord related terms should be translated the same way the Discord client translates them.
 4. Tibia elements should not be translated, for example, vocations, items, cities, monsters, etcetera.
 5. Avoid using slang and regional variants. Try to use as much neutral language as possible, so users from different countries than yours but that speak the same language can understand.
+6. Command names and their parameters should not be translated.
