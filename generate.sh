@@ -6,6 +6,7 @@ xgettext \
   --from-code utf-8 \
   --directory ../ \
   --no-wrap \
+  --keyword=p_:1c,2 \
   --output nabbot.pot \
 
 for locale in */; do
