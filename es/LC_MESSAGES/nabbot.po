@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 12:30-0700\n"
-"PO-Revision-Date: 2021-04-14 01:57\n"
+"PO-Revision-Date: 2021-04-14 02:54\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -726,12 +726,12 @@ msgstr ""
 
 #: cogs/admin.py:698
 msgid " I have no channel to use."
-msgstr ""
+msgstr " No tengo ningún canal para usar."
 
 #: cogs/admin.py:700
 #, python-brace-format
 msgid " I will use {channel} meanwhile."
-msgstr ""
+msgstr " usaré {channel} mientras tanto."
 
 #: cogs/admin.py:714
 msgid "None, webhook was deleted by a user."
@@ -892,7 +892,7 @@ msgstr ""
 
 #: cogs/calculators.py:254
 msgid "Your current level can't be lower than 0."
-msgstr ""
+msgstr "Tu nivel actual no puede ser menor que 0."
 
 #: cogs/calculators.py:256
 msgid "Your target level can't be greater than 200."
@@ -1046,7 +1046,7 @@ msgstr ""
 #: cogs/calculators.py:477
 #, python-brace-format
 msgid "A level **{level}** {vocation}, has:"
-msgstr ""
+msgstr "Un {vocation} nivel **{level}** tiene:"
 
 #: cogs/calculators.py:489
 msgid "Calculates the level required to reach the specified capacity.\n\n"
@@ -1146,7 +1146,7 @@ msgstr ""
 
 #: cogs/core.py:353
 msgid "Tibia.com is currently down for maintenance."
-msgstr ""
+msgstr "Tibia.com se encuentra actualmente en mantenimiento."
 
 #: cogs/core.py:356
 msgid "I'm having network issues right now. Please try again in a moment."
@@ -1155,7 +1155,7 @@ msgstr "Estoy teniendo problemas de red en este momento. Por favor, inténtalo d
 #: cogs/core.py:358
 #, python-brace-format
 msgid "Too many registered characters ({count}/{limit})."
-msgstr ""
+msgstr "Tienes demasiados personajes registrados ({count}/{limit})."
 
 #: cogs/core.py:362
 msgid "Sorry, the message was too long to send."
@@ -1216,7 +1216,7 @@ msgstr ""
 
 #: cogs/core.py:418
 msgid "NabBot is now in {count:,} Discord servers"
-msgstr ""
+msgstr "NabBot está ahora en {count:,} servidores de Discord"
 
 #: cogs/general.py:42
 msgid "Checks if you can receive PMs from the bot.\n\n"
