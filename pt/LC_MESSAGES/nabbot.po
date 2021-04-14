@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 12:30-0700\n"
-"PO-Revision-Date: 2021-04-13 22:53\n"
+"PO-Revision-Date: 2021-04-14 06:27\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -404,22 +404,31 @@ msgid "Changes the channel where levelup and deaths are announced.\n"
 "            If the assigned channel is deleted or forbidden, the top channel will be used again.\n"
 "    \n"
 "            If this is disabled, Announcements won't be made, but there will still be tracking."
-msgstr ""
+msgstr "Altera o canal onde níveis e mortes são anunciados.\n"
+"    \n"
+"            É aqui que serão anunciados todos os níveis e mortes de personagens registrados.\n"
+"            Por padrão, o canal mais alto da lista onde o bot pode enviar mensagens será usado.\n"
+"            Se o canal atribuído for excluído ou proibido, o canal mais alto será usado novamente.\n"
+"    \n"
+"            Se isto estiver desativado, os anúncios não serão feitos, mas o monitoramento ainda será realizado."
 
 #: cogs/admin.py:278 cogs/admin.py:327 cogs/admin.py:437
 msgid "A channel's name or id, or `none`."
-msgstr ""
+msgstr "O nome ou id de um canal, ou `nenhum`."
 
 #: cogs/admin.py:279 cogs/admin.py:328 cogs/admin.py:438
 msgid "channel/none"
-msgstr ""
+msgstr "canal/nenhum"
 
 #: cogs/admin.py:294
 msgid "Sets the minimum level for death and level up announcements.\n"
 "    \n"
 "            Level ups and deaths under the minimum level are still and can be seen by checking the character directly.\n"
 "            "
-msgstr ""
+msgstr "Define o nível mínimo para anúncios de morte e nível.\n"
+"    \n"
+"            Os níveis e mortes abaixo do nível mínimo ainda são monitorados e podem ser visualizados verificando o personagem diretamente.\n"
+"            "
 
 #: cogs/admin.py:302
 #, python-brace-format
