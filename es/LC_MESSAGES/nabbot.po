@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 12:30-0700\n"
-"PO-Revision-Date: 2021-04-14 20:31\n"
+"PO-Revision-Date: 2021-04-14 21:33\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -277,18 +277,19 @@ msgstr "Sólo necesito esto para crear watchlists."
 
 #: cogs/admin.py:122
 msgid "I need this to create server logs, news and levels channels, as well as watchlist feeds."
-msgstr ""
+msgstr "Necesito esto para crear server logs, canales de noticias, canales de niveles y muertes, asi como watchlists feeds."
 
 #: cogs/admin.py:124
 msgid "I only need this to show you the author of actions in the server log."
-msgstr ""
+msgstr "Solo necesito esto para mostrarte el autor de las acciones en el server log."
 
 #. Explanation for each missing permission
 #: cogs/admin.py:134
 #, python-brace-format
 msgid "Missing `{perm_name}` permission\n"
 "\t{icon} {explain}"
-msgstr ""
+msgstr "Falta el permiso `{perm_name}`\n"
+"\t{icon} {explain}"
 
 #: cogs/admin.py:139
 #, python-brace-format
@@ -305,12 +306,13 @@ msgstr "Configuraciones"
 
 #: cogs/admin.py:155
 msgid "Use the subcommands to change the settings for this server."
-msgstr ""
+msgstr "Usa los subcomandos para cambiar las configuraciones del servidor."
 
 #: cogs/admin.py:166
 msgid "Sets whether simple level/death messages will be used instead of random custom messages.\n\n"
 "            When enabled, all level up and death messages will be the same, a simple and short message."
-msgstr ""
+msgstr "Establece si se usarán mensajes simples de nivel/muerte en lugar de mensajes personalizados aleatorios.\n\n"
+"            Cuando está activado, todos los mensajes de nivel y muerte serán los mismos, un mensaje simple y corto."
 
 #: cogs/admin.py:173
 #, python-brace-format
@@ -4895,51 +4897,53 @@ msgstr ""
 
 #: cogs/tibiawiki.py:1171
 msgid "Selling"
-msgstr ""
+msgstr "Vende"
 
 #: cogs/tibiawiki.py:1172
 msgid "Buying"
-msgstr ""
+msgstr "Compra"
 
 #: cogs/tibiawiki.py:1177
 msgid "Destinations"
-msgstr ""
+msgstr "Destinos"
 
 #. Title for the list of spells the NPC teaches to a vocation
 #: cogs/tibiawiki.py:1252
 #, python-brace-format
 msgid "Teaches ({voc}s)"
-msgstr ""
+msgstr "Enseña ({voc}s)"
 
 #: cogs/tibiawiki.py:1283
 #, python-brace-format
 msgid "A **premium** spell for level **{spell.level}** and up. It uses **{spell.mana}** mana. It can be used by {vocs}."
-msgstr ""
+msgstr "Un spell **premium** para el nivel **{spell.level}** y superior. Utiliza de **{spell.mana}** maná. Puede ser usado por {vocs}."
 
 #: cogs/tibiawiki.py:1286
 #, python-brace-format
 msgid "A spell for level **{spell.level}** and up. It uses **{spell.mana}** mana. It can be used by {vocs}."
-msgstr ""
+msgstr "Un spell para nivel **{spell.level}** y superior. Utiliza **{spell.mana}** de maná. Puede ser usado por {vocs}."
 
 #: cogs/tibiawiki.py:1291
 msgid "\n"
 "It can be obtained for free."
-msgstr ""
+msgstr "\n"
+"Se puede obtener gratis."
 
 #: cogs/tibiawiki.py:1293
 msgid "\n"
 "It can be bought for **{spell.price:,}** gold coins."
-msgstr ""
+msgstr "\n"
+"Puede ser comprado por **{spell.price:,}** gold."
 
 #. Title for the list of NPCs that teach this spell for a specific vocation
 #: cogs/tibiawiki.py:1333
 msgid "Taught by (voc)"
-msgstr ""
+msgstr "Enseñado por (voc)"
 
 #. Title for the list of NPCs that teach this spell for any vocation
 #: cogs/tibiawiki.py:1336
 msgid "Taught by"
-msgstr ""
+msgstr "Enseñado por"
 
 #: cogs/timers.py:421
 #, python-brace-format
@@ -5141,7 +5145,7 @@ msgstr ""
 
 #: cogs/timers.py:717
 msgid "Recent events"
-msgstr ""
+msgstr "Eventos recientes"
 
 #: cogs/timers.py:739
 msgid "Creates a new event.\n\n"
@@ -5177,69 +5181,74 @@ msgstr ""
 
 #: cogs/timers.py:804
 msgid "Character not registered to anyone in this server."
-msgstr ""
+msgstr "Personaje no registrado a nadie en este servidor."
 
 #: cogs/timers.py:806
 msgid "You can't add characters from another world."
-msgstr ""
+msgstr "No puede agregar personajes de otro mundo."
 
 #: cogs/timers.py:809
 #, python-brace-format
 msgid "A character of {user} is already participating."
-msgstr ""
+msgstr "Un personaje de {user} ya está participando."
 
 #: cogs/timers.py:812
 #, python-brace-format
 msgid "All the slots for this event has been filled. You can change them by using `{prefix}event edit slots {event.id} newSlots`."
-msgstr ""
+msgstr "Todas las ranuras para este evento han sido llenadas. Puedes cambiarlas usando `{prefix}event edit slots {event.id} newSlots`."
 
 #: cogs/timers.py:816
 #, python-brace-format
 msgid "Do you want to add **{char.name}** ({owner.mention}) to **{event.name}**?"
-msgstr ""
+msgstr "¿Quieres agregar a **{char.name}** ({owner.mention}) a **{event.name}**?"
 
 #: cogs/timers.py:825
 #, python-brace-format
 msgid "You successfully added **{char.name}** to this event."
-msgstr ""
+msgstr "Has agregado con éxito a **{char.name}** a este evento."
 
 #: cogs/timers.py:831
 msgid "Edits an event.\n\n"
 "        Use one of the subcommands to edit the event.\n"
 "        Only the creator of the event or mods can edit an event.\n"
 "        Past events can't be edited."
-msgstr ""
+msgstr "Edita un evento.\n\n"
+"        Usa uno de los subcomandos para editar el evento.\n"
+"        Sólo el creador del evento o mods puede editar un evento.\n"
+"        No se pueden editar los eventos pasados."
 
 #: cogs/timers.py:836
 msgid "To edit an event, use the subcommands:```"
-msgstr ""
+msgstr "Para editar un evento, usa los subcomandos:```"
 
 #: cogs/timers.py:848
 msgid "Edits an event's description.\n\n"
 "        If no new description is provided initially, the bot will ask for one.\n"
 "        To remove the description, say `blank`."
-msgstr ""
+msgstr "Edita la descripción de un evento.\n\n"
+"        Si no se proporciona ninguna nueva descripción inicialmente, el bot pedirá una.\n"
+"        Para eliminar la descripción, diga `blank`."
 
 #: cogs/timers.py:858
 #, python-brace-format
 msgid "What would you like to be the new description of **{event}**?You can `cancel` this or set a `blank` description."
-msgstr ""
+msgstr "¿Cuál te gustaría que fuera la nueva descripción de **{event}**? Puedes `cancelar` esto o establecer una descripción `en blanco`."
 
 #: cogs/timers.py:863
 msgid "Guess you don't want to change the description..."
-msgstr ""
+msgstr "Supongamos que no quieres cambiar la descripción..."
 
 #: cogs/timers.py:878
 msgid "Do you want this to be the new description?"
-msgstr ""
+msgstr "¿Quieres que esta sea la nueva descripción?"
 
 #: cogs/timers.py:890
 msgid "Your event's description was changed successfully."
-msgstr ""
+msgstr "La descripción de tu evento se ha cambiado correctamente."
 
 #: cogs/timers.py:892
 msgid "Event's description changed successfully."
-msgstr ""
+msgstr "La descripción del evento ha cambiado correctamente."
 
 #: cogs/timers.py:896
 #, python-brace-format
@@ -5269,11 +5278,11 @@ msgstr ""
 
 #: cogs/timers.py:931
 msgid "joinable"
-msgstr ""
+msgstr "unible"
 
 #: cogs/timers.py:931
 msgid "not joinable"
-msgstr ""
+msgstr "no unible"
 
 #: cogs/timers.py:936
 #, python-brace-format
@@ -5316,7 +5325,7 @@ msgstr ""
 
 #: cogs/timers.py:984
 msgid "Alright, name remains the same."
-msgstr ""
+msgstr "Bueno, el nombre sigue siendo el mismo."
 
 #: cogs/timers.py:990
 #, python-brace-format
@@ -5351,11 +5360,11 @@ msgstr ""
 
 #: cogs/timers.py:1028
 msgid "You can't have negative slots!"
-msgstr ""
+msgstr "¡No puedes tener ranuras negativas!"
 
 #: cogs/timers.py:1031
 msgid "That's not a number..."
-msgstr ""
+msgstr "Ese no es un número..."
 
 #: cogs/timers.py:1033
 #, python-brace-format
@@ -5502,11 +5511,11 @@ msgstr ""
 #: cogs/timers.py:1357
 #, python-brace-format
 msgid "There are no participants in this event.{join_prompt}"
-msgstr ""
+msgstr "No hay participantes en el evento.{join_prompt}"
 
 #: cogs/timers.py:1367 cogs/tracking.py:1360
 msgid "unknown"
-msgstr ""
+msgstr "desconocido"
 
 #: cogs/timers.py:1385
 msgid "Deletes or cancels an event."
@@ -5527,7 +5536,7 @@ msgstr ""
 
 #: cogs/timers.py:1404
 msgid "Event deleted successfully."
-msgstr ""
+msgstr "Evento eliminado exitosamente."
 
 #: cogs/timers.py:1408
 #, python-brace-format
@@ -5547,20 +5556,20 @@ msgstr ""
 
 #: cogs/timers.py:1430
 msgid "This character doesn't exist."
-msgstr ""
+msgstr "Este personaje no existe."
 
 #: cogs/timers.py:1432
 msgid "This character is not in this event."
-msgstr ""
+msgstr "Este personaje no está en el evento."
 
 #: cogs/timers.py:1435
 #, python-brace-format
 msgid "Do you want to remove **{char}** ({owner}) from **{event}**?"
-msgstr ""
+msgstr "¿Quieres eliminar **{char}** ({owner}) de **{event}**?"
 
 #: cogs/timers.py:1446
 msgid "Character removed from event."
-msgstr ""
+msgstr "Personaje removido del evento."
 
 #: cogs/timers.py:1454
 msgid "Subscribe to receive a PM when an event is happening."
@@ -5617,7 +5626,7 @@ msgstr ""
 
 #: cogs/timers.py:1550
 msgid "Your timers"
-msgstr ""
+msgstr "Tus temporizadores"
 
 #: cogs/timers.py:1559
 msgid "Removes one of your reminders by its id.\n\n"
