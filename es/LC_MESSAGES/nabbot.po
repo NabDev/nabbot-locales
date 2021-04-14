@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 12:30-0700\n"
-"PO-Revision-Date: 2021-04-13 22:53\n"
+"PO-Revision-Date: 2021-04-14 01:57\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -319,7 +319,7 @@ msgstr ""
 
 #: cogs/admin.py:180
 msgid "I will use simple messages from now on."
-msgstr ""
+msgstr "A partir de ahora utilizaré mensajes simples."
 
 #: cogs/admin.py:183
 msgid "I will use randomized custom messages from now on."
@@ -337,56 +337,56 @@ msgstr ""
 
 #: cogs/admin.py:208
 msgid "Event announcements are already disabled."
-msgstr ""
+msgstr "Los anuncios de eventos ya están deshabilitados."
 
 #: cogs/admin.py:210
 msgid "Are you sure you want to disable events announcements?"
-msgstr ""
+msgstr "¿Estás seguro de que quieres desactivar los anuncios de eventos?"
 
 #: cogs/admin.py:220 cogs/admin.py:567
 #, python-brace-format
 msgid "I don't have permission to use {channel}."
-msgstr ""
+msgstr "No tengo permiso para usar {channel}."
 
 #: cogs/admin.py:222
 #, python-brace-format
 msgid "Are you sure you want {channel} as the new events channel?"
-msgstr ""
+msgstr "¿Estás seguro de que quieres que {channel} sea el nuevo canal de eventos?"
 
 #: cogs/admin.py:232
 msgid "The events channel has been disabled."
-msgstr ""
+msgstr "El canal de eventos ha sido deshabilitado."
 
 #: cogs/admin.py:234
 #, python-brace-format
 msgid "{channel} will now be used for events."
-msgstr ""
+msgstr "{channel} se usará ahora para eventos."
 
 #: cogs/admin.py:242
 msgid "Sets the language for this server."
-msgstr ""
+msgstr "Establece el idioma para este servidor."
 
 #: cogs/admin.py:247
 msgid "The desired language or `none`"
-msgstr ""
+msgstr "El idioma deseado o `ninguno`"
 
 #: cogs/admin.py:248
 msgid "language/none"
-msgstr ""
+msgstr "idioma/ninguno"
 
 #: cogs/admin.py:250
 msgid "Language is currently not supported."
-msgstr ""
+msgstr "El idioma no está soportado actualmente."
 
 #: cogs/admin.py:251
 #, python-brace-format
 msgid "Do you want to set the language to `{language}`?"
-msgstr ""
+msgstr "¿Quieres establecer el idioma a `{language}`?"
 
 #: cogs/admin.py:259
 #, python-brace-format
 msgid "This server messages will now be in {language}"
-msgstr ""
+msgstr "Los mensajes de este servidor ahora estarán en {language}"
 
 #: cogs/admin.py:267
 msgid "Changes the channel where levelup and deaths are announced.\n"
@@ -400,11 +400,11 @@ msgstr ""
 
 #: cogs/admin.py:278 cogs/admin.py:327 cogs/admin.py:437
 msgid "A channel's name or id, or `none`."
-msgstr ""
+msgstr "Nombre o id de un canal, o `ninguno`."
 
 #: cogs/admin.py:279 cogs/admin.py:328 cogs/admin.py:438
 msgid "channel/none"
-msgstr ""
+msgstr "canal/ninguno"
 
 #: cogs/admin.py:294
 msgid "Sets the minimum level for death and level up announcements.\n"
@@ -433,7 +433,7 @@ msgstr "El nivel no puede ser menor que 1."
 #: cogs/admin.py:310
 #, python-brace-format
 msgid "Minimum announce level has been set to `{level}`."
-msgstr ""
+msgstr "El nivel mínimo de anuncios ha sido establecido a `{level}`."
 
 #: cogs/admin.py:318
 msgid "Changes the channel where Tibia news are announced.\n"
@@ -497,17 +497,17 @@ msgstr "prefijo"
 #: cogs/admin.py:398
 #, python-brace-format
 msgid "Do you want to remove `{prefix}` as a prefix?"
-msgstr ""
+msgstr "¿Quieres eliminar `{prefix}` como prefijo?"
 
 #: cogs/admin.py:402
 #, python-brace-format
 msgid "You can't have more than {limit} command prefixes."
-msgstr ""
+msgstr "No puedes tener más de {limit} prefijos de comandos."
 
 #: cogs/admin.py:404
 #, python-brace-format
 msgid "Do you want to add `{prefix}` as a prefix?"
-msgstr ""
+msgstr "¿Quieres añadir `{prefix}` como prefijo?"
 
 #: cogs/admin.py:412
 #, python-brace-format
@@ -531,11 +531,11 @@ msgstr ""
 
 #: cogs/admin.py:467
 msgid "I will show users on level up and death messages from now on."
-msgstr ""
+msgstr "A partir de ahora mostraré a los usuarios en los mensajes de nivel y de muerte."
 
 #: cogs/admin.py:470
 msgid "I won't show users on level up and death messages from now on."
-msgstr ""
+msgstr "A partir de ahora no mostraré a los usuarios en mensajes de subida de nivel y muerte."
 
 #: cogs/admin.py:480
 #, python-brace-format
@@ -557,15 +557,15 @@ msgstr ""
 
 #: cogs/admin.py:498
 msgid "message/disable"
-msgstr ""
+msgstr "mensaje/deshabilitar"
 
 #: cogs/admin.py:500
 msgid "disable"
-msgstr ""
+msgstr "deshabilitar"
 
 #: cogs/admin.py:502
 msgid "Welcome messages are already disabled."
-msgstr ""
+msgstr "Los mensajes de bienvenida ya están deshabilitados."
 
 #: cogs/admin.py:504
 msgid "Are you sure you want to disable welcome messages?"
@@ -578,7 +578,7 @@ msgstr "¡Este mensaje es demasiado largo! {longitud:,}/{limit} caracteres."
 #: cogs/admin.py:519
 #, python-brace-format
 msgid "Unknown keyword {key}."
-msgstr ""
+msgstr "Palabra clave {key} desconocida."
 
 #: cogs/admin.py:527
 msgid "The welcome message has been disabled."
@@ -600,7 +600,7 @@ msgstr ""
 
 #: cogs/admin.py:550
 msgid "A channel's name or ID, or `private`."
-msgstr ""
+msgstr "Nombre de un canal o ID, o `private`."
 
 #: cogs/admin.py:551
 msgid "channel/private"
@@ -608,7 +608,7 @@ msgstr ""
 
 #: cogs/admin.py:553
 msgid "private"
-msgstr ""
+msgstr "privado"
 
 #: cogs/admin.py:555
 msgid "Welcome messages are already private."
@@ -744,24 +744,24 @@ msgstr ""
 #: cogs/admin.py:726
 #, python-brace-format
 msgid "{emoji} {title} - Settings"
-msgstr ""
+msgstr "{emoji} {title} - Ajustes"
 
 #: cogs/admin.py:728
 msgid "📄 Current value"
-msgstr ""
+msgstr "📄 Valor actual"
 
 #: cogs/admin.py:729
 msgid "📝 Edit"
-msgstr ""
+msgstr "📝 Editar"
 
 #: cogs/admin.py:731
 msgid "☑ Accepted values"
-msgstr ""
+msgstr "☑ Valores aceptados"
 
 #: cogs/admin.py:733
 #, python-brace-format
 msgid "Use \"{prefix}help {command} {subcommand}\" for more info"
-msgstr ""
+msgstr "Usa \"{prefix}help {command} {subcommand}\" para más información"
 
 #: cogs/admin.py:750
 #, python-brace-format
@@ -785,19 +785,19 @@ msgstr ""
 
 #: cogs/admin.py:774
 msgid "Yes"
-msgstr ""
+msgstr "Si"
 
 #: cogs/admin.py:774
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: cogs/calculators.py:82
 msgid "Unknown vocation."
-msgstr ""
+msgstr "Vocación desconocida."
 
 #: cogs/calculators.py:83
 msgid "Percentage must be between 1 and 100."
-msgstr ""
+msgstr "El porcentaje debe ser entre 1 y 100."
 
 #: cogs/calculators.py:84
 msgid "Loyalty must be between 0 and 50, and multiples of 5."
@@ -822,7 +822,7 @@ msgstr ""
 #. Message displayed when the training time is excessively long
 #: cogs/calculators.py:90
 msgid "Longer than what you will live."
-msgstr ""
+msgstr "Más de lo que vivirás."
 
 #: cogs/calculators.py:169
 msgid "Calculates the price of blessings for a specific level.\n\n"
