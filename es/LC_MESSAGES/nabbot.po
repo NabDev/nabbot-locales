@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 12:30-0700\n"
-"PO-Revision-Date: 2021-04-14 18:20\n"
+"PO-Revision-Date: 2021-04-14 19:16\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3275,7 +3275,7 @@ msgstr ""
 #: cogs/roles.py:560
 #, python-brace-format
 msgid "Message sent by {user}"
-msgstr ""
+msgstr "Mensaje enviado por {user}"
 
 #: cogs/roles.py:564
 msgid "Reverting mentionable"
@@ -3289,11 +3289,11 @@ msgstr ""
 
 #: cogs/roles.py:576
 msgid "Roles in this server"
-msgstr ""
+msgstr "Roles en este servidor"
 
 #: cogs/roles.py:579
 msgid "There are no roles in this server."
-msgstr ""
+msgstr "No existen roles en este servidor."
 
 #: cogs/roles.py:584
 #, python-brace-format
@@ -3308,27 +3308,27 @@ msgstr ""
 #: cogs/roles.py:589
 #, python-brace-format
 msgid "{user} has no roles."
-msgstr ""
+msgstr "{user} no tiene roles."
 
 #: cogs/roles.py:598
 msgid "member"
 msgid_plural "members"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "miembro"
+msgstr[1] "miembros"
 
 #: cogs/stats.py:37
 msgid "Shows command statistics."
-msgstr ""
+msgstr "Muestra estadísticas de comandos."
 
 #: cogs/stats.py:50 cogs/stats.py:90
 msgid "{count:,} command use"
 msgid_plural "{count:,} command uses"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{count:,} uso del comando"
+msgstr[1] "{count:,} usos de comando"
 
 #: cogs/stats.py:52
 msgid "Command Stats"
-msgstr ""
+msgstr "Estadísticas de comandos"
 
 #: cogs/stats.py:53 cogs/stats.py:93
 msgid "Tracking usage since"
@@ -3343,12 +3343,12 @@ msgstr[1] ""
 
 #: cogs/stats.py:59 cogs/stats.py:99
 msgid "Top commands"
-msgstr ""
+msgstr "Comandos mas usados"
 
 #: cogs/stats.py:64 cogs/stats.py:113
 #, python-brace-format
 msgid "<User {id}>"
-msgstr ""
+msgstr "<Usuario {id}>"
 
 #: cogs/stats.py:67 cogs/stats.py:116
 msgid "Top users"
@@ -3394,12 +3394,12 @@ msgstr ""
 
 #: cogs/tibia.py:227
 msgid "Shows information about a bazaar auction."
-msgstr ""
+msgstr "Muestra información sobre una subasta del bazar."
 
 #: cogs/tibia.py:230
 #, python-brace-format
 msgid "There is no auction with ID {auction_id}"
-msgstr ""
+msgstr "No hay subasta con ID {auction_id}"
 
 #: cogs/tibia.py:239
 msgid "Shows all the auctions a character has been involved in.\n\n"
@@ -4368,7 +4368,7 @@ msgstr ""
 
 #: cogs/tibia.py:2056
 msgid "**Hidden**"
-msgstr ""
+msgstr "**Oculto**"
 
 #: cogs/tibia.py:2059
 msgid "**{other_character_count:,} Visible Character**"
@@ -4408,17 +4408,17 @@ msgstr[1] ""
 
 #: cogs/tibia.py:2135
 msgid "house"
-msgstr ""
+msgstr "casa"
 
 #: cogs/tibia.py:2135
 msgid "guildhall"
-msgstr ""
+msgstr "guildhall"
 
 #: cogs/tibia.py:2136
 msgid "bed"
 msgid_plural "beds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "cama"
+msgstr[1] "camas"
 
 #: cogs/tibia.py:2151
 #, python-brace-format
@@ -4457,23 +4457,23 @@ msgstr ""
 
 #: cogs/tibia.py:2182
 msgid "TibiaWiki article"
-msgstr ""
+msgstr "Artículo de TibiaWiki"
 
 #: cogs/tibiawiki.py:130
 msgid "I couldn't find an achievement with that name."
-msgstr ""
+msgstr "No pude encontrar un logro con ese nombre."
 
 #: cogs/tibiawiki.py:144
 msgid "Grade"
-msgstr ""
+msgstr "Grado"
 
 #: cogs/tibiawiki.py:145
 msgid "Points"
-msgstr ""
+msgstr "Puntos"
 
 #: cogs/tibiawiki.py:146
 msgid "Spoiler"
-msgstr ""
+msgstr "Spoiler"
 
 #: cogs/tibiawiki.py:154
 msgid "Displays a category's creatures or all the categories.\n\n"
@@ -4483,26 +4483,27 @@ msgstr ""
 
 #: cogs/tibiawiki.py:163
 msgid "Bestiary Classes"
-msgstr ""
+msgstr "Clases de bestiary"
 
 #: cogs/tibiawiki.py:167
 msgid "There's no class with that name."
-msgstr ""
+msgstr "No hay ninguna clase con ese nombre."
 
 #: cogs/tibiawiki.py:170
 #, python-brace-format
 msgid "Use `{prefix}monster <name>` to see more info"
-msgstr ""
+msgstr "Usa `{prefix}monster <nombre>` para ver más información"
 
 #: cogs/tibiawiki.py:171
 #, python-brace-format
 msgid "Creatures in the {name} class"
-msgstr ""
+msgstr "Criaturas en la clase {name}"
 
 #: cogs/tibiawiki.py:187
 msgid "Displays information about a charm.\n\n"
 "        If no name is specified, displays a list of all charms for the user to choose from."
-msgstr ""
+msgstr "Muestra información sobre un charm.\n\n"
+"        Si no se especifica ningún nombre, muestra una lista de todos los charm para que el usuario pueda elegir."
 
 #: cogs/tibiawiki.py:205
 msgid "Displays information about an imbuement.\n\n"
@@ -4517,11 +4518,11 @@ msgstr ""
 #: cogs/tibiawiki.py:217 cogs/tibiawiki.py:223
 #, python-brace-format
 msgid "Invalid syntax. The correct syntax is: `{usage}`."
-msgstr ""
+msgstr "Sintaxis no válida. La sintaxis correcta es: `{usage}`."
 
 #: cogs/tibiawiki.py:230
 msgid "I couldn't find an imbuement with that name."
-msgstr ""
+msgstr "No pude encontrar un imbuement con ese nombre."
 
 #: cogs/tibiawiki.py:248
 msgid "Displays information about an item.\n\n"
@@ -4529,16 +4530,21 @@ msgid "Displays information about an item.\n\n"
 "        The embed is colored if a major loot NPC buys it, so it can be noted at quick glance.\n"
 "        Yellow for Rashid, Blue and Green for Djinns and Purple for gems.\n\n"
 "        More information is shown if used in private messages or in the command channel."
-msgstr ""
+msgstr "Muestra información sobre un item.\n\n"
+"        Muestra quién compra y vende el item, qué criaturas lo tiran y muchos atributos.\n\n"
+"        El embed se colorea si uno de los NPC principales de loot lo compran, para que se puede observar a simple vista.\n"
+"        amarillo para Rashid, azul y verde para Djinns y morado para gemas.\n\n"
+"        Se muestra más información si se utiliza en mensajes privados o en el canal de comandos."
 
 #: cogs/tibiawiki.py:258
 msgid "I couldn't find an item with that name."
-msgstr ""
+msgstr "No pude encontrar un ítem con ese nombre."
 
 #: cogs/tibiawiki.py:276
 msgid "Displays information about a key.\n\n"
 "        Shows the key's known names, how to obtain it and its uses."
-msgstr ""
+msgstr "Muestra información sobre una llave.\n\n"
+"        Muestra los nombres conocidos de la clave, cómo obtenerla y sus usos."
 
 #: cogs/tibiawiki.py:280
 msgid "Tell me the number of the key you want to check."
