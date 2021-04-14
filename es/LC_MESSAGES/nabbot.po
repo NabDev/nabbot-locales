@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 12:30-0700\n"
-"PO-Revision-Date: 2021-04-14 15:08\n"
+"PO-Revision-Date: 2021-04-14 16:07\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -870,12 +870,12 @@ msgstr ""
 
 #: cogs/calculators.py:216
 msgid "🏹 Distance Skill Calculator"
-msgstr ""
+msgstr "🏹 Calculador de Distance"
 
 #: cogs/calculators.py:217
 #, python-brace-format
 msgid "From distance level {current} ({percentage}% to next level) to {target} as a {voc}{loyalty_str}"
-msgstr ""
+msgstr "De nivel de distance {current} ({percentage}% al siguiente nivel) a {target} como {voc}{loyalty_str}"
 
 #: cogs/calculators.py:220 cogs/calculators.py:324
 msgid "You need **{hits:,}** hits to reach the target level."
@@ -888,7 +888,7 @@ msgstr ""
 
 #: cogs/calculators.py:252
 msgid "Target level must be greater than current level."
-msgstr ""
+msgstr "El nivel deseado debe ser mayor que el nivel actual."
 
 #: cogs/calculators.py:254
 msgid "Your current level can't be lower than 0."
@@ -896,28 +896,28 @@ msgstr "Tu nivel actual no puede ser menor que 0."
 
 #: cogs/calculators.py:256
 msgid "Your target level can't be greater than 200."
-msgstr ""
+msgstr "El nivel deseado no puede ser mayor a 200."
 
 #: cogs/calculators.py:258
 msgid "Your target level can't be greater than 30 for knights."
-msgstr ""
+msgstr "Tu nivel deseado no puede ser mayor que 30 para knights."
 
 #: cogs/calculators.py:260
 msgid "Your target level can't be greater than 60 for paladins."
-msgstr ""
+msgstr "Tu nivel deseado no puede ser mayor que 60 para paladins."
 
 #: cogs/calculators.py:272
 msgid "🔮 Magic Level Calculator"
-msgstr ""
+msgstr "🔮 Calculadora de magic level"
 
 #: cogs/calculators.py:273
 #, python-brace-format
 msgid "From magic level {current} ({percentage}% to next level) to {target} as a {voc}{loyalty_str}"
-msgstr ""
+msgstr "De magic level {current} ({percentage}% al siguiente nivel) a {target} como {voc}{loyalty_str}"
 
 #: cogs/calculators.py:285
 msgid "You need to spend **{mana:,}** mana to reach magic level {target}"
-msgstr ""
+msgstr "Necesitas gastar **{mana:,}** mana para alcanzar magic level {target}"
 
 #: cogs/calculators.py:295
 msgid "Calculates the training time required to reach a target skill level.\n"
@@ -947,7 +947,7 @@ msgstr ""
 
 #: cogs/calculators.py:356
 msgid "Could not parse party session."
-msgstr ""
+msgstr "No se pudo procesar la sesión."
 
 #: cogs/calculators.py:359
 #, python-brace-format
@@ -956,15 +956,15 @@ msgstr ""
 
 #: cogs/calculators.py:366
 msgid "Damage"
-msgstr ""
+msgstr "Daño"
 
 #: cogs/calculators.py:370
 msgid "Healing"
-msgstr ""
+msgstr "Curación"
 
 #: cogs/calculators.py:382
 msgid "Splitting Instructions"
-msgstr ""
+msgstr "Instrucciones para dividir"
 
 #: cogs/calculators.py:383
 #, python-brace-format
@@ -2960,7 +2960,7 @@ msgstr ""
 #: cogs/roles.py:190
 #, python-brace-format
 msgid "There's no guild named `{name}`"
-msgstr ""
+msgstr "No hay ningún guild llamado `{name}`"
 
 #: cogs/roles.py:197
 msgid "Autorole rule already exists."
@@ -2991,7 +2991,7 @@ msgstr ""
 
 #: cogs/roles.py:211 cogs/timers.py:775
 msgid "Is this correct?"
-msgstr ""
+msgstr "¿Es correcto?"
 
 #: cogs/roles.py:219
 msgid "Autorole rule created."
@@ -3084,12 +3084,12 @@ msgstr ""
 #: cogs/roles.py:340
 #, python-brace-format
 msgid "You joined {name}."
-msgstr ""
+msgstr "Te uniste a {name}."
 
 #: cogs/roles.py:342
 #, python-brace-format
 msgid "You left {name}."
-msgstr ""
+msgstr "Has salido de {name}."
 
 #: cogs/roles.py:350
 msgid "Creates a new group for members to join.\n\n"
@@ -4115,12 +4115,12 @@ msgstr ""
 
 #: cogs/tibia.py:1523
 msgid "That timezone already exists."
-msgstr ""
+msgstr "Esa zona horaria ya existe."
 
 #: cogs/tibia.py:1524
 #, python-brace-format
 msgid "Timezone `{name}` saved successfully as `{display_name}`."
-msgstr ""
+msgstr "Zona horaria `{name}` guardada correctamente como `{display_name}`."
 
 #: cogs/tibia.py:1532
 msgid "Shows a list of all the currently added timezones.\n\n"
@@ -4194,15 +4194,15 @@ msgstr ""
 
 #: cogs/tibia.py:1703
 msgid "This world is offline."
-msgstr ""
+msgstr "Este mundo está offline."
 
 #: cogs/tibia.py:1707
 msgid "Players online"
-msgstr ""
+msgstr "Jugadores en línea"
 
 #: cogs/tibia.py:1708
 msgid "The players online record is {count:,}"
-msgstr ""
+msgstr "El récord de jugadores en línea es {count:,}"
 
 #: cogs/tibia.py:1725
 msgid "PvP Type"
