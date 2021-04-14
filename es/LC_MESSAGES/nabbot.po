@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 12:30-0700\n"
-"PO-Revision-Date: 2021-04-14 04:07\n"
+"PO-Revision-Date: 2021-04-14 05:02\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2239,20 +2239,20 @@ msgstr "Premium recibido"
 
 #: cogs/premium.py:303
 msgid "Server received premium"
-msgstr "Servidor recivio premium"
+msgstr "Servidor recibió premium"
 
 #: cogs/premium.py:321
 #, python-brace-format
 msgid "Server received {days} premium days."
-msgstr ""
+msgstr "El servidor recibió {days} días premium."
 
 #: cogs/premium.py:322
 msgid "Premium will expire on"
-msgstr ""
+msgstr "Premium expirará el"
 
 #: cogs/premium.py:339
 msgid "This server is no longer receiving premium."
-msgstr ""
+msgstr "Este servidor ya no está recibiendo premium."
 
 #: cogs/premium.py:358
 msgid "Assigns premium to the current server or one you specify.\n\n"
@@ -2278,11 +2278,11 @@ msgstr ""
 
 #: cogs/premium.py:385
 msgid "You're not in that server."
-msgstr ""
+msgstr "No estás en ese servidor."
 
 #: cogs/premium.py:390
 msgid "You can't assign premium to any more servers."
-msgstr ""
+msgstr "No puedes asignar premium a más servidores."
 
 #: cogs/premium.py:401
 msgid "Shows your current premium days balance.\n\n"
@@ -2298,11 +2298,11 @@ msgstr ""
 
 #: cogs/premium.py:412
 msgid "You currently have {days:,} days to assign."
-msgstr ""
+msgstr "Actualmente tienes {días:,} días para asignar."
 
 #: cogs/premium.py:413
 msgid "More info"
-msgstr ""
+msgstr "Más información"
 
 #: cogs/premium.py:414
 #, python-brace-format
@@ -2313,7 +2313,7 @@ msgstr ""
 
 #: cogs/premium.py:419
 msgid "Last change"
-msgstr ""
+msgstr "Último cambio"
 
 #: cogs/premium.py:423
 msgid "You're currently a Patreon"
@@ -2375,7 +2375,7 @@ msgstr ""
 
 #: cogs/premium.py:506
 msgid "Your transactions"
-msgstr ""
+msgstr "Tus transacciones"
 
 #: cogs/premium.py:514
 msgid "Shows you a list of the servers you're currently giving premium to as a Patreon.\n\n"
@@ -2422,15 +2422,15 @@ msgstr ""
 
 #: cogs/premium.py:560
 msgid "More information"
-msgstr ""
+msgstr "Más información"
 
 #: cogs/premium.py:562
 msgid "Premium"
-msgstr ""
+msgstr "Premium"
 
 #: cogs/premium.py:565
 msgid "Other commands"
-msgstr ""
+msgstr "Otros comandos"
 
 #: cogs/premium.py:566
 #, python-brace-format
@@ -2546,31 +2546,31 @@ msgstr ""
 
 #: cogs/premium.py:844
 msgid "Submitted on"
-msgstr ""
+msgstr "Envíado el"
 
 #: cogs/premium.py:850
 msgid "Status"
-msgstr ""
+msgstr "Estado"
 
 #: cogs/premium.py:853
 msgid "Amount"
-msgstr ""
+msgstr "Cantidad"
 
 #: cogs/premium.py:855
 msgid "Days"
-msgstr ""
+msgstr "Días"
 
 #: cogs/premium.py:859
 msgid "Details"
-msgstr ""
+msgstr "Detalles"
 
 #: cogs/premium.py:861
 msgid "Additional Comments"
-msgstr ""
+msgstr "Comentarios adicionales"
 
 #: cogs/respawn.py:30
 msgid "No respawns were registered."
-msgstr ""
+msgstr "No se registraron respawns."
 
 #: cogs/respawn.py:84
 #, python-brace-format
@@ -2658,11 +2658,11 @@ msgstr ""
 
 #: cogs/respawn.py:313
 msgid "History"
-msgstr ""
+msgstr "Historia"
 
 #: cogs/respawn.py:329 cogs/respawn.py:338
 msgid "an unknown user"
-msgstr ""
+msgstr "un usuario desconocido"
 
 #: cogs/respawn.py:331
 msgid "Current hunt should end at"
@@ -3546,15 +3546,15 @@ msgstr ""
 
 #: cogs/tibia.py:466
 msgid "Previous events"
-msgstr ""
+msgstr "Eventos anteriores"
 
 #: cogs/tibia.py:468
 msgid "Current events"
-msgstr ""
+msgstr "Eventos actuales"
 
 #: cogs/tibia.py:470 cogs/timers.py:730
 msgid "Upcoming events"
-msgstr ""
+msgstr "Próximos eventos"
 
 #: cogs/tibia.py:476
 msgid "Shows the latest CM posts in the forum.\n\n"
@@ -3883,7 +3883,7 @@ msgstr ""
 
 #: cogs/tibia.py:1107
 msgid "There's no article with that id."
-msgstr ""
+msgstr "No hay ningún artículo con ese id."
 
 #: cogs/tibia.py:1109
 msgid "I couldn't fetch the recent news, I'm having network problems."
@@ -4177,15 +4177,15 @@ msgstr ""
 
 #: cogs/tibia.py:1642 cogs/tibia.py:1679
 msgid "Character"
-msgstr ""
+msgstr "Personaje"
 
 #: cogs/tibia.py:1667
 msgid "Highest character"
-msgstr ""
+msgstr "Personaje más alto"
 
 #: cogs/tibia.py:1669 cogs/tibia.py:2044
 msgid "Last login"
-msgstr ""
+msgstr "Última sesión"
 
 #: cogs/tibia.py:1690
 msgid "Shows basic information about a Tibia world.\n\n"
