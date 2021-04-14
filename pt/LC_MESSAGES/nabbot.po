@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 12:30-0700\n"
-"PO-Revision-Date: 2021-04-14 06:27\n"
+"PO-Revision-Date: 2021-04-14 17:08\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -433,24 +433,24 @@ msgstr "Define o nível mínimo para anúncios de morte e nível.\n"
 #: cogs/admin.py:302
 #, python-brace-format
 msgid "`{default_level}` (global default)"
-msgstr ""
+msgstr "`{default_level} (padrão global)"
 
 #: cogs/admin.py:305
 msgid "Any number greater than 1"
-msgstr ""
+msgstr "Qualquer número maior que 1"
 
 #: cogs/admin.py:305
 msgid "level"
-msgstr ""
+msgstr "nível"
 
 #: cogs/admin.py:307
 msgid "Level can't be lower than 1."
-msgstr ""
+msgstr "O nível não pode ser inferior a 1."
 
 #: cogs/admin.py:310
 #, python-brace-format
 msgid "Minimum announce level has been set to `{level}`."
-msgstr ""
+msgstr "Nível mínimo de anúncio foi definido como `{level}`."
 
 #: cogs/admin.py:318
 msgid "Changes the channel where Tibia news are announced.\n"
@@ -458,26 +458,33 @@ msgid "Changes the channel where Tibia news are announced.\n"
 "            This is where all news and articles posted in Tibia.com will be announced.\n"
 "            If the assigned channel is deleted or forbidden, the top channel will be used.\n"
 "            "
-msgstr ""
+msgstr "Altera o canal onde as notícias do Tibia são anunciadas.\n"
+"    \n"
+"            É onde todas as notícias e artigos postados no Tibia.com serão anunciados.\n"
+"            Se o canal atribuído for excluído ou proibido, o canal superior será usado.\n"
+"            "
 
 #: cogs/admin.py:343
 msgid "Enables or disables news tickers from Tibia.com in this server.\n\n"
 "            Disabling this will make NabBot only announce news and featured articles.\n"
 "            For news tickers to be announced, news announcement must be enabled.\n"
 "            "
-msgstr ""
+msgstr "Habilita ou desabilita noticias do Tibia.com neste servidor.\n\n"
+"            Desativar isto fará com que NabBot anuncie apenas notícias e artigos em destaque.\n"
+"            Para que os tickers de notícia sejam anunciados, o anúncio de notícias deve ser habilitado.\n"
+"            "
 
 #: cogs/admin.py:352
 msgid "True (Global default)"
-msgstr ""
+msgstr "Verdadeiro (padrão global)"
 
 #: cogs/admin.py:358
 msgid "I will announce news ticker along news and featured articles from now on."
-msgstr ""
+msgstr "De agora em diante, anunciarei tickers de notícia junto das notícias e artigos em destaque."
 
 #: cogs/admin.py:361
 msgid "I won't announce news ticker from now on."
-msgstr ""
+msgstr "De agora em diante, não anunciarei os tickers de notícia."
 
 #: cogs/admin.py:371
 msgid "Changes the command prefixes for this server.\n\n"
@@ -497,7 +504,7 @@ msgstr ""
 #: cogs/admin.py:389
 #, python-brace-format
 msgid "{prefixes} and mentions"
-msgstr ""
+msgstr "{prefixes} e menções"
 
 #: cogs/admin.py:390
 msgid "Mentions only"
@@ -589,23 +596,23 @@ msgstr "Altera a mensagem que novos membros recebem ao entrar.\n\n"
 
 #: cogs/admin.py:498
 msgid "message/disable"
-msgstr ""
+msgstr "mensagem/inativar"
 
 #: cogs/admin.py:500
 msgid "disable"
-msgstr ""
+msgstr "inativar"
 
 #: cogs/admin.py:502
 msgid "Welcome messages are already disabled."
-msgstr ""
+msgstr "As mensagens de boas-vindas já estão desabilitadas."
 
 #: cogs/admin.py:504
 msgid "Are you sure you want to disable welcome messages?"
-msgstr ""
+msgstr "Você tem certeza que deseja desabilitar as mensagens de boas-vindas?"
 
 #: cogs/admin.py:509
 msgid "This message is too long! {length:,}/{limit} characters."
-msgstr ""
+msgstr "Esta mensagem é muito longa! {length:,}/{limit} caracteres."
 
 #: cogs/admin.py:519
 #, python-brace-format
