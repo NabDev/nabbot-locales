@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 12:30-0700\n"
-"PO-Revision-Date: 2021-04-14 17:08\n"
+"PO-Revision-Date: 2021-04-14 18:20\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3201,34 +3201,34 @@ msgstr ""
 
 #: cogs/roles.py:471
 msgid "Members with no roles"
-msgstr ""
+msgstr "Miembros sin roles"
 
 #: cogs/roles.py:484
 msgid "Mentionable"
-msgstr ""
+msgstr "Mencionable"
 
 #. Whether the role appears separate in the right side of Discord
 #: cogs/roles.py:486
 msgid "Hoisted"
-msgstr ""
+msgstr "Separado"
 
 #: cogs/roles.py:487
 msgid "Position"
-msgstr ""
+msgstr "Posición"
 
 #: cogs/roles.py:488
 msgid "Color"
-msgstr ""
+msgstr "Color"
 
 #: cogs/roles.py:502
 #, python-brace-format
 msgid "Seems like there are no members with the role {name}."
-msgstr ""
+msgstr "Parece que no hay miembros con el rol {name}."
 
 #: cogs/roles.py:505
 #, python-brace-format
 msgid "Members with the role '{name}'"
-msgstr ""
+msgstr "Miembros con el rol '{name}'"
 
 #: cogs/roles.py:521
 msgid "Sends a message mentioning a role.\n\n"
@@ -3240,30 +3240,32 @@ msgstr ""
 
 #: cogs/roles.py:532
 msgid "You can't mention a role highest than your highest role."
-msgstr ""
+msgstr "No puedes mencionar un rol más alto que tu rol más alto."
 
 #: cogs/roles.py:535
 msgid "I can't mention a role highest than my highest role."
-msgstr ""
+msgstr "No puedo mencionar un rol más alto que mi rol más alto."
 
 #: cogs/roles.py:537
 #, python-brace-format
 msgid "The message will mention the role {name}. Your name will appear at the bottom of the message.\n"
 "Please tell me the content of the message.\n"
 "You can also say `cancel` to exit."
-msgstr ""
+msgstr "El mensaje mencionará el rol {name}. Tu nombre aparecerá al final del mensaje.\n"
+"Por favor, dime el contenido del mensaje.\n"
+"También puedes decir `cancel` para salir."
 
 #: cogs/roles.py:545
 msgid "...I guess you changed your mind."
-msgstr ""
+msgstr "...Supongo que has cambiado de opinión."
 
 #: cogs/roles.py:548
 msgid "Alright, no message will be sent."
-msgstr ""
+msgstr "Muy bien, no se enviará ningún mensaje."
 
 #: cogs/roles.py:551
 msgid "The message can't be longer than {limit:,} characters."
-msgstr ""
+msgstr "El mensaje no puede tener más de {limit:,} caracteres."
 
 #: cogs/roles.py:558
 #, python-brace-format
@@ -4250,11 +4252,11 @@ msgstr "ID: {auction_id} | Fin de la subasta"
 
 #: cogs/tibia.py:1950
 msgid "Skills"
-msgstr ""
+msgstr "Skills"
 
 #: cogs/tibia.py:1952
 msgid "Regular Transfer"
-msgstr ""
+msgstr "Transferencia regular"
 
 #: cogs/tibia.py:1953
 msgid "Gold"
@@ -4266,15 +4268,15 @@ msgstr ""
 
 #: cogs/tibia.py:1955 cogs/tibiawiki.py:630
 msgid "Charms"
-msgstr ""
+msgstr "Charms"
 
 #: cogs/tibia.py:1955
 msgid "Expansion"
-msgstr ""
+msgstr "Expansión"
 
 #: cogs/tibia.py:1956
 msgid "Outfits"
-msgstr ""
+msgstr "Outfits"
 
 #: cogs/tibia.py:1956 cogs/tibia.py:1957
 msgid "Store"
