@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 12:30-0700\n"
-"PO-Revision-Date: 2021-04-14 21:33\n"
+"PO-Revision-Date: 2021-04-14 22:35\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -317,7 +317,7 @@ msgstr "Establece si se usarán mensajes simples de nivel/muerte en lugar de men
 #: cogs/admin.py:173
 #, python-brace-format
 msgid "{yes_no} (Global default)"
-msgstr ""
+msgstr "{yes_no} (predeterminado global)"
 
 #: cogs/admin.py:180
 msgid "I will use simple messages from now on."
@@ -325,7 +325,7 @@ msgstr "A partir de ahora utilizaré mensajes simples."
 
 #: cogs/admin.py:183
 msgid "I will use randomized custom messages from now on."
-msgstr ""
+msgstr "A partir de ahora utilizaré mensajes personalizados aleatorios."
 
 #: cogs/admin.py:193
 msgid "Changes the channel where upcoming events are announced.\n"
@@ -335,7 +335,13 @@ msgid "Changes the channel where upcoming events are announced.\n"
 "    \n"
 "            If this is disabled, users that subscribed to the event will still receive notifications via PM.\n"
 "            "
-msgstr ""
+msgstr "Cambia el canal donde se anuncian los próximos eventos.\n"
+"    \n"
+"            Aquí es donde se harán anuncios de eventos a punto de suceder.\n"
+"            Si el canal asignado es eliminado o prohibido, se utilizará el primer canal de la lista.\n"
+"    \n"
+"            Si se desactiva, los usuarios que se suscriban al evento seguirán recibiendo notificaciones a través de PM.\n"
+"            "
 
 #: cogs/admin.py:208
 msgid "Event announcements are already disabled."
@@ -398,7 +404,13 @@ msgid "Changes the channel where levelup and deaths are announced.\n"
 "            If the assigned channel is deleted or forbidden, the top channel will be used again.\n"
 "    \n"
 "            If this is disabled, Announcements won't be made, but there will still be tracking."
-msgstr ""
+msgstr "Cambia el canal donde se anuncian niveles y muertes.\n"
+"    \n"
+"            Aquí es donde se anunciarán todos los niveles y muertes de personajes registrados.\n"
+"            Por defecto, el canal más alto de la lista donde el bot puede enviar mensajes será utilizado.\n"
+"            Si el canal asignado es eliminado o prohibido, el canal superior se utilizará de nuevo.\n"
+"    \n"
+"            Si esto está desactivado, No se harán anuncios, pero todavía habrá seguimiento."
 
 #: cogs/admin.py:278 cogs/admin.py:327 cogs/admin.py:437
 msgid "A channel's name or id, or `none`."
@@ -413,12 +425,15 @@ msgid "Sets the minimum level for death and level up announcements.\n"
 "    \n"
 "            Level ups and deaths under the minimum level are still and can be seen by checking the character directly.\n"
 "            "
-msgstr ""
+msgstr "Establece el nivel mínimo para los anuncios de muertes y de subida.\n"
+"    \n"
+"            Los aumentos de nivel y muertes por debajo del nivel mínimo siguen siendo guardados.\n"
+"            "
 
 #: cogs/admin.py:302
 #, python-brace-format
 msgid "`{default_level}` (global default)"
-msgstr ""
+msgstr "`{default_level}` (predeterminado global)"
 
 #: cogs/admin.py:305
 msgid "Any number greater than 1"
@@ -443,14 +458,21 @@ msgid "Changes the channel where Tibia news are announced.\n"
 "            This is where all news and articles posted in Tibia.com will be announced.\n"
 "            If the assigned channel is deleted or forbidden, the top channel will be used.\n"
 "            "
-msgstr ""
+msgstr "Cambia el canal donde se anuncian las noticias de Tibia.\n"
+"    \n"
+"            Aquí es donde todas las noticias y artículos publicados en Tibia.com seran anunciadas.\n"
+"            Si el canal asignado es eliminado o prohibido, se utilizará el canal superior.\n"
+"            "
 
 #: cogs/admin.py:343
 msgid "Enables or disables news tickers from Tibia.com in this server.\n\n"
 "            Disabling this will make NabBot only announce news and featured articles.\n"
 "            For news tickers to be announced, news announcement must be enabled.\n"
 "            "
-msgstr ""
+msgstr "Habilita o deshabilita los tickers de noticias de Tibia.com en este servidor.\n\n"
+"            Desactivar esto hará que NabBot solo anuncie noticias y artículos destacados.\n"
+"            Para que se anuncien los boletines de noticias, el anuncio de noticias debe estar habilitado.\n"
+"            "
 
 #: cogs/admin.py:352
 msgid "True (Global default)"
@@ -462,7 +484,7 @@ msgstr ""
 
 #: cogs/admin.py:361
 msgid "I won't announce news ticker from now on."
-msgstr ""
+msgstr "A partir de ahora no voy a anunciar los nuevos tickers."
 
 #: cogs/admin.py:371
 msgid "Changes the command prefixes for this server.\n\n"
