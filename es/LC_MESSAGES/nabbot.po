@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 12:30-0700\n"
-"PO-Revision-Date: 2021-04-14 16:07\n"
+"PO-Revision-Date: 2021-04-14 17:08\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4206,19 +4206,19 @@ msgstr "El récord de jugadores en línea es {count:,}"
 
 #: cogs/tibia.py:1725
 msgid "PvP Type"
-msgstr ""
+msgstr "Tipo de PvP"
 
 #: cogs/tibia.py:1727
 msgid "Premium restricted"
-msgstr ""
+msgstr "Limitado a premium"
 
 #: cogs/tibia.py:1729
 msgid "Transfers"
-msgstr ""
+msgstr "Transferencias"
 
 #: cogs/tibia.py:1733
 msgid "Vocations distribution"
-msgstr ""
+msgstr "Distribución por vocación"
 
 #: cogs/tibia.py:1747
 msgid "Shows a list of worlds.\n\n"
@@ -4227,21 +4227,26 @@ msgid "Shows a list of worlds.\n\n"
 "        `descending` to reverse the order.\n"
 "        `europe`, `south america` or `north america` to filter by location.\n"
 "        `optional pvp`, `open pvp`, `retro open pvp`, `hardcore pvp` or `retro hardcore pvp` to filter by pvp type."
-msgstr ""
+msgstr "Muestra la lista de mundos.\n\n"
+"        Puedes pasar una lista de parámetros separados por comas para cambiar los mundos de clasificación o filtrar.\n\n"
+"        `online` para ordenar por jugadores en línea.\n"
+"        `descending` para invertir el orden.\n"
+"        `europe`, `south america` o `north america` para filtrar por ubicación.\n"
+"        `opcional pvp`, `abrir pvp`, `retro open pvp`, `hardcore pvp` o `retro hardcore pvp` para filtrar por tipo de pvp."
 
 #: cogs/tibia.py:1794
 msgid "There's no worlds matching the query."
-msgstr ""
+msgstr "No hay mundos que coincidan con la búsqueda."
 
 #: cogs/tibia.py:1841
 #, python-format
 msgid "and %d more"
-msgstr ""
+msgstr "y %d más"
 
 #: cogs/tibia.py:1922
 #, python-brace-format
 msgid "ID: {auction_id} | Auction ending"
-msgstr ""
+msgstr "ID: {auction_id} | Fin de la subasta"
 
 #: cogs/tibia.py:1950
 msgid "Skills"
