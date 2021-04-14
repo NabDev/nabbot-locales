@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 12:30-0700\n"
-"PO-Revision-Date: 2021-04-14 02:54\n"
+"PO-Revision-Date: 2021-04-14 04:07\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -630,7 +630,7 @@ msgstr ""
 #: cogs/admin.py:581
 #, python-brace-format
 msgid "{channel} will now be used for welcome messages."
-msgstr ""
+msgstr "{channel} ahora se usará para mensajes de bienvenida."
 
 #: cogs/admin.py:589
 msgid "Changes the world this Discord server tracks.\n\n"
@@ -640,15 +640,15 @@ msgstr ""
 
 #: cogs/admin.py:595
 msgid "Any Tibia world or `none` to disable."
-msgstr ""
+msgstr "Cualquier mundo de Tibia o `ninguno` para desactivar."
 
 #: cogs/admin.py:595
 msgid "world/none"
-msgstr ""
+msgstr "mundo/ninguno"
 
 #: cogs/admin.py:600
 msgid "This server is already not tracking any world."
-msgstr ""
+msgstr "Este servidor ya no está siguiendo ningún mundo."
 
 #: cogs/admin.py:602
 #, python-brace-format
@@ -1104,16 +1104,16 @@ msgstr ""
 #: cogs/calculators.py:710
 #, python-brace-format
 msgid "Character **{name}** doesn't exist!"
-msgstr ""
+msgstr "¡El personaje **{name}** ** no existe!"
 
 #: cogs/core.py:262
 #, python-brace-format
 msgid "You already have these characters in {world} registered: *{characters}*"
-msgstr ""
+msgstr "Ya tienes estos personajes en {world} registrados: *{characters}*"
 
 #: cogs/core.py:315
 msgid "Sorry, `Embed Links` permission is required for this command."
-msgstr ""
+msgstr "Lo siento, el permiso de `Insertar enlaces` es necesario para este comando."
 
 #: cogs/core.py:317
 #, python-brace-format
@@ -1234,12 +1234,13 @@ msgstr ""
 
 #: cogs/general.py:51
 msgid "You can receive PMs."
-msgstr ""
+msgstr "Puedes recibir mensajes privados."
 
 #: cogs/general.py:53
 msgid "You can't receive my PMs.\n"
 "To enable, go to Server > Privacy Settings and enable the checkbox in any server I'm in."
-msgstr ""
+msgstr "No puedes recibir mis PMs.\n"
+"Para habilitar, ve a Servidor> Ajustes de privacidad y activa la casilla de verificación en cualquier servidor en el que estoy."
 
 #: cogs/general.py:60
 msgid "Chooses between multiple choices.\n"
@@ -1250,12 +1251,12 @@ msgstr ""
 
 #: cogs/general.py:66
 msgid "I can't tell you what to choose if you don't give me choices"
-msgstr ""
+msgstr "No puedo decirte qué elegir si no me das opciones"
 
 #: cogs/general.py:69
 #, python-brace-format
 msgid "Alright, {user}, I choose: \"{choice}\""
-msgstr ""
+msgstr "Muy bien, {user}, elijo: \"{choice}\""
 
 #: cogs/general.py:79
 msgid "Shows a member's permissions in the current channel.\n\n"
@@ -1266,15 +1267,15 @@ msgstr ""
 #: cogs/general.py:87
 #, python-brace-format
 msgid "Permissions in #{channel}"
-msgstr ""
+msgstr "Permisos en #{channel}"
 
 #: cogs/general.py:98
 msgid "Allowed"
-msgstr ""
+msgstr "Permitido"
 
 #: cogs/general.py:101
 msgid "Denied"
-msgstr ""
+msgstr "Denegado"
 
 #: cogs/general.py:111
 msgid "Shows a messages by its ID or link.\n"
@@ -1305,16 +1306,16 @@ msgstr ""
 
 #: cogs/general.py:140
 msgid "Jump to original"
-msgstr ""
+msgstr "Ir al original"
 
 #: cogs/general.py:148
 #, python-brace-format
 msgid "In #{channel_name}"
-msgstr ""
+msgstr "En #{channel_name}"
 
 #: cogs/general.py:154
 msgid "Attached file"
-msgstr ""
+msgstr "Archivo adjunto"
 
 #: cogs/general.py:162
 msgid "Rolls a die.\n"
@@ -1341,7 +1342,7 @@ msgstr ""
 
 #: cogs/general.py:191
 msgid "There's no dice with zero or less sides!"
-msgstr ""
+msgstr "¡No hay dados con cero o menos lados!"
 
 #: cogs/general.py:194
 #, python-brace-format
@@ -1389,7 +1390,7 @@ msgstr ""
 
 #: cogs/info.py:54
 msgid "Shows basic information about the bot."
-msgstr ""
+msgstr "Muestra información básica acerca del bot."
 
 #: cogs/info.py:62
 msgid "Prefixes"
@@ -1401,44 +1402,44 @@ msgstr "Autores"
 
 #: cogs/info.py:65 cogs/info.py:363 cogs/tibia.py:1951
 msgid "Created"
-msgstr ""
+msgstr "Creado"
 
 #: cogs/info.py:65
 msgid "March 30th 2016"
-msgstr ""
+msgstr "30 de marzo de 2016"
 
 #: cogs/info.py:66 cogs/info.py:101
 msgid "Version"
-msgstr ""
+msgstr "Versión"
 
 #: cogs/info.py:67
 msgid "Platform"
-msgstr ""
+msgstr "Plataforma"
 
 #: cogs/info.py:69 cogs/info.py:107
 msgid "Servers"
-msgstr ""
+msgstr "Servidores"
 
 #: cogs/info.py:70 cogs/info.py:109
 msgid "Users"
-msgstr ""
+msgstr "Usuarios"
 
 #: cogs/info.py:77
 #, python-brace-format
 msgid "Uptime | {uptime}"
-msgstr ""
+msgstr "Uptime | {uptime}"
 
 #: cogs/info.py:86
 msgid "Shows advanced information about the bot."
-msgstr ""
+msgstr "Muestra información avanzada acerca del bot."
 
 #: cogs/info.py:102
 msgid "Uptime"
-msgstr ""
+msgstr "Tiempo en linea"
 
 #: cogs/info.py:106
 msgid "Ping"
-msgstr ""
+msgstr "Ping"
 
 #: cogs/info.py:108 cogs/info.py:278
 msgid "Channels"
@@ -1450,32 +1451,33 @@ msgstr "Personajes"
 
 #: cogs/info.py:111
 msgid "Level ups"
-msgstr ""
+msgstr "Subidas de nivel"
 
 #: cogs/info.py:112
 msgid "Deaths"
-msgstr ""
+msgstr "Muertes"
 
 #: cogs/info.py:125
 msgid "Shows information about a channel.\n\n"
 "            If no channel is specified, the information for the current channel is shown."
-msgstr ""
+msgstr "Muestra información sobre un canal.\n\n"
+"            Si no se especifica ningún canal, se mostrará la información del canal actual."
 
 #: cogs/info.py:132
 msgid "You are not supposed to see that channel, so I can't show you anything."
-msgstr ""
+msgstr "No se supone que debas ver ese canal, así que no puedo mostrarte nada."
 
 #: cogs/info.py:136
 msgid "Category"
-msgstr ""
+msgstr "Categoria"
 
 #: cogs/info.py:138
 msgid "Slowmode Delay"
-msgstr ""
+msgstr "Tiempo de modo pausado"
 
 #: cogs/info.py:139
 msgid "Visible by"
-msgstr ""
+msgstr "Visible por"
 
 #: cogs/info.py:139
 msgid "{count:,} members"
@@ -1720,64 +1722,64 @@ msgstr ""
 
 #: cogs/info.py:422
 msgid "Total RAM"
-msgstr ""
+msgstr "RAM total"
 
 #: cogs/info.py:426
 msgid "CPU"
-msgstr ""
+msgstr "Procesador"
 
 #: cogs/info.py:450
 msgid "Created at"
-msgstr ""
+msgstr "Creado el"
 
 #: cogs/info.py:451
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: cogs/info.py:452
 msgid "Usage"
-msgstr ""
+msgstr "Uso"
 
 #: cogs/info.py:454
 msgid "Twitch integration"
-msgstr ""
+msgstr "Integración de Twitch"
 
 #: cogs/info.py:455
 msgid "Requires colons"
-msgstr ""
+msgstr "Requiere dos puntos"
 
 #: cogs/info.py:456
 msgid "Role limited"
-msgstr ""
+msgstr "Limtado a roles"
 
 #: cogs/info.py:459 cogs/tibiawiki.py:1134
 msgid "Attributes"
-msgstr ""
+msgstr "Atributos"
 
 #: cogs/logging.py:74
 msgid "Autorole changes"
-msgstr ""
+msgstr "Cambio en roles automáticos"
 
 #: cogs/logging.py:78
 msgid "Added roles"
-msgstr ""
+msgstr "Roles añadidos"
 
 #: cogs/logging.py:80
 msgid "Removed roles"
-msgstr ""
+msgstr "Roles eliminados"
 
 #: cogs/logging.py:91
 msgid "Characters registered"
-msgstr ""
+msgstr "Personajes registrados"
 
 #: cogs/logging.py:109
 msgid "Reassigned"
-msgstr ""
+msgstr "Reasignados"
 
 #: cogs/logging.py:111 cogs/logging.py:116 cogs/logging.py:131
 #: cogs/logging.py:425 cogs/logging.py:444
 msgid "No guild"
-msgstr ""
+msgstr "Sin guild"
 
 #: cogs/logging.py:128
 msgid "Unregistered characters"
@@ -1785,7 +1787,7 @@ msgstr ""
 
 #: cogs/logging.py:161
 msgid "Character name change"
-msgstr ""
+msgstr "Cambio de nombre del personaje"
 
 #: cogs/logging.py:162
 #, python-brace-format
@@ -1795,11 +1797,11 @@ msgstr ""
 
 #: cogs/logging.py:185
 msgid "Character transferred"
-msgstr ""
+msgstr "Personaje transferido"
 
 #: cogs/logging.py:205
 msgid "Automatic role deleted"
-msgstr ""
+msgstr "Rol automático borrado"
 
 #: cogs/logging.py:206
 #, python-brace-format
@@ -1881,7 +1883,7 @@ msgstr ""
 
 #: cogs/logging.py:363
 msgid "Icon changed"
-msgstr ""
+msgstr "Cambiar icono"
 
 #: cogs/logging.py:366
 #, python-brace-format
@@ -1890,83 +1892,84 @@ msgstr ""
 
 #: cogs/logging.py:380
 msgid "Member banned"
-msgstr ""
+msgstr "Miembro baneado"
 
 #: cogs/logging.py:388 cogs/logging.py:406 cogs/logging.py:455
 #: cogs/tracking.py:1670 cogs/tracking.py:1697
 msgid "Reason"
-msgstr ""
+msgstr "Razón"
 
 #: cogs/logging.py:395
 #, python-brace-format
 msgid "{name} joined."
-msgstr ""
+msgstr "{name} se unió."
 
 #: cogs/logging.py:396
 msgid "Member joined"
-msgstr ""
+msgstr "Un miembro se ha unido"
 
 #: cogs/logging.py:398
 msgid "Discord user since"
-msgstr ""
+msgstr "Usuario de Discord desde"
 
 #: cogs/logging.py:401
 #, python-brace-format
 msgid "Bot {name} added."
-msgstr ""
+msgstr "Bot {name} añadido."
 
 #: cogs/logging.py:427
 msgid "Registered characters"
-msgstr ""
+msgstr "Personajes registrados"
 
 #: cogs/logging.py:435
 msgid "Member kicked or left"
-msgstr ""
+msgstr "Miembro expulsado o abandonado"
 
 #: cogs/logging.py:441
 msgid "\n"
 "Registered characters:"
-msgstr ""
+msgstr "\n"
+"Personajes registrados:"
 
 #: cogs/logging.py:451
 msgid "Member kicked"
-msgstr ""
+msgstr "Miembro expulsado"
 
 #: cogs/logging.py:459
 msgid "Member left"
-msgstr ""
+msgstr "Un miembro se ha ido"
 
 #: cogs/logging.py:471
 msgid "Member updated"
-msgstr ""
+msgstr "Miembro actualizado"
 
 #: cogs/logging.py:474
 msgid "New nickname"
-msgstr ""
+msgstr "Nuevo apodo"
 
 #: cogs/logging.py:477
 msgid "Nickname removed"
-msgstr ""
+msgstr "Apodo eliminado"
 
 #: cogs/logging.py:480
 msgid "Nickname changed"
-msgstr ""
+msgstr "Apodo cambiado"
 
 #: cogs/logging.py:493
 msgid "Member unbanned"
-msgstr ""
+msgstr "Miembro desbaneado"
 
 #: cogs/loot.py:123
 msgid "You need to upload a picture of your loot and type the command in the comment."
-msgstr ""
+msgstr "Necesitas subir una imagen de tu loot y escribir el comando en el comentario."
 
 #: cogs/loot.py:128
 msgid "That's not an image!"
-msgstr ""
+msgstr "¡Eso no es una imagen!"
 
 #: cogs/loot.py:131
 msgid "That image was too big! Try splitting it into smaller images, or cropping out anything irrelevant."
-msgstr ""
+msgstr "¡Esa imagen es demasiado grande! Intenta dividirla en imágenes más pequeñas, o recortando cualquier cosa irrelevante."
 
 #: cogs/loot.py:135
 msgid "That image is too small to be a loot image."
@@ -2232,11 +2235,11 @@ msgstr ""
 
 #: cogs/premium.py:303 cogs/premium.py:320
 msgid "Premium Received"
-msgstr ""
+msgstr "Premium recibido"
 
 #: cogs/premium.py:303
 msgid "Server received premium"
-msgstr ""
+msgstr "Servidor recivio premium"
 
 #: cogs/premium.py:321
 #, python-brace-format
