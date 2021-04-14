@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 12:30-0700\n"
-"PO-Revision-Date: 2021-04-14 19:16\n"
+"PO-Revision-Date: 2021-04-14 20:31\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4548,41 +4548,46 @@ msgstr "Muestra información sobre una llave.\n\n"
 
 #: cogs/tibiawiki.py:280
 msgid "Tell me the number of the key you want to check."
-msgstr ""
+msgstr "Dime el número de la llave que quieres revisar."
 
 #: cogs/tibiawiki.py:286
 msgid "Tell me a numeric value, to search keys, try: `/key search`"
-msgstr ""
+msgstr "Dime un valor numérico, para buscar llaves, intenta: `/key search`"
 
 #: cogs/tibiawiki.py:291
 msgid "There's no key with that number."
-msgstr ""
+msgstr "No hay ninguna llave con ese número."
 
 #: cogs/tibiawiki.py:304
 msgid "Searches for a key by keywords.\n\n"
 "        Search for matches on the key's names, location, origin or uses.\n\n"
 "        if there are multiple matches, a list is shown.\n"
 "        If only one matches, the key's information is shown directly."
-msgstr ""
+msgstr "Busca una llave por palabras clave.\n\n"
+"        Busca coincidencias en los nombres, ubicación, origen o uso de la llave.\n\n"
+"        si hay varias coincidencias, se muestra una lista.\n"
+"        Si solo una coincide, la información de la llave se muestra directamente."
 
 #: cogs/tibiawiki.py:313
 msgid "I couldn't find any related keys."
-msgstr ""
+msgstr "No pude encontrar ninguna llave relacionada."
 
 #: cogs/tibiawiki.py:317
 msgid "Possible keys"
-msgstr ""
+msgstr "Posibles llaves"
 
 #: cogs/tibiawiki.py:331
 msgid "Displays information about a monster.\n\n"
 "        Shows the monster's attributes, resistances, loot and more.\n\n"
 "        More information is displayed if used on a private message or in the command channel."
-msgstr ""
+msgstr "Muestra información sobre un monstruo.\n\n"
+"        Muestra los atributos, resistencias, loot y más.\n\n"
+"        Se muestra más información si se utiliza en un mensaje privado o en el canal de comandos."
 
 #: cogs/tibiawiki.py:344
 #, python-brace-format
 msgid "**{0}** is too strong for you to hunt!"
-msgstr ""
+msgstr "¡**{0}** es demasiado fuerte para que lo caces!"
 
 #: cogs/tibiawiki.py:345
 msgid "Sure, you kill *one* child and suddenly you're a monster!"
@@ -4702,81 +4707,81 @@ msgstr ""
 
 #: cogs/tibiawiki.py:666
 msgid "Notes/Use"
-msgstr ""
+msgstr "Notas/Uso"
 
 #: cogs/tibiawiki.py:680
 #, python-brace-format
 msgid "Provide material prices to calculate costs. More info: {prefix}help {command}"
-msgstr ""
+msgstr "Proporciona precios de materiales para calcular los costos. Más información: {prefix}help {command}"
 
 #: cogs/tibiawiki.py:683
 msgid "Not enough material prices provided for this tier."
-msgstr ""
+msgstr "No hay suficientes precios de materiales para este nivel."
 
 #. Gold fees for each tier
 #. Gold fees for each tier with 100% chance
 #: cogs/tibiawiki.py:687 cogs/tibiawiki.py:703 cogs/tibiawiki.py:710
 #: cogs/tibiawiki.py:748
 msgid "Materials"
-msgstr ""
+msgstr "Materiales"
 
 #: cogs/tibiawiki.py:706
 msgid "Add gold token price at the end to find the cheapest option."
-msgstr ""
+msgstr "Añade el precio de gold tokens al final para encontrar la opción más barata."
 
 #: cogs/tibiawiki.py:721
 msgid "Getting the materials is cheaper."
-msgstr ""
+msgstr "Obtener los materiales es más barato."
 
 #: cogs/tibiawiki.py:727
 msgid "Getting all the materials with gold tokens is cheaper."
-msgstr ""
+msgstr "Obtener todos los materiales con gold tokens es más barato."
 
 #: cogs/tibiawiki.py:733
 #, python-brace-format
 msgid "Getting the materials for **{tier} {imbuement}** with gold tokens and buying the rest is cheaper."
-msgstr ""
+msgstr "Obtener los materiales para **{tier} {imbuement}** con gold tokens y comprar el resto es más barato."
 
 #: cogs/tibiawiki.py:749
 msgid "gold"
-msgstr ""
+msgstr "gold"
 
 #: cogs/tibiawiki.py:750
 msgid "gold/hour"
-msgstr ""
+msgstr "gold/hora"
 
 #: cogs/tibiawiki.py:751
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: cogs/tibiawiki.py:752
 #, python-format
 msgid "100% chance"
-msgstr ""
+msgstr "100% de probabilidad"
 
 #: cogs/tibiawiki.py:783
 msgid "Sold for"
-msgstr ""
+msgstr "Vendido a"
 
 #: cogs/tibiawiki.py:784
 msgid "Bought for"
-msgstr ""
+msgstr "Comprado por"
 
 #: cogs/tibiawiki.py:815
 msgid "Properties"
-msgstr ""
+msgstr "Propiedades"
 
 #: cogs/tibiawiki.py:817
 msgid "Used for"
-msgstr ""
+msgstr "Usado para"
 
 #: cogs/tibiawiki.py:819
 msgid "Resistances"
-msgstr ""
+msgstr "Resistencias"
 
 #: cogs/tibiawiki.py:895
 msgid "Dropped By"
-msgstr ""
+msgstr "Loot de"
 
 #: cogs/tibiawiki.py:909
 msgid "Awarded in"
@@ -4784,28 +4789,28 @@ msgstr ""
 
 #: cogs/tibiawiki.py:928
 msgid "Green Djinn's Fortress"
-msgstr ""
+msgstr "Fortaleza de Djinn verdes"
 
 #: cogs/tibiawiki.py:931
 msgid "Blue Djinn's Fortress"
-msgstr ""
+msgstr "Fortaleza de Djinn azules"
 
 #. Yasir's location
 #: cogs/tibiawiki.py:937
 msgid "his boat"
-msgstr ""
+msgstr "su barco"
 
 #: cogs/tibiawiki.py:985
 msgid "Abilities"
-msgstr ""
+msgstr "Habilidades"
 
 #: cogs/tibiawiki.py:993
 msgid "Through: "
-msgstr ""
+msgstr "Sobre: "
 
 #: cogs/tibiawiki.py:994
 msgid "Around: "
-msgstr ""
+msgstr "Alrededor de: "
 
 #. Fields the monster walks through or around
 #: cogs/tibiawiki.py:997
@@ -4814,18 +4819,18 @@ msgstr ""
 
 #: cogs/tibiawiki.py:1037
 msgid "Loot"
-msgstr ""
+msgstr "Loot"
 
 #: cogs/tibiawiki.py:1074 cogs/tibiawiki.py:1094
 msgid "Bestiary Class"
-msgstr ""
+msgstr "Clase de bestiary"
 
 #. Charm points
 #: cogs/tibiawiki.py:1088
 msgid "point"
 msgid_plural "points"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "punto"
+msgstr[1] "puntos"
 
 #. Kills to complete bestiary
 #: cogs/tibiawiki.py:1090
@@ -4838,51 +4843,51 @@ msgstr ""
 
 #: cogs/tibiawiki.py:1124
 msgid "Summonable"
-msgstr ""
+msgstr "Invocable"
 
 #: cogs/tibiawiki.py:1125
 msgid "Convinceable"
-msgstr ""
+msgstr "Convencible"
 
 #: cogs/tibiawiki.py:1126
 msgid "Illusionable"
-msgstr ""
+msgstr "Ilusionable"
 
 #: cogs/tibiawiki.py:1127
 msgid "Pushable"
-msgstr ""
+msgstr "Empujable"
 
 #: cogs/tibiawiki.py:1128
 msgid "Pushes Objects"
-msgstr ""
+msgstr "Empuja objetos"
 
 #: cogs/tibiawiki.py:1129
 msgid "Paralysable"
-msgstr ""
+msgstr "Paralizable"
 
 #: cogs/tibiawiki.py:1130
 msgid "Sees Invisible"
-msgstr ""
+msgstr "Ve invisibilidad"
 
 #: cogs/tibiawiki.py:1134
 msgid "Unknown"
-msgstr ""
+msgstr "Desconocido"
 
 #: cogs/tibiawiki.py:1145
 msgid "Speed"
-msgstr ""
+msgstr "Velocidad"
 
 #: cogs/tibiawiki.py:1150
 msgid "Max Damage"
-msgstr ""
+msgstr "Daño máximo"
 
 #: cogs/tibiawiki.py:1160
 msgid "Price"
-msgstr ""
+msgstr "Precio"
 
 #: cogs/tibiawiki.py:1161
 msgid "Achievement"
-msgstr ""
+msgstr "Logro"
 
 #: cogs/tibiawiki.py:1162
 msgid "Taming Method"
