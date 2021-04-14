@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 12:30-0700\n"
-"PO-Revision-Date: 2021-04-14 05:02\n"
+"PO-Revision-Date: 2021-04-14 15:08\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -273,7 +273,7 @@ msgstr "Sólo necesito esto para gestionar roles automáticos y roles unibles."
 
 #: cogs/admin.py:121
 msgid "I only need this to create watchlists."
-msgstr ""
+msgstr "Sólo necesito esto para crear watchlists."
 
 #: cogs/admin.py:122
 msgid "I need this to create server logs, news and levels channels, as well as watchlist feeds."
@@ -701,28 +701,28 @@ msgstr ""
 
 #: cogs/admin.py:681
 msgid "Private Messages"
-msgstr ""
+msgstr "Mensajes privados"
 
 #: cogs/admin.py:683
 msgid "Disabled."
-msgstr ""
+msgstr "Deshabilitado."
 
 #: cogs/admin.py:685 cogs/admin.py:707
 msgid "None."
-msgstr ""
+msgstr "Ninguno."
 
 #: cogs/admin.py:687
 msgid "None, previous channel was deleted."
-msgstr ""
+msgstr "Ninguno, el canal anterior fue eliminado."
 
 #: cogs/admin.py:689
 #, python-brace-format
 msgid "{channel}, but I can't use the channel."
-msgstr ""
+msgstr "{channel}, pero no puedo usar el canal."
 
 #: cogs/admin.py:694
 msgid " I will send direct messages meanwhile."
-msgstr ""
+msgstr " enviaré mensajes directos mientras tanto."
 
 #: cogs/admin.py:698
 msgid " I have no channel to use."
@@ -735,11 +735,11 @@ msgstr " usaré {channel} mientras tanto."
 
 #: cogs/admin.py:714
 msgid "None, webhook was deleted by a user."
-msgstr ""
+msgstr "Ninguno, el webhook fue eliminado por un usuario."
 
 #: cogs/admin.py:716
 msgid "I'm not able to get the current value, please try again later."
-msgstr ""
+msgstr "No puedo obtener el valor actual, por favor inténtalo de nuevo más tarde."
 
 #: cogs/admin.py:726
 #, python-brace-format
@@ -776,7 +776,7 @@ msgstr ""
 #: cogs/admin.py:760
 #, python-brace-format
 msgid "I need `Manage Webhooks` permissions to assign a {name}."
-msgstr ""
+msgstr "Necesito permisos de `Gestionar webhooks` para asignar un {name}."
 
 #: cogs/admin.py:763
 #, python-brace-format
