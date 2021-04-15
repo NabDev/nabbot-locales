@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 13:58-0700\n"
-"PO-Revision-Date: 2021-04-15 21:00\n"
+"PO-Revision-Date: 2021-04-15 21:57\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: utils/constants.py:31 cogs/tibia.py:1378 cogs/tibia.py:1381
 msgid "I don't have a character with that name registered."
-msgstr ""
+msgstr "No tengo ningún personaje con ese nombre registrado."
 
 #: utils/constants.py:32 cogs/tibia.py:527
 msgid "That character doesn't exist."
@@ -43,74 +43,74 @@ msgstr "No se harán cambios entonces."
 
 #: utils/checks.py:21
 msgid "This command cannot be used in private messages."
-msgstr ""
+msgstr "Este comando no puede ser usado en mensajes privados."
 
 #: utils/checks.py:30
 msgid "You are not allowed to use this command."
-msgstr ""
+msgstr "No tienes permisos para utilizar este comando."
 
 #: utils/checks.py:41
 msgid "You need Administrator permission to use this command."
-msgstr ""
+msgstr "Necesita permiso de administrador para usar este comando."
 
 #: utils/checks.py:51
 msgid "You need `Manage Server` permissions to use this command."
-msgstr ""
+msgstr "Necesitas permisos de `Gestionar servidor` para usar este comando."
 
 #: utils/checks.py:79 utils/checks.py:98
 msgid "You need `Manage Channel` permissions to use this command."
-msgstr ""
+msgstr "Necesitas permisos de `Gestionar canal` para usar este comando."
 
 #: utils/checks.py:112 utils/checks.py:127
 msgid "This server is not tracking any worlds."
-msgstr ""
+msgstr "Este servidor no está rastreando ningún mundo."
 
 #: utils/checks.py:129
 msgid "You're not in any server tracking a world."
-msgstr ""
+msgstr "No estás en ningún servidor que rastree un mundo."
 
 #: utils/converter.py:46
 msgid "Member \"{}\" not found."
-msgstr ""
+msgstr "Miembro \"{}\" no encontrado."
 
 #: utils/converter.py:81
 msgid "Role \"{}\" not found."
-msgstr ""
+msgstr "Rol \"{}\" no encontrado."
 
 #: utils/converter.py:93 utils/converter.py:97
 msgid "Could not find a channel by ID {argument!r}."
-msgstr ""
+msgstr "No se pudo encontrar un canal con el ID {argument!r}."
 
 #: utils/converter.py:117
 msgid "That's not a valid time, try something like this: `1d7h` or `4h20m`"
-msgstr ""
+msgstr "Eso no es un tiempo válido, prueba algo como esto: `1d7h` o `4h20m`"
 
 #: utils/converter.py:134
 msgid "That's a bit too far in the future… Try less than 60 days."
-msgstr ""
+msgstr "Eso es un poco demasiado lejos en el futuro… Inténtalo con menos de 60 días."
 
 #: utils/converter.py:143
 msgid "Invalid stamina format, expected: `hh:mm`"
-msgstr ""
+msgstr "Formato de estamina inválido, esperaba: `hh:mm`"
 
 #: utils/converter.py:147
 msgid "Invalid stamina, minutes can't be 60 or greater."
-msgstr ""
+msgstr "Estamina no válida, los minutos no pueden ser 60 o más."
 
 #: utils/converter.py:149
 msgid "Invalid stamina, can't have more than 42 hours."
-msgstr ""
+msgstr "Estamina no válida, no puedes tener más de 42 hora."
 
 #: utils/converter.py:186
 #, python-brace-format
 msgid "`{argument}` is not a valid number."
-msgstr ""
+msgstr "`{argument}` no es un número válido."
 
 #. Level up message used when simple messages is enabled
 #: utils/messages.py:88
 #, python-brace-format
 msgid "**{name}** advanced to level {level}."
-msgstr ""
+msgstr "**{name}** subio al nivel {level}."
 
 #. Death message used when simple messages is on. Article will always be in English (a/an). May be omitted if fitting.
 #: utils/messages.py:90
@@ -296,20 +296,20 @@ msgstr "No pude encontrar ese canal, ¿estás seguro de que existe?"
 
 #: cogs/admin.py:49
 msgid "yes/no"
-msgstr ""
+msgstr "sí/no"
 
 #: cogs/admin.py:50
 msgid "That's not a valid option, try **yes** or **no**."
-msgstr ""
+msgstr "Esta no es una opción válida, prueba **sí** o **no**."
 
 #: cogs/admin.py:51
 msgid "A channel's name or ID, or `disable`."
-msgstr ""
+msgstr "Nombre de un canal o ID, o 'deshabilitar'."
 
 #. Used to show that the current setting is the default global setting.
 #: cogs/admin.py:54
 msgid "Global default"
-msgstr ""
+msgstr "Predeterminado global"
 
 #: cogs/admin.py:77
 msgid "You can't remove this prefix."
@@ -318,7 +318,7 @@ msgstr "No puedes eliminar este prefijo."
 #: cogs/admin.py:79
 #, python-format
 msgid "The prefix can't be longer than %d characters."
-msgstr ""
+msgstr "El prefijo no puede tener más de %d caracteres."
 
 #: cogs/admin.py:87
 msgid "Settings can't be modified on private messages."
@@ -347,7 +347,7 @@ msgstr "**Revisando {channel}:**"
 
 #: cogs/admin.py:118
 msgid "I have `Administrator` permission."
-msgstr ""
+msgstr "Tengo permisos `Administrador`."
 
 #: cogs/admin.py:123
 msgid "I won't be able to see commands in here."
@@ -355,7 +355,7 @@ msgstr "No podré ver comandos aquí."
 
 #: cogs/admin.py:123
 msgid "View Channel"
-msgstr ""
+msgstr "Ver canales"
 
 #: cogs/admin.py:124
 msgid "I won't be able to respond in here."
@@ -363,7 +363,7 @@ msgstr "No podré responder aquí."
 
 #: cogs/admin.py:124
 msgid "Send Messages"
-msgstr ""
+msgstr "Enviar mensajes"
 
 #: cogs/admin.py:125 cogs/admin.py:130
 msgid "Pagination or commands that require reaction confirmation won't work."
@@ -371,7 +371,7 @@ msgstr "La paginación o comandos que requieran confirmación de reacción no fu
 
 #: cogs/admin.py:126
 msgid "Add Reactions"
-msgstr ""
+msgstr "Añadir reacciones"
 
 #: cogs/admin.py:127
 msgid "I won't be able to show my emojis in some commands."
@@ -379,11 +379,11 @@ msgstr "No podré mostrar mis emojis en algunos comandos."
 
 #: cogs/admin.py:128
 msgid "Use External Emoji"
-msgstr ""
+msgstr "Usar emojis externos"
 
 #: cogs/admin.py:131
 msgid "Read Message History"
-msgstr ""
+msgstr "Leer el historial de mensajes"
 
 #: cogs/admin.py:132
 msgid "Command pagination won't work well."
@@ -391,7 +391,7 @@ msgstr "La paginación de comandos no funcionará bien."
 
 #: cogs/admin.py:132
 msgid "Manage Messages"
-msgstr ""
+msgstr "Gestionar mensajes"
 
 #: cogs/admin.py:133
 msgid "I won't be able to show many of my commands."
@@ -399,7 +399,7 @@ msgstr "No podré mostrar muchos de mis comandos."
 
 #: cogs/admin.py:133
 msgid "Embed Links"
-msgstr ""
+msgstr "Insertar enlaces"
 
 #: cogs/admin.py:134
 msgid "I won't be able to show images in some of my commands."
@@ -407,7 +407,7 @@ msgstr "No podré mostrar imágenes en algunos de mis comandos."
 
 #: cogs/admin.py:134
 msgid "Attach Files"
-msgstr ""
+msgstr "Adjuntar archivos"
 
 #: cogs/admin.py:135
 msgid "I only need this to manage auto roles and joinable roles."
@@ -415,7 +415,7 @@ msgstr "Sólo necesito esto para gestionar roles automáticos y roles unibles."
 
 #: cogs/admin.py:135
 msgid "Manage Roles"
-msgstr ""
+msgstr "Gestionar roles"
 
 #: cogs/admin.py:136
 msgid "I only need this to create watchlists."
@@ -423,7 +423,7 @@ msgstr "Sólo necesito esto para crear watchlists."
 
 #: cogs/admin.py:136
 msgid "Manage Channels"
-msgstr ""
+msgstr "Gestionar canales"
 
 #: cogs/admin.py:137
 msgid "I need this to create server logs, news and levels channels, as well as watchlist feeds."
@@ -431,7 +431,7 @@ msgstr "Necesito esto para crear server logs, canales de noticias, canales de ni
 
 #: cogs/admin.py:138
 msgid "Manage Webhooks"
-msgstr ""
+msgstr "Gestionar webhooks"
 
 #: cogs/admin.py:139
 msgid "I only need this to show you the author of actions in the server log."
@@ -439,17 +439,17 @@ msgstr "Solo necesito esto para mostrarte el autor de las acciones en el server 
 
 #: cogs/admin.py:140
 msgid "View Audit Log"
-msgstr ""
+msgstr "Ver el registro de auditoría"
 
 #. Shown when a specific Discord permission is missing
 #: cogs/admin.py:150
 #, python-brace-format
 msgid "Missing `{name}` permission"
-msgstr ""
+msgstr "Permiso `{name}` faltante"
 
 #: cogs/admin.py:153
 msgid "All permissions are correct!"
-msgstr ""
+msgstr "¡Todos los permisos son correctos!"
 
 #: cogs/admin.py:163
 msgid "Checks or sets various server-specific settings."
@@ -533,7 +533,7 @@ msgstr "idioma/ninguno"
 
 #: cogs/admin.py:261
 msgid "This language is currently not supported."
-msgstr ""
+msgstr "Este idioma no está soportado actualmente."
 
 #: cogs/admin.py:262
 #, python-brace-format
@@ -721,11 +721,11 @@ msgstr ""
 
 #: cogs/admin.py:521
 msgid "*This is how your message would look if **you** joined.*"
-msgstr ""
+msgstr "*Así es como se vería tu mensaje si **tú** te unieras.*"
 
 #: cogs/admin.py:522
 msgid "Message Preview"
-msgstr ""
+msgstr "Vista previa del mensaje"
 
 #: cogs/admin.py:527
 #, python-brace-format
@@ -1022,7 +1022,7 @@ msgstr ""
 
 #: cogs/calculators.py:227
 msgid "Distance Skill Calculator"
-msgstr ""
+msgstr "Calculadora de distancia"
 
 #: cogs/calculators.py:229 cogs/calculators.py:285 cogs/calculators.py:334
 #, python-brace-format
@@ -1040,7 +1040,7 @@ msgstr ""
 
 #: cogs/calculators.py:283
 msgid "Magic Level Calculator"
-msgstr ""
+msgstr "Calculadora de magic level"
 
 #: cogs/calculators.py:297
 msgid "You need to spend **{mana:,}** mana to reach magic level {target}"
@@ -1057,7 +1057,7 @@ msgstr ""
 
 #: cogs/calculators.py:332
 msgid "Melee Skill Calculator"
-msgstr ""
+msgstr "Calculadora de melee"
 
 #: cogs/calculators.py:360
 msgid "Calculates the way to split loot based on the Party Hunt Analyzer.\n\n"
@@ -1065,7 +1065,11 @@ msgid "Calculates the way to split loot based on the Party Hunt Analyzer.\n\n"
 "            The instructions can be copied by double clicking and then pasted to a bank NPC.\n"
 "    \n"
 "            It also shows the percentage of damage and healing contribution of each member in the party."
-msgstr ""
+msgstr "Calcula la forma de dividir el loot basado en el Party Hunt Analyzer.\n\n"
+"            Muestra las instrucciones para dividir el saldo entre los miembros, sin necesidad de vender y dividir el loot.\n"
+"            Las instrucciones se pueden copiar haciendo doble clic y luego pegar en un NPC de banco.\n"
+"    \n"
+"            También muestra el porcentaje de daño y contribución curativa de cada miembro del grupo."
 
 #: cogs/calculators.py:369
 msgid "Could not parse party session."
@@ -1101,11 +1105,17 @@ msgid "Tells you the time you have to wait to restore stamina.\n\n"
 "            Optionally, you can provide the target stamina you want.\n"
 "    \n"
 "            The footer text shows the time in your timezone where your stamina would be at the target stamina."
-msgstr ""
+msgstr "Te dice el tiempo que tienes que esperar para restaurar la estamina.\n\n"
+"            Para usarlo, debes proporcionar tu estamina actual, en este formato: `hh:mm`.\n"
+"            El bot mostrará el tiempo necesario para llenar tu estamina completa si empiezas a dormir ahora.\n"
+"    \n"
+"            Opcionalmente, puedes proporcionar el estamina que deseas.\n"
+"    \n"
+"            El texto del pie de página muestra la hora en tu zona horaria donde tu estamina estaría en llena o en el valor deseado."
 
 #: cogs/calculators.py:416
 msgid "Current stamina can't be greater than target stamina."
-msgstr ""
+msgstr "La estamina actual no puede ser mayor que la estamina deseada."
 
 #: cogs/calculators.py:418
 msgid "Current stamina is already equal to target."
@@ -1114,17 +1124,17 @@ msgstr "La stamina actual ya es igual que la deseada."
 #: cogs/calculators.py:435
 #, python-brace-format
 msgid "{hours} hours and {minutes} minutes"
-msgstr ""
+msgstr "{hours} horas, {minutes} minutos"
 
 #: cogs/calculators.py:437
 #, python-brace-format
 msgid "{current_minutes} minutes"
-msgstr ""
+msgstr "{current_minutes} minutos"
 
 #: cogs/calculators.py:440
 #, python-brace-format
 msgid "You need to rest **{remaining}** to get back to full stamina."
-msgstr ""
+msgstr "Necesitas descansar **{remaining}** para volver a estamina completa."
 
 #: cogs/calculators.py:442
 #, python-brace-format
@@ -1133,7 +1143,7 @@ msgstr ""
 
 #: cogs/calculators.py:446
 msgid "Full stamina"
-msgstr ""
+msgstr "Estamina completa"
 
 #: cogs/calculators.py:455
 msgid "Calculates character stats based on vocation and level.\n"
