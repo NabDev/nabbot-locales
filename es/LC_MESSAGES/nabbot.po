@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 13:58-0700\n"
-"PO-Revision-Date: 2021-04-15 22:57\n"
+"PO-Revision-Date: 2021-04-15 23:59\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3749,7 +3749,7 @@ msgstr ""
 
 #: cogs/tibia.py:386
 msgid "There is no world with that name."
-msgstr ""
+msgstr "No hay ningún mundo con ese nombre."
 
 #: cogs/tibia.py:390
 msgid "Could not fetch boss predictions."
@@ -4197,7 +4197,7 @@ msgstr ""
 
 #: cogs/tibia.py:1193 cogs/tibia.py:1202 cogs/tracking.py:1195
 msgid "You entered an invalid level."
-msgstr ""
+msgstr "Has introducido un nivel inválido."
 
 #: cogs/tibia.py:1197
 #, python-brace-format
@@ -4232,7 +4232,7 @@ msgstr ""
 #: cogs/tibia.py:1220
 #, python-brace-format
 msgid "There is no one online in {world}."
-msgstr ""
+msgstr "No hay nadie en línea en {world}."
 
 #: cogs/tibia.py:1231
 #, python-brace-format
@@ -4287,7 +4287,7 @@ msgstr ""
 #: cogs/tibia.py:1296
 #, python-brace-format
 msgid "There is no character named **{name}**."
-msgstr ""
+msgstr "No hay ningún personaje llamado **{name}**."
 
 #: cogs/tibia.py:1308
 #, python-brace-format
@@ -4298,11 +4298,11 @@ msgstr[1] ""
 
 #: cogs/tibia.py:1318
 msgid "They can all share experience with each other."
-msgstr ""
+msgstr "Todos pueden compartir experiencias entre sí."
 
 #: cogs/tibia.py:1320
 msgid "**{lowest_name}** ({lowest_level:,}) and **{highest_name}** ({highest_level:,}) can share experience."
-msgstr ""
+msgstr "**{lowest_name}** ({lowest_level:,}) y **{highest_name}** ({highest_level:,}) pueden compartir experiencia."
 
 #: cogs/tibia.py:1323
 msgid "Their share range is from level **{low:,}** to **{high:,}**."
@@ -4332,7 +4332,7 @@ msgstr ""
 #: cogs/tibia.py:1428
 #, python-brace-format
 msgid "{user} timeline"
-msgstr ""
+msgstr "Línea de tiempo de {user}"
 
 #: cogs/tibia.py:1455
 msgid "Displays Tibia server's time and time until server save.\n\n"
@@ -4578,39 +4578,39 @@ msgstr ""
 
 #: cogs/tibia.py:2032
 msgid "Vocation"
-msgstr ""
+msgstr "Vocación"
 
 #: cogs/tibia.py:2034
 msgid "Residence"
-msgstr ""
+msgstr "Residencia"
 
 #: cogs/tibia.py:2037
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #: cogs/tibia.py:2039
 #, python-brace-format
 msgid "__{rank}__ of the {guild}"
-msgstr ""
+msgstr "__{rank}__ de {guild}"
 
 #: cogs/tibia.py:2040
 msgid "Guild"
-msgstr ""
+msgstr "Guild"
 
 #: cogs/tibia.py:2042
 msgid "Married to"
-msgstr ""
+msgstr "Casado con"
 
 #: cogs/tibia.py:2044
 msgid "House"
 msgid_plural "Houses"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Casa"
+msgstr[1] "Casas"
 
 #. Whether the character was recently traded in the bazaar
 #: cogs/tibia.py:2049
 msgid "Traded"
-msgstr ""
+msgstr "Intercambiado"
 
 #: cogs/tibia.py:2054
 msgid "Last login"
@@ -4619,33 +4619,33 @@ msgstr "Última sesión"
 #: cogs/tibia.py:2057
 #, python-brace-format
 msgid "{char.he_she} has never logged in."
-msgstr ""
+msgstr "{char.he_she} nunca ha iniciado sesión."
 
 #: cogs/tibia.py:2067
 msgid "Character is hidden."
-msgstr ""
+msgstr "El personaje está oculto."
 
 #: cogs/tibia.py:2071
 msgid "Loyalty Title"
-msgstr ""
+msgstr "Título de lealtad"
 
 #: cogs/tibia.py:2075
 msgid "Other Character"
 msgid_plural "Other Characters"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Otro personaje"
+msgstr[1] "Otros personajes"
 
 #: cogs/tibia.py:2082
 msgid "Account Information"
-msgstr ""
+msgstr "Información de la cuenta"
 
 #: cogs/tibia.py:2094
 msgid "Highscores entries"
-msgstr ""
+msgstr "Entradas en highscores"
 
 #: cogs/tibia.py:2096
 msgid "Global Highscores entries"
-msgstr ""
+msgstr "Entradas en highscores globales"
 
 #: cogs/tibia.py:2116
 #, python-brace-format
@@ -4661,7 +4661,7 @@ msgstr ""
 #: cogs/tibia.py:2132
 #, python-brace-format
 msgid "and {count} more"
-msgstr ""
+msgstr "y {count} más"
 
 #: cogs/tibia.py:2134
 #, python-brace-format
@@ -4748,11 +4748,11 @@ msgstr ""
 #: cogs/tibia.py:2194
 #, python-brace-format
 msgid "In {world}"
-msgstr ""
+msgstr "En {world}"
 
 #: cogs/tibiawiki.py:101
 msgid "…and more"
-msgstr ""
+msgstr "…y más"
 
 #. Used next to a numeric value to describe a price paid with the in-game currency
 #: cogs/tibiawiki.py:103 cogs/tibiawiki.py:743
@@ -5004,7 +5004,7 @@ msgstr ""
 
 #: cogs/tibiawiki.py:658
 msgid "Origin"
-msgstr ""
+msgstr "Origen"
 
 #: cogs/tibiawiki.py:660
 msgid "Notes/Use"
@@ -5177,11 +5177,11 @@ msgstr "Desconocido"
 
 #: cogs/tibiawiki.py:1142
 msgid "HP"
-msgstr ""
+msgstr "HP"
 
 #: cogs/tibiawiki.py:1143
 msgid "Exp"
-msgstr ""
+msgstr "Exp"
 
 #: cogs/tibiawiki.py:1144
 msgid "Speed"
@@ -5189,7 +5189,7 @@ msgstr "Velocidad"
 
 #: cogs/tibiawiki.py:1148
 msgid "Armor"
-msgstr ""
+msgstr "Armadura"
 
 #: cogs/tibiawiki.py:1150
 msgid "Max Damage"
@@ -5205,7 +5205,7 @@ msgstr "Logro"
 
 #: cogs/tibiawiki.py:1162
 msgid "Taming Method"
-msgstr ""
+msgstr "Método de domesticación"
 
 #: cogs/tibiawiki.py:1171
 msgid "Selling"
@@ -5228,8 +5228,8 @@ msgstr "Enseña ({voc}s)"
 #: cogs/tibiawiki.py:1258
 msgid "…and {count:,} other"
 msgid_plural "…and {count:,} others"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "…y {count:,} más"
+msgstr[1] "…y {count:,} más"
 
 #: cogs/tibiawiki.py:1286
 #, python-brace-format
@@ -5257,7 +5257,7 @@ msgstr "\n"
 #: cogs/tibiawiki.py:1336
 #, python-brace-format
 msgid "Taught by ({voc})"
-msgstr ""
+msgstr "Enseñado por ({voc})"
 
 #. Title for the list of NPCs that teach this spell for any vocation
 #: cogs/tibiawiki.py:1339
