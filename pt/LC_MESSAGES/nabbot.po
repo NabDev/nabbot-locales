@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-15 13:58-0700\n"
-"PO-Revision-Date: 2021-04-15 21:00\n"
+"POT-Creation-Date: 2021-04-15 19:15-0700\n"
+"PO-Revision-Date: 2021-04-16 02:18\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -1270,7 +1270,7 @@ msgstr ""
 
 #: cogs/core.py:333
 #, python-brace-format
-msgid "Try º{help_command}º for more information."
+msgid "Try `{help_command}` for more information."
 msgstr ""
 
 #: cogs/core.py:336
@@ -1282,82 +1282,105 @@ msgstr ""
 msgid "Parameter `{param}` must be numeric."
 msgstr ""
 
-#: cogs/core.py:345
-msgid "{error}\n"
-"{_try_help }"
-msgstr ""
-
-#: cogs/core.py:357
+#: cogs/core.py:356
 msgid "Tibia.com is currently down for maintenance."
 msgstr ""
 
-#: cogs/core.py:360
+#: cogs/core.py:359
 msgid "I'm having network issues right now. Please try again in a moment."
 msgstr ""
 
-#: cogs/core.py:362
+#: cogs/core.py:361
 #, python-brace-format
 msgid "Too many registered characters ({count}/{limit})."
 msgstr ""
 
-#: cogs/core.py:366
+#: cogs/core.py:365
 msgid "Sorry, the message was too long to send."
 msgstr ""
 
-#: cogs/core.py:370 cogs/info.py:73 cogs/premium.py:561
+#: cogs/core.py:369 cogs/info.py:73 cogs/premium.py:561
 msgid "Support Server"
 msgstr ""
 
-#: cogs/core.py:372
+#: cogs/core.py:371
 msgid "Please report this bug in the support server."
 msgstr ""
 
-#. Content
-#: cogs/core.py:385
+#: cogs/core.py:384
 #, python-brace-format
-msgid "Hi, I've been added to this server. Check out our **getting started guide**\n"
-"<{guide_url}>\n\n"
-"Some things you should know:\n"
-"‣ My command prefix is: `{prefix}` (it is customizable)\n"
-"‣ You can see all my commands with: `{prefix}help` or `{prefix}commands`\n"
-"‣ You can configure me using: `{prefix}settings`\n"
-"‣ You can set a world for me to track by using `{prefix}settings world`\n"
-"‣ Set the channel for level up and deaths using `{prefix}settings levelschannel`\n"
-"‣ People can register their characters using `{prefix}im characterName`\n"
-"‣ To set a logging channel, use `{prefix}settings serverlog`\n"
-"‣ If you need help, join my support server: **<{url_support}>**\n"
-"‣ For more information and links in: `{prefix}about`"
+msgid "My command prefix is: `{0}` (it is customizable)"
 msgstr ""
 
-#: cogs/core.py:402
-msgid "NabBot has joined the server"
+#: cogs/core.py:385 cogs/core.py:386 cogs/core.py:388
+#, python-brace-format
+msgid "You can configure me using: `{0}settings`"
+msgstr ""
+
+#: cogs/core.py:387
+#, python-brace-format
+msgid "You can see all my commands with: `{0}help` or `{0}commands`"
+msgstr ""
+
+#: cogs/core.py:389
+#, python-brace-format
+msgid "Set the channel for level ups and deaths using: `{0}settings`"
+msgstr ""
+
+#: cogs/core.py:390
+#, python-brace-format
+msgid "People can register their characters using `{0}im characterName`"
+msgstr ""
+
+#: cogs/core.py:391
+#, python-brace-format
+msgid "To set a logging channel, use `{0}settings serverlog`"
+msgstr ""
+
+#: cogs/core.py:392
+#, python-brace-format
+msgid "If you need help, join my support server: **<{0}>**"
+msgstr ""
+
+#: cogs/core.py:393
+#, python-brace-format
+msgid "For more information and links in: `{0}about`"
+msgstr ""
+
+#: cogs/core.py:395
+msgid "getting started guide"
+msgstr ""
+
+#: cogs/core.py:396
+#, python-brace-format
+msgid "Hi, I've been added to this server. Check out our {guide}"
+msgstr ""
+
+#: cogs/core.py:399
+msgid "Some things you should know:"
 msgstr ""
 
 #: cogs/core.py:404
-#, python-brace-format
-msgid "Hi, I've been added to this server. Check out our **[getting started guide]({guide_url})**\n\n"
-"Some things you should know:\n"
-"‣ You can see all my commands with: `{prefix}help` or `{prefix}commands`\n"
-"‣ You can configure me using: `{prefix}settings`\n"
-"‣ You can set a world for me to track by using `{prefix}settings world`\n"
-"‣ Set the channel for level up and deaths using `{prefix}settings levelschannel`\n"
-"‣ People can register their characters using `{prefix}im characterName`\n"
-"‣ To set a logging channel, use `{prefix}settings serverlog`\n"
-"‣ My command prefix is: `{prefix}` (it is customizable)\n"
-"‣ If you need help, join my support server: **<{url_support}>**\n"
-"‣ For more information and links in: `{prefix}about`"
+msgid "NabBot has joined the server"
 msgstr ""
 
-#: cogs/core.py:419 cogs/info.py:78
+#: cogs/core.py:407 cogs/info.py:72
+msgid "Invite NabBot"
+msgstr ""
+
+#: cogs/core.py:408 cogs/info.py:74
+msgid "Docs"
+msgstr ""
+
+#: cogs/core.py:409 cogs/info.py:75
+msgid "Donate"
+msgstr ""
+
+#: cogs/core.py:412 cogs/info.py:78
 msgid "Links"
 msgstr ""
 
-#: cogs/core.py:420
-#, python-brace-format
-msgid "[Invite NabBot]({web}) | [Docs]({docs}) | [Donate]({donate}) | [Patreon]({patreon})"
-msgstr ""
-
-#: cogs/core.py:422
+#: cogs/core.py:414
 msgid "NabBot is now in {count:,} Discord servers"
 msgstr ""
 
@@ -1561,18 +1584,6 @@ msgstr ""
 msgid "Users"
 msgstr ""
 
-#: cogs/info.py:72
-msgid "Invite NabBot"
-msgstr ""
-
-#: cogs/info.py:74
-msgid "Docs"
-msgstr ""
-
-#: cogs/info.py:75
-msgid "Donate"
-msgstr ""
-
 #. Time the bot has been online without interruptions.
 #: cogs/info.py:80 cogs/info.py:106
 msgid "Uptime"
@@ -1624,7 +1635,7 @@ msgstr ""
 msgid "Slowmode Delay"
 msgstr ""
 
-#: cogs/info.py:145 cogs/roles.py:598
+#: cogs/info.py:145 cogs/roles.py:599
 msgid "member"
 msgid_plural "members"
 msgstr[0] ""
@@ -1634,7 +1645,7 @@ msgstr[1] ""
 msgid "Visible by"
 msgstr ""
 
-#: cogs/info.py:147 cogs/roles.py:489
+#: cogs/info.py:147 cogs/roles.py:490
 msgid "Mention"
 msgstr ""
 
@@ -1642,7 +1653,7 @@ msgstr ""
 msgid "NSFW"
 msgstr ""
 
-#: cogs/info.py:149 cogs/info.py:282 cogs/roles.py:490
+#: cogs/info.py:149 cogs/info.py:282 cogs/roles.py:491
 msgid "Created on"
 msgstr ""
 
@@ -1729,7 +1740,7 @@ msgstr ""
 msgid "Categories"
 msgstr ""
 
-#: cogs/info.py:296 cogs/roles.py:483
+#: cogs/info.py:296 cogs/roles.py:484
 msgid "Members"
 msgstr ""
 
@@ -1825,7 +1836,7 @@ msgid "Member since"
 msgstr ""
 
 #: cogs/info.py:375
-msgid "Server Owner)"
+msgid "Server Owner"
 msgstr ""
 
 #: cogs/info.py:377
@@ -2032,7 +2043,7 @@ msgid "Emoji renamed"
 msgstr ""
 
 #: cogs/logging.py:354
-msgid "Server updated)"
+msgid "Server updated"
 msgstr ""
 
 #: cogs/logging.py:359
@@ -2591,7 +2602,7 @@ msgstr ""
 
 #: cogs/premium.py:566
 #, python-brace-format
-msgid "For help and other commands: `{prefix}help premium`)"
+msgid "For help and other commands: `{prefix}help premium`"
 msgstr ""
 
 #: cogs/premium.py:573
@@ -3085,16 +3096,16 @@ msgstr ""
 msgid "Unknown User"
 msgstr ""
 
-#: cogs/roles.py:108 cogs/roles.py:109
+#: cogs/roles.py:109 cogs/roles.py:110
 msgid "Automatic roles"
 msgstr ""
 
-#: cogs/roles.py:146
+#: cogs/roles.py:147
 msgid "Autorole commands.\n\n"
 "        All the subcommands require having `Manage Roles` permission."
 msgstr ""
 
-#: cogs/roles.py:156
+#: cogs/roles.py:157
 msgid "Creates a new autorole rule.\n\n"
 "        Rules consist of a role, and a guild name.\n"
 "        When a user has a registered character in said guild, they receive the role.\n"
@@ -3107,66 +3118,66 @@ msgid "Creates a new autorole rule.\n\n"
 "        Note that current members will be updated until their characters or guilds change."
 msgstr ""
 
-#: cogs/roles.py:175
+#: cogs/roles.py:176
 msgid "That's not a valid rule. Valid rules are:\n"
 "\t- `*` - All users with registered characters\n"
 "\t - `*@GuildName` / `GuildName` - All users with characters belonging to **GuildName**\n"
 "\t - `RankName@GuildName` - All users with characters belonging to **GuildName** and with rank **RankName**."
 msgstr ""
 
-#: cogs/roles.py:190
+#: cogs/roles.py:191
 #, python-brace-format
 msgid "There's no guild named `{name}`"
 msgstr ""
 
-#: cogs/roles.py:197
+#: cogs/roles.py:198
 msgid "Autorole rule already exists."
 msgstr ""
 
-#: cogs/roles.py:202
+#: cogs/roles.py:203
 msgid "You can't create a rule for a role higher or equals than your highest role."
 msgstr ""
 
-#: cogs/roles.py:204
+#: cogs/roles.py:205
 msgid "I can't create a rule for a role higher than my highest role."
 msgstr ""
 
-#: cogs/roles.py:206
+#: cogs/roles.py:207
 #, python-brace-format
 msgid "Members of guild `{name}` and rank `{rank}` will automatically receive the {role} role."
 msgstr ""
 
-#: cogs/roles.py:208
+#: cogs/roles.py:209
 #, python-brace-format
 msgid "Members of guild `{name}` will automatically receive the {role} role. "
 msgstr ""
 
-#: cogs/roles.py:210
+#: cogs/roles.py:211
 #, python-brace-format
 msgid "All users with registered characters will automatically receive the {role} role."
 msgstr ""
 
-#: cogs/roles.py:211 cogs/timers.py:775
+#: cogs/roles.py:212 cogs/timers.py:775
 msgid "Is this correct?"
 msgstr ""
 
-#: cogs/roles.py:219
+#: cogs/roles.py:220
 msgid "Autorole rule created."
 msgstr ""
 
-#: cogs/roles.py:226
+#: cogs/roles.py:227
 msgid "Shows a list of autorole rules."
 msgstr ""
 
-#: cogs/roles.py:229 cogs/roles.py:239
+#: cogs/roles.py:230 cogs/roles.py:240
 msgid "This server has no autorole rules."
 msgstr ""
 
-#: cogs/roles.py:244
+#: cogs/roles.py:245
 msgid "Autorole rules"
 msgstr ""
 
-#: cogs/roles.py:254
+#: cogs/roles.py:255
 msgid "Triggers a refresh on all members.\n\n"
 "        This will apply existing rules to all members.\n"
 "        Note that guild changes from members that haven't been online won't be detected.\n"
@@ -3174,220 +3185,220 @@ msgid "Triggers a refresh on all members.\n\n"
 "        This command can only be used once per server every day."
 msgstr ""
 
-#: cogs/roles.py:261
+#: cogs/roles.py:262
 msgid "This will make me check the guilds of all registered characters to apply existing rules.\n"
 "Note that character with outdated information won't be updated until they are online again or checked using `whois`\n"
 "Are you sure you want this?."
 msgstr ""
 
-#: cogs/roles.py:270
+#: cogs/roles.py:271
 msgid "Starting role refreshing…"
 msgstr ""
 
-#: cogs/roles.py:274 cogs/roles.py:276
+#: cogs/roles.py:275 cogs/roles.py:277
 msgid "Refresh done, roles will be updated shortly."
 msgstr ""
 
-#: cogs/roles.py:283
+#: cogs/roles.py:284
 msgid "Removes an autorole rule.\n\n"
 "        Role names, mentions and ids are accepted. Role names with multiple words need to be quoted.\n\n"
 "        Note that members that currently have the role won't be affected."
 msgstr ""
 
-#: cogs/roles.py:294
+#: cogs/roles.py:295
 msgid "That rule doesn't exist."
 msgstr ""
 
-#: cogs/roles.py:300
+#: cogs/roles.py:301
 msgid "You can't delete a role rule for a role higher than yours."
 msgstr ""
 
-#: cogs/roles.py:303
+#: cogs/roles.py:304
 msgid "Auto role rule removed. Note that the role won't be removed from current members."
 msgstr ""
 
-#: cogs/roles.py:311
+#: cogs/roles.py:312
 msgid "Joins or leaves a group (role).\n\n"
 "        If you're not in the group, you will be added.\n"
 "        If you're already in the group, you will be removed.\n\n"
 "        To see a list of joinable groups, use `group list`"
 msgstr ""
 
-#: cogs/roles.py:321
+#: cogs/roles.py:322
 #, python-brace-format
 msgid "Role {name} is not a joinable role."
 msgstr ""
 
-#: cogs/roles.py:329
+#: cogs/roles.py:330
 msgid "I can't manage groups of roles higher than mine."
 msgstr ""
 
-#: cogs/roles.py:331
+#: cogs/roles.py:332
 msgid "Joined group"
 msgstr ""
 
-#: cogs/roles.py:333
+#: cogs/roles.py:334
 msgid "Left group"
 msgstr ""
 
-#: cogs/roles.py:335
+#: cogs/roles.py:336
 msgid "I need `Manage Roles` to manage groups."
 msgstr ""
 
-#: cogs/roles.py:337
+#: cogs/roles.py:338
 msgid "Something went wrong. Try again later."
 msgstr ""
 
-#: cogs/roles.py:340
+#: cogs/roles.py:341
 #, python-brace-format
 msgid "You joined {name}."
 msgstr ""
 
-#: cogs/roles.py:342
+#: cogs/roles.py:343
 #, python-brace-format
 msgid "You left {name}."
 msgstr ""
 
-#: cogs/roles.py:350
+#: cogs/roles.py:351
 msgid "Creates a new group for members to join.\n\n"
 "        The group can be a new role that will be created with this command.\n"
 "        If the name matches an existent role, that role will become joinable.\n\n"
 "        You need `Manage Roles` permissions to use this command."
 msgstr ""
 
-#: cogs/roles.py:367
+#: cogs/roles.py:368
 msgid "I need `Manage Roles` permission to create a group."
 msgstr ""
 
-#: cogs/roles.py:370
+#: cogs/roles.py:371
 msgid "Invalid group name."
 msgstr ""
 
-#: cogs/roles.py:375
+#: cogs/roles.py:376
 #, python-brace-format
 msgid "Group {name} already exists."
 msgstr ""
 
-#: cogs/roles.py:380
+#: cogs/roles.py:381
 msgid "You can't make a group from a role higher or equals than your highest role."
 msgstr ""
 
-#: cogs/roles.py:382
+#: cogs/roles.py:383
 msgid "I can't make a group from a role higher or equals than my highest role."
 msgstr ""
 
-#: cogs/roles.py:385
+#: cogs/roles.py:386
 #, python-brace-format
 msgid "Group {name} created successfully."
 msgstr ""
 
-#: cogs/roles.py:391
+#: cogs/roles.py:392
 msgid "Shows a list of available groups."
 msgstr ""
 
-#: cogs/roles.py:394
+#: cogs/roles.py:395
 msgid "This server has no joinable groups."
 msgstr ""
 
-#: cogs/roles.py:403
+#: cogs/roles.py:404
 #, python-format
 msgid "`%d member`"
 msgid_plural "`%d members`"
 msgstr[0] ""
 msgstr[1] ""
 
-#: cogs/roles.py:409
+#: cogs/roles.py:410
 msgid "Joinable groups"
 msgstr ""
 
-#: cogs/roles.py:420
+#: cogs/roles.py:421
 msgid "Removes a group.\n\n"
 "        Removes a group, making members unable to join.\n"
 "        When removing a group, you can optionally delete the role too."
 msgstr ""
 
-#: cogs/roles.py:428
+#: cogs/roles.py:429
 #, python-brace-format
 msgid "{role} is not a group."
 msgstr ""
 
-#: cogs/roles.py:433
+#: cogs/roles.py:434
 msgid "You can't delete a group of a role higher than your highest role."
 msgstr ""
 
-#: cogs/roles.py:435
+#: cogs/roles.py:436
 msgid "I can't delete a group of a role higher than my highest role."
 msgstr ""
 
-#: cogs/roles.py:437
+#: cogs/roles.py:438
 #, python-brace-format
 msgid "Group {name} will be removed. Do you want to remove the role too?"
 msgstr ""
 
-#: cogs/roles.py:442
+#: cogs/roles.py:443
 #, python-brace-format
 msgid "Group removed by {user}"
 msgstr ""
 
-#: cogs/roles.py:443
+#: cogs/roles.py:444
 #, python-brace-format
 msgid "Group {name} was removed and the role was deleted."
 msgstr ""
 
-#: cogs/roles.py:445
+#: cogs/roles.py:446
 #, python-brace-format
 msgid "Group {name} removed."
 msgstr ""
 
-#: cogs/roles.py:446
+#: cogs/roles.py:447
 msgid "I need `Manage Roles` permission to delete the Discord role."
 msgstr ""
 
-#: cogs/roles.py:448
+#: cogs/roles.py:449
 #, python-brace-format
 msgid "Group {name} was removed."
 msgstr ""
 
-#: cogs/roles.py:456
+#: cogs/roles.py:457
 msgid "Shows a list of members with no roles."
 msgstr ""
 
-#: cogs/roles.py:465
+#: cogs/roles.py:466
 msgid "There are no members without roles."
 msgstr ""
 
-#: cogs/roles.py:471
+#: cogs/roles.py:472
 msgid "Members with no roles"
 msgstr ""
 
-#: cogs/roles.py:484
+#: cogs/roles.py:485
 msgid "Mentionable"
 msgstr ""
 
 #. Whether the role appears separate in the right side of Discord
-#: cogs/roles.py:486
+#: cogs/roles.py:487
 msgid "Hoisted"
 msgstr ""
 
-#: cogs/roles.py:487 cogs/tibia.py:2051 cogs/tibia.py:2073
+#: cogs/roles.py:488 cogs/tibia.py:2051 cogs/tibia.py:2073
 msgid "Position"
 msgstr ""
 
-#: cogs/roles.py:488
+#: cogs/roles.py:489
 msgid "Color"
 msgstr ""
 
-#: cogs/roles.py:502
+#: cogs/roles.py:503
 #, python-brace-format
 msgid "Seems like there are no members with the role {name}."
 msgstr ""
 
-#: cogs/roles.py:505
+#: cogs/roles.py:506
 #, python-brace-format
 msgid "Members with the role '{name}'"
 msgstr ""
 
-#: cogs/roles.py:521
+#: cogs/roles.py:522
 msgid "Sends a message mentioning a role.\n\n"
 "        This allows using a role mention for roles that have mentioning disabled.\n"
 "        Mentions for the role are enabled, the message is sent and role mentions are disabled again.\n\n"
@@ -3395,72 +3406,64 @@ msgid "Sends a message mentioning a role.\n\n"
 "        "
 msgstr ""
 
-#: cogs/roles.py:532
+#: cogs/roles.py:533
 msgid "You can't mention a role highest than your highest role."
 msgstr ""
 
-#: cogs/roles.py:535
+#: cogs/roles.py:536
 msgid "I can't mention a role highest than my highest role."
 msgstr ""
 
-#: cogs/roles.py:537
+#: cogs/roles.py:538
 #, python-brace-format
 msgid "The message will mention the role {name}. Your name will appear at the bottom of the message.\n"
 "Please tell me the content of the message.\n"
 "You can also say `cancel` to exit."
 msgstr ""
 
-#: cogs/roles.py:545
-msgid "…I guess you changed your mind."
-msgstr ""
-
-#: cogs/roles.py:548
-msgid "Alright, no message will be sent."
-msgstr ""
-
-#: cogs/roles.py:551
+#: cogs/roles.py:552
 msgid "The message can't be longer than {limit:,} characters."
 msgstr ""
 
-#: cogs/roles.py:558
+#: cogs/roles.py:559
 #, python-brace-format
 msgid "Turn mentions on for role mention by {user}"
 msgstr ""
 
-#: cogs/roles.py:560
+#: cogs/roles.py:561
 #, python-brace-format
 msgid "Message sent by {user}"
 msgstr ""
 
-#: cogs/roles.py:564
+#: cogs/roles.py:565
 msgid "Reverting mentionable"
 msgstr ""
 
-#: cogs/roles.py:571
+#: cogs/roles.py:572
 msgid "Shows a user's roles or a list of server roles.\n\n"
 "        If a user is specified, it will list their roles.\n"
 "        If user is blank, I will list all the server's roles."
 msgstr ""
 
-#: cogs/roles.py:576
+#: cogs/roles.py:577
 msgid "Roles in this server"
 msgstr ""
 
-#: cogs/roles.py:579
+#: cogs/roles.py:580
 msgid "There are no roles in this server."
 msgstr ""
 
-#: cogs/roles.py:584
+#: cogs/roles.py:585
 #, python-brace-format
 msgid "I don't see any user named **{user}**."
 msgstr ""
 
-#: cogs/roles.py:586
+#: cogs/roles.py:587
 #, python-brace-format
 msgid "Roles for @{user}"
 msgstr ""
 
-#: cogs/roles.py:589
+#: cogs/roles.py:590
 #, python-brace-format
 msgid "{user} has no roles."
 msgstr ""
@@ -4258,10 +4261,6 @@ msgstr ""
 #, python-brace-format
 msgid "The time in `{timezone}` is **{local_time}**.\n"
 "What display name do you want to assign? You can `cancel` if you changed your mind."
-msgstr ""
-
-#: cogs/tibia.py:1513 cogs/tracking.py:1041
-msgid "I guess you changed your mind."
 msgstr ""
 
 #: cogs/tibia.py:1520 cogs/tibia.py:1588
@@ -5363,10 +5362,6 @@ msgstr ""
 msgid "You can only have %d active events simultaneously.Delete or edit an active event."
 msgstr ""
 
-#: cogs/timers.py:780
-msgid "Alright, no event for you."
-msgstr ""
-
 #: cogs/timers.py:793
 msgid "Adds a character to an event.\n\n"
 "        Only the creator can add characters to an event.\n"
@@ -5500,10 +5495,6 @@ msgstr ""
 msgid "Do you want to change the name of **{event}** to **{new_name}**?"
 msgstr ""
 
-#: cogs/timers.py:984
-msgid "Alright, name remains the same."
-msgstr ""
-
 #: cogs/timers.py:990
 #, python-brace-format
 msgid "Your event was renamed successfully to **{new_name}**."
@@ -5548,10 +5539,6 @@ msgstr ""
 msgid "Do you want the number of slots of **{event}** to **{slots}**?"
 msgstr ""
 
-#: cogs/timers.py:1040
-msgid "Alright, slots remain unchanged."
-msgstr ""
-
 #: cogs/timers.py:1046
 #, python-brace-format
 msgid "Your event slots were changed to **{slots}**."
@@ -5576,10 +5563,6 @@ msgstr ""
 #, python-brace-format
 msgid "When would you like the new start time of **{event}** be?You can `cancel` this.\n"
 " Examples: `1h20m`, `2d10m`"
-msgstr ""
-
-#: cogs/timers.py:1098
-msgid "Alright, event remains the same."
 msgstr ""
 
 #: cogs/timers.py:1104
@@ -5755,10 +5738,6 @@ msgstr ""
 #: cogs/timers.py:1460
 #, python-brace-format
 msgid "Do you want to subscribe to **{event}**"
-msgstr ""
-
-#: cogs/timers.py:1466
-msgid "Ok then."
 msgstr ""
 
 #: cogs/timers.py:1470
@@ -6066,10 +6045,6 @@ msgstr ""
 #: cogs/tracking.py:1037
 #, python-brace-format
 msgid "Are you sure you want to unregister **{name}** ({level} {vocation})?"
-msgstr ""
-
-#: cogs/tracking.py:1043
-msgid "No then? Ok."
 msgstr ""
 
 #: cogs/tracking.py:1046
