@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 19:15-0700\n"
-"PO-Revision-Date: 2021-04-16 19:14\n"
+"PO-Revision-Date: 2021-04-16 20:10\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -6425,91 +6425,99 @@ msgstr "No encontré a nadie entre los niveles **{low}** y **{high}**"
 #: cogs/tracking.py:1207
 #, python-brace-format
 msgid "Characters in share range with level {level} ({low}-{high})"
-msgstr ""
+msgstr "Personajes en rango de compartir co nivel {level}({low}-{high})"
 
 #: cogs/tracking.py:1209
 #, python-brace-format
 msgid "I didn't find anyone in share range with level **{level}** ({low}-{high})"
-msgstr ""
+msgstr "No he encontrado a nadie en el rango de compartir con el nivel **{level}** ({low}-{high})"
 
 #: cogs/tracking.py:1225
 #, python-brace-format
 msgid "**{name}** - Level {level} {voc} - @**{owner}**"
-msgstr ""
+msgstr "**{name}** - Nivel {level} {voc} - @**{owner}**"
 
 #: cogs/tracking.py:1329
 msgid "Removes a registered character from someone.\n\n"
 "        This can only be used by server moderators.\n\n"
 "        Note that you can only remove chars if they are from users exclusively in your server.\n"
 "        You can't remove any characters that would alter other servers NabBot is in."
-msgstr ""
+msgstr "Elimina un personaje registrado de alguien.\n\n"
+"        Esto solo puede ser utilizado por los moderadores del servidor.\n\n"
+"        Ten en cuenta que solo puedes eliminar personajes si son de usuarios exclusivamente en tu servidor.\n"
+"        No puede eliminar ningún personaje que altere NabBot de otros servidores."
 
 #: cogs/tracking.py:1339
 msgid "There's no character with that name registered."
-msgstr ""
+msgstr "No hay ningún personaje con ese nombre registrado."
 
 #: cogs/tracking.py:1341
 #, python-brace-format
 msgid "The character **{name}** is in a different world."
-msgstr ""
+msgstr "El personaje **{name}** está en un mundo diferente."
 
 #: cogs/tracking.py:1356
 #, python-brace-format
 msgid "The user of this server is also in another server tracking **{world}**, where you are not an admin. You can't alter other servers."
-msgstr ""
+msgstr "El usuario de este servidor también se encuentra en otro servidor siguiendo **{world}**, donde no eres administrador. No puedes modificar otros servidores."
 
 #: cogs/tracking.py:1362
 #, python-brace-format
 msgid "**{0}** was removed successfully from **@{1}**."
-msgstr ""
+msgstr "**{0}** fue eliminado correctamente de **@{1}**."
 
 #: cogs/tracking.py:1370
 msgid "Create or manage watchlists.\n\n"
 "        Watchlists are channels where the online status of selected characters are shown.\n"
 "        You can create multiple watchlists and characters and guilds to each one separately.\n\n"
 "        Try the subcommands."
-msgstr ""
+msgstr "Crear o administrar watchlists.\n\n"
+"        Las watchlists son canales donde se muestra el estado en línea de los personajes seleccionados.\n"
+"        Puedes crear múltiples listas y agregar personajes y guilds para cada uno por separado.\n\n"
+"        Prueba los subcomandos."
 
 #: cogs/tracking.py:1376
 #, python-brace-format
 msgid "To manage watchlists, use one of the subcommands.\n"
 "Try `{prefix}help {command}`."
-msgstr ""
+msgstr "Para gestionar las watchlists, usa uno de los subcomandos.\n"
+"Intenta `{prefix}help {command}`."
 
 #: cogs/tracking.py:1384
 msgid "Adds a character to a watchlist.\n\n"
 "        A reason can be specified by adding it after the character's name, separated by a comma."
-msgstr ""
+msgstr "Añade un personaje al watchlist.\n\n"
+"        Una razón puede especificarse agregándola después del nombre del personaje, separado por una coma."
 
 #: cogs/tracking.py:1393 cogs/tracking.py:1459 cogs/tracking.py:1484
 #: cogs/tracking.py:1535
 #, python-brace-format
 msgid "You need `Manage Channel` permissions in {channel} to add entries."
-msgstr ""
+msgstr "Necesitas permisos de `Gestionar canal` en {channel} para añadir entradas."
 
 #: cogs/tracking.py:1404
 msgid "A character with that name doesn't exist."
-msgstr ""
+msgstr "Un personaje con ese nombre no existe."
 
 #: cogs/tracking.py:1408
 #, python-brace-format
 msgid "This character is not in **{world}**."
-msgstr ""
+msgstr "Este personaje no esta en **{world}**."
 
 #: cogs/tracking.py:1411
 #, python-brace-format
 msgid "Do you want to add **{char.name}** (Level {char.level} {char.vocation}) to the watchlist {channel}"
-msgstr ""
+msgstr "¿Quieres añadir a **{char.name}** (Nivel {char.level} {char.vocation}) a la lista de seguimiento {channel}"
 
 #: cogs/tracking.py:1425
 #, python-brace-format
 msgid "Character **{name}** added to the watchlist {channel}."
-msgstr ""
+msgstr "Personaje **{name}** ** añadido a la lista de seguimiento {channel}."
 
 #: cogs/tracking.py:1428
 #, python-brace-format
 msgid "**{name}** is already registered in {channel}"
-msgstr ""
+msgstr "**{name}** ya está registrado en {channel}"
 
 #: cogs/tracking.py:1438
 msgid "Creates or assigns a channel to be used as a feed for the watchlist.\n\n"
