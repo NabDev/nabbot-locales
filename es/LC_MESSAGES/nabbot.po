@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 19:15-0700\n"
-"PO-Revision-Date: 2021-04-16 04:15\n"
+"PO-Revision-Date: 2021-04-16 05:48\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2601,16 +2601,16 @@ msgstr ""
 
 #: cogs/premium.py:437
 msgid "The transferred amount can't be zero or lower."
-msgstr ""
+msgstr "La cantidad transferida no puede ser cero o inferior."
 
 #: cogs/premium.py:440
 #, python-brace-format
 msgid "There is no character named **{character}**."
-msgstr ""
+msgstr "No hay ningún personaje llamado **{character}**."
 
 #: cogs/premium.py:445
 msgid "You already have a pending transaction, wait for it to be reviewed."
-msgstr ""
+msgstr "Ya tienes una transacción pendiente, espera a que sea revisada."
 
 #: cogs/premium.py:447
 #, python-brace-format
@@ -2797,7 +2797,7 @@ msgstr ""
 
 #: cogs/premium.py:785
 msgid "This server already has premium."
-msgstr ""
+msgstr "Este servidor ya tiene premium."
 
 #: cogs/premium.py:787
 #, python-brace-format
@@ -2957,7 +2957,7 @@ msgstr ""
 
 #: cogs/respawn.py:332 cogs/respawn.py:505
 msgid "Time left"
-msgstr ""
+msgstr "Tiempo restante"
 
 #: cogs/respawn.py:334
 #, python-brace-format
@@ -2967,7 +2967,7 @@ msgstr ""
 #. Next user on a respawn
 #: cogs/respawn.py:341 cogs/respawn.py:702
 msgid "Next"
-msgstr ""
+msgstr "Siguiente"
 
 #: cogs/respawn.py:343
 msgid "This respawn is currently available."
@@ -3264,17 +3264,17 @@ msgstr ""
 #: cogs/roles.py:207
 #, python-brace-format
 msgid "Members of guild `{name}` and rank `{rank}` will automatically receive the {role} role."
-msgstr ""
+msgstr "Los miembros del guild `{name}` y con el rango `{rank}` recibirán automáticamente el rol {role}."
 
 #: cogs/roles.py:209
 #, python-brace-format
 msgid "Members of guild `{name}` will automatically receive the {role} role. "
-msgstr ""
+msgstr "Los miembros del guild `{name}` recibirán automáticamente el rol {role}. "
 
 #: cogs/roles.py:211
 #, python-brace-format
 msgid "All users with registered characters will automatically receive the {role} role."
-msgstr ""
+msgstr "Todos los usuarios con personajes registrados recibirán automáticamente el rol {role}."
 
 #: cogs/roles.py:212 cogs/timers.py:775
 msgid "Is this correct?"
@@ -3346,15 +3346,15 @@ msgstr ""
 #: cogs/roles.py:322
 #, python-brace-format
 msgid "Role {name} is not a joinable role."
-msgstr ""
+msgstr "El rol {name} no es un rol unible."
 
 #: cogs/roles.py:330
 msgid "I can't manage groups of roles higher than mine."
-msgstr ""
+msgstr "No puedo administrar grupos de roles más altos que el mío."
 
 #: cogs/roles.py:332
 msgid "Joined group"
-msgstr ""
+msgstr "Te uniste al grupo"
 
 #: cogs/roles.py:334
 msgid "Left group"
