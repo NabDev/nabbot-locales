@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 19:15-0700\n"
-"PO-Revision-Date: 2021-04-16 05:48\n"
+"PO-Revision-Date: 2021-04-16 16:18\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -116,13 +116,13 @@ msgstr "**{name}** subio al nivel {level}."
 #: utils/messages.py:90
 #, python-brace-format
 msgid "**{name}** ({level}) died to {killer_article}**{killer}**."
-msgstr ""
+msgstr "**{name}** ({level}) murió a causa de {killer_article}**{killer}**."
 
 #. PvP deaths messages used when simple messages is on.
 #: utils/messages.py:92
 #, python-brace-format
 msgid "**{name}** ({level}) was killed by **{killer}**."
-msgstr ""
+msgstr "**{name}** ({level}) fue matado por **{killer}**."
 
 #: utils/tibia.py:87
 msgid "In **achievement points**, {0} has rank **{2}**, with **{1:,}** points"
@@ -1397,12 +1397,12 @@ msgstr "Configura el canal para niveles y muertes usando: `{0}settings`"
 #: cogs/core.py:390
 #, python-brace-format
 msgid "People can register their characters using `{0}im characterName`"
-msgstr ""
+msgstr "La gente puede registrar sus personajes usando `{0}im characterName`"
 
 #: cogs/core.py:391
 #, python-brace-format
 msgid "To set a logging channel, use `{0}settings serverlog`"
-msgstr ""
+msgstr "Para establecer un canal de logging, usa `{0}settings serverlog`"
 
 #: cogs/core.py:392
 #, python-brace-format
@@ -1412,7 +1412,7 @@ msgstr "Si necesitas ayuda, únete a mi servidor de soporte: **<{0}>**"
 #: cogs/core.py:393
 #, python-brace-format
 msgid "For more information and links in: `{0}about`"
-msgstr ""
+msgstr "Para más información y enlaces en: `{0}about`"
 
 #: cogs/core.py:395
 msgid "getting started guide"
