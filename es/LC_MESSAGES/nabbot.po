@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 19:15-0700\n"
-"PO-Revision-Date: 2021-04-16 16:18\n"
+"PO-Revision-Date: 2021-04-16 17:13\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1531,7 +1531,18 @@ msgid "Shows a messages by its ID or link.\n"
 "    \n"
 "            Note that the bot won't attempt to search in channels you can't read.\n"
 "            Additionally, messages in NSFW channels can't be quoted in regular channels."
-msgstr ""
+msgstr "Muestra un mensaje por su ID o enlace.\n"
+"    \n"
+"            Para obtener el enlace del mensaje, puede hacer clic con el botón derecho y seleccionar **Copiar enlace**.\n"
+"    \n"
+"            Para obtener el id del mensaje, necesitas activar el modo de desarrollador.\n"
+"            El modo desarrollador se encuentra en `Ajustes de usuario > Apariencia`.\n"
+"            Una vez activado, puedes hacer clic derecho en un mensaje y seleccionar **Copiar ID**.\n"
+"    \n"
+"            Usar un enlace de mensaje es más rápido que usar un ID.\n"
+"    \n"
+"            Ten en cuenta que el bot no intentará buscar en canales que no puedas leer.\n"
+"            Además, los mensajes en canales NSFW no se pueden citar en canales regulares."
 
 #: cogs/general.py:133
 msgid "I can't find that message, or it is in a channel you can't access."
@@ -1567,11 +1578,18 @@ msgid "Rolls a die.\n"
 "            You can also specify the number of sides of the die, using the format `TdS` where T is times and S is sides.\n"
 "    \n"
 "            The highest dice has 120 sides and the maximum number of throws is 20."
-msgstr ""
+msgstr "Tira un dado.\n"
+"    \n"
+"            Por defecto, tira una vez un dado de 6 caras una vez.\n"
+"            Puedes especificar cuántas veces quieres que el dado se lance.\n"
+"    \n"
+"            También puede especificar el número de lados del dado, usando el formato `TdS` donde T son las veces y S los lados.\n"
+"    \n"
+"            El dado más alto tiene 120 lados y el número máximo de lanzamientos es 20."
 
 #: cogs/general.py:183
 msgid "Invalid parameter! I'm expecting `<times>d<rolls>`."
-msgstr ""
+msgstr "¡Parámetro invalido! Esperaba `<veces>d<tiros>`."
 
 #: cogs/general.py:186
 msgid "You want me to roll the die zero times? Ok… There, done."
@@ -2282,12 +2300,14 @@ msgstr "\n"
 #: cogs/loot.py:293
 msgid "\n"
 "The total loot value is: **{total_value:,}** gold coins."
-msgstr ""
+msgstr "\n"
+"El valor total del loot es: **{total_value:,}** gold."
 
 #: cogs/loot.py:295
 msgid "\n"
 "💎 Items marked with this are used in imbuements and might be worth more in the market."
-msgstr ""
+msgstr "\n"
+"💎 Los ítems marcados con esto se utilizan en las imbuements y podrían valer más en el mercado."
 
 #: cogs/loot.py:311
 msgid "Original Message"
@@ -2394,11 +2414,14 @@ msgid "Makes the bot say a message.\n\n"
 "        If the user using the command doesn't have mention everyone permissions, the message will be cleaned of\n"
 "        mass mentions.\n"
 "        "
-msgstr ""
+msgstr "Hace que el bot diga un mensaje.\n\n"
+"        Si el usuario que utiliza el comando no tiene permisos para mencionar a todos, el mensaje se limpiará de\n"
+"        menciones masivas.\n"
+"        "
 
 #: cogs/mod.py:191
 msgid "I need `Manage Messages` permissions here to use the command."
-msgstr ""
+msgstr "Necesito permisos de `Gestionar mensajes` para usar el comando."
 
 #: cogs/mod.py:212
 #, python-brace-format
@@ -2474,17 +2497,19 @@ msgstr "Premium expiro"
 #, python-brace-format
 msgid "Congratulations! You are now a patron! To enjoy the benefits in one of your servers, try the `nab.premium add` command on the server of your choice.\n"
 " For more information visit: {url}"
-msgstr ""
+msgstr "¡Felicidades! ¡Ahora eres un Patron! Para disfrutar los beneficios en uno de tus servidor, prueba el comando `nab.premium add` en el servidor de tu elección.\n"
+" Para mas información visita: {url}"
 
 #: cogs/premium.py:215
 msgid "It seems like you have lost your Patron status. The privileges of any premium servers you had will be lost. If you believe this was a mistake, let us know."
-msgstr ""
+msgstr "Parece que has perdido tu estado de Patreon. Los privilegios de cualquier servidor premium que tenías se perderán. Si crees que fue un error, háznoslo saber."
 
 #: cogs/premium.py:235
 #, python-brace-format
 msgid "You have left NabBot's server. We cannot validate your patron status anymore.\n"
 "Please join again to enjoy your benefits: <{url}>"
-msgstr ""
+msgstr "Has abandonado el servidor de NabBot. No podemos validar tu estado de Patreon.\n"
+"Por favor, únete de nuevo para disfrutar de tus beneficios: <{url}>"
 
 #. Announce on the server's server log (if present)
 #: cogs/premium.py:253 cogs/premium.py:269 cogs/premium.py:288
@@ -2494,17 +2519,20 @@ msgstr "Premium eliminado"
 #: cogs/premium.py:254
 msgid "The member giving premium has left this server.\n"
 "This server's benefits will be removed."
-msgstr ""
+msgstr "El miembro que da premium ha dejado este servidor.\n"
+"Los beneficios de este servidor se eliminarán."
 
 #: cogs/premium.py:270
 msgid "The member giving premium has left the official server and their status can no longer be validated.\n"
 "This server's benefits willbe removed."
-msgstr ""
+msgstr "El miembro que da premium ha salido del servidor oficial y su estado ya no puede ser validado.\n"
+"Los beneficios de este servidor serán eliminados."
 
 #: cogs/premium.py:289
 msgid "The member giving premium is no longer a Patron.\n"
 "This server's benefits will be removed."
-msgstr ""
+msgstr "El miembro que otorga premium ya no es un Patreon.\n"
+"Los beneficios de este servidor se eliminarán."
 
 #: cogs/premium.py:303 cogs/premium.py:320
 msgid "Premium Received"
@@ -2532,11 +2560,14 @@ msgid "Assigns premium to the current server or one you specify.\n\n"
 "        If you use it without parameters, it will try to add premium to the current server.\n\n"
 "        To obtain a server's ID, you can use the `serverinfo` command or\n"
 "        enable Developer Settings to view IDs with right click."
-msgstr ""
+msgstr "Asigna premium al servidor actual o a uno que especifique.\n\n"
+"        Si lo utilizas sin parámetros, intentará añadir premium al servidor actual.\n\n"
+"        Para obtener el ID de un servidor, puedes usar el comando `serverinfo` o\n"
+"        habilitar la configuración del desarrollador para ver IDs con clic derecho."
 
 #: cogs/premium.py:368
 msgid "You do not have any premium days to assign and you're not a patreon."
-msgstr ""
+msgstr "No tienes días premium para asignar y no eres un Patreon."
 
 #: cogs/premium.py:372
 #, python-brace-format
@@ -2547,7 +2578,7 @@ msgstr ""
 
 #: cogs/premium.py:382
 msgid "I'm not in any guild with that id."
-msgstr ""
+msgstr "No estoy en ninguna guild con ese id."
 
 #: cogs/premium.py:385
 msgid "You're not in that server."
@@ -2563,7 +2594,11 @@ msgid "Shows your current premium days balance.\n\n"
 "        premium privileges.\n\n"
 "        Note that once you give premium to a server, it can't be taken back,\n"
 "        even if you stop being part of the server."
-msgstr ""
+msgstr "Muestra tu saldo de días premium.\n\n"
+"        Los días premium en tu cuenta pueden ser asignados a servidores en los que estás para darles\n"
+"        privilegios premium.\n\n"
+"        Ten en cuenta que una vez que das premium a un servidor, no se puede recuperar,\n"
+"        incluso si dejas de ser parte del servidor."
 
 #: cogs/premium.py:410
 msgid "Premium Status"
@@ -2582,7 +2617,9 @@ msgstr "Más información"
 msgid "`{prefix}premium history` to view your transactions.\n"
 "`{prefix}premium buy` to buy premium with Tibia Coins.\n"
 "`{prefix}premium add` to add premium to a new server."
-msgstr ""
+msgstr "`{prefix}premium history` para ver tus transacciones.\n"
+"`{prefix}premium buy` para comprar premium con Tibia Coins.\n"
+"`{prefix}premium add` para añadir premium a un nuevo servidor."
 
 #: cogs/premium.py:419
 msgid "Last change"
@@ -2590,14 +2627,17 @@ msgstr "Último cambio"
 
 #: cogs/premium.py:423
 msgid "You're currently a Patreon"
-msgstr ""
+msgstr "Actualmente eres un Patreon"
 
 #: cogs/premium.py:430
 msgid "Registers a Tibia Coin transfer to purchase NabBot premium.\n\n"
 "        In order to buy premium, you must transfer the coins to **Nab Broker** and\n"
 "        then register the transaction here.\n\n"
 "        After that, you must specify the amount transferred, and the character where you transferred the coins from."
-msgstr ""
+msgstr "Registra una transferencia de Tibia Coin para comprar premium de NabBot.\n\n"
+"        Para comprar premium, debes transferir las monedas a **Nab Broker** y\n"
+"        luego registra la transacción aquí.\n\n"
+"        Después de eso, debe especificar el monto transferido, y el personaje del que has transferido las monedas."
 
 #: cogs/premium.py:437
 msgid "The transferred amount can't be zero or lower."
@@ -2616,19 +2656,22 @@ msgstr "Ya tienes una transacción pendiente, espera a que sea revisada."
 #, python-brace-format
 msgid "Do you confirm that you transferred **{amount}** Tibia coins from **{character}** to **{recipient}**?\n"
 "*Abuse may result in being banned from NabBot services.*"
-msgstr ""
+msgstr "¿Confirmas que has transferido **{amount}** Tibia coins de **{character}** a **{recipient}**?\n"
+"*El abuso puede resultar en la prohibición de los servicios de NabBot.*"
 
 #: cogs/premium.py:455
 #, python-brace-format
 msgid "Payment sent for verification (ID: {id}). It might take some time for premium to be assigned.\n"
 "You will receive confirmation via DM when your payment is approved."
-msgstr ""
+msgstr "Pago enviado para verificación (ID: {id}). Puede tardar algún tiempo en asignarse premium.\n"
+"Recibirás confirmación a través de DM cuando tu pago sea aprobado."
 
 #: cogs/premium.py:458
 #, python-brace-format
 msgid "\n\n"
 "*Make sure you're able to receive direct messages from me*. You can use `{prefix}checkdm` to check."
-msgstr ""
+msgstr "\n\n"
+"*Asegúrate de poder recibir mensajes directos de mi*. Puedes usar `{prefix}checkdm` para comprobar."
 
 #: cogs/premium.py:466
 msgid "Shows your transactions history, and the servers you've given days to.\n\n"
@@ -2636,7 +2679,11 @@ msgid "Shows your transactions history, and the servers you've given days to.\n\
 "        To only show purchases, you can add `purchases` at the end.\n"
 "        To only show which servers you have given premium to, add `servers` at the end.\n\n"
 "        To view more information about a specific purchase transaction, use `transaction view <id>`."
-msgstr ""
+msgstr "Muestra tu historial de transacciones, y los servidores a los que has dado días.\n\n"
+"        Esto muestra una combinación de las compras que has realizado. y los servidores a los que has dado premium.\n\n"
+"        Para mostrar solo las compras, puedes añadir \"purchases\" al final.\n"
+"        Para mostrar únicamente a qué servidores has dado premium, añade `servers` al final.\n\n"
+"        Para ver más información sobre una transacción de compra específica, use `transaction view <id>`."
 
 #: cogs/premium.py:486
 msgid "You currently don't have any transactions."
@@ -2715,7 +2762,7 @@ msgstr "Otros comandos"
 #: cogs/premium.py:566
 #, python-brace-format
 msgid "For help and other commands: `{prefix}help premium`"
-msgstr ""
+msgstr "Para ayuda y otros comandos: `{prefix}help premium`"
 
 #: cogs/premium.py:573
 msgid "Unassigns premium from a server you gave premium to as a Patreon.\n\n"
@@ -2746,54 +2793,55 @@ msgstr "Actualmente no tienes servidores premium. Para asignar un uso: `{prefix}
 
 #: cogs/premium.py:601
 msgid "You haven't assigned premium to any server with this ID."
-msgstr ""
+msgstr "No has asignado premium a ningún servidor con este ID."
 
 #: cogs/premium.py:603
 msgid "You can't remove premium from a server with premium days."
-msgstr ""
+msgstr "No puedes quitar premium de un servidor con días premium."
 
 #: cogs/premium.py:605
 msgid "You can only unassign a server after 5 days."
-msgstr ""
+msgstr "Sólo se puede desasignar un servidor después de 5 días."
 
 #: cogs/premium.py:607
 #, python-brace-format
 msgid "<Unknown Server {id}>"
-msgstr ""
+msgstr "<Servidor desconocido {id}>"
 
 #: cogs/premium.py:608
 #, python-brace-format
 msgid "Are you sure you want to remove premium from **{name}**?"
-msgstr ""
+msgstr "¿Estás seguro de que quieres remover el premium de **{name}**?"
 
 #: cogs/premium.py:613
 msgid "Premium server removed."
-msgstr ""
+msgstr "Premium removido del servidor."
 
 #: cogs/premium.py:623
 msgid "This server currently has no transaction history."
-msgstr ""
+msgstr "Este servidor no tiene historial de transacciones."
 
 #: cogs/premium.py:627
 msgid "<Unknown User>"
-msgstr ""
+msgstr "<Usuario desconocido>"
 
 #: cogs/premium.py:632
 msgid "Premium History"
-msgstr ""
+msgstr "Historial premium"
 
 #: cogs/premium.py:643
 msgid "Updates the current premium price."
-msgstr ""
+msgstr "Actualiza el precio actual de premium."
 
 #: cogs/premium.py:764
 msgid "Shows details about a specific transaction.\n\n"
 "        You can only view your own transactions. To see a list of them use `premium history`."
-msgstr ""
+msgstr "Muestra detalles sobre una transacción específica.\n\n"
+"        Solo puedes ver tus propias transacciones. Para ver una lista de ellas utiliza `premium history`."
 
 #: cogs/premium.py:769
 msgid "There is no transaction with that ID or it does not belong to you."
-msgstr ""
+msgstr "No existe ninguna transacción con ese ID o no te pertenece."
 
 #: cogs/premium.py:785
 msgid "This server already has premium."
@@ -2803,7 +2851,8 @@ msgstr "Este servidor ya tiene premium."
 #, python-brace-format
 msgid "Are you sure you want to assign premium to **{server}**?\n"
 "*There will be a 5 day cooldown to change this premium slot*"
-msgstr ""
+msgstr "¿Estás seguro de que quieres asignar premium a **{server}**?\n"
+"*No podras cambiar este espacio por 5 días*"
 
 #: cogs/premium.py:793
 #, python-brace-format
@@ -2819,7 +2868,7 @@ msgstr "¿Estás seguro de que quieres dar {days} días premium a **{guild}**?\n
 
 #: cogs/premium.py:813
 msgid "You cannot assign premium to a server that a Patron is giving premium to."
-msgstr ""
+msgstr "No puedes asignar premium a un servidor al que un Patron está dando premio."
 
 #: cogs/premium.py:822
 #, python-brace-format
@@ -2862,7 +2911,7 @@ msgstr "No se registraron respawns."
 #: cogs/respawn.py:84
 #, python-brace-format
 msgid "Respawn system is not configured for this server. Use `{prefix}respawn setup` to configure."
-msgstr ""
+msgstr "El sistema de respawns no esta configurado para este servidor. Usa `{prefix}respawn setup` para configurar."
 
 #: cogs/respawn.py:202
 #, python-brace-format
@@ -2876,7 +2925,7 @@ msgstr "Es tu turno de tomar **{respawn.name}** (`{respawn.code}`). ¿Quieres to
 
 #: cogs/respawn.py:227
 msgid "Alright, the respawn was not assigned to you."
-msgstr ""
+msgstr "Ok, el respawn no se te asignó."
 
 #: cogs/respawn.py:231
 #, python-brace-format
@@ -2886,29 +2935,33 @@ msgstr "Ahora estás cazando en **{respawn.name}** (`{respawn.code}`)."
 #: cogs/respawn.py:240
 msgid "Manages respawns.\n\n"
 "        Try the subcommands for more information."
-msgstr ""
+msgstr "Gestiona los respawns.\n\n"
+"        Intenta usar los subcomandos para mas información."
 
 #: cogs/respawn.py:243
 #, python-brace-format
 msgid "To manage the Respawn List, use one of the subcommands.\n"
 "Try `{prefix}help {command}`."
-msgstr ""
+msgstr "Para gestionar la lista de respawns, usa uno de los subcomandos.\n"
+"Intenta `{prefix}help {command}`."
 
 #: cogs/respawn.py:252
 msgid "Claims a respawn, indicating you will be hunting there.\n\n"
 "        The duration of the hunt is determined by the server's configuration."
-msgstr ""
+msgstr "Toma un respawn, indicando que estarás cazando ahí.\n\n"
+"        La duración de la caza esta determinada por la configuración del servidor."
 
 #: cogs/respawn.py:257
 #, python-brace-format
 msgid "Someone is already hunting in **{respawn.name}**.\n"
 "You can add yourself to the queue using `{prefix}respawn next {code}`."
-msgstr ""
+msgstr "Alguien ya está cazando en **{respawn.name}**.\n"
+"Puedes añadirse a ti mismo a la cola usando `{prefix}respawn next {code}`."
 
 #: cogs/respawn.py:267
 #, python-brace-format
 msgid "Do you want to start hunting in **{respawn.name}**? This will end your hunt at **{current_respawn.name}**."
-msgstr ""
+msgstr "¿Quieres empezar a cazar en **{respawn.name}**? Esto acabará con tu cacería en **{current_respawn.name}**."
 
 #: cogs/respawn.py:271
 #, python-brace-format
@@ -2919,11 +2972,12 @@ msgstr "¿Quieres empezar a cazar en **{respawn.name}**?"
 #, python-brace-format
 msgid "You are now hunting in **{respawn.name}**.\n"
 "Your hunt should end at the following local time:"
-msgstr ""
+msgstr "Ahora estás cazando en **{respawn.name}**.\n"
+"Tu cacería debería terminar en la siguiente hora local:"
 
 #: cogs/respawn.py:285
 msgid "Removes the current hunter and the entire queue of a respawn."
-msgstr ""
+msgstr "Eliminza al cazador actual y la cola del respawn."
 
 #: cogs/respawn.py:287
 #, python-brace-format
@@ -2933,15 +2987,15 @@ msgstr "¿Quieres limpiar **{respawn.name}**?"
 #: cogs/respawn.py:292
 #, python-brace-format
 msgid "**{respawn.name}** has been cleared."
-msgstr ""
+msgstr "**{respawn.name}** ha sido limpiado."
 
 #: cogs/respawn.py:300
 msgid "Hunting History"
-msgstr ""
+msgstr "Historial de cacería"
 
 #: cogs/respawn.py:301
 msgid "There is no hunt history for this respawn."
-msgstr ""
+msgstr "No hay historial de cacería para esta respawn."
 
 #: cogs/respawn.py:313
 msgid "History"
@@ -2953,7 +3007,7 @@ msgstr "un usuario desconocido"
 
 #: cogs/respawn.py:331
 msgid "Current hunt should end at"
-msgstr ""
+msgstr "La cacería actual debería terminar el"
 
 #: cogs/respawn.py:332 cogs/respawn.py:505
 msgid "Time left"
@@ -2962,7 +3016,7 @@ msgstr "Tiempo restante"
 #: cogs/respawn.py:334
 #, python-brace-format
 msgid "This spawn is currently being used by {user_name}."
-msgstr ""
+msgstr "Este spawn está siendo utilizado actualmente por {user_name}."
 
 #. Next user on a respawn
 #: cogs/respawn.py:341 cogs/respawn.py:702
@@ -2971,7 +3025,7 @@ msgstr "Siguiente"
 
 #: cogs/respawn.py:343
 msgid "This respawn is currently available."
-msgstr ""
+msgstr "Esta respawn está disponible actualmente."
 
 #: cogs/respawn.py:348 cogs/tibia.py:1723 cogs/tibiawiki.py:421
 #: cogs/tibiawiki.py:449 cogs/tibiawiki.py:656
@@ -2983,126 +3037,136 @@ msgid "Removes a user from a respawn or a queue.\n\n"
 "        If no user is specified, it will remove the current user hunting in the respawn.\n"
 "        To remove a specific user in the queue, specify the name of the user.\n\n"
 "        Only server managers can use this."
-msgstr ""
+msgstr "Elimina un usuario de una respawn o de la cola.\n\n"
+"        Si no se especifica ningún usuario, eliminará al usuario cazando actualmente en el respawn.\n"
+"        Para eliminar un usuario específico en la cola, especifique el nombre del usuario.\n\n"
+"        Sólo los administradores de servidores pueden usar esto."
 
 #: cogs/respawn.py:372
 #, python-brace-format
 msgid "There is no one hunting in **{respawn.name}**."
-msgstr ""
+msgstr "No hay nadie cazando en **{respawn.name}**."
 
 #: cogs/respawn.py:373
 #, python-brace-format
 msgid "{user} is not hunting or in the queue of **{respawn.name}**."
-msgstr ""
+msgstr "{user} no está cazando o en la cola de **{respawn.name}**."
 
 #: cogs/respawn.py:377
 #, python-brace-format
 msgid "Do you want to kick {user} from **{respawn.name}**?"
-msgstr ""
+msgstr "¿Quieres expulsar a {user} de **{respawn.name}**?"
 
 #: cogs/respawn.py:379
 #, python-brace-format
 msgid "Do you want to remove {user} from the queue of **{respawn.name}**?"
-msgstr ""
+msgstr "¿Deseas eliminar {user} de la cola de **{respawn.name}**?"
 
 #: cogs/respawn.py:386
 #, python-brace-format
 msgid "{user} was kicked from **{respawn.name}**."
-msgstr ""
+msgstr "{user} fue expulsado de **{respawn.name}**."
 
 #: cogs/respawn.py:388
 #, python-brace-format
 msgid "{user} was removed from the queue of **{respawn.name}**."
-msgstr ""
+msgstr "{user} fue removido de la cola de **{respawn.name}**."
 
 #: cogs/respawn.py:395
 msgid "Leaves the respawn you're currently hunting at, or the queue you're at."
-msgstr ""
+msgstr "Abandona el respawn en el que estás cazando actualmente, o la cola en la que estás."
 
 #: cogs/respawn.py:399
 #, python-brace-format
 msgid "You're not hunting nor in the queue of **{respawn.name}**."
-msgstr ""
+msgstr "No estás cazando ni en la cola de **{respawn.name}**."
 
 #: cogs/respawn.py:402
 #, python-brace-format
 msgid "Are you sure you want to leave **{respawn.name}**?\n"
 "You have {time} left."
-msgstr ""
+msgstr "¿Estás seguro de que quieres salir de **{respawn.name}**?\n"
+"Te queda {time}."
 
 #: cogs/respawn.py:406
 #, python-brace-format
 msgid "Are you sure you want to remove yourself from the queue of **{respawn.name}**?"
-msgstr ""
+msgstr "¿Estás seguro de que deseas eliminarte de la cola de **{respawn.name}**?"
 
 #: cogs/respawn.py:409
 #, python-brace-format
 msgid "You're currently not hunting or in the queue of **{respawn.name}**."
-msgstr ""
+msgstr "Actualmente no estás cazando ni en la cola de **{respawn.name}**."
 
 #: cogs/respawn.py:416
 #, python-brace-format
 msgid "You have left **{respawn.name}** (`{respawn.code}`)."
-msgstr ""
+msgstr "Has abandonado **{respawn.name}** (`{respawn.code}`)."
 
 #: cogs/respawn.py:418
 #, python-brace-format
 msgid "You have left the queue for **{respawn.name}** (`{respawn.code}`)."
-msgstr ""
+msgstr "Has abandonado la cola de **{respawn.name}** (`{respawn.code}`)."
 
 #: cogs/respawn.py:425
 msgid "Shows the complete list of respawns."
-msgstr ""
+msgstr "Muestra la lista completa de respawns."
 
 #: cogs/respawn.py:438
 msgid "Respawn List"
-msgstr ""
+msgstr "Lista de respawns"
 
 #: cogs/respawn.py:447
 msgid "Joins the queue of a respawn.\n\n"
 "        You will be notified when it is your turn for the spawn via direct message.\n"
 "        It is important to ensure you can receive private messages using the `checkdm` command.\n\n"
 "        To instead, claim a respawn that is not taken, use `respawn claim`."
-msgstr ""
+msgstr "Se une a la cola de un respawn.\n\n"
+"        Serás notificado cuando sea tu turno para el spawn a través de un mensaje directo.\n"
+"        Es importante asegurarse de que puede recibir mensajes privados usando el comando `checkdm`.\n\n"
+"        Para tomar un respawn que no esta ocupado, usa `respawn claim`."
 
 #: cogs/respawn.py:455
 #, python-brace-format
 msgid "The respawn **{respawn.name}** is currently available. Try using `{prefix}respawn claim` instead."
-msgstr ""
+msgstr "El respawn **{respawn.name}** está disponible actualmente. Intenta usar `{prefix} respawn claim`."
 
 #: cogs/respawn.py:459
 #, python-brace-format
 msgid "You're already hunting in **{respawn.name}**."
-msgstr ""
+msgstr "Ya estás cazando en **{respawn.name}**."
 
 #: cogs/respawn.py:461
 #, python-brace-format
 msgid "You're already in the queue for **{respawn.name}**."
-msgstr ""
+msgstr "Ya estás en la cola de **{respawn.name}**."
 
 #: cogs/respawn.py:462
 #, python-brace-format
 msgid "Do you want to join the queue for **{respawn.name}** (`{respawn.code}`)?"
-msgstr ""
+msgstr "¿Quieres unirte a la cola de **{respawn.name}** (`{respawn.code}`)?"
 
 #: cogs/respawn.py:464
 #, python-format
 msgid "There is %d person in the queue"
 msgid_plural "There are %d persons in the queue."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Hay %d persona en la cola"
+msgstr[1] "Hay %d personas en la cola."
 
 #: cogs/respawn.py:471
 #, python-brace-format
 msgid "You have joined the queue for **{respawn.name}** (`{respawn.code}`).\n"
 "Make sure you can receive DMs by using `{prefix}checkdm`"
-msgstr ""
+msgstr "Te has unido a la cola de **{respawn.name}** (`{respawn.code}`).\n"
+"Asegúrate de poder recibir DMs usando `{prefix}checkdm`"
 
 #: cogs/respawn.py:478
 msgid "Shows a user's current hunt or queues.\n\n"
 "        If no parameter is provided, it will show your own information.\n"
 "        A username, user id, mention or user#discriminator can be provided as parameter."
-msgstr ""
+msgstr "Muestra donde esta cazando un usuario actualmente o en donde esta esperando.\n\n"
+"        Si no se proporciona ningún parámetro, mostrará tu propia información.\n"
+"        Un nombre de usuario, id de usuario, mención o usuario#discriminador puede ser proporcionado como parámetro."
 
 #: cogs/respawn.py:494
 #, python-brace-format
