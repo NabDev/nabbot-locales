@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 19:15-0700\n"
-"PO-Revision-Date: 2021-04-16 17:13\n"
+"PO-Revision-Date: 2021-04-16 18:12\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2335,13 +2335,15 @@ msgstr "Detectando espacios de objetos"
 
 #: cogs/loot.py:385
 msgid "I couldn't find any inventory slots in your image. Make sure your image is not stretched out or that overscaling is off."
-msgstr ""
+msgstr "No he podido encontrar ninguna espacio de inventario en tu imagen. Asegúrate de que tu imagen no esté estirada o que no tengas ajustes de escala."
 
 #: cogs/loot.py:388
 msgid "{slots:,} slots found.\n"
 "{loading} Identifying items…\n"
 "Estimated time: {estimated:.2f} seconds."
-msgstr ""
+msgstr "{slots:,} espacios encontrados.\n"
+"{loading} Identificando artículos…\n"
+"Tiempo estimado: {estimated:.2f} segundos."
 
 #: cogs/mod.py:100
 msgid "Cleans the channel from bot commands.\n\n"
@@ -2574,7 +2576,9 @@ msgstr "No tienes días premium para asignar y no eres un Patreon."
 msgid "You must tell me the id of the server you want to give premium to.\n"
 "You can use `{prefix}serverinfo` on the server to get the ID.\n"
 "Alternatively, you can use the command in the desired server with no parameters."
-msgstr ""
+msgstr "Debes decirme el id del servidor al que quieres otorgar premium.\n"
+"Puedes usar `{prefix}serverinfo` en el servidor para obtener el ID.\n"
+"Alternativamente, puede utilizar el comando en el servidor deseado sin parámetros."
 
 #: cogs/premium.py:382
 msgid "I'm not in any guild with that id."
@@ -3171,11 +3175,11 @@ msgstr "Muestra donde esta cazando un usuario actualmente o en donde esta espera
 #: cogs/respawn.py:494
 #, python-brace-format
 msgid "{user} is currently not hunting or in any queues."
-msgstr ""
+msgstr "{user} no está actualmente cazando o en ninguna cola."
 
 #: cogs/respawn.py:501 cogs/respawn.py:513
 msgid "Unknown Respawn"
-msgstr ""
+msgstr "Respawn desconocido"
 
 #: cogs/respawn.py:509
 msgid "Currently hunting in"
@@ -3189,45 +3193,48 @@ msgstr "En espera de"
 #: cogs/respawn.py:525
 msgid "Setups the default duration for new hunts in this server.\n\n"
 "        This does not affect the duration of existing hunts."
-msgstr ""
+msgstr "Configura la duración predeterminada para nuevas cacerías en este servidor.\n\n"
+"        Esto no afecta a la duración de las cacerías existentes."
 
 #: cogs/respawn.py:531
 #, python-format
 msgid "The default duration cannot be more than %d hours."
-msgstr ""
+msgstr "La duración predeterminada no puede ser superior a %d horas."
 
 #: cogs/respawn.py:535
 #, python-brace-format
 msgid "Do you want to set the default duration for hunts for this server to **{new_duration}**?"
-msgstr ""
+msgstr "¿Quieres establecer la duración predeterminada para las cacerías de este servidor a **{new_duration}**?"
 
 #: cogs/respawn.py:544
 msgid "The hunt default duration has been updated."
-msgstr ""
+msgstr "Se ha actualizado la duración predeterminada de la cacería."
 
 #: cogs/respawn.py:550
 msgid "Sets the maximum number of people in a respawn's queue.\n\n"
 "        Note that changing this won't affect existing queues."
-msgstr ""
+msgstr "Establece el número máximo de personas en la cola de respawn.\n\n"
+"        Ten en cuenta que cambiar esto no afectará a las colas existentes."
 
 #: cogs/respawn.py:556 cogs/respawn.py:558
 #, python-format
 msgid "The limit cannot be lower than %d."
-msgstr ""
+msgstr "El límite no puede ser menor que %d."
 
 #: cogs/respawn.py:560
 #, python-format
 msgid "Do you want to set respawn queue limit for this server to **%d**?"
-msgstr ""
+msgstr "¿Quieres establecer el límite de cola de respawn para este servidor a **%d**?"
 
 #: cogs/respawn.py:565
 msgid "The queue limit has been updated."
-msgstr ""
+msgstr "El límite de cola ha sido actualizado."
 
 #: cogs/respawn.py:571
 msgid "Setups the respawn system for this server.\n\n"
 "        This will create a channel where the currently occupied respawns will be placed."
-msgstr ""
+msgstr "Configura el sistema de respawn para este servidor.\n\n"
+"        Esto creará un canal donde se colocarán los respawn ocupados actualmente."
 
 #: cogs/respawn.py:575
 #, python-brace-format
@@ -3236,11 +3243,11 @@ msgstr ""
 
 #: cogs/respawn.py:579
 msgid "This server's respawn system is already setup."
-msgstr ""
+msgstr "El sistema de respawn del servidor ya está configurado."
 
 #: cogs/respawn.py:582
 msgid "I need `Manage Channels` permission in order to setup the respawn system."
-msgstr ""
+msgstr "Necesito permiso `Gestionar canales` para configurar el sistema de respawn."
 
 #: cogs/respawn.py:593 cogs/tracking.py:1619
 msgid "Sorry, I don't have permissions to create channels."
@@ -3257,7 +3264,12 @@ msgid "This is where I will post a list of spawns **currently taken**.The attach
 "If this channel is deleted, you will have to setup respawns again.\n"
 "**It is important to not allow anyone to write in here**\n"
 "*This message can be deleted now.*"
-msgstr ""
+msgstr "Aquí es donde publicaré una lista de spawns **actualmente ocupados**. La imagen adjunta muestra la lista de respawns **completa** con sus códigos.\n"
+"Edita los permisos de este canal para permitir los roles que quieras.\n"
+"Este canal puede ser renombrado libremente.\n"
+"Si este canal es eliminado, tendrás que configurar los respawns de nuevo.\n"
+"**Es importante no permitir que nadie escriba aquí**\n"
+"*Este mensaje puede ser eliminado ahora.*"
 
 #: cogs/respawn.py:605
 msgid "Chanel created successfully"
@@ -3286,7 +3298,8 @@ msgstr "Roles automáticos"
 #: cogs/roles.py:147
 msgid "Autorole commands.\n\n"
 "        All the subcommands require having `Manage Roles` permission."
-msgstr ""
+msgstr "Comandos de roles automáticos.\n\n"
+"        Todos los subcomandos requieren tener permiso de `Gestionar roles`."
 
 #: cogs/roles.py:157
 msgid "Creates a new autorole rule.\n\n"
@@ -3774,20 +3787,20 @@ msgstr ""
 
 #: cogs/tibia.py:307
 msgid "That item does not exist or it has never been in an auction."
-msgstr ""
+msgstr "Ese ítem no existe o nunca ha estado en una subasta."
 
 #: cogs/tibia.py:337
 msgid "There are no active auctions with that item."
-msgstr ""
+msgstr "No hay subastas activas con este ítem."
 
 #: cogs/tibia.py:341
 #, python-brace-format
 msgid "Auctions with {item}"
-msgstr ""
+msgstr "Subastas con {item}"
 
 #: cogs/tibia.py:352
 msgid "Shows a summary of auctions."
-msgstr ""
+msgstr "Muestra un resumen de las subastas."
 
 #: cogs/tibia.py:355
 msgid "Auction Statistics"
@@ -3808,7 +3821,8 @@ msgstr "Por estado"
 #: cogs/tibia.py:363
 msgid "The total worth of all characters successfully traded is **{total_tc:,.0f}** {TC}.\n"
 "The total of all fees and commissions paid is **{total_fees:,.0f}** {TC}"
-msgstr ""
+msgstr "El valor total de todos los personajes intercambiados con éxito es **{total_tc:,.0f}** {TC}.\n"
+"El total de todas las cuotas y comisiones pagadas es **{total_fees:,.0f}** {TC}"
 
 #: cogs/tibia.py:366
 msgid "Most Expensive"
@@ -3819,11 +3833,14 @@ msgid "Shows a world's bosses predictions.\n\n"
 "        Shows the chances of boss respawning, the last time a boss was seen, or the expected time to see the boss.\n"
 "        Data is provided by TibiaBosses.com.\n"
 "        "
-msgstr ""
+msgstr "Muestra las predicciones de bosses de un mundo.\n\n"
+"        Muestra las posibilidades de que un boss este presente, la última vez que un boss fue visto, o el tiempo esperado para ver al boss.\n"
+"        Los datos son proporcionados por TibiaBosses.com.\n"
+"        "
 
 #: cogs/tibia.py:383
 msgid "You must specify the world you want predictions for."
-msgstr ""
+msgstr "Debes especificar el mundo para el que quieres predicciones."
 
 #: cogs/tibia.py:386
 msgid "There is no world with that name."
@@ -3831,55 +3848,57 @@ msgstr "No hay ningún mundo con ese nombre."
 
 #: cogs/tibia.py:390
 msgid "Could not fetch boss predictions."
-msgstr ""
+msgstr "No se han podido obtener las predicciones."
 
 #: cogs/tibia.py:394
 msgid "For premium predictions, check out [TibiaBosses.com](https://www.tibiabosses.com/premium/)"
-msgstr ""
+msgstr "Para predicciones premium, revisa [TibiaBosses.com](https://www.tibiabosses.com/premium/)"
 
 #: cogs/tibia.py:396
 #, python-brace-format
 msgid "Boss predictions for {world}"
-msgstr ""
+msgstr "Predicciones de bosses para {world}"
 
 #: cogs/tibia.py:408
 msgid "Gets the boosted creature of the day."
-msgstr ""
+msgstr "Muestra la criatura del día."
 
 #: cogs/tibia.py:411
 msgid "Today's boosted creature"
-msgstr ""
+msgstr "Criatura del día"
 
 #: cogs/tibia.py:413
 #, python-brace-format
 msgid "The boosted creature of the day is **{name}**.\n"
 "They will yield double experience, double loot and will respawn twice as fast!\n\n"
 "*Try `{prefix}monster {name}` to see more info!*"
-msgstr ""
+msgstr "La criatura del día es **{name}**.\n"
+"¡Darán doble experiencia, doble loot y reaparecerán dos veces más rápido!\n\n"
+"*Usa `{prefix}monster {name}` para ver más información!*"
 
 #: cogs/tibia.py:425
 msgid "Gets the most recent boosted creature entries."
-msgstr ""
+msgstr "Obtiene las últimas entradas de criaturas del día."
 
 #: cogs/tibia.py:428
 msgid "There are no saved boosted creature entries."
-msgstr ""
+msgstr "No hay entradas de criatura del día guardadas."
 
 #: cogs/tibia.py:430
 msgid "Recent Boosted Creatures"
-msgstr ""
+msgstr "Criaturas del día recientes"
 
 #: cogs/tibia.py:439
 msgid "Shows the events of the current month, according to Tibia.com"
-msgstr ""
+msgstr "Muestra los eventos del mes actual, de acuerdo a Tibia.com"
 
 #: cogs/tibia.py:443
 msgid "Events for {date:%B %Y}"
-msgstr ""
+msgstr "Eventos para {date:%B %Y}"
 
 #: cogs/tibia.py:444
 msgid "All events start and end at the server save of the day specified."
-msgstr ""
+msgstr "Todos los eventos comienzan y terminan en server save del día especificado."
 
 #: cogs/tibia.py:449
 msgid "Until {event.end_date:%b %d}"
@@ -4120,7 +4139,7 @@ msgstr "Muestra la lista de guilds de un mundo."
 
 #: cogs/tibia.py:813
 msgid "There are no guilds in this world."
-msgstr ""
+msgstr "No hay guilds en este mundo."
 
 #. For guilds that are still not fully consolidated, e.g. doesn't have 4 vices yet
 #: cogs/tibia.py:818
@@ -4139,31 +4158,37 @@ msgid "Shows the highscores for a given world and category.\n\n"
 "        Available categories are: experience, magic, sword, club, axe, shielding, fishing, fist, distance, goshnar,\n"
 "        charms and loyalty.\n"
 "        Available vocations are: all, none, paladin, druid, sorcerer, knight."
-msgstr ""
+msgstr "Muestra los highscores de un mundo y categoría determinados.\n\n"
+"        Si el servidor esta rastreando un mundo, el mundo rastreado será usado si no se especifica ningún mundo.\n\n"
+"        Para ver los highscores de todos los mundos, usa \"global\" o \"all\" como parámetro de mundo.\n\n"
+"        Categorías disponibles son: experience, magic, sword, club, axe, shielding, fishing, fist, distance, goshnar,\n"
+"        charms y loyalty.\n"
+"        Las vocaciones disponibles son: all, none, paladin, druid, sorcerer, knight."
 
 #: cogs/tibia.py:867
 #, python-brace-format
 msgid "Invalid category or world.\n"
 "Valid categories are: {0}"
-msgstr ""
+msgstr "Categoría o mundo no válido.\n"
+"Categorías válidas son: {0}"
 
 #: cogs/tibia.py:872
 #, python-brace-format
 msgid "Invalid vocation, valid vocations are: {0}."
-msgstr ""
+msgstr "Vocación inválida, las vocaciones válidas son: {0}."
 
 #: cogs/tibia.py:880
 msgid "I couldn't find any highscores entries."
-msgstr ""
+msgstr "No pude encontrar ninguna entrada de highscores."
 
 #: cogs/tibia.py:900
 msgid "all worlds"
-msgstr ""
+msgstr "todos los mundos"
 
 #: cogs/tibia.py:901
 #, python-brace-format
 msgid "🏆 {category} highscores for {world}"
-msgstr ""
+msgstr "🏆 {category} highscores para {world}"
 
 #: cogs/tibia.py:913
 msgid "Shows the last scan times of the highscores for each world and category.\n\n"
