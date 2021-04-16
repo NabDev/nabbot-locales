@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 13:58-0700\n"
-"PO-Revision-Date: 2021-04-15 23:59\n"
+"PO-Revision-Date: 2021-04-16 01:13\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1510,7 +1510,7 @@ msgstr ""
 
 #: cogs/general.py:133
 msgid "I can't find that message, or it is in a channel you can't access."
-msgstr ""
+msgstr "No puedo encontrar ese mensaje, o está en un canal al que no puedes acceder."
 
 #: cogs/general.py:136
 msgid "I can't quote embed messages."
@@ -1518,7 +1518,7 @@ msgstr ""
 
 #: cogs/general.py:139
 msgid "I can't quote messages from NSFW channels in regular channels."
-msgstr ""
+msgstr "No puedo citar mensajes de canales NSFW en canales regulares."
 
 #: cogs/general.py:141
 msgid "Jump to original"
@@ -1550,11 +1550,11 @@ msgstr ""
 
 #: cogs/general.py:186
 msgid "You want me to roll the die zero times? Ok… There, done."
-msgstr ""
+msgstr "¿Quieres que tire el dado cero veces? Ok… Listo."
 
 #: cogs/general.py:189
 msgid "It's impossible to roll negative times!"
-msgstr ""
+msgstr "¡Es imposible rodar el dado veces negativas!"
 
 #: cogs/general.py:192
 msgid "There's no dice with zero or less sides!"
@@ -1563,19 +1563,19 @@ msgstr "¡No hay dados con cero o menos lados!"
 #: cogs/general.py:195
 #, python-brace-format
 msgid "I can't roll the die that many times. Only up to {limit}."
-msgstr ""
+msgstr "No puedo rodar el dado tantas veces. Solo hay un máximo de {limit}."
 
 #: cogs/general.py:198
 #, python-brace-format
 msgid "I don't have dice with more than {limit} sides."
-msgstr ""
+msgstr "No tengo dados con más de {limit} lados."
 
 #: cogs/general.py:202
 #, python-brace-format
 msgid "{user} rolled a **{sides}**-sided die **{times}** time and got:"
 msgid_plural "{user} rolled a **{sides}**-sided die **{times}** times and got:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{user} lanzó un dado de **{sides}** lados **{times}** vez y consiguió:"
+msgstr[1] "{user} lanzó un dado de **{sides}** lados **{times}** veces y consiguió:"
 
 #: cogs/general.py:209
 msgid "Who would have thought? 🙄"
@@ -2277,19 +2277,19 @@ msgstr ""
 
 #: cogs/loot.py:311
 msgid "Original Message"
-msgstr ""
+msgstr "Mensaje original"
 
 #: cogs/loot.py:315
 msgid "The results are too long to display, they have been attached as a text file."
-msgstr ""
+msgstr "Los resultados son demasiado largos para mostrarlos, se han adjuntado como un archivo de texto."
 
 #: cogs/loot.py:329
 msgid "total"
-msgstr ""
+msgstr "total"
 
 #: cogs/loot.py:330
 msgid "Grand Total"
-msgstr ""
+msgstr "Gran Total"
 
 #: cogs/loot.py:379
 msgid "Either that wasn't an image or I failed to load it, please try again."
@@ -2956,7 +2956,7 @@ msgstr ""
 #: cogs/respawn.py:348 cogs/tibia.py:1723 cogs/tibiawiki.py:421
 #: cogs/tibiawiki.py:449 cogs/tibiawiki.py:656
 msgid "Location"
-msgstr ""
+msgstr "Ubicación"
 
 #: cogs/respawn.py:358
 msgid "Removes a user from a respawn or a queue.\n\n"
@@ -3095,12 +3095,12 @@ msgstr ""
 
 #: cogs/respawn.py:509
 msgid "Currently hunting in"
-msgstr ""
+msgstr "Actualmente cazando en"
 
 #. Respawns which the user is waiting for
 #: cogs/respawn.py:518
 msgid "Currently waiting for"
-msgstr ""
+msgstr "En espera de"
 
 #: cogs/respawn.py:525
 msgid "Setups the default duration for new hunts in this server.\n\n"
@@ -3367,96 +3367,98 @@ msgstr ""
 
 #: cogs/roles.py:367
 msgid "I need `Manage Roles` permission to create a group."
-msgstr ""
+msgstr "Necesito el permiso de `Gestionar roles` para crear un grupo."
 
 #: cogs/roles.py:370
 msgid "Invalid group name."
-msgstr ""
+msgstr "Nombre de grupo inválido."
 
 #: cogs/roles.py:375
 #, python-brace-format
 msgid "Group {name} already exists."
-msgstr ""
+msgstr "El grupo {name} ya existe."
 
 #: cogs/roles.py:380
 msgid "You can't make a group from a role higher or equals than your highest role."
-msgstr ""
+msgstr "No puedes hacer un grupo a partir de un rol mayor o igual que tu rol más grande."
 
 #: cogs/roles.py:382
 msgid "I can't make a group from a role higher or equals than my highest role."
-msgstr ""
+msgstr "No puedo crear un grupo a partir de un rol mayor o igual que mi rol más alto."
 
 #: cogs/roles.py:385
 #, python-brace-format
 msgid "Group {name} created successfully."
-msgstr ""
+msgstr "Grupo {name} creado exitosamente."
 
 #: cogs/roles.py:391
 msgid "Shows a list of available groups."
-msgstr ""
+msgstr "Muestra una lista de grupos disponibles."
 
 #: cogs/roles.py:394
 msgid "This server has no joinable groups."
-msgstr ""
+msgstr "Este servidor no tiene grupos que se pueden unir."
 
 #: cogs/roles.py:403
 #, python-format
 msgid "`%d member`"
 msgid_plural "`%d members`"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "`%d miembro`"
+msgstr[1] "`%d miembros`"
 
 #: cogs/roles.py:409
 msgid "Joinable groups"
-msgstr ""
+msgstr "Grupos que se pueden unir"
 
 #: cogs/roles.py:420
 msgid "Removes a group.\n\n"
 "        Removes a group, making members unable to join.\n"
 "        When removing a group, you can optionally delete the role too."
-msgstr ""
+msgstr "Elimina un grupo.\n\n"
+"        Elimina un grupo, haciendo que los miembros no puedan unirse.\n"
+"        Al eliminar un grupo, puedes eliminar el rol también opcionalmente."
 
 #: cogs/roles.py:428
 #, python-brace-format
 msgid "{role} is not a group."
-msgstr ""
+msgstr "{role} no es un grupo."
 
 #: cogs/roles.py:433
 msgid "You can't delete a group of a role higher than your highest role."
-msgstr ""
+msgstr "No puedes eliminar un grupo de un rol superior a tu rol más alto."
 
 #: cogs/roles.py:435
 msgid "I can't delete a group of a role higher than my highest role."
-msgstr ""
+msgstr "No puedo eliminar un grupo de un rol superior a mi rol más alto."
 
 #: cogs/roles.py:437
 #, python-brace-format
 msgid "Group {name} will be removed. Do you want to remove the role too?"
-msgstr ""
+msgstr "El grupo {name} será eliminado. ¿Quieres eliminar el rol también?"
 
 #: cogs/roles.py:442
 #, python-brace-format
 msgid "Group removed by {user}"
-msgstr ""
+msgstr "Grupo eliminado por {user}"
 
 #: cogs/roles.py:443
 #, python-brace-format
 msgid "Group {name} was removed and the role was deleted."
-msgstr ""
+msgstr "El grupo {name} fue eliminado y el rol fue eliminado."
 
 #: cogs/roles.py:445
 #, python-brace-format
 msgid "Group {name} removed."
-msgstr ""
+msgstr "Grupo {name} eliminado."
 
 #: cogs/roles.py:446
 msgid "I need `Manage Roles` permission to delete the Discord role."
-msgstr ""
+msgstr "Necesito permiso de `Gestionar roles` para borrar el rol de Discord."
 
 #: cogs/roles.py:448
 #, python-brace-format
 msgid "Group {name} was removed."
-msgstr ""
+msgstr "El grupo {name} fue eliminado."
 
 #: cogs/roles.py:456
 msgid "Shows a list of members with no roles."
@@ -3570,7 +3572,7 @@ msgstr ""
 #: cogs/roles.py:586
 #, python-brace-format
 msgid "Roles for @{user}"
-msgstr ""
+msgstr "Roles de @{user}"
 
 #: cogs/roles.py:589
 #, python-brace-format
@@ -3599,8 +3601,8 @@ msgstr ""
 #: cogs/stats.py:114
 msgid "{count:,} use"
 msgid_plural "{count:,} uses"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{count:,} uso"
+msgstr[1] "{count:,} usos"
 
 #: cogs/stats.py:59 cogs/stats.py:99
 msgid "Top commands"
