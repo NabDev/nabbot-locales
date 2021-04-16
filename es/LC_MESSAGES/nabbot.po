@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 13:58-0700\n"
-"PO-Revision-Date: 2021-04-16 01:13\n"
+"PO-Revision-Date: 2021-04-16 02:06\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3836,11 +3836,11 @@ msgstr ""
 
 #: cogs/tibia.py:487
 msgid "There are no CM posts in the last 30 days."
-msgstr ""
+msgstr "No hay posts de CMs en los ultimos 30 días."
 
 #: cogs/tibia.py:496
 msgid "Recent CM Posts"
-msgstr ""
+msgstr "Post recientes de CM"
 
 #: cogs/tibia.py:507
 msgid "Shows a character's recent deaths or the recent deaths of characters in the server.\n\n"
@@ -3965,12 +3965,12 @@ msgstr ""
 #: cogs/tibia.py:703 cogs/tibia.py:735
 #, python-brace-format
 msgid "The guild {0} doesn't exist."
-msgstr ""
+msgstr "El guild {0} no existe."
 
 #: cogs/tibia.py:708 cogs/tibia.py:739
 #, python-brace-format
 msgid "The guild was founded on {guild.founded}"
-msgstr ""
+msgstr "El guild fue fundado en {guild.founded}"
 
 #: cogs/tibia.py:711
 #, python-brace-format
@@ -4036,11 +4036,11 @@ msgstr "Muestra una lista de todos los miembros del guild.\n\n"
 #: cogs/tibia.py:782
 #, python-brace-format
 msgid "The guild {name} doesn't exist."
-msgstr ""
+msgstr "El guild {name} no existe."
 
 #: cogs/tibia.py:807
 msgid "Shows the list of guilds of a world."
-msgstr ""
+msgstr "Muestra la lista de guilds de un mundo."
 
 #: cogs/tibia.py:813
 msgid "There are no guilds in this world."
@@ -4119,7 +4119,7 @@ msgstr ""
 
 #: cogs/tibia.py:1012
 msgid "Latest level ups"
-msgstr ""
+msgstr "Últimos niveles"
 
 #: cogs/tibia.py:1039
 #, python-brace-format
@@ -4128,7 +4128,7 @@ msgstr ""
 
 #: cogs/tibia.py:1046
 msgid "There are no registered levels."
-msgstr ""
+msgstr "No hay niveles registrados."
 
 #: cogs/tibia.py:1063
 msgid "Shows a user's recent level ups on their registered characters."
@@ -4190,7 +4190,7 @@ msgstr ""
 
 #: cogs/tibia.py:1176 cogs/tibia.py:1618
 msgid "I couldn't find a character with that name."
-msgstr ""
+msgstr "No pude encontrar un personaje con ese nombre."
 
 #: cogs/tibia.py:1181
 #, python-brace-format
@@ -4204,12 +4204,12 @@ msgstr "Has introducido un nivel inválido."
 #: cogs/tibia.py:1197
 #, python-brace-format
 msgid "Characters online between level {0} and {1}"
-msgstr ""
+msgstr "Personajes en línea entre nivel {0} y {1}"
 
 #: cogs/tibia.py:1198
 #, python-brace-format
 msgid "I didn't find anyone between levels **{0}** and **{1}**"
-msgstr ""
+msgstr "No he encontrado nadie entre los niveles **{0}** y **{1}**"
 
 #: cogs/tibia.py:1205
 #, python-brace-format
@@ -4321,15 +4321,15 @@ msgstr ""
 
 #: cogs/tibia.py:1349
 msgid "Timeline"
-msgstr ""
+msgstr "Línea de tiempo"
 
 #: cogs/tibia.py:1400 cogs/tibia.py:1443
 msgid "There are no registered deaths or level ups."
-msgstr ""
+msgstr "No hay muertes registradas o subidas de nivel."
 
 #: cogs/tibia.py:1416
 msgid "Shows a user's recent level ups and deaths on their characters."
-msgstr ""
+msgstr "Muestra los niveles y muertes recientes de los personajes de un usuario."
 
 #: cogs/tibia.py:1428
 #, python-brace-format
@@ -4350,13 +4350,13 @@ msgstr ""
 #: cogs/tibia.py:1472 cogs/tibiawiki.py:440
 #, python-brace-format
 msgid "Rashid is in **{city}** today."
-msgstr ""
+msgstr "Rashid está en **{city}** hoy."
 
 #. The local time in a city/timezone.
 #: cogs/tibia.py:1484
 #, python-brace-format
 msgid "**{time}** in {name}\n"
-msgstr ""
+msgstr "**{time}** en {name}\n"
 
 #: cogs/tibia.py:1491
 msgid "Adds a new timezone to display.\n\n"
@@ -4541,11 +4541,11 @@ msgstr "Outfits"
 
 #: cogs/tibia.py:1957 cogs/tibia.py:1958
 msgid "Store"
-msgstr ""
+msgstr "Tienda"
 
 #: cogs/tibia.py:1958
 msgid "Mounts"
-msgstr ""
+msgstr "Mounts"
 
 #: cogs/tibia.py:1959
 msgid "Completed Bestiary"
@@ -4553,7 +4553,7 @@ msgstr ""
 
 #: cogs/tibia.py:1967
 msgid "Character Info"
-msgstr ""
+msgstr "Información del personaje"
 
 #: cogs/tibia.py:1970
 msgid "Sales Arguments"
@@ -4565,7 +4565,7 @@ msgstr ""
 
 #: cogs/tibia.py:2004
 msgid "Read more"
-msgstr ""
+msgstr "Leer más"
 
 #: cogs/tibia.py:2013
 #, python-brace-format
@@ -4678,37 +4678,37 @@ msgstr ""
 
 #: cogs/tibia.py:2148 cogs/tibiawiki.py:641
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: cogs/tibia.py:2148
 msgctxt "House type"
 msgid "House"
-msgstr ""
+msgstr "Casa"
 
 #: cogs/tibia.py:2148
 msgctxt "House type"
 msgid "Guildhall"
-msgstr ""
+msgstr "Guildhall"
 
 #: cogs/tibia.py:2149
 msgid "Bed Limit"
-msgstr ""
+msgstr "Límite de camas"
 
 #: cogs/tibia.py:2150
 msgid "Size"
-msgstr ""
+msgstr "Tamaño"
 
 #: cogs/tibia.py:2151
 msgid "City"
-msgstr ""
+msgstr "Ciudad"
 
 #: cogs/tibia.py:2152
 msgid "Rent"
-msgstr ""
+msgstr "Renta"
 
 #: cogs/tibia.py:2154
 msgid "Information"
-msgstr ""
+msgstr "Información"
 
 #: cogs/tibia.py:2161
 msgid "TibiaWiki article"
@@ -4716,19 +4716,19 @@ msgstr "Artículo de TibiaWiki"
 
 #: cogs/tibia.py:2175
 msgid "Paid Until"
-msgstr ""
+msgstr "Pagado hasta"
 
 #: cogs/tibia.py:2179
 msgid "Moving out on"
-msgstr ""
+msgstr "Se mudara el"
 
 #: cogs/tibia.py:2183
 msgid "Transferring to"
-msgstr ""
+msgstr "Se transferirá a"
 
 #: cogs/tibia.py:2184
 msgid "Transfer Price"
-msgstr ""
+msgstr "Precio de transferencia"
 
 #: cogs/tibia.py:2185
 msgid "Accepted"
@@ -4949,60 +4949,62 @@ msgstr ""
 #. Title for the link to the TibiaWiki mapper
 #: cogs/tibiawiki.py:420 cogs/tibiawiki.py:448
 msgid "Mapper Link"
-msgstr ""
+msgstr "Enlace de Mapper"
 
 #: cogs/tibiawiki.py:432
 msgid "Shows where Rashid is today.\n\n"
 "        For more information, use `npc Rashid`."
-msgstr ""
+msgstr "Muestra dónde está Rashid hoy.\n\n"
+"        Para más información, utiliza `npc Rashid`."
 
 #: cogs/tibiawiki.py:459
 msgid "Displays information about a spell.\n\n"
 "        Shows the spell's attributes, NPCs that teach it and more."
-msgstr ""
+msgstr "Muestra información sobre un hechizo.\n\n"
+"        Muestra los atributos del hechizo, los NPC que lo enseñan y más."
 
 #: cogs/tibiawiki.py:468
 msgid "I couldn't find a spell with that name or words."
-msgstr ""
+msgstr "No pude encontrar un hechizo con ese nombre o palabras."
 
 #: cogs/tibiawiki.py:514
 msgid "Shows information about the TibiaWiki database."
-msgstr ""
+msgstr "Muestra información sobre la base de datos de TibiaWiki."
 
 #: cogs/tibiawiki.py:515
 msgid "TibiaWiki database statistics"
-msgstr ""
+msgstr "Estadísticas de base de datos TibiaWiki"
 
 #: cogs/tibiawiki.py:544
 msgid "Database generation date"
-msgstr ""
+msgstr "Fecha de generación de bases de datos"
 
 #: cogs/tibiawiki.py:583
 #, python-brace-format
 msgid "Implemented in version {version}."
-msgstr ""
+msgstr "Implementado en la versión {version}."
 
 #: cogs/tibiawiki.py:631
 #, python-brace-format
 msgid "Use '{prefix}{command} <name>' to see more information."
-msgstr ""
+msgstr "Usa '{prefix}{command} <name>' para ver más información."
 
 #: cogs/tibiawiki.py:640
 msgid "Charm Points"
-msgstr ""
+msgstr "Charm Points"
 
 #: cogs/tibiawiki.py:642 cogs/tibiawiki.py:698 cogs/tibiawiki.py:729
 msgid "Cost"
-msgstr ""
+msgstr "Costo"
 
 #: cogs/tibiawiki.py:644
 msgid "Effect"
-msgstr ""
+msgstr "Efecto"
 
 #: cogs/tibiawiki.py:654
 #, python-brace-format
 msgid "**Also known as:** {name}"
-msgstr ""
+msgstr "**También conocido como:** {name}"
 
 #: cogs/tibiawiki.py:658
 msgid "Origin"
@@ -5102,7 +5104,7 @@ msgstr "su barco"
 #. Title of the list of NPCs that buy/sell (action) the item.
 #: cogs/tibiawiki.py:963
 msgid "{action} {value:,} {currency} by"
-msgstr ""
+msgstr "{action} {value:,} {currency} por"
 
 #: cogs/tibiawiki.py:981
 msgid "Abilities"
@@ -5483,12 +5485,12 @@ msgstr ""
 #: cogs/timers.py:757
 #, python-format
 msgid "The event's name can't be longer than %d characters."
-msgstr ""
+msgstr "El nombre del evento no puede tener más de %d caracteres."
 
 #: cogs/timers.py:768
 #, python-format
 msgid "You can only have %d active events simultaneously.Delete or edit an active event."
-msgstr ""
+msgstr "Sólo puedes tener %d eventos activos simultáneamente. Elimina o edita un evento activo."
 
 #: cogs/timers.py:780
 msgid "Alright, no event for you."
@@ -5673,7 +5675,7 @@ msgstr "¡No puedes tener ranuras negativas!"
 
 #: cogs/timers.py:1031
 msgid "That's not a number…"
-msgstr ""
+msgstr "Eso no es un número…"
 
 #: cogs/timers.py:1033
 #, python-brace-format
