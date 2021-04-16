@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 19:15-0700\n"
-"PO-Revision-Date: 2021-04-16 02:18\n"
+"PO-Revision-Date: 2021-04-16 04:15\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1338,7 +1338,7 @@ msgstr "No tienes acceso a las características premium. Para obtener beneficios
 #: cogs/core.py:333
 #, python-brace-format
 msgid "Try `{help_command}` for more information."
-msgstr ""
+msgstr "Prueba `{help_command}` para más información."
 
 #: cogs/core.py:336
 msgid "The correct syntax is:"
@@ -1377,22 +1377,22 @@ msgstr "Por favor reporte este error en el servidor de soporte."
 #: cogs/core.py:384
 #, python-brace-format
 msgid "My command prefix is: `{0}` (it is customizable)"
-msgstr ""
+msgstr "Mi prefijo de comandos es: `{0}` (es personalizable)"
 
 #: cogs/core.py:385 cogs/core.py:386 cogs/core.py:388
 #, python-brace-format
 msgid "You can configure me using: `{0}settings`"
-msgstr ""
+msgstr "Puedes configurarme usando: `{0}settings`"
 
 #: cogs/core.py:387
 #, python-brace-format
 msgid "You can see all my commands with: `{0}help` or `{0}commands`"
-msgstr ""
+msgstr "Puedes ver todos mis comandos con: `{0}help` o `{0}commands`"
 
 #: cogs/core.py:389
 #, python-brace-format
 msgid "Set the channel for level ups and deaths using: `{0}settings`"
-msgstr ""
+msgstr "Configura el canal para niveles y muertes usando: `{0}settings`"
 
 #: cogs/core.py:390
 #, python-brace-format
@@ -1407,7 +1407,7 @@ msgstr ""
 #: cogs/core.py:392
 #, python-brace-format
 msgid "If you need help, join my support server: **<{0}>**"
-msgstr ""
+msgstr "Si necesitas ayuda, únete a mi servidor de soporte: **<{0}>**"
 
 #: cogs/core.py:393
 #, python-brace-format
@@ -1416,16 +1416,16 @@ msgstr ""
 
 #: cogs/core.py:395
 msgid "getting started guide"
-msgstr ""
+msgstr "guía de inicio"
 
 #: cogs/core.py:396
 #, python-brace-format
 msgid "Hi, I've been added to this server. Check out our {guide}"
-msgstr ""
+msgstr "Hola, he sido añadido a este servidor. Echa un vistazo a nuestra {guide}"
 
 #: cogs/core.py:399
 msgid "Some things you should know:"
-msgstr ""
+msgstr "Algunas cosas que deberías saber:"
 
 #: cogs/core.py:404
 msgid "NabBot has joined the server"
@@ -1501,7 +1501,9 @@ msgstr "Muy bien, {user}, elijo: \"{choice}\""
 msgid "Shows a member's permissions in the current channel.\n\n"
 "            If no member is provided, it will show your permissions.\n"
 "            Optionally, a channel can be provided as the second parameter, to check permissions in said channel."
-msgstr ""
+msgstr "Muestra los permisos de un miembro en el canal actual.\n\n"
+"            Si no se proporciona ningún miembro, mostrará tus permisos.\n"
+"            Opcionalmente, un canal puede ser proporcionado como segundo parámetro, para mostrar los permisos en dicho canal."
 
 #: cogs/general.py:88
 #, python-brace-format
@@ -1930,7 +1932,7 @@ msgstr "Miembro desde"
 
 #: cogs/info.py:375
 msgid "Server Owner"
-msgstr ""
+msgstr "Dueño del servidor"
 
 #: cogs/info.py:377
 msgid "Server Admin"
@@ -2139,7 +2141,7 @@ msgstr "Emoji renombrado"
 
 #: cogs/logging.py:354
 msgid "Server updated"
-msgstr ""
+msgstr "Servidor actualizado"
 
 #: cogs/logging.py:359
 #, python-brace-format
@@ -2274,7 +2276,8 @@ msgstr "Estos son los resultados:"
 #, python-brace-format
 msgid "\n"
 "**There were {unknown} unknown items.**\n"
-msgstr ""
+msgstr "\n"
+"**Hubo {unknown} elementos desconocidos.**\n"
 
 #: cogs/loot.py:293
 msgid "\n"
@@ -2304,11 +2307,11 @@ msgstr "Gran Total"
 
 #: cogs/loot.py:379
 msgid "Either that wasn't an image or I failed to load it, please try again."
-msgstr ""
+msgstr "O no era una imagen o no he podido cargarla, por favor inténtalo de nuevo."
 
 #: cogs/loot.py:381
 msgid "Detecting item slots"
-msgstr ""
+msgstr "Detectando espacios de objetos"
 
 #: cogs/loot.py:385
 msgid "I couldn't find any inventory slots in your image. Make sure your image is not stretched out or that overscaling is off."
@@ -2323,19 +2326,20 @@ msgstr ""
 #: cogs/mod.py:100
 msgid "Cleans the channel from bot commands.\n\n"
 "            If the bot has `Manage Messages` permission, it will also delete command invocation messages."
-msgstr ""
+msgstr "Limpia el canal de los comandos del bot.\n\n"
+"            Si el bot tiene permiso `Gestionar mensajes`, también eliminará los mensajes de invocación de comandos."
 
 #: cogs/mod.py:115
 msgid "Something went wrong when deleting messages."
-msgstr ""
+msgstr "Algo salió mal al eliminar los mensajes."
 
 #: cogs/mod.py:124
 msgid "There are no messages to clean."
-msgstr ""
+msgstr "No hay mensajes por limpiar."
 
 #: cogs/mod.py:126
 msgid "Deleted {count:,} messages."
-msgstr ""
+msgstr "Eliminados {count:,} mensajes."
 
 #: cogs/mod.py:132
 msgid "Makes the bot ignore a channel or user.\n\n"
@@ -2343,39 +2347,43 @@ msgid "Makes the bot ignore a channel or user.\n\n"
 "        The command accepts a list of names, ids or mentions of users or channels.\n"
 "        If the command is used with no parameters, it ignores the current channel.\n\n"
 "        Ignores are bypassed by users with the `Manage Server` permission."
-msgstr ""
+msgstr "Hace que el bot ignore un canal o usuario.\n\n"
+"        Los comandos no pueden ser usados en canales ignorados o por usuarios ignorados.\n\n"
+"        El comando acepta una lista de nombres, Ids o menciones de usuarios o canales.\n"
+"        si el comando se utiliza sin parámetros, ignora el canal actual.\n\n"
+"        Los Ignores son omitidos por los usuarios con el permiso `Gestionar servidor`."
 
 #: cogs/mod.py:149
 #, python-brace-format
 msgid "I'm now ignoring **{name}**"
-msgstr ""
+msgstr "Estoy ignorando a **{name}**"
 
 #: cogs/mod.py:150
 #, python-brace-format
 msgid "{name} is already ignored."
-msgstr ""
+msgstr "{name} ya está ignorado."
 
 #: cogs/mod.py:155
 #, python-brace-format
 msgid "{count} entries are now ignored. The rest was already ignored."
-msgstr ""
+msgstr "Se han ignorado {count} entradas. El resto ya estaban ignoradas."
 
 #: cogs/mod.py:157
 #, python-brace-format
 msgid "All {count} entries are now ignored."
-msgstr ""
+msgstr "Todas las {count} entradas ahora son ignoradas."
 
 #: cogs/mod.py:159
 msgid "No entries were ignored. They were all already ignored."
-msgstr ""
+msgstr "No se ha ignorado ninguna entrada. Todos ya estaban ignoradas."
 
 #: cogs/mod.py:165
 msgid "Shows a list of ignored channels and users."
-msgstr ""
+msgstr "Muestra una lista de canales y usuarios ignorados."
 
 #: cogs/mod.py:171
 msgid "There are no ignored entries in this server."
-msgstr ""
+msgstr "No hay entradas ignoradas en este servidor."
 
 #: cogs/mod.py:175
 msgid "Ignored entries"
@@ -2481,7 +2489,7 @@ msgstr ""
 #. Announce on the server's server log (if present)
 #: cogs/premium.py:253 cogs/premium.py:269 cogs/premium.py:288
 msgid "Premium Removed"
-msgstr ""
+msgstr "Premium eliminado"
 
 #: cogs/premium.py:254
 msgid "The member giving premium has left this server.\n"
@@ -2800,13 +2808,14 @@ msgstr ""
 #: cogs/premium.py:793
 #, python-brace-format
 msgid "**{server}** is now a premium server."
-msgstr ""
+msgstr "**{server}** es ahora un servidor premium."
 
 #: cogs/premium.py:804
 #, python-brace-format
 msgid "Are you sure you want to give {days} premium days to **{guild}**?\n"
 "*These premium days can't be removed.*"
-msgstr ""
+msgstr "¿Estás seguro de que quieres dar {days} días premium a **{guild}**?\n"
+"*Estos días premium no se pueden eliminar.*"
 
 #: cogs/premium.py:813
 msgid "You cannot assign premium to a server that a Patron is giving premium to."
@@ -2815,12 +2824,12 @@ msgstr ""
 #: cogs/premium.py:822
 #, python-brace-format
 msgid "**{server}** has received {days} premium days."
-msgstr ""
+msgstr "**{server}** ha recibido {days} días premium."
 
 #: cogs/premium.py:842
 #, python-brace-format
 msgid "Transaction No. {id}"
-msgstr ""
+msgstr "Transacción No. {id}"
 
 #: cogs/premium.py:844
 msgid "Submitted on"
@@ -2858,12 +2867,12 @@ msgstr ""
 #: cogs/respawn.py:202
 #, python-brace-format
 msgid "Your time at **{respawn}** (Server: {server}) has ended."
-msgstr ""
+msgstr "Tu tiempo en **{respawn}** (Servidor: {server}) ha terminado."
 
 #: cogs/respawn.py:217
 #, python-brace-format
 msgid "It's your turn to take **{respawn.name}** (`{respawn.code}`). Do you want to take it?"
-msgstr ""
+msgstr "Es tu turno de tomar **{respawn.name}** (`{respawn.code}`). ¿Quieres tomarlo?"
 
 #: cogs/respawn.py:227
 msgid "Alright, the respawn was not assigned to you."
@@ -2872,7 +2881,7 @@ msgstr ""
 #: cogs/respawn.py:231
 #, python-brace-format
 msgid "You are now hunting in **{respawn.name}** (`{respawn.code}`)."
-msgstr ""
+msgstr "Ahora estás cazando en **{respawn.name}** (`{respawn.code}`)."
 
 #: cogs/respawn.py:240
 msgid "Manages respawns.\n\n"
@@ -2904,7 +2913,7 @@ msgstr ""
 #: cogs/respawn.py:271
 #, python-brace-format
 msgid "Do you want to start hunting in **{respawn.name}**?"
-msgstr ""
+msgstr "¿Quieres empezar a cazar en **{respawn.name}**?"
 
 #: cogs/respawn.py:277
 #, python-brace-format
@@ -2919,7 +2928,7 @@ msgstr ""
 #: cogs/respawn.py:287
 #, python-brace-format
 msgid "Do you want to clear **{respawn.name}**?"
-msgstr ""
+msgstr "¿Quieres limpiar **{respawn.name}**?"
 
 #: cogs/respawn.py:292
 #, python-brace-format
