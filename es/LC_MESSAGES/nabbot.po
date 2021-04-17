@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-16 16:15-0700\n"
-"PO-Revision-Date: 2021-04-17 00:17\n"
+"PO-Revision-Date: 2021-04-17 01:14\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4085,7 +4085,10 @@ msgid "Shows online characters in a guild.\n\n"
 "        Show's the number of members the guild has and a list of their users.\n"
 "        It also shows whether the guild has a guildhall or not, and their funding date.\n"
 "        "
-msgstr ""
+msgstr "Muestra personajes en línea en un guild.\n\n"
+"        Muestra el número de miembros que tiene el guild y una lista de sus usuarios.\n"
+"        También muestra si el gremio tiene o no un guildhall y cuando fue fundado.\n"
+"        "
 
 #: cogs/tibia.py:703 cogs/tibia.py:735
 #, python-brace-format
@@ -4110,13 +4113,14 @@ msgstr "Nadie está en línea. Tiene **{guild.member_count:,}** miembros."
 #, python-brace-format
 msgid "It has **{online}** player online out of **{member_count}**:"
 msgid_plural "It has **{online}** players online out of **{member_count}**:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tiene **{online}** jugador en línea de **{member_count}**:"
+msgstr[1] "Tiene **{online}** jugadores en línea de **{member_count}**:"
 
 #: cogs/tibia.py:730
 msgid "Shows basic information and stats about a guild.\n\n"
 "        It shows their description, homepage, guildhall, number of members and more."
-msgstr ""
+msgstr "Muestra información básica y estadísticas sobre un guild.\n\n"
+"        Muestra su descripción, página de inicio, sala de guildhall, número de miembros y más."
 
 #. Guild application status
 #: cogs/tibia.py:749
@@ -4338,7 +4342,7 @@ msgstr ""
 #: cogs/tibia.py:1181
 #, python-brace-format
 msgid "Characters online in share range with {0}({1}-{2}):"
-msgstr ""
+msgstr "Personajes en linea en rango de compartir experiencia con {0}({1}-{2}):"
 
 #: cogs/tibia.py:1193 cogs/tibia.py:1202
 msgid "You entered an invalid level."
@@ -4357,22 +4361,22 @@ msgstr "No he encontrado nadie entre los niveles **{0}** y **{1}**"
 #: cogs/tibia.py:1205
 #, python-brace-format
 msgid "Characters online in share range with level {0} ({1}-{2})"
-msgstr ""
+msgstr "Personajes en linea en rango de compartir experiencia con nivel {0} ({1}-{2})"
 
 #: cogs/tibia.py:1206
 #, python-brace-format
 msgid "I didn't find anyone in share range with level **{0}** ({1}-{2})"
-msgstr ""
+msgstr "No encontre a nadie en rango de compartir experiencia con nivel **{0}** ({1}-{2})"
 
 #: cogs/tibia.py:1211
 msgid "You must tell me the world where you want to search."
-msgstr ""
+msgstr "Debes decirme el mundo en el que quieres buscar."
 
 #. This really shouldn't happen...
 #: cogs/tibia.py:1216
 #, python-brace-format
 msgid "There's no world named **{world}**."
-msgstr ""
+msgstr "No hay ningún mundo llamado **{world}**."
 
 #: cogs/tibia.py:1220
 #, python-brace-format
@@ -4382,7 +4386,7 @@ msgstr "No hay nadie en línea en {world}."
 #: cogs/tibia.py:1231
 #, python-brace-format
 msgid "**{0.name}** - Level {0.level} {1}"
-msgstr ""
+msgstr "**{0.name}** - Nivel {0.level} {1}"
 
 #: cogs/tibia.py:1246
 msgid "Shows the sharing range for that level or character or list of characters.\n\n"
@@ -4391,7 +4395,12 @@ msgid "Shows the sharing range for that level or character or list of characters
 "        2. Find the share range of a character. (`share <name>`)\n"
 "        3. Find the joint share range of a group of characters. (`share <name1, name2…>`)\n"
 "        "
-msgstr ""
+msgstr "Muestra el rango para compartir experiencia para un nivel, personaje o lista de personajes.\n\n"
+"        Este comando puede utilizarse de tres maneras:\n\n"
+"        1. Encuentra el rango de compartir experiencia de un nivel. (`share <level>`)\n"
+"        2. Encuentra el rango de compartir experiencia de un personaje. (`compartir <name>`)\n"
+"        3. Encuentra el rango de compartir experiencia conjunto de un grupo de personajes. (`share <name1, name2…>`)\n"
+"        "
 
 #: cogs/tibia.py:1261
 #, python-format
@@ -4423,11 +4432,11 @@ msgstr "No hay ningún personaje con ese nombre."
 
 #: cogs/tibia.py:1285
 msgid "**{name}** ({level:,}) can share experience with levels **{low:,}** to **{high:,}**."
-msgstr ""
+msgstr "**{name}** ({level:,}) puede compartir experiencia con niveles **{low:,}** a **{high:,}**."
 
 #: cogs/tibia.py:1290
 msgid "I'm not sure if sharing with yourself counts as sharing, but yes, you can share."
-msgstr ""
+msgstr "No estoy seguro si compartir contigo mismo cuenta como compartir, pero sí, puedes compartir."
 
 #: cogs/tibia.py:1296
 #, python-brace-format
@@ -4439,7 +4448,7 @@ msgstr "No hay ningún personaje llamado **{name}**."
 msgid "**{lowest_name}** ({lowest_level}) needs {diff} more level to share experience with **{highest_name}** ({highest_level}."
 msgid_plural "**{lowest_name}** ({lowest_level}) needs {diff} more level to share experience with **{highest_name}** ({highest_level}."
 msgstr[0] ""
-msgstr[1] ""
+msgstr[1] "**{lowest_name}** ({lowest_level}) necesita {diff} niveles más para compartir experiencia con **{highest_name}** ({highest_level}."
 
 #: cogs/tibia.py:1318
 msgid "They can all share experience with each other."
@@ -4451,7 +4460,7 @@ msgstr "**{lowest_name}** ({lowest_level:,}) y **{highest_name}** ({highest_leve
 
 #: cogs/tibia.py:1323
 msgid "Their share range is from level **{low:,}** to **{high:,}**."
-msgstr ""
+msgstr "Su rango para compartir experiencia es de nivel **{low:,}** a **{high:,}**."
 
 #: cogs/tibia.py:1331
 msgid "Shows a character's recent level ups and deaths.\n\n"
@@ -4460,7 +4469,12 @@ msgid "Shows a character's recent level ups and deaths.\n\n"
 "        - 🌟 Indicates level ups\n"
 "        - 💀 Indicates deaths\n"
 "        "
-msgstr ""
+msgstr "Muestra los niveles recientes y muertes de un personaje.\n\n"
+"        Si no se proporciona ningún personaje, se mostrará la línea de tiempo de todos los personajes registrados en el servidor.\n\n"
+"        Los personajes deben estar registrados para tener una línea de tiempo.\n\n"
+"        - 🌟 Indica subidas de nivel\n"
+"        - 💀 Indica muertes\n"
+"        "
 
 #: cogs/tibia.py:1349
 msgid "Timeline"
@@ -4488,7 +4502,8 @@ msgstr ""
 #, python-brace-format
 msgid "It's currently **{tibia_time}** in Tibia's website ({timezone_name}).\n"
 "Server save is in **{time_until}**."
-msgstr ""
+msgstr "Actualmente son las **{tibia_time}** en el sitio web de Tibia ({timezone_name}).\n"
+"El server save es en **{time_until}**."
 
 #: cogs/tibia.py:1472 cogs/tibiawiki.py:439
 #, python-brace-format
@@ -4506,22 +4521,26 @@ msgid "Adds a new timezone to display.\n\n"
 "        You can look by city, country or region.\n"
 "        Once the timezone is found, you can set the name you want to show on the `time` command.\n\n"
 "        Only Server Moderators can use this command."
-msgstr ""
+msgstr "Añade una nueva zona horaria para mostrar.\n\n"
+"        Puedes buscar por ciudad, país o región.\n"
+"        Una vez que se encuentre la zona horaria, puedes establecer el nombre que quieres mostrar en el comando `time`.\n\n"
+"        Sólo los moderadores de servidores pueden usar este comando."
 
 #: cogs/tibia.py:1503
 msgid "No timezones found matching that name."
-msgstr ""
+msgstr "No se encontraron zonas horarias que coincidan con ese nombre."
 
 #: cogs/tibia.py:1508
 #, python-brace-format
 msgid "The time in `{timezone}` is **{local_time}**.\n"
 "What display name do you want to assign? You can `cancel` if you changed your mind."
-msgstr ""
+msgstr "El tiempo en `{timezone}` es **{local_time}**.\n"
+"¿Qué nombre mostrar quieres asignar? Puedes 'cancelar' si cambiaste de opinión."
 
 #: cogs/tibia.py:1520 cogs/tibia.py:1588
 #, python-format
 msgid "The display name can't be longer than %d characters."
-msgstr ""
+msgstr "El nombre para mostrar no puede tener más de %d caracteres."
 
 #: cogs/tibia.py:1526
 msgid "That timezone already exists."
@@ -4535,41 +4554,46 @@ msgstr "Zona horaria `{name}` guardada correctamente como `{display_name}`."
 #: cogs/tibia.py:1535
 msgid "Shows a list of all the currently added timezones.\n\n"
 "        Only Server Moderators can use this command."
-msgstr ""
+msgstr "Muestra una lista de todas las zonas horarias actualmente añadidas.\n\n"
+"        Solo los moderadores del servidor pueden usar este comando."
 
 #: cogs/tibia.py:1540 cogs/tibia.py:1577
 msgid "This server doesn't have any timezones saved yet."
-msgstr ""
+msgstr "Este servidor no tiene ninguna zona horaria guardada todavía."
 
 #: cogs/tibia.py:1544
 msgid "Saved times"
-msgstr ""
+msgstr "Zonas guardadas"
 
 #: cogs/tibia.py:1553
 msgid "Removes a timezone from the list.\n\n"
 "        Only Server Moderators can use this command."
-msgstr ""
+msgstr "Elimina una zona horaria de la lista.\n\n"
+"        Sólo los moderadores del servidor pueden usar este comando."
 
 #: cogs/tibia.py:1560 cogs/tibia.py:1584
 msgid "There's no timezone saved with that name.\n"
 "Remember to use the timezone's real name, not the display name.\n"
-msgstr ""
+msgstr "No hay una zona horaria guardada con ese nombre.\n"
+"Recuerda usar el nombre real de la zona horaria, no el nombre para mostrar.\n"
 
 #: cogs/tibia.py:1565
 #, python-brace-format
 msgid "Timezone {name} ({display_name}) removed successfully."
-msgstr ""
+msgstr "Zona horaria {name} ({display_name}) eliminada con éxito."
 
 #: cogs/tibia.py:1572
 msgid "Renames a timezone\n"
 "        \n"
 "        Only Server Moderators can use this command."
-msgstr ""
+msgstr "Renombrar una zona horaria\n"
+"        \n"
+"        Solo los moderadores del servidor pueden usar este comando."
 
 #: cogs/tibia.py:1592
 #, python-brace-format
 msgid "Timezone `{timezone}` was renamed from `{old_name}` to `{new_name}`."
-msgstr ""
+msgstr "Zona horaria `{timezone}` fue renombrado de `{old_name}` a `{new_name}`."
 
 #: cogs/tibia.py:1599
 msgid "Shows a character's or a Discord user's information.\n\n"
@@ -4579,11 +4603,17 @@ msgid "Shows a character's or a Discord user's information.\n\n"
 "        Users can be looked through their username, user#discriminator or their user id.\n\n"
 "        Additionally, if the character is in the highscores, their ranking will be shown.\n"
 "        "
-msgstr ""
+msgstr "Muestra la información de un personaje o de un usuario de Discord.\n\n"
+"        Si el parámetro coincide con un usuario de Discord, muestra una lista de los personajes registrados a ese usuario.\n"
+"        Si el parámetro coincide con un personaje, mostrará la información del personaje\n\n"
+"        Si el personaje encontrado está registrado a un usuario de Discord, mostrará el propietario del personaje.\n\n"
+"        Los usuarios pueden ser vistos a través de su nombre de usuario, usuario#discriminador o su id de usuario.\n\n"
+"        Además, si el personaje está en las puntuaciones más altas, se mostrará su clasificación.\n"
+"        "
 
 #: cogs/tibia.py:1636
 msgid "I don't see any user or character with that name."
-msgstr ""
+msgstr "No veo ningún usuario o personaje con ese nombre."
 
 #: cogs/tibia.py:1645
 msgid "Character"
@@ -4592,7 +4622,8 @@ msgstr "Personaje"
 #: cogs/tibia.py:1691
 msgid "Shows basic information about a Tibia world.\n\n"
 "        Shows information like PvP type, online count, server location, vocation distribution, and more."
-msgstr ""
+msgstr "Muestra información básica sobre un mundo de Tibia.\n\n"
+"        Muestra información como el tipo de PvP,  conteo de jugadores, ubicación del servidor, distribución de vocaciones, y más."
 
 #: cogs/tibia.py:1704
 msgid "This world is offline."
@@ -4664,7 +4695,7 @@ msgstr ""
 
 #: cogs/tibia.py:1955 cogs/tibia.py:2046
 msgid "Achievement Points"
-msgstr ""
+msgstr "Puntos de achievements"
 
 #: cogs/tibia.py:1956 cogs/tibiawiki.py:623
 msgid "Charms"
@@ -4688,7 +4719,7 @@ msgstr "Mounts"
 
 #: cogs/tibia.py:1959
 msgid "Completed Bestiary"
-msgstr ""
+msgstr "Bestiary completado"
 
 #: cogs/tibia.py:1967
 msgid "Character Info"
@@ -4696,11 +4727,11 @@ msgstr "Información del personaje"
 
 #: cogs/tibia.py:1970
 msgid "Sales Arguments"
-msgstr ""
+msgstr "Argumentos de venta"
 
 #: cogs/tibia.py:2001
 msgid "ID: {article.id} | Posted on {article.date:%A, %B %d, %Y}"
-msgstr ""
+msgstr "ID: {article.id} | Publicado en {article.date:%A, %B %d, %Y}"
 
 #: cogs/tibia.py:2004
 msgid "Read more"
@@ -4709,13 +4740,13 @@ msgstr "Leer más"
 #: cogs/tibia.py:2013
 #, python-brace-format
 msgid "To see a specific entry, use the command `{prefix}news <id>`"
-msgstr ""
+msgstr "Para ver una entrada específica, usa el comando `{prefix}noticias <id>`"
 
 #. The world the character was in before transferring
 #: cogs/tibia.py:2028
 #, python-brace-format
 msgid "formerly in {world}"
-msgstr ""
+msgstr "antes en {world}"
 
 #: cogs/tibia.py:2032
 msgid "Vocation"
@@ -4791,13 +4822,13 @@ msgstr "Entradas en highscores globales"
 #: cogs/tibia.py:2116
 #, python-brace-format
 msgid "**{user}** has no registered characters here."
-msgstr ""
+msgstr "**{user}** no tiene pesonajes registrados aquí."
 
 #. User's listed characters in the whois command. Online icon is empty if offline.
 #: cogs/tibia.py:2125
 #, python-brace-format
 msgid "{name}{online_icon} (Lvl {level} {voc})"
-msgstr ""
+msgstr "{name}{online_icon} (Nvl {level} {voc})"
 
 #: cogs/tibia.py:2132
 #, python-brace-format
@@ -4808,12 +4839,12 @@ msgstr "y {count} más"
 #, python-brace-format
 msgid "**{user}**'s character is: {character_list}"
 msgid_plural "**{user}**'s characters are: {character_list}"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "El personaje de **{user}** es: {character_list}"
+msgstr[1] "Los personajes de **{user}** son: {character_list}"
 
 #: cogs/tibia.py:2146
 msgid "{rent:,} gold per month"
-msgstr ""
+msgstr "{rent:,} gold mensual"
 
 #: cogs/tibia.py:2148 cogs/tibiawiki.py:640
 msgid "Type"
@@ -4871,7 +4902,7 @@ msgstr "Precio de transferencia"
 
 #: cogs/tibia.py:2185
 msgid "Accepted"
-msgstr ""
+msgstr "Aceptada"
 
 #: cogs/tibia.py:2189
 msgid "Highest Bidder"
@@ -4883,7 +4914,7 @@ msgstr ""
 
 #: cogs/tibia.py:2191
 msgid "Auction End"
-msgstr ""
+msgstr "Fin de la subasta"
 
 #. The world where the house is in
 #: cogs/tibia.py:2194
@@ -5819,7 +5850,7 @@ msgstr ""
 #: cogs/timers.py:979
 #, python-format
 msgid "The name can't be longer than %d characters."
-msgstr ""
+msgstr "El nombre no puede tener más de %d caracteres."
 
 #: cogs/timers.py:981
 #, python-brace-format
@@ -6005,7 +6036,7 @@ msgstr "¿Deseas eliminar el evento **{event.name}**?"
 
 #: cogs/timers.py:1399
 msgid "The event was deleted successfully."
-msgstr ""
+msgstr "El evento fue eliminado correctamente."
 
 #: cogs/timers.py:1404
 #, python-brace-format
@@ -6036,7 +6067,7 @@ msgstr "¿Quieres eliminar **{char}** ({owner}) de **{event}**?"
 
 #: cogs/timers.py:1442
 msgid "The character was removed from event."
-msgstr ""
+msgstr "El personaje ha sido eliminado del evento."
 
 #: cogs/timers.py:1450
 msgid "Subscribe to receive a PM when an event is happening."
@@ -6061,11 +6092,11 @@ msgstr "Desuscribirse a un evento."
 
 #: cogs/timers.py:1479
 msgid "You can't unsubscribe from your own event."
-msgstr ""
+msgstr "No puedes desubscribirte a tu propio evento."
 
 #: cogs/timers.py:1481
 msgid "You are not subscribed to this event."
-msgstr ""
+msgstr "No te has suscrito a este evento."
 
 #: cogs/timers.py:1482
 #, python-brace-format
@@ -6103,11 +6134,11 @@ msgstr ""
 
 #: cogs/timers.py:1544
 msgid "You do not have any active reminders."
-msgstr ""
+msgstr "No tienes ningún recordatorio activo."
 
 #: cogs/timers.py:1547
 msgid "Your reminders"
-msgstr ""
+msgstr "Tus recordatorios"
 
 #: cogs/timers.py:1556
 msgid "Removes one of your reminders by its id.\n\n"
