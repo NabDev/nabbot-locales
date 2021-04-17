@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-16 16:15-0700\n"
-"PO-Revision-Date: 2021-04-17 20:31\n"
+"PO-Revision-Date: 2021-04-17 21:40\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3349,7 +3349,10 @@ msgid "That's not a valid rule. Valid rules are:\n"
 "\t- `*` - All users with registered characters\n"
 "\t - `*@GuildName` / `GuildName` - All users with characters belonging to **GuildName**\n"
 "\t - `RankName@GuildName` - All users with characters belonging to **GuildName** and with rank **RankName**."
-msgstr ""
+msgstr "Esa no es una regla válida. Las reglas válidas son:\n"
+"\t- `*` - Todos los usuarios con personajes registrados\n"
+"\t - `*@GuildName` / `GuildName` - Todos los usuarios con personajes pertenecientes a **GuildName**\n"
+"\t - `RankName@GuildName` - Todos los usuarios con personajes pertenecientes a **GuildName** y con rango **RankName**."
 
 #: cogs/roles.py:191
 #, python-brace-format
@@ -3362,11 +3365,11 @@ msgstr ""
 
 #: cogs/roles.py:203
 msgid "You can't create a rule for a role higher or equals than your highest role."
-msgstr ""
+msgstr "No puedes crear una regla para un rol mayor o igual que tu rol más alto."
 
 #: cogs/roles.py:205
 msgid "I can't create a rule for a role higher than my highest role."
-msgstr ""
+msgstr "No puedo crear una regla para un rol mayor que mi rol más alto."
 
 #: cogs/roles.py:207
 #, python-brace-format
@@ -3473,7 +3476,7 @@ msgstr "Necesito permiso de `Gestionar roles` para administrar grupos."
 
 #: cogs/roles.py:338
 msgid "Something went wrong. Try again later."
-msgstr ""
+msgstr "Algo salió mal. Inténtalo más tarde."
 
 #: cogs/roles.py:341
 #, python-brace-format
@@ -3686,7 +3689,7 @@ msgstr "No existen roles en este servidor."
 #: cogs/roles.py:585
 #, python-brace-format
 msgid "I don't see any user named **{user}**."
-msgstr ""
+msgstr "No veo a ningún usuario con el nombre **{user}**."
 
 #: cogs/roles.py:587
 #, python-brace-format
@@ -3714,7 +3717,7 @@ msgstr "Estadísticas de comandos"
 
 #: cogs/stats.py:53 cogs/stats.py:93
 msgid "Tracking usage since"
-msgstr ""
+msgstr "Recolectando uso desde"
 
 #: cogs/stats.py:57 cogs/stats.py:65 cogs/stats.py:97 cogs/stats.py:107
 #: cogs/stats.py:114
@@ -3734,15 +3737,15 @@ msgstr "<Usuario {id}>"
 
 #: cogs/stats.py:67 cogs/stats.py:116
 msgid "Top users"
-msgstr ""
+msgstr "Top usuarios"
 
 #: cogs/stats.py:77
 msgid "Shows command statistics of all servers."
-msgstr ""
+msgstr "Muestra estadísticas de comandos de todos los servidores."
 
 #: cogs/stats.py:92
 msgid "Global Command Stats"
-msgstr ""
+msgstr "Estadísticas globales de comandos"
 
 #: cogs/stats.py:104
 msgid "Private Message"
@@ -3755,24 +3758,24 @@ msgstr "<Servidor {id}>"
 
 #: cogs/stats.py:109
 msgid "Top servers"
-msgstr ""
+msgstr "Top servidores"
 
 #: cogs/stats.py:146
 msgid "There is not enough data to build the graph."
-msgstr ""
+msgstr "No hay suficientes datos para crear el gráfico."
 
 #: cogs/stats.py:148
 msgid "Server Count History"
-msgstr ""
+msgstr "Historial de conteo de servidores"
 
 #: cogs/stats.py:150
 #, python-brace-format
 msgid "Showing data from {from_date} to {to_date}"
-msgstr ""
+msgstr "Mostrando datos de {from_date} a {to_date}"
 
 #: cogs/stats.py:166
 msgid "Could not find data."
-msgstr ""
+msgstr "No se han encontrado datos."
 
 #: cogs/tibia.py:146
 msgid "Rented"
@@ -3795,7 +3798,9 @@ msgstr "No hay subasta con ID {auction_id}"
 msgid "Shows all the auctions a character has been involved in.\n\n"
 "        An indicator is shown for finished auctions, showing if it was successful (character was sold) or not.\n"
 "        If the auction is still being processed, it is unknown if the auction will be successful or not."
-msgstr ""
+msgstr "Muestra todas las subastas en las que ha participado un personaje.\n\n"
+"        Se muestra un indicador para subastas terminadas, muestra si fue exitoso (se vendió el personaje) o no.\n"
+"        Si la subasta todavía está siendo procesada, se desconoce si la subasta será exitosa o no."
 
 #: cogs/tibia.py:258
 msgid "Could not find any auctions for this character."
