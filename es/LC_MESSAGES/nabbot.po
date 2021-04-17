@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-16 16:15-0700\n"
-"PO-Revision-Date: 2021-04-17 02:19\n"
+"PO-Revision-Date: 2021-04-17 05:03\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3433,7 +3433,7 @@ msgstr ""
 
 #: cogs/roles.py:295
 msgid "That rule doesn't exist."
-msgstr ""
+msgstr "Esa regla no existe."
 
 #: cogs/roles.py:301
 msgid "You can't delete a role rule for a role higher than yours."
