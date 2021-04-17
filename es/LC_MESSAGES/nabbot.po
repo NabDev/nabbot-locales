@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-16 16:15-0700\n"
-"PO-Revision-Date: 2021-04-17 17:47\n"
+"PO-Revision-Date: 2021-04-17 20:31\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1580,7 +1580,7 @@ msgstr "No puedo encontrar ese mensaje, o está en un canal al que no puedes acc
 
 #: cogs/general.py:136
 msgid "I can't quote embed messages."
-msgstr ""
+msgstr "No puedo citar mensajes embebidos."
 
 #: cogs/general.py:139
 msgid "I can't quote messages from NSFW channels in regular channels."
