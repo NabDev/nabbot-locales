@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-16 16:15-0700\n"
-"PO-Revision-Date: 2021-04-17 01:14\n"
+"PO-Revision-Date: 2021-04-17 02:19\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -6106,12 +6106,13 @@ msgstr ""
 #: cogs/timers.py:1496
 msgid "Creates a personal reminder.\n\n"
 "        You will be notified in the same channel when the time is over."
-msgstr ""
+msgstr "Crea un recordatorio personal.\n\n"
+"        Se te notificará en el mismo canal cuando termine el tiempo."
 
 #: cogs/timers.py:1504
 #, python-brace-format
 msgid "Your reminder's content's exceed the character limit ({length}/{limit})."
-msgstr ""
+msgstr "El contenido de tu recordatorio excede el límite de caracteres ({length}/{limit})."
 
 #: cogs/timers.py:1509
 #, python-brace-format
@@ -6125,12 +6126,18 @@ msgid "Shows you a list of your active reminders.\n\n"
 "        To protect your privacy, only reminders created in the same server will be shown.\n"
 "        In order to see all your reminders, use this command on a private message.\n\n"
 "        Note that reminders created under 60 seconds are not displayed here."
-msgstr ""
+msgstr "Te muestra una lista de tus recordatorios activos.\n\n"
+"        La lista consiste en el id del recordatorio, el tiempo en que se activará y el contenido del recordatorio,\n"
+"        enlazando al mensaje original.\n\n"
+"        Para proteger tu privacidad, sólo se mostrarán los recordatorios creados en el mismo servidor.\n"
+"        Para ver todos tus temporizadores, utiliza este comando en un mensaje privado.\n\n"
+"        Ten en cuenta que los recordatorios creados en menos de 60 segundos no se muestran aquí."
 
 #: cogs/timers.py:1541
 msgid "You do not have any active reminders in this server.\n"
 "Use this on a private message to see all your reminders."
-msgstr ""
+msgstr "No tienes ningún recordatorio activo en este servidor.\n"
+"Usa esto en un mensaje privado para ver todos tus recordatorios."
 
 #: cogs/timers.py:1544
 msgid "You do not have any active reminders."
@@ -6149,16 +6156,16 @@ msgstr "Elimina uno de tus recordatorios por su id.\n\n"
 #: cogs/timers.py:1560
 #, python-brace-format
 msgid "ID must be greater than zero. You can see the ID of your active reminders by using `{prefix}remindme list`."
-msgstr ""
+msgstr "El ID debe ser mayor que cero. Puedes ver el ID de tus recordatorios activos usando `{prefix}remindme list`."
 
 #: cogs/timers.py:1565
 #, python-brace-format
 msgid "You do not have any active reminders with that ID. You can see the ID of your active reminders by using `{prefix}remindme list`."
-msgstr ""
+msgstr "No tienes ningún recordatorio activo con ese ID. Puedes ver el ID de tus recordatorios activos usando la `{prefix}remindme list`."
 
 #: cogs/timers.py:1568
 msgid "Your reminder was removed successfully."
-msgstr ""
+msgstr "Tu recordatorio fue eliminado con éxito."
 
 #: cogs/timers.py:1746
 msgid "You can only edit your own events."
@@ -6174,12 +6181,12 @@ msgstr "¿Desea intentar añadir otros personajes visibles de esta cuenta?"
 
 #: cogs/tracking.py:74
 msgid "Fetching characters…"
-msgstr ""
+msgstr "Obteniendo personajes…"
 
 #: cogs/tracking.py:75
 #, python-brace-format
 msgid "{channel} is not a watchlist channel."
-msgstr ""
+msgstr "{channel} no es un canal de watchlist."
 
 #: cogs/tracking.py:76
 #, python-brace-format
@@ -6188,7 +6195,7 @@ msgstr "Necesitas permisos de `Gestionar canal` en {channel} para añadir entrad
 
 #: cogs/tracking.py:397
 msgid "Watchlist disabled due to exceeding allowed limit."
-msgstr ""
+msgstr "Watchlist desactivada debido a exceder el limite permitido."
 
 #: cogs/tracking.py:468
 msgid "There are no watched characters online."
@@ -6196,63 +6203,65 @@ msgstr ""
 
 #: cogs/tracking.py:474
 msgid "This guild was disbanded."
-msgstr ""
+msgstr "Este guild ha sido disuelto."
 
 #: cogs/tracking.py:495
 msgid "Watchlist"
-msgstr ""
+msgstr "Watchlist"
 
 #: cogs/tracking.py:513
 msgid "Removing online count"
-msgstr ""
+msgstr "Removiendo conteo en linea"
 
 #: cogs/tracking.py:518
 msgid "Online count changed"
-msgstr ""
+msgstr "Cambiando conteo en linea"
 
 #: cogs/tracking.py:540
 msgid "Watchlist Disabled"
-msgstr ""
+msgstr "Watchlist deshabilitada"
 
 #: cogs/tracking.py:541
 #, python-brace-format
 msgid "You have reached the watchlists limit for your server.\n"
 "You need at least {min_users} discord users in here to have up to {limit} lists.\n\n"
 "[Premium]({docs}/premium/) servers can have up to {premium_limit} lists."
-msgstr ""
+msgstr "Has alcanzado el límite de watchlists para tu servidor.\n"
+"Necesitas al menos {min_users} usuarios de Discord aquí para tener hasta {limit} listas.\n\n"
+"Los servidores [premium]({docs}/premium/) pueden tener hasta {premium_limit} listas."
 
 #: cogs/tracking.py:580
 #, python-brace-format
 msgid "**{char}** ({voc}) advanced to level {level}."
-msgstr ""
+msgstr "**{char}** ({voc}) avanzó al nivel {level}."
 
 #: cogs/tracking.py:601 cogs/tracking.py:631 cogs/tracking.py:669
 #: cogs/tracking.py:692
 #, python-brace-format
 msgid "**{name}** (Level {level} {voc})"
-msgstr ""
+msgstr "**{name}** (Nivel {level} {voc})"
 
 #. Message for pvp deaths
 #: cogs/tracking.py:606
 #, python-brace-format
 msgid "{name} was killed by **{killer}**"
-msgstr ""
+msgstr "{name} fue asesinado por **{killer}**"
 
 #. Message for deaths by monsters
 #: cogs/tracking.py:610
 #, python-brace-format
 msgid "{name} died to {article}**{killer}**"
-msgstr ""
+msgstr "{name} murió a causa de {article}**{killer}**"
 
 #: cogs/tracking.py:639
 #, python-brace-format
 msgid "{char} has left the guild **{guild}**"
-msgstr ""
+msgstr "{char} ha abandonado el guild **{guild}**"
 
 #: cogs/tracking.py:641 cogs/tracking.py:650
 #, python-brace-format
 msgid " and joined guild: **{new_guild}**"
-msgstr ""
+msgstr " y se unió al guild: **{new_guild}**"
 
 #: cogs/tracking.py:644
 #, python-brace-format
@@ -6414,12 +6423,13 @@ msgstr ""
 #: cogs/tracking.py:1036
 msgid "Removes a character assigned to you.\n\n"
 "        All registered level ups and deaths will be lost forever."
-msgstr ""
+msgstr "Elimina un personaje asignado a ti.\n\n"
+"        Todos los niveles registrados y muertes se perderán para siempre."
 
 #: cogs/tracking.py:1043
 #, python-brace-format
 msgid "The character **{name}** is not registered to you."
-msgstr ""
+msgstr "El personaje **{name}** no está registrado a ti."
 
 #: cogs/tracking.py:1045
 #, python-brace-format
@@ -6429,20 +6439,20 @@ msgstr ""
 #: cogs/tracking.py:1054
 #, python-brace-format
 msgid "**{name}** is no longer registered to you."
-msgstr ""
+msgstr "**{name}** ya no está registrado a ti."
 
 #: cogs/tracking.py:1063
 msgid "Shows all your registered characters."
-msgstr ""
+msgstr "Muestra todos tus personajes registrados."
 
 #: cogs/tracking.py:1070
 #, python-brace-format
 msgid "I don't see any user with id {user_id}."
-msgstr ""
+msgstr "No veo ningún usuario con el id {user_id}."
 
 #: cogs/tracking.py:1077
 msgid "You do not have any registered characters."
-msgstr ""
+msgstr "No tienes ningún personaje registrado."
 
 #: cogs/tracking.py:1079
 msgid "This user has no registered characters."
