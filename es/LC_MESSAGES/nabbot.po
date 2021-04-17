@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-16 16:15-0700\n"
-"PO-Revision-Date: 2021-04-16 23:20\n"
+"PO-Revision-Date: 2021-04-17 00:17\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -49,23 +49,23 @@ msgstr "No veo a ningún usuario con ese nombre."
 #: utils/constants.py:47
 #, python-brace-format
 msgid "I couldn't find any users named `{name}`."
-msgstr ""
+msgstr "No pude encontrar ningún usuario llamado `{name}`."
 
 #: utils/constants.py:48
 msgid "That is not a valid ID."
-msgstr ""
+msgstr "Ese no es un ID válido."
 
 #: utils/constants.py:49
 msgid "That's not a valid level."
-msgstr ""
+msgstr "No es un nivel válido."
 
 #: utils/constants.py:51
 msgid "There is no guild with that name."
-msgstr ""
+msgstr "No hay ningun guild con ese nombre."
 
 #: utils/constants.py:53
 msgid "I could not find that channel."
-msgstr ""
+msgstr "No pude encontrar ese canal."
 
 #: utils/constants.py:54
 msgid "…and more"
