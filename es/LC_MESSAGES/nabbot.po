@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-16 16:15-0700\n"
-"PO-Revision-Date: 2021-04-17 05:03\n"
+"PO-Revision-Date: 2021-04-17 16:39\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5722,12 +5722,12 @@ msgstr ""
 
 #: cogs/timers.py:792
 msgid "Your event was created successfully."
-msgstr ""
+msgstr "Tu evento se ha creado correctamente."
 
 #: cogs/timers.py:793
 #, python-format
 msgid "*To edit this event, use ID **%d***"
-msgstr ""
+msgstr "*Para editar este evento, use ID **%d***"
 
 #: cogs/timers.py:802
 msgid "Adds a character to an event.\n\n"
@@ -6461,7 +6461,7 @@ msgstr "Este usuario no tiene personajes registrados."
 #: cogs/tracking.py:1083
 #, python-brace-format
 msgid "{name} (Lvl {level} {voc}) - {world}"
-msgstr ""
+msgstr "{name} (Nvl. {level} {voc}) - {world}"
 
 #: cogs/tracking.py:1091
 msgid "Registered Characters"
@@ -6505,17 +6505,17 @@ msgstr ""
 #: cogs/tracking.py:1162
 #, python-brace-format
 msgid "{prefix}{command} charname"
-msgstr ""
+msgstr "{prefix}{command} personaje"
 
 #: cogs/tracking.py:1163
 #, python-brace-format
 msgid "{prefix}{command} level"
-msgstr ""
+msgstr "{prefix}{command} nivel"
 
 #: cogs/tracking.py:1164
 #, python-brace-format
 msgid "{prefix}{command} minLevel,maxLevel"
-msgstr ""
+msgstr "{prefix}{command} nivelMin,nivelMax"
 
 #: cogs/tracking.py:1192
 #, python-brace-format
@@ -6755,7 +6755,7 @@ msgstr ""
 
 #: cogs/tracking.py:1648
 msgid "Removes all entries from watchlist."
-msgstr ""
+msgstr "Elimina todas las entradas de la watchlist."
 
 #: cogs/tracking.py:1652
 #, python-brace-format
