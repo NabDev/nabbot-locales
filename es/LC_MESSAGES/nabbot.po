@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-16 16:15-0700\n"
-"PO-Revision-Date: 2021-04-17 16:39\n"
+"PO-Revision-Date: 2021-04-17 17:47\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3469,7 +3469,7 @@ msgstr ""
 
 #: cogs/roles.py:336
 msgid "I need `Manage Roles` to manage groups."
-msgstr ""
+msgstr "Necesito permiso de `Gestionar roles` para administrar grupos."
 
 #: cogs/roles.py:338
 msgid "Something went wrong. Try again later."
@@ -3932,15 +3932,15 @@ msgstr "Todos los eventos comienzan y terminan en server save del día especific
 
 #: cogs/tibia.py:449
 msgid "Until {event.end_date:%b %d}"
-msgstr ""
+msgstr "Hasta {event.end_date:%b %d}"
 
 #: cogs/tibia.py:451
 msgid "From {event.start_date:%b %d}"
-msgstr ""
+msgstr "Desde {event.start_date:%b %d}"
 
 #: cogs/tibia.py:453
 msgid "From {event.start_date:%b %d} to {event.end_date:%b %d}"
-msgstr ""
+msgstr "Desde {event.start_date:%b %d} hasta {event.end_date:%b %d}"
 
 #: cogs/tibia.py:472
 msgid "Previous events"
@@ -5326,7 +5326,7 @@ msgstr ""
 
 #: cogs/tibiawiki.py:1109
 msgid "Elemental modifiers"
-msgstr ""
+msgstr "Modificadores elementales"
 
 #: cogs/tibiawiki.py:1119
 msgid "Summonable"
@@ -5455,7 +5455,7 @@ msgstr ""
 
 #: cogs/timers.py:263
 msgid "Start time"
-msgstr ""
+msgstr "Tiempo de inicio"
 
 #: cogs/timers.py:264
 msgid "Server Save Time"
@@ -5469,7 +5469,7 @@ msgstr ""
 #: cogs/timers.py:410
 #, python-brace-format
 msgid "{user}, you asked me to remind you this:"
-msgstr ""
+msgstr "{user}, me has pedido que te recuerde esto:"
 
 #: cogs/timers.py:423
 #, python-brace-format
@@ -5649,7 +5649,7 @@ msgstr ""
 
 #: cogs/timers.py:670
 msgid "That is not a valid world."
-msgstr ""
+msgstr "Ese no es un mundo válido."
 
 #: cogs/timers.py:674
 msgid "I don't have enough data on this world yet."
@@ -5681,13 +5681,13 @@ msgstr ""
 
 #: cogs/timers.py:709
 msgid "There are no upcoming events."
-msgstr ""
+msgstr "No hay eventos próximos."
 
 #. List item for current events
 #: cogs/timers.py:719
 #, python-brace-format
 msgid "**{name}** (*ID: {id}*) - by {user} - Started {time} ago"
-msgstr ""
+msgstr "**{name}** (*ID: {id}*) - por {user} - Comenzó hace {time}"
 
 #: cogs/timers.py:725
 msgid "Recent events"
@@ -5696,7 +5696,7 @@ msgstr "Eventos recientes"
 #: cogs/timers.py:733
 #, python-brace-format
 msgid "**{name}** (*ID: {id}*) - by {user} - In {time}"
-msgstr ""
+msgstr "**{name}** (*ID: {id}*) - por {user} - En {time}"
 
 #: cogs/timers.py:748
 msgid "Creates a new event.\n\n"
@@ -5775,7 +5775,7 @@ msgstr "Edita un evento.\n\n"
 
 #: cogs/timers.py:845
 msgid "To edit an event, use the subcommands:"
-msgstr ""
+msgstr "Para editar un evento, utiliza los subcomandos:"
 
 #: cogs/timers.py:858
 msgid "Edits an event's description.\n\n"
@@ -5796,7 +5796,7 @@ msgstr "¿Quieres que esta sea la nueva descripción?"
 
 #: cogs/timers.py:899
 msgid "The event's description was changed successfully."
-msgstr ""
+msgstr "La descripción del evento se ha cambiado con éxito."
 
 #: cogs/timers.py:904
 #, python-brace-format
@@ -5860,17 +5860,17 @@ msgstr ""
 #: cogs/timers.py:993
 #, python-brace-format
 msgid "The event renamed successfully to **{new_name}**."
-msgstr ""
+msgstr "El evento se renombró correctamente a **{new_name}**."
 
 #: cogs/timers.py:997
 #, python-brace-format
 msgid "Your event **{event}** was renamed to **{new_name}** by {user}"
-msgstr ""
+msgstr "Tu evento **{event}** fue renombrado a **{new_name}** por {user}"
 
 #: cogs/timers.py:999
 #, python-brace-format
 msgid "The event **{event.name}** was renamed to **{new_name}**."
-msgstr ""
+msgstr "El evento **{event.name}** fue renombrado a **{new_name}**."
 
 #: cogs/timers.py:1007
 msgid "Edits an event's number of slots\n\n"
@@ -5925,7 +5925,7 @@ msgstr ""
 
 #: cogs/timers.py:1103
 msgid "The event's time changed successfully."
-msgstr ""
+msgstr "La hora del evento cambió correctamente."
 
 #: cogs/timers.py:1107
 #, python-brace-format
@@ -6952,7 +6952,7 @@ msgstr ""
 
 #: cogs/tracking.py:1933
 msgid "Watchlists"
-msgstr ""
+msgstr "Watchlists"
 
 #: cogs/tracking.py:1941
 msgid "The whitelist filters in level up and deaths announcements."
@@ -7092,14 +7092,14 @@ msgstr ""
 #: cogs/tracking.py:2339
 #, python-brace-format
 msgid "The following characters were added to {user}"
-msgstr ""
+msgstr "Los siguientes personajes fueron añadidos a {user}"
 
 #: cogs/tracking.py:2344
 #, python-brace-format
 msgid "The following characters were reassigned to {user}"
-msgstr ""
+msgstr "Los siguientes personajes se reasignaron a {user}"
 
 #: cogs/tracking.py:2349
 msgid "The following characters were reclaimed by you"
-msgstr ""
+msgstr "Los siguientes personajes fueron reclamados por ti"
 
