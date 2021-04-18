@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-16 16:15-0700\n"
-"PO-Revision-Date: 2021-04-16 23:20\n"
+"PO-Revision-Date: 2021-04-18 12:09\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: utils/constants.py:38 cogs/tibia.py:1378 cogs/tibia.py:1381
 msgid "I don't have a character with that name registered."
-msgstr ""
+msgstr "Eu não tenho um personagem com esse nome registrado."
 
 #: utils/constants.py:39 cogs/tibia.py:1176 cogs/tibia.py:1618
 msgid "I couldn't find a character with that name."
-msgstr ""
+msgstr "Não encontrei nenhum personagem com esse nome."
 
 #: utils/constants.py:40
 msgid "I couldn't fetch the character, please try again."
@@ -44,16 +44,16 @@ msgstr "Nenhuma mudança será feita."
 #: utils/constants.py:46 cogs/tibia.py:582 cogs/tibia.py:1066
 #: cogs/tibia.py:1419
 msgid "I don't see any users with that name."
-msgstr ""
+msgstr "Não vejo nenhum usuário com esse nome."
 
 #: utils/constants.py:47
 #, python-brace-format
 msgid "I couldn't find any users named `{name}`."
-msgstr ""
+msgstr "Não encontrei nenhum usuário chamado `{name}`."
 
 #: utils/constants.py:48
 msgid "That is not a valid ID."
-msgstr ""
+msgstr "Este ID não é válido."
 
 #: utils/constants.py:49
 msgid "That's not a valid level."
