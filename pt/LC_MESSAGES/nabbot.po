@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-16 16:15-0700\n"
-"PO-Revision-Date: 2021-04-18 12:09\n"
+"PO-Revision-Date: 2021-04-18 13:16\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -57,102 +57,102 @@ msgstr "Este ID não é válido."
 
 #: utils/constants.py:49
 msgid "That's not a valid level."
-msgstr ""
+msgstr "Este nível não é válido."
 
 #: utils/constants.py:51
 msgid "There is no guild with that name."
-msgstr ""
+msgstr "Não há nenhuma guilda com esse nome."
 
 #: utils/constants.py:53
 msgid "I could not find that channel."
-msgstr ""
+msgstr "Não encontrei esse canal."
 
 #: utils/constants.py:54
 msgid "…and more"
-msgstr ""
+msgstr "…e mais"
 
 #: utils/checks.py:21
 msgid "This command cannot be used in private messages."
-msgstr ""
+msgstr "Este comando não pode ser utilizado em mensagens privadas."
 
 #: utils/checks.py:30
 msgid "You are not allowed to use this command."
-msgstr ""
+msgstr "Você não tem permissão para usar esse comando."
 
 #: utils/checks.py:41
 msgid "You need Administrator permission to use this command."
-msgstr ""
+msgstr "Você precisa ter permissão de Administrador para usar este comando."
 
 #: utils/checks.py:51
 msgid "You need `Manage Server` permissions to use this command."
-msgstr ""
+msgstr "Você precisa da permissão `Gerenciar Servidor` para usar este comando."
 
 #: utils/checks.py:79 utils/checks.py:98
 msgid "You need `Manage Channel` permissions to use this command."
-msgstr ""
+msgstr "Você precisa da permissão `Gerenciar Canal` para usar este comando."
 
 #: utils/checks.py:112 utils/checks.py:127
 msgid "This server is not tracking any worlds."
-msgstr ""
+msgstr "Este servidor não está rastreando nenhum mundo."
 
 #: utils/checks.py:129
 msgid "You're not in any server tracking a world."
-msgstr ""
+msgstr "Você não está em nenhum servidor que esteja rastreando algum mundo."
 
 #: utils/converter.py:46
 msgid "Member \"{}\" not found."
-msgstr ""
+msgstr "Membro \"{}\" não encontrado."
 
 #: utils/converter.py:81
 msgid "Role \"{}\" not found."
-msgstr ""
+msgstr "Cargo \"{}\" não encontrado."
 
 #: utils/converter.py:93 utils/converter.py:97
 msgid "Could not find a channel by ID {argument!r}."
-msgstr ""
+msgstr "Não encontrei um canal com ID {argument!r}."
 
 #: utils/converter.py:117
 msgid "That's not a valid time, try something like this: `1d7h` or `4h20m`"
-msgstr ""
+msgstr "Não é um tempo válido, tente algo assim: `1d7h` ou `4h20m`"
 
 #: utils/converter.py:134
 msgid "That's a bit too far in the future… Try less than 60 days."
-msgstr ""
+msgstr "Isso está em um futuro muito distante… Tente com menos de 60 dias."
 
 #: utils/converter.py:143
 msgid "Invalid stamina format, expected: `hh:mm`"
-msgstr ""
+msgstr "Formato de stamina inválido, esperado: `hh:mm`"
 
 #: utils/converter.py:147
 msgid "Invalid stamina, minutes can't be 60 or greater."
-msgstr ""
+msgstr "Stamina inválida, o campo de minutos não pode ser maior ou igual a 60."
 
 #: utils/converter.py:149
 msgid "Invalid stamina, can't have more than 42 hours."
-msgstr ""
+msgstr "Stamina inválida, não se pode ter mais de 42 horas."
 
 #: utils/converter.py:186
 #, python-brace-format
 msgid "`{argument}` is not a valid number."
-msgstr ""
+msgstr "`{argument}` não é um número válido."
 
 #. Level up message used when simple messages is enabled
 #: utils/messages.py:88
 #, python-brace-format
 msgid "**{name}** advanced to level {level}."
-msgstr ""
+msgstr "**{name}** avançou para o nível {level}."
 
 #. Death message used when simple messages is on. Article will always be in English (a/an). May be omitted if fitting.
 #: utils/messages.py:90
 #, python-brace-format
 msgid "**{name}** ({level}) died to {killer_article}**{killer}**."
-msgstr ""
+msgstr "**{name}** ({level}) morreu para {killer_article}**{killer}**."
 
 #. PvP deaths messages used when simple messages is on.
 #: utils/messages.py:92
 #, python-brace-format
 msgid "**{name}** ({level}) was killed by **{killer}**."
-msgstr ""
+msgstr "**{name}** ({level}) foi morto por **{killer}**."
 
 #: utils/tibia.py:87
 msgid "In **achievement points**, {0} has rank **{2}**, with **{1:,}** points"
@@ -326,20 +326,20 @@ msgstr "Eu não consegui encontrar este canal, você tem certeza que ele existe?
 
 #: cogs/admin.py:49
 msgid "yes/no"
-msgstr ""
+msgstr "sim/não"
 
 #: cogs/admin.py:50
 msgid "That's not a valid option, try **yes** or **no**."
-msgstr ""
+msgstr "Esta opção é inválida, tente **sim** ou **não**."
 
 #: cogs/admin.py:51
 msgid "A channel's name or ID, or `disable`."
-msgstr ""
+msgstr "Um nome ou ID de canal, ou `disable`."
 
 #. Used to show that the current setting is the default global setting.
 #: cogs/admin.py:54
 msgid "Global default"
-msgstr ""
+msgstr "Padrão global"
 
 #: cogs/admin.py:74
 msgid "You can't remove this prefix."
@@ -348,7 +348,7 @@ msgstr "Você não pode remover este prefixo."
 #: cogs/admin.py:76
 #, python-format
 msgid "The prefix can't be longer than %d characters."
-msgstr ""
+msgstr "O prefixo não pode ter mais de %d caracteres."
 
 #: cogs/admin.py:84
 msgid "Settings can't be modified on private messages."
@@ -356,11 +356,11 @@ msgstr "Configurações não podem ser modificadas através de mensagens privada
 
 #: cogs/admin.py:90 cogs/tibia.py:2049
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #: cogs/admin.py:90
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 #: cogs/admin.py:105
 msgid "Checks the channel's permissions.\n\n"
@@ -377,7 +377,7 @@ msgstr "**Verificando {channel}:**"
 
 #: cogs/admin.py:115
 msgid "I have `Administrator` permission."
-msgstr ""
+msgstr "Eu tenho permissão de `Administrador`."
 
 #: cogs/admin.py:120
 msgid "I won't be able to see commands in here."
@@ -385,7 +385,7 @@ msgstr "Eu não poderei ver comandos aqui."
 
 #: cogs/admin.py:120
 msgid "View Channel"
-msgstr ""
+msgstr "Ver canal"
 
 #: cogs/admin.py:121
 msgid "I won't be able to respond in here."
@@ -393,7 +393,7 @@ msgstr "Eu não poderei responder aqui."
 
 #: cogs/admin.py:121
 msgid "Send Messages"
-msgstr ""
+msgstr "Enviar mensagens"
 
 #: cogs/admin.py:122 cogs/admin.py:127
 msgid "Pagination or commands that require reaction confirmation won't work."
@@ -401,7 +401,7 @@ msgstr "Paginação ou comandos que exigem confirmação através de reações n
 
 #: cogs/admin.py:123
 msgid "Add Reactions"
-msgstr ""
+msgstr "Adicionar reações"
 
 #: cogs/admin.py:124
 msgid "I won't be able to show my emojis in some commands."
@@ -409,11 +409,11 @@ msgstr "Eu não poderei mostrar meus emojis em alguns comandos."
 
 #: cogs/admin.py:125
 msgid "Use External Emoji"
-msgstr ""
+msgstr "Usar emojis externos"
 
 #: cogs/admin.py:128
 msgid "Read Message History"
-msgstr ""
+msgstr "Ler histórico de mensagens"
 
 #: cogs/admin.py:129
 msgid "Command pagination won't work well."
@@ -421,7 +421,7 @@ msgstr "A paginação do comando não funcionará bem."
 
 #: cogs/admin.py:129
 msgid "Manage Messages"
-msgstr ""
+msgstr "Gerenciar mensagens"
 
 #: cogs/admin.py:130
 msgid "I won't be able to show many of my commands."
@@ -429,7 +429,7 @@ msgstr "Não poderei mostrar muitos dos meus comandos."
 
 #: cogs/admin.py:130
 msgid "Embed Links"
-msgstr ""
+msgstr "Incorporar links"
 
 #: cogs/admin.py:131
 msgid "I won't be able to show images in some of my commands."
@@ -437,7 +437,7 @@ msgstr "Não poderei mostrar imagens em alguns dos meus comandos."
 
 #: cogs/admin.py:131
 msgid "Attach Files"
-msgstr ""
+msgstr "Anexar arquivos"
 
 #: cogs/admin.py:132
 msgid "I only need this to manage auto roles and joinable roles."
@@ -445,7 +445,7 @@ msgstr "Só preciso disso para gerenciar cargos automáticos e cargos selecioná
 
 #: cogs/admin.py:132
 msgid "Manage Roles"
-msgstr ""
+msgstr "Gerenciar cargos"
 
 #: cogs/admin.py:133
 msgid "I only need this to create watchlists."
@@ -453,7 +453,7 @@ msgstr "Eu só preciso disso para criar watchlists."
 
 #: cogs/admin.py:133
 msgid "Manage Channels"
-msgstr ""
+msgstr "Gerenciar canais"
 
 #: cogs/admin.py:134
 msgid "I need this to create server logs, news and levels channels, as well as watchlist feeds."
@@ -461,7 +461,7 @@ msgstr "Eu preciso disso para criar logs de servidor, canais de notícias e nív
 
 #: cogs/admin.py:135
 msgid "Manage Webhooks"
-msgstr ""
+msgstr "Gerenciar webhooks"
 
 #: cogs/admin.py:136
 msgid "I only need this to show you the author of actions in the server log."
@@ -469,17 +469,17 @@ msgstr "Eu só preciso disso para mostrar o autor das ações no log do servidor
 
 #: cogs/admin.py:137
 msgid "View Audit Log"
-msgstr ""
+msgstr "Ver registro de auditoria"
 
 #. Shown when a specific Discord permission is missing
 #: cogs/admin.py:147
 #, python-brace-format
 msgid "Missing `{name}` permission"
-msgstr ""
+msgstr "Permissão `{name}` ausente"
 
 #: cogs/admin.py:150
 msgid "All permissions are correct!"
-msgstr ""
+msgstr "Todas as permissões estão corretas!"
 
 #: cogs/admin.py:160
 msgid "Checks or sets various server-specific settings."
