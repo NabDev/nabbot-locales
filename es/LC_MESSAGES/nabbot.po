@@ -49,23 +49,23 @@ msgstr "No veo a ningún usuario con ese nombre."
 #: utils/constants.py:47
 #, python-brace-format
 msgid "I couldn't find any users named `{name}`."
-msgstr ""
+msgstr "No pude encontrar ningún usuario llamado `{name}`."
 
 #: utils/constants.py:48
 msgid "That is not a valid ID."
-msgstr ""
+msgstr "Eso no es un ID válido."
 
 #: utils/constants.py:49
 msgid "That's not a valid level."
-msgstr ""
+msgstr "Eso no es un nivel válido."
 
 #: utils/constants.py:51
 msgid "There is no guild with that name."
-msgstr ""
+msgstr "No hay ningún guild con ese nombre."
 
 #: utils/constants.py:53
 msgid "I could not find that channel."
-msgstr ""
+msgstr "No pude encontrar ese canal."
 
 #: utils/constants.py:54
 msgid "…and more"
@@ -3620,8 +3620,22 @@ msgid ""
 "        `Keeper@Redd Alliance` will give the role only if the character has the rank Keeper in Redd Alliance.\n"
 "\n"
 "        Role names, role mentions or role ids are allowed. Role names with multiple words must be quoted.\n"
-"        Note that current members will be updated until their characters or guilds change."
+"        Note that current members will be updated until their characters or guilds change." #is this a typo? it sounds less ambiguous to me in spanish but im guessing it was meant to be will not be updated until? (i translated it that way)
 msgstr ""
+"Crea una nueva regla de rol automático.\n"
+"\n"
+"        Las reglas consisten de un rol, y un nombre de guild.\n"
+"        Cuando un usuario tiene un personaje registrado en dicho guild, recibirá el rol.\n"
+"        Si dejase de tener un personaje en el guild, el rol es removido.\n"
+"\n"
+"        Si `*` es usado como guild. Significa que el rol sera dado por tener cualquier personaje asignado\n"
+"        en el mundo rastreado.\n"
+"\n"
+"        También puedes especificar un rango requerido en el guild para obtener el rol. Por ejemplo:\n"
+"        `Keeper@Redd Alliance` otorgará el rol solo si el personaje tiene el rango Keeper en Redd Alliance.\n"
+"\n"
+"        Nombres de rol, menciones de rol o ids de rol son permitidos. Nombres de rol con múltiples palabras deben ser citados.\n"
+"        Tenga en cuenta que los miembros actuales no seran actualizados hasta que sus personajes o guilds cambien."
 
 #: cogs/roles.py:176
 msgid ""
@@ -3630,6 +3644,10 @@ msgid ""
 "\t - `*@GuildName` / `GuildName` - All users with characters belonging to **GuildName**\n"
 "\t - `RankName@GuildName` - All users with characters belonging to **GuildName** and with rank **RankName**."
 msgstr ""
+"Esa no es una regla valida. Las reglas validas son:\n"
+"\t- `*` - Todos los usuarios con personajes registrados\n"
+"\t - `*@NombreDelGuild` / `NombreDelGuild` - Todos los usuarios con personajes pertenecientes a **NombreDelGuild**\n"
+"\t - `NombreDelRango@NombreDelGuild` - Todos los usuarios con personajes pertenecientes a **NombreDelGuild** con el rango **NombreDelRango**."
 
 #: cogs/roles.py:191
 #, python-brace-format
@@ -3638,15 +3656,15 @@ msgstr "No hay ningún guild llamado `{name}`"
 
 #: cogs/roles.py:198
 msgid "Autorole rule already exists."
-msgstr ""
+msgstr "Regla de rol automático ya existe"
 
 #: cogs/roles.py:203
 msgid "You can't create a rule for a role higher or equals than your highest role."
-msgstr ""
+msgstr "No puedes crear una regla para un rol superior o igual a tu rol más alto."
 
 #: cogs/roles.py:205
 msgid "I can't create a rule for a role higher than my highest role."
-msgstr ""
+msgstr "No puedo crear una regla para un rol superior a mi rol más alto."
 
 #: cogs/roles.py:207
 #, python-brace-format
@@ -3669,19 +3687,19 @@ msgstr "¿Es correcto?"
 
 #: cogs/roles.py:220
 msgid "Autorole rule created."
-msgstr ""
+msgstr "Regla de rol automático creada."
 
 #: cogs/roles.py:227
 msgid "Shows a list of autorole rules."
-msgstr ""
+msgstr "Muestra una lista de reglas de rol automático."
 
 #: cogs/roles.py:230 cogs/roles.py:240
 msgid "This server has no autorole rules."
-msgstr ""
+msgstr "Este servidor no tiene reglas de rol automático."
 
 #: cogs/roles.py:245
 msgid "Autorole rules"
-msgstr ""
+msgstr "Reglas de rol automático"
 
 #: cogs/roles.py:255
 msgid ""
@@ -3693,21 +3711,31 @@ msgid ""
 "\n"
 "        This command can only be used once per server every day."
 msgstr ""
+"Activa una actualización de todos los miembros.\n"
+"\n"
+"        Esto aplicará las reglas existentes a todos los miembros.\n"
+"        Ten en cuenta que los cambios de guild de miembros que no han estado en linea no seran detectados.\n"
+"        Las reglas eliminadas no tendran ningún efecto.\n"
+"\n"
+"        Este comando solo puede ser usado una vez por servidor cada día."
 
 #: cogs/roles.py:262
 msgid ""
 "This will make me check the guilds of all registered characters to apply existing rules.\n"
 "Note that character with outdated information won't be updated until they are online again or checked using `whois`\n"
-"Are you sure you want this?."
+"Are you sure you want this?." #?.?.?.?.?.
 msgstr ""
+"Esto me hará revisar los guilds de todos los personajes registrados para aplicar las reglas existentes.\n"
+"Tenga en cuenta que los personajes con información desactualizada no se actualizarán hasta que estén en línea nuevamente o se revisen usando `whois`\n"
+"¿Estás seguro de que deseas esto?"
 
 #: cogs/roles.py:271
 msgid "Starting role refreshing…"
-msgstr ""
+msgstr "Comenzando actualización de roles…"
 
 #: cogs/roles.py:275 cogs/roles.py:277
 msgid "Refresh done, roles will be updated shortly."
-msgstr ""
+msgstr "Actualización completada, los roles seran actualizados dentro de poco." #is this redundant? i couldnt figure out how to phrase it better and i refuse to translate refresh as "refresco"
 
 #: cogs/roles.py:284
 msgid ""
@@ -3717,18 +3745,23 @@ msgid ""
 "\n"
 "        Note that members that currently have the role won't be affected."
 msgstr ""
+"Remueve una regla de rol automático.\n"
+"\n"
+"        Nombres, menciones y ids de rol son aceptados. Nombres de rol con múltiples palabras deben ser citados.\n"
+"\n"
+"        Tenga en cuenta que los miembros que actualmente tienen el rol no seran afectados."
 
 #: cogs/roles.py:295
 msgid "That rule doesn't exist."
-msgstr ""
+msgstr "Esa regla no existe."
 
 #: cogs/roles.py:301
 msgid "You can't delete a role rule for a role higher than yours."
-msgstr ""
+msgstr "No puedes eliminar una regla de rol para un rol superior al tuyo.""
 
 #: cogs/roles.py:304
 msgid "Auto role rule removed. Note that the role won't be removed from current members."
-msgstr ""
+msgstr "Regla de rol automático removida. Tenga en cuenta que el rol no sera removido de los miembros actuales."
 
 #: cogs/roles.py:312
 msgid ""
