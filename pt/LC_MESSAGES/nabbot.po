@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-16 16:15-0700\n"
-"PO-Revision-Date: 2021-04-18 13:16\n"
+"PO-Revision-Date: 2021-04-18 17:27\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -496,7 +496,8 @@ msgstr "Use os subcomandos para alterar as configurações deste servidor."
 #: cogs/admin.py:175
 msgid "Sets whether simple messages will be used instead of random custom messages for levels and deaths.\n\n"
 "            When enabled, all level up and death messages will be the same, a simple and short message."
-msgstr ""
+msgstr "Define se as mensagens simples de nível/morte serão usadas ao invés de mensagens aleatórias e personalizadas.\n\n"
+"            Quando habilitado, todas as mensagens de nível e de morte serão iguais, uma mensagem simples e curta."
 
 #: cogs/admin.py:188
 msgid "I will use simple messages from now on."
@@ -555,7 +556,7 @@ msgstr "Define o idioma para este servidor."
 
 #: cogs/admin.py:255
 msgid "The desired language or `none` to revert to English."
-msgstr ""
+msgstr "O idioma desejado ou `none` para reverter para o inglês."
 
 #: cogs/admin.py:256
 msgid "language/none"
@@ -563,7 +564,7 @@ msgstr "idioma/nenhum"
 
 #: cogs/admin.py:258
 msgid "This language is currently not supported."
-msgstr ""
+msgstr "Idioma não suportado no momento."
 
 #: cogs/admin.py:259
 #, python-brace-format
@@ -596,7 +597,10 @@ msgid "Sets the minimum level for death and level up announcements.\n"
 "    \n"
 "            Level ups and deaths under the minimum level are still saved and can be viewed using other commands.\n"
 "            "
-msgstr ""
+msgstr "Define o nível mínimo para anúncios de morte e nível.\n"
+"    \n"
+"            Os níveis e mortes abaixo do nível mínimo ainda são monitorados e podem ser visualizados verificando diretamente o personagem.\n"
+"            "
 
 #: cogs/admin.py:312
 msgid "Any number greater than 1"
@@ -619,13 +623,17 @@ msgstr "Nível mínimo de anúncio foi definido como `{level}`."
 msgid "Changes the channel where Tibia news are announced.\n"
 "    \n"
 "            This is where all news and articles posted in Tibia.com will be announced."
-msgstr ""
+msgstr "Altera o canal onde as notícias do Tibia são anunciadas.\n"
+"    \n"
+"            É o canal onde todas as notícias e artigos publicados no Tibia.com serão anunciados."
 
 #: cogs/admin.py:347
 msgid "Enables or disables news tickers from Tibia.com in this server.\n\n"
 "            Disabling this will make NabBot only announce news and featured articles.\n"
 "            For news tickers to be announced, news announcement must be enabled."
-msgstr ""
+msgstr "Habilita ou desabilita os tickers de noticias do Tibia.com neste servidor.\n\n"
+"            Desativar isto fará com que NabBot anuncie apenas notícias e artigos em destaque.\n"
+"            Para que os tickers de notícia sejam anunciados, o anúncio de notícias deve ser habilitado."
 
 #: cogs/admin.py:361
 msgid "I will announce news ticker along news and featured articles from now on."
@@ -648,7 +656,18 @@ msgid "Changes the command prefixes for this server.\n\n"
 "            Multiple words also require using quotes.\n"
 "        \n"
 "            Mentioning the bot is always a valid command and can't be changed."
-msgstr ""
+msgstr "Altera os prefixos de comando para este servidor.\n\n"
+"            Os prefixos são os caracteres que aparecem antes do nome de um comando, para que o bot reconheça o comando.\n"
+"            Um máximo de 5 prefixos podem ser definidos por servidor.\n"
+"        \n"
+"            Para remover um prefixo existente, use-o como parâmetro.\n"
+"        \n"
+"            Os prefixos não diferenciam maiúsculas de minúsculas, e elas serão sempre salvas como minúsculas.\n"
+"        \n"
+"            Se quiser ter um espaço no final, tais como: `nabbot help`, você precisa usar aspas duplas \"nabbot \".\n"
+"            Várias palavras também requerem o uso de citações.\n"
+"        \n"
+"            Mencionar o bot é sempre um comando válido e não pode ser alterado."
 
 #: cogs/admin.py:392
 #, python-brace-format
@@ -702,7 +721,8 @@ msgstr "Muda o canal usado como registro de logs do servidor.\n\n"
 msgid "Sets whether level/death messages should show the user the character is registered to.\n\n"
 "            When enabled, level up and death messages will show a tag with the character's owner.\n"
 "            The users are won't receive a notification for this."
-msgstr ""
+msgstr "Define se as mensagens de nivel/morte devem mostrar o usuário ao qual o personagem está registrado.\n\n"
+"            Quando habilitado, mensagens de nível e de morte mostrarão uma tag com o dono do personagem."
 
 #: cogs/admin.py:470
 msgid "I will show users on level up and death messages from now on."
