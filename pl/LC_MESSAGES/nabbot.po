@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-19 10:56-0700\n"
+"POT-Creation-Date: 2021-04-19 11:01-0700\n"
 "PO-Revision-Date: 2021-04-16 23:20\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
@@ -3185,7 +3185,7 @@ msgstr ""
 
 #: cogs/respawn.py:575
 #, python-brace-format
-msgid "This feature is only for premium users. For more information on how to getpremium use: `{prefix}premium info`"
+msgid "This feature is only for premium users. For more information on how to get premium use: `{prefix}premium info`"
 msgstr ""
 
 #: cogs/respawn.py:579
