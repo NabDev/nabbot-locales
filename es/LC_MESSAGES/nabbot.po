@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-19 11:03-0700\n"
-"PO-Revision-Date: 2021-04-19 19:00\n"
+"PO-Revision-Date: 2021-04-19 19:58\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5415,7 +5415,7 @@ msgstr[1] "puntos"
 #. Kills to complete bestiary
 #: cogs/tibiawiki.py:1085
 msgid "kills"
-msgstr ""
+msgstr "kills"
 
 #: cogs/tibiawiki.py:1109
 msgid "Elemental modifiers"
@@ -5549,7 +5549,7 @@ msgstr "Enseñado por"
 
 #: cogs/timers.py:262
 msgid "There's no active event with that id."
-msgstr ""
+msgstr "No hay un evento activo con ese id."
 
 #: cogs/timers.py:263
 msgid "Start time"
@@ -5557,7 +5557,7 @@ msgstr "Tiempo de inicio"
 
 #: cogs/timers.py:264
 msgid "Server Save Time"
-msgstr ""
+msgstr "Tiempo del server save"
 
 #: cogs/timers.py:265
 msgid "Alright, event making cancelled."
@@ -5582,13 +5582,15 @@ msgstr "Muestra el tiempo restante de cooldown para un boss específico."
 #, python-brace-format
 msgid "Tell me the name of the boss you want to check.\n"
 "For a list of your active cooldowns, use: `{prefix}{command} list`"
-msgstr ""
+msgstr "Dime el nombre del boss que quieres revisar.\n"
+"Para una lista de tus cooldowns activos, intenta: `{prefix}{command} list`"
 
 #: cogs/timers.py:458
 #, python-brace-format
 msgid "There's no boss with that name.\n"
 "For a list of supported bosses, use: `{prefix}{command} bosslist`"
-msgstr ""
+msgstr "No hay ningún boss con ese nombre.\n"
+"Para una lista de bosses soportados, intenta: `{prefix}{command} bosslist`"
 
 #: cogs/timers.py:465
 #, python-brace-format
@@ -5608,7 +5610,7 @@ msgstr "Tu tiempo de cooldown para **{boss}** terminará en {diff}."
 #: cogs/timers.py:487
 #, python-brace-format
 msgid "**{char}** - Expires in {time}"
-msgstr ""
+msgstr "**{char}** - Expira en {time}"
 
 #: cogs/timers.py:490
 #, python-brace-format
@@ -5703,27 +5705,29 @@ msgstr "Te dire cuando se acabe el cooldown por mensaje privado.\n"
 #: cogs/timers.py:618
 #, python-brace-format
 msgid "Timer saved for {name}"
-msgstr ""
+msgstr "Temporizador guardado para {name}"
 
 #: cogs/timers.py:620
 msgid "Cooldown expiration time"
-msgstr ""
+msgstr "Tiempo de expiración del cooldown"
 
 #: cogs/timers.py:626
 msgid "Removes an active boss cooldown."
-msgstr ""
+msgstr "Elimina un cooldown activo."
 
 #: cogs/timers.py:629
 #, python-brace-format
 msgid "You must specify for which of your character is the cooldown for.\n"
 "e.g. `{prefix}{command} remove Kroazur,Bubble`"
-msgstr ""
+msgstr "Debes especificar para cuál de tus personajes es el cooldown.\n"
+"p. ej., `{prefix}{command} remove Kroazur,Bubble`"
 
 #: cogs/timers.py:636
 #, python-brace-format
 msgid "There's no boss with that name.\n"
 "For a list of supported bosses, try: `{prefix}{ctx.invoked_with} bosslist`"
-msgstr ""
+msgstr "No hay ningún boss con ese nombre.\n"
+"Para una lista de bosses soportados, intenta: `{prefix}{ctx.invoked_with} bosslist`"
 
 #: cogs/timers.py:649
 #, python-brace-format
@@ -5732,7 +5736,7 @@ msgstr ""
 
 #: cogs/timers.py:653
 msgid "Boss timer deleted."
-msgstr ""
+msgstr "Temporizador de boss eliminado."
 
 #: cogs/timers.py:659
 msgid "Shows the boss that is present today in the Dream Scar\n\n"
@@ -5764,12 +5768,13 @@ msgstr ""
 
 #: cogs/timers.py:679
 msgid "As of the server save of"
-msgstr ""
+msgstr "A partir del server save de"
 
 #: cogs/timers.py:696
 msgid "Shows a list of upcoming and recent events.\n\n"
 "        If a number is specified, it will show details for that event. Same as using `events info`"
-msgstr ""
+msgstr "Muestra una lista de eventos próximos y recientes.\n\n"
+"        Si se especifica un número, mostrará los detalles de ese evento. Igual que usar `events info`"
 
 #: cogs/timers.py:702
 #, python-brace-format
@@ -5816,7 +5821,7 @@ msgstr "El nombre del evento no puede tener más de %d caracteres."
 #: cogs/timers.py:777
 #, python-format
 msgid "You can only have %d active events simultaneously. Delete or edit an active event."
-msgstr ""
+msgstr "Sólo puedes tener %d eventos activos simultáneamente. Elimina o edita un evento activo."
 
 #: cogs/timers.py:792
 msgid "Your event was created successfully."
@@ -5831,7 +5836,9 @@ msgstr "*Para editar este evento, use ID **%d***"
 msgid "Adds a character to an event.\n\n"
 "        Only the creator can add characters to an event.\n"
 "        If the event is joinable, anyone can join an event using `event join`"
-msgstr ""
+msgstr "Añade un personaje a un evento.\n\n"
+"        Solo el creador puede añadir personajes a un evento.\n"
+"        Si el evento es unible, cualquiera puede unirse a un evento usando `event join`"
 
 #: cogs/timers.py:813
 msgid "Character not registered to anyone in this server."
@@ -5899,12 +5906,12 @@ msgstr "La descripción del evento se ha cambiado con éxito."
 #: cogs/timers.py:904
 #, python-brace-format
 msgid "Your event **{event}** had its description changed by {user}"
-msgstr ""
+msgstr "{user} modifico la descripción de tu evento **{event}**"
 
 #: cogs/timers.py:908
 #, python-brace-format
 msgid "The description of event **{event.name}** was changed."
-msgstr ""
+msgstr "La descripción del evento **{event.name}** fue cambiada."
 
 #: cogs/timers.py:915
 msgid "Changes whether anyone can join an event or only the owner may add people.\n\n"
@@ -6844,25 +6851,25 @@ msgstr ""
 #: cogs/tracking.py:1595
 #, python-format
 msgid "Channel name cannot contain the special character **%s**"
-msgstr ""
+msgstr "El nombre del canal no puede contener el carácter especial **%s**"
 
 #: cogs/tracking.py:1599
 msgid "I need `Manage Channels` permission in the server to use this command."
-msgstr ""
+msgstr "Necesito permisos de `Gestionar canales` en este servidor para usar este comando."
 
 #: cogs/tracking.py:1606
 msgid "You have reached the limit of watchlists you can have."
-msgstr ""
+msgstr "Has alcanzado el límite de listas que puedes tener."
 
 #: cogs/tracking.py:1609
 #, python-format
 msgid "You need to have at least %d members to use watchlists."
-msgstr ""
+msgstr "Necesitas tener al menos %d miembros para usar watchlists."
 
 #: cogs/tracking.py:1612
 #, python-brace-format
 msgid "Do you want to create a new watchlist named `{name}`?"
-msgstr ""
+msgstr "¿Quieres crear un watchlist llamado `{name}`?"
 
 #: cogs/tracking.py:1627
 msgid "Something went wrong, the channel name you chose is probably invalid."
@@ -6871,7 +6878,7 @@ msgstr ""
 #: cogs/tracking.py:1630
 #, python-brace-format
 msgid "Channel created successfully: {channel}\n"
-msgstr ""
+msgstr "Canal creado con éxito: {channel}\n"
 
 #: cogs/tracking.py:1631
 #, python-brace-format
@@ -7011,7 +7018,7 @@ msgstr ""
 
 #: cogs/tracking.py:1840
 msgid "Guild removed from the watchlist."
-msgstr ""
+msgstr "Guild eliminado del watchlist."
 
 #: cogs/tracking.py:1846
 msgid "Deletes a watchlist, even if the channel doesn't exist anymore.\n\n"
@@ -7033,7 +7040,7 @@ msgstr ""
 
 #: cogs/tracking.py:1881
 msgid "Watchlist deleted."
-msgstr ""
+msgstr "Watchlist eliminado."
 
 #: cogs/tracking.py:1883
 #, python-brace-format
