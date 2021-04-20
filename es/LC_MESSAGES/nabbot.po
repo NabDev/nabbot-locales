@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-20 15:48-0700\n"
-"PO-Revision-Date: 2021-04-20 22:50\n"
+"PO-Revision-Date: 2021-04-20 23:46\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -159,14 +159,14 @@ msgstr "**{name}** ({level}) fue matado por **{killer}**."
 
 #: utils/pages.py:125
 msgid "Page"
-msgstr ""
+msgstr "Página"
 
 #: utils/pages.py:126
 #, python-format
 msgid "%d entry"
 msgid_plural "%d entries"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d entrada"
+msgstr[1] "%d entradas"
 
 #. Example: He is a paladin.
 #: utils/tibia.py:161
@@ -208,15 +208,15 @@ msgstr "Ella"
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d año"
+msgstr[1] "%d años"
 
 #: utils/timing.py:100
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d mes"
+msgstr[1] "%d meses"
 
 #: utils/timing.py:101 utils/timing.py:217
 #, python-format
@@ -236,69 +236,69 @@ msgstr[1] "%d horas"
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d minuto"
+msgstr[1] "%d minutos"
 
 #: utils/timing.py:104
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d segundo"
+msgstr[1] "%d segundos"
 
 #: utils/timing.py:107
 msgctxt "years abbreviation"
 msgid "y"
-msgstr ""
+msgstr "a"
 
 #. Should be different than abbreviation for minutes
 #: utils/timing.py:109
 msgctxt "months abbreviation"
 msgid "mo"
-msgstr ""
+msgstr "me"
 
 #: utils/timing.py:110
 msgctxt "days abbreviation"
 msgid "d"
-msgstr ""
+msgstr "d"
 
 #: utils/timing.py:111
 msgctxt "hours abbreviation"
 msgid "h"
-msgstr ""
+msgstr "h"
 
 #. Should be different than abbreviation for months
 #: utils/timing.py:113
 msgctxt "minutes abbreviation"
 msgid "m"
-msgstr ""
+msgstr "m"
 
 #: utils/timing.py:114 cogs/info.py:142
 msgctxt "seconds abbreviation"
 msgid "s"
-msgstr ""
+msgstr "s"
 
 #. For very short times
 #: utils/timing.py:141 utils/timing.py:159
 msgid "now"
-msgstr ""
+msgstr "ahora"
 
 #. String to join the last element of a group of items, example: 1,2,3 and 4
 #: utils/timing.py:165
 msgid " and "
-msgstr ""
+msgstr " y "
 
 #. To describe times that happened in the past, for example: "1 day ago", "13 hours ago"
 #: utils/timing.py:170
 #, python-brace-format
 msgid "{time} ago"
-msgstr ""
+msgstr "hace {time}"
 
 #. To describe times that will happen in the future, for example: "in 3 hours", "in 3 minutes"
 #: utils/timing.py:173
 #, python-brace-format
 msgid "in {time}"
-msgstr ""
+msgstr "en {time}"
 
 #. Used to describe a low time frame, e.g. 'in moments', 'moments ago'
 #: utils/timing.py:224
@@ -1109,11 +1109,11 @@ msgstr "El nivel debe ser mayor que 1."
 
 #: cogs/calculators.py:191
 msgid "Blessing of the Inquisition costs **{price:,}** gold coins."
-msgstr "Blessing of the Inquisition cuesta **{price:.}** gold coins."
+msgstr "Blessing of the Inquisition cuesta **{price:,}** gold coins."
 
 #: cogs/calculators.py:193
 msgid "At that level you will pay **{price:,}** gold coins per blessing for a total of **{total:,}** gold coins."
-msgstr "En ese nivel pagarás **{precio:,}** gold por blessing para un total de **{total:,}** gold."
+msgstr "En ese nivel pagarás **{price:,}** gold por blessing para un total de **{total:,}** gold."
 
 #: cogs/calculators.py:195
 msgid "Mountain blessings cost **{mountain_bless_price:,}** each, for a total of **{mountain_total:,}**."
@@ -1145,7 +1145,7 @@ msgstr "De nivel {current} ({percentage}% al siguiente nivel) a {target} como {v
 
 #: cogs/calculators.py:232 cogs/calculators.py:337
 msgid "You need **{hits:,}** hits to reach the target level."
-msgstr "Necesitas **{golpes:,}** hits para alcanzar el nivel objetivo."
+msgstr "Necesitas **{hits:,}** hits para alcanzar el nivel objetivo."
 
 #: cogs/calculators.py:256
 msgid "Calculates the training time required to reach a target magic level.\n\n"
@@ -1344,8 +1344,8 @@ msgstr "Para alcanzar **{mana:,}** puntos de maná, necesitas al menos los sigui
 #: cogs/calculators.py:636
 msgid "You would need **{weapons:,}** exercise weapons.\n"
 "Costing **{weapons_cost:,}** gold coins or **{tc_cost:,}** Tibia coins.\n"
-msgstr "Necesitarías **{armas:}** exercise weapons.\n"
-"Costando **{armas_cost:,}** monedas de oro o **{tc_cost:,}** monedas de Tibia.\n"
+msgstr "Necesitarías **{weapons:,}** exercise weapons.\n"
+"Costando **{weapons_cost:,}** monedas de oro o **{tc_cost:,}** monedas de Tibia.\n"
 
 #: cogs/calculators.py:641
 #, python-brace-format
@@ -3940,7 +3940,7 @@ msgstr "No se pudo encontrar ninguna subasta para este personaje."
 #. Format string for entries in the auction character command
 #: cogs/tibia.py:297
 msgid "{id} - Lvl {level} {voc} - {world} - {bid:,}{tc} - "
-msgstr ""
+msgstr "{id} - Nvl {level} {voc} - {world} - {bid:,}{tc} - "
 
 #: cogs/tibia.py:304
 msgid "Sold"
@@ -3964,7 +3964,7 @@ msgstr "Ese ítem no existe o nunca ha estado en una subasta."
 #. Format string for entries in the auction item command
 #: cogs/tibia.py:356
 msgid "`{id}` - {name} - Lvl {level} {voc} - {world} - {bid:,}{tc} - "
-msgstr ""
+msgstr "`{id}` - {name} - Nvl {level} {voc} - {world} - {bid:,}{tc} - "
 
 #: cogs/tibia.py:365
 msgid "There are no active auctions with that item."
@@ -4375,18 +4375,18 @@ msgstr "No pude encontrar ninguna entrada de highscores."
 #. Describes the level and experience in experience highscores entries
 #: cogs/tibia.py:928
 msgid "Lvl {level} ({exp:,} exp)"
-msgstr ""
+msgstr "Nvl {level} ({exp:,} exp)"
 
 #. Describe the points for charms, loyalty, achievements and goshnar's taints highscore entries
 #: cogs/tibia.py:932
 msgid "{value:,} points"
-msgstr ""
+msgstr "{valor:,} puntos"
 
 #. Describes the level for skill entries in the highscores
 #: cogs/tibia.py:935
 #, python-brace-format
 msgid "Level {value}"
-msgstr ""
+msgstr "Nivel {value}"
 
 #: cogs/tibia.py:943
 msgid "all worlds"
@@ -4631,8 +4631,8 @@ msgstr "No hay ningún personaje llamado **{name}**."
 #, python-brace-format
 msgid "**{lowest_name}** ({lowest_level}) needs {diff} more level to share experience with **{highest_name}** ({highest_level})."
 msgid_plural "**{lowest_name}** ({lowest_level}) needs {diff} more levels to share experience with **{highest_name}** ({highest_level})."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "**{lowest_name}** ({lowest_level}) necesita {diff} nivel más para compartir experiencia con **{highest_name}** ({highest_level})."
+msgstr[1] "**{lowest_name}** ({lowest_level}) necesita {diff} niveles más para compartir experiencia con **{highest_name}** ({highest_level})."
 
 #: cogs/tibia.py:1368
 msgid "They can all share experience with each other."
@@ -4796,7 +4796,8 @@ msgstr "Renombrar una zona horaria\n"
 #: cogs/tibia.py:1652
 msgid "There's no timezone saved with that name.\n"
 "Remember to use the timezone's real name, not the display name."
-msgstr ""
+msgstr "No hay una zona horaria guardada con ese nombre.\n"
+"Recuerda usar el nombre real de la zona horaria, no el nombre para mostrar."
 
 #: cogs/tibia.py:1660
 #, python-brace-format
@@ -4846,13 +4847,13 @@ msgstr "El récord de jugadores en línea es {count:,}"
 #. To indicate that the world has always had battleye protection
 #: cogs/tibia.py:1783
 msgid "Always"
-msgstr ""
+msgstr "Siempre"
 
 #. The date when battleye protectetion was applied to this server
 #: cogs/tibia.py:1787
 #, python-brace-format
 msgid "Since {battleye_date}"
-msgstr ""
+msgstr "Desde {battleye_date}"
 
 #: cogs/tibia.py:1795
 msgid "PvP Type"
@@ -4952,7 +4953,7 @@ msgstr "Leer más"
 
 #: cogs/tibia.py:2080
 msgid "Recent news"
-msgstr ""
+msgstr "Noticias recientes"
 
 #: cogs/tibia.py:2082
 #, python-brace-format
@@ -5020,7 +5021,7 @@ msgstr "El personaje está oculto."
 
 #: cogs/tibia.py:2140
 msgid "Loyalty Title"
-msgstr "Título de lealtad"
+msgstr "Título de loyalty"
 
 #: cogs/tibia.py:2144
 msgid "Other Character"
@@ -5169,20 +5170,20 @@ msgstr "{name} (**@{user}**) - En nivel **{level}** por {killer} - hace {time}"
 #, python-format
 msgid "**%d** day"
 msgid_plural "**%d** days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "**%d** días"
+msgstr[1] "**%d** días"
 
 #. Last time the boss was seen
 #: cogs/tibia.py:2489
 #, python-brace-format
 msgid "Last seen {time} ago"
-msgstr ""
+msgstr "Visto por última vez hace {time}"
 
 #. Time to expect the boss to show up again
 #: cogs/tibia.py:2492
 #, python-brace-format
 msgid "Expect in {time}"
-msgstr ""
+msgstr "Esperado en {time}"
 
 #: cogs/tibiawiki.py:99
 msgid "Defensive"
@@ -7150,7 +7151,8 @@ msgstr "Añadido por {user}"
 #: cogs/tracking.py:1691
 msgid "Shows details about a guild entry in a watchlist.\n\n"
 "        This shows who added the player, when, and if there's a reason why they were added."
-msgstr ""
+msgstr "Muestra detalles sobre una entrada de guild en una watchlist.\n\n"
+"        Esto muestra quién agregó al jugador, cuándo y si hay una razón por la que fueron añadidos."
 
 #: cogs/tracking.py:1700
 #, python-brace-format
