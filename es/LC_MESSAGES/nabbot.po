@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-20 09:08-0700\n"
-"PO-Revision-Date: 2021-04-20 16:10\n"
+"PO-Revision-Date: 2021-04-20 17:32\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -197,27 +197,27 @@ msgstr "Ella"
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d día"
+msgstr[1] "%d días"
 
 #: utils/timing.py:200
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d hora"
+msgstr[1] "%d horas"
 
 #: utils/timing.py:202
 #, python-format
 msgid "%d minutes"
 msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d minuto"
+msgstr[1] "%d minutos"
 
 #. Used to describe a low time frame, e.g. 'in moments', 'moments ago'
 #: utils/timing.py:205
 msgid "moments"
-msgstr ""
+msgstr "un momento"
 
 #: cogs/admin.py:33 cogs/tibia.py:2007 cogs/tibia.py:2090
 msgid "World"
@@ -519,7 +519,7 @@ msgstr "Este idioma no está soportado actualmente."
 
 #: cogs/admin.py:266
 msgid "The supported languages are:"
-msgstr ""
+msgstr "Los idiomas soportados son:"
 
 #: cogs/admin.py:269
 #, python-brace-format
@@ -529,7 +529,7 @@ msgstr "¿Quieres establecer el idioma a `{language}`?"
 #: cogs/admin.py:283
 #, python-brace-format
 msgid "This server messages will now be in **{language}**."
-msgstr ""
+msgstr "Este servidor ahora estará en **{language}**."
 
 #: cogs/admin.py:291
 msgid "Changes the channel where levelup and deaths are announced.\n"
@@ -3757,11 +3757,11 @@ msgstr "No se han encontrado datos."
 
 #: cogs/tibia.py:128
 msgid "**{value:,}** points"
-msgstr ""
+msgstr "**{value:,}** puntos"
 
 #: cogs/tibia.py:129
 msgid "Level **{value:,}**"
-msgstr ""
+msgstr "Nivel **{value:,}**"
 
 #: cogs/tibia.py:132 cogs/tibia.py:2012 cogs/tibia.py:2103
 msgid "Achievement Points"
@@ -3769,7 +3769,7 @@ msgstr "Puntos de achievements"
 
 #: cogs/tibia.py:133
 msgid "Axe Fighting"
-msgstr ""
+msgstr "Axe"
 
 #: cogs/tibia.py:134 cogs/tibiawiki.py:645
 msgid "Charm Points"
@@ -3777,55 +3777,55 @@ msgstr "Charm Points"
 
 #: cogs/tibia.py:135
 msgid "Club Fighting"
-msgstr ""
+msgstr "Club"
 
 #: cogs/tibia.py:136
 msgid "Distance Fighting"
-msgstr ""
+msgstr "Distance"
 
 #: cogs/tibia.py:137
 msgid "Experience Points"
-msgstr ""
+msgstr "Experiencia"
 
 #: cogs/tibia.py:138
 msgid "Experience Points (Rookgaard)"
-msgstr ""
+msgstr "Experiencia (Rookgaard)"
 
 #: cogs/tibia.py:139
 msgid "Fishing"
-msgstr ""
+msgstr "Fishing"
 
 #: cogs/tibia.py:140
 msgid "Fist Fighting"
-msgstr ""
+msgstr "Fist"
 
 #: cogs/tibia.py:141
 msgid "Loyalty Points"
-msgstr ""
+msgstr "Loyalty"
 
 #: cogs/tibia.py:142
 msgid "Magic Level"
-msgstr ""
+msgstr "Magic level"
 
 #: cogs/tibia.py:143
 msgid "Magic Level (knights)"
-msgstr ""
+msgstr "Magic level (knights)"
 
 #: cogs/tibia.py:144
 msgid "Magic Level (paladins)"
-msgstr ""
+msgstr "Magic level (paladins)"
 
 #: cogs/tibia.py:145
 msgid "Shielding"
-msgstr ""
+msgstr "Shielding"
 
 #: cogs/tibia.py:146
 msgid "Sword Fighting"
-msgstr ""
+msgstr "Sword"
 
 #: cogs/tibia.py:147
 msgid "Goshnar's Taint"
-msgstr ""
+msgstr "Goshnar's Taint"
 
 #: cogs/tibia.py:171
 msgid "Rented"
@@ -4018,7 +4018,7 @@ msgstr "No hay posts de CMs en los ultimos 30 días."
 #: cogs/tibia.py:518
 #, python-brace-format
 msgid "`{id}` - {post} - *{time} ago*"
-msgstr ""
+msgstr "`{id}` - {post} - *hace {time}*"
 
 #: cogs/tibia.py:525
 msgid "Recent CM Posts"
@@ -4057,7 +4057,7 @@ msgstr "Muestra las últimas muertes causadas por un monstruo específico."
 #: cogs/tibia.py:590
 #, python-brace-format
 msgid "{name} (**@{user}**) - At level **{level}** - *{time} ago*"
-msgstr ""
+msgstr "{name} (**@{user}**) - En nivel **{level}** - *hace {time}*"
 
 #: cogs/tibia.py:596
 msgid "There are no registered deaths by that monster."
@@ -4899,7 +4899,7 @@ msgstr "Nunca ha iniciado sesión."
 #: cogs/tibia.py:2121
 msgctxt "Premium/Free"
 msgid "Status"
-msgstr "Estadao"
+msgstr "Estado"
 
 #: cogs/tibia.py:2124
 msgid "Character is hidden."
@@ -4928,7 +4928,7 @@ msgstr "Información de la cuenta"
 #: cogs/tibia.py:2149
 #, python-format
 msgid "Rank **%d**"
-msgstr ""
+msgstr "Posición **%d**"
 
 #: cogs/tibia.py:2156
 msgid "Highscores entries"
@@ -5054,15 +5054,15 @@ msgstr "{name} (**@{user}**) - En nivel **{level}** por {killer} - hace {time}"
 
 #: cogs/tibiawiki.py:99
 msgid "Defensive"
-msgstr ""
+msgstr "Defensivos"
 
 #: cogs/tibiawiki.py:99
 msgid "Offensive"
-msgstr ""
+msgstr "Ofensivos"
 
 #: cogs/tibiawiki.py:99
 msgid "Passive"
-msgstr ""
+msgstr "Pasivos"
 
 #. Used next to a numeric value to describe a price paid with the in-game currency
 #: cogs/tibiawiki.py:105 cogs/tibiawiki.py:753
@@ -5102,8 +5102,8 @@ msgstr "Muestra las criaturas de una categoría o todas las categorías.\n\n"
 #: cogs/tibiawiki.py:167
 msgid "creature"
 msgid_plural "creatures"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "criatura"
+msgstr[1] "criaturas"
 
 #: cogs/tibiawiki.py:170
 msgid "Bestiary Classes"
@@ -5136,7 +5136,12 @@ msgid "Displays information about an imbuement.\n\n"
 "        The total cost will be calculated, as well as the hourly cost.\n"
 "        If applicable, it will show the cheapest way to get it using gold tokens.\n\n"
 "        It can also accept prices using the 'k' suffix, e.g. 1.5k"
-msgstr ""
+msgstr "Muestra información sobre un imbuement.\n\n"
+"        Opcionalmente puedes proporcionar precios para los materiales, en el orden del nivel al que pertenecen.\n"
+"        Además, para imbuements de Vampirism, Void y Strike, puedes proporcionar el precio de los gold tokens.\n\n"
+"        El costo total se calculará, así como el costo por hora.\n"
+"        Si es aplicable, mostrará la forma más barata de obtenerlo usando gold token.\n\n"
+"        También puede aceptar precios utilizando el sufijo 'k', por ejemplo 1.5k"
 
 #: cogs/tibiawiki.py:223 cogs/tibiawiki.py:229
 #, python-brace-format
@@ -5357,7 +5362,7 @@ msgstr "Añade el precio de gold tokens al final para encontrar la opción más 
 #. Price per individual item
 #: cogs/tibiawiki.py:712 cogs/tibiawiki.py:771
 msgid "gold each"
-msgstr ""
+msgstr "gold cada uno"
 
 #: cogs/tibiawiki.py:725
 msgid "Getting the materials is cheaper."
@@ -5777,12 +5782,13 @@ msgstr "Debes especificar para cuál de tus personajes es el cooldown.\n"
 #, python-brace-format
 msgid "There's no boss with that name.\n"
 "For a list of supported bosses, try: `{prefix}{command} bosslist`"
-msgstr ""
+msgstr "No hay ningún boss con ese nombre.\n"
+"Para una lista de bosses soportados, intenta: `{prefix}{command} bosslist`"
 
 #: cogs/timers.py:649
 #, python-brace-format
 msgid "There's no active timer for boss {name} for {db_char.name}"
-msgstr ""
+msgstr "No hay ningún temporizador activo para el boss {name} para {db_char.name}"
 
 #: cogs/timers.py:653
 msgid "Boss timer deleted."
@@ -5792,12 +5798,14 @@ msgstr "Temporizador de boss eliminado."
 msgid "Shows the boss that is present today in the Dream Scar\n\n"
 "        If no world is specified, the currently tracked world will be used.\n"
 "        If used via PM, a world must be specified."
-msgstr ""
+msgstr "Muestra al boss que está presente hoy en Dream Scar\n\n"
+"        Si no se especifica ningún mundo, se utilizará el mundo actualmente rastreado.\n"
+"        Si se utiliza a través de mensaje privado, un mundo debe ser especificado."
 
 #: cogs/timers.py:666
 #, python-brace-format
 msgid "You must specify a world, example: `{prefix}{command} Antica`"
-msgstr ""
+msgstr "Debes especificar un mundo, ejemplo: `{prefix}{command} Antica`"
 
 #: cogs/timers.py:670
 msgid "That is not a valid world."
@@ -5805,16 +5813,16 @@ msgstr "Ese no es un mundo válido."
 
 #: cogs/timers.py:674
 msgid "I don't have enough data on this world yet."
-msgstr ""
+msgstr "Aún no tengo suficientes datos sobre este mundo."
 
 #: cogs/timers.py:675
 msgid "Dream Scar Boss of the Day"
-msgstr ""
+msgstr "Boss de Dream Scar del día"
 
 #: cogs/timers.py:677
 #, python-brace-format
 msgid "Today **{next_boss}** is in the Dream Scar in **{world}**"
-msgstr ""
+msgstr "**{next_boss}** esta en el Dream Scar en **{world}** hoy"
 
 #: cogs/timers.py:679
 msgid "As of the server save of"
@@ -5830,7 +5838,8 @@ msgstr "Muestra una lista de eventos próximos y recientes.\n\n"
 #, python-brace-format
 msgid "For more info about an event, use `{prefix}{command} info (id)`\n"
 "To receive notifications for an event, use `{prefix}{command} sub (id)`"
-msgstr ""
+msgstr "Para más información sobre un evento, usa `{prefix}{command} info (id)`\n"
+"Para recibir notificaciones de un evento, usa `{prefix}{command} sub (id)`"
 
 #: cogs/timers.py:709
 msgid "There are no upcoming events."
@@ -5861,7 +5870,15 @@ msgid "Creates a new event.\n\n"
 "        The event description is optional, you can also use links like: `[link title](link url)`.\n\n"
 "        Once the event is created, the id of the event will be returned. This is used for further edits.\n"
 "        "
-msgstr ""
+msgstr "Crea un nuevo evento.\n\n"
+"        `starts in` es en cuánto tiempo comenzará el evento desde el momento de la creación.\n"
+"        Esto se hace para evitar manejar diferentes zonas horarias.\n"
+"        Di en cuántos días/horas/minutos comienza el evento.\n\n"
+"        El tiempo se puede establecer usando unidades como 'd' para días, 'h' para horas, 'm' para minutos y 'd' para segundos.\n"
+"        Ejemplos: 1d20h5m, 1d30m, 1h40m, 40m\n\n"
+"        La descripción del evento es opcional, también puedes usar enlaces como: `[link title](link url)`.\n\n"
+"        Una vez creado el evento, se devolverá el id del evento. Esto se utiliza para futuras ediciones.\n"
+"        "
 
 #: cogs/timers.py:766
 #, python-format
@@ -5967,12 +5984,14 @@ msgstr "La descripción del evento **{event.name}** fue cambiada."
 msgid "Changes whether anyone can join an event or only the owner may add people.\n\n"
 "        If an event is joinable, anyone can join using `event join id`  .\n"
 "        Otherwise, the event creator has to add people with `event addplayer id`."
-msgstr ""
+msgstr "Cambia si alguien puede unirse a un evento o sólo el propietario puede agregar personas.\n\n"
+"        Si un evento es unible, cualquiera puede unirse usando `event join id` .\n"
+"        De lo contrario, el creador de eventos tiene que añadir personas con `event addplayer id`."
 
 #: cogs/timers.py:925
 #, python-brace-format
 msgid "Do you want **{event.name}** to be joinable? `yes/no/cancel`"
-msgstr ""
+msgstr "¿Quieres que **{event.name}** se unible? `sí/no/cancelar`"
 
 #: cogs/timers.py:938
 msgid "joinable"
@@ -5985,12 +6004,12 @@ msgstr "no unible"
 #: cogs/timers.py:942
 #, python-brace-format
 msgid "The event is now **{new_state}**."
-msgstr ""
+msgstr "El evento es ahora **{new_state}**."
 
 #: cogs/timers.py:947
 #, python-brace-format
 msgid "Your event **{event}** was changed to **{new_state}** by {user}."
-msgstr ""
+msgstr "Tu evento **{event}** fue cambiado a **{new_state}** por {user}."
 
 #: cogs/timers.py:957
 msgid "Edits an event's name.\n\n"
@@ -7313,33 +7332,33 @@ msgstr ""
 msgid "…and {count:,} more"
 msgid_plural "…and {count:,} more"
 msgstr[0] ""
-msgstr[1] ""
+msgstr[1] "…y {count:,} más"
 
 #: models/context.py:195
 msgid "Please choose one of the options."
-msgstr ""
+msgstr "Selecciona una de las opciones."
 
 #: models/context.py:197
 msgid "I couldn't find what you were looking for, maybe you mean one of these?"
-msgstr ""
+msgstr "No pude encontrar lo que estabas buscando, ¿tal vez te refieras a uno de estos?"
 
 #: models/context.py:199
 msgid "**Only say the number** (*0 to cancel*)"
-msgstr ""
+msgstr "**Solo di el número** (*0 para cancelar*)"
 
 #: models/context.py:210
 msgid "Alright, choosing cancelled."
-msgstr ""
+msgstr "Esta bien, se canceló la elección."
 
 #: models/context.py:216
 msgid "That wasn't in the choices."
-msgstr ""
+msgstr "Eso no estaba en las opciones."
 
 #: models/context.py:279
 msgid "Bot does not have `Add Reactions` permission."
-msgstr ""
+msgstr "El bot no tiene permiso de `Añadir reacciones`."
 
 #: models/context.py:281
 msgid "Bot does not have `Read Message History` permission."
-msgstr ""
+msgstr "El bot no tiene permiso para `Leer el historial de mensajes`."
 
