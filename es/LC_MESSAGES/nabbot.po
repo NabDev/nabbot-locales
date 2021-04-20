@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-20 09:08-0700\n"
-"PO-Revision-Date: 2021-04-20 18:08\n"
+"PO-Revision-Date: 2021-04-20 19:08\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4356,7 +4356,7 @@ msgstr "No hay niveles registrados de este usuario."
 #: cogs/tibia.py:1124
 #, python-brace-format
 msgid "{user} latest level ups"
-msgstr "{user} niveles más recientes"
+msgstr "Niveles más recientes de {user}"
 
 #: cogs/tibia.py:1136
 msgid "Shows the latest news articles from Tibia.com.\n\n"
