@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-20 09:08-0700\n"
-"PO-Revision-Date: 2021-04-20 17:32\n"
+"PO-Revision-Date: 2021-04-20 18:08\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5617,7 +5617,7 @@ msgstr "Tiempo del server save"
 
 #: cogs/timers.py:265
 msgid "Alright, event making cancelled."
-msgstr ""
+msgstr "Bien, creación de eventos cancelada."
 
 #. Message received when a reminder is due
 #: cogs/timers.py:410
@@ -6014,12 +6014,13 @@ msgstr "Tu evento **{event}** fue cambiado a **{new_state}** por {user}."
 #: cogs/timers.py:957
 msgid "Edits an event's name.\n\n"
 "        If no new name is provided initially, the bot will ask for one."
-msgstr ""
+msgstr "Edita el nombre de un evento.\n\n"
+"        Si no se proporciona ningún nombre nuevo inicialmente, el bot pedirá uno."
 
 #: cogs/timers.py:966
 #, python-brace-format
 msgid "What would you like to be the new name of **{event}**? You can `cancel` this."
-msgstr ""
+msgstr "¿Cuál te gustaría que fuera el nuevo nombre de **{event}**? Puedes `cancelar` esto."
 
 #: cogs/timers.py:979
 #, python-format
@@ -6029,7 +6030,7 @@ msgstr "El nombre no puede tener más de %d caracteres."
 #: cogs/timers.py:981
 #, python-brace-format
 msgid "Do you want to change the name of **{event}** to **{new_name}**?"
-msgstr ""
+msgstr "¿Quieres cambiar el nombre de **{event}** a **{new_name}**?"
 
 #: cogs/timers.py:993
 #, python-brace-format
@@ -6049,7 +6050,8 @@ msgstr "El evento **{event.name}** fue renombrado a **{new_name}**."
 #: cogs/timers.py:1007
 msgid "Edits an event's number of slots\n\n"
 "        Slots is the number of characters an event can have. By default this is 0, which means no limit."
-msgstr ""
+msgstr "Edita el número de espacios de un evento\n\n"
+"        Los espacios son el número de personajes que un evento puede tener. Por defecto esto es 0, lo que significa que no hay límite."
 
 #: cogs/timers.py:1016
 #, python-brace-format
@@ -6863,7 +6865,7 @@ msgstr "Añade una guild completa a un watchlist.\n\n"
 #: cogs/tracking.py:1506
 #, python-brace-format
 msgid "This guild is not in **{world}**."
-msgstr ""
+msgstr "Este guild no está en **{world}**."
 
 #: cogs/tracking.py:1509
 #, python-brace-format
@@ -6873,41 +6875,43 @@ msgstr "¿Quieres añadir la guild **{guild}** al watchlist {channel}?"
 #: cogs/tracking.py:1521
 #, python-brace-format
 msgid "Guild **{guild}** added to the watchlist {channel}."
-msgstr ""
+msgstr "Guild **{guild}** ** añadido a la watchlist en {channel}."
 
 #: cogs/tracking.py:1525
 #, python-brace-format
 msgid "**{guild}** is already registered in {channel}"
-msgstr ""
+msgstr "**{guild}** ya está registrado en {channel}"
 
 #: cogs/tracking.py:1533
 msgid "Adds the currently registered characters of a user to the watchlist.\n\n"
 "        A reason can be specified by adding it after the character's name, separated by a comma."
-msgstr ""
+msgstr "Añade todos los personajes actualmente registrados de un usuario a la watchlist.\n\n"
+"        Una razón puede especificarse agregándola después del nombre del personaje, separado por una coma."
 
 #: cogs/tracking.py:1552
 msgid "I don't see any users with that name or id."
-msgstr ""
+msgstr "No veo ningún usuario con ese nombre o id."
 
 #: cogs/tracking.py:1555
 #, python-brace-format
 msgid "This user doesn't have any registered characters in {world}."
-msgstr ""
+msgstr "El usuario no tiene ningún personaje registrado en {world}."
 
 #: cogs/tracking.py:1559
 #, python-brace-format
 msgid "Do you want to add currently registered characters of `{user}` to this watchlist?\n"
 "{char_list}"
-msgstr ""
+msgstr "¿Quieres añadir los personajes registrados de `{user}` a esta watchlist?\n"
+"{char_list}"
 
 #: cogs/tracking.py:1575
 #, python-brace-format
 msgid "I added the following characters to the list {channel}, duplicates where skipped:{results}"
-msgstr ""
+msgstr "He añadido los siguientes personajes a la watchlist en {channel}, los duplicados se han omitido:{results}"
 
 #: cogs/tracking.py:1578
 msgid "No characters where added, as they were all duplicates."
-msgstr ""
+msgstr "No se añadieron personajes, ya que todos eran duplicados."
 
 #: cogs/tracking.py:1586
 msgid "Creates a watchlist channel.\n\n"
@@ -6915,7 +6919,11 @@ msgid "Creates a watchlist channel.\n\n"
 "        The watch list shows which characters from it are online. Entire guilds can be added too.\n\n"
 "        The channel can be renamed at anytime. If the channel is deleted, all its entries are deleted too.\n"
 "        "
-msgstr ""
+msgstr "Crea un canal de watchlist.\n\n"
+"        Crea un nuevo canal de texto para que se publique la watchlist.\n\n"
+"        La watchlist muestra qué personajes de ella están conectados. Guilds enteros también pueden ser añadidos.\n\n"
+"        El canal puede ser renombrado en cualquier momento. Si el canal es eliminado, todas sus entradas serán eliminadas también.\n"
+"        "
 
 #: cogs/tracking.py:1595
 #, python-format
@@ -6942,7 +6950,7 @@ msgstr "¿Quieres crear un watchlist llamado `{name}`?"
 
 #: cogs/tracking.py:1627
 msgid "Something went wrong, the channel name you chose is probably invalid."
-msgstr ""
+msgstr "Algo salió mal, el nombre del canal que elegiste probablemente no es válido."
 
 #: cogs/tracking.py:1630
 #, python-brace-format
@@ -6959,7 +6967,14 @@ msgid "This is where I will post a list of online watched characters.\n"
 "If this channel is deleted, all related entries will be lost.\n"
 "**It is important to not allow anyone to write in here**\n"
 "*This message can be deleted now.*"
-msgstr ""
+msgstr "Aquí es donde publicaré una lista de personajes vistos en línea.\n"
+"Editar los permisos de este canal para permitir los roles que quieras.\n"
+"Este canal puede ser renombrado libremente.\n"
+"Cualquier persona con permiso `Gestionar canal` aquí puede añadir entradas.\n"
+"Ejemplo: {prefix}{command} add {channel} Galarzaa Fidera\n"
+"Si se elimina este canal, se perderán todas las entradas relacionadas.\n"
+"**Es importante no permitir que nadie escriba aquí**\n"
+"*Este mensaje puede ser eliminado ahora.*"
 
 #: cogs/tracking.py:1648
 msgid "Removes all entries from watchlist."
@@ -6978,7 +6993,8 @@ msgstr "Todas las entradas en {channel} se han eliminado."
 #: cogs/tracking.py:1666
 msgid "Shows information about a watchlist entry.\n\n"
 "        This shows who added the player, when, and if there's a reason why they were added."
-msgstr ""
+msgstr "Muestra información sobre una entrada de la watchlist.\n\n"
+"        Esto muestra quién agregó al jugador, cuándo y si hay una razón por la que fueron añadidos."
 
 #: cogs/tracking.py:1675
 #, python-brace-format
@@ -7002,88 +7018,93 @@ msgstr "Añadido por {user}"
 #: cogs/tracking.py:1691
 msgid "\"Shows details about a guild entry in a watchlist.\n\n"
 "        This shows who added the player, when, and if there's a reason why they were added."
-msgstr ""
+msgstr "\"Muestra detalles sobre una entrada de guild en una watchlist.\n\n"
+"        Esto muestra quién agregó al jugador, cuándo y si hay una razón por la que fueron añadidos."
 
 #: cogs/tracking.py:1700
 #, python-brace-format
 msgid "There's no guild with that name registered to {channel}."
-msgstr ""
+msgstr "No hay ninguna guild con ese nombre registrado en {channel}."
 
 #: cogs/tracking.py:1716
 msgid "Shows characters belonging to that watchlist.\n\n"
 "        Note that this lists all characters, not just online characters."
-msgstr ""
+msgstr "Muestra personajes pertenecientes a esa watchlist.\n\n"
+"        Ten en cuenta que esto lista todos los personajes, no solo los que están en línea."
 
 #: cogs/tracking.py:1723 cogs/tracking.py:1746
 msgid "You can't see the list of a watchlist you can't see."
-msgstr ""
+msgstr "No puedes ver la lista de una watchlist que no puedes ver."
 
 #: cogs/tracking.py:1727 cogs/tracking.py:1749
 msgid "This watchlist has no registered characters."
-msgstr ""
+msgstr "Esta lista no tiene personajes registrados."
 
 #: cogs/tracking.py:1731
 #, python-brace-format
 msgid "Watched Characters in #{channel}"
-msgstr ""
+msgstr "Personajes registrados en #{channel}"
 
 #: cogs/tracking.py:1740
 msgid "Shows a list of guilds in the watchlist."
-msgstr ""
+msgstr "Muestra una lista de guilds en la watchlist."
 
 #: cogs/tracking.py:1753
 #, python-brace-format
 msgid "Watched Guilds in #{channel}"
-msgstr ""
+msgstr "Guilds registrados en #{channel}"
 
 #: cogs/tracking.py:1763
 msgid "Removes a character from a watchlist."
-msgstr ""
+msgstr "Elimina un personaje de una watchlist."
 
 #: cogs/tracking.py:1770
 #, python-brace-format
 msgid "There's no character with that name registered in {channel}."
-msgstr ""
+msgstr "No hay un personaje con ese nombre registrado en {channel}."
 
 #: cogs/tracking.py:1773
 #, python-brace-format
 msgid "Do you want to remove **{char}** from this watchlist?"
-msgstr ""
+msgstr "¿Quieres eliminar a **{char}** de esta watchlist?"
 
 #: cogs/tracking.py:1783
 msgid "Character removed from the watchlist."
-msgstr ""
+msgstr "Personaje eliminado de la watchlist."
 
 #: cogs/tracking.py:1791
 msgid "Deletes a watchlist feed.\n\n"
 "        The given channel must be the watchlist's channel, not the channel where the feed is located, for example:\n"
 "        To remove the feed in channel `#enemies-feed`,a feed for the watchlist in `#enemies-45`, the command would be        used like: `watchlist removefeed #enemies-45`\n"
 "        "
-msgstr ""
+msgstr "Elimina una watchlist.\n\n"
+"        El canal dado debe ser el canal de la watchlist, no el canal donde se encuentra el feed, por ejemplo:\n"
+"        Para eliminar el feed en el canal `#enemies-feed`, feed para la lista de seguimiento en `#enemies-45`, el comando sería usado como: `watchlist removefeed #enemies-45`\n"
+"        "
 
 #: cogs/tracking.py:1803
 #, python-brace-format
 msgid "{channel} doesn't have a feed."
-msgstr ""
+msgstr "{channel} no tiene un feed."
 
 #: cogs/tracking.py:1814
 #, python-brace-format
 msgid "The feed for {channel.mention} has been removed."
-msgstr ""
+msgstr "El feed de {channel.mention} ha sido eliminado."
 
 #: cogs/tracking.py:1821
 msgid "Removes a guild from the watchlist."
-msgstr ""
+msgstr "Elimina una guild de la watchlist."
 
 #: cogs/tracking.py:1828
 #, python-brace-format
 msgid "There's no guild with that name registered in {channel}."
-msgstr ""
+msgstr "No hay ningún guild con ese nombre registrado en {channel}."
 
 #: cogs/tracking.py:1831
 #, python-brace-format
 msgid "Do you want to remove **{name}** from this watchlist?"
-msgstr ""
+msgstr "¿Quieres eliminar a **{name}** de esta watchlist?"
 
 #: cogs/tracking.py:1840
 msgid "Guild removed from the watchlist."
@@ -7096,16 +7117,21 @@ msgid "Deletes a watchlist, even if the channel doesn't exist anymore.\n\n"
 "        anymore.\n\n"
 "        This also allows you to delete watchlists in channels that no longer exist.\n"
 "        To see the list of channels, try: `watchlist viewall`."
-msgstr ""
+msgstr "Elimina una watchlist, incluso si el canal ya no existe.\n\n"
+"        Se intentará eliminar el canal que contiene la lista vigilada. La eliminación del canal puede fallar\n"
+"        debido a falta de permisos. En este caso, el canal puede ser eliminado manualmente, la watchlist ya no se actualizará\n"
+"        más.\n\n"
+"        Esto también le permite eliminar watchlists en canales que ya no existen.\n"
+"        Para ver la lista de canales, prueba: `watchlist viewall`."
 
 #: cogs/tracking.py:1870
 msgid "There's no watchlist registered on that channel."
-msgstr ""
+msgstr "No hay una watchlist registrada en ese canal."
 
 #: cogs/tracking.py:1873
 #, python-brace-format
 msgid "Do you want to delete the watchlist from {channel}? All its entries will be lost and {channel} will be deleted too."
-msgstr ""
+msgstr "¿Quieres eliminar la watchlist de {channel}? Todas sus entradas se perderán y {channel} se eliminará también."
 
 #: cogs/tracking.py:1881
 msgid "Watchlist deleted."
@@ -7115,11 +7141,12 @@ msgstr "Watchlist eliminado."
 #, python-brace-format
 msgid "Watchlist deleted successfully.\n"
 "{icon} Could not delete {channel}. You can try deleting it manually. Its content won't be updated anymore."
-msgstr ""
+msgstr "Watchlist eliminada con éxito.\n"
+"{icon} No se pudo eliminar {channel}. Puedes intentar eliminarla manualmente. Su contenido ya no se actualizará."
 
 #: cogs/tracking.py:1888
 msgid "Watchlist and channel deleted successfully."
-msgstr ""
+msgstr "Watchlist y canal borrados correctamente."
 
 #: cogs/tracking.py:1891
 msgid "Watchlist deleted successfully."
@@ -7221,38 +7248,40 @@ msgstr "Elimina un guild de la lista blanca."
 
 #: cogs/tracking.py:2005
 msgid "There is no guild with that name in the whitelist."
-msgstr ""
+msgstr "No hay ningún guild con ese nombre en la lista blanca."
 
 #: cogs/tracking.py:2007
 #, python-brace-format
 msgid "Do you want to remove **{name}** from the whitelist?"
-msgstr ""
+msgstr "¿Quieres eliminar a **{name}** de la lista blanca?"
 
 #: cogs/tracking.py:2016
 #, python-brace-format
 msgid "**{name}** has been removed from the whitelist."
-msgstr ""
+msgstr "**{name}** ha sido eliminado de la lista blanca."
 
 #: cogs/tracking.py:2165
 #, python-brace-format
 msgid "Do you want to create a feed channel for {channel}?"
-msgstr ""
+msgstr "¿Quieres crear un canal de feed para {channel}?"
 
 #: cogs/tracking.py:2178
 #, python-brace-format
 msgid "Watchlist feed channel created by {user}"
-msgstr ""
+msgstr "Canal del feed de watchlist creado por {user}"
 
 #: cogs/tracking.py:2183
 #, python-brace-format
 msgid "This is the new feed channel for {channel}.\n"
 "Level ups and deaths for characters in this watchlist will be announced here.\n\n"
 "You might update this channel's permissions to allow others to see it."
-msgstr ""
+msgstr "Este es el nuevo feed para {channel}.\n"
+"Los niveles y muertes de personajes en esta watchlist se anunciarán aquí.\n\n"
+"Puede actualizar los permisos de este canal para permitir que otros lo vean."
 
 #: cogs/tracking.py:2188 cogs/tracking.py:2217
 msgid "Sorry, I failed to set the feed channel due to missing permissions."
-msgstr ""
+msgstr "Lo siento, no he podido establecer el canal de feed a que no tengo permisos suficientes."
 
 #: cogs/tracking.py:2190
 msgid "Something went wrong while creating the new channel."
@@ -7260,32 +7289,33 @@ msgstr "Algo salió mal al crear el nuevo canal."
 
 #: cogs/tracking.py:2193
 msgid "Watchlist feed created successfully."
-msgstr ""
+msgstr "Watchlist feed eliminado exitosamente."
 
 #: cogs/tracking.py:2200
 #, python-brace-format
 msgid "I need both `Manage Channel` and `Manage Webhooks` permissions in {new_channel} in order to create a feed for {channel}"
-msgstr ""
+msgstr "Necesito los permisos de `Gestionar canal` y `Gestionar webhooks` en {new_channel} para crear un feed para {channel}"
 
 #: cogs/tracking.py:2203
 #, python-brace-format
 msgid "Do you want to assign {new_channel} as the feed channel for {channel.mention}?"
-msgstr ""
+msgstr "¿Desea asignar a {new_channel} como canal de feed para {channel.mention}?"
 
 #: cogs/tracking.py:2210
 #, python-brace-format
 msgid "Watchlist webhook created by {user}"
-msgstr ""
+msgstr "Webhook de watchlist creado por {user}"
 
 #: cogs/tracking.py:2213
 #, python-brace-format
 msgid "This is the new feed channel for {channel}.\n"
 "Level ups and deaths for characters in this watchlist will be announced here."
-msgstr ""
+msgstr "Este es el nuevo canal de feed para {channel}.\n"
+"Los niveles y muertes de personajes en esta watchlist se anunciarán aquí."
 
 #: cogs/tracking.py:2219
 msgid "Something went wrong while assigning the feed channel."
-msgstr ""
+msgstr "Algo salió mal al asignar el canal de feed."
 
 #: cogs/tracking.py:2222
 msgid "Watchlist feed assigned successfully."
@@ -7322,16 +7352,16 @@ msgstr "Los siguientes personajes fueron reclamados por ti"
 
 #: models/context.py:174
 msgid "Suggestions"
-msgstr ""
+msgstr "Sugerencias"
 
 #: models/context.py:176
 msgid "No results found."
-msgstr ""
+msgstr "No se encontraron resultados."
 
 #: models/context.py:188
 msgid "…and {count:,} more"
 msgid_plural "…and {count:,} more"
-msgstr[0] ""
+msgstr[0] "…y {count:,} más"
 msgstr[1] "…y {count:,} más"
 
 #: models/context.py:195
