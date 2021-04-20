@@ -28,3 +28,4 @@ cogs/tibiammo.py
 cogs/tibiawiki.py
 cogs/timers.py
 cogs/tracking.py
+models/context.py
