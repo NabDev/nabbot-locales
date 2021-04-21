@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-21 13:07-0700\n"
-"PO-Revision-Date: 2021-04-21 20:10\n"
+"PO-Revision-Date: 2021-04-21 21:06\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -380,7 +380,7 @@ msgstr "Predeterminado global"
 
 #: cogs/admin.py:75 cogs/admin.py:179
 msgid "unknown language"
-msgstr ""
+msgstr "idioma desconocido"
 
 #: cogs/admin.py:85
 msgid "You can't remove this prefix."
@@ -527,25 +527,28 @@ msgid "Sets the language for the current server or your personal language.\n"
 "        \n"
 "        If used on a Discord server, it will attempt to change the server's language.\n"
 "        If used on a private message, it will attempt to change the user's language."
-msgstr ""
+msgstr "Establece el idioma para el servidor actual o tu idioma personal.\n"
+"        \n"
+"        Si se usa en un servidor de Discord, intentará cambiar el idioma del servidor.\n"
+"        Si se utiliza en un mensaje privado, intentará cambiar el idioma del usuario."
 
 #: cogs/admin.py:173
 msgid "You need `Manage Server` permission to change the server's language."
-msgstr ""
+msgstr "Necesita permisos de `Gestionar servidor` para cambiar el idioma del servidor."
 
 #: cogs/admin.py:174
 msgid "If what you want is to change your personal language, use this command on a private message."
-msgstr ""
+msgstr "Si lo que quieres es cambiar tu idioma personal, usa este comando en un mensaje privado."
 
 #: cogs/admin.py:181
 #, python-brace-format
 msgid "Your current personal language is **{language}**. I will use this only in private messages with you."
-msgstr ""
+msgstr "Tu idioma personal actual es **{language}**. Solo lo usaré en mensajes privados contigo."
 
 #: cogs/admin.py:184
 #, python-brace-format
 msgid "The language for this server is **{language}**."
-msgstr ""
+msgstr "El idioma para este servidor es **{language}**."
 
 #: cogs/admin.py:188
 msgid "This language is currently not supported."
@@ -558,12 +561,12 @@ msgstr "Los idiomas soportados son:"
 #: cogs/admin.py:193
 #, python-brace-format
 msgid "Do you want to set your personal language to `{language}`?"
-msgstr ""
+msgstr "¿Quieres establecer tu idioma personal a `{language}`?"
 
 #: cogs/admin.py:194
 #, python-brace-format
 msgid "Our private messages will now be in **{language}**."
-msgstr ""
+msgstr "Nuestros mensajes privados ahora estarán en **{language}**."
 
 #: cogs/admin.py:196
 #, python-brace-format
@@ -650,11 +653,11 @@ msgstr "Establece el idioma para este servidor."
 
 #: cogs/admin.py:315
 msgid "The desired language."
-msgstr ""
+msgstr "El idioma deseado."
 
 #: cogs/admin.py:316
 msgid "language"
-msgstr ""
+msgstr "idioma"
 
 #: cogs/admin.py:325
 msgid "Changes the channel where levelup and deaths are announced.\n"
