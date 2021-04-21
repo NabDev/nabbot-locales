@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-20 15:48-0700\n"
+"POT-Creation-Date: 2021-04-21 13:07-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -306,101 +306,105 @@ msgstr ""
 msgid "moments"
 msgstr ""
 
-#: cogs/admin.py:33 cogs/tibia.py:2019 cogs/tibia.py:2102
+#: cogs/admin.py:34 cogs/tibia.py:2019 cogs/tibia.py:2102
 msgid "World"
 msgstr ""
 
-#: cogs/admin.py:34
+#: cogs/admin.py:35
 msgid "Language"
 msgstr ""
 
-#: cogs/admin.py:35
+#: cogs/admin.py:36
 msgid "News channel"
 msgstr ""
 
-#: cogs/admin.py:36
+#: cogs/admin.py:37
 msgid "News tickers"
 msgstr ""
 
-#: cogs/admin.py:37
+#: cogs/admin.py:38
 msgid "Events channel"
 msgstr ""
 
-#: cogs/admin.py:38
+#: cogs/admin.py:39
 msgid "Server Log channel"
 msgstr ""
 
-#: cogs/admin.py:39
+#: cogs/admin.py:40
 msgid "Tracking channel"
 msgstr ""
 
-#: cogs/admin.py:40
+#: cogs/admin.py:41
 msgid "Min Announce Level"
 msgstr ""
 
-#: cogs/admin.py:41
+#: cogs/admin.py:42
 msgid "Prefix"
 msgstr ""
 
-#: cogs/admin.py:42
+#: cogs/admin.py:43
 msgid "Welcome message"
 msgstr ""
 
-#: cogs/admin.py:43
+#: cogs/admin.py:44
 msgid "Welcome channel"
 msgstr ""
 
-#: cogs/admin.py:44
+#: cogs/admin.py:45
 msgid "Default Announcements"
 msgstr ""
 
-#: cogs/admin.py:45
+#: cogs/admin.py:46
 msgid "Show User in Announcements"
 msgstr ""
 
-#: cogs/admin.py:48
+#: cogs/admin.py:49
 msgid "I couldn't find that channel, are you sure it exists?"
 msgstr ""
 
-#: cogs/admin.py:50
+#: cogs/admin.py:51
 msgid "yes/no"
 msgstr ""
 
-#: cogs/admin.py:51
+#: cogs/admin.py:52
 msgid "That's not a valid option, try **yes** or **no**."
 msgstr ""
 
-#: cogs/admin.py:52
+#: cogs/admin.py:53
 msgid "A channel's name or ID, or `disable`."
 msgstr ""
 
 #. Used to show that the current setting is the default global setting.
-#: cogs/admin.py:55
+#: cogs/admin.py:56
 msgid "Global default"
 msgstr ""
 
-#: cogs/admin.py:79
+#: cogs/admin.py:75 cogs/admin.py:179
+msgid "unknown language"
+msgstr ""
+
+#: cogs/admin.py:85
 msgid "You can't remove this prefix."
 msgstr ""
 
-#: cogs/admin.py:81
+#: cogs/admin.py:87
 #, python-format
 msgid "The prefix can't be longer than %d characters."
 msgstr ""
 
-#: cogs/admin.py:89
+#: cogs/admin.py:95
 msgid "Settings can't be modified on private messages."
 msgstr ""
 
-#: cogs/admin.py:95 cogs/tibia.py:2118
+#: cogs/admin.py:101 cogs/tibia.py:2118
 msgid "Yes"
 msgstr ""
 
-#: cogs/admin.py:95
+#: cogs/admin.py:101
 msgid "No"
 msgstr ""
 
-#: cogs/admin.py:110
+#: cogs/admin.py:116
 msgid ""
 "Checks the channel's permissions.\n"
 "\n"
@@ -408,145 +412,199 @@ msgid ""
 "            If no channel is specified, the current one is checked."
 msgstr ""
 
-#: cogs/admin.py:117
+#: cogs/admin.py:123
 #, python-brace-format
 msgid "**Checking {channel}:**"
 msgstr ""
 
-#: cogs/admin.py:120
+#: cogs/admin.py:126
 msgid "I have `Administrator` permission."
 msgstr ""
 
-#: cogs/admin.py:125
+#: cogs/admin.py:131
 msgid "I won't be able to see commands in here."
 msgstr ""
 
-#: cogs/admin.py:125
+#: cogs/admin.py:131
 msgid "View Channel"
 msgstr ""
 
-#: cogs/admin.py:126
+#: cogs/admin.py:132
 msgid "I won't be able to respond in here."
 msgstr ""
 
-#: cogs/admin.py:126
+#: cogs/admin.py:132
 msgid "Send Messages"
 msgstr ""
 
-#: cogs/admin.py:127 cogs/admin.py:132
+#: cogs/admin.py:133 cogs/admin.py:138
 msgid "Pagination or commands that require reaction confirmation won't work."
 msgstr ""
 
-#: cogs/admin.py:128
+#: cogs/admin.py:134
 msgid "Add Reactions"
 msgstr ""
 
-#: cogs/admin.py:129
+#: cogs/admin.py:135
 msgid "I won't be able to show my emojis in some commands."
 msgstr ""
 
-#: cogs/admin.py:130
+#: cogs/admin.py:136
 msgid "Use External Emoji"
 msgstr ""
 
-#: cogs/admin.py:133
+#: cogs/admin.py:139
 msgid "Read Message History"
 msgstr ""
 
-#: cogs/admin.py:134
+#: cogs/admin.py:140
 msgid "Command pagination won't work well."
 msgstr ""
 
-#: cogs/admin.py:134
+#: cogs/admin.py:140
 msgid "Manage Messages"
 msgstr ""
 
-#: cogs/admin.py:135
+#: cogs/admin.py:141
 msgid "I won't be able to show many of my commands."
 msgstr ""
 
-#: cogs/admin.py:135
+#: cogs/admin.py:141
 msgid "Embed Links"
 msgstr ""
 
-#: cogs/admin.py:136
+#: cogs/admin.py:142
 msgid "I won't be able to show images in some of my commands."
 msgstr ""
 
-#: cogs/admin.py:136
+#: cogs/admin.py:142
 msgid "Attach Files"
 msgstr ""
 
-#: cogs/admin.py:137
+#: cogs/admin.py:143
 msgid "I only need this to manage auto roles and joinable roles."
 msgstr ""
 
-#: cogs/admin.py:137
+#: cogs/admin.py:143
 msgid "Manage Roles"
 msgstr ""
 
-#: cogs/admin.py:138
+#: cogs/admin.py:144
 msgid "I only need this to create watchlists."
 msgstr ""
 
-#: cogs/admin.py:138
+#: cogs/admin.py:144
 msgid "Manage Channels"
 msgstr ""
 
-#: cogs/admin.py:139
+#: cogs/admin.py:145
 msgid "I need this to create server logs, news and levels channels, as well as watchlist feeds."
 msgstr ""
 
-#: cogs/admin.py:140
+#: cogs/admin.py:146
 msgid "Manage Webhooks"
 msgstr ""
 
-#: cogs/admin.py:141
+#: cogs/admin.py:147
 msgid "I only need this to show you the author of actions in the server log."
 msgstr ""
 
-#: cogs/admin.py:142
+#: cogs/admin.py:148
 msgid "View Audit Log"
 msgstr ""
 
 #. Shown when a specific Discord permission is missing
-#: cogs/admin.py:152
+#: cogs/admin.py:158
 #, python-brace-format
 msgid "Missing `{name}` permission"
 msgstr ""
 
-#: cogs/admin.py:155
+#: cogs/admin.py:161
 msgid "All permissions are correct!"
 msgstr ""
 
-#: cogs/admin.py:165
+#: cogs/admin.py:168
+msgid ""
+"Sets the language for the current server or your personal language.\n"
+"        \n"
+"        If used on a Discord server, it will attempt to change the server's language.\n"
+"        If used on a private message, it will attempt to change the user's language."
+msgstr ""
+
+#: cogs/admin.py:173
+msgid "You need `Manage Server` permission to change the server's language."
+msgstr ""
+
+#: cogs/admin.py:174
+msgid "If what you want is to change your personal language, use this command on a private message."
+msgstr ""
+
+#: cogs/admin.py:181
+#, python-brace-format
+msgid "Your current personal language is **{language}**. I will use this only in private messages with you."
+msgstr ""
+
+#: cogs/admin.py:184
+#, python-brace-format
+msgid "The language for this server is **{language}**."
+msgstr ""
+
+#: cogs/admin.py:188
+msgid "This language is currently not supported."
+msgstr ""
+
+#: cogs/admin.py:189
+msgid "The supported languages are:"
+msgstr ""
+
+#: cogs/admin.py:193
+#, python-brace-format
+msgid "Do you want to set your personal language to `{language}`?"
+msgstr ""
+
+#: cogs/admin.py:194
+#, python-brace-format
+msgid "Our private messages will now be in **{language}**."
+msgstr ""
+
+#: cogs/admin.py:196
+#, python-brace-format
+msgid "Do you want to set the language to `{language}`?"
+msgstr ""
+
+#: cogs/admin.py:197
+#, python-brace-format
+msgid "This server messages will now be in **{language}**."
+msgstr ""
+
+#: cogs/admin.py:220
 msgid "Checks or sets various server-specific settings."
 msgstr ""
 
-#: cogs/admin.py:168 cogs/admin.py:747
+#: cogs/admin.py:223 cogs/admin.py:781
 msgid "Settings"
 msgstr ""
 
-#: cogs/admin.py:169
+#: cogs/admin.py:224
 msgid "Use the subcommands to change the settings for this server."
 msgstr ""
 
-#: cogs/admin.py:180
+#: cogs/admin.py:235
 msgid ""
 "Sets whether simple messages will be used instead of random custom messages for levels and deaths.\n"
 "\n"
 "            When enabled, all level up and death messages will be the same, a simple and short message."
 msgstr ""
 
-#: cogs/admin.py:193
+#: cogs/admin.py:248
 msgid "I will use simple messages from now on."
 msgstr ""
 
-#: cogs/admin.py:196
+#: cogs/admin.py:251
 msgid "I will use randomized custom messages from now on."
 msgstr ""
 
-#: cogs/admin.py:206
+#: cogs/admin.py:261
 msgid ""
 "Changes the channel where upcoming events are announced.\n"
 "    \n"
@@ -557,64 +615,46 @@ msgid ""
 "            "
 msgstr ""
 
-#: cogs/admin.py:222
+#: cogs/admin.py:277
 msgid "Event announcements are already disabled."
 msgstr ""
 
-#: cogs/admin.py:224
+#: cogs/admin.py:279
 msgid "Are you sure you want to disable events announcements?"
 msgstr ""
 
-#: cogs/admin.py:234 cogs/admin.py:588
+#: cogs/admin.py:289 cogs/admin.py:622
 #, python-brace-format
 msgid "I don't have permission to use {channel}."
 msgstr ""
 
-#: cogs/admin.py:236
+#: cogs/admin.py:291
 #, python-brace-format
 msgid "Are you sure you want {channel} as the new events channel?"
 msgstr ""
 
-#: cogs/admin.py:246
+#: cogs/admin.py:301
 msgid "The events channel has been disabled."
 msgstr ""
 
-#: cogs/admin.py:248
+#: cogs/admin.py:303
 #, python-brace-format
 msgid "{channel} will now be used for events."
 msgstr ""
 
-#: cogs/admin.py:255
+#: cogs/admin.py:310
 msgid "Sets the language for this server."
 msgstr ""
 
-#: cogs/admin.py:261
-msgid "The desired language or `none` to revert to English."
+#: cogs/admin.py:315
+msgid "The desired language."
 msgstr ""
 
-#: cogs/admin.py:262
-msgid "language/none"
+#: cogs/admin.py:316
+msgid "language"
 msgstr ""
 
-#: cogs/admin.py:265
-msgid "This language is currently not supported."
-msgstr ""
-
-#: cogs/admin.py:266
-msgid "The supported languages are:"
-msgstr ""
-
-#: cogs/admin.py:269
-#, python-brace-format
-msgid "Do you want to set the language to `{language}`?"
-msgstr ""
-
-#: cogs/admin.py:283
-#, python-brace-format
-msgid "This server messages will now be in **{language}**."
-msgstr ""
-
-#: cogs/admin.py:291
+#: cogs/admin.py:325
 msgid ""
 "Changes the channel where levelup and deaths are announced.\n"
 "    \n"
@@ -625,7 +665,7 @@ msgid ""
 "            If this is disabled, Announcements won't be made, but there will still be tracking."
 msgstr ""
 
-#: cogs/admin.py:317
+#: cogs/admin.py:351
 msgid ""
 "Sets the minimum level for death and level up announcements.\n"
 "    \n"
@@ -633,31 +673,31 @@ msgid ""
 "            "
 msgstr ""
 
-#: cogs/admin.py:328
+#: cogs/admin.py:362
 msgid "Any number greater than 1"
 msgstr ""
 
-#: cogs/admin.py:328
+#: cogs/admin.py:362
 msgid "level"
 msgstr ""
 
-#: cogs/admin.py:330
+#: cogs/admin.py:364
 msgid "Level can't be lower than 1."
 msgstr ""
 
-#: cogs/admin.py:333
+#: cogs/admin.py:367
 #, python-brace-format
 msgid "Minimum announce level has been set to `{level}`."
 msgstr ""
 
-#: cogs/admin.py:341
+#: cogs/admin.py:375
 msgid ""
 "Changes the channel where Tibia news are announced.\n"
 "    \n"
 "            This is where all news and articles posted in Tibia.com will be announced."
 msgstr ""
 
-#: cogs/admin.py:363
+#: cogs/admin.py:397
 msgid ""
 "Enables or disables news tickers from Tibia.com in this server.\n"
 "\n"
@@ -665,15 +705,15 @@ msgid ""
 "            For news tickers to be announced, news announcement must be enabled."
 msgstr ""
 
-#: cogs/admin.py:377
+#: cogs/admin.py:411
 msgid "I will announce news ticker along news and featured articles from now on."
 msgstr ""
 
-#: cogs/admin.py:380
+#: cogs/admin.py:414
 msgid "I won't announce news ticker from now on."
 msgstr ""
 
-#: cogs/admin.py:390
+#: cogs/admin.py:424
 msgid ""
 "Changes the command prefixes for this server.\n"
 "\n"
@@ -690,56 +730,56 @@ msgid ""
 "            Mentioning the bot is always a valid command and can't be changed."
 msgstr ""
 
-#: cogs/admin.py:408
+#: cogs/admin.py:442
 #, python-brace-format
 msgid "{prefixes} and mentions"
 msgstr ""
 
-#: cogs/admin.py:409
+#: cogs/admin.py:443
 msgid "Mentions only"
 msgstr ""
 
-#: cogs/admin.py:410 cogs/admin.py:517
+#: cogs/admin.py:444 cogs/admin.py:551
 msgid "Any text"
 msgstr ""
 
-#: cogs/admin.py:410
+#: cogs/admin.py:444
 msgid "prefix"
 msgstr ""
 
-#: cogs/admin.py:417
+#: cogs/admin.py:451
 #, python-brace-format
 msgid "Do you want to remove `{prefix}` as a prefix?"
 msgstr ""
 
-#: cogs/admin.py:421
+#: cogs/admin.py:455
 #, python-brace-format
 msgid "You can't have more than {limit} command prefixes."
 msgstr ""
 
-#: cogs/admin.py:423
+#: cogs/admin.py:457
 #, python-brace-format
 msgid "Do you want to add `{prefix}` as a prefix?"
 msgstr ""
 
-#: cogs/admin.py:431
+#: cogs/admin.py:465
 #, python-brace-format
 msgid "The prefix `{prefix}` was removed."
 msgstr ""
 
-#: cogs/admin.py:434
+#: cogs/admin.py:468
 #, python-brace-format
 msgid "The prefix `{prefix}` was added."
 msgstr ""
 
-#: cogs/admin.py:449
+#: cogs/admin.py:483
 msgid ""
 "Changes the channel used as the server log.\n"
 "\n"
 "            In this channel, character registrations and server changes are announced."
 msgstr ""
 
-#: cogs/admin.py:471
+#: cogs/admin.py:505
 msgid ""
 "Sets whether level/death messages should show the user the character is registered to.\n"
 "\n"
@@ -747,15 +787,15 @@ msgid ""
 "            The users are won't receive a notification for this."
 msgstr ""
 
-#: cogs/admin.py:486
+#: cogs/admin.py:520
 msgid "I will show users on level up and death messages from now on."
 msgstr ""
 
-#: cogs/admin.py:489
+#: cogs/admin.py:523
 msgid "I won't show users on level up and death messages from now on."
 msgstr ""
 
-#: cogs/admin.py:499
+#: cogs/admin.py:533
 #, python-brace-format
 msgid ""
 "Changes the message new members receive when joining.\n"
@@ -775,48 +815,48 @@ msgid ""
 "            Be sure to change the welcome channel too."
 msgstr ""
 
-#: cogs/admin.py:517
+#: cogs/admin.py:551
 msgid "message/disable"
 msgstr ""
 
-#: cogs/admin.py:521
+#: cogs/admin.py:555
 msgid "Welcome messages are already disabled."
 msgstr ""
 
-#: cogs/admin.py:523
+#: cogs/admin.py:557
 msgid "Are you sure you want to disable welcome messages?"
 msgstr ""
 
-#: cogs/admin.py:528
+#: cogs/admin.py:562
 msgid "This message is too long! ({length:,}/{limit} characters)"
 msgstr ""
 
-#: cogs/admin.py:533
+#: cogs/admin.py:567
 msgid "Do you want to set this as the new welcome message?"
 msgstr ""
 
-#: cogs/admin.py:534
+#: cogs/admin.py:568
 msgid "*This is how your message would look if **you** joined.*"
 msgstr ""
 
-#: cogs/admin.py:535
+#: cogs/admin.py:569
 msgid "Message Preview"
 msgstr ""
 
-#: cogs/admin.py:540
+#: cogs/admin.py:574
 #, python-brace-format
 msgid "Unknown keyword {key}."
 msgstr ""
 
-#: cogs/admin.py:548
+#: cogs/admin.py:582
 msgid "The welcome message has been disabled."
 msgstr ""
 
-#: cogs/admin.py:550
+#: cogs/admin.py:584
 msgid "Welcome message updated."
 msgstr ""
 
-#: cogs/admin.py:558
+#: cogs/admin.py:592
 msgid ""
 "Changes the channel where new members are welcomed.\n"
 "\n"
@@ -828,41 +868,41 @@ msgid ""
 "            "
 msgstr ""
 
-#: cogs/admin.py:571
+#: cogs/admin.py:605
 msgid "A channel's name or ID, or `private`."
 msgstr ""
 
-#: cogs/admin.py:572
+#: cogs/admin.py:606
 msgid "channel/private"
 msgstr ""
 
-#: cogs/admin.py:574
+#: cogs/admin.py:608
 msgid "private"
 msgstr ""
 
-#: cogs/admin.py:576
+#: cogs/admin.py:610
 msgid "Welcome messages are already private."
 msgstr ""
 
-#: cogs/admin.py:578
+#: cogs/admin.py:612
 msgid "Are you sure you want to make welcome messages private?"
 msgstr ""
 
-#: cogs/admin.py:590
+#: cogs/admin.py:624
 #, python-brace-format
 msgid "Are you sure you want {channel} as the new welcome channel?"
 msgstr ""
 
-#: cogs/admin.py:600
+#: cogs/admin.py:634
 msgid "Welcome messages will be sent privately."
 msgstr ""
 
-#: cogs/admin.py:602
+#: cogs/admin.py:636
 #, python-brace-format
 msgid "{channel} will now be used for welcome messages."
 msgstr ""
 
-#: cogs/admin.py:610
+#: cogs/admin.py:644
 msgid ""
 "Changes the world this Discord server tracks.\n"
 "\n"
@@ -870,138 +910,138 @@ msgid ""
 "            Only characters in that world will be registered."
 msgstr ""
 
-#: cogs/admin.py:616
+#: cogs/admin.py:650
 msgid "Any Tibia world or `none` to disable."
 msgstr ""
 
-#: cogs/admin.py:616
+#: cogs/admin.py:650
 msgid "world/none"
 msgstr ""
 
-#: cogs/admin.py:621
+#: cogs/admin.py:655
 msgid "This server is already not tracking any world."
 msgstr ""
 
-#: cogs/admin.py:623
+#: cogs/admin.py:657
 #, python-brace-format
 msgid "Are you sure you want to unassign **{world}** from this server?"
 msgstr ""
 
-#: cogs/admin.py:630
+#: cogs/admin.py:664
 #, python-brace-format
 msgid "Are you sure you want to assign **{w}** to this server?"
 msgstr ""
 
-#: cogs/admin.py:642
+#: cogs/admin.py:676
 msgid "This server is no longer tracking any world."
 msgstr ""
 
-#: cogs/admin.py:644
+#: cogs/admin.py:678
 #, python-brace-format
 msgid "This server is now tracking **{world}**"
 msgstr ""
 
-#: cogs/admin.py:661
+#: cogs/admin.py:695
 #, python-brace-format
 msgid "The {name} channel was disabled."
 msgstr ""
 
-#: cogs/admin.py:662
+#: cogs/admin.py:696
 #, python-brace-format
 msgid "{name} disabled by {author}."
 msgstr ""
 
-#: cogs/admin.py:668
+#: cogs/admin.py:702
 #, python-brace-format
 msgid "{name} updated by {author}."
 msgstr ""
 
 #. 0 is the new channel, 1 is the type of channel
-#: cogs/admin.py:682
+#: cogs/admin.py:716
 #, python-brace-format
 msgid "{0} will now be used as the {1}."
 msgstr ""
 
-#: cogs/admin.py:685
+#: cogs/admin.py:719
 #, python-brace-format
 msgid "I was not able to create a webhook for channel {0}"
 msgstr ""
 
-#: cogs/admin.py:702
+#: cogs/admin.py:736
 msgid "Private Messages"
 msgstr ""
 
-#: cogs/admin.py:704
+#: cogs/admin.py:738
 msgid "Disabled."
 msgstr ""
 
-#: cogs/admin.py:706 cogs/admin.py:728
+#: cogs/admin.py:740 cogs/admin.py:762
 msgid "None."
 msgstr ""
 
-#: cogs/admin.py:708
+#: cogs/admin.py:742
 msgid "None, previous channel was deleted."
 msgstr ""
 
-#: cogs/admin.py:710
+#: cogs/admin.py:744
 #, python-brace-format
 msgid "{channel}, but I can't use the channel."
 msgstr ""
 
-#: cogs/admin.py:715
+#: cogs/admin.py:749
 msgid " I will send direct messages meanwhile."
 msgstr ""
 
-#: cogs/admin.py:719
+#: cogs/admin.py:753
 msgid " I have no channel to use."
 msgstr ""
 
-#: cogs/admin.py:721
+#: cogs/admin.py:755
 #, python-brace-format
 msgid " I will use {channel} meanwhile."
 msgstr ""
 
-#: cogs/admin.py:735
+#: cogs/admin.py:769
 msgid "None, webhook was deleted by a user."
 msgstr ""
 
-#: cogs/admin.py:737
+#: cogs/admin.py:771
 msgid "I'm not able to get the current value, please try again later."
 msgstr ""
 
-#: cogs/admin.py:750
+#: cogs/admin.py:784
 msgid "Current value"
 msgstr ""
 
-#: cogs/admin.py:751
+#: cogs/admin.py:785
 msgid "Edit"
 msgstr ""
 
-#: cogs/admin.py:752
+#: cogs/admin.py:786
 msgid "Accepted values"
 msgstr ""
 
-#: cogs/admin.py:758
+#: cogs/admin.py:792
 #, python-brace-format
 msgid "Use \"{prefix}help {command} {subcommand}\" for more info."
 msgstr ""
 
-#: cogs/admin.py:775
+#: cogs/admin.py:809
 #, python-brace-format
 msgid "There's no {name} channel set."
 msgstr ""
 
-#: cogs/admin.py:776
+#: cogs/admin.py:810
 #, python-brace-format
 msgid "Are you sure you want to disable the set {name}?"
 msgstr ""
 
-#: cogs/admin.py:785
+#: cogs/admin.py:819
 #, python-brace-format
 msgid "I need `Manage Webhooks` permissions to assign a {name}."
 msgstr ""
 
-#: cogs/admin.py:788
+#: cogs/admin.py:822
 #, python-brace-format
 msgid "Are you sure you want {new_channel} as the new {name}?"
 msgstr ""
@@ -1074,19 +1114,19 @@ msgstr ""
 msgid "Level must be higher than 1."
 msgstr ""
 
-#: cogs/calculators.py:191
+#: cogs/calculators.py:192
 msgid "Blessing of the Inquisition costs **{price:,}** gold coins."
 msgstr ""
 
-#: cogs/calculators.py:193
+#: cogs/calculators.py:194
 msgid "At that level you will pay **{price:,}** gold coins per blessing for a total of **{total:,}** gold coins."
 msgstr ""
 
-#: cogs/calculators.py:195
+#: cogs/calculators.py:196
 msgid "Mountain blessings cost **{mountain_bless_price:,}** each, for a total of **{mountain_total:,}**."
 msgstr ""
 
-#: cogs/calculators.py:205
+#: cogs/calculators.py:206
 msgid ""
 "Calculates the training time required to reach a target distance skill level.\n"
 "\n"
@@ -1095,40 +1135,40 @@ msgid ""
 "        "
 msgstr ""
 
-#: cogs/calculators.py:226
+#: cogs/calculators.py:227
 #, python-format
 msgid " with a loyalty bonus of %d%%."
 msgstr ""
 
-#: cogs/calculators.py:227
+#: cogs/calculators.py:228
 msgid "Distance Skill Calculator"
 msgstr ""
 
-#: cogs/calculators.py:229 cogs/calculators.py:285 cogs/calculators.py:334
+#: cogs/calculators.py:230 cogs/calculators.py:286 cogs/calculators.py:335
 #, python-brace-format
 msgid "From level {current} ({percentage}% to next level) to {target} as a {voc}{loyalty_str}"
 msgstr ""
 
-#: cogs/calculators.py:232 cogs/calculators.py:337
+#: cogs/calculators.py:233 cogs/calculators.py:338
 msgid "You need **{hits:,}** hits to reach the target level."
 msgstr ""
 
-#: cogs/calculators.py:256
+#: cogs/calculators.py:257
 msgid ""
 "Calculates the training time required to reach a target magic level.\n"
 "\n"
 "            It shows the needed mana, offline training time and exercise weapons needed."
 msgstr ""
 
-#: cogs/calculators.py:283
+#: cogs/calculators.py:284
 msgid "Magic Level Calculator"
 msgstr ""
 
-#: cogs/calculators.py:297
+#: cogs/calculators.py:298
 msgid "You need to spend **{mana:,}** mana to reach magic level {target}"
 msgstr ""
 
-#: cogs/calculators.py:307
+#: cogs/calculators.py:308
 msgid ""
 "Calculates the training time required to reach a target skill level.\n"
 "    \n"
@@ -1138,11 +1178,11 @@ msgid ""
 "            This only applies to axe, club and sword fighting."
 msgstr ""
 
-#: cogs/calculators.py:332
+#: cogs/calculators.py:333
 msgid "Melee Skill Calculator"
 msgstr ""
 
-#: cogs/calculators.py:360
+#: cogs/calculators.py:361
 msgid ""
 "Calculates the way to split loot based on the Party Hunt Analyzer.\n"
 "\n"
@@ -1152,33 +1192,33 @@ msgid ""
 "            It also shows the percentage of damage and healing contribution of each member in the party."
 msgstr ""
 
-#: cogs/calculators.py:369
+#: cogs/calculators.py:370
 msgid "Could not parse party session."
 msgstr ""
 
-#: cogs/calculators.py:372
+#: cogs/calculators.py:373
 #, python-brace-format
 msgid "Party Hunt Session — {member_count} members"
 msgstr ""
 
-#: cogs/calculators.py:379
+#: cogs/calculators.py:380
 msgid "Damage"
 msgstr ""
 
-#: cogs/calculators.py:383
+#: cogs/calculators.py:384
 msgid "Healing"
 msgstr ""
 
-#: cogs/calculators.py:395
+#: cogs/calculators.py:396
 msgid "Splitting Instructions"
 msgstr ""
 
-#: cogs/calculators.py:396
+#: cogs/calculators.py:397
 #, python-brace-format
 msgid "{duration}h hunt on {date}"
 msgstr ""
 
-#: cogs/calculators.py:404
+#: cogs/calculators.py:405
 msgid ""
 "Tells you the time you have to wait to restore stamina.\n"
 "\n"
@@ -1190,39 +1230,39 @@ msgid ""
 "            The footer text shows the time in your timezone where your stamina would be at the target stamina."
 msgstr ""
 
-#: cogs/calculators.py:416
+#: cogs/calculators.py:417
 msgid "Current stamina can't be greater than target stamina."
 msgstr ""
 
-#: cogs/calculators.py:418
+#: cogs/calculators.py:419
 msgid "Current stamina is already equal to target."
 msgstr ""
 
-#: cogs/calculators.py:435
+#: cogs/calculators.py:436
 #, python-brace-format
 msgid "{hours} hours and {minutes} minutes"
 msgstr ""
 
-#: cogs/calculators.py:437
+#: cogs/calculators.py:438
 #, python-brace-format
 msgid "{current_minutes} minutes"
 msgstr ""
 
-#: cogs/calculators.py:440
+#: cogs/calculators.py:441
 #, python-brace-format
 msgid "You need to rest **{remaining}** to get back to full stamina."
 msgstr ""
 
-#: cogs/calculators.py:442
+#: cogs/calculators.py:443
 #, python-brace-format
 msgid "You need to rest **{remaining}** to get back to **{hours}:{tminutes:02}** stamina."
 msgstr ""
 
-#: cogs/calculators.py:446
+#: cogs/calculators.py:447
 msgid "Full stamina"
 msgstr ""
 
-#: cogs/calculators.py:455
+#: cogs/calculators.py:456
 msgid ""
 "Calculates character stats based on vocation and level.\n"
 "    \n"
@@ -1235,79 +1275,79 @@ msgid ""
 "            "
 msgstr ""
 
-#: cogs/calculators.py:468
+#: cogs/calculators.py:469
 msgid "There's no level lower than 1, it doesn't matter how bad you are at Tibia."
 msgstr ""
 
 #. Shown when trying to enter a very high level.
-#: cogs/calculators.py:471
+#: cogs/calculators.py:472
 msgid "Why do you care? You will __**never**__ reach this level 🙄"
 msgstr ""
 
-#: cogs/calculators.py:485
+#: cogs/calculators.py:486
 msgid "with no vocation"
 msgstr ""
 
-#: cogs/calculators.py:487
+#: cogs/calculators.py:488
 #, python-brace-format
 msgid "**{name}** is a level **{level}** {vocation}, {he_she} has:"
 msgstr ""
 
-#: cogs/calculators.py:490
+#: cogs/calculators.py:491
 #, python-brace-format
 msgid "A level **{level}** {vocation}, has:"
 msgstr ""
 
-#: cogs/calculators.py:502
+#: cogs/calculators.py:503
 msgid ""
 "Calculates the level required to reach the specified capacity.\n"
 "\n"
 "            The levels needed for each vocation are shown."
 msgstr ""
 
-#: cogs/calculators.py:508
+#: cogs/calculators.py:509
 #, python-format
 msgid "Capacity can't be lower than %d."
 msgstr ""
 
-#: cogs/calculators.py:510
+#: cogs/calculators.py:511
 msgid ""
 "To reach **{capacity:,}** oz. capacity, you need at least the following levels per vocation:\n"
 "\t"
 msgstr ""
 
-#: cogs/calculators.py:523
+#: cogs/calculators.py:524
 #, python-format
 msgid "Hitpoints can't be lower than %d."
 msgstr ""
 
-#: cogs/calculators.py:536
+#: cogs/calculators.py:537
 #, python-format
 msgid "Mana can't be lower than %d."
 msgstr ""
 
-#: cogs/calculators.py:537
+#: cogs/calculators.py:538
 msgid ""
 "To reach **{mana:,}** mana points, you need at least the following levels per vocation:\n"
 "\t"
 msgstr ""
 
-#: cogs/calculators.py:636
+#: cogs/calculators.py:637
 msgid ""
 "You would need **{weapons:,}** exercise weapons.\n"
 "Costing **{weapons_cost:,}** gold coins or **{tc_cost:,}** Tibia coins.\n"
 msgstr ""
 
-#: cogs/calculators.py:641
+#: cogs/calculators.py:642
 #, python-brace-format
 msgid "Using them would take *{time}*."
 msgstr ""
 
-#: cogs/calculators.py:643
+#: cogs/calculators.py:644
 msgid "You will be dead before you can use them all."
 msgstr ""
 
-#: cogs/calculators.py:716
+#: cogs/calculators.py:717
 #, python-brace-format
 msgid ""
 "Invalid arguments, examples:\n"
@@ -1316,7 +1356,7 @@ msgid ""
 "```"
 msgstr ""
 
-#: cogs/calculators.py:723
+#: cogs/calculators.py:724
 #, python-brace-format
 msgid "Character **{name}** doesn't exist!"
 msgstr ""
