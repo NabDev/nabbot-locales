@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-22 12:18-0700\n"
-"PO-Revision-Date: 2021-04-22 19:30\n"
+"PO-Revision-Date: 2021-04-22 20:43\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -159,11 +159,11 @@ msgstr "**{name}** ({level}) fue matado por **{killer}**."
 
 #: utils/pages.py:98
 msgid "Bot does not have `Embed Links` permission."
-msgstr ""
+msgstr "El bot no tiene permiso de `Insertar enlaces`."
 
 #: utils/pages.py:101
 msgid "Bot cannot send messages."
-msgstr ""
+msgstr "El bot no puede enviar mensajes."
 
 #: utils/pages.py:105 models/context.py:279
 msgid "Bot does not have `Add Reactions` permission."
@@ -1214,15 +1214,15 @@ msgstr "No se pudo procesar la sesión."
 
 #: cogs/calculators.py:373
 msgid "Balance"
-msgstr ""
+msgstr "Balance"
 
 #: cogs/calculators.py:374
 msgid "Individual balance"
-msgstr ""
+msgstr "Balance individual"
 
 #: cogs/calculators.py:375
 msgid "Loot per hour"
-msgstr ""
+msgstr "Loot por hora"
 
 #: cogs/calculators.py:378
 #, python-brace-format
@@ -1303,7 +1303,14 @@ msgid "Calculates character stats based on vocation and level.\n"
 "    \n"
 "            1. To calculate the stats for a certain level and vocation. (`stats <level>,<vocation>`)\n"
 "            2. To calculate the stats of a character. (`stats <character>`)"
-msgstr ""
+msgstr "Calcula los stats de los personajes basándose en la vocación y el nivel.\n"
+"    \n"
+"            Muestra hitpoints, maná, capacidad, experiencia total y experiencia al siguiente nivel.\n"
+"    \n"
+"            Este comando puede utilizarse de dos maneras:\n"
+"    \n"
+"            1. Para calcular los stats para un cierto nivel y vocación. (`stats <nivel>,<vocacion>`)\n"
+"            2. Para calcular las stats de un personaje. (`stats <character>`)"
 
 #: cogs/calculators.py:470
 msgid "There's no level lower than 1, it doesn't matter how bad you are at Tibia."
@@ -2073,12 +2080,12 @@ msgstr "{0} miembro más antiguo\n"
 
 #: cogs/info.py:426
 msgid "System Uptime"
-msgstr ""
+msgstr "Tiempo en línea del sistema"
 
 #: cogs/info.py:427
 msgctxt "Operating System"
 msgid "OS"
-msgstr ""
+msgstr "SO"
 
 #: cogs/info.py:430
 msgid "RAM"
@@ -5784,22 +5791,22 @@ msgstr "El nombre del evento no puede tener más de %d caracteres."
 #: cogs/timers.py:284
 #, python-brace-format
 msgid "**{time}** after the server save of **{date}**"
-msgstr ""
+msgstr "**{time}** después del server save de **{date}**"
 
 #: cogs/timers.py:288
 #, python-brace-format
 msgid "**{time}** before the server save of **{date}**"
-msgstr ""
+msgstr "**{time}** antes del server save de **{date}**"
 
 #: cogs/timers.py:396 cogs/timers.py:736
 msgid "unknown user"
-msgstr ""
+msgstr "usuario desconocido"
 
 #. Event notification
 #: cogs/timers.py:402
 #, python-brace-format
 msgid "Event: **{name}** (ID: {id} | by {user}) - Is starting in {time}"
-msgstr ""
+msgstr "Evento: **{name}** (ID: {id} | por {user}) - Empieza en {time}"
 
 #. Message received when a reminder is due
 #: cogs/timers.py:434
@@ -6359,60 +6366,64 @@ msgstr "Has salido con éxito de este evento."
 #: cogs/timers.py:1242
 msgid "Creates an event guiding you step by step\n\n"
 "        Instead of using confusing parameters, commas and spaces, this commands has the bot ask you step by step."
-msgstr ""
+msgstr "Crea un evento guiándote paso a paso\n\n"
+"        En lugar de usar parámetros confusos, comas y espacios, este comando hace que el bot te pide paso a paso."
 
 #: cogs/timers.py:1251
 msgid "Let's create an event. What would you like the name to be? You can `cancel` at any time."
-msgstr ""
+msgstr "Vamos a crear un evento. ¿Cuál quieres que sea el nombre? Puedes `cancelar` en cualquier momento."
 
 #: cogs/timers.py:1275
 msgid "This is your event so far:"
-msgstr ""
+msgstr "Este es tu evento hasta ahora:"
 
 #: cogs/timers.py:1276
 #, python-brace-format
 msgid "Your event will be named **{name}**."
-msgstr ""
+msgstr "Tu evento se llamará **{name}**."
 
 #: cogs/timers.py:1277
 msgid "Now, what description would you like your event to have? `none/blank` to leave it empty. Bold, italics and links are supported."
-msgstr ""
+msgstr "Ahora, ¿qué descripción te gustaría que tuviera tu evento? `nada/vacío` para dejarlo vacío. Las negras, cursivas y enlaces son compatibles."
 
 #: cogs/timers.py:1279
 #, python-brace-format
 msgid "You took too long {user}, event making cancelled."
-msgstr ""
+msgstr "Tomaste demasiado tiempo {user}, creación de eventos cancelada."
 
 #: cogs/timers.py:1295
 msgid "Is this right?"
-msgstr ""
+msgstr "¿Es correcto?"
 
 #: cogs/timers.py:1303
 msgid "Alright, again, tell me the description you want for your event.\n"
 "Remember you can `cancel` the process or tell me `blank` to have no description."
-msgstr ""
+msgstr "De acuerdo, de nuevo, dime la descripción que quieres para tu evento.\n"
+"Recuerda que puedes `cancelar` el proceso o decirme `blanco` para que no tenga descripción."
 
 #: cogs/timers.py:1312
 msgid "Alright, now tell me in how much time will the event start from now. `e.g. 2d1h20m, 4h`"
-msgstr ""
+msgstr "Bien, ahora dime en cuánto tiempo comenzará el evento a partir de ahora. `p.e. 2d1h20m, 4h`"
 
 #: cogs/timers.py:1330
 msgid "Again, tell me the start time of the event from now.\n"
 "You can `cancel` if you want."
-msgstr ""
+msgstr "De nuevo, dime la hora de inicio del evento a partir de ahora.\n"
+"Puedes `cancelar` si quieres."
 
 #: cogs/timers.py:1337
 msgid "Is this time correct? The footer shows your local timezone."
-msgstr ""
+msgstr "¿Es correcto este tiempo? El pie de página muestra tu zona horaria local."
 
 #: cogs/timers.py:1345
 msgid "Ok, again, tell me when will the event start.\n"
 "Remember you can `cancel` the process."
-msgstr ""
+msgstr "Ok, de nuevo, dime cuándo comenzará el evento.\n"
+"Recuerda que puedes `cancelar` el proceso."
 
 #: cogs/timers.py:1356
 msgid "This will be your event, confirm that everything is correct and we will be done."
-msgstr ""
+msgstr "Este será su evento, confirma que todo es correcto y habremos terminado."
 
 #: cogs/timers.py:1375
 msgid "Shows the list of characters participating in this event."
