@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-23 13:55-0700\n"
-"PO-Revision-Date: 2021-04-23 23:08\n"
+"PO-Revision-Date: 2021-04-23 23:53\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1233,7 +1233,7 @@ msgstr ""
 
 #: cogs/calculators.py:251
 msgid "It shows the needed mana, offline training time and exercise weapons needed."
-msgstr ""
+msgstr "Muestra el maná necesario, el tiempo de entrenamiento offline y el número de exercise weapons necesarias."
 
 #: cogs/calculators.py:278
 msgid "Magic Level Calculator"
@@ -1245,13 +1245,15 @@ msgstr "Necesitas gastar **{mana:,}** mana para alcanzar magic level {target}"
 
 #: cogs/calculators.py:299
 msgid "Calculates the training time required to reach a target skill level."
-msgstr ""
+msgstr "Calcula el tiempo de entrenamiento necesario para alcanzar un nivel de skill deseado."
 
 #: cogs/calculators.py:300
 msgid "It shows the needed hits, online training time and offline training time.\n"
 "For knights, it also shows exercise weapons needed.\n\n"
 "This only applies to axe, club and sword fighting."
-msgstr ""
+msgstr "Muestra los hits necesarios, el tiempo de training online y el tiempo de training offline.\n"
+"Para los knight también muestra cuántas exercise weapons se necesitan.\n\n"
+"Esto solo se aplica para axe, club y sword fighting."
 
 #: cogs/calculators.py:325
 msgid "Melee Skill Calculator"
@@ -1259,13 +1261,16 @@ msgstr "Calculadora de melee"
 
 #: cogs/calculators.py:350
 msgid "Calculates the way to split loot based on the Party Hunt Analyzer."
-msgstr ""
+msgstr "Calcula la forma de dividir el loot basado en el Party Hunt Analyzer."
 
 #: cogs/calculators.py:351
 msgid "Shows the instructions to split the balance between the members, without needing to sell and split the loot.\n"
 "The instructions can be copied by double clicking and then pasted to a bank NPC.\n\n"
 "It also shows the percentage of damage and healing contribution of each member in the party."
-msgstr ""
+msgstr "Muestra las instrucciones para dividir el saldo entre los miembros, sin necesidad de vender y dividir el loot.\n"
+"Las instrucciones se pueden copiar haciendo doble clic y luego pegar en un NPC de banco.\n"
+" \n"
+"También muestra el porcentaje de contribución de daño y curación de cada miembro del grupo."
 
 #: cogs/calculators.py:360
 msgid "Could not parse party session."
@@ -1307,14 +1312,19 @@ msgstr "Caza de {duration}h el {date}"
 
 #: cogs/calculators.py:394
 msgid "Tells you the time you have to wait to restore stamina."
-msgstr ""
+msgstr "Te dice el tiempo que tienes que esperar para restaurar la estamina."
 
 #: cogs/calculators.py:395
 msgid "To use it, you must provide your current stamina, in this format: `hh:mm`.\n"
 "The bot will show the time needed to reach full stamina if you were to start sleeping now.\n\n"
 "Optionally, you can provide the target stamina you want.\n\n"
 "The footer text shows the time in your timezone where your stamina would be at the target stamina."
-msgstr ""
+msgstr "Para usarlo, debes proporcionar tu estamina actual, en este formato: `hh:mm`.\n"
+"El bot mostrará el tiempo necesario para llenar tu estamina completa si empiezas a dormir ahora.\n"
+" \n"
+"Opcionalmente, puedes proporcionar el estamina que deseas.\n"
+" \n"
+"El texto del pie de página muestra la hora en tu zona horaria donde tu estamina estaría en llena o en el valor deseado."
 
 #: cogs/calculators.py:406
 msgid "Current stamina can't be greater than target stamina."
@@ -1350,14 +1360,17 @@ msgstr "Estamina completa"
 
 #: cogs/calculators.py:443
 msgid "Calculates character stats based on vocation and level."
-msgstr ""
+msgstr "Calcula las estadísticas de los personajes basándose en la vocación y el nivel."
 
 #: cogs/calculators.py:444
 msgid "Shows hitpoints, mana, capacity, total experience and experience to next level.\n\n"
 "This command can be used in two ways:\n"
 "1. To calculate the stats for a certain level and vocation. (`stats <level>,<vocation>`)\n"
 "2. To calculate the stats of a character. (`stats <character>`)"
-msgstr ""
+msgstr "Muestra hitpoints, maná, capacidad, experiencia total y experiencia al siguiente nivel.\n\n"
+"Este comando puede utilizarse de dos maneras:\n"
+"1. Para calcular los stats para un cierto nivel y vocación. (`stats <nivel>,<vocacion>`)\n"
+"2. Para calcular las stats de un personaje. (`stats <personaje>`)"
 
 #: cogs/calculators.py:454
 msgid "There's no level lower than 1, it doesn't matter how bad you are at Tibia."
@@ -1384,11 +1397,11 @@ msgstr "Un {vocation} nivel **{level}** tiene:"
 
 #: cogs/calculators.py:486
 msgid "Calculates the level required to reach the specified capacity."
-msgstr ""
+msgstr "Calcula el nivel requerido para alcanzar la capacidad especificada."
 
 #: cogs/calculators.py:487 cogs/calculators.py:502 cogs/calculators.py:515
 msgid "The levels needed for each vocation are shown."
-msgstr ""
+msgstr "Se muestran los niveles necesarios para cada vocación."
 
 #: cogs/calculators.py:492
 #, python-format
@@ -1403,7 +1416,7 @@ msgstr "Para alcanzar la capacidad **{capacity:,}** oz. necesitas al menos los s
 
 #: cogs/calculators.py:501
 msgid "Calculates the level required to reach the specified hitpoints."
-msgstr ""
+msgstr "Calcula el nivel necesario para alcanzar los hitpoints especificados."
 
 #: cogs/calculators.py:507
 #, python-format
@@ -1412,7 +1425,7 @@ msgstr "Los hitpoints no pueden ser inferiores a %d."
 
 #: cogs/calculators.py:514
 msgid "Calculates the level required to reach the specified mana."
-msgstr ""
+msgstr "Calcula el nivel necesario para alcanzar el maná especificado."
 
 #: cogs/calculators.py:520
 #, python-format
@@ -1604,15 +1617,15 @@ msgstr "NabBot está ahora en {count:,} servidores de Discord"
 
 #: cogs/general.py:32
 msgid "General use commands."
-msgstr ""
+msgstr "Comandos de uso general."
 
 #: cogs/general.py:39
 msgid "Checks if you can receive PMs from the bot."
-msgstr ""
+msgstr "Comprueba si puedes recibir mensajes privados del bot."
 
 #: cogs/general.py:40
 msgid "If you can't receive PMs, 'Allow direct messages from server members.' must be enabled in the Privacy Settings of any server where NabBot is in."
-msgstr ""
+msgstr "Si no puedes recibir PMs, 'Permitir mensajes directos de los miembros del servidor' debe estar habilitado en los Ajustes de Privacidad de cualquier servidor en el que se encuentre NabBot."
 
 #: cogs/general.py:45
 msgid "This is a private message, so yes… PMs are working."
@@ -1635,12 +1648,13 @@ msgstr "No puedes recibir mis PMs.\n"
 
 #: cogs/general.py:56
 msgid "Chooses between multiple choices."
-msgstr ""
+msgstr "Elige entre opciones múltiples."
 
 #: cogs/general.py:57
 msgid "Each choice is separated by spaces. For choices that contain spaces surround it with quotes.\n"
 "e.g. \"Choice A\" ChoiceB \"Choice C\""
-msgstr ""
+msgstr "Cada elección está separada por espacios. Para opciones que contengan espacios rodeala de comillas.\n"
+"ej. \"Opción A\" OpciónB \"Opción C\""
 
 #: cogs/general.py:62
 msgid "I can't tell you what to choose if you don't give me choices"
@@ -1653,12 +1667,13 @@ msgstr "Muy bien, {user}, elijo: \"{choice}\""
 
 #: cogs/general.py:73
 msgid "Shows a member's permissions in the current channel."
-msgstr ""
+msgstr "Muestra los permisos de un miembro en el canal actual."
 
 #: cogs/general.py:74
 msgid "If no member is provided, it will show your permissions.\n"
 "Optionally, a channel can be provided as the second parameter, to check permissions in said channel."
-msgstr ""
+msgstr "Si no se proporciona ningún miembro, se mostrarán tus permisos.\n"
+"Opcionalmente, se puede proporcionar un canal como segundo parámetro, para comprobar los permisos en dicho canal."
 
 #: cogs/general.py:81
 #, python-brace-format
@@ -1675,7 +1690,7 @@ msgstr "Denegado"
 
 #: cogs/general.py:103
 msgid "Shows a messages by its ID or link."
-msgstr ""
+msgstr "Muestra un mensaje por su ID o enlace."
 
 #: cogs/general.py:104
 msgid "In order to get the message's link, you can right click and select **Copy Link**.\n\n"
@@ -1683,7 +1698,11 @@ msgid "In order to get the message's link, you can right click and select **Copy
 "Using a message link is faster than using a message ID.\n\n"
 "Note that the bot won't attempt to search in channels you can't read.\n"
 "Additionally, messages in NSFW channels can't be quoted in regular channels."
-msgstr ""
+msgstr "Para obtener el enlace del mensaje, puedes hacer clic con el botón derecho y seleccionar **Copiar enlace**.\n\n"
+"Para obtener el id de un mensaje, necesitas habilitar el [Modo desarrollador](https://support.discord.com/hc/es/articles/206346498).\n\n"
+"Usar un enlace de mensaje es más rápido que usar un ID de mensaje.\n\n"
+"Ten en cuenta que el bot no intentará buscar en canales que no puedas leer.\n"
+"Además, los mensajes en canales NSFW no pueden ser citados en canales regulares."
 
 #: cogs/general.py:123
 msgid "I can't find that message, or it is in a channel you can't access."
@@ -1712,14 +1731,19 @@ msgstr "Archivo adjunto"
 
 #: cogs/general.py:151
 msgid "Rolls a die."
-msgstr ""
+msgstr "Tira un dado."
 
 #: cogs/general.py:152
 msgid "By default, it rolls a 6-sided die once.\n"
 "You can specify how many times you want the die to be rolled.\n\n"
 "You can also specify the number of sides of the die, using the format `TdS` where T is times and S is sides.\n\n"
 "The highest dice has 120 sides and the maximum number of throws is 20."
-msgstr ""
+msgstr "Por defecto, tira una vez un dado de 6 caras una vez.\n"
+"Puedes especificar cuántas veces quieres que el dado se lance.\n"
+" \n"
+"También puede especificar el número de lados del dado, usando el formato `TdS` donde T son las veces y S los lados.\n"
+" \n"
+"El dado más alto tiene 120 lados y el número máximo de lanzamientos es 20."
 
 #: cogs/general.py:172
 msgid "Invalid parameter! I'm expecting `<times>d<rolls>`."
@@ -1777,7 +1801,7 @@ msgstr "No puedo citar mensajes de otros servidores."
 
 #: cogs/info.py:41
 msgid "Commands that display general information."
-msgstr ""
+msgstr "Comandos que muestran información general."
 
 #: cogs/info.py:51
 msgid "Shows basic information about the bot."
@@ -1842,11 +1866,11 @@ msgstr "Muertes"
 
 #: cogs/info.py:123
 msgid "Shows information about a channel."
-msgstr ""
+msgstr "Muestra información sobre un canal."
 
 #: cogs/info.py:124
 msgid "If no channel is specified, the information for the current channel is shown."
-msgstr ""
+msgstr "Si no se especifica ningún canal, se mostrará la información del canal actual."
 
 #: cogs/info.py:130
 msgid "You are not supposed to see that channel, so I can't show you anything."
@@ -1884,12 +1908,13 @@ msgstr "Creado al"
 
 #: cogs/info.py:148
 msgid "Shows a simple list of all commands."
-msgstr ""
+msgstr "Muestra una lista simple de todos los comandos."
 
 #: cogs/info.py:149
 msgid "This displays all the commands you can use, with no description or subcommand information.\n"
 "Note that different commands might show up in server channels and in private messages."
-msgstr ""
+msgstr "Esto muestra todos los comandos que puedes usar, sin descripción o información de subcomandos.\n"
+"Ten en cuenta que diferentes comandos pueden aparecer en canales del servidor y en mensajes privados."
 
 #: cogs/info.py:153
 msgid "NabBot commands"
@@ -1902,12 +1927,13 @@ msgstr "Para una lista más detallada, pruebe '{prefix}help' o '{prefix}help [co
 
 #: cogs/info.py:170
 msgid "Shows information about an emoji, or shows all emojis."
-msgstr ""
+msgstr "Muestra información sobre un emoji, o muestra todos los emojis."
 
 #: cogs/info.py:171
 msgid "If the command is used with no arguments, all the server emojis are shown.\n\n"
 "If an emoji, its id or name is provided, it will show more information about it."
-msgstr ""
+msgstr "Si el comando se usa sin argumentos, todos los emojis del servidor se mostrarán.\n\n"
+"Si se proporciona un emoji, su id o su nombre, mostrará más información al respecto."
 
 #: cogs/info.py:181
 msgid "This server has no custom emojis."
@@ -1934,18 +1960,20 @@ msgstr "Animados"
 
 #: cogs/info.py:210
 msgid "Shows help about a command or the bot."
-msgstr ""
+msgstr "Muestra ayuda sobre un comando o el bot."
 
 #: cogs/info.py:211
 msgid "- If no command is specified, it will list all available commands\n"
 "- If a command is specified, it will show further info, and its subcommands if applicable.\n"
 "- If a category is specified, it will show only commands in that category."
-msgstr ""
+msgstr "- Si no se especifica ningún comando, listará todos los comandos disponibles\n"
+"- Si se especifica un comando, mostrará más información, y sus subcomandos si aplica.\n"
+"- Si se especifica una categoría, sólo mostrará comandos en esa categoría."
 
 #: cogs/info.py:224
 #, python-brace-format
 msgid "Command or category \"{name}\" not found."
-msgstr ""
+msgstr "No se encontró el comando o la categoría \"{name}\"."
 
 #: cogs/info.py:237
 msgid "Shows the server's information."
@@ -1970,7 +1998,7 @@ msgstr "Región de voz"
 
 #: cogs/info.py:256
 msgid "Text"
-msgstr ""
+msgstr "Texto"
 
 #: cogs/info.py:257
 msgid "Voice"
@@ -2049,7 +2077,7 @@ msgstr "He estado online por {0}."
 
 #: cogs/info.py:316
 msgid "Shows a user's information."
-msgstr ""
+msgstr "Muestra la información de un usuario."
 
 #: cogs/info.py:317
 msgid "If no user is provided, it shows your own information.\n\n"
@@ -2058,7 +2086,13 @@ msgid "If no user is provided, it shows your own information.\n\n"
 "- **Server Admin:** User with `Administrator` permission\n"
 "- **Server Moderator:** User with `Manage Server` permissions.\n"
 "- **Channel Moderator:** User with `Manage Channels` permissions in at least one channel."
-msgstr ""
+msgstr "Si no se proporciona ningún usuario, muestra su propia información.\n"
+" \n"
+"Sobre los estados de usuario:\n"
+"- **Propietario del servidor**: Propietario del servidor\n"
+"- **Administrador del servidor**: Usuario con permiso `Administrador`\n"
+"- **Moderador del servidor**: Usuario con permisos `Gestionar servidor`.\n"
+"- **Moderador de canales**: Usuario con permisos `Gestionar canales` en al menos un canal."
 
 #: cogs/info.py:331 cogs/respawn.py:493
 #, python-brace-format
@@ -2376,7 +2410,7 @@ msgstr "Miembro desbaneado"
 
 #: cogs/loot.py:108
 msgid "Scans an image of a container looking for Tibia items and shows an approximate loot value."
-msgstr ""
+msgstr "Escanea una imagen de un contenedor buscando items de Tibia y muestra el valor aproximado del loot."
 
 #: cogs/loot.py:109
 msgid "An image must be attached with the message. The prices used are NPC prices only.\n\n"
@@ -2387,7 +2421,14 @@ msgid "An image must be attached with the message. The prices used are NPC price
 "- JPG images are usually not recognized.\n"
 "- PNG images with low compression settings take longer to be scanned or aren't detected at all.\n\n"
 "The bot shows the total loot value, and a list of the items detected, separated into the NPC that buy them."
-msgstr ""
+msgstr "Se debe adjuntar una imagen con el mensaje. Los precios utilizados son precios NPC solamente.\n\n"
+"La imagen requiere lo siguiente:\n"
+"- Debe ser una captura de pantalla de ventanas de inventario (mochilas, depot, etc).\n"
+"- Tener el tamaño original, la imagen no puede ser escalada o baja, sin embargo puede ser recortada.\n"
+"- La imagen debe mostrar la ranura completa.\n"
+"- Generalmente las imágenes JPG no son reconocidas.\n"
+"- Las imágenes PNG con ajustes de baja compresión tardan más en escanearse o no se detectan en absoluto.\n\n"
+"El bot muestra el valor total del loot, y una lista de los items detectados, separados en el NPC que los compran."
 
 #: cogs/loot.py:123
 msgid "You need to upload a picture of your loot and type the command in the comment."
@@ -2420,7 +2461,7 @@ msgstr "Lo siento {user}, no he podido encontrar ningún loot en esa imagen. El 
 
 #: cogs/loot.py:168
 msgid "Shows the meaning of the overlayed icons."
-msgstr ""
+msgstr "Muestra el significado de los iconos superpuestos."
 
 #: cogs/loot.py:173
 msgid "I need `Attach Files` permission to show you the loot legend."
@@ -2496,15 +2537,15 @@ msgstr "{slots:,} espacios encontrados.\n"
 
 #: cogs/mod.py:73
 msgid "Moderation related commands."
-msgstr ""
+msgstr "Comandos relacionados con la moderación."
 
 #: cogs/mod.py:96
 msgid "Cleans the channel from bot commands."
-msgstr ""
+msgstr "Limpia el canal de comandos de bot."
 
 #: cogs/mod.py:97
 msgid "If the bot has `Manage Messages` permission, it will also delete command invocation messages."
-msgstr ""
+msgstr "Si el bot tiene permiso `Gestionar mensajes`, también eliminará los mensajes de comandos."
 
 #: cogs/mod.py:111
 msgid "Something went wrong when deleting messages."
@@ -2520,14 +2561,17 @@ msgstr "Eliminados {count:,} mensajes."
 
 #: cogs/mod.py:127
 msgid "Makes the bot ignore a channel or user."
-msgstr ""
+msgstr "Hace que el bot ignore un canal o usuario."
 
 #: cogs/mod.py:128
 msgid "Commands cannot be used in ignored channels or by ignored users.\n\n"
 "The command accepts a list of names, ids or mentions of users or channels.\n"
 "If the command is used with no parameters, it ignores the current channel.\n\n"
 "Ignores are bypassed by users with the `Manage Server` permission."
-msgstr ""
+msgstr "Los comandos no pueden ser usados en canales ignorados o por usuarios ignorados.\n\n"
+"El comando acepta una lista de nombres, Ids o menciones de usuarios o canales.\n"
+"Si el comando se utiliza sin parámetros, ignora el canal actual.\n\n"
+"Los Ignores son omitidos por los usuarios con el permiso `Gestionar servidor`."
 
 #: cogs/mod.py:145
 #, python-brace-format
@@ -2567,7 +2611,7 @@ msgstr "Entradas ignoradas"
 
 #: cogs/mod.py:180
 msgid "Makes the bot say a message."
-msgstr ""
+msgstr "Hace que el bot diga un mensaje."
 
 #: cogs/mod.py:181
 msgid "If the user using the command doesn't have mention everyone permissions, the message will be cleaned of mass mentions."
@@ -4824,7 +4868,12 @@ msgid "If no character is provided, the timeline of all registered characters in
 "- 🌟 Indicates level ups\n"
 "- ☠ Indicates deaths\n"
 "- 💀 Indicates PvP deaths"
-msgstr ""
+msgstr "Si no se proporciona ningún personaje, se mostrará la línea de tiempo de todos los personajes registrados en el servidor.\n"
+"Los personajes deben estar registrados para tener una línea de tiempo.\n"
+"- 🌟 Indica subidas de nivel\n"
+"- ☠ Indica muertes\n"
+"-💀 Indica muertes PvP\n"
+"        "
 
 #: cogs/tibia.py:1410
 msgid "Timeline"
@@ -4865,11 +4914,11 @@ msgstr "Muestra los niveles y muertes recientes de los personajes de un usuario.
 
 #: cogs/tibia.py:1535
 msgid "Displays Tibia server's time and time until server save."
-msgstr ""
+msgstr "Muestra el tiempo de Tibia y el tiempo restante hasta el siguiente server save."
 
 #: cogs/tibia.py:1536
 msgid "Server moderators can manage displayed timezones using the subcommands."
-msgstr ""
+msgstr "Los moderadores del servidor pueden administrar las zonas horarias mostradas usando los subcomandos."
 
 #: cogs/tibia.py:1547
 #, python-brace-format
@@ -6285,7 +6334,8 @@ msgstr "Edita la descripción de un evento."
 #: cogs/timers.py:888
 msgid "If no new description is provided initially, the bot will ask for one.\n"
 "To remove the description, say `blank`."
-msgstr ""
+msgstr "Si no se proporciona ninguna nueva descripción inicialmente, el bot pedirá una.\n"
+"Para eliminar la descripción, diga `blank`."
 
 #: cogs/timers.py:898
 #, python-brace-format
@@ -6312,12 +6362,13 @@ msgstr "La descripción del evento **{event.name}** fue cambiada."
 
 #: cogs/timers.py:944
 msgid "Changes whether anyone can join an event or only the owner may add people."
-msgstr ""
+msgstr "Cambia si todos puede unirse a un evento o sólo el propietario puede agregar personas."
 
 #: cogs/timers.py:945
 msgid "If an event is joinable, anyone can join using `event join id`.\n"
 "Otherwise, the event creator has to add people with `event addplayer id`."
-msgstr ""
+msgstr "Si un evento es unible, cualquiera puede unirse usando `event join id`.\n"
+"De lo contrario, el creador del evento tiene que agregar personas con `event addplayer id`."
 
 #: cogs/timers.py:949
 msgid "Changes whether anyone can join an event or only the owner may add people.\n\n"
@@ -6352,11 +6403,11 @@ msgstr "Tu evento **{event}** fue cambiado a **{new_state}** por {user}."
 
 #: cogs/timers.py:990
 msgid "Edits an event's name."
-msgstr ""
+msgstr "Edita el nombre de un evento."
 
 #: cogs/timers.py:991
 msgid "If no new name is provided initially, the bot will ask for one."
-msgstr ""
+msgstr "Si no se proporciona un nuevo nombre inicialmente, el bot pedirá uno."
 
 #: cogs/timers.py:1000
 #, python-brace-format
@@ -6385,11 +6436,11 @@ msgstr "El evento **{event.name}** fue renombrado a **{new_name}**."
 
 #: cogs/timers.py:1039
 msgid "Edits an event's number of slots."
-msgstr ""
+msgstr "Edita el número de espacios de un evento."
 
 #: cogs/timers.py:1040
 msgid "Slots is the number of characters an event can have. By default this is 0, which means no limit."
-msgstr ""
+msgstr "Los espacios son el número de personajes que un evento puede tener. Por defecto esto es 0, lo que significa que no hay límite."
 
 #: cogs/timers.py:1049
 #, python-brace-format
@@ -6423,11 +6474,11 @@ msgstr "Los espacios de tu evento **{event}** fueron cambiadas a **{slots}** por
 
 #: cogs/timers.py:1092
 msgid "Edit's an event's start time."
-msgstr ""
+msgstr "Edita la hora de inicio de un evento."
 
 #: cogs/timers.py:1093
 msgid "If no new time is provided initially, the bot will ask for one."
-msgstr ""
+msgstr "Si no se proporciona una nueva hora inicialmente, el bot pedirá una."
 
 #: cogs/timers.py:1102
 #, python-brace-format
@@ -6460,11 +6511,11 @@ msgstr "La hora de inicio de **{event}** fue cambiada:"
 
 #: cogs/timers.py:1151
 msgid "Displays an event's info."
-msgstr ""
+msgstr "Muestra la información de un evento."
 
 #: cogs/timers.py:1152
 msgid "The start time shown in the footer is always displayed in your device's timezone."
-msgstr ""
+msgstr "La hora de inicio que se muestra en el pie de página siempre se muestra en la zona horaria del dispositivo."
 
 #: cogs/timers.py:1168
 msgid "Participants"
@@ -6477,12 +6528,13 @@ msgstr "Pueden unirse"
 
 #: cogs/timers.py:1178
 msgid "Join an event with a specific character."
-msgstr ""
+msgstr "Únete a un evento con un personaje específico."
 
 #: cogs/timers.py:1179
 msgid "You can only join an event with a character at a time.\n"
 "Some events may not be joinable and require the creator to add characters themselves."
-msgstr ""
+msgstr "Sólo puedes unirte a un evento con un personaje a la vez.\n"
+"Algunos eventos pueden no ser unibles y requieren que el creador agregue personajes ellos mismos."
 
 #: cogs/timers.py:1190
 #, python-brace-format
@@ -6533,11 +6585,11 @@ msgstr "Has salido con éxito de este evento."
 
 #: cogs/timers.py:1248
 msgid "Creates an event guiding you step by step."
-msgstr ""
+msgstr "Crea un evento guiándote paso a paso."
 
 #: cogs/timers.py:1249
 msgid "Instead of using confusing parameters, commas and spaces, this commands will guide you through the process."
-msgstr ""
+msgstr "En lugar de usar parámetros confusos, comas y espacios, este comando te guiarán a través del proceso."
 
 #: cogs/timers.py:1253
 msgid "Creates an event guiding you step by step\n\n"
@@ -6643,12 +6695,13 @@ msgstr "El evento **{event}** ha sido eliminado por {user}."
 
 #: cogs/timers.py:1458
 msgid "Removes a player from an event."
-msgstr ""
+msgstr "Elimina a un jugador de un evento."
 
 #: cogs/timers.py:1459
 msgid "Only the event's creator can remove players through this command.\n"
 "Players can remove themselves using `event leave`."
-msgstr ""
+msgstr "Solo el creador del evento puede remover a los jugadores a través de este comando.\n"
+"Los jugadores pueden eliminarse a sí mismos usando `event leave`."
 
 #: cogs/timers.py:1471
 msgid "This character is not in this event."
@@ -6686,7 +6739,7 @@ msgstr "Desuscribirse a un evento."
 
 #: cogs/timers.py:1518
 msgid "You will no longer receive private messages when this event is happening or when changes are done."
-msgstr ""
+msgstr "Ya no recibirás mensajes privados cuando este evento esté ocurriendo o cuando se realicen cambios."
 
 #: cogs/timers.py:1525
 msgid "You can't unsubscribe from your own event."
@@ -6703,15 +6756,15 @@ msgstr "¿Quieres cancelar la suscripción a **{name}**?"
 
 #: cogs/timers.py:1536
 msgid "You have unsubscribed from this event."
-msgstr ""
+msgstr "Has cancelado la suscripción a este evento."
 
 #: cogs/timers.py:1541
 msgid "Creates a personal reminder."
-msgstr ""
+msgstr "Crea un recordatorio personal."
 
 #: cogs/timers.py:1542
 msgid "You will be notified in the same channel when the time is over."
-msgstr ""
+msgstr "Serás notificado en el mismo canal cuando el tiempo haya terminado."
 
 #: cogs/timers.py:1550
 #, python-brace-format
@@ -6725,7 +6778,7 @@ msgstr "Ok, te recordaré en {time} sobre: {content}"
 
 #: cogs/timers.py:1561
 msgid "Shows you a list of your active reminders."
-msgstr ""
+msgstr "Muestra una lista de tus recordatorios activos."
 
 #: cogs/timers.py:1562
 msgid "The list consists of the reminder's id, the time in which it will be triggered and the content of the reminder, linking to the original message.\n\n"
@@ -6733,7 +6786,10 @@ msgid "The list consists of the reminder's id, the time in which it will be trig
 "In order to see all your reminders, use this command on a private message.\n"
 "In order to see all your reminders, use this command on a private message.\n\n"
 "Note that reminders created under 60 seconds are not displayed here."
-msgstr ""
+msgstr "La lista consiste en el id del recordatorio, el tiempo en que se activará y el contenido del recordatorio, enlazando al mensaje original.\n\n"
+"Para proteger su privacidad, sólo se mostrarán los recordatorios creados en el mismo servidor.\n"
+"Para ver todos sus temporizadores, utilice este comando en un mensaje privado.\n"
+"Tenga en cuenta que los recordatorios creados en menos de 60 segundos no se muestran aquí."
 
 #: cogs/timers.py:1588
 msgid "You do not have any active reminders in this server.\n"
@@ -6751,11 +6807,11 @@ msgstr "Tus recordatorios"
 
 #: cogs/timers.py:1602
 msgid "Removes one of your reminders by its id."
-msgstr ""
+msgstr "Elimina uno de tus recordatorios por su id."
 
 #: cogs/timers.py:1603
 msgid "The id of your reminders can be seeing by using the `remindme list` command."
-msgstr ""
+msgstr "El id de tus recordatorios puede ser visto usando el comando `remindme list`."
 
 #: cogs/timers.py:1607
 #, python-brace-format
@@ -6799,7 +6855,7 @@ msgstr "Necesitas permisos de `Gestionar canal` en {channel} para añadir entrad
 
 #: cogs/tracking.py:101
 msgid "Commands related to NabBot's tracking system."
-msgstr ""
+msgstr "Comandos relacionados con el sistema de rastreo de NabBot."
 
 #: cogs/tracking.py:395
 msgid "Watchlist disabled due to exceeding allowed limit."
@@ -6898,11 +6954,11 @@ msgstr "{name} transferido de **{old_world}** a **{new_world}**"
 
 #: cogs/tracking.py:761
 msgid "Register a character and optionally all other visible characters to a discord user."
-msgstr ""
+msgstr "Registra un personaje y, opcionalmente, todos los demás personajes visibles a un usuario de discord."
 
 #: cogs/tracking.py:762
 msgid "This command can only be used by server moderators."
-msgstr ""
+msgstr "Este comando sólo puede ser utilizado por los moderadores del servidor."
 
 #: cogs/tracking.py:774
 msgid "You can't register characters to Discord bots!"
@@ -6919,12 +6975,13 @@ msgstr "La lista negra filtra el nivel y los anuncios de muertes."
 
 #: cogs/tracking.py:824
 msgid "Adds a user to the blacklist."
-msgstr ""
+msgstr "Añade un usuario a la lista negra."
 
 #: cogs/tracking.py:825
 msgid "Users can be added by their name, mention, name and discriminator or their user ID.\n"
 "Characters owned by users in the blacklist won't have their level ups and deaths announced."
-msgstr ""
+msgstr "Los usuarios pueden ser añadidos por su nombre, mención, nombre y discriminador, o su identificador de usuario.\n"
+"Los personajes propiedad de los usuarios en la lista negra no tendrán sus niveles y muertes anunciadas."
 
 #: cogs/tracking.py:833
 msgid "This user is already in the blacklist."
@@ -6944,11 +7001,11 @@ msgstr "{user} ha sido añadido a la lista negra."
 
 #: cogs/tracking.py:851
 msgid "Shows the users currently in the blacklist."
-msgstr ""
+msgstr "Muestra los usuarios en la lista negra."
 
 #: cogs/tracking.py:852
 msgid "If a user in the list is no longer in the server, it will be shown just by its ID."
-msgstr ""
+msgstr "Si un usuario de la lista ya no está en el servidor, será mostrado sólo por su ID."
 
 #: cogs/tracking.py:859
 #, python-format
@@ -6965,11 +7022,11 @@ msgstr "Usuarios en lista negra"
 
 #: cogs/tracking.py:875
 msgid "Removes a user from the blacklist."
-msgstr ""
+msgstr "Elimina un usuario de la lista negra."
 
 #: cogs/tracking.py:876
 msgid "If the user only displays an ID on the list, it can be removed using that ID."
-msgstr ""
+msgstr "Si el usuario sólo muestra un ID en la lista, se puede eliminar usando ese ID."
 
 #: cogs/tracking.py:883
 #, python-brace-format
@@ -6997,7 +7054,7 @@ msgstr "Usuario eliminado de la lista negra."
 
 #: cogs/tracking.py:904
 msgid "Claims a character, registering to you even if someone else already has it."
-msgstr ""
+msgstr "Reclama a un personaje, registrándose a ti incluso si alguien ya lo tiene."
 
 #: cogs/tracking.py:905
 msgid "In order for this to work, you have to put a special code in the character's comment.\n"
@@ -7006,7 +7063,13 @@ msgid "In order for this to work, you have to put a special code in the characte
 "Note that it may take some time for the code to be visible to NabBot because of caching.\n\n"
 "This code is unique for your Discord user, so the code will only work for your Discord account and no one elses.\n"
 "No one can claim a character of yours unless you put **their** code in your character's comment."
-msgstr ""
+msgstr "Reclama a un personaje como tuyo, incluso si ya está registrado en otra persona.\n\n"
+"Para que esto funcione, tienes que poner un código especial en el comentario del personaje.\n"
+"Puede ver este código usando el comando sin parámetros. El código se ve así: `/NB-23FC13AC7400000/`\n"
+"Una vez que hayas establecido el código, puedes usar el comando con ese personaje, si el código coincide, te será reasignado.\n"
+"Ten en cuenta que puede tomar algún tiempo para que el código sea visible para NabBot debido a la caché.\n\n"
+"Este código es único para tu usuario de Discord, así que el código sólo funcionará para tu cuenta de Discord y nadie más.\n"
+"Nadie puede reclamar un personaje tuyo a menos que pongas **su** código en el comentario de tu personaje."
 
 #: cogs/tracking.py:928
 #, python-brace-format
@@ -7040,22 +7103,25 @@ msgstr "Lo siento, no pude encontrar ningún personajes de los mundos en el cont
 
 #: cogs/tracking.py:988
 msgid "Lets you add your Tibia character(s) for the bot to track."
-msgstr ""
+msgstr "Te permite añadir tu(s) personaje(s) de Tibia para que el bot pueda seguir."
 
 #: cogs/tracking.py:989
 msgid "If there are other visible characters, the bot will ask for confirmation to add them too.\n\n"
 "Characters in other worlds other than the currently tracked world are skipped.\n"
 "If it finds a character owned by another user, the whole process will be stopped.\n\n"
 "If a character is already registered to someone else, `claim` can be used."
-msgstr ""
+msgstr "Si hay otros personajes visibles, el bot pedirá confirmación para añadirlos también.\n\n"
+"Los personajes en otros mundos que no sean el mundo actualmente rastreado son omitidos.\n"
+"Si encuentra un personaje propiedad de otro usuario, se detendrá todo el proceso.\n\n"
+"Si un personaje ya está registrado a otra persona, se puede usar `claim`."
 
 #: cogs/tracking.py:1042
 msgid "Removes a character assigned to you."
-msgstr ""
+msgstr "Elimina un personaje asignado a ti."
 
 #: cogs/tracking.py:1043
 msgid "All registered level ups and deaths will be lost forever."
-msgstr ""
+msgstr "Todos los niveles y muertes registrados se perderán para siempre."
 
 #: cogs/tracking.py:1050
 #, python-brace-format
@@ -7100,7 +7166,7 @@ msgstr "Personajes registrados"
 
 #: cogs/tracking.py:1108
 msgid "Shows you which users are online on Tibia."
-msgstr ""
+msgstr "Te muestra qué usuarios están conectados en Tibia."
 
 #: cogs/tracking.py:1119 cogs/tracking.py:1143
 msgid "There is no one online from Discord."
@@ -7116,7 +7182,7 @@ msgstr "Usuarios en línea"
 
 #: cogs/tracking.py:1156
 msgid "Searches for a registered character that meets the criteria."
-msgstr ""
+msgstr "Busca un personaje registrado que cumpla con los criterios."
 
 #: cogs/tracking.py:1157
 msgid "There are 3 ways to use this command:\n"
@@ -7124,7 +7190,11 @@ msgid "There are 3 ways to use this command:\n"
 "- Show characters in share range with a specific level. (`searchteam <level>`)\n"
 "- Show characters in a level range. (`searchteam <min>,<max>`)\n\n"
 "Online characters are shown first on the list, they also have an icon."
-msgstr ""
+msgstr "Hay 3 maneras de usar este comando:\n"
+"- Mostrar personajes en el rango compartido con un carácter específico. (`searchteam <name>`)\n"
+"- Muestra personajes en el rango de compartir con un nivel específico. (`searchteam <level>`)\n"
+"- Muestra los personajes en un rango de niveles. (`searchteam <min>,<max>`)\n\n"
+"Los personajes en línea aparecen primero en la lista, también tienen un icono."
 
 #: cogs/tracking.py:1167
 #, python-brace-format
@@ -7178,12 +7248,13 @@ msgstr "**{name}** - Nivel {level} {voc} - @**{owner}**"
 
 #: cogs/tracking.py:1348
 msgid "Removes a registered character from someone."
-msgstr ""
+msgstr "Remueve un personaje registrado de alguien."
 
 #: cogs/tracking.py:1349
 msgid "Note that you can only remove chars if they are from users exclusively in your server.\n"
 "You can't remove any characters that would alter other servers NabBot is in."
-msgstr ""
+msgstr "Ten en cuenta que sólo puedes eliminar caracteres si son de usuarios exclusivamente en tu servidor.\n"
+"No puede eliminar ningún carácter que modifique NabBot de otros servidores."
 
 #: cogs/tracking.py:1357
 msgid "There's no character with that name registered."
@@ -7206,12 +7277,13 @@ msgstr "**{0}** fue eliminado correctamente de **@{1}**."
 
 #: cogs/tracking.py:1387
 msgid "Create or manage watchlists."
-msgstr ""
+msgstr "Crea o administra watchlists."
 
 #: cogs/tracking.py:1388
 msgid "Watchlists are channels where the online status of selected characters are shown.\n"
 "You can create multiple watchlists and characters and guilds to each one separately.\n"
-msgstr ""
+msgstr "Los watchlist son canales donde se muestra el estado en línea de los personajes seleccionados.\n"
+"Puedes crear múltiples watchlist y agregar personajes y guilds para cada uno por separado.\n"
 
 #: cogs/tracking.py:1392
 #, python-brace-format
@@ -7222,7 +7294,7 @@ msgstr "Para gestionar las watchlists, usa uno de los subcomandos.\n"
 
 #: cogs/tracking.py:1399
 msgid "Adds a character to a watchlist."
-msgstr ""
+msgstr "Añade un personaje a una watchlist."
 
 #: cogs/tracking.py:1400 cogs/tracking.py:1537
 msgid "A reason can be specified by adding it after the character's name, separated by a comma."
