@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-23 16:55-0700\n"
-"PO-Revision-Date: 2021-04-24 14:09\n"
+"PO-Revision-Date: 2021-04-24 22:54\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4317,11 +4317,11 @@ msgstr "Próximos eventos"
 
 #: cogs/tibia.py:514
 msgid "Shows the latest CM posts in the forum."
-msgstr ""
+msgstr "Muestra las últimas publicaciones de CMs en el foro."
 
 #: cogs/tibia.py:515
 msgid "Posts made by Community Managers on the Tibia forums."
-msgstr ""
+msgstr "Posts realizados por Community Managers en los foros de Tibia."
 
 #: cogs/tibia.py:520
 msgid "There are no CM posts in the last 30 days."
@@ -4339,12 +4339,13 @@ msgstr "Post recientes de CM"
 
 #: cogs/tibia.py:544
 msgid "Shows a character's recent deaths or the recent deaths of characters in the server."
-msgstr ""
+msgstr "Muestra las muertes recientes de un personaje o las muertes recientes de personajes en el servidor."
 
 #: cogs/tibia.py:545
 msgid "When no name is specified, the recent deaths of characters in the server are displayed.\n"
 "When used in a private channel, only deaths from Tibia.com will be shown."
-msgstr ""
+msgstr "Cuando no se especifica ningún nombre, se muestran las muertes recientes de personajes en el servidor.\n"
+"Cuando se utiliza en un canal privado, sólo se mostrarán muertes de Tibia.com."
 
 #: cogs/tibia.py:550
 msgid "This server is not tracking any Tibia worlds."
@@ -4404,12 +4405,13 @@ msgstr "Muertes más recientes de {user}"
 
 #: cogs/tibia.py:655
 msgid "Shows death statistics"
-msgstr ""
+msgstr "Muestra estadísticas de muerte"
 
 #: cogs/tibia.py:656
 msgid "Shows the total number of deaths, the characters and users with more deaths, and the most common killers.\n\n"
 "To see a shorter period, use `week` or `month` as a parameter."
-msgstr ""
+msgstr "Muestra el número total de muertes, los personajes y usuarios con más muertes y los asesinos más comunes.\n\n"
+"Para ver un período más corto, usa `week` o `month` como parámetro."
 
 #: cogs/tibia.py:663
 msgid "Death Statistics"
@@ -4464,12 +4466,13 @@ msgstr "Posteado el"
 
 #: cogs/tibia.py:739
 msgid "Shows online characters in a guild."
-msgstr ""
+msgstr "Muestra personajes en línea en un guild."
 
 #: cogs/tibia.py:740
 msgid "Show's the number of members the guild has and a list of their users.\n"
 "It also shows whether the guild has a guildhall or not, and their founding date."
-msgstr ""
+msgstr "Muestra el número de miembros que tiene el guild y una lista de sus usuarios.\n"
+"También muestra si el gremio tiene o no un guildhall y cuando fue fundado."
 
 #: cogs/tibia.py:751 cogs/tibia.py:782
 #, python-brace-format
