@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-23 16:55-0700\n"
-"PO-Revision-Date: 2021-04-24 22:54\n"
+"PO-Revision-Date: 2021-04-24 23:56\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4497,11 +4497,11 @@ msgstr[1] "Tiene **{online}** jugadores en línea de **{member_count}**:"
 
 #: cogs/tibia.py:772
 msgid "Shows basic information and stats about a guild."
-msgstr ""
+msgstr "Muestra información básica y estadísticas sobre un guild."
 
 #: cogs/tibia.py:773
 msgid "It shows their description, homepage, guildhall, number of members and more."
-msgstr ""
+msgstr "Muestra su descripción, página de inicio, guildhall, número de miembros y más."
 
 #: cogs/tibia.py:792
 msgctxt "Guild application status"
@@ -4540,11 +4540,11 @@ msgstr "Distribución por vocación"
 
 #: cogs/tibia.py:822
 msgid "Shows a list of all guild members."
-msgstr ""
+msgstr "Muestra una lista de todos los miembros de la guild."
 
 #: cogs/tibia.py:823
 msgid "Online members have an icon next to their name."
-msgstr ""
+msgstr "Los miembros en línea tienen un icono al lado de su nombre."
 
 #. Line for each guild member displayed in commands.
 #: cogs/tibia.py:838
@@ -4572,14 +4572,17 @@ msgstr "Guilds en {world}"
 
 #: cogs/tibia.py:884
 msgid "Shows the highscores for a given world and category."
-msgstr ""
+msgstr "Muestra los highscores de un mundo y una categoría determinados."
 
 #: cogs/tibia.py:885
 msgid "If the server is already tracking a world, the tracked world will be used if no world is specified.\n"
 "To see the highscores of all worlds, use \"global\" or \"all\" as the world parameter.\n\n"
 "Available categories are: experience, magic, sword, club, axe, shielding, fishing, fist, distance, goshnar and loyalty.\n"
 "Available vocations are: all, none, paladin, druid, sorcerer, knight."
-msgstr ""
+msgstr "Si el servidor esta rastreando un mundo, el mundo rastreado será usado si no se especifica ningún mundo.\n"
+"Para ver los highscores de todos los mundos, usa \"global\" o \"all\" como parámetro de mundo.\n\n"
+"Categorías disponibles son: experience, magic, sword, club, axe, shielding, fishing, fist, distance, goshnar, charms y loyalty.\n"
+"Las vocaciones disponibles son: all, none, paladin, druid, sorcerer, knight."
 
 #: cogs/tibia.py:915
 #, python-brace-format
@@ -4626,13 +4629,15 @@ msgstr "🏆 {category} highscores para {world}"
 
 #: cogs/tibia.py:991
 msgid "Shows info for a house or guildhall."
-msgstr ""
+msgstr "Muestra información sobre una casa o guildhall."
 
 #: cogs/tibia.py:992
 msgid "By default, it shows the current status of a house for the current tracked world (if any).\n"
 "If used on private messages, no world is looked up unless specified.\n\n"
 "To specify a world, add the world at the end separated with a comma."
-msgstr ""
+msgstr "Por defecto, muestra el estado actual de una casa para el mundo rastreado actual (si existe).\n"
+"Si se utiliza en mensajes privados, no se buscará ningún mundo a menos que se especifique.\n\n"
+"Para especificar un mundo, agregue el mundo al final separado con una coma."
 
 #: cogs/tibia.py:1017
 msgid "TibiaWiki module is unavailable for the moment, try again later."
@@ -4644,13 +4649,15 @@ msgstr "No pude encontrar una casa con ese nombre."
 
 #: cogs/tibia.py:1050
 msgid "Shows a character's or everyone's recent level ups."
-msgstr ""
+msgstr "Muestra los niveles recientes de un personaje o de todos."
 
 #: cogs/tibia.py:1051
 msgid "If a character is specified, it displays a list of its recent level ups.\n"
 "If no character is specified, it will show the recent level ups of all registered characters in the server.\n\n"
 "This only works for characters registered in the bots database, which are the characters owned by the users of this Discord server."
-msgstr ""
+msgstr "Si se especifica un personaje, se muestra una lista de sus niveles recientes.\n"
+"Si no se especifica ningún personaje, mostrará los niveles de todos los personajes registrados en el servidor.\n\n"
+"Esto solo funciona para los personajes registrados en la base de datos del bot, que son los personajes registrados a los usuarios de este servidor de Discord."
 
 #: cogs/tibia.py:1066
 msgid "Latest level ups"
@@ -4695,11 +4702,11 @@ msgstr "No hay niveles registrados de este usuario."
 
 #: cogs/tibia.py:1158
 msgid "Shows the latest news articles from Tibia.com."
-msgstr ""
+msgstr "Muestra las últimas noticias de Tibia.com."
 
 #: cogs/tibia.py:1159
 msgid "If no id is supplied, a list of recent articles is shown, otherwise, a snippet of the article is shown."
-msgstr ""
+msgstr "Si no se proporciona ningún id, se muestra una lista de artículos recientes, de lo contrario, se muestra un fragmento del artículo."
 
 #: cogs/tibia.py:1167
 msgid "Something went wrong getting recent news."
@@ -4711,7 +4718,7 @@ msgstr "No hay ningún artículo con ese ID."
 
 #: cogs/tibia.py:1179
 msgid "Shows the latest news ticker from Tibia.com."
-msgstr ""
+msgstr "Muestra las últimas noticias de Tibia.com."
 
 #: cogs/tibia.py:1185
 msgid "Something went wrong getting recent news ticker."
@@ -4723,7 +4730,7 @@ msgstr "Tickers de noticias recientes"
 
 #: cogs/tibia.py:1193
 msgid "Searches for online characters that meet the criteria."
-msgstr ""
+msgstr "Busca personajes en línea que cumplan con los criterios."
 
 #: cogs/tibia.py:1194
 msgid "There are 3 ways to use this command:\n"
@@ -4733,7 +4740,13 @@ msgid "There are 3 ways to use this command:\n"
 "By default, the tracked world is searched, unless specified at the end of the parameters\n"
 "You can add the world where you want to look in by adding a comma, followed by the name of the world.\n"
 "Example: `searchworld Cachero,Calmera`"
-msgstr ""
+msgstr "Hay 3 formas de usar este comando:\n\n"
+"- Encuentra un personaje en el rango de compartir con otro personaje. (`searchworld <name>`)\n"
+"- Encuentra un personaje en el rango de compartir con cierto nivel. (`searchworld <level>`)\n"
+"- Encuentra un personaje en un rango de nivel. (`searchworld <min>,<max>`)\n\n"
+"Por defecto, se busca en el mundo seguido, a menos que se especifique al final de los parámetros\n"
+"Puede agregar el mundo donde desea buscar añadiendo una coma, seguida por el nombre del mundo.\n"
+"Ejemplo: `searchworld Cachero, Calmera`"
 
 #: cogs/tibia.py:1204 cogs/tracking.py:1165
 msgid "Invalid arguments used, examples:"
@@ -4807,14 +4820,17 @@ msgstr "**{name}** - Nivel {level} {voc}"
 
 #: cogs/tibia.py:1310
 msgid "Shows the sharing range for that level or character or list of characters."
-msgstr ""
+msgstr "Muestra el rango de compartir para ese nivel, personaje, o lista de personajes."
 
 #: cogs/tibia.py:1311
 msgid "This command can be used in three ways:\n"
 "1. Find the share range of a certain level. (`share <level>`)\n"
 "2. Find the share range of a character. (`share <name>`)\n"
 "3. Find the joint share range of a group of characters. (`share <name1, name2…>`)"
-msgstr ""
+msgstr "Este comando puede utilizarse de tres maneras:\n"
+"1. Encuentra el rango de compartir experiencia de un nivel. (`share <level>`)\n"
+"2. Encuentra el rango de compartir experiencia de un personaje. (`compartir <name>`)\n"
+"3. Encuentra el rango de compartir experiencia conjunto de un grupo de personajes. (`share <name1, name2…>`)"
 
 #: cogs/tibia.py:1324
 #, python-format
