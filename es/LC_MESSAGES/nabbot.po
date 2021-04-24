@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-23 16:55-0700\n"
-"PO-Revision-Date: 2021-04-24 00:55\n"
+"PO-Revision-Date: 2021-04-24 14:09\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4173,11 +4173,11 @@ msgstr "Subastas de {name}"
 
 #: cogs/tibia.py:319
 msgid "Shows currently active auctions containing a specific item."
-msgstr ""
+msgstr "Muestra subastas activas que contienen un objeto específico."
 
 #: cogs/tibia.py:320
 msgid "Only auctions in progress are shown. The data displayed is not live and bid amounts might be outdated."
-msgstr ""
+msgstr "Sólo se muestran las subastas en curso. Los datos mostrados no están en vivo y las cantidades de las ofertas pueden estar desactualizadas."
 
 #: cogs/tibia.py:335
 msgid "That item does not exist or it has never been in an auction."
@@ -4229,12 +4229,13 @@ msgstr "Más caros"
 
 #: cogs/tibia.py:404
 msgid "Shows a world's bosses predictions."
-msgstr ""
+msgstr "Muestra las predicciones de los bosses de un mundo."
 
 #: cogs/tibia.py:405
 msgid "Shows the chances of boss respawning, the last time a boss was seen, or the expected time to see the boss.\n"
 "Data is provided by TibiaBosses.com."
-msgstr ""
+msgstr "Muestra las posibilidades de que un boss esté presente, la última vez que un boss fue visto, o el tiempo esperado para ver al boss.\n"
+"Los datos son proporcionados por TibiaBosses.com."
 
 #: cogs/tibia.py:413
 msgid "You must specify the world you want predictions for."
