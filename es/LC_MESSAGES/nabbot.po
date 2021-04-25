@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-23 16:55-0700\n"
-"PO-Revision-Date: 2021-04-25 06:45\n"
+"POT-Creation-Date: 2021-04-25 00:22-0700\n"
+"PO-Revision-Date: 2021-04-25 07:24\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -340,320 +340,320 @@ msgstr "en {time}"
 msgid "moments"
 msgstr "un momento"
 
-#: cogs/admin.py:34 cogs/tibia.py:2033 cogs/tibia.py:2116
+#: cogs/admin.py:35 cogs/tibia.py:2033 cogs/tibia.py:2116
 msgid "World"
 msgstr "Mundo"
 
-#: cogs/admin.py:35
+#: cogs/admin.py:36
 msgid "Language"
 msgstr "Idioma"
 
-#: cogs/admin.py:36
+#: cogs/admin.py:37
 msgid "News channel"
 msgstr "Canal de noticias"
 
-#: cogs/admin.py:37
+#: cogs/admin.py:38
 msgid "News tickers"
 msgstr "Noticias cortas"
 
-#: cogs/admin.py:38
+#: cogs/admin.py:39
 msgid "Events channel"
 msgstr "Canal de eventos"
 
-#: cogs/admin.py:39
+#: cogs/admin.py:40
 msgid "Server Log channel"
 msgstr "Canal de server log"
 
-#: cogs/admin.py:40
+#: cogs/admin.py:41
 msgid "Tracking channel"
 msgstr "Canal de niveles y muertes"
 
-#: cogs/admin.py:41
+#: cogs/admin.py:42
 msgid "Min Announce Level"
 msgstr "Nivel minimo de anuncios"
 
-#: cogs/admin.py:42
+#: cogs/admin.py:43
 msgid "Prefix"
 msgstr "Prefijo"
 
-#: cogs/admin.py:43
+#: cogs/admin.py:44
 msgid "Welcome message"
 msgstr "Mensaje de bienvenida"
 
-#: cogs/admin.py:44
+#: cogs/admin.py:45
 msgid "Welcome channel"
 msgstr "Canal de Bienvenida"
 
-#: cogs/admin.py:45
+#: cogs/admin.py:46
 msgid "Default Announcements"
 msgstr "Anuncios predeterminados"
 
-#: cogs/admin.py:46
+#: cogs/admin.py:47
 msgid "Show User in Announcements"
 msgstr "Mostrar usuario en anuncios"
 
-#: cogs/admin.py:49
+#: cogs/admin.py:50
 msgid "I couldn't find that channel, are you sure it exists?"
 msgstr "No pude encontrar ese canal, ¿estás seguro de que existe?"
 
-#: cogs/admin.py:51
+#: cogs/admin.py:52
 msgid "yes/no"
 msgstr "sí/no"
 
-#: cogs/admin.py:52
+#: cogs/admin.py:53
 msgid "That's not a valid option, try **yes** or **no**."
 msgstr "Esta no es una opción válida, prueba **sí** o **no**."
 
-#: cogs/admin.py:53
+#: cogs/admin.py:54
 msgid "A channel's name or ID, or `disable`."
 msgstr "Nombre de un canal o ID, o 'deshabilitar'."
 
 #. Used to show that the current setting is the default global setting.
-#: cogs/admin.py:56
+#: cogs/admin.py:57
 msgid "Global default"
 msgstr "Predeterminado global"
 
-#: cogs/admin.py:75 cogs/admin.py:176
+#: cogs/admin.py:76 cogs/admin.py:177
 msgid "unknown language"
 msgstr "idioma desconocido"
 
-#: cogs/admin.py:85
+#: cogs/admin.py:86
 msgid "You can't remove this prefix."
 msgstr "No puedes eliminar este prefijo."
 
-#: cogs/admin.py:87
+#: cogs/admin.py:88
 #, python-format
 msgid "The prefix can't be longer than %d characters."
 msgstr "El prefijo no puede tener más de %d caracteres."
 
-#: cogs/admin.py:95
+#: cogs/admin.py:96
 msgid "Settings can't be modified on private messages."
 msgstr "La configuración no se puede modificar mediante mensajes privados."
 
-#: cogs/admin.py:101 cogs/tibia.py:2132
+#: cogs/admin.py:102 cogs/tibia.py:2132
 msgid "Yes"
 msgstr "Si"
 
-#: cogs/admin.py:101
+#: cogs/admin.py:102
 msgid "No"
 msgstr "No"
 
-#: cogs/admin.py:104
+#: cogs/admin.py:105
 msgid "Commands for server administrators and mods.\n\n"
 "`Manage Server` permission is needed to use these commands."
 msgstr "Comandos para los administradores de servidores y mods.\n\n"
 "El permiso `Gestionar servidor` es necesario para usar estos comandos."
 
-#: cogs/admin.py:112
+#: cogs/admin.py:113
 msgid "Checks the channel's permissions."
 msgstr "Verifica los permisos del canal."
 
-#: cogs/admin.py:113
+#: cogs/admin.py:114
 msgid "Makes sure that the bot has all the required permissions to work properly.\n"
 "By default, it checks the current channel, unless a specific channel is provided."
 msgstr "Se asegura que el bot tiene todos los permisos necesarios para funcionar correctamente\n"
 "Por defecto, comprueba el canal actual, a menos que se especifique un canal."
 
-#: cogs/admin.py:120
+#: cogs/admin.py:121
 #, python-brace-format
 msgid "**Checking {channel}:**"
 msgstr "**Revisando {channel}:**"
 
-#: cogs/admin.py:123
+#: cogs/admin.py:124
 msgid "I have `Administrator` permission."
 msgstr "Tengo permisos `Administrador`."
 
-#: cogs/admin.py:128
+#: cogs/admin.py:129
 msgid "I won't be able to see commands in here."
 msgstr "No podré ver comandos aquí."
 
-#: cogs/admin.py:128
+#: cogs/admin.py:129
 msgid "View Channel"
 msgstr "Ver canales"
 
-#: cogs/admin.py:129
+#: cogs/admin.py:130
 msgid "I won't be able to respond in here."
 msgstr "No podré responder aquí."
 
-#: cogs/admin.py:129
+#: cogs/admin.py:130
 msgid "Send Messages"
 msgstr "Enviar mensajes"
 
-#: cogs/admin.py:130 cogs/admin.py:135
+#: cogs/admin.py:131 cogs/admin.py:136
 msgid "Pagination or commands that require reaction confirmation won't work."
 msgstr "La paginación o comandos que requieran confirmación de reacción no funcionarán."
 
-#: cogs/admin.py:131
+#: cogs/admin.py:132
 msgid "Add Reactions"
 msgstr "Añadir reacciones"
 
-#: cogs/admin.py:132
+#: cogs/admin.py:133
 msgid "I won't be able to show my emojis in some commands."
 msgstr "No podré mostrar mis emojis en algunos comandos."
 
-#: cogs/admin.py:133
+#: cogs/admin.py:134
 msgid "Use External Emoji"
 msgstr "Usar emojis externos"
 
-#: cogs/admin.py:136
+#: cogs/admin.py:137
 msgid "Read Message History"
 msgstr "Leer el historial de mensajes"
 
-#: cogs/admin.py:137
+#: cogs/admin.py:138
 msgid "Command pagination won't work well."
 msgstr "La paginación de comandos no funcionará bien."
 
-#: cogs/admin.py:137
+#: cogs/admin.py:138
 msgid "Manage Messages"
 msgstr "Gestionar mensajes"
 
-#: cogs/admin.py:138
+#: cogs/admin.py:139
 msgid "I won't be able to show many of my commands."
 msgstr "No podré mostrar muchos de mis comandos."
 
-#: cogs/admin.py:138
+#: cogs/admin.py:139
 msgid "Embed Links"
 msgstr "Insertar enlaces"
 
-#: cogs/admin.py:139
+#: cogs/admin.py:140
 msgid "I won't be able to show images in some of my commands."
 msgstr "No podré mostrar imágenes en algunos de mis comandos."
 
-#: cogs/admin.py:139
+#: cogs/admin.py:140
 msgid "Attach Files"
 msgstr "Adjuntar archivos"
 
-#: cogs/admin.py:140
+#: cogs/admin.py:141
 msgid "I only need this to manage auto roles and joinable roles."
 msgstr "Sólo necesito esto para gestionar roles automáticos y roles unibles."
 
-#: cogs/admin.py:140
+#: cogs/admin.py:141
 msgid "Manage Roles"
 msgstr "Gestionar roles"
 
-#: cogs/admin.py:141
+#: cogs/admin.py:142
 msgid "I only need this to create watchlists."
 msgstr "Sólo necesito esto para crear watchlists."
 
-#: cogs/admin.py:141
+#: cogs/admin.py:142
 msgid "Manage Channels"
 msgstr "Gestionar canales"
 
-#: cogs/admin.py:142
+#: cogs/admin.py:143
 msgid "I need this to create server logs, news and levels channels, as well as watchlist feeds."
 msgstr "Necesito esto para crear server logs, canales de noticias, canales de niveles y muertes, asi como watchlists feeds."
 
-#: cogs/admin.py:143
+#: cogs/admin.py:144
 msgid "Manage Webhooks"
 msgstr "Gestionar webhooks"
 
-#: cogs/admin.py:144
+#: cogs/admin.py:145
 msgid "I only need this to show you the author of actions in the server log."
 msgstr "Solo necesito esto para mostrarte el autor de las acciones en el server log."
 
-#: cogs/admin.py:145
+#: cogs/admin.py:146
 msgid "View Audit Log"
 msgstr "Ver el registro de auditoría"
 
 #. Shown when a specific Discord permission is missing
-#: cogs/admin.py:155
+#: cogs/admin.py:156
 #, python-brace-format
 msgid "Missing `{name}` permission"
 msgstr "Permiso `{name}` faltante"
 
-#: cogs/admin.py:158
+#: cogs/admin.py:159
 msgid "All permissions are correct!"
 msgstr "¡Todos los permisos son correctos!"
 
-#: cogs/admin.py:163
+#: cogs/admin.py:164
 msgid "Sets the language for the current server or your personal language."
 msgstr "Establece el idioma para el servidor actual o su idioma personal."
 
-#: cogs/admin.py:164
+#: cogs/admin.py:165
 msgid "If used on a Discord server, it will attempt to change the server's language.\n"
 "If used on a private message, it will attempt to change the user's language."
 msgstr "Si se usa en un servidor de Discord, intentará cambiar el idioma del servidor.\n"
 "Si se utiliza en un mensaje privado, intentará cambiar el idioma del usuario."
 
-#: cogs/admin.py:169
+#: cogs/admin.py:170
 msgid "You need `Manage Server` permission to change the server's language."
 msgstr "Necesita permisos de `Gestionar servidor` para cambiar el idioma del servidor."
 
-#: cogs/admin.py:170
+#: cogs/admin.py:171
 msgid "If what you want is to change your personal language, use this command on a private message."
 msgstr "Si lo que quieres es cambiar tu idioma personal, usa este comando en un mensaje privado."
 
-#: cogs/admin.py:178
+#: cogs/admin.py:179
 #, python-brace-format
 msgid "Your current personal language is **{language}**. I will use this only in private messages with you."
 msgstr "Tu idioma personal actual es **{language}**. Solo lo usaré en mensajes privados contigo."
 
-#: cogs/admin.py:181
+#: cogs/admin.py:182
 #, python-brace-format
 msgid "The language for this server is **{language}**."
 msgstr "El idioma para este servidor es **{language}**."
 
-#: cogs/admin.py:185
+#: cogs/admin.py:186
 msgid "This language is currently not supported."
 msgstr "Este idioma no está soportado actualmente."
 
-#: cogs/admin.py:186
+#: cogs/admin.py:187
 msgid "The supported languages are:"
 msgstr "Los idiomas soportados son:"
 
-#: cogs/admin.py:190
+#: cogs/admin.py:191
 #, python-brace-format
 msgid "Do you want to set your personal language to `{language}`?"
 msgstr "¿Quieres establecer tu idioma personal a `{language}`?"
 
-#: cogs/admin.py:191
-#, python-brace-format
-msgid "Our private messages will now be in **{language}**."
-msgstr "Nuestros mensajes privados ahora estarán en **{language}**."
-
-#: cogs/admin.py:193
+#: cogs/admin.py:194
 #, python-brace-format
 msgid "Do you want to set the language to `{language}`?"
 msgstr "¿Quieres establecer el idioma a `{language}`?"
 
-#: cogs/admin.py:194
+#: cogs/admin.py:208
+#, python-brace-format
+msgid "Our private messages will now be in **{language}**."
+msgstr "Nuestros mensajes privados ahora estarán en **{language}**."
+
+#: cogs/admin.py:210
 #, python-brace-format
 msgid "This server messages will now be in **{language}**."
 msgstr "Este servidor ahora estará en **{language}**."
 
-#: cogs/admin.py:216
+#: cogs/admin.py:218
 msgid "Checks or sets various server-specific settings."
 msgstr "Revisa o modifica las configuraciones del servidor."
 
-#: cogs/admin.py:221 cogs/admin.py:762
+#: cogs/admin.py:223 cogs/admin.py:764
 msgid "Settings"
 msgstr "Configuraciones"
 
-#: cogs/admin.py:222
+#: cogs/admin.py:224
 msgid "Use the subcommands to change the settings for this server."
 msgstr "Usa los subcomandos para cambiar las configuraciones del servidor."
 
-#: cogs/admin.py:233
+#: cogs/admin.py:235
 msgid "Sets whether simple messages will be used instead of random custom messages for levels and deaths."
 msgstr "Establece si se usarán mensajes simples en lugar de mensajes personalizados aleatorios para niveles y muertes."
 
-#: cogs/admin.py:235
+#: cogs/admin.py:237
 msgid "When enabled, all level up and death messages will be the same, a simple and short message, instead of randomized messages."
 msgstr "Cuando se activa, todos los mensajes de nivel y de muerte serán los mismos, un mensaje simple y corto, en lugar de mensajes aleatorios."
 
-#: cogs/admin.py:249
+#: cogs/admin.py:251
 msgid "I will use simple messages from now on."
 msgstr "A partir de ahora utilizaré mensajes simples."
 
-#: cogs/admin.py:252
+#: cogs/admin.py:254
 msgid "I will use randomized custom messages from now on."
 msgstr "A partir de ahora utilizaré mensajes personalizados aleatorios."
 
-#: cogs/admin.py:260
+#: cogs/admin.py:262
 msgid "Changes the channel where upcoming events are announced."
 msgstr "Cambia el canal donde se anuncian los próximos eventos."
 
-#: cogs/admin.py:261
+#: cogs/admin.py:263
 msgid "This is where announcements for events that about to happen will be made.\n"
 "If the assigned channel is deleted or the bot no longer has access to it, the top channel will be used.\n\n"
 "If this is disabled, users that subscribed to the event will still receive notifications via PM."
@@ -661,56 +661,56 @@ msgstr "Aquí es donde se harán anuncios de eventos a punto de suceder.\n"
 "Si el canal asignado es eliminado o el bot ya no tiene acceso, se utilizará el primer canal de la lista.\n\n"
 "Si se desactiva, los usuarios que se suscriban al evento seguirán recibiendo notificaciones a través de mensajes privados."
 
-#: cogs/admin.py:275
+#: cogs/admin.py:277
 msgid "Event announcements are already disabled."
 msgstr "Los anuncios de eventos ya están deshabilitados."
 
-#: cogs/admin.py:277
+#: cogs/admin.py:279
 msgid "Are you sure you want to disable events announcements?"
 msgstr "¿Estás seguro de que quieres desactivar los anuncios de eventos?"
 
-#: cogs/admin.py:287 cogs/admin.py:605
+#: cogs/admin.py:289 cogs/admin.py:607
 #, python-brace-format
 msgid "I don't have permission to use {channel}."
 msgstr "No tengo permiso para usar {channel}."
 
-#: cogs/admin.py:289
+#: cogs/admin.py:291
 #, python-brace-format
 msgid "Are you sure you want {channel} as the new events channel?"
 msgstr "¿Estás seguro de que quieres que {channel} sea el nuevo canal de eventos?"
 
-#: cogs/admin.py:299
+#: cogs/admin.py:301
 msgid "The events channel has been disabled."
 msgstr "El canal de eventos ha sido deshabilitado."
 
-#: cogs/admin.py:301
+#: cogs/admin.py:303
 #, python-brace-format
 msgid "{channel} will now be used for events."
 msgstr "{channel} se usará ahora para eventos."
 
-#: cogs/admin.py:307
+#: cogs/admin.py:309
 msgid "Sets the language for this server."
 msgstr "Establece el idioma para este servidor."
 
-#: cogs/admin.py:308
+#: cogs/admin.py:310
 msgid "All messages sent by NabBot in this server will be in the selected language.\n"
 "Messages sent on private messages will be in the user's personal language."
 msgstr "Todos los mensajes enviados por NabBot en este servidor serán en el idioma seleccionado.\n"
 "Los mensajes enviados en mensajes privados serán en el idioma personal del usuario."
 
-#: cogs/admin.py:316
+#: cogs/admin.py:318
 msgid "The desired language."
 msgstr "El idioma deseado."
 
-#: cogs/admin.py:317
+#: cogs/admin.py:319
 msgid "language"
 msgstr "idioma"
 
-#: cogs/admin.py:324
+#: cogs/admin.py:326
 msgid "Changes the channel where levelup and deaths are announced."
 msgstr "Cambia el canal donde se anuncian niveles y muertes."
 
-#: cogs/admin.py:325
+#: cogs/admin.py:327
 msgid "This is where all level ups and deaths of registered characters will be announced.\n"
 "By default, the highest channel on the list where the bot can send messages will be used.\n"
 "If the assigned channel is deleted or no longer accessible, the top channel will be used again.\n\n"
@@ -721,62 +721,62 @@ msgstr "Aquí es donde se anunciarán todos los niveles y muertes de personajes 
 " \n"
 "Si esto está desactivado, no se harán anuncios, pero las muertes y niveles se seguirán rastreando."
 
-#: cogs/admin.py:348
+#: cogs/admin.py:350
 msgid "Sets the minimum level for death and level up announcements."
 msgstr "Establece el nivel mínimo para los anuncios de muertes y subidas de nivel."
 
-#: cogs/admin.py:349
+#: cogs/admin.py:351
 msgid "Level ups and deaths under the minimum level will still be saved, to be viewed with other commands."
 msgstr "Las subidas de nivel y muertes por debajo del nivel mínimo se seguirán guardando, para ser vistos con otros comandos."
 
-#: cogs/admin.py:358
+#: cogs/admin.py:360
 msgid "Any number greater than 1"
 msgstr "Cualquier número mayor que 1"
 
-#: cogs/admin.py:358
+#: cogs/admin.py:360
 msgid "level"
 msgstr "nivel"
 
-#: cogs/admin.py:360
+#: cogs/admin.py:362
 msgid "Level can't be lower than 1."
 msgstr "El nivel no puede ser menor que 1."
 
-#: cogs/admin.py:363
+#: cogs/admin.py:365
 #, python-brace-format
 msgid "Minimum announce level has been set to `{level}`."
 msgstr "El nivel mínimo de anuncios ha sido establecido a `{level}`."
 
-#: cogs/admin.py:369
+#: cogs/admin.py:371
 msgid "Changes the channel where Tibia news are announced."
 msgstr "Cambia el canal donde se anuncian las noticias de Tibia."
 
-#: cogs/admin.py:370
+#: cogs/admin.py:372
 msgid "This is where all news and articles posted in Tibia.com will be announced."
 msgstr "Aquí es donde todas las noticias y artículos publicados en Tibia.com serán anunciados."
 
-#: cogs/admin.py:389
+#: cogs/admin.py:391
 msgid "Enables or disables news tickers from Tibia.com in this server."
 msgstr "Habilita o deshabilita los tickers de noticias de Tibia.com en este servidor."
 
-#: cogs/admin.py:390
+#: cogs/admin.py:392
 msgid "Disabling this will make NabBot only announce news and featured articles.\n"
 "In order for news ticker to be announced, news announcemnets must be enabled."
 msgstr "Desactivar esto hará que NabBot solo anuncie noticias y artículos destacados.\n"
 "Para que se anuncien los noticias, los anuncios de noticias deben estar habilitados."
 
-#: cogs/admin.py:403
+#: cogs/admin.py:405
 msgid "I will announce news ticker along news and featured articles from now on."
 msgstr "A partir de ahora anunciaré todo tipo de noticias."
 
-#: cogs/admin.py:406
+#: cogs/admin.py:408
 msgid "I won't announce news ticker from now on."
 msgstr "A partir de ahora no voy a anunciar los nuevos tickers."
 
-#: cogs/admin.py:414
+#: cogs/admin.py:416
 msgid "Changes the command prefixes for this server."
 msgstr "Cambia los prefijos de comando para este servidor."
 
-#: cogs/admin.py:415
+#: cogs/admin.py:417
 msgid "The prefixes are the characters that go before a command's name, in order for the bot to recognize the command. A maximum of 5 prefixes can be set per server.\n\n"
 "To remove an existing prefix, use it as a parameter.\n\n"
 "Prefixes are case-insensitive, and will always be saved as lowercase.\n\n"
@@ -788,79 +788,79 @@ msgstr "Los prefijos son los caracteres que van antes del nombre del comando, pa
 "Si quieres tener un espacio al final tal como: `nabbot help`, tienes que envolver el prefijo en comillas dobles. Palabras multiples tambien requieren comillas dobles.\n\n"
 "Mencionar el bot siempre es un comando válido y no puede ser cambiado."
 
-#: cogs/admin.py:432
+#: cogs/admin.py:434
 #, python-brace-format
 msgid "{prefixes} and mentions"
 msgstr "{prefixes} y menciones"
 
-#: cogs/admin.py:433
+#: cogs/admin.py:435
 msgid "Mentions only"
 msgstr "Solo menciones"
 
-#: cogs/admin.py:434 cogs/admin.py:537
+#: cogs/admin.py:436 cogs/admin.py:539
 msgid "Any text"
 msgstr "Cualquier texto"
 
-#: cogs/admin.py:434
+#: cogs/admin.py:436
 msgid "prefix"
 msgstr "prefijo"
 
-#: cogs/admin.py:441
+#: cogs/admin.py:443
 #, python-brace-format
 msgid "Do you want to remove `{prefix}` as a prefix?"
 msgstr "¿Quieres eliminar `{prefix}` como prefijo?"
 
-#: cogs/admin.py:445
+#: cogs/admin.py:447
 #, python-brace-format
 msgid "You can't have more than {limit} command prefixes."
 msgstr "No puedes tener más de {limit} prefijos de comandos."
 
-#: cogs/admin.py:447
+#: cogs/admin.py:449
 #, python-brace-format
 msgid "Do you want to add `{prefix}` as a prefix?"
 msgstr "¿Quieres añadir `{prefix}` como prefijo?"
 
-#: cogs/admin.py:455
+#: cogs/admin.py:457
 #, python-brace-format
 msgid "The prefix `{prefix}` was removed."
 msgstr "El prefijo `{prefix}` fue eliminado."
 
-#: cogs/admin.py:458
+#: cogs/admin.py:460
 #, python-brace-format
 msgid "The prefix `{prefix}` was added."
 msgstr "El prefijo `{prefix}` fue añadido."
 
-#: cogs/admin.py:471
+#: cogs/admin.py:473
 msgid "Changes the channel used as the server log."
 msgstr "Cambia el canal utilizado como server log."
 
-#: cogs/admin.py:472
+#: cogs/admin.py:474
 msgid "[Server log](https://docs.nabbot.xyz/features/serverlog/) is a special channel where changes are posted to."
 msgstr "El [server log](https://docs.nabbot.xyz/features/serverlog/) es un canal especial en el que se publican los cambios."
 
-#: cogs/admin.py:492
+#: cogs/admin.py:494
 msgid "Sets whether level/death messages should show the user the character is registered to."
 msgstr "Establece si los mensajes de nivel/muerte deben mostrar al usuario al que el personaje está registrado."
 
-#: cogs/admin.py:493
+#: cogs/admin.py:495
 msgid "When enabled, level up and death messages will contain a mention of the user that owns the character.\n\n"
 "The users are won't receive a notification for this."
 msgstr "Cuando esta activado, los mensajes de nivel y muerte contendrán una mención del usuario que posea el personaje.\n\n"
 "Los usuarios no recibirán una notificación por esto."
 
-#: cogs/admin.py:508
+#: cogs/admin.py:510
 msgid "I will show users on level up and death messages from now on."
 msgstr "A partir de ahora mostraré a los usuarios en los mensajes de nivel y de muerte."
 
-#: cogs/admin.py:511
+#: cogs/admin.py:513
 msgid "I won't show users on level up and death messages from now on."
 msgstr "A partir de ahora no mostraré a los usuarios en mensajes de subida de nivel y muerte."
 
-#: cogs/admin.py:519
+#: cogs/admin.py:521
 msgid "Changes the message new members receive when joining."
 msgstr "Cambia el mensaje que los nuevos miembros reciben al unirse."
 
-#: cogs/admin.py:520
+#: cogs/admin.py:522
 #, python-brace-format
 msgid "This is initially disabled.\n\n"
 "You can use formatting to show dynamic values:\n"
@@ -885,52 +885,52 @@ msgstr "Esto está deshabilitado inicialmente.\n\n"
 "- {bot} -> El nombre del bot.\n\n"
 "Asegúrate de cambiar también el canal de bienvenida.\n"
 
-#: cogs/admin.py:537
+#: cogs/admin.py:539
 msgid "message/disable"
 msgstr "mensaje/deshabilitar"
 
-#: cogs/admin.py:541
+#: cogs/admin.py:543
 msgid "Welcome messages are already disabled."
 msgstr "Los mensajes de bienvenida ya están deshabilitados."
 
-#: cogs/admin.py:543
+#: cogs/admin.py:545
 msgid "Are you sure you want to disable welcome messages?"
 msgstr "¿Estás seguro de que quieres desactivar los mensajes de bienvenida?"
 
-#: cogs/admin.py:548
+#: cogs/admin.py:550
 msgid "This message is too long! ({length:,}/{limit} characters)"
 msgstr "¡El mensaje es demasiado largo! ({length:,}/{limit} caracteres)"
 
-#: cogs/admin.py:553
+#: cogs/admin.py:555
 msgid "Do you want to set this as the new welcome message?"
 msgstr "¿Desea establecer esto como el nuevo mensaje de bienvenida?"
 
-#: cogs/admin.py:554
+#: cogs/admin.py:556
 msgid "*This is how your message would look if **you** joined.*"
 msgstr "*Así es como se vería tu mensaje si **tú** te unieras.*"
 
-#: cogs/admin.py:555
+#: cogs/admin.py:557
 msgid "Message Preview"
 msgstr "Vista previa del mensaje"
 
-#: cogs/admin.py:560
+#: cogs/admin.py:562
 #, python-brace-format
 msgid "Unknown keyword {key}."
 msgstr "Palabra clave {key} desconocida."
 
-#: cogs/admin.py:568
+#: cogs/admin.py:570
 msgid "The welcome message has been disabled."
 msgstr "El mensaje de bienvenida ha sido desactivado."
 
-#: cogs/admin.py:570
+#: cogs/admin.py:572
 msgid "Welcome message updated."
 msgstr "Mensaje de bienvenida actualizado."
 
-#: cogs/admin.py:576
+#: cogs/admin.py:578
 msgid "Changes the channel where new members are welcomed."
 msgstr "Cambia el canal donde los nuevos miembros son bienvenidos."
 
-#: cogs/admin.py:577
+#: cogs/admin.py:579
 msgid "A welcome message must be set for this setting to work.\n"
 "If the channel becomes unavailable, private messages will be used.\n\n"
 "Note that private messages are not reliable since new users can have them disabled before joining.\n"
@@ -940,182 +940,182 @@ msgstr "Debe establecerse un mensaje de bienvenida para que esta configuración 
 "Tenga en cuenta que los mensajes privados no son fiables ya que los nuevos usuarios pueden deshabilitarlos antes de unirse.\n"
 "Para deshabilitar esto, debe desactivar los mensajes de bienvenida usando `settings welcome`."
 
-#: cogs/admin.py:588
+#: cogs/admin.py:590
 msgid "A channel's name or ID, or `private`."
 msgstr "Nombre de un canal o ID, o `private`."
 
-#: cogs/admin.py:589
+#: cogs/admin.py:591
 msgid "channel/private"
 msgstr "canal/privado"
 
-#: cogs/admin.py:591
+#: cogs/admin.py:593
 msgid "private"
 msgstr "privado"
 
-#: cogs/admin.py:593
+#: cogs/admin.py:595
 msgid "Welcome messages are already private."
 msgstr "Los mensajes de bienvenida ya son privados."
 
-#: cogs/admin.py:595
+#: cogs/admin.py:597
 msgid "Are you sure you want to make welcome messages private?"
 msgstr "¿Está seguro de que desea hacer privados los mensajes de bienvenida?"
 
-#: cogs/admin.py:607
+#: cogs/admin.py:609
 #, python-brace-format
 msgid "Are you sure you want {channel} as the new welcome channel?"
 msgstr "¿Estás seguro de que quieres {channel} como el nuevo canal de bienvenida?"
 
-#: cogs/admin.py:617
+#: cogs/admin.py:619
 msgid "Welcome messages will be sent privately."
 msgstr "Los mensajes de bienvenida serán enviados en privado."
 
-#: cogs/admin.py:619
+#: cogs/admin.py:621
 #, python-brace-format
 msgid "{channel} will now be used for welcome messages."
 msgstr "{channel} ahora se usará para mensajes de bienvenida."
 
-#: cogs/admin.py:625
+#: cogs/admin.py:627
 msgid "Changes the world this Discord server tracks."
 msgstr "Cambia el mundo que servidor de Discord rastrea."
 
-#: cogs/admin.py:626
+#: cogs/admin.py:628
 msgid "The tracked world is the Tibia world that this Discord server is following.\n"
 "Only characters in that world will be registered."
 msgstr "El mundo rastreado es el de Tibia que sigue este servidor de Discord.\n"
 "Solo se registrarán personajes en ese mundo."
 
-#: cogs/admin.py:631
+#: cogs/admin.py:633
 msgid "Any Tibia world or `none` to disable."
 msgstr "Cualquier mundo de Tibia o `ninguno` para desactivar."
 
-#: cogs/admin.py:631
+#: cogs/admin.py:633
 msgid "world/none"
 msgstr "mundo/ninguno"
 
-#: cogs/admin.py:636
+#: cogs/admin.py:638
 msgid "This server is already not tracking any world."
 msgstr "Este servidor ya no está siguiendo ningún mundo."
 
-#: cogs/admin.py:638
+#: cogs/admin.py:640
 #, python-brace-format
 msgid "Are you sure you want to unassign **{world}** from this server?"
 msgstr "¿Estás seguro de que deseas desasignar a **{world}** de este servidor?"
 
-#: cogs/admin.py:645
+#: cogs/admin.py:647
 #, python-brace-format
 msgid "Are you sure you want to assign **{w}** to this server?"
 msgstr "¿Estás seguro de que deseas asignar **{w}** a este servidor?"
 
-#: cogs/admin.py:657
+#: cogs/admin.py:659
 msgid "This server is no longer tracking any world."
 msgstr "Este servidor ya no está siguiendo ningún mundo."
 
-#: cogs/admin.py:659
+#: cogs/admin.py:661
 #, python-brace-format
 msgid "This server is now tracking **{world}**"
 msgstr "Este servidor ahora está siguiendo a **{world}**"
 
-#: cogs/admin.py:676
+#: cogs/admin.py:678
 #, python-brace-format
 msgid "The {name} channel was disabled."
 msgstr "El canal {name} fue deshabilitado."
 
-#: cogs/admin.py:677
+#: cogs/admin.py:679
 #, python-brace-format
 msgid "{name} disabled by {author}."
 msgstr "{name} deshabilitado por {author}."
 
-#: cogs/admin.py:683
+#: cogs/admin.py:685
 #, python-brace-format
 msgid "{name} updated by {author}."
 msgstr "{name} actualizado por {author}."
 
 #. 0 is the new channel, 1 is the type of channel
-#: cogs/admin.py:697
+#: cogs/admin.py:699
 #, python-brace-format
 msgid "{0} will now be used as the {1}."
 msgstr "{0} ahora será usado como {1}."
 
-#: cogs/admin.py:700
+#: cogs/admin.py:702
 #, python-brace-format
 msgid "I was not able to create a webhook for channel {0}"
 msgstr "No he podido crear un webhook para el canal {0}"
 
-#: cogs/admin.py:717
+#: cogs/admin.py:719
 msgid "Private Messages"
 msgstr "Mensajes privados"
 
-#: cogs/admin.py:719
+#: cogs/admin.py:721
 msgid "Disabled."
 msgstr "Deshabilitado."
 
-#: cogs/admin.py:721 cogs/admin.py:743
+#: cogs/admin.py:723 cogs/admin.py:745
 msgid "None."
 msgstr "Ninguno."
 
-#: cogs/admin.py:723
+#: cogs/admin.py:725
 msgid "None, previous channel was deleted."
 msgstr "Ninguno, el canal anterior fue eliminado."
 
-#: cogs/admin.py:725
+#: cogs/admin.py:727
 #, python-brace-format
 msgid "{channel}, but I can't use the channel."
 msgstr "{channel}, pero no puedo usar el canal."
 
-#: cogs/admin.py:730
+#: cogs/admin.py:732
 msgid " I will send direct messages meanwhile."
 msgstr " enviaré mensajes directos mientras tanto."
 
-#: cogs/admin.py:734
+#: cogs/admin.py:736
 msgid " I have no channel to use."
 msgstr " No tengo ningún canal para usar."
 
-#: cogs/admin.py:736
+#: cogs/admin.py:738
 #, python-brace-format
 msgid " I will use {channel} meanwhile."
 msgstr " usaré {channel} mientras tanto."
 
-#: cogs/admin.py:750
+#: cogs/admin.py:752
 msgid "None, webhook was deleted by a user."
 msgstr "Ninguno, el webhook fue eliminado por un usuario."
 
-#: cogs/admin.py:752
+#: cogs/admin.py:754
 msgid "I'm not able to get the current value, please try again later."
 msgstr "No puedo obtener el valor actual, por favor inténtalo de nuevo más tarde."
 
-#: cogs/admin.py:765
+#: cogs/admin.py:767
 msgid "Current value"
 msgstr "Valor actual"
 
-#: cogs/admin.py:766
+#: cogs/admin.py:768
 msgid "Edit"
 msgstr "Editar"
 
-#: cogs/admin.py:767
+#: cogs/admin.py:769
 msgid "Accepted values"
 msgstr "Valores aceptados"
 
-#: cogs/admin.py:773
+#: cogs/admin.py:775
 #, python-brace-format
 msgid "Use \"{prefix}help {command} {subcommand}\" for more info."
 msgstr "Usa \"{prefix}help {command} {subcommand}\" para más información."
 
-#: cogs/admin.py:790
+#: cogs/admin.py:792
 #, python-brace-format
 msgid "There's no {name} channel set."
 msgstr "No se ha establecido ningún canal {name}."
 
-#: cogs/admin.py:791
+#: cogs/admin.py:793
 #, python-brace-format
 msgid "Are you sure you want to disable the set {name}?"
 msgstr "¿Estás seguro de que deseas desactivar el {name}?"
 
-#: cogs/admin.py:800
+#: cogs/admin.py:802
 #, python-brace-format
 msgid "I need `Manage Webhooks` permissions to assign a {name}."
 msgstr "Necesito permisos de `Gestionar webhooks` para asignar un {name}."
 
-#: cogs/admin.py:803
+#: cogs/admin.py:805
 #, python-brace-format
 msgid "Are you sure you want {new_channel} as the new {name}?"
 msgstr "¿Estás seguro de que quieres {new_channel} como nuevo {name}?"
@@ -1388,73 +1388,85 @@ msgstr "sin vocación"
 
 #: cogs/calculators.py:473
 #, python-brace-format
-msgid "**{name}** is a level **{level}** {vocation}, {he_she} has:"
-msgstr "**{name}** es un nivel **{level}** {vocation}, {he_she} tiene:"
+msgid "**{name}** is a level **{level}** {vocation}, with:"
+msgstr ""
 
 #: cogs/calculators.py:476
 #, python-brace-format
 msgid "A level **{level}** {vocation}, has:"
 msgstr "Un {vocation} nivel **{level}** tiene:"
 
-#: cogs/calculators.py:486
+#: cogs/calculators.py:481
+msgid "Capacity"
+msgstr ""
+
+#: cogs/calculators.py:484
+msgid "Experience"
+msgstr ""
+
+#: cogs/calculators.py:485
+msgid "To next level"
+msgstr ""
+
+#: cogs/calculators.py:495
 msgid "Calculates the level required to reach the specified capacity."
 msgstr "Calcula el nivel requerido para alcanzar la capacidad especificada."
 
-#: cogs/calculators.py:487 cogs/calculators.py:502 cogs/calculators.py:515
+#: cogs/calculators.py:496 cogs/calculators.py:511 cogs/calculators.py:524
 msgid "The levels needed for each vocation are shown."
 msgstr "Se muestran los niveles necesarios para cada vocación."
 
-#: cogs/calculators.py:492
+#: cogs/calculators.py:501
 #, python-format
 msgid "Capacity can't be lower than %d."
 msgstr "La capacidad no puede ser menor que %d."
 
-#: cogs/calculators.py:494
+#: cogs/calculators.py:503
 msgid "To reach **{capacity:,}** oz. capacity, you need at least the following levels per vocation:\n"
 "\t"
 msgstr "Para alcanzar la capacidad **{capacity:,}** oz. necesitas al menos los siguientes niveles por vocación:\n"
 "\t"
 
-#: cogs/calculators.py:501
+#: cogs/calculators.py:510
 msgid "Calculates the level required to reach the specified hitpoints."
 msgstr "Calcula el nivel necesario para alcanzar los hitpoints especificados."
 
-#: cogs/calculators.py:507
+#: cogs/calculators.py:516
 #, python-format
 msgid "Hitpoints can't be lower than %d."
 msgstr "Los hitpoints no pueden ser inferiores a %d."
 
-#: cogs/calculators.py:514
+#: cogs/calculators.py:523
 msgid "Calculates the level required to reach the specified mana."
 msgstr "Calcula el nivel necesario para alcanzar el maná especificado."
 
-#: cogs/calculators.py:520
+#: cogs/calculators.py:529
 #, python-format
 msgid "Mana can't be lower than %d."
 msgstr "El maná no puede ser inferior a %d."
 
-#: cogs/calculators.py:521
+#: cogs/calculators.py:530
 msgid "To reach **{mana:,}** mana points, you need at least the following levels per vocation:\n"
 "\t"
 msgstr "Para alcanzar **{mana:,}** puntos de maná, necesitas al menos los siguientes niveles por vocación:\n"
 "\t"
 
-#: cogs/calculators.py:620
+#: cogs/calculators.py:629
 msgid "You would need **{weapons:,}** exercise weapons.\n"
 "Costing **{weapons_cost:,}** gold coins or **{tc_cost:,}** Tibia coins.\n"
 msgstr "Necesitarías **{weapons:,}** exercise weapons.\n"
 "Costando **{weapons_cost:,}** monedas de oro o **{tc_cost:,}** monedas de Tibia.\n"
 
-#: cogs/calculators.py:625
+#: cogs/calculators.py:634
 #, python-brace-format
 msgid "Using them would take *{time}*."
 msgstr "Utilizarlos tomaría *{time}*."
 
-#: cogs/calculators.py:627
+#: cogs/calculators.py:636
 msgid "You will be dead before you can use them all."
 msgstr "Estarás muerto antes de poder usarlos todos."
 
-#: cogs/calculators.py:700
+#: cogs/calculators.py:709
 #, python-brace-format
 msgid "Invalid arguments, examples:\n"
 "```{prefix}stats player\n"
@@ -1465,7 +1477,7 @@ msgstr "Argumentos inválidos, ejemplos:\n"
 "{prefix}stats level, vocation\n"
 "```"
 
-#: cogs/calculators.py:707
+#: cogs/calculators.py:716
 #, python-brace-format
 msgid "Character **{name}** doesn't exist!"
 msgstr "¡El personaje **{name}** ** no existe!"
@@ -1531,7 +1543,7 @@ msgstr "Tienes demasiados personajes registrados ({count}/{limit})."
 msgid "Sorry, the message was too long to send."
 msgstr "Lo siento, el mensaje es demasiado largo para enviar."
 
-#: cogs/core.py:369 cogs/info.py:71 cogs/premium.py:573
+#: cogs/core.py:369 cogs/info.py:71 cogs/premium.py:574
 msgid "Support Server"
 msgstr "Servidor de Soporte"
 
@@ -2912,15 +2924,21 @@ msgstr "Actualmente no tienes ninguna transacción."
 msgid "unknown server"
 msgstr "servidor desconocido"
 
-#: cogs/premium.py:515
+#. How many days and for which server were the premium days for
+#: cogs/premium.py:511
+#, python-brace-format
+msgid "**-{days}d** - For **{server}**"
+msgstr ""
+
+#: cogs/premium.py:516
 msgid "Your transactions"
 msgstr "Tus transacciones"
 
-#: cogs/premium.py:522
+#: cogs/premium.py:523
 msgid "Shows you a list of the servers you're currently giving premium to as a Patreon."
 msgstr "Te muestra una lista de servidores a los que estás dando premium como Patreon."
 
-#: cogs/premium.py:523
+#: cogs/premium.py:524
 msgid "Users that acquired premium through Patreon are given slots that they can use to grant premium to a server.\n"
 "This commands shows them the list of servers they're giving premium to, as well as the number of remaining slots they have.\n\n"
 "For regular premium users, they can use `premium history` to see which servers they have given premium days to."
@@ -2928,25 +2946,25 @@ msgstr "Los usuarios que adquirieron premium a través de Patreon reciben ranura
 "Este comando les muestra la lista de servidores a los que están dando premio, así como el número de ranuras restantes que tienen.\n\n"
 "Para los usuarios premium regulares, pueden usar `historial premium` para ver a qué servidores le han dado días premium."
 
-#: cogs/premium.py:534
+#: cogs/premium.py:535
 #, python-brace-format
 msgid "You currently do not have any premium servers. To assign one use: `{prefix}premium add`"
 msgstr "Actualmente no tienes ningún servidor premium. Para asignar uno usa: `{prefix}premium add`"
 
-#: cogs/premium.py:545
+#: cogs/premium.py:546
 #, python-brace-format
 msgid "You have used **{slots}** out of **{limit}** premium slots."
 msgstr "Has usado **{slots}** de **{limit}** ranuras Premium."
 
-#: cogs/premium.py:547
+#: cogs/premium.py:548
 msgid "Premium Servers"
 msgstr "Servidores premium"
 
-#: cogs/premium.py:556
+#: cogs/premium.py:557
 msgid "Shows premium prices and information."
 msgstr "Muestra los precios e información de premium."
 
-#: cogs/premium.py:560
+#: cogs/premium.py:561
 #, python-brace-format
 msgid "The price for **30** days of premium is **{price} {tc_emoji}**.\n"
 "To purchase, transfer to **{recipient}** and then submit the payment using: `{prefix}premium buy <amount> <character>` replacing with the amount sent and the character you transferred the coins from.\n\n"
@@ -2955,37 +2973,37 @@ msgstr "El precio de **30** días de premium es **{price} {tc_emoji}**.\n"
 "Para comprar, transfiere a **{recipient}** y luego registra el pago utilizando: `{prefix}premium buy <cantidad> <personaje>` reemplazando con la cantidad enviada y el personaje del que transferiste las monedas.\n\n"
 "*¡Recuerda eliminar los símbolos `<` `>`!*"
 
-#: cogs/premium.py:567
+#: cogs/premium.py:568
 msgid "NabBot Premium Prices"
 msgstr "Precios de premium"
 
-#: cogs/premium.py:570
+#: cogs/premium.py:571
 #, python-brace-format
 msgid "You can also become a [Patron]({url}) to get premium benefits."
 msgstr "También puede convertirse en un [Patron]({url}) para obtener beneficios premium."
 
-#: cogs/premium.py:572
+#: cogs/premium.py:573
 msgid "More information"
 msgstr "Más información"
 
-#: cogs/premium.py:574 cogs/tibiawiki.py:1281
+#: cogs/premium.py:575 cogs/tibiawiki.py:1281
 msgid "Premium"
 msgstr "Premium"
 
-#: cogs/premium.py:577
+#: cogs/premium.py:578
 msgid "Other commands"
 msgstr "Otros comandos"
 
-#: cogs/premium.py:578
+#: cogs/premium.py:579
 #, python-brace-format
 msgid "For help and other commands: `{prefix}help premium`"
 msgstr "Para ayuda y otros comandos: `{prefix}help premium`"
 
-#: cogs/premium.py:584
+#: cogs/premium.py:585
 msgid "Unassigns premium from a server you gave premium to as a Patreon."
 msgstr "Deja de asignar premium a un servidor al que diste premium como Patreon."
 
-#: cogs/premium.py:585
+#: cogs/premium.py:586
 msgid "You can't remove premium days you have given to a server, this is only for servers that a Patreon user gave a slot to.\n\n"
 "If you use it without parameters, it will attempt to remove the current server.\n"
 "Otherwise, the server's id must be provided.\n\n"
@@ -2995,7 +3013,7 @@ msgstr "No puedes quitar los días premium que has dado a un servidor, esto es s
 "De lo contrario, el id del servidor debe ser proporcionado.\n\n"
 "No puedes eliminar un servidor premium si fue asignado hace menos de 5 días."
 
-#: cogs/premium.py:597
+#: cogs/premium.py:598
 #, python-brace-format
 msgid "You must tell me the id of the server you want to remove premium from.\n"
 "You can use `{prefix}serverinfo` on the server to get the ID.\n"
@@ -3004,123 +3022,123 @@ msgstr "Debes indicarme el id del servidor del que quieres eliminar premium.\n"
 "Puedes usar `{prefix}serverinfo` en el servidor para obtener el ID.\n"
 "Alternativamente, puede utilizar el comando en el servidor deseado sin parámetros."
 
-#: cogs/premium.py:609
+#: cogs/premium.py:610
 #, python-brace-format
 msgid "You currently do not have any premium servers. To assign one use: `{prefix}{command} add`"
 msgstr "Actualmente no tienes servidores premium. Para asignar un uso: `{prefix}{command} add`"
 
-#: cogs/premium.py:614
+#: cogs/premium.py:615
 msgid "You haven't assigned premium to any server with this ID."
 msgstr "No has asignado premium a ningún servidor con este ID."
 
-#: cogs/premium.py:616
+#: cogs/premium.py:617
 msgid "You can't remove premium from a server with premium days."
 msgstr "No puedes quitar premium de un servidor con días premium."
 
-#: cogs/premium.py:618
+#: cogs/premium.py:619
 msgid "You can only unassign a server after 5 days."
 msgstr "Sólo se puede desasignar un servidor después de 5 días."
 
-#: cogs/premium.py:620
+#: cogs/premium.py:621
 #, python-brace-format
 msgid "<Unknown Server {id}>"
 msgstr "<Servidor desconocido {id}>"
 
-#: cogs/premium.py:621
+#: cogs/premium.py:622
 #, python-brace-format
 msgid "Are you sure you want to remove premium from **{name}**?"
 msgstr "¿Estás seguro de que quieres remover el premium de **{name}**?"
 
-#: cogs/premium.py:626
+#: cogs/premium.py:627
 msgid "Premium server removed."
 msgstr "Premium removido del servidor."
 
-#: cogs/premium.py:632
+#: cogs/premium.py:633
 msgid "Shows a list of the premium days the server has received."
 msgstr "Muestra una lista de los días premium que el servidor ha recibido."
 
-#: cogs/premium.py:637
+#: cogs/premium.py:638
 msgid "This server currently has no transaction history."
 msgstr "Este servidor no tiene historial de transacciones."
 
-#: cogs/premium.py:641
+#: cogs/premium.py:642
 msgid "<Unknown User>"
 msgstr "<Usuario desconocido>"
 
-#: cogs/premium.py:646
+#: cogs/premium.py:647
 msgid "Premium History"
 msgstr "Historial premium"
 
-#: cogs/premium.py:784
+#: cogs/premium.py:785
 msgid "Shows details about a specific transaction."
 msgstr "Muestra detalles sobre una transacción específica."
 
-#: cogs/premium.py:785
+#: cogs/premium.py:786
 msgid "You can only view your own transactions. To see a list of them use `premium history`."
 msgstr "Solo puedes ver tus propias transacciones. Para ver una lista de ellas utiliza `premium history`."
 
-#: cogs/premium.py:790
+#: cogs/premium.py:791
 msgid "There is no transaction with that ID or it does not belong to you."
 msgstr "No existe ninguna transacción con ese ID o no te pertenece."
 
-#: cogs/premium.py:806
+#: cogs/premium.py:807
 msgid "This server already has premium."
 msgstr "Este servidor ya tiene premium."
 
-#: cogs/premium.py:808
+#: cogs/premium.py:809
 #, python-brace-format
 msgid "Are you sure you want to assign premium to **{server}**?\n"
 "*There will be a 5 day cooldown to change this premium slot*"
 msgstr "¿Estás seguro de que quieres asignar premium a **{server}**?\n"
 "*No podras cambiar este espacio por 5 días*"
 
-#: cogs/premium.py:814
+#: cogs/premium.py:815
 #, python-brace-format
 msgid "**{server}** is now a premium server."
 msgstr "**{server}** es ahora un servidor premium."
 
-#: cogs/premium.py:825
+#: cogs/premium.py:826
 #, python-brace-format
 msgid "Are you sure you want to give {days} premium days to **{server}**?\n"
 "*These premium days can't be removed.*"
 msgstr "¿Estás seguro de que quieres dar {days} días premium a **{server}**?\n"
 "*Estos días premium no se pueden eliminar.*"
 
-#: cogs/premium.py:834
+#: cogs/premium.py:835
 msgid "You cannot assign premium to a server that a Patron is giving premium to."
 msgstr "No puedes asignar premium a un servidor al que un Patron está dando premio."
 
-#: cogs/premium.py:843
+#: cogs/premium.py:844
 #, python-brace-format
 msgid "**{server}** has received {days} premium days."
 msgstr "**{server}** ha recibido {days} días premium."
 
-#: cogs/premium.py:863
+#: cogs/premium.py:864
 #, python-brace-format
 msgid "Transaction No. {id}"
 msgstr "Transacción No. {id}"
 
-#: cogs/premium.py:865
+#: cogs/premium.py:866
 msgid "Submitted on"
 msgstr "Envíado el"
 
-#: cogs/premium.py:871 cogs/tibia.py:2256
+#: cogs/premium.py:872 cogs/tibia.py:2256
 msgid "Status"
 msgstr "Estado"
 
-#: cogs/premium.py:874
+#: cogs/premium.py:875
 msgid "Amount"
 msgstr "Cantidad"
 
-#: cogs/premium.py:876
+#: cogs/premium.py:877
 msgid "Days"
 msgstr "Días"
 
-#: cogs/premium.py:880
+#: cogs/premium.py:881
 msgid "Details"
 msgstr "Detalles"
 
-#: cogs/premium.py:882
+#: cogs/premium.py:883
 msgid "Additional Comments"
 msgstr "Comentarios adicionales"
 
@@ -4187,6 +4205,12 @@ msgstr "Ese ítem no existe o nunca ha estado en una subasta."
 #: cogs/tibia.py:358
 msgid "`{id}` - {name} - Lvl {level} {voc} - {world} - {bid:,}{tc} - "
 msgstr "`{id}` - {name} - Nvl {level} {voc} - {world} - {bid:,}{tc} - "
+
+#. Time left until auction ends
+#: cogs/tibia.py:363
+#, python-brace-format
+msgid "{time} left"
+msgstr ""
 
 #: cogs/tibia.py:367
 msgid "There are no active auctions with that item."
@@ -7535,7 +7559,7 @@ msgstr "Ninguna razón proporcionada"
 msgid "In #{channel}"
 msgstr "En #{channel}"
 
-#: cogs/tracking.py:1684
+#: cogs/tracking.py:1684 cogs/tracking.py:1710
 #, python-brace-format
 msgid "Added by {user}"
 msgstr "Añadido por {user}"
