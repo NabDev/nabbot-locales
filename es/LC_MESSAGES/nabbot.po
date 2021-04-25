@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-23 16:55-0700\n"
-"PO-Revision-Date: 2021-04-24 23:56\n"
+"PO-Revision-Date: 2021-04-25 00:04\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4890,7 +4890,7 @@ msgstr "Su rango para compartir experiencia es de nivel **{low:,}** a **{high:,}
 
 #: cogs/tibia.py:1393
 msgid "Shows a character's recent level ups and deaths."
-msgstr ""
+msgstr "Muestra los niveles y muertes recientes de un personaje."
 
 #: cogs/tibia.py:1394
 msgid "If no character is provided, the timeline of all registered characters in the server will be shown.\n"
@@ -6209,12 +6209,13 @@ msgstr "Temporizador de boss eliminado."
 
 #: cogs/timers.py:685
 msgid "Shows the boss that is present today in the Dream Scar."
-msgstr ""
+msgstr "Muestra el boss que está presente hoy en el Dream Scar."
 
 #: cogs/timers.py:686
 msgid "If no world is specified, the currently tracked world will be used.\n"
 "If used via PM, a world must be specified."
-msgstr ""
+msgstr "Si no se especifica ningún mundo, se utilizará el mundo actualmente seguido.\n"
+"Si se utiliza a través de mensaje privado, se debe especificar un mundo."
 
 #: cogs/timers.py:693
 #, python-brace-format
@@ -6622,7 +6623,7 @@ msgstr "Crea un evento guiándote paso a paso."
 
 #: cogs/timers.py:1248
 msgid "Instead of using confusing parameters, commas and spaces, this command will guide you through the process."
-msgstr ""
+msgstr "En lugar de usar parámetros confusos, comas y espacios, este comando te guiará a través del proceso."
 
 #: cogs/timers.py:1257
 msgid "Let's create an event. What would you like the name to be? You can `cancel` at any time."
@@ -7310,7 +7311,8 @@ msgstr "Crea o administra watchlists."
 #: cogs/tracking.py:1388
 msgid "Watchlists are channels where the online status of selected characters are shown.\n"
 "You can create multiple watchlists and add characters and guilds to each one separately.\n"
-msgstr ""
+msgstr "Los watchlist son canales donde se muestra el estado en línea de los personajes seleccionados.\n"
+"Puedes crear múltiples watchlist y agregar personajes y guilds para cada uno por separado.\n"
 
 #: cogs/tracking.py:1392
 #, python-brace-format
