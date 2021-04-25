@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-23 16:55-0700\n"
-"PO-Revision-Date: 2021-04-25 04:08\n"
+"PO-Revision-Date: 2021-04-25 05:22\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -124,15 +124,15 @@ msgstr "To jest trochę za daleko w przyszłości… Spróbuj mniej niż 60 dni.
 
 #: utils/converter.py:143
 msgid "Invalid stamina format, expected: `hh:mm`"
-msgstr ""
+msgstr "Niepoprawny format staminy, oczekiwany: `hh:mm`"
 
 #: utils/converter.py:147
 msgid "Invalid stamina, minutes can't be 60 or greater."
-msgstr ""
+msgstr "Niepoprawna stamina, minuty nie mogą być 60 lub większe."
 
 #: utils/converter.py:149
 msgid "Invalid stamina, can't have more than 42 hours."
-msgstr ""
+msgstr "Niepoprawna stamina, nie może mieć więcej niż 42 godziny."
 
 #: utils/converter.py:186
 #, python-brace-format
@@ -149,13 +149,13 @@ msgstr "**{name}** awansował do poziomu {level}."
 #: utils/messages.py:90
 #, python-brace-format
 msgid "**{name}** ({level}) died to {killer_article}**{killer}**."
-msgstr ""
+msgstr "Postać **{name}** ({level}) została zabita przez: {killer_article}**{killer}**."
 
 #. PvP deaths messages used when simple messages is on.
 #: utils/messages.py:92
 #, python-brace-format
 msgid "**{name}** ({level}) was killed by **{killer}**."
-msgstr ""
+msgstr "Postać **{name}** ({level}) została zabita przez **{killer}**."
 
 #: utils/pages.py:105
 msgid "I need `Add Reactions` permission to display this command."
@@ -299,18 +299,18 @@ msgstr[3] "%d sekund"
 #: utils/timing.py:107
 msgctxt "years abbreviation"
 msgid "y"
-msgstr ""
+msgstr "r"
 
 #. Should be different than abbreviation for minutes
 #: utils/timing.py:109
 msgctxt "months abbreviation"
 msgid "mo"
-msgstr ""
+msgstr "ms"
 
 #: utils/timing.py:110
 msgctxt "days abbreviation"
 msgid "d"
-msgstr ""
+msgstr "d"
 
 #: utils/timing.py:111
 msgctxt "hours abbreviation"
