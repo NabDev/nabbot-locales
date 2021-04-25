@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-23 16:55-0700\n"
-"PO-Revision-Date: 2021-04-25 00:04\n"
+"PO-Revision-Date: 2021-04-25 06:45\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -7402,7 +7402,7 @@ msgstr "¿Quieres añadir la guild **{guild}** al watchlist {channel}?"
 #: cogs/tracking.py:1525
 #, python-brace-format
 msgid "Guild **{guild}** added to the watchlist {channel}."
-msgstr "Guild **{guild}** ** añadido a la watchlist en {channel}."
+msgstr "Guild **{guild}** añadido a la watchlist en {channel}."
 
 #: cogs/tracking.py:1529
 #, python-brace-format
