@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-25 00:22-0700\n"
+"POT-Creation-Date: 2021-04-25 11:37-0700\n"
 "PO-Revision-Date: 2021-04-24 00:55\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
@@ -339,6 +339,22 @@ msgstr ""
 #: utils/timing.py:224
 msgid "moments"
 msgstr ""
+
+#: nabbot.py:232
+#, python-brace-format
+msgid "To see my commands, use: `{prefix}help`."
+msgstr ""
+
+#. Discord mentions, @NabBot, @User, @Person
+#: nabbot.py:237
+msgid "mentions"
+msgstr ""
+
+#: nabbot.py:238
+msgid "My command prefix is:"
+msgid_plural "My command prefixes are:"
+msgstr[0] ""
+msgstr[1] ""
 
 #: cogs/admin.py:35 cogs/tibia.py:2033 cogs/tibia.py:2116
 msgid "World"
