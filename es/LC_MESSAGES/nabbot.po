@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-25 00:22-0700\n"
-"PO-Revision-Date: 2021-04-25 07:24\n"
+"PO-Revision-Date: 2021-04-25 08:22\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1389,7 +1389,7 @@ msgstr "sin vocación"
 #: cogs/calculators.py:473
 #, python-brace-format
 msgid "**{name}** is a level **{level}** {vocation}, with:"
-msgstr ""
+msgstr "**{name}** es un {vocation} nivel **{level}**, con:"
 
 #: cogs/calculators.py:476
 #, python-brace-format
@@ -1398,15 +1398,15 @@ msgstr "Un {vocation} nivel **{level}** tiene:"
 
 #: cogs/calculators.py:481
 msgid "Capacity"
-msgstr ""
+msgstr "Capacidad"
 
 #: cogs/calculators.py:484
 msgid "Experience"
-msgstr ""
+msgstr "Experiencia"
 
 #: cogs/calculators.py:485
 msgid "To next level"
-msgstr ""
+msgstr "Para el siguiente nivel"
 
 #: cogs/calculators.py:495
 msgid "Calculates the level required to reach the specified capacity."
@@ -2928,7 +2928,7 @@ msgstr "servidor desconocido"
 #: cogs/premium.py:511
 #, python-brace-format
 msgid "**-{days}d** - For **{server}**"
-msgstr ""
+msgstr "**-{days}d** - Para **{server}**"
 
 #: cogs/premium.py:516
 msgid "Your transactions"
@@ -4210,7 +4210,7 @@ msgstr "`{id}` - {name} - Nvl {level} {voc} - {world} - {bid:,}{tc} - "
 #: cogs/tibia.py:363
 #, python-brace-format
 msgid "{time} left"
-msgstr ""
+msgstr "{time} restante"
 
 #: cogs/tibia.py:367
 msgid "There are no active auctions with that item."
