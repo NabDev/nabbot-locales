@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-25 11:37-0700\n"
-"PO-Revision-Date: 2021-04-25 18:38\n"
+"PO-Revision-Date: 2021-04-25 19:35\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -343,18 +343,18 @@ msgstr "un momento"
 #: nabbot.py:232
 #, python-brace-format
 msgid "To see my commands, use: `{prefix}help`."
-msgstr ""
+msgstr "Para ver mis comandos, usa: `{prefix}help`."
 
 #. Discord mentions, @NabBot, @User, @Person
 #: nabbot.py:237
 msgid "mentions"
-msgstr ""
+msgstr "menciones"
 
 #: nabbot.py:238
 msgid "My command prefix is:"
 msgid_plural "My command prefixes are:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Mi prefijo de comandos es:"
+msgstr[1] "Mis prefijos de comandos son:"
 
 #: cogs/admin.py:35 cogs/tibia.py:2033 cogs/tibia.py:2116
 msgid "World"
