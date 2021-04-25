@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-25 00:22-0700\n"
-"PO-Revision-Date: 2021-04-25 07:24\n"
+"PO-Revision-Date: 2021-04-25 13:16\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -1363,7 +1363,7 @@ msgstr ""
 #: cogs/calculators.py:473
 #, python-brace-format
 msgid "**{name}** is a level **{level}** {vocation}, with:"
-msgstr ""
+msgstr "**{name}** to {vocation} (level **{level}**), z:"
 
 #: cogs/calculators.py:476
 #, python-brace-format
@@ -1372,15 +1372,15 @@ msgstr ""
 
 #: cogs/calculators.py:481
 msgid "Capacity"
-msgstr ""
+msgstr "Cap"
 
 #: cogs/calculators.py:484
 msgid "Experience"
-msgstr ""
+msgstr "Exp"
 
 #: cogs/calculators.py:485
 msgid "To next level"
-msgstr ""
+msgstr "Do następnego poziomu"
 
 #: cogs/calculators.py:495
 msgid "Calculates the level required to reach the specified capacity."
@@ -2843,7 +2843,7 @@ msgstr ""
 #: cogs/premium.py:511
 #, python-brace-format
 msgid "**-{days}d** - For **{server}**"
-msgstr ""
+msgstr "**-{days} dni** - Na **{server}**"
 
 #: cogs/premium.py:516
 msgid "Your transactions"
@@ -4085,7 +4085,7 @@ msgstr ""
 #: cogs/tibia.py:363
 #, python-brace-format
 msgid "{time} left"
-msgstr ""
+msgstr "{time} pozostało"
 
 #: cogs/tibia.py:367
 msgid "There are no active auctions with that item."
