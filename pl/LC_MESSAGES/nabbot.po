@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-23 16:55-0700\n"
-"PO-Revision-Date: 2021-04-24 00:55\n"
+"PO-Revision-Date: 2021-04-25 04:08\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -23,19 +23,19 @@ msgstr ""
 
 #: utils/constants.py:39
 msgid "I couldn't find a character with that name."
-msgstr ""
+msgstr "Nie mogłem znaleźć postaci o tej nazwie."
 
 #: utils/constants.py:40
 msgid "I couldn't fetch the character, please try again."
-msgstr ""
+msgstr "Nie mogłem pobrać postaci, spróbuj ponownie."
 
 #: utils/constants.py:41
 msgid "I'm having network issues, please try again."
-msgstr ""
+msgstr "Mam problemy z siecią, proszę spróbować ponownie."
 
 #: utils/constants.py:43
 msgid "You took to long to confirm. Aborting."
-msgstr ""
+msgstr "Potwierdzenie zajęło ci zbyt wiele czasu. Przerywam."
 
 #: utils/constants.py:44
 msgid "No changes will be done then."
@@ -43,48 +43,48 @@ msgstr ""
 
 #: utils/constants.py:46
 msgid "I don't see any users with that name."
-msgstr ""
+msgstr "Nie widzę żadnych użytkowników o tej nazwie."
 
 #: utils/constants.py:47
 #, python-brace-format
 msgid "I couldn't find any users named `{name}`."
-msgstr ""
+msgstr "Nie mogłem znaleźć żadnych użytkowników o nazwie `{name}`."
 
 #: utils/constants.py:48
 msgid "That is not a valid ID."
-msgstr ""
+msgstr "To nie jest prawidłowy ID."
 
 #: utils/constants.py:49
 msgid "That's not a valid level."
-msgstr ""
+msgstr "To nie jest poprawny poziom."
 
 #: utils/constants.py:51
 msgid "There is no world with that name."
-msgstr ""
+msgstr "Nie ma świata o takiej nazwie."
 
 #: utils/constants.py:53
 msgid "There is no guild with that name."
-msgstr ""
+msgstr "Nie ma gildii o takiej nazwie."
 
 #: utils/constants.py:55
 msgid "I could not find that channel."
-msgstr ""
+msgstr "Nie mogłem znaleźć tego kanału."
 
 #: utils/constants.py:56
 msgid "…and more"
-msgstr ""
+msgstr "…i więcej"
 
 #: utils/checks.py:21
 msgid "This command cannot be used in private messages."
-msgstr ""
+msgstr "Ta komenda nie może być używana w prywatnych wiadomościach."
 
 #: utils/checks.py:30
 msgid "You are not allowed to use this command."
-msgstr ""
+msgstr "Nie masz uprawnień do używania tej komendy."
 
 #: utils/checks.py:41
 msgid "You need Administrator permission to use this command."
-msgstr ""
+msgstr "Potrzebujesz uprawnień administratora, aby użyć tej komendy."
 
 #: utils/checks.py:51
 msgid "You need `Manage Server` permissions to use this command."
@@ -96,31 +96,31 @@ msgstr ""
 
 #: utils/checks.py:112 utils/checks.py:127
 msgid "This server is not tracking any worlds."
-msgstr ""
+msgstr "Ten serwer nie śledzi żadnych światów."
 
 #: utils/checks.py:129
 msgid "You're not in any server tracking a world."
-msgstr ""
+msgstr "Nie jesteś na żadnym serwerze śledzącym świat."
 
 #: utils/converter.py:46
 msgid "Member \"{}\" not found."
-msgstr ""
+msgstr "Użytkownik \"{}\" nie znaleziony."
 
 #: utils/converter.py:81
 msgid "Role \"{}\" not found."
-msgstr ""
+msgstr "Rola \"{}\" nie znaleziona."
 
 #: utils/converter.py:93 utils/converter.py:97
 msgid "Could not find a channel by ID {argument!r}."
-msgstr ""
+msgstr "Nie można znaleźć kanału według ID {argument!r}."
 
 #: utils/converter.py:117
 msgid "That's not a valid time, try something like this: `1d7h` or `4h20m`"
-msgstr ""
+msgstr "To nie jest poprawny czas, spróbuj czegoś takiego: `1d7h` lub `4h20m`"
 
 #: utils/converter.py:134
 msgid "That's a bit too far in the future… Try less than 60 days."
-msgstr ""
+msgstr "To jest trochę za daleko w przyszłości… Spróbuj mniej niż 60 dni."
 
 #: utils/converter.py:143
 msgid "Invalid stamina format, expected: `hh:mm`"
@@ -137,13 +137,13 @@ msgstr ""
 #: utils/converter.py:186
 #, python-brace-format
 msgid "`{argument}` is not a valid number."
-msgstr ""
+msgstr "`{argument}` nie jest poprawną liczbą."
 
 #. Level up message used when simple messages is enabled
 #: utils/messages.py:88
 #, python-brace-format
 msgid "**{name}** advanced to level {level}."
-msgstr ""
+msgstr "**{name}** awansował do poziomu {level}."
 
 #. Death message used when simple messages is on. Article will always be in English (a/an). May be omitted if fitting.
 #: utils/messages.py:90
@@ -180,25 +180,25 @@ msgstr[3] ""
 
 #: utils/pages.py:381
 msgid "No help given."
-msgstr ""
+msgstr "Brak pomocy."
 
 #: utils/pages.py:438
 #, python-brace-format
 msgid "Use \"{prefix}help <command>\" for more info on a command."
-msgstr ""
+msgstr "Użyj \"{prefix}help <command>\", aby uzyskać więcej informacji o komendzie."
 
 #: utils/pages.py:444
 msgid "No help given"
-msgstr ""
+msgstr "Brak pomocy"
 
 #: utils/pages.py:448
 #, python-format
 msgid "%d command"
 msgid_plural "%d commands"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%d komenda"
+msgstr[1] "%d komendy"
+msgstr[2] "%d komend"
+msgstr[3] "%d komend"
 
 #: utils/pages.py:470
 msgid "Paginator help"
@@ -206,7 +206,7 @@ msgstr ""
 
 #: utils/pages.py:471
 msgid "Hello! Welcome to the help page."
-msgstr ""
+msgstr "Cześć! Witamy na stronie pomocy."
 
 #: utils/pages.py:475
 msgid "What are these reactions for?"
@@ -223,19 +223,19 @@ msgstr ""
 
 #: utils/pages.py:496
 msgid "This means the argument is __**required**__."
-msgstr ""
+msgstr "To oznacza, że argument jest __**wymagany**__."
 
 #: utils/pages.py:497
 msgid "This means the argument is __**optional**__."
-msgstr ""
+msgstr "To oznacza, że argument jest __**opcjonalny**__."
 
 #: utils/pages.py:498
 msgid "This means it can be __**either A or B**__."
-msgstr ""
+msgstr "To oznacza, że może to być __**A lub B**__."
 
 #: utils/pages.py:499
 msgid "This means you can have multiple arguments.\n"
-msgstr ""
+msgstr "To oznacza, że możesz mieć wiele argumentów.\n"
 
 #: utils/pages.py:500
 msgid "This means the command has subcommands.\n"
@@ -246,55 +246,55 @@ msgstr ""
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%d rok"
+msgstr[1] "%d lata"
+msgstr[2] "%d lat"
+msgstr[3] "%d lat"
 
 #: utils/timing.py:100
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%d miesiąc"
+msgstr[1] "%d miesiące"
+msgstr[2] "%d miesięcy"
+msgstr[3] "%d miesięcy"
 
 #: utils/timing.py:101 utils/timing.py:217
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%d dzień"
+msgstr[1] "%d dni"
+msgstr[2] "%d dni"
+msgstr[3] "%d dni"
 
 #: utils/timing.py:102 utils/timing.py:219
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%d godzina"
+msgstr[1] "%d godziny"
+msgstr[2] "%d godzin"
+msgstr[3] "%d godzin"
 
 #: utils/timing.py:103 utils/timing.py:221
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%d minuta"
+msgstr[1] "%d minuty"
+msgstr[2] "%d minut"
+msgstr[3] "%d minut"
 
 #: utils/timing.py:104
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%d sekunda"
+msgstr[1] "%d sekundy"
+msgstr[2] "%d sekund"
+msgstr[3] "%d sekund"
 
 #: utils/timing.py:107
 msgctxt "years abbreviation"
@@ -393,15 +393,15 @@ msgstr ""
 
 #: cogs/admin.py:43
 msgid "Welcome message"
-msgstr ""
+msgstr "Wiadomość powitalna"
 
 #: cogs/admin.py:44
 msgid "Welcome channel"
-msgstr ""
+msgstr "Kanał powitalny"
 
 #: cogs/admin.py:45
 msgid "Default Announcements"
-msgstr ""
+msgstr "Domyślne ogłoszenia"
 
 #: cogs/admin.py:46
 msgid "Show User in Announcements"
@@ -409,15 +409,15 @@ msgstr ""
 
 #: cogs/admin.py:49
 msgid "I couldn't find that channel, are you sure it exists?"
-msgstr ""
+msgstr "Nie mogłem znaleźć tego kanału, czy jesteś pewien, że istnieje?"
 
 #: cogs/admin.py:51
 msgid "yes/no"
-msgstr ""
+msgstr "tak/nie"
 
 #: cogs/admin.py:52
 msgid "That's not a valid option, try **yes** or **no**."
-msgstr ""
+msgstr "To nie jest prawidłowa opcja, spróbuj **tak** lub **nie**."
 
 #: cogs/admin.py:53
 msgid "A channel's name or ID, or `disable`."
@@ -430,7 +430,7 @@ msgstr ""
 
 #: cogs/admin.py:75 cogs/admin.py:176
 msgid "unknown language"
-msgstr ""
+msgstr "nieznany język"
 
 #: cogs/admin.py:85
 msgid "You can't remove this prefix."
@@ -443,15 +443,15 @@ msgstr ""
 
 #: cogs/admin.py:95
 msgid "Settings can't be modified on private messages."
-msgstr ""
+msgstr "Ustawienia nie mogą być modyfikowane przez wiadomości prywatne."
 
 #: cogs/admin.py:101 cogs/tibia.py:2132
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #: cogs/admin.py:101
 msgid "No"
-msgstr ""
+msgstr "Nie"
 
 #: cogs/admin.py:104
 msgid "Commands for server administrators and mods.\n\n"
@@ -478,7 +478,7 @@ msgstr ""
 
 #: cogs/admin.py:128
 msgid "I won't be able to see commands in here."
-msgstr ""
+msgstr "Nie będę w stanie zobaczyć tutaj komend."
 
 #: cogs/admin.py:128
 msgid "View Channel"
@@ -486,7 +486,7 @@ msgstr ""
 
 #: cogs/admin.py:129
 msgid "I won't be able to respond in here."
-msgstr ""
+msgstr "Nie będę w stanie tutaj odpowiadać."
 
 #: cogs/admin.py:129
 msgid "Send Messages"
@@ -502,7 +502,7 @@ msgstr ""
 
 #: cogs/admin.py:132
 msgid "I won't be able to show my emojis in some commands."
-msgstr ""
+msgstr "Nie będę w stanie używać moich emoji w niektórych komendach."
 
 #: cogs/admin.py:133
 msgid "Use External Emoji"
@@ -530,7 +530,7 @@ msgstr ""
 
 #: cogs/admin.py:139
 msgid "I won't be able to show images in some of my commands."
-msgstr ""
+msgstr "Nie będę mógł pokazywać obrazów w niektórych z moich komend."
 
 #: cogs/admin.py:139
 msgid "Attach Files"
@@ -880,23 +880,23 @@ msgstr ""
 
 #: cogs/admin.py:541
 msgid "Welcome messages are already disabled."
-msgstr ""
+msgstr "Wiadomości powitalne są już wyłączone."
 
 #: cogs/admin.py:543
 msgid "Are you sure you want to disable welcome messages?"
-msgstr ""
+msgstr "Czy na pewno chcesz wyłączyć wiadomości powitalne?"
 
 #: cogs/admin.py:548
 msgid "This message is too long! ({length:,}/{limit} characters)"
-msgstr ""
+msgstr "Ta wiadomość jest za długa! ({length:,}/{limit} znaków)"
 
 #: cogs/admin.py:553
 msgid "Do you want to set this as the new welcome message?"
-msgstr ""
+msgstr "Czy chcesz to ustawić jako nową wiadomość powitalną?"
 
 #: cogs/admin.py:554
 msgid "*This is how your message would look if **you** joined.*"
-msgstr ""
+msgstr "*Tak by wyglądała twoja wiadomość gdybyś **ty** dołączył.*"
 
 #: cogs/admin.py:555
 msgid "Message Preview"
@@ -909,22 +909,25 @@ msgstr ""
 
 #: cogs/admin.py:568
 msgid "The welcome message has been disabled."
-msgstr ""
+msgstr "Wiadomość powitalna została wyłączona."
 
 #: cogs/admin.py:570
 msgid "Welcome message updated."
-msgstr ""
+msgstr "Wiadomość powitalna zaktualizowana."
 
 #: cogs/admin.py:576
 msgid "Changes the channel where new members are welcomed."
-msgstr ""
+msgstr "Zmienia kanał, w którym nowi członkowie są witani."
 
 #: cogs/admin.py:577
 msgid "A welcome message must be set for this setting to work.\n"
 "If the channel becomes unavailable, private messages will be used.\n\n"
 "Note that private messages are not reliable since new users can have them disabled before joining.\n"
 "To disable this, you must disable welcome messages using `settings welcome`."
-msgstr ""
+msgstr "Należy ustawić wiadomość powitalną dla tego ustawienia.\n"
+"Jeśli kanał stanie się niedostępny, zostaną użyte prywatne wiadomości.\n\n"
+"Zauważ, że prywatne wiadomości nie są niezawodne, ponieważ nowi użytkownicy mogą mieć je wyłączone przed dołączeniem.\n"
+"Aby to wyłączyć, musisz wyłączyć wiadomości powitalne używając `settings welcome`."
 
 #: cogs/admin.py:588
 msgid "A channel's name or ID, or `private`."
@@ -940,11 +943,11 @@ msgstr ""
 
 #: cogs/admin.py:593
 msgid "Welcome messages are already private."
-msgstr ""
+msgstr "Wiadomości powitalne są już prywatne."
 
 #: cogs/admin.py:595
 msgid "Are you sure you want to make welcome messages private?"
-msgstr ""
+msgstr "Czy jesteś pewien, że chcesz włączyć prywatne wiadomości powitalne?"
 
 #: cogs/admin.py:607
 #, python-brace-format
@@ -998,12 +1001,12 @@ msgstr ""
 #: cogs/admin.py:659
 #, python-brace-format
 msgid "This server is now tracking **{world}**"
-msgstr ""
+msgstr "Ten serwer śledzi teraz **{world}**"
 
 #: cogs/admin.py:676
 #, python-brace-format
 msgid "The {name} channel was disabled."
-msgstr ""
+msgstr "Kanał {name} został wyłączony."
 
 #: cogs/admin.py:677
 #, python-brace-format
@@ -1024,7 +1027,7 @@ msgstr ""
 #: cogs/admin.py:700
 #, python-brace-format
 msgid "I was not able to create a webhook for channel {0}"
-msgstr ""
+msgstr "Nie byłem w stanie utworzyć webhooka dla kanału {0}"
 
 #: cogs/admin.py:717
 msgid "Private Messages"
@@ -1032,7 +1035,7 @@ msgstr ""
 
 #: cogs/admin.py:719
 msgid "Disabled."
-msgstr ""
+msgstr "Wyłączone."
 
 #: cogs/admin.py:721 cogs/admin.py:743
 msgid "None."
@@ -1049,16 +1052,16 @@ msgstr ""
 
 #: cogs/admin.py:730
 msgid " I will send direct messages meanwhile."
-msgstr ""
+msgstr " W międzyczasie wysyłam bezpośrednie wiadomości."
 
 #: cogs/admin.py:734
 msgid " I have no channel to use."
-msgstr ""
+msgstr " Nie mam żadnego kanału do użycia."
 
 #: cogs/admin.py:736
 #, python-brace-format
 msgid " I will use {channel} meanwhile."
-msgstr ""
+msgstr " W międzyczasie będę używać {channel}."
 
 #: cogs/admin.py:750
 msgid "None, webhook was deleted by a user."
@@ -1135,22 +1138,22 @@ msgstr ""
 
 #: cogs/calculators.py:96
 msgid "Target level must be greater than current level."
-msgstr ""
+msgstr "Poziom docelowy musi być większy niż aktualny poziom."
 
 #: cogs/calculators.py:97
 #, python-format
 msgid "Your current level can't be lower than %d."
-msgstr ""
+msgstr "Twój obecny poziom nie może być niższy niż %d."
 
 #: cogs/calculators.py:98
 #, python-format
 msgid "Your target level can't be higher than %d."
-msgstr ""
+msgstr "Twój docelowy poziom nie może być wyższy niż %d."
 
 #: cogs/calculators.py:99
 #, python-brace-format
 msgid "Your target level can't be higher than {level} for {voc}."
-msgstr ""
+msgstr "Twój docelowy poziom nie może być wyższy niż {level} dla {voc}."
 
 #. Message displayed when the training time is excessively long
 #: cogs/calculators.py:101
@@ -1176,7 +1179,7 @@ msgstr ""
 
 #: cogs/calculators.py:183
 msgid "Level must be higher than 1."
-msgstr ""
+msgstr "Poziom musi być wyższy niż 1."
 
 #: cogs/calculators.py:189
 msgid "Blessing of the Inquisition costs **{price:,}** gold coins."
@@ -1351,7 +1354,7 @@ msgstr ""
 #. Shown when trying to enter a very high level.
 #: cogs/calculators.py:457
 msgid "Why do you care? You will __**never**__ reach this level 🙄"
-msgstr ""
+msgstr "Co za różnica? __**nigdy**__ nie osiągniesz tego poziomu 🙄"
 
 #: cogs/calculators.py:471
 msgid "with no vocation"
