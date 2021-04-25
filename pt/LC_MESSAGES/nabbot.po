@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-25 00:22-0700\n"
-"PO-Revision-Date: 2021-04-25 07:24\n"
+"PO-Revision-Date: 2021-04-25 10:27\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -60,7 +60,7 @@ msgstr "Este nível não é válido."
 
 #: utils/constants.py:51
 msgid "There is no world with that name."
-msgstr ""
+msgstr "Não existe mundo com este nome."
 
 #: utils/constants.py:53
 msgid "There is no guild with that name."
@@ -159,15 +159,15 @@ msgstr "**{name}** ({level}) foi morto por **{killer}**."
 
 #: utils/pages.py:105
 msgid "I need `Add Reactions` permission to display this command."
-msgstr ""
+msgstr "Eu preciso da permissão `Adicionar reações` para exibir este comando."
 
 #: utils/pages.py:108
 msgid "I need `Read Message History` permission to display this command."
-msgstr ""
+msgstr "Eu preciso da permissão `Ler Histórico de Mensagens` para exibir esse comando."
 
 #: utils/pages.py:125 utils/pages.py:447
 msgid "Page"
-msgstr ""
+msgstr "Página"
 
 #: utils/pages.py:126
 #, python-format
