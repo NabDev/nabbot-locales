@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-25 18:47-0700\n"
+"POT-Creation-Date: 2021-04-26 13:07-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -158,36 +158,32 @@ msgstr ""
 msgid "**{name}** ({level}) was killed by **{killer}**."
 msgstr ""
 
-#: utils/pages.py:105
+#: utils/pages.py:104
 msgid "I need `Add Reactions` permission to display this command."
 msgstr ""
 
-#: utils/pages.py:108
+#: utils/pages.py:107
 msgid "I need `Read Message History` permission to display this command."
 msgstr ""
 
-#: utils/pages.py:125 utils/pages.py:447
+#: utils/pages.py:124 utils/pages.py:447
 msgid "Page"
 msgstr ""
 
-#: utils/pages.py:126
+#: utils/pages.py:125
 #, python-format
 msgid "%d entry"
 msgid_plural "%d entries"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/pages.py:381
+#: utils/pages.py:380 utils/pages.py:444
 msgid "No help given."
 msgstr ""
 
 #: utils/pages.py:438
 #, python-brace-format
 msgid "Use \"{prefix}help <command>\" for more info on a command."
-msgstr ""
-
-#: utils/pages.py:444
-msgid "No help given"
 msgstr ""
 
 #: utils/pages.py:448
@@ -352,7 +348,7 @@ msgid_plural "My command prefixes are:"
 msgstr[0] ""
 msgstr[1] ""
 
-#: cogs/admin.py:35 cogs/tibia.py:2034 cogs/tibia.py:2117
+#: cogs/admin.py:35 cogs/tibia.py:2067 cogs/tibia.py:2150
 msgid "World"
 msgstr ""
 
@@ -442,7 +438,7 @@ msgstr ""
 msgid "You cannot change server settings in private messages."
 msgstr ""
 
-#: cogs/admin.py:103 cogs/tibia.py:2133
+#: cogs/admin.py:103 cogs/tibia.py:2166
 msgid "Yes"
 msgstr ""
 
@@ -1822,7 +1818,7 @@ msgstr ""
 msgid "Authors"
 msgstr ""
 
-#: cogs/info.py:63 cogs/info.py:340 cogs/tibia.py:2036
+#: cogs/info.py:63 cogs/info.py:340 cogs/tibia.py:1823 cogs/tibia.py:2069
 msgid "Created"
 msgstr ""
 
@@ -1995,7 +1991,7 @@ msgstr ""
 msgid "That is not a valid id."
 msgstr ""
 
-#: cogs/info.py:251 cogs/tibia.py:2263
+#: cogs/info.py:251 cogs/tibia.py:2299
 msgid "Owner"
 msgstr ""
 
@@ -2036,7 +2032,7 @@ msgid "Boosters"
 msgstr ""
 
 #: cogs/info.py:282 cogs/logging.py:111 cogs/logging.py:143 cogs/logging.py:191
-#: cogs/tibia.py:2115 cogs/tibiawiki.py:1274
+#: cogs/tibia.py:2148 cogs/tibiawiki.py:1274
 msgid "Level"
 msgstr ""
 
@@ -3113,7 +3109,7 @@ msgstr ""
 msgid "Submitted on"
 msgstr ""
 
-#: cogs/premium.py:869 cogs/tibia.py:2257
+#: cogs/premium.py:869 cogs/tibia.py:2293
 msgid "Status"
 msgstr ""
 
@@ -3273,7 +3269,7 @@ msgid "This respawn is currently available."
 msgstr ""
 
 #. Title for the link to the TibiaWiki mapper
-#: cogs/respawn.py:352 cogs/tibia.py:1807 cogs/tibiawiki.py:405
+#: cogs/respawn.py:352 cogs/tibia.py:1836 cogs/tibiawiki.py:405
 #: cogs/tibiawiki.py:430 cogs/tibiawiki.py:639
 msgid "Location"
 msgstr ""
@@ -3867,7 +3863,7 @@ msgstr ""
 msgid "Hoisted"
 msgstr ""
 
-#: cogs/roles.py:499 cogs/tibia.py:2135 cogs/tibia.py:2157
+#: cogs/roles.py:499 cogs/tibia.py:2168 cogs/tibia.py:2192
 msgid "Position"
 msgstr ""
 
@@ -4052,225 +4048,257 @@ msgstr ""
 msgid "Could not find data."
 msgstr ""
 
-#: cogs/tibia.py:129
-msgid "**{value:,}** points"
+#: cogs/tibia.py:76
+msgid "North America"
 msgstr ""
 
-#: cogs/tibia.py:130
-msgid "Level **{value:,}**"
+#: cogs/tibia.py:77
+msgid "South America"
 msgstr ""
 
-#: cogs/tibia.py:133 cogs/tibia.py:2039 cogs/tibia.py:2130
-msgid "Achievement Points"
-msgstr ""
-
-#: cogs/tibia.py:134
-msgid "Axe Fighting"
-msgstr ""
-
-#: cogs/tibia.py:135 cogs/tibiawiki.py:620
-msgid "Charm Points"
-msgstr ""
-
-#: cogs/tibia.py:136
-msgid "Club Fighting"
+#: cogs/tibia.py:78
+msgid "Europe"
 msgstr ""
 
 #: cogs/tibia.py:137
-msgid "Distance Fighting"
+msgid "**{value:,}** points"
 msgstr ""
 
 #: cogs/tibia.py:138
-msgid "Experience Points"
+msgid "Level **{value:,}**"
 msgstr ""
 
-#: cogs/tibia.py:139
-msgid "Experience Points (Rookgaard)"
-msgstr ""
-
-#: cogs/tibia.py:140
-msgid "Fishing"
-msgstr ""
-
-#: cogs/tibia.py:141
-msgid "Fist Fighting"
+#: cogs/tibia.py:141 cogs/tibia.py:2072 cogs/tibia.py:2163
+msgid "Achievement Points"
 msgstr ""
 
 #: cogs/tibia.py:142
-msgid "Loyalty Points"
+msgid "Axe Fighting"
 msgstr ""
 
-#: cogs/tibia.py:143
-msgid "Magic Level"
+#: cogs/tibia.py:143 cogs/tibiawiki.py:620
+msgid "Charm Points"
 msgstr ""
 
 #: cogs/tibia.py:144
-msgid "Magic Level (knights)"
+msgid "Club Fighting"
 msgstr ""
 
 #: cogs/tibia.py:145
-msgid "Magic Level (paladins)"
+msgid "Distance Fighting"
 msgstr ""
 
 #: cogs/tibia.py:146
-msgid "Shielding"
+msgid "Experience Points"
 msgstr ""
 
 #: cogs/tibia.py:147
-msgid "Sword Fighting"
+msgid "Experience Points (Rookgaard)"
 msgstr ""
 
 #: cogs/tibia.py:148
+msgid "Fishing"
+msgstr ""
+
+#: cogs/tibia.py:149
+msgid "Fist Fighting"
+msgstr ""
+
+#: cogs/tibia.py:150
+msgid "Loyalty Points"
+msgstr ""
+
+#: cogs/tibia.py:151
+msgid "Magic Level"
+msgstr ""
+
+#: cogs/tibia.py:152
+msgid "Magic Level (knights)"
+msgstr ""
+
+#: cogs/tibia.py:153
+msgid "Magic Level (paladins)"
+msgstr ""
+
+#: cogs/tibia.py:154
+msgid "Shielding"
+msgstr ""
+
+#: cogs/tibia.py:155
+msgid "Sword Fighting"
+msgstr ""
+
+#: cogs/tibia.py:156
 msgid "Goshnar's Taint"
 msgstr ""
 
+#: cogs/tibia.py:169
+msgid "In progress"
+msgstr ""
+
+#: cogs/tibia.py:170
+msgid "Currently processed"
+msgstr ""
+
+#: cogs/tibia.py:171
+msgid "Pending transfer"
+msgstr ""
+
 #: cogs/tibia.py:172
-msgid "Rented"
+msgid "Cancelled"
 msgstr ""
 
 #: cogs/tibia.py:173
+msgid "Finished"
+msgstr ""
+
+#: cogs/tibia.py:188
+msgid "Rented"
+msgstr ""
+
+#: cogs/tibia.py:189
 msgid "Auctioned"
 msgstr ""
 
-#: cogs/tibia.py:177
+#: cogs/tibia.py:193
 msgid "Commands related to Tibia, gathered from information present in Tibia.com."
 msgstr ""
 
-#: cogs/tibia.py:258
+#: cogs/tibia.py:275
 msgid "Shows information about a bazaar auction."
 msgstr ""
 
-#: cogs/tibia.py:263
+#: cogs/tibia.py:280
 #, python-brace-format
 msgid "There is no auction with ID {auction_id}"
 msgstr ""
 
-#: cogs/tibia.py:271
+#: cogs/tibia.py:288
 msgid "Shows all the auctions a character has been involved in."
 msgstr ""
 
-#: cogs/tibia.py:272
+#: cogs/tibia.py:289
 msgid ""
 "An indicator is shown for finished auctions, showing if it was successful (character was sold) or not.\n"
 "If the auction is still being processed, it is unknown if the auction will be successful or not."
 msgstr ""
 
-#: cogs/tibia.py:286
+#: cogs/tibia.py:303
 msgid "Could not find any auctions for this character."
 msgstr ""
 
 #. Format string for entries in the auction character command
-#: cogs/tibia.py:300
+#: cogs/tibia.py:317
 msgid "{id} - Lvl {level} {voc} - {world} - {bid:,}{tc} - "
 msgstr ""
 
-#: cogs/tibia.py:307
+#: cogs/tibia.py:324
 msgid "Sold"
 msgstr ""
 
-#: cogs/tibia.py:313
+#: cogs/tibia.py:330
 #, python-brace-format
 msgid "Auctions of {name}"
 msgstr ""
 
-#: cogs/tibia.py:320
+#: cogs/tibia.py:337
 msgid "Shows currently active auctions containing a specific item."
 msgstr ""
 
-#: cogs/tibia.py:321
+#: cogs/tibia.py:338
 msgid "Only auctions in progress are shown. The data displayed is not live and bid amounts might be outdated."
 msgstr ""
 
-#: cogs/tibia.py:336
+#: cogs/tibia.py:353
 msgid "That item does not exist or it has never been in an auction."
 msgstr ""
 
 #. Format string for entries in the auction item command
-#: cogs/tibia.py:359
+#: cogs/tibia.py:376
 msgid "`{id}` - {name} - Lvl {level} {voc} - {world} - {bid:,}{tc} - "
 msgstr ""
 
 #. Time left until auction ends
-#: cogs/tibia.py:364
+#: cogs/tibia.py:381
 #, python-brace-format
 msgid "{time} left"
 msgstr ""
 
-#: cogs/tibia.py:368
+#: cogs/tibia.py:385
 msgid "There are no active auctions with that item."
 msgstr ""
 
-#: cogs/tibia.py:372
+#: cogs/tibia.py:389
 #, python-brace-format
 msgid "Auctions with {item}"
 msgstr ""
 
-#: cogs/tibia.py:382
+#: cogs/tibia.py:399
 msgid "Shows a summary of auctions."
 msgstr ""
 
-#: cogs/tibia.py:387
+#: cogs/tibia.py:404
 msgid "Auction Statistics"
 msgstr ""
 
-#: cogs/tibia.py:387 cogs/tibia.py:450 cogs/tracking.py:487
+#: cogs/tibia.py:404 cogs/tibia.py:467 cogs/tracking.py:487
 msgid "Last updated"
 msgstr ""
 
-#: cogs/tibia.py:388
+#: cogs/tibia.py:405
 msgid "There's a total of **{count:,}** auctions."
 msgstr ""
 
-#: cogs/tibia.py:390
+#: cogs/tibia.py:407
 msgid "By Status"
 msgstr ""
 
-#: cogs/tibia.py:395
+#: cogs/tibia.py:412
 msgid ""
 "The total worth of all characters successfully traded is **{total_tc:,.0f}** {TC}.\n"
 "The total of all fees and commissions paid is **{total_fees:,.0f}** {TC}"
 msgstr ""
 
-#: cogs/tibia.py:398
+#: cogs/tibia.py:415
 msgid "Most Expensive"
 msgstr ""
 
-#: cogs/tibia.py:405
+#: cogs/tibia.py:422
 msgid "Shows a world's bosses predictions."
 msgstr ""
 
-#: cogs/tibia.py:406
+#: cogs/tibia.py:423
 msgid ""
 "Shows the chances of boss respawning, the last time a boss was seen, or the expected time to see the boss.\n"
 "Data is provided by TibiaBosses.com."
 msgstr ""
 
-#: cogs/tibia.py:414
+#: cogs/tibia.py:431
 msgid "You must specify the world you want predictions for."
 msgstr ""
 
-#: cogs/tibia.py:421
+#: cogs/tibia.py:438
 msgid "Could not fetch boss predictions."
 msgstr ""
 
-#: cogs/tibia.py:425
+#: cogs/tibia.py:442
 msgid "For premium predictions, check out [TibiaBosses.com](https://www.tibiabosses.com/premium/)"
 msgstr ""
 
-#: cogs/tibia.py:427
+#: cogs/tibia.py:444
 #, python-brace-format
 msgid "Boss predictions for {world}"
 msgstr ""
 
-#: cogs/tibia.py:438
+#: cogs/tibia.py:455
 msgid "Gets the boosted creature of the day."
 msgstr ""
 
-#: cogs/tibia.py:443
+#: cogs/tibia.py:460
 msgid "Today's boosted creature"
 msgstr ""
 
-#: cogs/tibia.py:445
+#: cogs/tibia.py:462
 #, python-brace-format
 msgid ""
 "The boosted creature of the day is **{name}**.\n"
@@ -4279,311 +4307,315 @@ msgid ""
 "*Try `{prefix}monster {name}` to see more info!*"
 msgstr ""
 
-#: cogs/tibia.py:456
+#: cogs/tibia.py:473
 msgid "Gets the most recent boosted creature entries."
 msgstr ""
 
-#: cogs/tibia.py:461
+#: cogs/tibia.py:478
 msgid "There are no saved boosted creature entries."
 msgstr ""
 
-#: cogs/tibia.py:463
+#: cogs/tibia.py:480
 msgid "Recent Boosted Creatures"
 msgstr ""
 
-#: cogs/tibia.py:477
-msgid "Events for {date:%B %Y}"
+#: cogs/tibia.py:494
+#, python-brace-format
+msgid "Events for {month}"
 msgstr ""
 
-#: cogs/tibia.py:478
+#: cogs/tibia.py:495
 msgid "All events start and end at the server save of the day specified."
 msgstr ""
 
-#: cogs/tibia.py:483
-msgid "Until {event.end_date:%b %d}"
+#: cogs/tibia.py:500
+#, python-brace-format
+msgid "Until {end_date}"
 msgstr ""
 
-#: cogs/tibia.py:485
-msgid "From {event.start_date:%b %d}"
-msgstr ""
-
-#: cogs/tibia.py:487
-msgid "From {event.start_date:%b %d} to {event.end_date:%b %d}"
-msgstr ""
-
-#: cogs/tibia.py:506
-msgid "Previous events"
+#: cogs/tibia.py:504
+#, python-brace-format
+msgid "From {start_date}"
 msgstr ""
 
 #: cogs/tibia.py:508
+#, python-brace-format
+msgid "From {start_date} to {end_date}"
+msgstr ""
+
+#: cogs/tibia.py:530
+msgid "Previous events"
+msgstr ""
+
+#: cogs/tibia.py:532
 msgid "Current events"
 msgstr ""
 
-#: cogs/tibia.py:510 cogs/timers.py:770
+#: cogs/tibia.py:534 cogs/timers.py:770
 msgid "Upcoming events"
 msgstr ""
 
-#: cogs/tibia.py:515
+#: cogs/tibia.py:539
 msgid "Shows the latest CM posts in the forum."
 msgstr ""
 
-#: cogs/tibia.py:516
+#: cogs/tibia.py:540
 msgid "Posts made by Community Managers on the Tibia forums."
 msgstr ""
 
-#: cogs/tibia.py:521
+#: cogs/tibia.py:545
 msgid "There are no CM posts in the last 30 days."
 msgstr ""
 
 #. Entry line for CM posts
-#: cogs/tibia.py:528
+#: cogs/tibia.py:552
 #, python-brace-format
 msgid "`{id}` - {post} - *{time} ago*"
 msgstr ""
 
-#: cogs/tibia.py:535
+#: cogs/tibia.py:559
 msgid "Recent CM Posts"
 msgstr ""
 
-#: cogs/tibia.py:545
+#: cogs/tibia.py:569
 msgid "Shows a character's recent deaths or the recent deaths of characters in the server."
 msgstr ""
 
-#: cogs/tibia.py:546
+#: cogs/tibia.py:570
 msgid ""
 "When no name is specified, the recent deaths of characters in the server are displayed.\n"
 "When used in a private channel, only deaths from Tibia.com will be shown."
 msgstr ""
 
-#: cogs/tibia.py:551
+#: cogs/tibia.py:575
 msgid "This server is not tracking any Tibia worlds."
 msgstr ""
 
-#: cogs/tibia.py:557
+#: cogs/tibia.py:581
 msgid ""
 "Cannot use this command without parameters in private messages.\n"
 "Please specify the name of a character."
 msgstr ""
 
-#: cogs/tibia.py:560
+#: cogs/tibia.py:584
 msgid "Recent deaths"
 msgstr ""
 
-#: cogs/tibia.py:569
+#: cogs/tibia.py:593
 msgid "There are no recent deaths."
 msgstr ""
 
-#: cogs/tibia.py:585
+#: cogs/tibia.py:609
 msgid "Shows the latest deaths caused by a specific monster."
 msgstr ""
 
-#: cogs/tibia.py:600
+#: cogs/tibia.py:624
 #, python-brace-format
 msgid "{name} (**@{user}**) - At level **{level}** - *{time} ago*"
 msgstr ""
 
-#: cogs/tibia.py:606
+#: cogs/tibia.py:630
 msgid "There are no registered deaths by that monster."
 msgstr ""
 
-#: cogs/tibia.py:610
+#: cogs/tibia.py:634
 #, python-brace-format
 msgid "Latest deaths by {monster}"
 msgstr ""
 
-#: cogs/tibia.py:619
+#: cogs/tibia.py:643
 msgid "Shows a user's recent deaths on his/her registered characters."
 msgstr ""
 
 #. Entry for deaths in deaths user command
 #. Death entry for timeline user command
-#: cogs/tibia.py:635 cogs/tibia.py:1512
+#: cogs/tibia.py:659 cogs/tibia.py:1540
 #, python-brace-format
 msgid "{name} - At level **{level}** by {killer} - *{time} ago*"
 msgstr ""
 
-#: cogs/tibia.py:641
+#: cogs/tibia.py:665
 msgid "There are not registered deaths by this user."
 msgstr ""
 
-#: cogs/tibia.py:643
+#: cogs/tibia.py:667
 #, python-brace-format
 msgid "{user} latest deaths"
 msgstr ""
 
-#: cogs/tibia.py:656
+#: cogs/tibia.py:680
 msgid "Shows death statistics"
 msgstr ""
 
-#: cogs/tibia.py:657
+#: cogs/tibia.py:681
 msgid ""
 "Shows the total number of deaths, the characters and users with more deaths, and the most common killers.\n"
 "\n"
 "To see a shorter period, use `week` or `month` as a parameter."
 msgstr ""
 
-#: cogs/tibia.py:664
+#: cogs/tibia.py:688
 msgid "Death Statistics"
 msgstr ""
 
-#: cogs/tibia.py:671
+#: cogs/tibia.py:695
 #, python-brace-format
 msgid "For a shorter period, try `{prefix}{name} week` or `{prefix}{name} month`"
 msgstr ""
 
-#: cogs/tibia.py:674
+#: cogs/tibia.py:698
 #, python-format
 msgid " in the last %d days."
 msgstr ""
 
-#: cogs/tibia.py:676
+#: cogs/tibia.py:700
 msgid "There is a {total:,} of deaths registered"
 msgstr ""
 
-#: cogs/tibia.py:689
+#: cogs/tibia.py:713
 msgid "Most deaths per character"
 msgstr ""
 
-#: cogs/tibia.py:701
+#: cogs/tibia.py:725
 msgid "Most deaths per user"
 msgstr ""
 
-#: cogs/tibia.py:711
+#: cogs/tibia.py:735
 msgid "Most deaths per killer"
 msgstr ""
 
-#: cogs/tibia.py:716
+#: cogs/tibia.py:740
 msgid "Shows the contents of a forum post."
 msgstr ""
 
-#: cogs/tibia.py:721
+#: cogs/tibia.py:745
 msgid "There's no forum with that id."
 msgstr ""
 
-#: cogs/tibia.py:726
+#: cogs/tibia.py:750
 msgid "See more…"
 msgstr ""
 
-#: cogs/tibia.py:731
+#: cogs/tibia.py:755
 #, python-brace-format
 msgid "Posted by {author}"
 msgstr ""
 
-#: cogs/tibia.py:733
+#: cogs/tibia.py:757
 msgid "Posted on"
 msgstr ""
 
-#: cogs/tibia.py:740
+#: cogs/tibia.py:764
 msgid "Shows online characters in a guild."
 msgstr ""
 
-#: cogs/tibia.py:741
+#: cogs/tibia.py:765
 msgid ""
 "Show's the number of members the guild has and a list of their users.\n"
 "It also shows whether the guild has a guildhall or not, and their founding date."
 msgstr ""
 
-#: cogs/tibia.py:752 cogs/tibia.py:783
+#: cogs/tibia.py:776 cogs/tibia.py:809
 #, python-brace-format
-msgid "The guild was founded on {guild.founded}"
+msgid "The guild was founded on {date}"
 msgstr ""
 
-#: cogs/tibia.py:755 cogs/tibia.py:791
+#: cogs/tibia.py:781 cogs/tibia.py:819
 #, python-brace-format
 msgid "They own the guildhall {gh}."
 msgstr ""
 
-#: cogs/tibia.py:759
+#: cogs/tibia.py:785
 msgid "Nobody is online. It has **{guild.member_count:,}** members."
 msgstr ""
 
-#: cogs/tibia.py:763
+#: cogs/tibia.py:789
 #, python-brace-format
 msgid "It has **{online}** player online out of **{member_count}**:"
 msgid_plural "It has **{online}** players online out of **{member_count}**:"
 msgstr[0] ""
 msgstr[1] ""
 
-#: cogs/tibia.py:773
+#: cogs/tibia.py:799
 msgid "Shows basic information and stats about a guild."
 msgstr ""
 
-#: cogs/tibia.py:774
+#: cogs/tibia.py:800
 msgid "It shows their description, homepage, guildhall, number of members and more."
 msgstr ""
 
-#: cogs/tibia.py:793
+#: cogs/tibia.py:821
 msgctxt "Guild application status"
 msgid "Open"
 msgstr ""
 
-#: cogs/tibia.py:795
+#: cogs/tibia.py:823
 msgctxt "Guild application status"
 msgid "Closed"
 msgstr ""
 
 #. Guild applications
-#: cogs/tibia.py:798
+#: cogs/tibia.py:826
 msgid "Applications"
 msgstr ""
 
-#: cogs/tibia.py:800
+#: cogs/tibia.py:828
 msgid "Homepage"
 msgstr ""
 
-#: cogs/tibia.py:812
+#: cogs/tibia.py:840
 msgid "Members online"
 msgstr ""
 
-#: cogs/tibia.py:813
+#: cogs/tibia.py:841
 msgid "Average level"
 msgstr ""
 
-#: cogs/tibia.py:814
+#: cogs/tibia.py:842
 msgid "Highest member"
 msgstr ""
 
-#: cogs/tibia.py:816
+#: cogs/tibia.py:844
 msgid "Vocation distribution"
 msgstr ""
 
-#: cogs/tibia.py:823
+#: cogs/tibia.py:851
 msgid "Shows a list of all guild members."
 msgstr ""
 
-#: cogs/tibia.py:824
+#: cogs/tibia.py:852
 msgid "Online members have an icon next to their name."
 msgstr ""
 
 #. Line for each guild member displayed in commands.
-#: cogs/tibia.py:839
+#: cogs/tibia.py:867
 #, python-brace-format
 msgid "{rank} — {online}**{name}** {title} (Lvl {level} {vocation})"
 msgstr ""
 
-#: cogs/tibia.py:855
+#: cogs/tibia.py:883
 msgid "Shows the list of guilds of a world."
 msgstr ""
 
-#: cogs/tibia.py:863
+#: cogs/tibia.py:891
 msgid "There are no guilds in this world."
 msgstr ""
 
 #. For guilds that are still not fully consolidated, e.g. doesn't have 4 vices yet
-#: cogs/tibia.py:868
+#: cogs/tibia.py:896
 msgid "In formation"
 msgstr ""
 
-#: cogs/tibia.py:875
+#: cogs/tibia.py:903
 #, python-brace-format
 msgid "Guilds in {world}"
 msgstr ""
 
-#: cogs/tibia.py:885
+#: cogs/tibia.py:913
 msgid "Shows the highscores for a given world and category."
 msgstr ""
 
-#: cogs/tibia.py:886
+#: cogs/tibia.py:914
 msgid ""
 "If the server is already tracking a world, the tracked world will be used if no world is specified.\n"
 "To see the highscores of all worlds, use \"global\" or \"all\" as the world parameter.\n"
@@ -4592,54 +4624,54 @@ msgid ""
 "Available vocations are: all, none, paladin, druid, sorcerer, knight."
 msgstr ""
 
-#: cogs/tibia.py:916
+#: cogs/tibia.py:944
 #, python-brace-format
 msgid ""
 "Invalid category or world.\n"
 "Valid categories are: {0}"
 msgstr ""
 
-#: cogs/tibia.py:921
+#: cogs/tibia.py:949
 #, python-brace-format
 msgid ""
 "Invalid vocation.\n"
 "Valid vocations are: {0}."
 msgstr ""
 
-#: cogs/tibia.py:929
+#: cogs/tibia.py:957
 msgid "I couldn't find any highscores entries."
 msgstr ""
 
 #. Describes the level and experience in experience highscores entries
-#: cogs/tibia.py:937
+#: cogs/tibia.py:965
 msgid "Lvl {level} ({exp:,} exp)"
 msgstr ""
 
 #. Describe the points for charms, loyalty, achievements and goshnar's taints highscore entries
-#: cogs/tibia.py:941
+#: cogs/tibia.py:969
 msgid "{value:,} points"
 msgstr ""
 
 #. Describes the level for skill entries in the highscores
-#: cogs/tibia.py:944
+#: cogs/tibia.py:972
 #, python-brace-format
 msgid "Level {value}"
 msgstr ""
 
-#: cogs/tibia.py:952
+#: cogs/tibia.py:980
 msgid "all worlds"
 msgstr ""
 
-#: cogs/tibia.py:953
+#: cogs/tibia.py:981
 #, python-brace-format
 msgid "🏆 {category} highscores for {world}"
 msgstr ""
 
-#: cogs/tibia.py:992
+#: cogs/tibia.py:1020
 msgid "Shows info for a house or guildhall."
 msgstr ""
 
-#: cogs/tibia.py:993
+#: cogs/tibia.py:1021
 msgid ""
 "By default, it shows the current status of a house for the current tracked world (if any).\n"
 "If used on private messages, no world is looked up unless specified.\n"
@@ -4647,19 +4679,19 @@ msgid ""
 "To specify a world, add the world at the end separated with a comma."
 msgstr ""
 
-#: cogs/tibia.py:1018
+#: cogs/tibia.py:1046
 msgid "TibiaWiki module is unavailable for the moment, try again later."
 msgstr ""
 
-#: cogs/tibia.py:1022
+#: cogs/tibia.py:1050
 msgid "I couldn't find a house with that name."
 msgstr ""
 
-#: cogs/tibia.py:1051
+#: cogs/tibia.py:1079
 msgid "Shows a character's or everyone's recent level ups."
 msgstr ""
 
-#: cogs/tibia.py:1052
+#: cogs/tibia.py:1080
 msgid ""
 "If a character is specified, it displays a list of its recent level ups.\n"
 "If no character is specified, it will show the recent level ups of all registered characters in the server.\n"
@@ -4667,80 +4699,80 @@ msgid ""
 "This only works for characters registered in the bots database, which are the characters owned by the users of this Discord server."
 msgstr ""
 
-#: cogs/tibia.py:1067
+#: cogs/tibia.py:1095
 msgid "Latest level ups"
 msgstr ""
 
 #. Lines in levels command
-#: cogs/tibia.py:1078
+#: cogs/tibia.py:1106
 #, python-brace-format
 msgid "{name} - Level **{level}** - **@{user}** - *{time} ago*"
 msgstr ""
 
-#: cogs/tibia.py:1097 cogs/tibia.py:1148
+#: cogs/tibia.py:1125 cogs/tibia.py:1176
 #, python-brace-format
 msgid "{name} latest level ups"
 msgstr ""
 
 #. Entry for levels command, for a specific character
 #. Death entry for timeline command for a specific character
-#: cogs/tibia.py:1102 cogs/tibia.py:1468
+#: cogs/tibia.py:1130 cogs/tibia.py:1496
 #, python-brace-format
 msgid "Level **{level}** - *{time} ago*"
 msgstr ""
 
-#: cogs/tibia.py:1105
+#: cogs/tibia.py:1133
 msgid "There are no registered levels."
 msgstr ""
 
-#: cogs/tibia.py:1121
+#: cogs/tibia.py:1149
 msgid "Shows a user's recent level ups on their registered characters."
 msgstr ""
 
 #. Entry for levels user command
 #. Level up entry for timeline user command
-#: cogs/tibia.py:1139 cogs/tibia.py:1518
+#: cogs/tibia.py:1167 cogs/tibia.py:1546
 #, python-brace-format
 msgid "{name} - Level **{level}** - *{time} ago*"
 msgstr ""
 
-#: cogs/tibia.py:1145
+#: cogs/tibia.py:1173
 msgid "There are not registered level ups by this user."
 msgstr ""
 
-#: cogs/tibia.py:1159
+#: cogs/tibia.py:1187
 msgid "Shows the latest news articles from Tibia.com."
 msgstr ""
 
-#: cogs/tibia.py:1160
+#: cogs/tibia.py:1188
 msgid "If no id is supplied, a list of recent articles is shown, otherwise, a snippet of the article is shown."
 msgstr ""
 
-#: cogs/tibia.py:1168
+#: cogs/tibia.py:1196
 msgid "Something went wrong getting recent news."
 msgstr ""
 
-#: cogs/tibia.py:1173
+#: cogs/tibia.py:1201
 msgid "There's no article with that ID."
 msgstr ""
 
-#: cogs/tibia.py:1180
+#: cogs/tibia.py:1208
 msgid "Shows the latest news ticker from Tibia.com."
 msgstr ""
 
-#: cogs/tibia.py:1186
+#: cogs/tibia.py:1214
 msgid "Something went wrong getting recent news ticker."
 msgstr ""
 
-#: cogs/tibia.py:1188
+#: cogs/tibia.py:1216
 msgid "Recent news ticker"
 msgstr ""
 
-#: cogs/tibia.py:1194
+#: cogs/tibia.py:1222
 msgid "Searches for online characters that meet the criteria."
 msgstr ""
 
-#: cogs/tibia.py:1195
+#: cogs/tibia.py:1223
 msgid ""
 "There are 3 ways to use this command:\n"
 "- Find a character in share range with another character. (`searchworld <name>`)\n"
@@ -4752,81 +4784,81 @@ msgid ""
 "Example: `searchworld Cachero,Calmera`"
 msgstr ""
 
-#: cogs/tibia.py:1205 cogs/tracking.py:1165
+#: cogs/tibia.py:1233 cogs/tracking.py:1165
 msgid "Invalid arguments used, examples:"
 msgstr ""
 
-#: cogs/tibia.py:1207
+#: cogs/tibia.py:1235
 #, python-brace-format
 msgid "{prefix}{command} charname[,world]"
 msgstr ""
 
-#: cogs/tibia.py:1208
+#: cogs/tibia.py:1236
 #, python-brace-format
 msgid "{prefix}{command} level[,world]"
 msgstr ""
 
-#: cogs/tibia.py:1209
+#: cogs/tibia.py:1237
 #, python-brace-format
 msgid "{prefix}{command} minLevel,maxLevel[,world"
 msgstr ""
 
-#: cogs/tibia.py:1245
+#: cogs/tibia.py:1273
 #, python-brace-format
 msgid "Characters online in share range with {0}({1}-{2}):"
 msgstr ""
 
-#: cogs/tibia.py:1246
+#: cogs/tibia.py:1274
 #, python-brace-format
 msgid "I didn't find anyone in share range with **{0}**({1}-{2})"
 msgstr ""
 
-#: cogs/tibia.py:1261
+#: cogs/tibia.py:1289
 #, python-brace-format
 msgid "Characters online between level {0} and {1}"
 msgstr ""
 
-#: cogs/tibia.py:1262
+#: cogs/tibia.py:1290
 #, python-brace-format
 msgid "I didn't find anyone between levels **{0}** and **{1}**"
 msgstr ""
 
-#: cogs/tibia.py:1269
+#: cogs/tibia.py:1297
 #, python-brace-format
 msgid "Characters online in share range with level {0} ({1}-{2})"
 msgstr ""
 
-#: cogs/tibia.py:1270
+#: cogs/tibia.py:1298
 #, python-brace-format
 msgid "I didn't find anyone in share range with level **{0}** ({1}-{2})"
 msgstr ""
 
-#: cogs/tibia.py:1275
+#: cogs/tibia.py:1303
 msgid "You must tell me the world where you want to search."
 msgstr ""
 
 #. This really shouldn't happen...
-#: cogs/tibia.py:1280
+#: cogs/tibia.py:1308
 #, python-brace-format
 msgid "There's no world named **{world}**."
 msgstr ""
 
-#: cogs/tibia.py:1284
+#: cogs/tibia.py:1312
 #, python-brace-format
 msgid "There is no one online in {world}."
 msgstr ""
 
 #. Line for entries in seachworld command
-#: cogs/tibia.py:1296
+#: cogs/tibia.py:1324
 #, python-brace-format
 msgid "**{name}** - Level {level} {voc}"
 msgstr ""
 
-#: cogs/tibia.py:1311
+#: cogs/tibia.py:1339
 msgid "Shows the sharing range for that level or character or list of characters."
 msgstr ""
 
-#: cogs/tibia.py:1312
+#: cogs/tibia.py:1340
 msgid ""
 "This command can be used in three ways:\n"
 "1. Find the share range of a certain level. (`share <level>`)\n"
@@ -4834,67 +4866,67 @@ msgid ""
 "3. Find the joint share range of a group of characters. (`share <name1, name2…>`)"
 msgstr ""
 
-#: cogs/tibia.py:1325
+#: cogs/tibia.py:1353
 #, python-format
 msgid "The level must be %d or higher."
 msgstr ""
 
-#: cogs/tibia.py:1327
+#: cogs/tibia.py:1355
 #, python-format
 msgid "The level must be %d or lower."
 msgstr ""
 
-#: cogs/tibia.py:1329
+#: cogs/tibia.py:1357
 msgid "A level {level:,} can share experience with levels **{low:,}** to **{high:,}**."
 msgstr ""
 
-#: cogs/tibia.py:1336
+#: cogs/tibia.py:1364
 #, python-format
 msgid "You must specify a level, a character's name or up to %d character names."
 msgstr ""
 
-#: cogs/tibia.py:1339
+#: cogs/tibia.py:1367
 #, python-format
 msgid "I can only check up to %d characters at a time."
 msgstr ""
 
-#: cogs/tibia.py:1349
+#: cogs/tibia.py:1377
 msgid "**{name}** ({level:,}) can share experience with levels **{low:,}** to **{high:,}**."
 msgstr ""
 
-#: cogs/tibia.py:1354
+#: cogs/tibia.py:1382
 msgid "I'm not sure if sharing with yourself counts as sharing, but yes, you can share."
 msgstr ""
 
-#: cogs/tibia.py:1360
+#: cogs/tibia.py:1388
 #, python-brace-format
 msgid "There is no character named **{name}**."
 msgstr ""
 
-#: cogs/tibia.py:1372
+#: cogs/tibia.py:1400
 #, python-brace-format
 msgid "**{lowest_name}** ({lowest_level}) needs {diff} more level to share experience with **{highest_name}** ({highest_level})."
 msgid_plural "**{lowest_name}** ({lowest_level}) needs {diff} more levels to share experience with **{highest_name}** ({highest_level})."
 msgstr[0] ""
 msgstr[1] ""
 
-#: cogs/tibia.py:1382
+#: cogs/tibia.py:1410
 msgid "They can all share experience with each other."
 msgstr ""
 
-#: cogs/tibia.py:1384
+#: cogs/tibia.py:1412
 msgid "**{lowest_name}** ({lowest_level:,}) and **{highest_name}** ({highest_level:,}) can share experience."
 msgstr ""
 
-#: cogs/tibia.py:1387
+#: cogs/tibia.py:1415
 msgid "Their share range is from level **{low:,}** to **{high:,}**."
 msgstr ""
 
-#: cogs/tibia.py:1394
+#: cogs/tibia.py:1422
 msgid "Shows a character's recent level ups and deaths."
 msgstr ""
 
-#: cogs/tibia.py:1395
+#: cogs/tibia.py:1423
 msgid ""
 "If no character is provided, the timeline of all registered characters in the server will be shown.\n"
 "Characters must be registered in order to have a timeline.\n"
@@ -4903,23 +4935,23 @@ msgid ""
 "- 💀 Indicates PvP deaths"
 msgstr ""
 
-#: cogs/tibia.py:1411
+#: cogs/tibia.py:1439
 msgid "Timeline"
 msgstr ""
 
 #. Death entry for timeline commamd
-#: cogs/tibia.py:1428
+#: cogs/tibia.py:1456
 #, python-brace-format
 msgid "{name} (**@{user}**) - At level **{level}** by {killer} - *{time} ago*"
 msgstr ""
 
 #. Level up entry for timeline command
-#: cogs/tibia.py:1435
+#: cogs/tibia.py:1463
 #, python-brace-format
 msgid "{name} (**@{user}**) - Level **{level}** - *{time} ago*"
 msgstr ""
 
-#: cogs/tibia.py:1454 cogs/tibia.py:1503
+#: cogs/tibia.py:1482 cogs/tibia.py:1531
 #, python-brace-format
 msgid "{name} timeline"
 msgstr ""
@@ -4927,50 +4959,50 @@ msgstr ""
 #. Level up entry for timeline command for a specific character
 #. Entry for character deaths
 #. Level up entry for levels command
-#: cogs/tibia.py:1462 cogs/tibia.py:2312 cogs/tibia.py:2346
+#: cogs/tibia.py:1490 cogs/tibia.py:2349 cogs/tibia.py:2383
 #, python-brace-format
 msgid "At level **{level}** by {killer} - *{time} ago*"
 msgstr ""
 
-#: cogs/tibia.py:1474 cogs/tibia.py:1524
+#: cogs/tibia.py:1502 cogs/tibia.py:1552
 msgid "There are no registered deaths or level ups."
 msgstr ""
 
-#: cogs/tibia.py:1489
+#: cogs/tibia.py:1517
 msgid "Shows a user's recent level ups and deaths on their characters."
 msgstr ""
 
-#: cogs/tibia.py:1536
+#: cogs/tibia.py:1564
 msgid "Displays Tibia server's time and time until server save."
 msgstr ""
 
-#: cogs/tibia.py:1537
+#: cogs/tibia.py:1565
 msgid "Server moderators can manage displayed timezones using the subcommands."
 msgstr ""
 
-#: cogs/tibia.py:1548
+#: cogs/tibia.py:1576
 #, python-brace-format
 msgid ""
 "It's currently **{tibia_time}** in Tibia's website ({timezone_name}).\n"
 "Server save is in **{time_until}**."
 msgstr ""
 
-#: cogs/tibia.py:1554 cogs/tibiawiki.py:422
+#: cogs/tibia.py:1582 cogs/tibiawiki.py:422
 #, python-brace-format
 msgid "Rashid is in **{city}** today."
 msgstr ""
 
 #. The local time in a city/timezone.
-#: cogs/tibia.py:1566
+#: cogs/tibia.py:1594
 #, python-brace-format
 msgid "**{time}** in {name}"
 msgstr ""
 
-#: cogs/tibia.py:1573
+#: cogs/tibia.py:1602
 msgid "Adds a new timezone to display."
 msgstr ""
 
-#: cogs/tibia.py:1574
+#: cogs/tibia.py:1603
 msgid ""
 "You can look by city, country or region.\n"
 "Once the timezone is found, you can set the name you want to show on the `time` command.\n"
@@ -4978,82 +5010,82 @@ msgid ""
 "Only Server Moderators can use this command."
 msgstr ""
 
-#: cogs/tibia.py:1586
+#: cogs/tibia.py:1615
 msgid "No timezones found matching that name."
 msgstr ""
 
-#: cogs/tibia.py:1591
+#: cogs/tibia.py:1620
 #, python-brace-format
 msgid ""
 "The time in `{timezone}` is **{local_time}**.\n"
 "What display name do you want to assign? You can `cancel` if you changed your mind."
 msgstr ""
 
-#: cogs/tibia.py:1603 cogs/tibia.py:1671
+#: cogs/tibia.py:1632 cogs/tibia.py:1700
 #, python-format
 msgid "The display name can't be longer than %d characters."
 msgstr ""
 
-#: cogs/tibia.py:1609
+#: cogs/tibia.py:1638
 msgid "That timezone already exists."
 msgstr ""
 
-#: cogs/tibia.py:1610
+#: cogs/tibia.py:1639
 #, python-brace-format
 msgid "Timezone `{name}` saved successfully as `{display_name}`."
 msgstr ""
 
-#: cogs/tibia.py:1617
+#: cogs/tibia.py:1646
 msgid "Shows a list of all the currently added timezones."
 msgstr ""
 
-#: cogs/tibia.py:1618 cogs/tibia.py:1636 cogs/tibia.py:1655
+#: cogs/tibia.py:1647 cogs/tibia.py:1665 cogs/tibia.py:1684
 msgid "Only Server Moderators can use this command."
 msgstr ""
 
-#: cogs/tibia.py:1623 cogs/tibia.py:1660
+#: cogs/tibia.py:1652 cogs/tibia.py:1689
 msgid "This server doesn't have any timezones saved yet."
 msgstr ""
 
-#: cogs/tibia.py:1627
+#: cogs/tibia.py:1656
 msgid "Saved timezones"
 msgstr ""
 
-#: cogs/tibia.py:1635
+#: cogs/tibia.py:1664
 msgid "Removes a timezone from the list."
 msgstr ""
 
-#: cogs/tibia.py:1643
+#: cogs/tibia.py:1672
 msgid ""
 "There's no timezone saved with that name.\n"
 "Remember to use the timezone's real name, not the display name.\n"
 msgstr ""
 
-#: cogs/tibia.py:1648
+#: cogs/tibia.py:1677
 #, python-brace-format
 msgid "Timezone {name} ({display_name}) removed successfully."
 msgstr ""
 
-#: cogs/tibia.py:1654
+#: cogs/tibia.py:1683
 msgid "Renames a timezone"
 msgstr ""
 
-#: cogs/tibia.py:1667
+#: cogs/tibia.py:1696
 msgid ""
 "There's no timezone saved with that name.\n"
 "Remember to use the timezone's real name, not the display name."
 msgstr ""
 
-#: cogs/tibia.py:1675
+#: cogs/tibia.py:1704
 #, python-brace-format
 msgid "Timezone `{timezone}` was renamed from `{old_name}` to `{new_name}`."
 msgstr ""
 
-#: cogs/tibia.py:1681
+#: cogs/tibia.py:1710
 msgid "Shows a character's or a Discord user's information."
 msgstr ""
 
-#: cogs/tibia.py:1682
+#: cogs/tibia.py:1711
 msgid ""
 "If the parameter matches a Discord user, it displays a list of the characters linked to that user.\n"
 "If the parameter matches a character, it will display the character's info.\n"
@@ -5065,66 +5097,66 @@ msgid ""
 "Additionally, if the character is in the highscores, their ranking will be shown."
 msgstr ""
 
-#: cogs/tibia.py:1718
+#: cogs/tibia.py:1747
 msgid "I don't see any user or character with that name."
 msgstr ""
 
-#: cogs/tibia.py:1727
+#: cogs/tibia.py:1756
 msgid "Character"
 msgstr ""
 
-#: cogs/tibia.py:1772
+#: cogs/tibia.py:1801
 msgid "Shows basic information about a Tibia world."
 msgstr ""
 
-#: cogs/tibia.py:1773
+#: cogs/tibia.py:1802
 msgid "Shows information like PvP type, online count, server location, vocation distribution, and more."
 msgstr ""
 
-#: cogs/tibia.py:1786
+#: cogs/tibia.py:1815
 msgid "This world is offline."
 msgstr ""
 
-#: cogs/tibia.py:1790
+#: cogs/tibia.py:1819
 msgid "Players online"
 msgstr ""
 
-#: cogs/tibia.py:1791
+#: cogs/tibia.py:1820
 msgid "The players online record is {count:,}"
 msgstr ""
 
 #. To indicate that the world has always had battleye protection
-#: cogs/tibia.py:1798
+#: cogs/tibia.py:1827
 msgid "Always"
 msgstr ""
 
 #. The date when battleye protectetion was applied to this server
-#: cogs/tibia.py:1802
+#: cogs/tibia.py:1831
 #, python-brace-format
 msgid "Since {battleye_date}"
 msgstr ""
 
-#: cogs/tibia.py:1810
+#: cogs/tibia.py:1839
 msgid "PvP Type"
 msgstr ""
 
-#: cogs/tibia.py:1812
+#: cogs/tibia.py:1841
 msgid "Premium restricted"
 msgstr ""
 
-#: cogs/tibia.py:1814
+#: cogs/tibia.py:1843
 msgid "Transfers"
 msgstr ""
 
-#: cogs/tibia.py:1818
+#: cogs/tibia.py:1847
 msgid "Vocations distribution"
 msgstr ""
 
-#: cogs/tibia.py:1831
+#: cogs/tibia.py:1860
 msgid "Shows a list of worlds."
 msgstr ""
 
-#: cogs/tibia.py:1832
+#: cogs/tibia.py:1861
 msgid ""
 "You can pass a list of parameters separated by commas to change the sorting or filter worlds.\n"
 "- `online` to sort by online count.\n"
@@ -5133,288 +5165,299 @@ msgid ""
 "- `optional pvp`, `open pvp`, `retro open pvp`, `hardcore pvp` or `retro hardcore pvp` to filter by PvP type."
 msgstr ""
 
-#: cogs/tibia.py:1879
+#: cogs/tibia.py:1908
 msgid "There's no worlds matching the query."
 msgstr ""
 
-#: cogs/tibia.py:1926
+#: cogs/tibia.py:1955
 #, python-format
 msgid "and %d more"
 msgstr ""
 
-#: cogs/tibia.py:2007
+#: cogs/tibia.py:2036
 #, python-brace-format
 msgid "ID: {auction_id} | Auction ending"
 msgstr ""
 
-#: cogs/tibia.py:2035
+#. The date when this character may be transferred again
+#: cogs/tibia.py:2047
+#, python-brace-format
+msgid "Until {date}"
+msgstr ""
+
+#: cogs/tibia.py:2068
 msgid "Skills"
 msgstr ""
 
-#: cogs/tibia.py:2037
+#: cogs/tibia.py:2070
 msgid "Regular Transfer"
 msgstr ""
 
-#: cogs/tibia.py:2038
+#: cogs/tibia.py:2071
 msgid "Gold"
 msgstr ""
 
-#: cogs/tibia.py:2040 cogs/tibiawiki.py:604
+#: cogs/tibia.py:2073 cogs/tibiawiki.py:604
 msgid "Charms"
 msgstr ""
 
-#: cogs/tibia.py:2040
+#: cogs/tibia.py:2073
 msgid "Expansion"
 msgstr ""
 
-#: cogs/tibia.py:2041
+#: cogs/tibia.py:2074
 msgid "Outfits"
 msgstr ""
 
-#: cogs/tibia.py:2041 cogs/tibia.py:2042
+#: cogs/tibia.py:2074 cogs/tibia.py:2075
 msgid "Store"
 msgstr ""
 
-#: cogs/tibia.py:2042
+#: cogs/tibia.py:2075
 msgid "Mounts"
 msgstr ""
 
-#: cogs/tibia.py:2043
+#: cogs/tibia.py:2076
 msgid "Completed Bestiary"
 msgstr ""
 
-#: cogs/tibia.py:2051
+#: cogs/tibia.py:2084
 msgid "Character Info"
 msgstr ""
 
-#: cogs/tibia.py:2054
+#: cogs/tibia.py:2087
 msgid "Sales Arguments"
 msgstr ""
 
-#: cogs/tibia.py:2085
-msgid "ID: {article.id} | Posted on {article.date:%A, %B %d, %Y}"
+#: cogs/tibia.py:2118
+#, python-brace-format
+msgid "Posted on {date}"
 msgstr ""
 
-#: cogs/tibia.py:2088
+#: cogs/tibia.py:2121
 msgid "Read more"
 msgstr ""
 
-#: cogs/tibia.py:2095
+#: cogs/tibia.py:2128
 msgid "Recent news"
 msgstr ""
 
-#: cogs/tibia.py:2097
+#: cogs/tibia.py:2130
 #, python-brace-format
 msgid "To see a specific entry, use the command `{prefix}news <id>`"
 msgstr ""
 
 #. The world the character was in before transferring
-#: cogs/tibia.py:2112
+#: cogs/tibia.py:2145
 #, python-brace-format
 msgid "formerly in {world}"
 msgstr ""
 
-#: cogs/tibia.py:2116
+#: cogs/tibia.py:2149
 msgid "Vocation"
 msgstr ""
 
-#: cogs/tibia.py:2118
+#: cogs/tibia.py:2151
 msgid "Residence"
 msgstr ""
 
-#: cogs/tibia.py:2121
+#: cogs/tibia.py:2154
 msgid "Title"
 msgstr ""
 
-#: cogs/tibia.py:2123
+#: cogs/tibia.py:2156
 #, python-brace-format
 msgid "__{rank}__ of the {guild}"
 msgstr ""
 
-#: cogs/tibia.py:2124
+#: cogs/tibia.py:2157
 msgid "Guild"
 msgstr ""
 
-#: cogs/tibia.py:2126
+#: cogs/tibia.py:2159
 msgid "Married to"
 msgstr ""
 
-#: cogs/tibia.py:2128
+#: cogs/tibia.py:2161
 msgid "House"
 msgid_plural "Houses"
 msgstr[0] ""
 msgstr[1] ""
 
 #. Whether the character was recently traded in the bazaar
-#: cogs/tibia.py:2133
+#: cogs/tibia.py:2166
 msgid "Traded"
 msgstr ""
 
-#: cogs/tibia.py:2138
+#: cogs/tibia.py:2171
 msgid "Last login"
 msgstr ""
 
-#: cogs/tibia.py:2141
+#: cogs/tibia.py:2174
 msgid "Never logged in."
 msgstr ""
 
-#: cogs/tibia.py:2148
+#: cogs/tibia.py:2178
+msgid "See more"
+msgstr ""
+
+#: cogs/tibia.py:2183
 msgctxt "Premium/Free"
 msgid "Status"
 msgstr ""
 
-#: cogs/tibia.py:2151
+#: cogs/tibia.py:2186
 msgid "Character is hidden."
 msgstr ""
 
-#: cogs/tibia.py:2155
+#: cogs/tibia.py:2190
 msgid "Loyalty Title"
 msgstr ""
 
-#: cogs/tibia.py:2159
+#: cogs/tibia.py:2194
 msgid "Other Character"
 msgid_plural "Other Characters"
 msgstr[0] ""
 msgstr[1] ""
 
-#: cogs/tibia.py:2161
+#: cogs/tibia.py:2196
 msgctxt "Account creation date"
 msgid "Created"
 msgstr ""
 
-#: cogs/tibia.py:2166
+#: cogs/tibia.py:2202
 msgid "Account Information"
 msgstr ""
 
 #. The way rank is displayed in the highscores part of whois command
-#: cogs/tibia.py:2176
+#: cogs/tibia.py:2212
 #, python-format
 msgid "Rank **%d**"
 msgstr ""
 
-#: cogs/tibia.py:2183
+#: cogs/tibia.py:2219
 msgid "Highscores entries"
 msgstr ""
 
-#: cogs/tibia.py:2185
+#: cogs/tibia.py:2221
 msgid "Global Highscores entries"
 msgstr ""
 
-#: cogs/tibia.py:2205
+#: cogs/tibia.py:2241
 #, python-brace-format
 msgid "**{user}** has no registered characters here."
 msgstr ""
 
 #. User's listed characters in the whois command. Online icon is empty if offline.
-#: cogs/tibia.py:2214
+#: cogs/tibia.py:2250
 #, python-brace-format
 msgid "{name}{online_icon} (Lvl {level} {voc})"
 msgstr ""
 
-#: cogs/tibia.py:2221
+#: cogs/tibia.py:2257
 #, python-brace-format
 msgid "and {count} more"
 msgstr ""
 
-#: cogs/tibia.py:2223
+#: cogs/tibia.py:2259
 #, python-brace-format
 msgid "**{user}**'s character is: {character_list}"
 msgid_plural "**{user}**'s characters are: {character_list}"
 msgstr[0] ""
 msgstr[1] ""
 
-#: cogs/tibia.py:2235
+#: cogs/tibia.py:2271
 msgid "{rent:,} gold per month"
 msgstr ""
 
-#: cogs/tibia.py:2237 cogs/tibiawiki.py:622
+#: cogs/tibia.py:2273 cogs/tibiawiki.py:622
 msgid "Type"
 msgstr ""
 
-#: cogs/tibia.py:2237
+#: cogs/tibia.py:2273
 msgctxt "House type"
 msgid "House"
 msgstr ""
 
-#: cogs/tibia.py:2237
+#: cogs/tibia.py:2273
 msgctxt "House type"
 msgid "Guildhall"
 msgstr ""
 
-#: cogs/tibia.py:2238
+#: cogs/tibia.py:2274
 msgid "Bed Limit"
 msgstr ""
 
-#: cogs/tibia.py:2239
+#: cogs/tibia.py:2275
 msgid "Size"
 msgstr ""
 
-#: cogs/tibia.py:2240
+#: cogs/tibia.py:2276
 msgid "City"
 msgstr ""
 
-#: cogs/tibia.py:2241
+#: cogs/tibia.py:2277
 msgid "Rent"
 msgstr ""
 
-#: cogs/tibia.py:2243
+#: cogs/tibia.py:2279
 msgid "Information"
 msgstr ""
 
-#: cogs/tibia.py:2250
+#: cogs/tibia.py:2286
 msgid "TibiaWiki article"
 msgstr ""
 
-#: cogs/tibia.py:2264
+#: cogs/tibia.py:2300
 msgid "Paid Until"
 msgstr ""
 
-#: cogs/tibia.py:2268
+#: cogs/tibia.py:2304
 msgid "Moving out on"
 msgstr ""
 
-#: cogs/tibia.py:2272
+#: cogs/tibia.py:2309
 msgid "Transferring to"
 msgstr ""
 
-#: cogs/tibia.py:2273
+#: cogs/tibia.py:2310
 msgid "Transfer Price"
 msgstr ""
 
-#: cogs/tibia.py:2274
+#: cogs/tibia.py:2311
 msgid "Accepted"
 msgstr ""
 
-#: cogs/tibia.py:2278
+#: cogs/tibia.py:2315
 msgid "Highest Bidder"
 msgstr ""
 
-#: cogs/tibia.py:2279
+#: cogs/tibia.py:2316
 msgid "Higest Bid"
 msgstr ""
 
-#: cogs/tibia.py:2280
+#: cogs/tibia.py:2317
 msgid "Auction End"
 msgstr ""
 
 #. The world where the house is in
-#: cogs/tibia.py:2283
+#: cogs/tibia.py:2320
 #, python-brace-format
 msgid "In {world}"
 msgstr ""
 
-#: cogs/tibia.py:2338
+#: cogs/tibia.py:2375
 #, python-brace-format
 msgid "{name} latest deaths"
 msgstr ""
 
 #. Entries for recent deaths
-#: cogs/tibia.py:2370
+#: cogs/tibia.py:2407
 #, python-brace-format
 msgid "{name} (**@{user}**) - At level **{level}** by {killer} - {time} ago"
 msgstr ""
 
-#: cogs/tibia.py:2501
+#: cogs/tibia.py:2538
 #, python-format
 msgid "**%d** day"
 msgid_plural "**%d** days"
@@ -5422,13 +5465,13 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. Last time the boss was seen
-#: cogs/tibia.py:2504
+#: cogs/tibia.py:2541
 #, python-brace-format
 msgid "Last seen {time} ago"
 msgstr ""
 
 #. Time to expect the boss to show up again
-#: cogs/tibia.py:2507
+#: cogs/tibia.py:2544
 #, python-brace-format
 msgid "Expect in {time}"
 msgstr ""
