@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-26 13:07-0700\n"
-"PO-Revision-Date: 2021-04-26 20:11\n"
+"PO-Revision-Date: 2021-04-26 21:11\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4079,15 +4079,15 @@ msgstr "No se han encontrado datos."
 
 #: cogs/tibia.py:76
 msgid "North America"
-msgstr ""
+msgstr "Norteamérica"
 
 #: cogs/tibia.py:77
 msgid "South America"
-msgstr ""
+msgstr "Sudamérica"
 
 #: cogs/tibia.py:78
 msgid "Europe"
-msgstr ""
+msgstr "Europa"
 
 #: cogs/tibia.py:137
 msgid "**{value:,}** points"
@@ -4163,23 +4163,23 @@ msgstr "Goshnar's Taint"
 
 #: cogs/tibia.py:169
 msgid "In progress"
-msgstr ""
+msgstr "En progreso"
 
 #: cogs/tibia.py:170
 msgid "Currently processed"
-msgstr ""
+msgstr "Actualmente procesada"
 
 #: cogs/tibia.py:171
 msgid "Pending transfer"
-msgstr ""
+msgstr "Transferencia pendiente"
 
 #: cogs/tibia.py:172
 msgid "Cancelled"
-msgstr ""
+msgstr "Cancelada"
 
 #: cogs/tibia.py:173
 msgid "Finished"
-msgstr ""
+msgstr "Terminada"
 
 #: cogs/tibia.py:188
 msgid "Rented"
@@ -4351,7 +4351,7 @@ msgstr "Criaturas del día recientes"
 #: cogs/tibia.py:494
 #, python-brace-format
 msgid "Events for {month}"
-msgstr ""
+msgstr "Eventos de {month}"
 
 #: cogs/tibia.py:495
 msgid "All events start and end at the server save of the day specified."
@@ -4360,17 +4360,17 @@ msgstr "Todos los eventos comienzan y terminan en server save del día especific
 #: cogs/tibia.py:500
 #, python-brace-format
 msgid "Until {end_date}"
-msgstr ""
+msgstr "Hasta {end_date}"
 
 #: cogs/tibia.py:504
 #, python-brace-format
 msgid "From {start_date}"
-msgstr ""
+msgstr "Desde {start_date}"
 
 #: cogs/tibia.py:508
 #, python-brace-format
 msgid "From {start_date} to {end_date}"
-msgstr ""
+msgstr "Desde {start_date} hasta {end_date}"
 
 #: cogs/tibia.py:530
 msgid "Previous events"
@@ -4546,7 +4546,7 @@ msgstr "Muestra el número de miembros que tiene el guild y una lista de sus usu
 #: cogs/tibia.py:776 cogs/tibia.py:809
 #, python-brace-format
 msgid "The guild was founded on {date}"
-msgstr ""
+msgstr "El guild se fundó en {date}"
 
 #: cogs/tibia.py:781 cogs/tibia.py:819
 #, python-brace-format
@@ -5225,7 +5225,7 @@ msgstr "ID: {auction_id} | Fin de la subasta"
 #: cogs/tibia.py:2047
 #, python-brace-format
 msgid "Until {date}"
-msgstr ""
+msgstr "Hasta {date}"
 
 #: cogs/tibia.py:2068
 msgid "Skills"
@@ -5274,7 +5274,7 @@ msgstr "Argumentos de venta"
 #: cogs/tibia.py:2118
 #, python-brace-format
 msgid "Posted on {date}"
-msgstr ""
+msgstr "Publicado el {date}"
 
 #: cogs/tibia.py:2121
 msgid "Read more"
@@ -5341,7 +5341,7 @@ msgstr "Nunca ha iniciado sesión."
 
 #: cogs/tibia.py:2178
 msgid "See more"
-msgstr ""
+msgstr "Ver más"
 
 #: cogs/tibia.py:2183
 msgctxt "Premium/Free"
