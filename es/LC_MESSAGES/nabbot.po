@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-25 18:47-0700\n"
-"PO-Revision-Date: 2021-04-26 01:49\n"
+"PO-Revision-Date: 2021-04-26 05:38\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -56,7 +56,7 @@ msgstr "Ese no es un ID válido."
 
 #: utils/constants.py:49
 msgid "That's not a valid level."
-msgstr "No es un nivel válido."
+msgstr "Eso no es un nivel válido."
 
 #: utils/constants.py:51
 msgid "There is no world with that name."
@@ -64,7 +64,7 @@ msgstr "No hay ningún mundo con ese nombre."
 
 #: utils/constants.py:53
 msgid "There is no guild with that name."
-msgstr "No hay ningun guild con ese nombre."
+msgstr "No hay ningún guild con ese nombre."
 
 #: utils/constants.py:55
 msgid "I could not find that channel."
@@ -80,7 +80,7 @@ msgstr "Este comando no puede ser usado en mensajes privados."
 
 #: utils/checks.py:30
 msgid "You are not allowed to use this command."
-msgstr "No tienes permisos para utilizar este comando."
+msgstr "No tienes permitido usar este comando."
 
 #: utils/checks.py:41
 msgid "You need Administrator permission to use this command."
@@ -132,7 +132,7 @@ msgstr "Estamina no válida, los minutos no pueden ser 60 o más."
 
 #: utils/converter.py:149
 msgid "Invalid stamina, can't have more than 42 hours."
-msgstr "Estamina no válida, no puedes tener más de 42 hora."
+msgstr "Estamina no válida, no puedes tener más de 42 horas."
 
 #: utils/converter.py:186
 #, python-brace-format
@@ -143,7 +143,7 @@ msgstr "`{argument}` no es un número válido."
 #: utils/messages.py:88
 #, python-brace-format
 msgid "**{name}** advanced to level {level}."
-msgstr "**{name}** subio al nivel {level}."
+msgstr "**{name}** subió al nivel {level}."
 
 #. Death message used when simple messages is on. Article will always be in English (a/an). May be omitted if fitting.
 #: utils/messages.py:90
@@ -163,7 +163,7 @@ msgstr "Necesito permiso de `Añadir reacciones` para mostrar este comando."
 
 #: utils/pages.py:108
 msgid "I need `Read Message History` permission to display this command."
-msgstr "Necesito permiso `Leer historial de mensajes` para mostrar este comando."
+msgstr "Necesito permiso de `Leer historial de mensajes` para mostrar este comando."
 
 #: utils/pages.py:125 utils/pages.py:447
 msgid "Page"
@@ -439,7 +439,7 @@ msgstr "El prefijo no puede tener más de %d caracteres."
 
 #: cogs/admin.py:97
 msgid "You cannot change server settings in private messages."
-msgstr ""
+msgstr "No puedes cambiar la configuración del servidor en mensajes privados."
 
 #: cogs/admin.py:103 cogs/tibia.py:2133
 msgid "Yes"
@@ -472,7 +472,7 @@ msgstr "**Revisando {channel}:**"
 
 #: cogs/admin.py:125
 msgid "I have `Administrator` permission."
-msgstr "Tengo permisos `Administrador`."
+msgstr "Tengo permisos de `Administrador`."
 
 #: cogs/admin.py:130
 msgid "I won't be able to see commands in here."
@@ -578,7 +578,7 @@ msgstr "¡Todos los permisos son correctos!"
 
 #: cogs/admin.py:165
 msgid "Sets the language for the current server or your personal language."
-msgstr "Establece el idioma para el servidor actual o su idioma personal."
+msgstr "Establece el idioma para el servidor actual o tu idioma personal."
 
 #: cogs/admin.py:166
 msgid "If used on a Discord server, it will attempt to change the server's language.\n"
@@ -620,7 +620,7 @@ msgstr "¿Quieres establecer tu idioma personal a `{language}`?"
 #: cogs/admin.py:195
 #, python-brace-format
 msgid "Do you want to set the server's language to `{language}`?"
-msgstr ""
+msgstr "¿Quieres establecer el idioma del servidor a `{language}`?"
 
 #: cogs/admin.py:209
 #, python-brace-format
@@ -630,7 +630,7 @@ msgstr "Nuestros mensajes privados ahora estarán en **{language}**."
 #: cogs/admin.py:211
 #, python-brace-format
 msgid "This server's messages will now be in **{language}**."
-msgstr ""
+msgstr "Los mensajes de este servidor ahora estarán en **{language}**."
 
 #: cogs/admin.py:219
 msgid "Checks or sets various server-specific settings."
@@ -884,7 +884,17 @@ msgid "This is initially disabled.\n\n"
 "- {user.mention} -> Mention the user that joined.\n"
 "- {bot} -> The name of the bot\n\n"
 "Be sure to change the welcome channel too.\n"
-msgstr ""
+msgstr "Esto está deshabilitado inicialmente.\n\n"
+"Puede usar el siguiente formato para mostrar valores dinámicos:\n\n"
+"- {server} -> El nombre del servidor.\n"
+"- {server.owner} -> El nombre del propietario del servidor.\n"
+"- {server.owner.mention} -> Mención al propietario del servidor.\n"
+"- {owner} -> El nombre del propietario del servidor\n"
+"- {owner.mention} -> Mención al propietario del servidor.\n"
+"- {user} -> El nombre del usuario que se ha unido.\n"
+"- {user.mention} -> Mención al usuario que se unió.\n"
+"- {bot} -> El nombre del bot.\n\n"
+"Asegúrate de cambiar también el canal de bienvenida.\n"
 
 #: cogs/admin.py:541
 msgid "message/disable"
@@ -1344,7 +1354,7 @@ msgstr "Necesitas descansar **{remaining}** para volver a estamina completa."
 #: cogs/calculators.py:429
 #, python-brace-format
 msgid "You need to rest **{remaining}** to get back to **{hours}:{minutes:02}** stamina."
-msgstr ""
+msgstr "Necesitas descansar **{remaining}** para volver a **{hours}:{minutes:02}** de estamina."
 
 #: cogs/calculators.py:433
 msgid "Full stamina"
@@ -1376,7 +1386,7 @@ msgstr "¿Por qué te importa? __**nunca**__ alcanzarás este nivel 🙄"
 #: cogs/calculators.py:469
 #, python-brace-format
 msgid "**{name}** is a level **{level}** with no vocation, with:"
-msgstr ""
+msgstr "**{name}** es un nivel **{level}** sin vocación, con:"
 
 #: cogs/calculators.py:471
 #, python-brace-format
@@ -1386,7 +1396,7 @@ msgstr "**{name}** es un {vocation} nivel **{level}**, con:"
 #: cogs/calculators.py:475
 #, python-brace-format
 msgid "A level **{level}** with no vocation, has:"
-msgstr ""
+msgstr "Un nivel **{level}** sin vocación tiene:"
 
 #: cogs/calculators.py:477
 #, python-brace-format
@@ -1396,12 +1406,12 @@ msgstr "Un {vocation} nivel **{level}** tiene:"
 #: cogs/calculators.py:480 cogs/tibiawiki.py:1129
 msgctxt "Hitpoints"
 msgid "HP"
-msgstr ""
+msgstr "HP"
 
 #: cogs/calculators.py:481
 msgctxt "Mana"
 msgid "MP"
-msgstr ""
+msgstr "MP"
 
 #: cogs/calculators.py:482
 msgid "Capacity"
@@ -2598,12 +2608,12 @@ msgstr "{name} ya está ignorado."
 #, python-format
 msgid "%d entry is now ignored."
 msgid_plural "%d entries are now ignored."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d entrada ha sido ignorada."
+msgstr[1] "%d entradas han sido ignoradas."
 
 #: cogs/mod.py:153
 msgid "The rest was already ignored."
-msgstr ""
+msgstr "El resto ya estaban ignoradas."
 
 #: cogs/mod.py:158
 msgid "No entries were ignored. They were all already ignored."
@@ -2701,7 +2711,7 @@ msgstr "El guild **{guild}** no esta en **{world}**"
 #: cogs/mod.py:281
 #, python-brace-format
 msgid "{rank} — **{name}** (Lvl {level} {voc})"
-msgstr ""
+msgstr "{rank} — **{name}** (Nvl. {level} {voc})"
 
 #: cogs/mod.py:291
 #, python-brace-format
@@ -2869,7 +2879,7 @@ msgstr "Registra una transferencia de Tibia coin para comprar premium de NabBot.
 
 #: cogs/premium.py:438
 msgid "In order to buy premium, you must transfer the coins to **Nab Broker** and then register the transaction here, including the amount transferred and the character that made the transfer."
-msgstr ""
+msgstr "Para comprar premium, debes transferir los Tibia Coins a **Nab Broker** y luego registrar la transacción aquí, incluyendo la cantidad transferida y el personaje que hizo la transferencia."
 
 #: cogs/premium.py:443
 msgid "The transferred amount can't be zero or lower."
@@ -5630,7 +5640,7 @@ msgstr "Posibles llaves"
 
 #: cogs/tibiawiki.py:335
 msgid "Shows information about a monster."
-msgstr ""
+msgstr "Muestra información sobre un monstruo."
 
 #: cogs/tibiawiki.py:339
 msgid "Tell me the name of the monster you want to search."
