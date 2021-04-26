@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-25 18:47-0700\n"
-"PO-Revision-Date: 2021-04-26 03:18\n"
+"PO-Revision-Date: 2021-04-26 05:38\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -56,7 +56,7 @@ msgstr "Ese no es un ID válido."
 
 #: utils/constants.py:49
 msgid "That's not a valid level."
-msgstr "No es un nivel válido."
+msgstr "Eso no es un nivel válido."
 
 #: utils/constants.py:51
 msgid "There is no world with that name."
@@ -64,7 +64,7 @@ msgstr "No hay ningún mundo con ese nombre."
 
 #: utils/constants.py:53
 msgid "There is no guild with that name."
-msgstr "No hay ningun guild con ese nombre."
+msgstr "No hay ningún guild con ese nombre."
 
 #: utils/constants.py:55
 msgid "I could not find that channel."
@@ -80,7 +80,7 @@ msgstr "Este comando no puede ser usado en mensajes privados."
 
 #: utils/checks.py:30
 msgid "You are not allowed to use this command."
-msgstr "No tienes permisos para utilizar este comando."
+msgstr "No tienes permitido usar este comando."
 
 #: utils/checks.py:41
 msgid "You need Administrator permission to use this command."
@@ -132,7 +132,7 @@ msgstr "Estamina no válida, los minutos no pueden ser 60 o más."
 
 #: utils/converter.py:149
 msgid "Invalid stamina, can't have more than 42 hours."
-msgstr "Estamina no válida, no puedes tener más de 42 hora."
+msgstr "Estamina no válida, no puedes tener más de 42 horas."
 
 #: utils/converter.py:186
 #, python-brace-format
@@ -143,7 +143,7 @@ msgstr "`{argument}` no es un número válido."
 #: utils/messages.py:88
 #, python-brace-format
 msgid "**{name}** advanced to level {level}."
-msgstr "**{name}** subio al nivel {level}."
+msgstr "**{name}** subió al nivel {level}."
 
 #. Death message used when simple messages is on. Article will always be in English (a/an). May be omitted if fitting.
 #: utils/messages.py:90
@@ -163,7 +163,7 @@ msgstr "Necesito permiso de `Añadir reacciones` para mostrar este comando."
 
 #: utils/pages.py:108
 msgid "I need `Read Message History` permission to display this command."
-msgstr "Necesito permiso `Leer historial de mensajes` para mostrar este comando."
+msgstr "Necesito permiso de `Leer historial de mensajes` para mostrar este comando."
 
 #: utils/pages.py:125 utils/pages.py:447
 msgid "Page"
@@ -472,7 +472,7 @@ msgstr "**Revisando {channel}:**"
 
 #: cogs/admin.py:125
 msgid "I have `Administrator` permission."
-msgstr "Tengo permisos `Administrador`."
+msgstr "Tengo permisos de `Administrador`."
 
 #: cogs/admin.py:130
 msgid "I won't be able to see commands in here."
@@ -578,7 +578,7 @@ msgstr "¡Todos los permisos son correctos!"
 
 #: cogs/admin.py:165
 msgid "Sets the language for the current server or your personal language."
-msgstr "Establece el idioma para el servidor actual o su idioma personal."
+msgstr "Establece el idioma para el servidor actual o tu idioma personal."
 
 #: cogs/admin.py:166
 msgid "If used on a Discord server, it will attempt to change the server's language.\n"
