@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-27 07:28-0700\n"
-"PO-Revision-Date: 2021-04-27 17:39\n"
+"PO-Revision-Date: 2021-04-27 21:09\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -251,62 +251,62 @@ msgstr[3] "%d lat"
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] "%d miesiąc"
-msgstr[1] "%d miesiące"
-msgstr[2] "%d miesięcy"
-msgstr[3] "%d miesięcy"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: utils/timing.py:101 utils/timing.py:217
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] "%d dzień"
-msgstr[1] "%d dni"
-msgstr[2] "%d dni"
-msgstr[3] "%d dni"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: utils/timing.py:102 utils/timing.py:219
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] "%d godzina"
-msgstr[1] "%d godziny"
-msgstr[2] "%d godzin"
-msgstr[3] "%d godzin"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: utils/timing.py:103 utils/timing.py:221
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "%d minuta"
-msgstr[1] "%d minuty"
-msgstr[2] "%d minut"
-msgstr[3] "%d minut"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: utils/timing.py:104
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] "%d sekunda"
-msgstr[1] "%d sekundy"
-msgstr[2] "%d sekund"
-msgstr[3] "%d sekund"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: utils/timing.py:107
 msgctxt "years abbreviation"
 msgid "y"
-msgstr "r"
+msgstr ""
 
 #. Should be different than abbreviation for minutes
 #: utils/timing.py:109
 msgctxt "months abbreviation"
 msgid "mo"
-msgstr "ms"
+msgstr ""
 
 #: utils/timing.py:110
 msgctxt "days abbreviation"
 msgid "d"
-msgstr "d"
+msgstr ""
 
 #: utils/timing.py:111
 msgctxt "hours abbreviation"
@@ -402,15 +402,15 @@ msgstr ""
 
 #: cogs/admin.py:44
 msgid "Welcome message"
-msgstr "Wiadomość powitalna"
+msgstr ""
 
 #: cogs/admin.py:45
 msgid "Welcome channel"
-msgstr "Kanał powitalny"
+msgstr ""
 
 #: cogs/admin.py:46
 msgid "Default Announcements"
-msgstr "Domyślne ogłoszenia"
+msgstr ""
 
 #: cogs/admin.py:47
 msgid "Show User in Announcements"
@@ -418,15 +418,15 @@ msgstr ""
 
 #: cogs/admin.py:50
 msgid "I couldn't find that channel, are you sure it exists?"
-msgstr "Nie mogłem znaleźć tego kanału, czy jesteś pewien, że istnieje?"
+msgstr ""
 
 #: cogs/admin.py:52
 msgid "yes/no"
-msgstr "tak/nie"
+msgstr ""
 
 #: cogs/admin.py:53
 msgid "That's not a valid option, try **yes** or **no**."
-msgstr "To nie jest prawidłowa opcja, spróbuj **tak** lub **nie**."
+msgstr ""
 
 #: cogs/admin.py:54
 msgid "A channel's name or ID, or `disable`."
@@ -439,7 +439,7 @@ msgstr ""
 
 #: cogs/admin.py:77 cogs/admin.py:178
 msgid "unknown language"
-msgstr "nieznany język"
+msgstr ""
 
 #: cogs/admin.py:87
 msgid "You can't remove this prefix."
@@ -456,11 +456,11 @@ msgstr ""
 
 #: cogs/admin.py:103 cogs/tibia.py:2137
 msgid "Yes"
-msgstr "Tak"
+msgstr ""
 
 #: cogs/admin.py:103
 msgid "No"
-msgstr "Nie"
+msgstr ""
 
 #: cogs/admin.py:106
 msgid "Commands for server administrators and mods.\n\n"
@@ -487,7 +487,7 @@ msgstr ""
 
 #: cogs/admin.py:130
 msgid "I won't be able to see commands in here."
-msgstr "Nie będę w stanie zobaczyć tutaj komend."
+msgstr ""
 
 #: cogs/admin.py:130
 msgid "View Channel"
@@ -495,7 +495,7 @@ msgstr ""
 
 #: cogs/admin.py:131
 msgid "I won't be able to respond in here."
-msgstr "Nie będę w stanie tutaj odpowiadać."
+msgstr ""
 
 #: cogs/admin.py:131
 msgid "Send Messages"
@@ -511,7 +511,7 @@ msgstr ""
 
 #: cogs/admin.py:134
 msgid "I won't be able to show my emojis in some commands."
-msgstr "Nie będę w stanie używać moich emoji w niektórych komendach."
+msgstr ""
 
 #: cogs/admin.py:135
 msgid "Use External Emoji"
@@ -539,7 +539,7 @@ msgstr ""
 
 #: cogs/admin.py:141
 msgid "I won't be able to show images in some of my commands."
-msgstr "Nie będę mógł pokazywać obrazów w niektórych z moich komend."
+msgstr ""
 
 #: cogs/admin.py:141
 msgid "Attach Files"
@@ -887,23 +887,23 @@ msgstr ""
 
 #: cogs/admin.py:542
 msgid "Welcome messages are already disabled."
-msgstr "Wiadomości powitalne są już wyłączone."
+msgstr ""
 
 #: cogs/admin.py:544
 msgid "Are you sure you want to disable welcome messages?"
-msgstr "Czy na pewno chcesz wyłączyć wiadomości powitalne?"
+msgstr ""
 
 #: cogs/admin.py:549
 msgid "This message is too long! ({length:,}/{limit} characters)"
-msgstr "Ta wiadomość jest za długa! ({length:,}/{limit} znaków)"
+msgstr ""
 
 #: cogs/admin.py:554
 msgid "Do you want to set this as the new welcome message?"
-msgstr "Czy chcesz to ustawić jako nową wiadomość powitalną?"
+msgstr ""
 
 #: cogs/admin.py:555
 msgid "*This is how your message would look if **you** joined.*"
-msgstr "*Tak by wyglądała twoja wiadomość gdybyś **ty** dołączył.*"
+msgstr ""
 
 #: cogs/admin.py:556
 msgid "Message Preview"
@@ -916,25 +916,22 @@ msgstr ""
 
 #: cogs/admin.py:569
 msgid "The welcome message has been disabled."
-msgstr "Wiadomość powitalna została wyłączona."
+msgstr ""
 
 #: cogs/admin.py:571
 msgid "Welcome message updated."
-msgstr "Wiadomość powitalna zaktualizowana."
+msgstr ""
 
 #: cogs/admin.py:577
 msgid "Changes the channel where new members are welcomed."
-msgstr "Zmienia kanał, w którym nowi członkowie są witani."
+msgstr ""
 
 #: cogs/admin.py:578
 msgid "A welcome message must be set for this setting to work.\n"
 "If the channel becomes unavailable, private messages will be used.\n\n"
 "Note that private messages are not reliable since new users can have them disabled before joining.\n"
 "To disable this, you must disable welcome messages using `settings welcome`."
-msgstr "Należy ustawić wiadomość powitalną dla tego ustawienia.\n"
-"Jeśli kanał stanie się niedostępny, zostaną użyte prywatne wiadomości.\n\n"
-"Zauważ, że prywatne wiadomości nie są niezawodne, ponieważ nowi użytkownicy mogą mieć je wyłączone przed dołączeniem.\n"
-"Aby to wyłączyć, musisz wyłączyć wiadomości powitalne używając `settings welcome`."
+msgstr ""
 
 #: cogs/admin.py:589
 msgid "A channel's name or ID, or `private`."
@@ -950,11 +947,11 @@ msgstr ""
 
 #: cogs/admin.py:594
 msgid "Welcome messages are already private."
-msgstr "Wiadomości powitalne są już prywatne."
+msgstr ""
 
 #: cogs/admin.py:596
 msgid "Are you sure you want to make welcome messages private?"
-msgstr "Czy jesteś pewien, że chcesz włączyć prywatne wiadomości powitalne?"
+msgstr ""
 
 #: cogs/admin.py:608
 #, python-brace-format
@@ -1008,12 +1005,12 @@ msgstr ""
 #: cogs/admin.py:660
 #, python-brace-format
 msgid "This server is now tracking **{world}**"
-msgstr "Ten serwer śledzi teraz **{world}**"
+msgstr ""
 
 #: cogs/admin.py:677
 #, python-brace-format
 msgid "The {name} channel was disabled."
-msgstr "Kanał {name} został wyłączony."
+msgstr ""
 
 #: cogs/admin.py:678
 #, python-brace-format
@@ -1034,7 +1031,7 @@ msgstr ""
 #: cogs/admin.py:701
 #, python-brace-format
 msgid "I was not able to create a webhook for channel {0}"
-msgstr "Nie byłem w stanie utworzyć webhooka dla kanału {0}"
+msgstr ""
 
 #: cogs/admin.py:718
 msgid "Private Messages"
@@ -1042,7 +1039,7 @@ msgstr ""
 
 #: cogs/admin.py:720
 msgid "Disabled."
-msgstr "Wyłączone."
+msgstr ""
 
 #: cogs/admin.py:722 cogs/admin.py:744
 msgid "None."
@@ -1059,16 +1056,16 @@ msgstr ""
 
 #: cogs/admin.py:731
 msgid " I will send direct messages meanwhile."
-msgstr " W międzyczasie wysyłam bezpośrednie wiadomości."
+msgstr ""
 
 #: cogs/admin.py:735
 msgid " I have no channel to use."
-msgstr " Nie mam żadnego kanału do użycia."
+msgstr ""
 
 #: cogs/admin.py:737
 #, python-brace-format
 msgid " I will use {channel} meanwhile."
-msgstr " W międzyczasie będę używać {channel}."
+msgstr ""
 
 #: cogs/admin.py:751
 msgid "None, webhook was deleted by a user."
@@ -1145,22 +1142,22 @@ msgstr ""
 
 #: cogs/calculators.py:97
 msgid "Target level must be greater than current level."
-msgstr "Poziom docelowy musi być większy niż aktualny poziom."
+msgstr ""
 
 #: cogs/calculators.py:98
 #, python-format
 msgid "Your current level can't be lower than %d."
-msgstr "Twój obecny poziom nie może być niższy niż %d."
+msgstr ""
 
 #: cogs/calculators.py:99
 #, python-format
 msgid "Your target level can't be higher than %d."
-msgstr "Twój docelowy poziom nie może być wyższy niż %d."
+msgstr ""
 
 #: cogs/calculators.py:100
 #, python-brace-format
 msgid "Your target level can't be higher than {level} for {voc}."
-msgstr "Twój docelowy poziom nie może być wyższy niż {level} dla {voc}."
+msgstr ""
 
 #. Message displayed when the training time is excessively long
 #: cogs/calculators.py:102
@@ -1186,7 +1183,7 @@ msgstr ""
 
 #: cogs/calculators.py:184
 msgid "Level must be higher than 1."
-msgstr "Poziom musi być wyższy niż 1."
+msgstr ""
 
 #: cogs/calculators.py:190
 msgid "Blessing of the Inquisition costs **{price:,}** gold coins."
@@ -1356,7 +1353,7 @@ msgstr ""
 #. Shown when trying to enter a very high level.
 #: cogs/calculators.py:456
 msgid "Why do you care? You will __**never**__ reach this level 🙄"
-msgstr "Co za różnica? __**nigdy**__ nie osiągniesz tego poziomu 🙄"
+msgstr ""
 
 #: cogs/calculators.py:471
 #, python-brace-format
@@ -1366,7 +1363,7 @@ msgstr ""
 #: cogs/calculators.py:473
 #, python-brace-format
 msgid "**{name}** is a level **{level}** {vocation}, with:"
-msgstr "**{name}** to {vocation} (level **{level}**), z:"
+msgstr ""
 
 #: cogs/calculators.py:477
 #, python-brace-format
@@ -1390,15 +1387,15 @@ msgstr ""
 
 #: cogs/calculators.py:484
 msgid "Capacity"
-msgstr "Cap"
+msgstr ""
 
 #: cogs/calculators.py:487 cogs/tibiawiki.py:1193
 msgid "Experience"
-msgstr "Exp"
+msgstr ""
 
 #: cogs/calculators.py:488
 msgid "To next level"
-msgstr "Do następnego poziomu"
+msgstr ""
 
 #: cogs/calculators.py:498
 msgid "Calculates the level required to reach the specified capacity."
@@ -2860,7 +2857,7 @@ msgstr ""
 #: cogs/premium.py:508
 #, python-brace-format
 msgid "**-{days}d** - For **{server}**"
-msgstr "**-{days} dni** - Na **{server}**"
+msgstr ""
 
 #: cogs/premium.py:513
 msgid "Your transactions"
@@ -4158,7 +4155,7 @@ msgstr ""
 #: cogs/tibia.py:392
 #, python-brace-format
 msgid "{time} left"
-msgstr "{time} pozostało"
+msgstr ""
 
 #: cogs/tibia.py:396
 msgid "There are no active auctions with that item."
