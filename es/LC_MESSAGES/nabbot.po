@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-26 16:46-0700\n"
-"PO-Revision-Date: 2021-04-27 00:49\n"
+"POT-Creation-Date: 2021-04-26 18:55-0700\n"
+"PO-Revision-Date: 2021-04-27 01:58\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5539,7 +5539,7 @@ msgstr "Esperado en {time}"
 msgid "Mapper Link"
 msgstr "Enlace de Mapper"
 
-#: cogs/tibiawiki.py:93 cogs/tibiawiki.py:106
+#: cogs/tibiawiki.py:93
 msgid "Defense"
 msgstr "Defensa"
 
@@ -5581,6 +5581,10 @@ msgstr "Duración"
 #: cogs/tibiawiki.py:105
 msgid "Food Time"
 msgstr "Tiempo de comida"
+
+#: cogs/tibiawiki.py:106
+msgid "Defense Modifier"
+msgstr ""
 
 #: cogs/tibiawiki.py:107
 msgid "Hangable"
