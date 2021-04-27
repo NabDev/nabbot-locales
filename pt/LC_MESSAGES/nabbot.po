@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-27 07:28-0700\n"
-"PO-Revision-Date: 2021-04-27 14:29\n"
+"PO-Revision-Date: 2021-04-27 17:39\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -183,7 +183,7 @@ msgstr ""
 #: utils/pages.py:438
 #, python-brace-format
 msgid "Use \"{prefix}help <command>\" for more info on a command."
-msgstr ""
+msgstr "Use \"{prefix}help <comando>\" para mais informações sobre um comando."
 
 #: utils/pages.py:448
 #, python-format
@@ -198,16 +198,16 @@ msgstr ""
 
 #: utils/pages.py:471
 msgid "Hello! Welcome to the help page."
-msgstr ""
+msgstr "Olá! Bem-vindo(a) à página de ajuda."
 
 #: utils/pages.py:475
 msgid "What are these reactions for?"
-msgstr ""
+msgstr "Para que servem estas reações?"
 
 #: utils/pages.py:477 utils/pages.py:506
 #, python-brace-format
 msgid "We were on page {page} before this message."
-msgstr ""
+msgstr "Estávamos na página {page} antes desta mensagem."
 
 #: utils/pages.py:493
 msgid "argument"
