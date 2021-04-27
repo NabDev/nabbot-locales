@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-26 16:46-0700\n"
-"PO-Revision-Date: 2021-04-26 23:49\n"
+"PO-Revision-Date: 2021-04-27 00:49\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1359,7 +1359,7 @@ msgstr "Estamina completa"
 #: cogs/calculators.py:434
 #, python-brace-format
 msgid "{target} stamina"
-msgstr ""
+msgstr "{target} de estamina"
 
 #: cogs/calculators.py:442
 msgid "Calculates character stats based on vocation and level."
@@ -4096,15 +4096,15 @@ msgstr "Europa"
 
 #: cogs/tibia.py:101
 msgid "Transfers allowed"
-msgstr ""
+msgstr "Transferencias permitidas"
 
 #: cogs/tibia.py:102
 msgid "No inbound transfers"
-msgstr ""
+msgstr "Sin transferencias entrantes"
 
 #: cogs/tibia.py:103
 msgid "No outbound transfers"
-msgstr ""
+msgstr "Sin transferencias salientes"
 
 #: cogs/tibia.py:142
 msgid "**{value:,}** points"
@@ -5541,25 +5541,25 @@ msgstr "Enlace de Mapper"
 
 #: cogs/tibiawiki.py:93 cogs/tibiawiki.py:106
 msgid "Defense"
-msgstr ""
+msgstr "Defensa"
 
 #. Hands needed for the weapon
 #: cogs/tibiawiki.py:95
 msgid "Hands"
-msgstr ""
+msgstr "Manos"
 
 #. Do not show icon if there's only physical attack.
 #: cogs/tibiawiki.py:97 cogs/tibiawiki.py:888 cogs/tibiawiki.py:893
 msgid "Attack"
-msgstr ""
+msgstr "Ataque"
 
 #: cogs/tibiawiki.py:98
 msgid "Hit%"
-msgstr ""
+msgstr "Hit%"
 
 #: cogs/tibiawiki.py:99
 msgid "Imbuement Slots"
-msgstr ""
+msgstr "Espacios de imbuements"
 
 #: cogs/tibiawiki.py:100 cogs/tibiawiki.py:1201
 msgid "Armor"
@@ -5568,35 +5568,35 @@ msgstr "Armadura"
 #. For items like food
 #: cogs/tibiawiki.py:102
 msgid "Consumible"
-msgstr ""
+msgstr "Consumible"
 
 #: cogs/tibiawiki.py:103
 msgid "Range"
-msgstr ""
+msgstr "Rango"
 
 #: cogs/tibiawiki.py:104
 msgid "Duration"
-msgstr ""
+msgstr "Duración"
 
 #: cogs/tibiawiki.py:105
 msgid "Food Time"
-msgstr ""
+msgstr "Tiempo de comida"
 
 #: cogs/tibiawiki.py:107
 msgid "Hangable"
-msgstr ""
+msgstr "Colgable"
 
 #: cogs/tibiawiki.py:108
 msgid "Destructible"
-msgstr ""
+msgstr "Destruible"
 
 #: cogs/tibiawiki.py:109
 msgid "Holds Liquids"
-msgstr ""
+msgstr "Almacena liquidos"
 
 #: cogs/tibiawiki.py:110
 msgid "Damage Type"
-msgstr ""
+msgstr "Tipo de daño"
 
 #: cogs/tibiawiki.py:113 cogs/tibiawiki.py:1342
 msgid "Mana"
@@ -5604,31 +5604,31 @@ msgstr "Maná"
 
 #: cogs/tibiawiki.py:114
 msgid "Writable"
-msgstr ""
+msgstr "Escribible"
 
 #: cogs/tibiawiki.py:115
 msgid "Rewritable"
-msgstr ""
+msgstr "Reescribible"
 
 #: cogs/tibiawiki.py:116
 msgid "Writable Chars"
-msgstr ""
+msgstr "Caracteres"
 
 #: cogs/tibiawiki.py:117
 msgid "Fansite"
-msgstr ""
+msgstr "Fansite"
 
 #: cogs/tibiawiki.py:118
 msgid "Imbuements"
-msgstr ""
+msgstr "Imbuements"
 
 #: cogs/tibiawiki.py:119
 msgid "Charges"
-msgstr ""
+msgstr "Cargas"
 
 #: cogs/tibiawiki.py:120
 msgid "Regeneration"
-msgstr ""
+msgstr "Regeneración"
 
 #: cogs/tibiawiki.py:121 cogs/tibiawiki.py:1198
 msgid "Speed"
@@ -5637,11 +5637,11 @@ msgstr "Velocidad"
 #. Words for the spell
 #: cogs/tibiawiki.py:123
 msgid "Words"
-msgstr ""
+msgstr "Palabras"
 
 #: cogs/tibiawiki.py:124
 msgid "Volume"
-msgstr ""
+msgstr "Volúmen"
 
 #: cogs/tibiawiki.py:138
 msgid "Defensive"
@@ -5949,16 +5949,16 @@ msgstr "Comprado por"
 #. Abbreviation for ounces
 #: cogs/tibiawiki.py:827
 msgid "oz"
-msgstr ""
+msgstr "oz"
 
 #: cogs/tibiawiki.py:828
 msgid "Weight"
-msgstr ""
+msgstr "Peso"
 
 #. Attribute of items like soft boots, life ring, ring of healing, etc
 #: cogs/tibiawiki.py:855
 msgid "Faster regeneration"
-msgstr ""
+msgstr "Regeneración más rápida"
 
 #: cogs/tibiawiki.py:861
 msgid "Properties"
