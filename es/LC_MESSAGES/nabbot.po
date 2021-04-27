@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-26 18:55-0700\n"
+"POT-Creation-Date: 2021-04-27 07:14-0700\n"
 "PO-Revision-Date: 2021-04-27 02:59\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
@@ -349,7 +349,7 @@ msgid_plural "My command prefixes are:"
 msgstr[0] "Mi prefijo de comandos es:"
 msgstr[1] "Mis prefijos de comandos son:"
 
-#: cogs/admin.py:35 cogs/tibia.py:2074 cogs/tibia.py:2157
+#: cogs/admin.py:35 cogs/tibia.py:2038 cogs/tibia.py:2121
 msgid "World"
 msgstr "Mundo"
 
@@ -439,7 +439,7 @@ msgstr "El prefijo no puede tener más de %d caracteres."
 msgid "You cannot change server settings in private messages."
 msgstr "No puedes cambiar la configuración del servidor en mensajes privados."
 
-#: cogs/admin.py:103 cogs/tibia.py:2173
+#: cogs/admin.py:103 cogs/tibia.py:2137
 msgid "Yes"
 msgstr "Sí"
 
@@ -1470,7 +1470,7 @@ msgstr "Un nivel **{level}** sin vocación tiene:"
 msgid "A level **{level}** {vocation}, has:"
 msgstr "Un {vocation} nivel **{level}** tiene:"
 
-#: cogs/calculators.py:482 cogs/tibiawiki.py:1196
+#: cogs/calculators.py:482 cogs/tibiawiki.py:1192
 msgctxt "Hitpoints"
 msgid "HP"
 msgstr "HP"
@@ -1484,7 +1484,7 @@ msgstr "MP"
 msgid "Capacity"
 msgstr "Capacidad"
 
-#: cogs/calculators.py:487 cogs/tibiawiki.py:1197
+#: cogs/calculators.py:487 cogs/tibiawiki.py:1193
 msgid "Experience"
 msgstr "Experiencia"
 
@@ -1933,7 +1933,7 @@ msgstr "Prefijos"
 msgid "Authors"
 msgstr "Autores"
 
-#: cogs/info.py:63 cogs/info.py:340 cogs/tibia.py:1828 cogs/tibia.py:2076
+#: cogs/info.py:63 cogs/info.py:340 cogs/tibia.py:1795 cogs/tibia.py:2040
 msgid "Created"
 msgstr "Creado"
 
@@ -2002,7 +2002,7 @@ msgstr "Categoria"
 msgid "Slowmode Delay"
 msgstr "Tiempo de modo pausado"
 
-#: cogs/info.py:138 cogs/roles.py:610
+#: cogs/info.py:138 cogs/roles.py:593
 msgid "member"
 msgid_plural "members"
 msgstr[0] "miembro"
@@ -2012,7 +2012,7 @@ msgstr[1] "miembros"
 msgid "Visible by"
 msgstr "Visible por"
 
-#: cogs/info.py:140 cogs/roles.py:501
+#: cogs/info.py:140 cogs/roles.py:488
 msgid "Mention"
 msgstr "Mención"
 
@@ -2020,7 +2020,7 @@ msgstr "Mención"
 msgid "NSFW"
 msgstr "NSFW"
 
-#: cogs/info.py:142 cogs/info.py:252 cogs/roles.py:502
+#: cogs/info.py:142 cogs/info.py:252 cogs/roles.py:489
 msgid "Created on"
 msgstr "Creado al"
 
@@ -2114,7 +2114,7 @@ msgstr "No estoy en ningún servidor con ID {server}."
 msgid "That is not a valid id."
 msgstr "Eso no es un id válido."
 
-#: cogs/info.py:251 cogs/tibia.py:2306
+#: cogs/info.py:251 cogs/tibia.py:2270
 msgid "Owner"
 msgstr "Dueño"
 
@@ -2146,7 +2146,7 @@ msgstr "Bots"
 msgid "Roles"
 msgstr "Roles"
 
-#: cogs/info.py:271 cogs/roles.py:495
+#: cogs/info.py:271 cogs/roles.py:482
 msgid "Members"
 msgstr "Miembros"
 
@@ -2155,7 +2155,7 @@ msgid "Boosters"
 msgstr "Mejoras"
 
 #: cogs/info.py:282 cogs/logging.py:111 cogs/logging.py:143 cogs/logging.py:191
-#: cogs/tibia.py:2155 cogs/tibiawiki.py:92 cogs/tibiawiki.py:1341
+#: cogs/tibia.py:2119 cogs/tibiawiki.py:91 cogs/tibiawiki.py:1337
 msgid "Level"
 msgstr "Nivel"
 
@@ -2326,7 +2326,7 @@ msgstr "Requiere dos puntos"
 msgid "Role limited"
 msgstr "Limtado a roles"
 
-#: cogs/info.py:437 cogs/tibiawiki.py:1184
+#: cogs/info.py:437 cogs/tibiawiki.py:1180
 msgid "Attributes"
 msgstr "Atributos"
 
@@ -2477,7 +2477,7 @@ msgid "Member banned"
 msgstr "Miembro baneado"
 
 #: cogs/logging.py:400 cogs/logging.py:419 cogs/logging.py:469
-#: cogs/tracking.py:1677 cogs/tracking.py:1704
+#: cogs/tracking.py:1661 cogs/tracking.py:1688
 msgid "Reason"
 msgstr "Razón"
 
@@ -3175,7 +3175,7 @@ msgstr "También puede convertirse en un [Patron]({url}) para obtener beneficios
 msgid "More information"
 msgstr "Más información"
 
-#: cogs/premium.py:572 cogs/tibiawiki.py:1345
+#: cogs/premium.py:572 cogs/tibiawiki.py:1341
 msgid "Premium"
 msgstr "Premium"
 
@@ -3323,7 +3323,7 @@ msgstr "Transacción No. {id}"
 msgid "Submitted on"
 msgstr "Envíado el"
 
-#: cogs/premium.py:869 cogs/tibia.py:2300
+#: cogs/premium.py:869 cogs/tibia.py:2264
 msgid "Status"
 msgstr "Estado"
 
@@ -3489,8 +3489,8 @@ msgid "This respawn is currently available."
 msgstr "Esta respawn está disponible actualmente."
 
 #. Title for the link to the TibiaWiki mapper
-#: cogs/respawn.py:352 cogs/tibia.py:1843 cogs/tibiawiki.py:451
-#: cogs/tibiawiki.py:476 cogs/tibiawiki.py:685
+#: cogs/respawn.py:352 cogs/tibia.py:1810 cogs/tibiawiki.py:447
+#: cogs/tibiawiki.py:472 cogs/tibiawiki.py:681
 msgid "Location"
 msgstr "Ubicación"
 
@@ -3729,7 +3729,7 @@ msgstr "El sistema de respawn del servidor ya está configurado."
 msgid "I need `Manage Channels` permission in order to setup the respawn system."
 msgstr "Necesito permiso `Gestionar canales` para configurar el sistema de respawn."
 
-#: cogs/respawn.py:599 cogs/tracking.py:1625
+#: cogs/respawn.py:599 cogs/tracking.py:1609
 msgid "Sorry, I don't have permissions to create channels."
 msgstr "Lo siento, no tengo permisos para crear canales."
 
@@ -3769,27 +3769,27 @@ msgstr "Actualmente no hay nadie cazando en ningún respawn."
 msgid "Unknown User"
 msgstr "Usuario desconocido"
 
-#: cogs/roles.py:40
+#: cogs/roles.py:39
 msgid "Commands related to role management."
 msgstr "Comandos relacionados con la administración de roles."
 
-#: cogs/roles.py:110 cogs/roles.py:111
+#: cogs/roles.py:109 cogs/roles.py:110
 msgid "Automatic roles"
 msgstr "Roles automáticos"
 
-#: cogs/roles.py:147
+#: cogs/roles.py:146
 msgid "Autorole commands"
 msgstr "Comandos de autoroles"
 
-#: cogs/roles.py:148
+#: cogs/roles.py:147
 msgid "All the subcommands require having `Manage Roles` permission."
 msgstr "Todos los subcomandos requieren tener permiso `Gestionar roles`."
 
-#: cogs/roles.py:157
+#: cogs/roles.py:156
 msgid "Creates a new autorole rule."
 msgstr "Crea una nueva regla de autorol."
 
-#: cogs/roles.py:158
+#: cogs/roles.py:157
 msgid ""
 "Rules consist of a role and a guild name.\n"
 "When a user has a registered in said guild, they will receive the role.\n"
@@ -3813,79 +3813,79 @@ msgstr ""
 "Se permiten nombres de rol, menciones de rol o IDs de rol. Los nombres de rol con múltiples palabras deben estar envueltos en comillas dobles.\n"
 "Tenga en cuenta que los miembros actuales serán actualizados hasta que sus personajes o guilds cambien."
 
-#: cogs/roles.py:179
+#: cogs/roles.py:178
 msgid "`*` - All users with registered characters."
 msgstr "`*` - Todos los usuarios con personajes registrados."
 
-#: cogs/roles.py:180
+#: cogs/roles.py:179
 msgid "`*@GuildName` / `GuildName` - All users with characters belonging to **GuildName**."
 msgstr "`*@GuildName` / `GuildName` - Todos los usuarios con personajes pertenecientes a **GuildName**."
 
-#: cogs/roles.py:181
+#: cogs/roles.py:180
 msgid "`RankName@GuildName` - All users with characters belonging to **GuildName** and with rank **RankName**."
 msgstr "`RankName@GuildName` - Todos los usuarios con personajes pertenecientes a **GuildName** y con el rango **RankName**."
 
-#: cogs/roles.py:185
+#: cogs/roles.py:184
 msgid "That's not a valid rule. Valid rules are:"
 msgstr "Eso no es una regla válida. Las reglas válidas son:"
 
-#: cogs/roles.py:196
+#: cogs/roles.py:195
 #, python-brace-format
 msgid "There's no guild named `{name}`"
 msgstr "No hay ningún guild llamado `{name}`"
 
-#: cogs/roles.py:203
+#: cogs/roles.py:202
 msgid "Autorole rule already exists."
 msgstr "La regla de autorol ya existe."
 
-#: cogs/roles.py:208
+#: cogs/roles.py:207
 msgid "You can't create a rule for a role higher or equals than your highest role."
 msgstr "No puedes crear una regla para un rol mayor o igual que tu rol más alto."
 
-#: cogs/roles.py:210
+#: cogs/roles.py:209
 msgid "I can't create a rule for a role higher than my highest role."
 msgstr "No puedo crear una regla para un rol mayor que mi rol más alto."
 
-#: cogs/roles.py:212
+#: cogs/roles.py:211
 #, python-brace-format
 msgid "Members of guild `{name}` and rank `{rank}` will automatically receive the {role} role."
 msgstr "Los miembros del guild `{name}` y con el rango `{rank}` recibirán automáticamente el rol {role}."
 
-#: cogs/roles.py:214
+#: cogs/roles.py:213
 #, python-brace-format
 msgid "Members of guild `{name}` will automatically receive the {role} role. "
 msgstr "Los miembros del guild `{name}` recibirán automáticamente el rol {role}. "
 
-#: cogs/roles.py:216
+#: cogs/roles.py:215
 #, python-brace-format
 msgid "All users with registered characters will automatically receive the {role} role."
 msgstr "Todos los usuarios con personajes registrados recibirán automáticamente el rol {role}."
 
-#: cogs/roles.py:217 cogs/timers.py:813
+#: cogs/roles.py:216 cogs/timers.py:813
 msgid "Is this correct?"
 msgstr "¿Es correcto?"
 
-#: cogs/roles.py:225
+#: cogs/roles.py:224
 msgid "Autorole rule created."
 msgstr "Regla de autorol creada."
 
-#: cogs/roles.py:231
+#: cogs/roles.py:230
 msgid "Shows a list of autorole rules."
 msgstr "Muestra una lista de las reglas de autoroles."
 
-#: cogs/roles.py:236 cogs/roles.py:246
+#: cogs/roles.py:235 cogs/roles.py:245
 msgid "This server has no autorole rules."
 msgstr "Este servidor no tiene reglas de autoroles."
 
-#: cogs/roles.py:251
+#: cogs/roles.py:248
 msgid "Autorole rules"
 msgstr "Reglas de autoroles"
 
-#: cogs/roles.py:260
+#: cogs/roles.py:255
 msgid "Triggers a refresh on all members."
 msgstr "Activa una actualización en todos los miembros."
 
-#: cogs/roles.py:261
+#: cogs/roles.py:256
 msgid ""
 "This will apply existing rules to all members.\n"
 "Note that guild changes from members that haven't been online won't be affected.\n"
@@ -3899,7 +3899,7 @@ msgstr ""
 "\n"
 "Este comando sólo puede utilizarse una vez al día en el servidor."
 
-#: cogs/roles.py:268
+#: cogs/roles.py:263
 msgid ""
 "This will make me check the guilds of all registered characters to apply existing rules.\n"
 "Note that character with outdated information won't be updated until they are online again or checked using `whois`\n"
@@ -3909,19 +3909,19 @@ msgstr ""
 "Ten en cuenta que el personaje con información desactualizada no se actualizará hasta que esté en línea de nuevo o se verifique usando `whois`\n"
 "¿Estás seguro de que quieres esto?"
 
-#: cogs/roles.py:277
+#: cogs/roles.py:272
 msgid "Starting role refreshing…"
 msgstr "Iniciando actualización de roles…"
 
-#: cogs/roles.py:281 cogs/roles.py:283
+#: cogs/roles.py:276 cogs/roles.py:278
 msgid "Refresh done, roles will be updated shortly."
 msgstr "Actualización realizada, los roles se actualizarán en breve."
 
-#: cogs/roles.py:289
+#: cogs/roles.py:284
 msgid "Removes an autorole rule."
 msgstr "Elimina una regla de autorol."
 
-#: cogs/roles.py:290
+#: cogs/roles.py:285
 msgid ""
 "Role names, mentions and ids are accepted. Role names with multiple words need to be wrapped in quotes.\n"
 "\n"
@@ -3931,23 +3931,23 @@ msgstr ""
 "\n"
 "Ten en cuenta que los miembros que tienen actualmente el rol no se verán afectados."
 
-#: cogs/roles.py:302
+#: cogs/roles.py:297
 msgid "That rule doesn't exist."
 msgstr "Esa regla no existe."
 
-#: cogs/roles.py:308
+#: cogs/roles.py:303
 msgid "You can't delete a role rule for a role higher than yours."
 msgstr "No puedes eliminar una regla de rol para un rol mayor que el tuyo."
 
-#: cogs/roles.py:311
+#: cogs/roles.py:306
 msgid "Auto role rule removed. Note that the role won't be removed from current members."
 msgstr "Regla de rol automático eliminada. Ten en cuenta que el rol no será eliminado de los miembros actuales."
 
-#: cogs/roles.py:318
+#: cogs/roles.py:313
 msgid "Joins or leaves a group (role)."
 msgstr "Se une o deja un grupo (rol)."
 
-#: cogs/roles.py:319
+#: cogs/roles.py:314
 msgid ""
 "If you're not in the group, you will be added.\n"
 "If you're already in the group, you will be removed.\n"
@@ -3957,46 +3957,46 @@ msgstr ""
 "Si ya estás en el grupo, serás eliminado.\n"
 "Para ver una lista de grupos unibles, usa `group list`."
 
-#: cogs/roles.py:329
+#: cogs/roles.py:324
 #, python-brace-format
 msgid "Role {name} is not a joinable role."
 msgstr "El rol {name} no es un rol unible."
 
-#: cogs/roles.py:337
+#: cogs/roles.py:332
 msgid "I can't manage groups of roles higher than mine."
 msgstr "No puedo administrar grupos de roles más altos que el mío."
 
-#: cogs/roles.py:339
+#: cogs/roles.py:334
 msgid "Joined group"
 msgstr "Te uniste al grupo"
 
-#: cogs/roles.py:341
+#: cogs/roles.py:336
 msgid "Left group"
 msgstr "Abandono grupo"
 
-#: cogs/roles.py:343
+#: cogs/roles.py:338
 msgid "I need `Manage Roles` to manage groups."
 msgstr "Necesito permiso de `Gestionar roles` para administrar grupos."
 
-#: cogs/roles.py:345
+#: cogs/roles.py:340
 msgid "Something went wrong. Try again later."
 msgstr "Algo salió mal. Inténtalo más tarde."
 
-#: cogs/roles.py:348
+#: cogs/roles.py:343
 #, python-brace-format
 msgid "You joined {name}."
 msgstr "Te uniste a {name}."
 
-#: cogs/roles.py:350
+#: cogs/roles.py:345
 #, python-brace-format
 msgid "You left {name}."
 msgstr "Has salido de {name}."
 
-#: cogs/roles.py:357
+#: cogs/roles.py:352
 msgid "Creates a new group for members to join."
 msgstr "Crea un nuevo grupo para que los miembros se unan."
 
-#: cogs/roles.py:358
+#: cogs/roles.py:353
 msgid ""
 "The group can be a new role that will be created with this command.\n"
 "If the name matches an existent role, that role will become joinable.\n"
@@ -4008,56 +4008,56 @@ msgstr ""
 "\n"
 "Necesitas permisos de `Gestionar roles` para usar este comando."
 
-#: cogs/roles.py:375
+#: cogs/roles.py:370
 msgid "I need `Manage Roles` permission to create a group."
 msgstr "Necesito el permiso de `Gestionar roles` para crear un grupo."
 
-#: cogs/roles.py:378
+#: cogs/roles.py:373
 msgid "Invalid group name."
 msgstr "Nombre de grupo inválido."
 
-#: cogs/roles.py:383
+#: cogs/roles.py:378
 #, python-brace-format
 msgid "Group {name} already exists."
 msgstr "El grupo {name} ya existe."
 
-#: cogs/roles.py:388
+#: cogs/roles.py:383
 msgid "You can't make a group from a role higher or equals than your highest role."
 msgstr "No puedes hacer un grupo a partir de un rol mayor o igual que tu rol más grande."
 
-#: cogs/roles.py:390
+#: cogs/roles.py:385
 msgid "I can't make a group from a role higher or equals than my highest role."
 msgstr "No puedo crear un grupo a partir de un rol mayor o igual que mi rol más alto."
 
-#: cogs/roles.py:393
+#: cogs/roles.py:388
 #, python-brace-format
 msgid "Group {name} created successfully."
 msgstr "Grupo {name} creado exitosamente."
 
-#: cogs/roles.py:398
+#: cogs/roles.py:393
 msgid "Shows a list of available groups."
 msgstr "Muestra una lista de grupos disponibles."
 
-#: cogs/roles.py:403
+#: cogs/roles.py:398
 msgid "This server has no joinable groups."
 msgstr "Este servidor no tiene grupos que se pueden unir."
 
-#: cogs/roles.py:412
+#: cogs/roles.py:407
 #, python-format
 msgid "`%d member`"
 msgid_plural "`%d members`"
 msgstr[0] "`%d miembro`"
 msgstr[1] "`%d miembros`"
 
-#: cogs/roles.py:418
+#: cogs/roles.py:411
 msgid "Joinable groups"
 msgstr "Grupos que se pueden unir"
 
-#: cogs/roles.py:428
+#: cogs/roles.py:419
 msgid "Removes a group."
 msgstr "Elimina un grupo."
 
-#: cogs/roles.py:429
+#: cogs/roles.py:420
 msgid ""
 "Removes a group, making members unable to join.\n"
 "When removing a group, you can optionally delete the role too."
@@ -4065,100 +4065,100 @@ msgstr ""
 "Elimina un grupo, haciendo que los miembros no puedan unirse.\n"
 "Al eliminar un grupo, puedes eliminar el rol también opcionalmente."
 
-#: cogs/roles.py:437
+#: cogs/roles.py:428
 #, python-brace-format
 msgid "{role} is not a group."
 msgstr "{role} no es un grupo."
 
-#: cogs/roles.py:442
+#: cogs/roles.py:433
 msgid "You can't delete a group of a role higher than your highest role."
 msgstr "No puedes eliminar un grupo de un rol superior a tu rol más alto."
 
-#: cogs/roles.py:444
+#: cogs/roles.py:435
 msgid "I can't delete a group of a role higher than my highest role."
 msgstr "No puedo eliminar un grupo de un rol superior a mi rol más alto."
 
-#: cogs/roles.py:446
+#: cogs/roles.py:437
 #, python-brace-format
 msgid "Group {name} will be removed. Do you want to remove the role too?"
 msgstr "El grupo {name} será eliminado. ¿Quieres eliminar el rol también?"
 
-#: cogs/roles.py:451
+#: cogs/roles.py:442
 #, python-brace-format
 msgid "Group removed by {user}"
 msgstr "Grupo eliminado por {user}"
 
-#: cogs/roles.py:452
+#: cogs/roles.py:443
 #, python-brace-format
 msgid "Group {name} was removed and the role was deleted."
 msgstr "El grupo {name} fue eliminado y el rol fue eliminado."
 
-#: cogs/roles.py:454
+#: cogs/roles.py:445
 #, python-brace-format
 msgid "Group {name} removed."
 msgstr "Grupo {name} eliminado."
 
-#: cogs/roles.py:455
+#: cogs/roles.py:446
 msgid "I need `Manage Roles` permission to delete the Discord role."
 msgstr "Necesito permiso de `Gestionar roles` para borrar el rol de Discord."
 
-#: cogs/roles.py:457
+#: cogs/roles.py:448
 #, python-brace-format
 msgid "Group {name} was removed."
 msgstr "El grupo {name} fue eliminado."
 
-#: cogs/roles.py:464
+#: cogs/roles.py:455
 msgid "Shows a list of members with no roles."
 msgstr "Muestra una lista de miembros sin roles."
 
-#: cogs/roles.py:475
+#: cogs/roles.py:466
 msgid "There are no members without roles."
 msgstr "No hay miembros sin roles."
 
-#: cogs/roles.py:481
+#: cogs/roles.py:470
 msgid "Members with no roles"
 msgstr "Miembros sin roles"
 
-#: cogs/roles.py:489
+#: cogs/roles.py:476
 msgid "Shows details about a role."
 msgstr "Muestra detalles de un rol."
 
-#: cogs/roles.py:496
+#: cogs/roles.py:483
 msgid "Mentionable"
 msgstr "Mencionable"
 
 #. Whether the role appears separate in the right side of Discord
-#: cogs/roles.py:498
+#: cogs/roles.py:485
 msgid "Hoisted"
 msgstr "Separado"
 
-#: cogs/roles.py:499 cogs/tibia.py:2175 cogs/tibia.py:2199
+#: cogs/roles.py:486 cogs/tibia.py:2139 cogs/tibia.py:2163
 msgid "Position"
 msgstr "Posición"
 
-#: cogs/roles.py:500
+#: cogs/roles.py:487
 msgid "Color"
 msgstr "Color"
 
-#: cogs/roles.py:509
+#: cogs/roles.py:496
 msgid "Shows a list of members with that role."
 msgstr "Muestra una lista de miembros con ese rol."
 
-#: cogs/roles.py:516
+#: cogs/roles.py:503
 #, python-brace-format
 msgid "Seems like there are no members with the role {name}."
 msgstr "Parece que no hay miembros con el rol {name}."
 
-#: cogs/roles.py:519
+#: cogs/roles.py:506
 #, python-brace-format
 msgid "Members with the role '{name}'"
 msgstr "Miembros con el rol '{name}'"
 
-#: cogs/roles.py:534
+#: cogs/roles.py:517
 msgid "Sends a message mentioning a role."
 msgstr "Envía un mensaje mencionando un rol."
 
-#: cogs/roles.py:535
+#: cogs/roles.py:518
 msgid ""
 "This allows using a role mention for roles that have mentioning disabled.\n"
 "Mentions for the role are enabled, the message is sent and role mentions are disabled again.\n"
@@ -4170,15 +4170,15 @@ msgstr ""
 "\n"
 "El mensaje está firmado por el autor del comando."
 
-#: cogs/roles.py:545
+#: cogs/roles.py:528
 msgid "You can't mention a role highest than your highest role."
 msgstr "No puedes mencionar un rol más alto que tu rol más alto."
 
-#: cogs/roles.py:548
+#: cogs/roles.py:531
 msgid "I can't mention a role highest than my highest role."
 msgstr "No puedo mencionar un rol más alto que mi rol más alto."
 
-#: cogs/roles.py:550
+#: cogs/roles.py:533
 #, python-brace-format
 msgid ""
 "The message will mention the role {name}. Your name will appear at the bottom of the message.\n"
@@ -4189,29 +4189,29 @@ msgstr ""
 "Por favor, dime el contenido del mensaje.\n"
 "También puedes decir `cancel` para salir."
 
-#: cogs/roles.py:564
+#: cogs/roles.py:547
 msgid "The message can't be longer than {limit:,} characters."
 msgstr "El mensaje no puede tener más de {limit:,} caracteres."
 
-#: cogs/roles.py:571
+#: cogs/roles.py:554
 #, python-brace-format
 msgid "Turn mentions on for role mention by {user}"
 msgstr "Activar menciones para mención de rol por {user}"
 
-#: cogs/roles.py:573
+#: cogs/roles.py:556
 #, python-brace-format
 msgid "Message sent by {user}"
 msgstr "Mensaje enviado por {user}"
 
-#: cogs/roles.py:577
+#: cogs/roles.py:560
 msgid "Reverting mentionable"
 msgstr "Revertir mencionable"
 
-#: cogs/roles.py:582
+#: cogs/roles.py:565
 msgid "Shows a user's roles or a list of server roles."
 msgstr "Muestra los roles de un usuario o una lista de roles de servidor."
 
-#: cogs/roles.py:583
+#: cogs/roles.py:566
 msgid ""
 "If a user is specified, it will list their roles.\n"
 "If user is blank, I will list all the server's roles."
@@ -4219,25 +4219,25 @@ msgstr ""
 "Si se especifica un usuario, se listarán sus roles.\n"
 "Si el usuario está en blanco, listaré todos los roles del servidor."
 
-#: cogs/roles.py:588
+#: cogs/roles.py:571
 msgid "Roles in this server"
 msgstr "Roles en este servidor"
 
-#: cogs/roles.py:591
+#: cogs/roles.py:574
 msgid "There are no roles in this server."
 msgstr "No existen roles en este servidor."
 
-#: cogs/roles.py:596
+#: cogs/roles.py:579
 #, python-brace-format
 msgid "I don't see any user named **{user}**."
 msgstr "No veo a ningún usuario con el nombre **{user}**."
 
-#: cogs/roles.py:598
+#: cogs/roles.py:581
 #, python-brace-format
 msgid "Roles for @{user}"
 msgstr "Roles de @{user}"
 
-#: cogs/roles.py:601
+#: cogs/roles.py:584
 #, python-brace-format
 msgid "{user} has no roles."
 msgstr "{user} no tiene roles."
@@ -4358,7 +4358,7 @@ msgstr "**{value:,}** puntos"
 msgid "Level **{value:,}**"
 msgstr "Nivel **{value:,}**"
 
-#: cogs/tibia.py:146 cogs/tibia.py:2079 cogs/tibia.py:2170
+#: cogs/tibia.py:146 cogs/tibia.py:2043 cogs/tibia.py:2134
 msgid "Achievement Points"
 msgstr "Puntos de achievements"
 
@@ -4366,7 +4366,7 @@ msgstr "Puntos de achievements"
 msgid "Axe Fighting"
 msgstr "Axe"
 
-#: cogs/tibia.py:148 cogs/tibiawiki.py:666
+#: cogs/tibia.py:148 cogs/tibiawiki.py:662
 msgid "Charm Points"
 msgstr "Charm Points"
 
@@ -4398,7 +4398,7 @@ msgstr "Fist"
 msgid "Loyalty Points"
 msgstr "Loyalty"
 
-#: cogs/tibia.py:156 cogs/tibiawiki.py:111 cogs/tibiawiki.py:112
+#: cogs/tibia.py:156 cogs/tibiawiki.py:110 cogs/tibiawiki.py:111
 msgid "Magic Level"
 msgstr "Magic level"
 
@@ -4442,32 +4442,44 @@ msgstr "Cancelada"
 msgid "Finished"
 msgstr "Terminada"
 
-#: cogs/tibia.py:193
+#: cogs/tibia.py:182
+msgid "Current Bid"
+msgstr ""
+
+#: cogs/tibia.py:183
+msgid "Winning Bid"
+msgstr ""
+
+#: cogs/tibia.py:184
+msgid "Minimum Bid"
+msgstr ""
+
+#: cogs/tibia.py:199
 msgid "Rented"
 msgstr "En renta"
 
-#: cogs/tibia.py:194
+#: cogs/tibia.py:200
 msgid "Auctioned"
 msgstr "En subasta"
 
-#: cogs/tibia.py:198
+#: cogs/tibia.py:204
 msgid "Commands related to Tibia, gathered from information present in Tibia.com."
 msgstr "Comandos relacionados con Tibia, recopilados a partir de información presente en Tibia.com."
 
-#: cogs/tibia.py:280
+#: cogs/tibia.py:286
 msgid "Shows information about a bazaar auction."
 msgstr "Muestra información sobre una subasta del bazar."
 
-#: cogs/tibia.py:285
+#: cogs/tibia.py:291
 #, python-brace-format
 msgid "There is no auction with ID {auction_id}"
 msgstr "No hay subasta con ID {auction_id}"
 
-#: cogs/tibia.py:293
+#: cogs/tibia.py:299
 msgid "Shows all the auctions a character has been involved in."
 msgstr "Muestra todas las subastas en las que ha participado un personaje."
 
-#: cogs/tibia.py:294
+#: cogs/tibia.py:300
 msgid ""
 "An indicator is shown for finished auctions, showing if it was successful (character was sold) or not.\n"
 "If the auction is still being processed, it is unknown if the auction will be successful or not."
@@ -4475,77 +4487,77 @@ msgstr ""
 "Se muestra un indicador para subastas terminadas, muestra si fue exitoso (se vendió el personaje) o no.\n"
 "Si la subasta todavía está siendo procesada, se desconoce si la subasta será exitosa o no."
 
-#: cogs/tibia.py:308
+#: cogs/tibia.py:314
 msgid "Could not find any auctions for this character."
 msgstr "No se pudo encontrar ninguna subasta para este personaje."
 
 #. Format string for entries in the auction character command
-#: cogs/tibia.py:322
+#: cogs/tibia.py:328
 msgid "{id} - Lvl {level} {voc} - {world} - {bid:,}{tc} - "
 msgstr "{id} - Nvl {level} {voc} - {world} - {bid:,}{tc} - "
 
-#: cogs/tibia.py:329
+#: cogs/tibia.py:335
 msgid "Sold"
 msgstr "Vendido"
 
-#: cogs/tibia.py:335
+#: cogs/tibia.py:341
 #, python-brace-format
 msgid "Auctions of {name}"
 msgstr "Subastas de {name}"
 
-#: cogs/tibia.py:342
+#: cogs/tibia.py:348
 msgid "Shows currently active auctions containing a specific item."
 msgstr "Muestra subastas activas que contienen un objeto específico."
 
-#: cogs/tibia.py:343
+#: cogs/tibia.py:349
 msgid "Only auctions in progress are shown. The data displayed is not live and bid amounts might be outdated."
 msgstr "Sólo se muestran las subastas en curso. Los datos mostrados no están en vivo y las cantidades de las ofertas pueden estar desactualizadas."
 
-#: cogs/tibia.py:358
+#: cogs/tibia.py:364
 msgid "That item does not exist or it has never been in an auction."
 msgstr "Ese ítem no existe o nunca ha estado en una subasta."
 
 #. Format string for entries in the auction item command
-#: cogs/tibia.py:381
+#: cogs/tibia.py:387
 msgid "`{id}` - {name} - Lvl {level} {voc} - {world} - {bid:,}{tc} - "
 msgstr "`{id}` - {name} - Nvl {level} {voc} - {world} - {bid:,}{tc} - "
 
 #. Time left until auction ends
-#: cogs/tibia.py:386
+#: cogs/tibia.py:392
 #, python-brace-format
 msgid "{time} left"
 msgstr "{time} restante"
 
-#: cogs/tibia.py:390
+#: cogs/tibia.py:396
 msgid "There are no active auctions with that item."
 msgstr "No hay subastas activas con este ítem."
 
-#: cogs/tibia.py:394
+#: cogs/tibia.py:400
 #, python-brace-format
 msgid "Auctions with {item}"
 msgstr "Subastas con {item}"
 
-#: cogs/tibia.py:404
+#: cogs/tibia.py:410
 msgid "Shows a summary of auctions."
 msgstr "Muestra un resumen de las subastas."
 
-#: cogs/tibia.py:409
+#: cogs/tibia.py:415
 msgid "Auction Statistics"
 msgstr "Estadísticas de subastas"
 
-#: cogs/tibia.py:409 cogs/tibia.py:472 cogs/tracking.py:487
+#: cogs/tibia.py:415 cogs/tibia.py:479 cogs/tracking.py:488
 msgid "Last updated"
 msgstr "Última actualización"
 
-#: cogs/tibia.py:410
+#: cogs/tibia.py:416
 msgid "There's a total of **{count:,}** auctions."
 msgstr "Hay un total de **{count:,}** subastas."
 
-#: cogs/tibia.py:412
+#: cogs/tibia.py:418
 msgid "By Status"
 msgstr "Por estado"
 
-#: cogs/tibia.py:417
+#: cogs/tibia.py:424
 msgid ""
 "The total worth of all characters successfully traded is **{total_tc:,.0f}** {TC}.\n"
 "The total of all fees and commissions paid is **{total_fees:,.0f}** {TC}"
@@ -4553,15 +4565,15 @@ msgstr ""
 "El valor total de todos los personajes intercambiados con éxito es **{total_tc:,.0f}** {TC}.\n"
 "El total de todas las cuotas y comisiones pagadas es **{total_fees:,.0f}** {TC}"
 
-#: cogs/tibia.py:420
+#: cogs/tibia.py:427
 msgid "Most Expensive"
 msgstr "Más caros"
 
-#: cogs/tibia.py:427
+#: cogs/tibia.py:434
 msgid "Shows a world's bosses predictions."
 msgstr "Muestra las predicciones de los bosses de un mundo."
 
-#: cogs/tibia.py:428
+#: cogs/tibia.py:435
 msgid ""
 "Shows the chances of boss respawning, the last time a boss was seen, or the expected time to see the boss.\n"
 "Data is provided by TibiaBosses.com."
@@ -4569,32 +4581,32 @@ msgstr ""
 "Muestra las posibilidades de que un boss esté presente, la última vez que un boss fue visto, o el tiempo esperado para ver al boss.\n"
 "Los datos son proporcionados por TibiaBosses.com."
 
-#: cogs/tibia.py:436
+#: cogs/tibia.py:443
 msgid "You must specify the world you want predictions for."
 msgstr "Debes especificar el mundo para el que quieres predicciones."
 
-#: cogs/tibia.py:443
+#: cogs/tibia.py:450
 msgid "Could not fetch boss predictions."
 msgstr "No se han podido obtener las predicciones."
 
-#: cogs/tibia.py:447
+#: cogs/tibia.py:454
 msgid "For premium predictions, check out [TibiaBosses.com](https://www.tibiabosses.com/premium/)"
 msgstr "Para predicciones premium, revisa [TibiaBosses.com](https://www.tibiabosses.com/premium/)"
 
-#: cogs/tibia.py:449
+#: cogs/tibia.py:456
 #, python-brace-format
 msgid "Boss predictions for {world}"
 msgstr "Predicciones de bosses para {world}"
 
-#: cogs/tibia.py:460
+#: cogs/tibia.py:467
 msgid "Gets the boosted creature of the day."
 msgstr "Muestra la criatura del día."
 
-#: cogs/tibia.py:465
+#: cogs/tibia.py:472
 msgid "Today's boosted creature"
 msgstr "Criatura del día"
 
-#: cogs/tibia.py:467
+#: cogs/tibia.py:474
 #, python-brace-format
 msgid ""
 "The boosted creature of the day is **{name}**.\n"
@@ -4607,81 +4619,81 @@ msgstr ""
 "\n"
 "*Usa `{prefix}monster {name}` para ver más información!*"
 
-#: cogs/tibia.py:478
+#: cogs/tibia.py:485
 msgid "Gets the most recent boosted creature entries."
 msgstr "Obtiene las últimas entradas de criaturas del día."
 
-#: cogs/tibia.py:483
+#: cogs/tibia.py:490
 msgid "There are no saved boosted creature entries."
 msgstr "No hay entradas de criatura del día guardadas."
 
-#: cogs/tibia.py:485
+#: cogs/tibia.py:492
 msgid "Recent Boosted Creatures"
 msgstr "Criaturas del día recientes"
 
-#: cogs/tibia.py:499
+#: cogs/tibia.py:506
 #, python-brace-format
 msgid "Events for {month}"
 msgstr "Eventos de {month}"
 
-#: cogs/tibia.py:500
+#: cogs/tibia.py:507
 msgid "All events start and end at the server save of the day specified."
 msgstr "Todos los eventos comienzan y terminan en server save del día especificado."
 
-#: cogs/tibia.py:505
+#: cogs/tibia.py:512
 #, python-brace-format
 msgid "Until {end_date}"
 msgstr "Hasta {end_date}"
 
-#: cogs/tibia.py:509
+#: cogs/tibia.py:516
 #, python-brace-format
 msgid "From {start_date}"
 msgstr "Desde {start_date}"
 
-#: cogs/tibia.py:513
+#: cogs/tibia.py:520
 #, python-brace-format
 msgid "From {start_date} to {end_date}"
 msgstr "Desde {start_date} hasta {end_date}"
 
-#: cogs/tibia.py:535
+#: cogs/tibia.py:542
 msgid "Previous events"
 msgstr "Eventos anteriores"
 
-#: cogs/tibia.py:537
+#: cogs/tibia.py:544
 msgid "Current events"
 msgstr "Eventos actuales"
 
-#: cogs/tibia.py:539 cogs/timers.py:770
+#: cogs/tibia.py:546 cogs/timers.py:770
 msgid "Upcoming events"
 msgstr "Próximos eventos"
 
-#: cogs/tibia.py:544
+#: cogs/tibia.py:551
 msgid "Shows the latest CM posts in the forum."
 msgstr "Muestra las últimas publicaciones de CMs en el foro."
 
-#: cogs/tibia.py:545
+#: cogs/tibia.py:552
 msgid "Posts made by Community Managers on the Tibia forums."
 msgstr "Posts realizados por Community Managers en los foros de Tibia."
 
-#: cogs/tibia.py:550
+#: cogs/tibia.py:557
 msgid "There are no CM posts in the last 30 days."
 msgstr "No hay posts de CMs en los ultimos 30 días."
 
 #. Entry line for CM posts
-#: cogs/tibia.py:557
+#: cogs/tibia.py:564
 #, python-brace-format
 msgid "`{id}` - {post} - *{time} ago*"
 msgstr "`{id}` - {post} - *hace {time}*"
 
-#: cogs/tibia.py:564
+#: cogs/tibia.py:571
 msgid "Recent CM Posts"
 msgstr "Post recientes de CM"
 
-#: cogs/tibia.py:574
+#: cogs/tibia.py:581
 msgid "Shows a character's recent deaths or the recent deaths of characters in the server."
 msgstr "Muestra las muertes recientes de un personaje o las muertes recientes de personajes en el servidor."
 
-#: cogs/tibia.py:575
+#: cogs/tibia.py:582
 msgid ""
 "When no name is specified, the recent deaths of characters in the server are displayed.\n"
 "When used in a private channel, only deaths from Tibia.com will be shown."
@@ -4689,11 +4701,11 @@ msgstr ""
 "Cuando no se especifica ningún nombre, se muestran las muertes recientes de personajes en el servidor.\n"
 "Cuando se utiliza en un canal privado, sólo se mostrarán muertes de Tibia.com."
 
-#: cogs/tibia.py:580
+#: cogs/tibia.py:587
 msgid "This server is not tracking any Tibia worlds."
 msgstr "Este servidor no está siguiendo ningún mundo de Tibia."
 
-#: cogs/tibia.py:586
+#: cogs/tibia.py:593
 msgid ""
 "Cannot use this command without parameters in private messages.\n"
 "Please specify the name of a character."
@@ -4701,48 +4713,48 @@ msgstr ""
 "No se puede utilizar este comando sin parámetros en mensajes privados.\n"
 "Por favor, especifique el nombre de un personaje."
 
-#: cogs/tibia.py:589
+#: cogs/tibia.py:596
 msgid "Recent deaths"
 msgstr "Muertes recientes"
 
-#: cogs/tibia.py:598
+#: cogs/tibia.py:605
 msgid "There are no recent deaths."
 msgstr "No hay muertes recientes."
 
-#: cogs/tibia.py:614
+#: cogs/tibia.py:619
 msgid "Shows the latest deaths caused by a specific monster."
 msgstr "Muestra las últimas muertes causadas por un monstruo específico."
 
-#: cogs/tibia.py:629
+#: cogs/tibia.py:634
 #, python-brace-format
 msgid "{name} (**@{user}**) - At level **{level}** - *{time} ago*"
 msgstr "{name} (**@{user}**) - En nivel **{level}** - *hace {time}*"
 
-#: cogs/tibia.py:635
+#: cogs/tibia.py:640
 msgid "There are no registered deaths by that monster."
 msgstr "No hay muertes registradas por ese monstruo."
 
-#: cogs/tibia.py:639
+#: cogs/tibia.py:643
 #, python-brace-format
 msgid "Latest deaths by {monster}"
 msgstr "Últimas muertes por {monster}"
 
-#: cogs/tibia.py:648
+#: cogs/tibia.py:650
 msgid "Shows a user's recent deaths on his/her registered characters."
 msgstr "Muestra las muertes recientes de un usuario en sus caracteres registrados."
 
 #. Entry for deaths in deaths user command
 #. Death entry for timeline user command
-#: cogs/tibia.py:664 cogs/tibia.py:1545
+#: cogs/tibia.py:666 cogs/tibia.py:1518
 #, python-brace-format
 msgid "{name} - At level **{level}** by {killer} - *{time} ago*"
 msgstr "{name} - En nivel **{level}** por {killer} - *hace {time}*"
 
-#: cogs/tibia.py:670
+#: cogs/tibia.py:672
 msgid "There are not registered deaths by this user."
 msgstr "No hay muertes registradas de este usuario."
 
-#: cogs/tibia.py:672
+#: cogs/tibia.py:674
 #, python-brace-format
 msgid "{user} latest deaths"
 msgstr "Muertes más recientes de {user}"
@@ -4902,29 +4914,29 @@ msgstr "Los miembros en línea tienen un icono al lado de su nombre."
 msgid "{rank} — {online}**{name}** {title} (Lvl {level} {vocation})"
 msgstr "{rank} — {online}**{name}** {title} (Nvl. {level} {vocation})"
 
-#: cogs/tibia.py:888
+#: cogs/tibia.py:884
 msgid "Shows the list of guilds of a world."
 msgstr "Muestra la lista de guilds de un mundo."
 
-#: cogs/tibia.py:896
+#: cogs/tibia.py:892
 msgid "There are no guilds in this world."
 msgstr "No hay guilds en este mundo."
 
 #. For guilds that are still not fully consolidated, e.g. doesn't have 4 vices yet
-#: cogs/tibia.py:901
+#: cogs/tibia.py:897
 msgid "In formation"
 msgstr "En formación"
 
-#: cogs/tibia.py:908
+#: cogs/tibia.py:903
 #, python-brace-format
 msgid "Guilds in {world}"
 msgstr "Guilds en {world}"
 
-#: cogs/tibia.py:918
+#: cogs/tibia.py:911
 msgid "Shows the highscores for a given world and category."
 msgstr "Muestra los highscores de un mundo y una categoría determinados."
 
-#: cogs/tibia.py:919
+#: cogs/tibia.py:912
 msgid ""
 "If the server is already tracking a world, the tracked world will be used if no world is specified.\n"
 "To see the highscores of all worlds, use \"global\" or \"all\" as the world parameter.\n"
@@ -4938,7 +4950,7 @@ msgstr ""
 "Categorías disponibles son: experience, magic, sword, club, axe, shielding, fishing, fist, distance, goshnar, charms y loyalty.\n"
 "Las vocaciones disponibles son: all, none, paladin, druid, sorcerer, knight."
 
-#: cogs/tibia.py:949
+#: cogs/tibia.py:942
 #, python-brace-format
 msgid ""
 "Invalid category or world.\n"
@@ -4947,7 +4959,7 @@ msgstr ""
 "Categoría o mundo no válido.\n"
 "Categorías válidas son: {0}"
 
-#: cogs/tibia.py:954
+#: cogs/tibia.py:947
 #, python-brace-format
 msgid ""
 "Invalid vocation.\n"
@@ -4956,40 +4968,40 @@ msgstr ""
 "Vocación inválida.\n"
 "Las vocaciones válidas son: {0}."
 
-#: cogs/tibia.py:962
+#: cogs/tibia.py:955
 msgid "I couldn't find any highscores entries."
 msgstr "No pude encontrar ninguna entrada de highscores."
 
 #. Describes the level and experience in experience highscores entries
-#: cogs/tibia.py:970
+#: cogs/tibia.py:963
 msgid "Lvl {level} ({exp:,} exp)"
 msgstr "Nvl {level} ({exp:,} exp)"
 
 #. Describe the points for charms, loyalty, achievements and goshnar's taints highscore entries
-#: cogs/tibia.py:974
+#: cogs/tibia.py:967
 msgid "{value:,} points"
 msgstr "{valor:,} puntos"
 
 #. Describes the level for skill entries in the highscores
-#: cogs/tibia.py:977
+#: cogs/tibia.py:970
 #, python-brace-format
 msgid "Level {value}"
 msgstr "Nivel {value}"
 
-#: cogs/tibia.py:985
+#: cogs/tibia.py:977
 msgid "all worlds"
 msgstr "todos los mundos"
 
-#: cogs/tibia.py:986
+#: cogs/tibia.py:978
 #, python-brace-format
 msgid "🏆 {category} highscores for {world}"
 msgstr "🏆 {category} highscores para {world}"
 
-#: cogs/tibia.py:1025
+#: cogs/tibia.py:1013
 msgid "Shows info for a house or guildhall."
 msgstr "Muestra información sobre una casa o guildhall."
 
-#: cogs/tibia.py:1026
+#: cogs/tibia.py:1014
 msgid ""
 "By default, it shows the current status of a house for the current tracked world (if any).\n"
 "If used on private messages, no world is looked up unless specified.\n"
@@ -5001,19 +5013,19 @@ msgstr ""
 "\n"
 "Para especificar un mundo, agregue el mundo al final separado con una coma."
 
-#: cogs/tibia.py:1051
+#: cogs/tibia.py:1039
 msgid "TibiaWiki module is unavailable for the moment, try again later."
 msgstr "El módulo TibiaWiki no está disponible por el momento, inténtalo más tarde."
 
-#: cogs/tibia.py:1055
+#: cogs/tibia.py:1043
 msgid "I couldn't find a house with that name."
 msgstr "No pude encontrar una casa con ese nombre."
 
-#: cogs/tibia.py:1084
+#: cogs/tibia.py:1072
 msgid "Shows a character's or everyone's recent level ups."
 msgstr "Muestra los niveles recientes de un personaje o de todos."
 
-#: cogs/tibia.py:1085
+#: cogs/tibia.py:1073
 msgid ""
 "If a character is specified, it displays a list of its recent level ups.\n"
 "If no character is specified, it will show the recent level ups of all registered characters in the server.\n"
@@ -5025,80 +5037,80 @@ msgstr ""
 "\n"
 "Esto solo funciona para los personajes registrados en la base de datos del bot, que son los personajes registrados a los usuarios de este servidor de Discord."
 
-#: cogs/tibia.py:1100
+#: cogs/tibia.py:1087
 msgid "Latest level ups"
 msgstr "Últimos niveles"
 
 #. Lines in levels command
-#: cogs/tibia.py:1111
+#: cogs/tibia.py:1098
 #, python-brace-format
 msgid "{name} - Level **{level}** - **@{user}** - *{time} ago*"
 msgstr "{name} - Nivel **{level}** - **@{user}** - *hace {time}*"
 
-#: cogs/tibia.py:1130 cogs/tibia.py:1181
+#: cogs/tibia.py:1117 cogs/tibia.py:1165
 #, python-brace-format
 msgid "{name} latest level ups"
 msgstr "Últimos niveles de {name}"
 
 #. Entry for levels command, for a specific character
 #. Death entry for timeline command for a specific character
-#: cogs/tibia.py:1135 cogs/tibia.py:1501
+#: cogs/tibia.py:1122 cogs/tibia.py:1478
 #, python-brace-format
 msgid "Level **{level}** - *{time} ago*"
 msgstr "Nivel **{level}** - *hace {time}*"
 
-#: cogs/tibia.py:1138
+#: cogs/tibia.py:1125
 msgid "There are no registered levels."
 msgstr "No hay niveles registrados."
 
-#: cogs/tibia.py:1154
+#: cogs/tibia.py:1138
 msgid "Shows a user's recent level ups on their registered characters."
 msgstr "Muestra los niveles recientes de un usuario en sus personajes registrados."
 
 #. Entry for levels user command
 #. Level up entry for timeline user command
-#: cogs/tibia.py:1172 cogs/tibia.py:1551
+#: cogs/tibia.py:1156 cogs/tibia.py:1524
 #, python-brace-format
 msgid "{name} - Level **{level}** - *{time} ago*"
 msgstr "{name} - Nivel **{level}** - *hace {time}*"
 
-#: cogs/tibia.py:1178
+#: cogs/tibia.py:1162
 msgid "There are not registered level ups by this user."
 msgstr "No hay niveles registrados de este usuario."
 
-#: cogs/tibia.py:1192
+#: cogs/tibia.py:1173
 msgid "Shows the latest news articles from Tibia.com."
 msgstr "Muestra las últimas noticias de Tibia.com."
 
-#: cogs/tibia.py:1193
+#: cogs/tibia.py:1174
 msgid "If no id is supplied, a list of recent articles is shown, otherwise, a snippet of the article is shown."
 msgstr "Si no se proporciona ningún id, se muestra una lista de artículos recientes, de lo contrario, se muestra un fragmento del artículo."
 
-#: cogs/tibia.py:1201
+#: cogs/tibia.py:1182
 msgid "Something went wrong getting recent news."
 msgstr "Algo salió mal obteniendo noticias recientes."
 
-#: cogs/tibia.py:1206
+#: cogs/tibia.py:1187
 msgid "There's no article with that ID."
 msgstr "No hay ningún artículo con ese ID."
 
-#: cogs/tibia.py:1213
+#: cogs/tibia.py:1194
 msgid "Shows the latest news ticker from Tibia.com."
 msgstr "Muestra las últimas noticias de Tibia.com."
 
-#: cogs/tibia.py:1219
+#: cogs/tibia.py:1200
 msgid "Something went wrong getting recent news ticker."
 msgstr "Algo salió mal al obtener el ticker de noticias reciente."
 
-#: cogs/tibia.py:1221
+#: cogs/tibia.py:1202
 msgid "Recent news ticker"
 msgstr "Tickers de noticias recientes"
 
-#: cogs/tibia.py:1227
+#: cogs/tibia.py:1208
 msgid "Searches for online characters that meet the criteria."
 msgstr "Busca personajes en línea que cumplan con los criterios."
 
-#: cogs/tibia.py:1228
+#: cogs/tibia.py:1209
 msgid ""
 "There are 3 ways to use this command:\n"
 "- Find a character in share range with another character. (`searchworld <name>`)\n"
@@ -5119,81 +5131,81 @@ msgstr ""
 "Puede agregar el mundo donde desea buscar añadiendo una coma, seguida por el nombre del mundo.\n"
 "Ejemplo: `searchworld Cachero, Calmera`"
 
-#: cogs/tibia.py:1238 cogs/tracking.py:1165
+#: cogs/tibia.py:1219 cogs/tracking.py:1157
 msgid "Invalid arguments used, examples:"
 msgstr "Argumentos usados inválidos, ejemplos:"
 
-#: cogs/tibia.py:1240
+#: cogs/tibia.py:1221
 #, python-brace-format
 msgid "{prefix}{command} charname[,world]"
 msgstr "{prefix}{command} char[,mundo]"
 
-#: cogs/tibia.py:1241
+#: cogs/tibia.py:1222
 #, python-brace-format
 msgid "{prefix}{command} level[,world]"
 msgstr "{prefix}{command} nivel[,mundo]"
 
-#: cogs/tibia.py:1242
+#: cogs/tibia.py:1223
 #, python-brace-format
 msgid "{prefix}{command} minLevel,maxLevel[,world"
 msgstr "{prefix}{command} nivelMin,nivelMax[,mundo"
 
-#: cogs/tibia.py:1278
+#: cogs/tibia.py:1259
 #, python-brace-format
 msgid "Characters online in share range with {0}({1}-{2}):"
 msgstr "Personajes en linea en rango de compartir experiencia con {0}({1}-{2}):"
 
-#: cogs/tibia.py:1279
+#: cogs/tibia.py:1260
 #, python-brace-format
 msgid "I didn't find anyone in share range with **{0}**({1}-{2})"
 msgstr "No he encontrado a nadie en el rango para compartir con **{0}**({1}-{2})"
 
-#: cogs/tibia.py:1294
+#: cogs/tibia.py:1275
 #, python-brace-format
 msgid "Characters online between level {0} and {1}"
 msgstr "Personajes en línea entre nivel {0} y {1}"
 
-#: cogs/tibia.py:1295
+#: cogs/tibia.py:1276
 #, python-brace-format
 msgid "I didn't find anyone between levels **{0}** and **{1}**"
 msgstr "No he encontrado nadie entre los niveles **{0}** y **{1}**"
 
-#: cogs/tibia.py:1302
+#: cogs/tibia.py:1283
 #, python-brace-format
 msgid "Characters online in share range with level {0} ({1}-{2})"
 msgstr "Personajes en linea en rango de compartir experiencia con nivel {0} ({1}-{2})"
 
-#: cogs/tibia.py:1303
+#: cogs/tibia.py:1284
 #, python-brace-format
 msgid "I didn't find anyone in share range with level **{0}** ({1}-{2})"
 msgstr "No encontre a nadie en rango de compartir experiencia con nivel **{0}** ({1}-{2})"
 
-#: cogs/tibia.py:1308
+#: cogs/tibia.py:1289
 msgid "You must tell me the world where you want to search."
 msgstr "Debes decirme el mundo en el que quieres buscar."
 
 #. This really shouldn't happen...
-#: cogs/tibia.py:1313
+#: cogs/tibia.py:1294
 #, python-brace-format
 msgid "There's no world named **{world}**."
 msgstr "No hay ningún mundo llamado **{world}**."
 
-#: cogs/tibia.py:1317
+#: cogs/tibia.py:1298
 #, python-brace-format
 msgid "There is no one online in {world}."
 msgstr "No hay nadie en línea en {world}."
 
 #. Line for entries in seachworld command
-#: cogs/tibia.py:1329
+#: cogs/tibia.py:1310
 #, python-brace-format
 msgid "**{name}** - Level {level} {voc}"
 msgstr "**{name}** - Nivel {level} {voc}"
 
-#: cogs/tibia.py:1344
+#: cogs/tibia.py:1322
 msgid "Shows the sharing range for that level or character or list of characters."
 msgstr "Muestra el rango de compartir para ese nivel, personaje, o lista de personajes."
 
-#: cogs/tibia.py:1345
+#: cogs/tibia.py:1323
 msgid ""
 "This command can be used in three ways:\n"
 "1. Find the share range of a certain level. (`share <level>`)\n"
@@ -5205,67 +5217,67 @@ msgstr ""
 "2. Encuentra el rango de compartir experiencia de un personaje. (`compartir <name>`)\n"
 "3. Encuentra el rango de compartir experiencia conjunto de un grupo de personajes. (`share <name1, name2…>`)"
 
-#: cogs/tibia.py:1358
+#: cogs/tibia.py:1336
 #, python-format
 msgid "The level must be %d or higher."
 msgstr "El nivel debe ser %d o mayor."
 
-#: cogs/tibia.py:1360
+#: cogs/tibia.py:1338
 #, python-format
 msgid "The level must be %d or lower."
 msgstr "El nivel debe ser %d o menor."
 
-#: cogs/tibia.py:1362
+#: cogs/tibia.py:1340
 msgid "A level {level:,} can share experience with levels **{low:,}** to **{high:,}**."
 msgstr "Un nivel {level:,} puede compartir experiencia con niveles **{low:,}** a **{high:,}**."
 
-#: cogs/tibia.py:1369
+#: cogs/tibia.py:1347
 #, python-format
 msgid "You must specify a level, a character's name or up to %d character names."
 msgstr "Debes especificar un nivel, el nombre de un personaje o hasta %d nombres de personajes."
 
-#: cogs/tibia.py:1372
+#: cogs/tibia.py:1350
 #, python-format
 msgid "I can only check up to %d characters at a time."
 msgstr "Sólo puedo revisar hasta %d caracteres a la vez."
 
-#: cogs/tibia.py:1382
+#: cogs/tibia.py:1360
 msgid "**{name}** ({level:,}) can share experience with levels **{low:,}** to **{high:,}**."
 msgstr "**{name}** ({level:,}) puede compartir experiencia con niveles **{low:,}** a **{high:,}**."
 
-#: cogs/tibia.py:1387
+#: cogs/tibia.py:1365
 msgid "I'm not sure if sharing with yourself counts as sharing, but yes, you can share."
 msgstr "No estoy seguro si compartir contigo mismo cuenta como compartir, pero sí, puedes compartir."
 
-#: cogs/tibia.py:1393
+#: cogs/tibia.py:1371
 #, python-brace-format
 msgid "There is no character named **{name}**."
 msgstr "No hay ningún personaje llamado **{name}**."
 
-#: cogs/tibia.py:1405
+#: cogs/tibia.py:1383
 #, python-brace-format
 msgid "**{lowest_name}** ({lowest_level}) needs {diff} more level to share experience with **{highest_name}** ({highest_level})."
 msgid_plural "**{lowest_name}** ({lowest_level}) needs {diff} more levels to share experience with **{highest_name}** ({highest_level})."
 msgstr[0] "**{lowest_name}** ({lowest_level}) necesita {diff} nivel más para compartir experiencia con **{highest_name}** ({highest_level})."
 msgstr[1] "**{lowest_name}** ({lowest_level}) necesita {diff} niveles más para compartir experiencia con **{highest_name}** ({highest_level})."
 
-#: cogs/tibia.py:1415
+#: cogs/tibia.py:1393
 msgid "They can all share experience with each other."
 msgstr "Todos pueden compartir experiencias entre sí."
 
-#: cogs/tibia.py:1417
+#: cogs/tibia.py:1395
 msgid "**{lowest_name}** ({lowest_level:,}) and **{highest_name}** ({highest_level:,}) can share experience."
 msgstr "**{lowest_name}** ({lowest_level:,}) y **{highest_name}** ({highest_level:,}) pueden compartir experiencia."
 
-#: cogs/tibia.py:1420
+#: cogs/tibia.py:1398
 msgid "Their share range is from level **{low:,}** to **{high:,}**."
 msgstr "Su rango para compartir experiencia es de nivel **{low:,}** a **{high:,}**."
 
-#: cogs/tibia.py:1427
+#: cogs/tibia.py:1405
 msgid "Shows a character's recent level ups and deaths."
 msgstr "Muestra los niveles y muertes recientes de un personaje."
 
-#: cogs/tibia.py:1428
+#: cogs/tibia.py:1406
 msgid ""
 "If no character is provided, the timeline of all registered characters in the server will be shown.\n"
 "Characters must be registered in order to have a timeline.\n"
@@ -5280,23 +5292,23 @@ msgstr ""
 "-💀 Indica muertes PvP\n"
 "        "
 
-#: cogs/tibia.py:1444
+#: cogs/tibia.py:1421
 msgid "Timeline"
 msgstr "Línea de tiempo"
 
 #. Death entry for timeline commamd
-#: cogs/tibia.py:1461
+#: cogs/tibia.py:1438
 #, python-brace-format
 msgid "{name} (**@{user}**) - At level **{level}** by {killer} - *{time} ago*"
 msgstr "{name} (**@{user}**) - En nivel **{level}** por {killer} - *hace {time}*"
 
 #. Level up entry for timeline command
-#: cogs/tibia.py:1468
+#: cogs/tibia.py:1445
 #, python-brace-format
 msgid "{name} (**@{user}**) - Level **{level}** - *{time} ago*"
 msgstr "{name} (**@{user}**) - Nivel **{level}** - *hace {time}*"
 
-#: cogs/tibia.py:1487 cogs/tibia.py:1536
+#: cogs/tibia.py:1464 cogs/tibia.py:1509
 #, python-brace-format
 msgid "{name} timeline"
 msgstr "Línea de tiempo de {name}"
@@ -5304,28 +5316,28 @@ msgstr "Línea de tiempo de {name}"
 #. Level up entry for timeline command for a specific character
 #. Entry for character deaths
 #. Level up entry for levels command
-#: cogs/tibia.py:1495 cogs/tibia.py:2356 cogs/tibia.py:2390
+#: cogs/tibia.py:1472 cogs/tibia.py:2320 cogs/tibia.py:2354
 #, python-brace-format
 msgid "At level **{level}** by {killer} - *{time} ago*"
 msgstr "En nivel **{level}** por {killer} - *hace {time}*"
 
-#: cogs/tibia.py:1507 cogs/tibia.py:1557
+#: cogs/tibia.py:1484 cogs/tibia.py:1530
 msgid "There are no registered deaths or level ups."
 msgstr "No hay muertes registradas o subidas de nivel."
 
-#: cogs/tibia.py:1522
+#: cogs/tibia.py:1496
 msgid "Shows a user's recent level ups and deaths on their characters."
 msgstr "Muestra los niveles y muertes recientes de los personajes de un usuario."
 
-#: cogs/tibia.py:1569
+#: cogs/tibia.py:1539
 msgid "Displays Tibia server's time and time until server save."
 msgstr "Muestra el tiempo de Tibia y el tiempo restante hasta el siguiente server save."
 
-#: cogs/tibia.py:1570
+#: cogs/tibia.py:1540
 msgid "Server moderators can manage displayed timezones using the subcommands."
 msgstr "Los moderadores del servidor pueden administrar las zonas horarias mostradas usando los subcomandos."
 
-#: cogs/tibia.py:1581
+#: cogs/tibia.py:1551
 #, python-brace-format
 msgid ""
 "It's currently **{tibia_time}** in Tibia's website ({timezone_name}).\n"
@@ -5334,22 +5346,22 @@ msgstr ""
 "Actualmente son las **{tibia_time}** en el sitio web de Tibia ({timezone_name}).\n"
 "El server save es en **{time_until}**."
 
-#: cogs/tibia.py:1587 cogs/tibiawiki.py:468
+#: cogs/tibia.py:1557 cogs/tibiawiki.py:464
 #, python-brace-format
 msgid "Rashid is in **{city}** today."
 msgstr "Rashid está en **{city}** hoy."
 
 #. The local time in a city/timezone.
-#: cogs/tibia.py:1599
+#: cogs/tibia.py:1569
 #, python-brace-format
 msgid "**{time}** in {name}"
 msgstr "**{time}** en {name}"
 
-#: cogs/tibia.py:1607
+#: cogs/tibia.py:1577
 msgid "Adds a new timezone to display."
 msgstr "Añade una nueva zona horaria para mostrar."
 
-#: cogs/tibia.py:1608
+#: cogs/tibia.py:1578
 msgid ""
 "You can look by city, country or region.\n"
 "Once the timezone is found, you can set the name you want to show on the `time` command.\n"
@@ -5361,11 +5373,11 @@ msgstr ""
 "\n"
 "Sólo los moderadores de servidores pueden usar este comando."
 
-#: cogs/tibia.py:1620
+#: cogs/tibia.py:1590
 msgid "No timezones found matching that name."
 msgstr "No se encontraron zonas horarias que coincidan con ese nombre."
 
-#: cogs/tibia.py:1625
+#: cogs/tibia.py:1595
 #, python-brace-format
 msgid ""
 "The time in `{timezone}` is **{local_time}**.\n"
@@ -5374,41 +5386,41 @@ msgstr ""
 "El tiempo en `{timezone}` es **{local_time}**.\n"
 "¿Qué nombre mostrar quieres asignar? Puedes 'cancelar' si cambiaste de opinión."
 
-#: cogs/tibia.py:1637 cogs/tibia.py:1705
+#: cogs/tibia.py:1607 cogs/tibia.py:1672
 #, python-format
 msgid "The display name can't be longer than %d characters."
 msgstr "El nombre para mostrar no puede tener más de %d caracteres."
 
-#: cogs/tibia.py:1643
+#: cogs/tibia.py:1613
 msgid "That timezone already exists."
 msgstr "Esa zona horaria ya existe."
 
-#: cogs/tibia.py:1644
+#: cogs/tibia.py:1614
 #, python-brace-format
 msgid "Timezone `{name}` saved successfully as `{display_name}`."
 msgstr "Zona horaria `{name}` guardada correctamente como `{display_name}`."
 
-#: cogs/tibia.py:1651
+#: cogs/tibia.py:1621
 msgid "Shows a list of all the currently added timezones."
 msgstr "Muestra una lista de todas las zonas horarias añadidas actualmente."
 
-#: cogs/tibia.py:1652 cogs/tibia.py:1670 cogs/tibia.py:1689
+#: cogs/tibia.py:1622 cogs/tibia.py:1637 cogs/tibia.py:1656
 msgid "Only Server Moderators can use this command."
 msgstr "Sólo los moderadores del servidor pueden usar este comando."
 
-#: cogs/tibia.py:1657 cogs/tibia.py:1694
+#: cogs/tibia.py:1627 cogs/tibia.py:1661
 msgid "This server doesn't have any timezones saved yet."
 msgstr "Este servidor no tiene ninguna zona horaria guardada todavía."
 
-#: cogs/tibia.py:1661
+#: cogs/tibia.py:1630
 msgid "Saved timezones"
 msgstr "Zonas horarias guardadas"
 
-#: cogs/tibia.py:1669
+#: cogs/tibia.py:1636
 msgid "Removes a timezone from the list."
 msgstr "Elimina una zona horaria de la lista."
 
-#: cogs/tibia.py:1677
+#: cogs/tibia.py:1644
 msgid ""
 "There's no timezone saved with that name.\n"
 "Remember to use the timezone's real name, not the display name.\n"
@@ -5416,16 +5428,16 @@ msgstr ""
 "No hay una zona horaria guardada con ese nombre.\n"
 "Recuerda usar el nombre real de la zona horaria, no el nombre para mostrar.\n"
 
-#: cogs/tibia.py:1682
+#: cogs/tibia.py:1649
 #, python-brace-format
 msgid "Timezone {name} ({display_name}) removed successfully."
 msgstr "Zona horaria {name} ({display_name}) eliminada con éxito."
 
-#: cogs/tibia.py:1688
+#: cogs/tibia.py:1655
 msgid "Renames a timezone"
 msgstr "Renombra una zona horario"
 
-#: cogs/tibia.py:1701
+#: cogs/tibia.py:1668
 msgid ""
 "There's no timezone saved with that name.\n"
 "Remember to use the timezone's real name, not the display name."
@@ -5433,16 +5445,16 @@ msgstr ""
 "No hay una zona horaria guardada con ese nombre.\n"
 "Recuerda usar el nombre real de la zona horaria, no el nombre para mostrar."
 
-#: cogs/tibia.py:1709
+#: cogs/tibia.py:1676
 #, python-brace-format
 msgid "Timezone `{timezone}` was renamed from `{old_name}` to `{new_name}`."
 msgstr "Zona horaria `{timezone}` fue renombrado de `{old_name}` a `{new_name}`."
 
-#: cogs/tibia.py:1715
+#: cogs/tibia.py:1682
 msgid "Shows a character's or a Discord user's information."
 msgstr "Muestra la información de un personaje o de un usuario de Discord."
 
-#: cogs/tibia.py:1716
+#: cogs/tibia.py:1683
 msgid ""
 "If the parameter matches a Discord user, it displays a list of the characters linked to that user.\n"
 "If the parameter matches a character, it will display the character's info.\n"
@@ -5462,66 +5474,66 @@ msgstr ""
 "\n"
 "Además, si el personaje está en las puntuaciones más altas, se mostrará su clasificación."
 
-#: cogs/tibia.py:1752
+#: cogs/tibia.py:1719
 msgid "I don't see any user or character with that name."
 msgstr "No veo ningún usuario o personaje con ese nombre."
 
-#: cogs/tibia.py:1761
+#: cogs/tibia.py:1728
 msgid "Character"
 msgstr "Personaje"
 
-#: cogs/tibia.py:1806
+#: cogs/tibia.py:1773
 msgid "Shows basic information about a Tibia world."
 msgstr "Muestra información básica sobre un mundo en Tibia."
 
-#: cogs/tibia.py:1807
+#: cogs/tibia.py:1774
 msgid "Shows information like PvP type, online count, server location, vocation distribution, and more."
 msgstr "Muestra información como el tipo de PvP, jugadores en línea, distribución de vocaciones y más."
 
-#: cogs/tibia.py:1820
+#: cogs/tibia.py:1787
 msgid "This world is offline."
 msgstr "Este mundo está offline."
 
-#: cogs/tibia.py:1824
+#: cogs/tibia.py:1791
 msgid "Players online"
 msgstr "Jugadores en línea"
 
-#: cogs/tibia.py:1825
+#: cogs/tibia.py:1792
 msgid "The players online record is {count:,}"
 msgstr "El récord de jugadores en línea es {count:,}"
 
 #. To indicate that the world has always had battleye protection
-#: cogs/tibia.py:1832
+#: cogs/tibia.py:1799
 msgid "Always"
 msgstr "Siempre"
 
 #. The date when battleye protectetion was applied to this server
-#: cogs/tibia.py:1836
+#: cogs/tibia.py:1803
 #, python-brace-format
 msgid "Since {battleye_date}"
 msgstr "Desde {battleye_date}"
 
-#: cogs/tibia.py:1846
+#: cogs/tibia.py:1813
 msgid "PvP Type"
 msgstr "Tipo de PvP"
 
-#: cogs/tibia.py:1848
+#: cogs/tibia.py:1815
 msgid "Premium restricted"
 msgstr "Limitado a premium"
 
-#: cogs/tibia.py:1850
+#: cogs/tibia.py:1817
 msgid "Transfers"
 msgstr "Transferencias"
 
-#: cogs/tibia.py:1854
+#: cogs/tibia.py:1821
 msgid "Vocations distribution"
 msgstr "Distribución por vocación"
 
-#: cogs/tibia.py:1867
+#: cogs/tibia.py:1834
 msgid "Shows a list of worlds."
 msgstr "Muestra una lista de mundos."
 
-#: cogs/tibia.py:1868
+#: cogs/tibia.py:1835
 msgid ""
 "You can pass a list of parameters separated by commas to change the sorting or filter worlds.\n"
 "- `online` to sort by online count.\n"
@@ -5535,299 +5547,298 @@ msgstr ""
 "- `europe`, `Sudamerica` o `Norteamerica` para filtrar por ubicación.\n"
 "- `opcional pvp`, `open pvp`, `retro open pvp`, `hardcore pvp` o `retro hardcore pvp` para filtrar por tipo PvP."
 
-#: cogs/tibia.py:1915
+#: cogs/tibia.py:1882
 msgid "There's no worlds matching the query."
 msgstr "No hay mundos que coincidan con la búsqueda."
 
-#: cogs/tibia.py:1962
+#: cogs/tibia.py:1925
 #, python-format
 msgid "and %d more"
 msgstr "y %d más"
 
-#: cogs/tibia.py:2043
-#, python-brace-format
-msgid "ID: {auction_id} | Auction ending"
-msgstr "ID: {auction_id} | Fin de la subasta"
+#: cogs/tibia.py:2006
+msgid "Auction ending"
+msgstr ""
 
 #. The date when this character may be transferred again
-#: cogs/tibia.py:2054
+#: cogs/tibia.py:2018
 #, python-brace-format
 msgid "Until {date}"
 msgstr "Hasta {date}"
 
-#: cogs/tibia.py:2075
+#: cogs/tibia.py:2039
 msgid "Skills"
 msgstr "Skills"
 
-#: cogs/tibia.py:2077
+#: cogs/tibia.py:2041
 msgid "Regular Transfer"
 msgstr "Transferencia regular"
 
-#: cogs/tibia.py:2078
+#: cogs/tibia.py:2042
 msgid "Gold"
 msgstr "Gold"
 
-#: cogs/tibia.py:2080 cogs/tibiawiki.py:650
+#: cogs/tibia.py:2044 cogs/tibiawiki.py:646
 msgid "Charms"
 msgstr "Charms"
 
-#: cogs/tibia.py:2080
+#: cogs/tibia.py:2044
 msgid "Expansion"
 msgstr "Expansión"
 
-#: cogs/tibia.py:2081
+#: cogs/tibia.py:2045
 msgid "Outfits"
 msgstr "Outfits"
 
-#: cogs/tibia.py:2081 cogs/tibia.py:2082
+#: cogs/tibia.py:2045 cogs/tibia.py:2046
 msgid "Store"
 msgstr "Tienda"
 
-#: cogs/tibia.py:2082
+#: cogs/tibia.py:2046
 msgid "Mounts"
 msgstr "Mounts"
 
-#: cogs/tibia.py:2083
+#: cogs/tibia.py:2047
 msgid "Completed Bestiary"
 msgstr "Bestiary completado"
 
-#: cogs/tibia.py:2091
+#: cogs/tibia.py:2055
 msgid "Character Info"
 msgstr "Información del personaje"
 
-#: cogs/tibia.py:2094
+#: cogs/tibia.py:2058
 msgid "Sales Arguments"
 msgstr "Argumentos de venta"
 
-#: cogs/tibia.py:2125
+#: cogs/tibia.py:2089
 #, python-brace-format
 msgid "Posted on {date}"
 msgstr "Publicado el {date}"
 
-#: cogs/tibia.py:2128
+#: cogs/tibia.py:2092
 msgid "Read more"
 msgstr "Leer más"
 
-#: cogs/tibia.py:2135
+#: cogs/tibia.py:2099
 msgid "Recent news"
 msgstr "Noticias recientes"
 
-#: cogs/tibia.py:2137
+#: cogs/tibia.py:2101
 #, python-brace-format
 msgid "To see a specific entry, use the command `{prefix}news <id>`"
 msgstr "Para ver una entrada específica, usa el comando `{prefix}noticias <id>`"
 
 #. The world the character was in before transferring
-#: cogs/tibia.py:2152
+#: cogs/tibia.py:2116
 #, python-brace-format
 msgid "formerly in {world}"
 msgstr "antes en {world}"
 
-#: cogs/tibia.py:2156 cogs/tibiawiki.py:96
+#: cogs/tibia.py:2120 cogs/tibiawiki.py:95
 msgid "Vocation"
 msgstr "Vocación"
 
-#: cogs/tibia.py:2158
+#: cogs/tibia.py:2122
 msgid "Residence"
 msgstr "Residencia"
 
-#: cogs/tibia.py:2161
+#: cogs/tibia.py:2125
 msgid "Title"
 msgstr "Título"
 
-#: cogs/tibia.py:2163
+#: cogs/tibia.py:2127
 #, python-brace-format
 msgid "__{rank}__ of the {guild}"
 msgstr "__{rank}__ de {guild}"
 
-#: cogs/tibia.py:2164
+#: cogs/tibia.py:2128
 msgid "Guild"
 msgstr "Guild"
 
-#: cogs/tibia.py:2166
+#: cogs/tibia.py:2130
 msgid "Married to"
 msgstr "Casado con"
 
-#: cogs/tibia.py:2168
+#: cogs/tibia.py:2132
 msgid "House"
 msgid_plural "Houses"
 msgstr[0] "Casa"
 msgstr[1] "Casas"
 
 #. Whether the character was recently traded in the bazaar
-#: cogs/tibia.py:2173
+#: cogs/tibia.py:2137
 msgid "Traded"
 msgstr "Intercambiado"
 
-#: cogs/tibia.py:2178
+#: cogs/tibia.py:2142
 msgid "Last login"
 msgstr "Última sesión"
 
-#: cogs/tibia.py:2181
+#: cogs/tibia.py:2145
 msgid "Never logged in."
 msgstr "Nunca ha iniciado sesión."
 
-#: cogs/tibia.py:2185
+#: cogs/tibia.py:2149
 msgid "See more"
 msgstr "Ver más"
 
-#: cogs/tibia.py:2190
+#: cogs/tibia.py:2154
 msgctxt "Premium/Free"
 msgid "Status"
 msgstr "Estado"
 
-#: cogs/tibia.py:2193
+#: cogs/tibia.py:2157
 msgid "Character is hidden."
 msgstr "El personaje está oculto."
 
-#: cogs/tibia.py:2197
+#: cogs/tibia.py:2161
 msgid "Loyalty Title"
 msgstr "Título de loyalty"
 
-#: cogs/tibia.py:2201
+#: cogs/tibia.py:2165
 msgid "Other Character"
 msgid_plural "Other Characters"
 msgstr[0] "Otro personaje"
 msgstr[1] "Otros personajes"
 
-#: cogs/tibia.py:2203
+#: cogs/tibia.py:2167
 msgctxt "Account creation date"
 msgid "Created"
 msgstr "Creada"
 
-#: cogs/tibia.py:2209
+#: cogs/tibia.py:2173
 msgid "Account Information"
 msgstr "Información de la cuenta"
 
 #. The way rank is displayed in the highscores part of whois command
-#: cogs/tibia.py:2219
+#: cogs/tibia.py:2183
 #, python-format
 msgid "Rank **%d**"
 msgstr "Posición **%d**"
 
-#: cogs/tibia.py:2226
+#: cogs/tibia.py:2190
 msgid "Highscores entries"
 msgstr "Entradas en highscores"
 
-#: cogs/tibia.py:2228
+#: cogs/tibia.py:2192
 msgid "Global Highscores entries"
 msgstr "Entradas en highscores globales"
 
-#: cogs/tibia.py:2248
+#: cogs/tibia.py:2212
 #, python-brace-format
 msgid "**{user}** has no registered characters here."
 msgstr "**{user}** no tiene pesonajes registrados aquí."
 
 #. User's listed characters in the whois command. Online icon is empty if offline.
-#: cogs/tibia.py:2257
+#: cogs/tibia.py:2221
 #, python-brace-format
 msgid "{name}{online_icon} (Lvl {level} {voc})"
 msgstr "{name}{online_icon} (Nvl {level} {voc})"
 
-#: cogs/tibia.py:2264
+#: cogs/tibia.py:2228
 #, python-brace-format
 msgid "and {count} more"
 msgstr "y {count} más"
 
-#: cogs/tibia.py:2266
+#: cogs/tibia.py:2230
 #, python-brace-format
 msgid "**{user}**'s character is: {character_list}"
 msgid_plural "**{user}**'s characters are: {character_list}"
 msgstr[0] "El personaje de **{user}** es: {character_list}"
 msgstr[1] "Los personajes de **{user}** son: {character_list}"
 
-#: cogs/tibia.py:2278
+#: cogs/tibia.py:2242
 msgid "{rent:,} gold per month"
 msgstr "{rent:,} gold mensual"
 
-#: cogs/tibia.py:2280 cogs/tibiawiki.py:668
+#: cogs/tibia.py:2244 cogs/tibiawiki.py:664
 msgid "Type"
 msgstr "Tipo"
 
-#: cogs/tibia.py:2280
+#: cogs/tibia.py:2244
 msgctxt "House type"
 msgid "House"
 msgstr "Casa"
 
-#: cogs/tibia.py:2280
+#: cogs/tibia.py:2244
 msgctxt "House type"
 msgid "Guildhall"
 msgstr "Guildhall"
 
-#: cogs/tibia.py:2281
+#: cogs/tibia.py:2245
 msgid "Bed Limit"
 msgstr "Límite de camas"
 
-#: cogs/tibia.py:2282
+#: cogs/tibia.py:2246
 msgid "Size"
 msgstr "Tamaño"
 
-#: cogs/tibia.py:2283
+#: cogs/tibia.py:2247
 msgid "City"
 msgstr "Ciudad"
 
-#: cogs/tibia.py:2284
+#: cogs/tibia.py:2248
 msgid "Rent"
 msgstr "Renta"
 
-#: cogs/tibia.py:2286
+#: cogs/tibia.py:2250
 msgid "Information"
 msgstr "Información"
 
-#: cogs/tibia.py:2293
+#: cogs/tibia.py:2257
 msgid "TibiaWiki article"
 msgstr "Artículo de TibiaWiki"
 
-#: cogs/tibia.py:2307
+#: cogs/tibia.py:2271
 msgid "Paid Until"
 msgstr "Pagado hasta"
 
-#: cogs/tibia.py:2311
+#: cogs/tibia.py:2275
 msgid "Moving out on"
 msgstr "Se mudara el"
 
-#: cogs/tibia.py:2316
+#: cogs/tibia.py:2280
 msgid "Transferring to"
 msgstr "Se transferirá a"
 
-#: cogs/tibia.py:2317
+#: cogs/tibia.py:2281
 msgid "Transfer Price"
 msgstr "Precio de transferencia"
 
-#: cogs/tibia.py:2318
+#: cogs/tibia.py:2282
 msgid "Accepted"
 msgstr "Aceptada"
 
-#: cogs/tibia.py:2322
+#: cogs/tibia.py:2286
 msgid "Highest Bidder"
 msgstr "Mejor postor(a)"
 
-#: cogs/tibia.py:2323
+#: cogs/tibia.py:2287
 msgid "Higest Bid"
 msgstr "Oferta más alta"
 
-#: cogs/tibia.py:2324
+#: cogs/tibia.py:2288
 msgid "Auction End"
 msgstr "Fin de la subasta"
 
 #. The world where the house is in
-#: cogs/tibia.py:2327
+#: cogs/tibia.py:2291
 #, python-brace-format
 msgid "In {world}"
 msgstr "En {world}"
 
-#: cogs/tibia.py:2382
+#: cogs/tibia.py:2346
 #, python-brace-format
 msgid "{name} latest deaths"
 msgstr "Muertes más recientes de {name}"
 
 #. Entries for recent deaths
-#: cogs/tibia.py:2414
+#: cogs/tibia.py:2378
 #, python-brace-format
 msgid "{name} (**@{user}**) - At level **{level}** by {killer} - {time} ago"
 msgstr "{name} (**@{user}**) - En nivel **{level}** por {killer} - hace {time}"
 
-#: cogs/tibia.py:2545
+#: cogs/tibia.py:2509
 #, python-format
 msgid "**%d** day"
 msgid_plural "**%d** days"
@@ -5835,147 +5846,147 @@ msgstr[0] "**%d** días"
 msgstr[1] "**%d** días"
 
 #. Last time the boss was seen
-#: cogs/tibia.py:2548
+#: cogs/tibia.py:2512
 #, python-brace-format
 msgid "Last seen {time} ago"
 msgstr "Visto por última vez hace {time}"
 
 #. Time to expect the boss to show up again
-#: cogs/tibia.py:2551
+#: cogs/tibia.py:2515
 #, python-brace-format
 msgid "Expect in {time}"
 msgstr "Esperado en {time}"
 
-#: cogs/tibiawiki.py:52
+#: cogs/tibiawiki.py:51
 msgid "Mapper Link"
 msgstr "Enlace de Mapper"
 
-#: cogs/tibiawiki.py:93
+#: cogs/tibiawiki.py:92
 msgid "Defense"
 msgstr "Defensa"
 
 #. Hands needed for the weapon
-#: cogs/tibiawiki.py:95
+#: cogs/tibiawiki.py:94
 msgid "Hands"
 msgstr "Manos"
 
 #. Do not show icon if there's only physical attack.
-#: cogs/tibiawiki.py:97 cogs/tibiawiki.py:888 cogs/tibiawiki.py:893
+#: cogs/tibiawiki.py:96 cogs/tibiawiki.py:884 cogs/tibiawiki.py:889
 msgid "Attack"
 msgstr "Ataque"
 
-#: cogs/tibiawiki.py:98
+#: cogs/tibiawiki.py:97
 msgid "Hit%"
 msgstr "Hit%"
 
-#: cogs/tibiawiki.py:99
+#: cogs/tibiawiki.py:98
 msgid "Imbuement Slots"
 msgstr "Espacios de imbuements"
 
-#: cogs/tibiawiki.py:100 cogs/tibiawiki.py:1201
+#: cogs/tibiawiki.py:99 cogs/tibiawiki.py:1197
 msgid "Armor"
 msgstr "Armadura"
 
 #. For items like food
-#: cogs/tibiawiki.py:102
+#: cogs/tibiawiki.py:101
 msgid "Consumible"
 msgstr "Consumible"
 
-#: cogs/tibiawiki.py:103
+#: cogs/tibiawiki.py:102
 msgid "Range"
 msgstr "Rango"
 
-#: cogs/tibiawiki.py:104
+#: cogs/tibiawiki.py:103
 msgid "Duration"
 msgstr "Duración"
 
-#: cogs/tibiawiki.py:105
+#: cogs/tibiawiki.py:104
 msgid "Food Time"
 msgstr "Tiempo de comida"
 
-#: cogs/tibiawiki.py:106
+#: cogs/tibiawiki.py:105
 msgid "Defense Modifier"
 msgstr "Modificador de defensa"
 
-#: cogs/tibiawiki.py:107
+#: cogs/tibiawiki.py:106
 msgid "Hangable"
 msgstr "Colgable"
 
-#: cogs/tibiawiki.py:108
+#: cogs/tibiawiki.py:107
 msgid "Destructible"
 msgstr "Destruible"
 
-#: cogs/tibiawiki.py:109
+#: cogs/tibiawiki.py:108
 msgid "Holds Liquids"
 msgstr "Almacena liquidos"
 
-#: cogs/tibiawiki.py:110
+#: cogs/tibiawiki.py:109
 msgid "Damage Type"
 msgstr "Tipo de daño"
 
-#: cogs/tibiawiki.py:113 cogs/tibiawiki.py:1342
+#: cogs/tibiawiki.py:112 cogs/tibiawiki.py:1338
 msgid "Mana"
 msgstr "Maná"
 
-#: cogs/tibiawiki.py:114
+#: cogs/tibiawiki.py:113
 msgid "Writable"
 msgstr "Escribible"
 
-#: cogs/tibiawiki.py:115
+#: cogs/tibiawiki.py:114
 msgid "Rewritable"
 msgstr "Reescribible"
 
-#: cogs/tibiawiki.py:116
+#: cogs/tibiawiki.py:115
 msgid "Writable Chars"
 msgstr "Caracteres"
 
-#: cogs/tibiawiki.py:117
+#: cogs/tibiawiki.py:116
 msgid "Fansite"
 msgstr "Fansite"
 
-#: cogs/tibiawiki.py:118
+#: cogs/tibiawiki.py:117
 msgid "Imbuements"
 msgstr "Imbuements"
 
-#: cogs/tibiawiki.py:119
+#: cogs/tibiawiki.py:118
 msgid "Charges"
 msgstr "Cargas"
 
-#: cogs/tibiawiki.py:120
+#: cogs/tibiawiki.py:119
 msgid "Regeneration"
 msgstr "Regeneración"
 
-#: cogs/tibiawiki.py:121 cogs/tibiawiki.py:1198
+#: cogs/tibiawiki.py:120 cogs/tibiawiki.py:1194
 msgid "Speed"
 msgstr "Velocidad"
 
 #. Words for the spell
-#: cogs/tibiawiki.py:123
+#: cogs/tibiawiki.py:122
 msgid "Words"
 msgstr "Palabras"
 
-#: cogs/tibiawiki.py:124
+#: cogs/tibiawiki.py:123
 msgid "Volume"
 msgstr "Volúmen"
 
-#: cogs/tibiawiki.py:138
+#: cogs/tibiawiki.py:137
 msgid "Defensive"
 msgstr "Defensivos"
 
-#: cogs/tibiawiki.py:138
+#: cogs/tibiawiki.py:137
 msgid "Offensive"
 msgstr "Ofensivos"
 
-#: cogs/tibiawiki.py:138
+#: cogs/tibiawiki.py:137
 msgid "Passive"
 msgstr "Pasivos"
 
 #. Used next to a numeric value to describe a price paid with the in-game currency
-#: cogs/tibiawiki.py:144 cogs/tibiawiki.py:774
+#: cogs/tibiawiki.py:143 cogs/tibiawiki.py:770
 msgid "gold"
 msgstr "gold"
 
-#: cogs/tibiawiki.py:157
+#: cogs/tibiawiki.py:156
 msgid ""
 "Commands that show information about Tibia, provided by TibiaWiki.\n"
 "\n"
@@ -5985,31 +5996,31 @@ msgstr ""
 "\n"
 "La información se genera usando [tibiawiki-sql](https://github.com/Galarzaa90/tibiawiki-sql)."
 
-#: cogs/tibiawiki.py:176
+#: cogs/tibiawiki.py:175
 msgid "Displays an achievement's information."
 msgstr "Muestra la información de un logro."
 
-#: cogs/tibiawiki.py:181
+#: cogs/tibiawiki.py:180
 msgid "I couldn't find an achievement with that name."
 msgstr "No pude encontrar un logro con ese nombre."
 
-#: cogs/tibiawiki.py:195
+#: cogs/tibiawiki.py:194
 msgid "Grade"
 msgstr "Grado"
 
-#: cogs/tibiawiki.py:196
+#: cogs/tibiawiki.py:195
 msgid "Points"
 msgstr "Puntos"
 
-#: cogs/tibiawiki.py:197
+#: cogs/tibiawiki.py:196
 msgid "Spoiler"
 msgstr "Spoiler"
 
-#: cogs/tibiawiki.py:204
+#: cogs/tibiawiki.py:203
 msgid "Displays a category's creatures or all the categories."
 msgstr "Muestra una categoría de criaturas o todas las categorías."
 
-#: cogs/tibiawiki.py:205
+#: cogs/tibiawiki.py:204
 msgid ""
 "If a category is specified, it will list all the creatures that belong to the category and their level.\n"
 "If no category is specified, it will list all the bestiary categories."
@@ -6017,43 +6028,43 @@ msgstr ""
 "Si se especifica una categoría, aparecerá una lista de todas las criaturas que pertenecen a la categoría y a su nivel.\n"
 "Si no se especifica ninguna categoría, se listarán todas las categorías del bestiario."
 
-#: cogs/tibiawiki.py:215
+#: cogs/tibiawiki.py:214
 msgid "creature"
 msgid_plural "creatures"
 msgstr[0] "criatura"
 msgstr[1] "criaturas"
 
-#: cogs/tibiawiki.py:218
+#: cogs/tibiawiki.py:217
 msgid "Bestiary Classes"
 msgstr "Clases de bestiary"
 
-#: cogs/tibiawiki.py:222
+#: cogs/tibiawiki.py:221
 msgid "There's no class with that name."
 msgstr "No hay ninguna clase con ese nombre."
 
-#: cogs/tibiawiki.py:225
+#: cogs/tibiawiki.py:224
 #, python-brace-format
 msgid "Use `{prefix}monster <name>` to see more info"
 msgstr "Usa `{prefix}monster <nombre>` para ver más información"
 
-#: cogs/tibiawiki.py:226
+#: cogs/tibiawiki.py:225
 #, python-brace-format
 msgid "Creatures in the {name} class"
 msgstr "Criaturas en la clase {name}"
 
-#: cogs/tibiawiki.py:241
+#: cogs/tibiawiki.py:237
 msgid "Displays information about a charm."
 msgstr "Muestra información acerca de un charm."
 
-#: cogs/tibiawiki.py:242
+#: cogs/tibiawiki.py:238
 msgid "If no name is specified, displays a list of all charms for the user to choose from."
 msgstr "Si no se especifica ningún nombre, muestra una lista de todos los charm entre los que el usuario debe elegir."
 
-#: cogs/tibiawiki.py:259
+#: cogs/tibiawiki.py:255
 msgid "Displays information about an imbuement."
 msgstr "Muestra información sobre un imbuement."
 
-#: cogs/tibiawiki.py:260
+#: cogs/tibiawiki.py:256
 msgid ""
 "You can optionally provide prices for the materials, in the order of the tier they belong to.\n"
 "Additionally, for `Vampirism`, `Void` and `Strike` imbuements, you can provide the price for gold tokens.\n"
@@ -6071,49 +6082,49 @@ msgstr ""
 "\n"
 "También puede aceptar precios utilizando el sufijo 'k', por ejemplo 1.5k."
 
-#: cogs/tibiawiki.py:272 cogs/tibiawiki.py:278
+#: cogs/tibiawiki.py:268 cogs/tibiawiki.py:274
 #, python-brace-format
 msgid "Invalid syntax. The correct syntax is: `{usage}`."
 msgstr "Sintaxis no válida. La sintaxis correcta es: `{usage}`."
 
-#: cogs/tibiawiki.py:285
+#: cogs/tibiawiki.py:281
 msgid "I couldn't find an imbuement with that name."
 msgstr "No pude encontrar un imbuement con ese nombre."
 
-#: cogs/tibiawiki.py:302
+#: cogs/tibiawiki.py:298
 msgid "Displays information about an item."
 msgstr "Muestra información sobre un ítem."
 
-#: cogs/tibiawiki.py:303
+#: cogs/tibiawiki.py:299
 msgid "The embed is colored if a major loot NPC buys it, so it can be noted at quick glance: yellow for Rashid, blue and green for djinns and purple for gems."
 msgstr "El embed tendrá ciertos colores si un NPC de loot principal, para que se pueda identificar rápidamente: amarillo para Rashid, azul y verde para djinns y púrpura para gemas."
 
-#: cogs/tibiawiki.py:309
+#: cogs/tibiawiki.py:305
 msgid "I couldn't find an item with that name."
 msgstr "No pude encontrar un ítem con ese nombre."
 
-#: cogs/tibiawiki.py:327
+#: cogs/tibiawiki.py:323
 msgid "Displays information about a key."
 msgstr "Muestra información sobre una llave."
 
-#: cogs/tibiawiki.py:331
+#: cogs/tibiawiki.py:327
 msgid "Tell me the number of the key you want to check."
 msgstr "Dime el número de la llave que quieres revisar."
 
-#: cogs/tibiawiki.py:337
+#: cogs/tibiawiki.py:333
 #, python-brace-format
 msgid "Tell me a numeric value, to search keys, try: `{prefix}key search`"
 msgstr "Dime un valor numérico para buscar llaves, intenta: `{prefix}key search`"
 
-#: cogs/tibiawiki.py:343
+#: cogs/tibiawiki.py:339
 msgid "There's no key with that number."
 msgstr "No hay ninguna llave con ese número."
 
-#: cogs/tibiawiki.py:355
+#: cogs/tibiawiki.py:351
 msgid "Searches for a key by keywords."
 msgstr "Busca una llave por palabras clave."
 
-#: cogs/tibiawiki.py:356
+#: cogs/tibiawiki.py:352
 msgid ""
 "Search for matches on the key's names, location, origin or uses.\n"
 "If there are multiple matches, a list is shown.\n"
@@ -6123,355 +6134,355 @@ msgstr ""
 "Si hay varias coincidencias, se muestra una lista.\n"
 "Si solo una coincide, la información de la llave se muestra directamente."
 
-#: cogs/tibiawiki.py:364
+#: cogs/tibiawiki.py:360
 msgid "I couldn't find any related keys."
 msgstr "No pude encontrar ninguna llave relacionada."
 
-#: cogs/tibiawiki.py:368
+#: cogs/tibiawiki.py:364
 msgid "Possible keys"
 msgstr "Posibles llaves"
 
-#: cogs/tibiawiki.py:381
+#: cogs/tibiawiki.py:377
 msgid "Shows information about a monster."
 msgstr "Muestra información sobre un monstruo."
 
-#: cogs/tibiawiki.py:385
+#: cogs/tibiawiki.py:381
 msgid "Tell me the name of the monster you want to search."
 msgstr "Dime el nombre del monstruo que quieres buscar."
 
-#: cogs/tibiawiki.py:390
+#: cogs/tibiawiki.py:386
 msgid "I couldn't find a monster with that name."
 msgstr "No pude encontrar un monstruo con ese nombre."
 
-#: cogs/tibiawiki.py:405
+#: cogs/tibiawiki.py:401
 msgid "Displays information about a mount."
 msgstr "Muestra información sobre un mount."
 
-#: cogs/tibiawiki.py:410
+#: cogs/tibiawiki.py:406
 msgid "I couldn't find a mount with that name."
 msgstr "No pude encontrar un mount con ese nombre."
 
-#: cogs/tibiawiki.py:426
+#: cogs/tibiawiki.py:422
 msgid "Displays information about a NPC."
 msgstr "Muestra información sobre un NPC."
 
-#: cogs/tibiawiki.py:431
+#: cogs/tibiawiki.py:427
 msgid "I couldn't find a NPC with that name."
 msgstr "No pude encontrar un NPC con ese nombre."
 
-#: cogs/tibiawiki.py:460
+#: cogs/tibiawiki.py:456
 msgid "Shows where Rashid is today."
 msgstr "Muestra dónde está Rashid hoy."
 
-#: cogs/tibiawiki.py:485
+#: cogs/tibiawiki.py:481
 msgid "Displays information about a spell."
 msgstr "Muestra información sobre un hechizo."
 
-#: cogs/tibiawiki.py:494
+#: cogs/tibiawiki.py:490
 msgid "I couldn't find a spell with that name or words."
 msgstr "No pude encontrar un hechizo con ese nombre o palabras."
 
-#: cogs/tibiawiki.py:538
+#: cogs/tibiawiki.py:534
 msgid "Shows information about the TibiaWiki database."
 msgstr "Muestra información sobre la base de datos de TibiaWiki."
 
-#: cogs/tibiawiki.py:541
+#: cogs/tibiawiki.py:537
 msgid "TibiaWiki database statistics"
 msgstr "Estadísticas de base de datos TibiaWiki"
 
-#: cogs/tibiawiki.py:570
+#: cogs/tibiawiki.py:566
 msgid "Database generation date"
 msgstr "Fecha de generación de bases de datos"
 
-#: cogs/tibiawiki.py:609
+#: cogs/tibiawiki.py:605
 #, python-brace-format
 msgid "Implemented in version {version}."
 msgstr "Implementado en la versión {version}."
 
-#: cogs/tibiawiki.py:657
+#: cogs/tibiawiki.py:653
 #, python-brace-format
 msgid "Use '{prefix}{command} <name>' to see more information."
 msgstr "Usa '{prefix}{command} <name>' para ver más información."
 
-#: cogs/tibiawiki.py:669 cogs/tibiawiki.py:727 cogs/tibiawiki.py:747
-#: cogs/tibiawiki.py:753 cogs/tibiawiki.py:760
+#: cogs/tibiawiki.py:665 cogs/tibiawiki.py:723 cogs/tibiawiki.py:743
+#: cogs/tibiawiki.py:749 cogs/tibiawiki.py:756
 msgid "Cost"
 msgstr "Costo"
 
-#: cogs/tibiawiki.py:672 cogs/tibiawiki.py:701
+#: cogs/tibiawiki.py:668 cogs/tibiawiki.py:697
 msgid "Effect"
 msgstr "Efecto"
 
 #. Common names for the key
-#: cogs/tibiawiki.py:683
+#: cogs/tibiawiki.py:679
 #, python-brace-format
 msgid "**Also known as:** {name}"
 msgstr "**También conocido como:** {name}"
 
-#: cogs/tibiawiki.py:687
+#: cogs/tibiawiki.py:683
 msgid "Origin"
 msgstr "Origen"
 
-#: cogs/tibiawiki.py:689
+#: cogs/tibiawiki.py:685
 msgid "Notes/Use"
 msgstr "Notas/Uso"
 
-#: cogs/tibiawiki.py:703
+#: cogs/tibiawiki.py:699
 #, python-brace-format
 msgid "Provide material prices to calculate costs. More info: {prefix}help {command}"
 msgstr "Proporciona precios de materiales para calcular los costos. Más información: {prefix}help {command}"
 
-#: cogs/tibiawiki.py:706
+#: cogs/tibiawiki.py:702
 msgid "Not enough material prices provided for this tier."
 msgstr "No hay suficientes precios de materiales para este nivel."
 
 #. Gold fees for each tier
 #. Gold fees for each tier with 100% chance
-#: cogs/tibiawiki.py:710 cogs/tibiawiki.py:726 cogs/tibiawiki.py:734
-#: cogs/tibiawiki.py:773
+#: cogs/tibiawiki.py:706 cogs/tibiawiki.py:722 cogs/tibiawiki.py:730
+#: cogs/tibiawiki.py:769
 msgid "Materials"
 msgstr "Materiales"
 
-#: cogs/tibiawiki.py:729
+#: cogs/tibiawiki.py:725
 msgid "Add gold token price at the end to find the cheapest option."
 msgstr "Añade el precio de gold tokens al final para encontrar la opción más barata."
 
 #. Price per individual item
-#: cogs/tibiawiki.py:733 cogs/tibiawiki.py:792
+#: cogs/tibiawiki.py:729 cogs/tibiawiki.py:788
 msgid "gold each"
 msgstr "gold cada uno"
 
-#: cogs/tibiawiki.py:746
+#: cogs/tibiawiki.py:742
 msgid "Getting the materials is cheaper."
 msgstr "Obtener los materiales es más barato."
 
-#: cogs/tibiawiki.py:752
+#: cogs/tibiawiki.py:748
 msgid "Getting all the materials with gold tokens is cheaper."
 msgstr "Obtener todos los materiales con gold tokens es más barato."
 
-#: cogs/tibiawiki.py:758
+#: cogs/tibiawiki.py:754
 #, python-brace-format
 msgid "Getting the materials for **{tier} {imbuement}** with gold tokens and buying the rest is cheaper."
 msgstr "Obtener los materiales para **{tier} {imbuement}** con gold tokens y comprar el resto es más barato."
 
-#: cogs/tibiawiki.py:775
+#: cogs/tibiawiki.py:771
 msgid "gold/hour"
 msgstr "gold/hora"
 
-#: cogs/tibiawiki.py:776
+#: cogs/tibiawiki.py:772
 msgid "Total"
 msgstr "Total"
 
-#: cogs/tibiawiki.py:777
+#: cogs/tibiawiki.py:773
 #, python-format
 msgid "100% chance"
 msgstr "100% de probabilidad"
 
-#: cogs/tibiawiki.py:810
+#: cogs/tibiawiki.py:806
 msgid "Sold for"
 msgstr "Vendido a"
 
-#: cogs/tibiawiki.py:811
+#: cogs/tibiawiki.py:807
 msgid "Bought for"
 msgstr "Comprado por"
 
 #. Abbreviation for ounces
-#: cogs/tibiawiki.py:827
+#: cogs/tibiawiki.py:823
 msgid "oz"
 msgstr "oz"
 
-#: cogs/tibiawiki.py:828
+#: cogs/tibiawiki.py:824
 msgid "Weight"
 msgstr "Peso"
 
 #. Attribute of items like soft boots, life ring, ring of healing, etc
-#: cogs/tibiawiki.py:855
+#: cogs/tibiawiki.py:851
 msgid "Faster regeneration"
 msgstr "Regeneración más rápida"
 
-#: cogs/tibiawiki.py:861
+#: cogs/tibiawiki.py:857
 msgid "Properties"
 msgstr "Propiedades"
 
-#: cogs/tibiawiki.py:863
+#: cogs/tibiawiki.py:859
 msgid "Used for"
 msgstr "Usado para"
 
-#: cogs/tibiawiki.py:865
+#: cogs/tibiawiki.py:861
 msgid "Resistances"
 msgstr "Resistencias"
 
-#: cogs/tibiawiki.py:942
+#: cogs/tibiawiki.py:938
 msgid "Dropped By"
 msgstr "Loot de"
 
 #. Quests that give this item as reward
-#: cogs/tibiawiki.py:957
+#: cogs/tibiawiki.py:953
 msgid "Awarded in"
 msgstr "Premio en"
 
-#: cogs/tibiawiki.py:976
+#: cogs/tibiawiki.py:972
 msgid "Green Djinn's Fortress"
 msgstr "Fortaleza de Djinn verdes"
 
-#: cogs/tibiawiki.py:979
+#: cogs/tibiawiki.py:975
 msgid "Blue Djinn's Fortress"
 msgstr "Fortaleza de Djinn azules"
 
 #. Yasir's location
-#: cogs/tibiawiki.py:985
+#: cogs/tibiawiki.py:981
 msgid "his boat"
 msgstr "su barco"
 
 #. Title of the list of NPCs that buy/sell (action) the item.
-#: cogs/tibiawiki.py:1017
+#: cogs/tibiawiki.py:1013
 msgid "{action} {value:,} {currency} by"
 msgstr "{action} {value:,} {currency} por"
 
-#: cogs/tibiawiki.py:1035
+#: cogs/tibiawiki.py:1031
 msgid "Abilities"
 msgstr "Habilidades"
 
-#: cogs/tibiawiki.py:1043
+#: cogs/tibiawiki.py:1039
 msgid "Through: "
 msgstr "Sobre: "
 
-#: cogs/tibiawiki.py:1044
+#: cogs/tibiawiki.py:1040
 msgid "Around: "
 msgstr "Alrededor de: "
 
 #. Fields the monster walks through or around
-#: cogs/tibiawiki.py:1047
+#: cogs/tibiawiki.py:1043
 msgid "Field Walking"
 msgstr "Información de fields"
 
-#: cogs/tibiawiki.py:1087
+#: cogs/tibiawiki.py:1083
 msgid "Loot"
 msgstr "Loot"
 
-#: cogs/tibiawiki.py:1124 cogs/tibiawiki.py:1144
+#: cogs/tibiawiki.py:1120 cogs/tibiawiki.py:1140
 msgid "Bestiary Class"
 msgstr "Clase de bestiary"
 
 #. Charm points
-#: cogs/tibiawiki.py:1138
+#: cogs/tibiawiki.py:1134
 msgid "point"
 msgid_plural "points"
 msgstr[0] "punto"
 msgstr[1] "puntos"
 
 #. Kills to complete bestiary
-#: cogs/tibiawiki.py:1140
+#: cogs/tibiawiki.py:1136
 msgid "kills"
 msgstr "kills"
 
-#: cogs/tibiawiki.py:1164
+#: cogs/tibiawiki.py:1160
 msgid "Elemental modifiers"
 msgstr "Modificadores elementales"
 
-#: cogs/tibiawiki.py:1174
+#: cogs/tibiawiki.py:1170
 msgid "Summonable"
 msgstr "Invocable"
 
-#: cogs/tibiawiki.py:1175
+#: cogs/tibiawiki.py:1171
 msgid "Convinceable"
 msgstr "Convencible"
 
-#: cogs/tibiawiki.py:1176
+#: cogs/tibiawiki.py:1172
 msgid "Illusionable"
 msgstr "Ilusionable"
 
-#: cogs/tibiawiki.py:1177
+#: cogs/tibiawiki.py:1173
 msgid "Pushable"
 msgstr "Empujable"
 
-#: cogs/tibiawiki.py:1178
+#: cogs/tibiawiki.py:1174
 msgid "Pushes Objects"
 msgstr "Empuja objetos"
 
-#: cogs/tibiawiki.py:1179
+#: cogs/tibiawiki.py:1175
 msgid "Paralysable"
 msgstr "Paralizable"
 
-#: cogs/tibiawiki.py:1180
+#: cogs/tibiawiki.py:1176
 msgid "Sees Invisible"
 msgstr "Ve invisibilidad"
 
-#: cogs/tibiawiki.py:1184
+#: cogs/tibiawiki.py:1180
 msgid "Unknown"
 msgstr "Desconocido"
 
-#: cogs/tibiawiki.py:1203
+#: cogs/tibiawiki.py:1199
 msgid "Max Damage"
 msgstr "Daño máximo"
 
-#: cogs/tibiawiki.py:1214 cogs/tibiawiki.py:1343
+#: cogs/tibiawiki.py:1210 cogs/tibiawiki.py:1339
 msgid "Price"
 msgstr "Precio"
 
-#: cogs/tibiawiki.py:1216
+#: cogs/tibiawiki.py:1212
 msgid "Achievement"
 msgstr "Logro"
 
-#: cogs/tibiawiki.py:1217
+#: cogs/tibiawiki.py:1213
 msgid "Taming Method"
 msgstr "Método de domesticación"
 
-#: cogs/tibiawiki.py:1226
+#: cogs/tibiawiki.py:1222
 msgid "Selling"
 msgstr "Vende"
 
-#: cogs/tibiawiki.py:1227
+#: cogs/tibiawiki.py:1223
 msgid "Buying"
 msgstr "Compra"
 
-#: cogs/tibiawiki.py:1232
+#: cogs/tibiawiki.py:1228
 msgid "Destinations"
 msgstr "Destinos"
 
 #. Title for the list of spells the NPC teaches to a vocation
-#: cogs/tibiawiki.py:1307
+#: cogs/tibiawiki.py:1303
 #, python-brace-format
 msgid "Teaches ({voc}s)"
 msgstr "Enseña ({voc}s)"
 
-#: cogs/tibiawiki.py:1313
+#: cogs/tibiawiki.py:1309
 msgid "…and {count:,} other"
 msgid_plural "…and {count:,} others"
 msgstr[0] "…y {count:,} más"
 msgstr[1] "…y {count:,} más"
 
-#: cogs/tibiawiki.py:1329
+#: cogs/tibiawiki.py:1325
 msgctxt "Spell with variable mana"
 msgid "Variable"
 msgstr "Variable"
 
-#: cogs/tibiawiki.py:1343
+#: cogs/tibiawiki.py:1339
 msgctxt "price"
 msgid "Free"
 msgstr "Gratis"
 
-#: cogs/tibiawiki.py:1344
+#: cogs/tibiawiki.py:1340
 msgid "Cooldown"
 msgstr "Cooldown"
 
-#: cogs/tibiawiki.py:1346
+#: cogs/tibiawiki.py:1342
 msgid "Vocations"
 msgstr "Vocaciones"
 
-#: cogs/tibiawiki.py:1346
+#: cogs/tibiawiki.py:1342
 msgctxt "vocations that can use spell"
 msgid "Any"
 msgstr "Cualquiera"
 
 #. Title for the list of NPCs that teach this spell for a specific vocation
-#: cogs/tibiawiki.py:1387
+#: cogs/tibiawiki.py:1383
 #, python-brace-format
 msgid "Taught by ({voc})"
 msgstr "Enseñado por ({voc})"
 
 #. Title for the list of NPCs that teach this spell for any vocation
-#: cogs/tibiawiki.py:1390
+#: cogs/tibiawiki.py:1386
 msgid "Taught by"
 msgstr "Enseñado por"
 
@@ -7266,7 +7277,7 @@ msgstr " Para unirse, usa `{prefix}event join {event_id} nombre`."
 msgid "There are no participants in this event.{join_prompt}"
 msgstr "No hay participantes en el evento.{join_prompt}"
 
-#: cogs/timers.py:1401 cogs/tracking.py:1378
+#: cogs/timers.py:1401 cogs/tracking.py:1362
 msgid "unknown"
 msgstr "desconocido"
 
@@ -7470,31 +7481,31 @@ msgstr "Comandos relacionados con el sistema de rastreo de NabBot."
 msgid "Watchlist disabled due to exceeding allowed limit."
 msgstr "Watchlist desactivada debido a exceder el limite permitido."
 
-#: cogs/tracking.py:467
+#: cogs/tracking.py:468
 msgid "There are no watched characters online."
 msgstr "No hay personajes seguidos en línea."
 
-#: cogs/tracking.py:473
+#: cogs/tracking.py:474
 msgid "This guild was disbanded."
 msgstr "Este guild ha sido disuelto."
 
-#: cogs/tracking.py:494
+#: cogs/tracking.py:495
 msgid "Watchlist"
 msgstr "Watchlist"
 
-#: cogs/tracking.py:512
+#: cogs/tracking.py:513
 msgid "Removing online count"
 msgstr "Removiendo conteo en linea"
 
-#: cogs/tracking.py:517
+#: cogs/tracking.py:518
 msgid "Online count changed"
 msgstr "Cambiando conteo en linea"
 
-#: cogs/tracking.py:539
+#: cogs/tracking.py:540
 msgid "Watchlist Disabled"
 msgstr "Watchlist deshabilitada"
 
-#: cogs/tracking.py:540
+#: cogs/tracking.py:541
 #, python-brace-format
 msgid ""
 "You have reached the watchlists limit for your server.\n"
@@ -7507,90 +7518,90 @@ msgstr ""
 "\n"
 "Los servidores [premium]({docs}/premium/) pueden tener hasta {premium_limit} listas."
 
-#: cogs/tracking.py:581
+#: cogs/tracking.py:582
 #, python-brace-format
 msgid "**{char}** ({voc}) advanced to level {level}."
 msgstr "**{char}** ({voc}) avanzó al nivel {level}."
 
-#: cogs/tracking.py:605 cogs/tracking.py:637 cogs/tracking.py:650
-#: cogs/tracking.py:660 cogs/tracking.py:682 cogs/tracking.py:706
+#: cogs/tracking.py:606 cogs/tracking.py:638 cogs/tracking.py:651
+#: cogs/tracking.py:661 cogs/tracking.py:683 cogs/tracking.py:707
 #, python-brace-format
 msgid "**{name}** (Level {level} {voc})"
 msgstr "**{name}** (Nivel {level} {voc})"
 
 #. Message for pvp deaths
-#: cogs/tracking.py:609
+#: cogs/tracking.py:610
 #, python-brace-format
 msgid "{name} was killed by **{killer}**"
 msgstr "{name} fue asesinado por **{killer}**"
 
 #. Message for deaths by monsters
-#: cogs/tracking.py:613
+#: cogs/tracking.py:614
 #, python-brace-format
 msgid "{name} died to {article}**{killer}**"
 msgstr "{name} murió a causa de {article}**{killer}**"
 
-#: cogs/tracking.py:641
+#: cogs/tracking.py:642
 #, python-brace-format
 msgid "{char} has left the guild **{guild}**"
 msgstr "{char} ha abandonado el guild **{guild}**"
 
-#: cogs/tracking.py:643 cogs/tracking.py:655
+#: cogs/tracking.py:644 cogs/tracking.py:656
 #, python-brace-format
 msgid " and joined guild: **{new_guild}**"
 msgstr " y se unió al guild: **{new_guild}**"
 
-#: cogs/tracking.py:646
+#: cogs/tracking.py:647
 #, python-brace-format
 msgid "{char_name} has joined the guild **{guild}**."
 msgstr "{char_name} se ha unido al guild **{guild}**."
 
-#: cogs/tracking.py:653
+#: cogs/tracking.py:654
 #, python-brace-format
 msgid "{char} has left the guild"
 msgstr "{char} ha abandonado el guild"
 
-#: cogs/tracking.py:663
+#: cogs/tracking.py:664
 #, python-brace-format
 msgid "{char} has left the guild."
 msgstr "{char} ha abandonado el guild."
 
-#: cogs/tracking.py:686
+#: cogs/tracking.py:687
 #, python-brace-format
 msgid "Character renamed from **{old_name}** to {new_name}"
 msgstr "Personaje renombrado de **{old_name}** a {new_name}"
 
-#: cogs/tracking.py:710
+#: cogs/tracking.py:711
 #, python-brace-format
 msgid "{name} transferred from **{old_world}** to **{new_world}**"
 msgstr "{name} transferido de **{old_world}** a **{new_world}**"
 
-#: cogs/tracking.py:761
+#: cogs/tracking.py:762
 msgid "Register a character and optionally all other visible characters to a discord user."
 msgstr "Registra un personaje y, opcionalmente, todos los demás personajes visibles a un usuario de discord."
 
-#: cogs/tracking.py:762
+#: cogs/tracking.py:763
 msgid "This command can only be used by server moderators."
 msgstr "Este comando sólo puede ser utilizado por los moderadores del servidor."
 
-#: cogs/tracking.py:774
+#: cogs/tracking.py:775
 msgid "You can't register characters to Discord bots!"
 msgstr "¡No puedes registrar personajes a bots de Discord!"
 
-#: cogs/tracking.py:805
+#: cogs/tracking.py:806
 #, python-brace-format
 msgid "Sorry, I couldn't find any characters in **{world}**."
 msgstr "Lo siento, no pude encontrar ningún personaje en **{world}**."
 
-#: cogs/tracking.py:815
+#: cogs/tracking.py:816
 msgid "The blacklist filters out level up and deaths announcements."
 msgstr "La lista negra filtra el nivel y los anuncios de muertes."
 
-#: cogs/tracking.py:824
+#: cogs/tracking.py:825
 msgid "Adds a user to the blacklist."
 msgstr "Añade un usuario a la lista negra."
 
-#: cogs/tracking.py:825
+#: cogs/tracking.py:826
 msgid ""
 "Users can be added by their name, mention, name and discriminator or their user ID.\n"
 "Characters owned by users in the blacklist won't have their level ups and deaths announced."
@@ -7598,11 +7609,11 @@ msgstr ""
 "Los usuarios pueden ser añadidos por su nombre, mención, nombre y discriminador, o su identificador de usuario.\n"
 "Los personajes propiedad de los usuarios en la lista negra no tendrán sus niveles y muertes anunciadas."
 
-#: cogs/tracking.py:833
+#: cogs/tracking.py:834
 msgid "This user is already in the blacklist."
 msgstr "Este usuario ya está en la lista negra."
 
-#: cogs/tracking.py:835
+#: cogs/tracking.py:836
 #, python-brace-format
 msgid ""
 "Do you want to add **{user}** to the blacklist?\n"
@@ -7611,25 +7622,25 @@ msgstr ""
 "¿Quieres añadir **{user}** a la lista negra?\n"
 "*Los niveles y muertes de sus personaje no se anunciarán más.*"
 
-#: cogs/tracking.py:845
+#: cogs/tracking.py:846
 #, python-brace-format
 msgid "{user} has been added to the blacklist."
 msgstr "{user} ha sido añadido a la lista negra."
 
-#: cogs/tracking.py:851
+#: cogs/tracking.py:852
 msgid "Shows the users currently in the blacklist."
 msgstr "Muestra los usuarios en la lista negra."
 
-#: cogs/tracking.py:852
+#: cogs/tracking.py:853
 msgid "If a user in the list is no longer in the server, it will be shown just by its ID."
 msgstr "Si un usuario de la lista ya no está en el servidor, será mostrado sólo por su ID."
 
-#: cogs/tracking.py:859
+#: cogs/tracking.py:860
 #, python-format
 msgid "Unknown user %d"
 msgstr "Usuario desconocido %d"
 
-#: cogs/tracking.py:862
+#: cogs/tracking.py:863
 msgid "There are no blacklisted users in this server."
 msgstr "No hay usuarios en la lista negra en este servidor."
 
@@ -7637,43 +7648,43 @@ msgstr "No hay usuarios en la lista negra en este servidor."
 msgid "Blacklisted users"
 msgstr "Usuarios en lista negra"
 
-#: cogs/tracking.py:875
+#: cogs/tracking.py:873
 msgid "Removes a user from the blacklist."
 msgstr "Elimina un usuario de la lista negra."
 
-#: cogs/tracking.py:876
+#: cogs/tracking.py:874
 msgid "If the user only displays an ID on the list, it can be removed using that ID."
 msgstr "Si el usuario sólo muestra un ID en la lista, se puede eliminar usando ese ID."
 
-#: cogs/tracking.py:883
+#: cogs/tracking.py:881
 #, python-brace-format
 msgid "**{user} is not in the blacklist.**"
 msgstr "**{user} no está en la lista negra.**"
 
-#: cogs/tracking.py:884
+#: cogs/tracking.py:882
 #, python-brace-format
 msgid "Do you want to remove **{user.name}** from the blacklist?"
 msgstr "¿Quieres eliminar a **{user.name}** de la lista negra?"
 
-#: cogs/tracking.py:890
+#: cogs/tracking.py:888
 #, python-brace-format
 msgid "There is user with id **{user}** in the blacklist."
 msgstr "Hay un usuario con id **{user}** en la lista negra."
 
-#: cogs/tracking.py:891
+#: cogs/tracking.py:889
 #, python-brace-format
 msgid "Do you want to remove user with id **{user}** from the blacklist?"
 msgstr "¿Quieres eliminar el usuario con id **{user}** de la lista negra?"
 
-#: cogs/tracking.py:900
+#: cogs/tracking.py:898
 msgid "User removed from the blacklist."
 msgstr "Usuario eliminado de la lista negra."
 
-#: cogs/tracking.py:904
+#: cogs/tracking.py:902
 msgid "Claims a character, registering to you even if someone else already has it."
 msgstr "Reclama a un personaje, registrándose a ti incluso si alguien ya lo tiene."
 
-#: cogs/tracking.py:905
+#: cogs/tracking.py:903
 msgid ""
 "In order for this to work, you have to put a special code in the character's comment.\n"
 "You can see this code by using the command with no parameters. The code looks like this: `/NB-23FC13AC7400000/`\n"
@@ -7693,7 +7704,7 @@ msgstr ""
 "Este código es único para tu usuario de Discord, así que el código sólo funcionará para tu cuenta de Discord y nadie más.\n"
 "Nadie puede reclamar un personaje tuyo a menos que pongas **su** código en el comentario de tu personaje."
 
-#: cogs/tracking.py:928
+#: cogs/tracking.py:926
 #, python-brace-format
 msgid ""
 "To use this command, add `/NB-{user_code}/` to the comment of the character you want toclaim in Tibia.com, and then use `{prefix}claim character_name`.\n"
@@ -7702,7 +7713,7 @@ msgstr ""
 "Para usar este comando, añade `/NB-{user_code}/` al comentario del personaje que quieres reclamar en Tibia.com, y luego usa `{prefix}claim character_name`.\n"
 "*Ten en cuenta que puede tardar un tiempo en reflejar el cambio debido a la caché.*"
 
-#: cogs/tracking.py:948
+#: cogs/tracking.py:946
 #, python-brace-format
 msgid ""
 "Couldn't find verification code on character's comment.\n"
@@ -7713,7 +7724,7 @@ msgstr ""
 "Aãde `/NB-{user_code}/` al comentario para autenticar.\n"
 "*Ten en cuenta que puede tardar un tiempo en reflejar el cambio debido a la caché.*"
 
-#: cogs/tracking.py:955
+#: cogs/tracking.py:953
 #, python-brace-format
 msgid ""
 "The verification code on the character's comment doesn't match yours.\n"
@@ -7724,16 +7735,16 @@ msgstr ""
 "Usa `/NB-{user_code}/` para autenticar.\n"
 "*Ten en cuenta que puede tardar un tiempo en reflejar el cambio debido a la caché.*"
 
-#: cogs/tracking.py:978 cogs/tracking.py:1032
+#: cogs/tracking.py:976 cogs/tracking.py:1030
 #, python-brace-format
 msgid "Sorry, I couldn't find any characters from the worlds in the context ({0})."
 msgstr "Lo siento, no pude encontrar ningún personajes de los mundos en el contexto ({0})."
 
-#: cogs/tracking.py:988
+#: cogs/tracking.py:986
 msgid "Lets you add your Tibia character(s) for the bot to track."
 msgstr "Te permite añadir tu(s) personaje(s) de Tibia para que el bot pueda seguir."
 
-#: cogs/tracking.py:989
+#: cogs/tracking.py:987
 msgid ""
 "If there are other visible characters, the bot will ask for confirmation to add them too.\n"
 "\n"
@@ -7749,76 +7760,76 @@ msgstr ""
 "\n"
 "Si un personaje ya está registrado a otra persona, se puede usar `claim`."
 
-#: cogs/tracking.py:1042
+#: cogs/tracking.py:1040
 msgid "Removes a character assigned to you."
 msgstr "Elimina un personaje asignado a ti."
 
-#: cogs/tracking.py:1043
+#: cogs/tracking.py:1041
 msgid "All registered level ups and deaths will be lost forever."
 msgstr "Todos los niveles y muertes registrados se perderán para siempre."
 
-#: cogs/tracking.py:1050
+#: cogs/tracking.py:1048
 #, python-brace-format
 msgid "The character **{name}** is not registered to you."
 msgstr "El personaje **{name}** no está registrado a ti."
 
-#: cogs/tracking.py:1052
+#: cogs/tracking.py:1050
 #, python-brace-format
 msgid "Are you sure you want to unregister **{name}** ({level} {vocation})?"
 msgstr "¿Estás seguro de que quieres anular el registro de **{name}** ({level} {vocation})?"
 
-#: cogs/tracking.py:1061
+#: cogs/tracking.py:1059
 #, python-brace-format
 msgid "**{name}** is no longer registered to you."
 msgstr "**{name}** ya no está registrado a ti."
 
-#: cogs/tracking.py:1069
+#: cogs/tracking.py:1067
 msgid "Shows all your registered characters."
 msgstr "Muestra todos tus personajes registrados."
 
-#: cogs/tracking.py:1078
+#: cogs/tracking.py:1076
 #, python-brace-format
 msgid "I don't see any user with id {user_id}."
 msgstr "No veo ningún usuario con el id {user_id}."
 
-#: cogs/tracking.py:1085
+#: cogs/tracking.py:1083
 msgid "You do not have any registered characters."
 msgstr "No tienes ningún personaje registrado."
 
-#: cogs/tracking.py:1087
+#: cogs/tracking.py:1085
 msgid "This user has no registered characters."
 msgstr "Este usuario no tiene personajes registrados."
 
-#: cogs/tracking.py:1091
+#: cogs/tracking.py:1089
 #, python-brace-format
 msgid "{name} (Lvl {level} {voc}) - {world}"
 msgstr "{name} (Nvl. {level} {voc}) - {world}"
 
-#: cogs/tracking.py:1099
+#: cogs/tracking.py:1096
 msgid "Registered Characters"
 msgstr "Personajes registrados"
 
-#: cogs/tracking.py:1108
+#: cogs/tracking.py:1103
 msgid "Shows you which users are online on Tibia."
 msgstr "Te muestra qué usuarios están conectados en Tibia."
 
-#: cogs/tracking.py:1119 cogs/tracking.py:1143
+#: cogs/tracking.py:1114 cogs/tracking.py:1138
 msgid "There is no one online from Discord."
 msgstr "No hay nadie en línea de Discord."
 
-#: cogs/tracking.py:1142
+#: cogs/tracking.py:1137
 msgid "I just started, give me some time to check online lists…⌛"
 msgstr "Acabo de comenzar, dame un poco de tiempo para revisar las listas en línea…⌛"
 
-#: cogs/tracking.py:1147
+#: cogs/tracking.py:1141
 msgid "Users online"
 msgstr "Usuarios en línea"
 
-#: cogs/tracking.py:1156
+#: cogs/tracking.py:1148
 msgid "Searches for a registered character that meets the criteria."
 msgstr "Busca un personaje registrado que cumpla con los criterios."
 
-#: cogs/tracking.py:1157
+#: cogs/tracking.py:1149
 msgid ""
 "There are 3 ways to use this command:\n"
 "- Show characters in share range with a specific character. (`searchteam <name>`)\n"
@@ -7834,61 +7845,61 @@ msgstr ""
 "\n"
 "Los personajes en línea aparecen primero en la lista, también tienen un icono."
 
-#: cogs/tracking.py:1167
+#: cogs/tracking.py:1159
 #, python-brace-format
 msgid "{prefix}{command} charname"
 msgstr "{prefix}{command} personaje"
 
-#: cogs/tracking.py:1168
+#: cogs/tracking.py:1160
 #, python-brace-format
 msgid "{prefix}{command} level"
 msgstr "{prefix}{command} nivel"
 
-#: cogs/tracking.py:1169
+#: cogs/tracking.py:1161
 #, python-brace-format
 msgid "{prefix}{command} minLevel,maxLevel"
 msgstr "{prefix}{command} nivelMin,nivelMax"
 
-#: cogs/tracking.py:1197
+#: cogs/tracking.py:1189
 #, python-brace-format
 msgid "Characters in share range with {name}({low}-{high}):"
 msgstr "Personajes en rango compartido con {name}({low}-{high}):"
 
-#: cogs/tracking.py:1198
+#: cogs/tracking.py:1190
 #, python-brace-format
 msgid "I didn't find anyone in share range with **{name}**({low}-{high})"
 msgstr "No he encontrado a nadie en el rango para compartir de **{name}**({low}-{high})"
 
-#: cogs/tracking.py:1214
+#: cogs/tracking.py:1206
 #, python-brace-format
 msgid "Characters between level {low} and {high}"
 msgstr "Caracteres entre nivel {low} y {high}"
 
-#: cogs/tracking.py:1215
+#: cogs/tracking.py:1207
 #, python-brace-format
 msgid "I didn't find anyone between levels **{low}** and **{high}**"
 msgstr "No encontré a nadie entre los niveles **{low}** y **{high}**"
 
-#: cogs/tracking.py:1222
+#: cogs/tracking.py:1214
 #, python-brace-format
 msgid "Characters in share range with level {level} ({low}-{high})"
 msgstr "Personajes en rango de compartir co nivel {level}({low}-{high})"
 
-#: cogs/tracking.py:1224
+#: cogs/tracking.py:1216
 #, python-brace-format
 msgid "I didn't find anyone in share range with level **{level}** ({low}-{high})"
 msgstr "No he encontrado a nadie en el rango de compartir con el nivel **{level}** ({low}-{high})"
 
-#: cogs/tracking.py:1240
+#: cogs/tracking.py:1232
 #, python-brace-format
 msgid "**{name}** - Level {level} {voc} - @**{owner}**"
 msgstr "**{name}** - Nivel {level} {voc} - @**{owner}**"
 
-#: cogs/tracking.py:1348
+#: cogs/tracking.py:1332
 msgid "Removes a registered character from someone."
 msgstr "Remueve un personaje registrado de alguien."
 
-#: cogs/tracking.py:1349
+#: cogs/tracking.py:1333
 msgid ""
 "Note that you can only remove chars if they are from users exclusively in your server.\n"
 "You can't remove any characters that would alter other servers NabBot is in."
@@ -7896,30 +7907,30 @@ msgstr ""
 "Ten en cuenta que sólo puedes eliminar caracteres si son de usuarios exclusivamente en tu servidor.\n"
 "No puede eliminar ningún carácter que modifique NabBot de otros servidores."
 
-#: cogs/tracking.py:1357
+#: cogs/tracking.py:1341
 msgid "There's no character with that name registered."
 msgstr "No hay ningún personaje con ese nombre registrado."
 
-#: cogs/tracking.py:1359
+#: cogs/tracking.py:1343
 #, python-brace-format
 msgid "The character **{name}** is in a different world."
 msgstr "El personaje **{name}** está en un mundo diferente."
 
-#: cogs/tracking.py:1374
+#: cogs/tracking.py:1358
 #, python-brace-format
 msgid "The user of this server is also in another server tracking **{world}**, where you are not an admin. You can't alter other servers."
 msgstr "El usuario de este servidor también se encuentra en otro servidor siguiendo **{world}**, donde no eres administrador. No puedes modificar otros servidores."
 
-#: cogs/tracking.py:1380
+#: cogs/tracking.py:1364
 #, python-brace-format
 msgid "**{0}** was removed successfully from **@{1}**."
 msgstr "**{0}** fue eliminado correctamente de **@{1}**."
 
-#: cogs/tracking.py:1387
+#: cogs/tracking.py:1371
 msgid "Create or manage watchlists."
 msgstr "Crea o administra watchlists."
 
-#: cogs/tracking.py:1388
+#: cogs/tracking.py:1372
 msgid ""
 "Watchlists are channels where the online status of selected characters are shown.\n"
 "You can create multiple watchlists and add characters and guilds to each one separately.\n"
@@ -7927,7 +7938,7 @@ msgstr ""
 "Los watchlist son canales donde se muestra el estado en línea de los personajes seleccionados.\n"
 "Puedes crear múltiples watchlist y agregar personajes y guilds para cada uno por separado.\n"
 
-#: cogs/tracking.py:1392
+#: cogs/tracking.py:1376
 #, python-brace-format
 msgid ""
 "To manage watchlists, use one of the subcommands.\n"
@@ -7936,39 +7947,39 @@ msgstr ""
 "Para gestionar las watchlists, usa uno de los subcomandos.\n"
 "Intenta `{prefix}help {command}`."
 
-#: cogs/tracking.py:1399
+#: cogs/tracking.py:1383
 msgid "Adds a character to a watchlist."
 msgstr "Añade un personaje a una watchlist."
 
-#: cogs/tracking.py:1400 cogs/tracking.py:1537
+#: cogs/tracking.py:1384 cogs/tracking.py:1521
 msgid "A reason can be specified by adding it after the character's name, separated by a comma."
 msgstr "Una razón puede especificarse añadiéndola después del nombre del personaje, separada por una coma."
 
-#: cogs/tracking.py:1423
+#: cogs/tracking.py:1407
 #, python-brace-format
 msgid "This character is not in **{world}**."
 msgstr "Este personaje no esta en **{world}**."
 
-#: cogs/tracking.py:1426
+#: cogs/tracking.py:1410
 #, python-brace-format
 msgid "Do you want to add **{char.name}** (Level {char.level} {char.vocation}) to the watchlist {channel}"
 msgstr "¿Quieres añadir a **{char.name}** (Nivel {char.level} {char.vocation}) a la lista de seguimiento {channel}"
 
-#: cogs/tracking.py:1440
+#: cogs/tracking.py:1424
 #, python-brace-format
 msgid "Character **{name}** added to the watchlist {channel}."
 msgstr "Personaje **{name}** ** añadido a la lista de seguimiento {channel}."
 
-#: cogs/tracking.py:1443
+#: cogs/tracking.py:1427
 #, python-brace-format
 msgid "**{name}** is already registered in {channel}"
 msgstr "**{name}** ya está registrado en {channel}"
 
-#: cogs/tracking.py:1451
+#: cogs/tracking.py:1435
 msgid "Creates or assigns a channel to be used as a feed for the watchlist."
 msgstr "Crea o asigna un canal para ser utilizado como feed para la watchlist."
 
-#: cogs/tracking.py:1452
+#: cogs/tracking.py:1436
 msgid ""
 "This feature can only be used on [premium](https://docs.nabbot.xyz/premium) servers.\n"
 "\n"
@@ -7984,7 +7995,7 @@ msgstr ""
 "Nuevo canal es el canal que se asignará como canal de alimentación.\n"
 "Si no se especifica, se creará un nuevo canal."
 
-#: cogs/tracking.py:1466
+#: cogs/tracking.py:1450
 #, python-brace-format
 msgid ""
 "Only premium servers can add a feed channel to their watchlists.\n"
@@ -7993,57 +8004,57 @@ msgstr ""
 "Solo los servidores premium pueden añadir un feed a sus watchlists.\n"
 "Para más información, lee: <{docs}/premium>"
 
-#: cogs/tracking.py:1471
+#: cogs/tracking.py:1455
 #, python-brace-format
 msgid "{channel.mention} already has a feed channel."
 msgstr "{channel.mention} ya tiene un canal de feeds."
 
-#: cogs/tracking.py:1475
+#: cogs/tracking.py:1459
 msgid "I need `Manage Channels` and `Manage Webhooks` permissions to create feed channels."
 msgstr "Necesito los permisos `Gestionar canales` y `Gestionar webhooks` para crear canales de feed."
 
-#: cogs/tracking.py:1487
+#: cogs/tracking.py:1471
 msgid "Adds an entire guild to a watchlist."
 msgstr "Añade una guild entera a un watchlist."
 
-#: cogs/tracking.py:1488
+#: cogs/tracking.py:1472
 msgid "Guilds are displayed in the watchlist as a group."
 msgstr "Los guilds se muestran en la lista vigilada como un grupo."
 
-#: cogs/tracking.py:1510
+#: cogs/tracking.py:1494
 #, python-brace-format
 msgid "This guild is not in **{world}**."
 msgstr "Este guild no está en **{world}**."
 
-#: cogs/tracking.py:1513
+#: cogs/tracking.py:1497
 #, python-brace-format
 msgid "Do you want to add the guild **{guild}** to the watchlist {channel}?"
 msgstr "¿Quieres añadir la guild **{guild}** al watchlist {channel}?"
 
-#: cogs/tracking.py:1525
+#: cogs/tracking.py:1509
 #, python-brace-format
 msgid "Guild **{guild}** added to the watchlist {channel}."
 msgstr "Guild **{guild}** añadido a la watchlist en {channel}."
 
-#: cogs/tracking.py:1529
+#: cogs/tracking.py:1513
 #, python-brace-format
 msgid "**{guild}** is already registered in {channel}"
 msgstr "**{guild}** ya está registrado en {channel}"
 
-#: cogs/tracking.py:1536
+#: cogs/tracking.py:1520
 msgid "Adds the currently registered characters of a user to the watchlist."
 msgstr "Añade los personajes registrados de un usuario a la watchlist."
 
-#: cogs/tracking.py:1556
+#: cogs/tracking.py:1540
 msgid "I don't see any users with that name or id."
 msgstr "No veo ningún usuario con ese nombre o id."
 
-#: cogs/tracking.py:1559
+#: cogs/tracking.py:1543
 #, python-brace-format
 msgid "This user doesn't have any registered characters in {world}."
 msgstr "El usuario no tiene ningún personaje registrado en {world}."
 
-#: cogs/tracking.py:1563
+#: cogs/tracking.py:1547
 #, python-brace-format
 msgid ""
 "Do you want to add currently registered characters of `{user}` to this watchlist?\n"
@@ -8052,20 +8063,20 @@ msgstr ""
 "¿Quieres añadir los personajes registrados de `{user}` a esta watchlist?\n"
 "{char_list}"
 
-#: cogs/tracking.py:1579
+#: cogs/tracking.py:1563
 #, python-brace-format
 msgid "I added the following characters to the list {channel}, duplicates where skipped:{results}"
 msgstr "He añadido los siguientes personajes a la watchlist en {channel}, los duplicados se han omitido:{results}"
 
-#: cogs/tracking.py:1582
+#: cogs/tracking.py:1566
 msgid "No characters where added, as they were all duplicates."
 msgstr "No se añadieron personajes, ya que todos eran duplicados."
 
-#: cogs/tracking.py:1589
+#: cogs/tracking.py:1573
 msgid "Creates a watchlist channel."
 msgstr "Crea un canal de lista watchlist."
 
-#: cogs/tracking.py:1590
+#: cogs/tracking.py:1574
 msgid ""
 "The watch list shows which characters from it are online. Entire guilds can be added too.\n"
 "The channel can be renamed at anytime. If the channel is deleted, all its entries are deleted too."
@@ -8073,39 +8084,39 @@ msgstr ""
 "La watchlist muestra qué personajes de ella están en línea. También se pueden añadir guilds enteros.\n"
 "El canal puede ser renombrado en cualquier momento. Si el canal es eliminado, todas sus entradas serán eliminadas también."
 
-#: cogs/tracking.py:1595
+#: cogs/tracking.py:1579
 #, python-format
 msgid "Channel name cannot contain the special character **%s**"
 msgstr "El nombre del canal no puede contener el carácter especial **%s**"
 
-#: cogs/tracking.py:1599
+#: cogs/tracking.py:1583
 msgid "I need `Manage Channels` permission in the server to use this command."
 msgstr "Necesito permisos de `Gestionar canales` en este servidor para usar este comando."
 
-#: cogs/tracking.py:1606
+#: cogs/tracking.py:1590
 msgid "You have reached the limit of watchlists you can have."
 msgstr "Has alcanzado el límite de listas que puedes tener."
 
-#: cogs/tracking.py:1609
+#: cogs/tracking.py:1593
 #, python-format
 msgid "You need to have at least %d members to use watchlists."
 msgstr "Necesitas tener al menos %d miembros para usar watchlists."
 
-#: cogs/tracking.py:1612
+#: cogs/tracking.py:1596
 #, python-brace-format
 msgid "Do you want to create a new watchlist named `{name}`?"
 msgstr "¿Quieres crear un watchlist llamado `{name}`?"
 
-#: cogs/tracking.py:1627
+#: cogs/tracking.py:1611
 msgid "Something went wrong, the channel name you chose is probably invalid."
 msgstr "Algo salió mal, el nombre del canal que elegiste probablemente no es válido."
 
-#: cogs/tracking.py:1630
+#: cogs/tracking.py:1614
 #, python-brace-format
 msgid "Channel created successfully: {channel}\n"
 msgstr "Canal creado con éxito: {channel}\n"
 
-#: cogs/tracking.py:1631
+#: cogs/tracking.py:1615
 #, python-brace-format
 msgid ""
 "This is where I will post a list of online watched characters.\n"
@@ -8126,109 +8137,109 @@ msgstr ""
 "**Es importante no permitir que nadie escriba aquí**\n"
 "*Este mensaje puede ser eliminado ahora.*"
 
-#: cogs/tracking.py:1647
+#: cogs/tracking.py:1631
 msgid "Removes all entries from watchlist."
 msgstr "Elimina todas las entradas de la watchlist."
 
-#: cogs/tracking.py:1653
+#: cogs/tracking.py:1637
 #, python-brace-format
 msgid "Do you want to remove all entries from the watchlist {channel}?"
 msgstr "¿Desea eliminar todas las entradas de la lista {channel}?"
 
-#: cogs/tracking.py:1659
+#: cogs/tracking.py:1643
 #, python-brace-format
 msgid "All entries in {channel} have been removed."
 msgstr "Todas las entradas en {channel} se han eliminado."
 
-#: cogs/tracking.py:1666
+#: cogs/tracking.py:1650
 msgid "Shows information about a watchlist entry."
 msgstr "Muestra información sobre una entrada de la watchlist."
 
-#: cogs/tracking.py:1667 cogs/tracking.py:1692
+#: cogs/tracking.py:1651 cogs/tracking.py:1676
 msgid "This shows who added the player, when, and if there's a reason why they were added."
 msgstr "Esto muestra quién agregó al jugador, cuándo, y si hay una razón por la que fueron añadidos."
 
-#: cogs/tracking.py:1676
+#: cogs/tracking.py:1660
 #, python-brace-format
 msgid "There's no character with that name registered to {channel}."
 msgstr "No hay ningún personaje con ese nombre registrado en {channel}."
 
-#: cogs/tracking.py:1680 cogs/tracking.py:1706
+#: cogs/tracking.py:1664 cogs/tracking.py:1690
 msgid "No reason provided"
 msgstr "Ninguna razón proporcionada"
 
-#: cogs/tracking.py:1681 cogs/tracking.py:1707
+#: cogs/tracking.py:1665 cogs/tracking.py:1691
 #, python-brace-format
 msgid "In #{channel}"
 msgstr "En #{channel}"
 
-#: cogs/tracking.py:1684 cogs/tracking.py:1710
+#: cogs/tracking.py:1668 cogs/tracking.py:1694
 #, python-brace-format
 msgid "Added by {user}"
 msgstr "Añadido por {user}"
 
-#: cogs/tracking.py:1691
+#: cogs/tracking.py:1675
 msgid "Shows details about a guild entry in a watchlist."
 msgstr "Muestra detalles sobre una entrada de guild en una watchlist."
 
-#: cogs/tracking.py:1701
+#: cogs/tracking.py:1685
 #, python-brace-format
 msgid "There's no guild with that name registered to {channel}."
 msgstr "No hay ninguna guild con ese nombre registrado en {channel}."
 
-#: cogs/tracking.py:1716
+#: cogs/tracking.py:1700
 msgid "Shows characters belonging to that watchlist."
 msgstr "Muestra personajes pertenecientes a esa watchlist."
 
-#: cogs/tracking.py:1717
+#: cogs/tracking.py:1701
 msgid "Note that this lists all characters, not just online characters."
 msgstr "Ten en cuenta que esto enlista todos los personajes, no solo los personajes en línea."
 
-#: cogs/tracking.py:1724 cogs/tracking.py:1748
+#: cogs/tracking.py:1708 cogs/tracking.py:1729
 msgid "You can't see the list of a watchlist you can't see."
 msgstr "No puedes ver la lista de una watchlist que no puedes ver."
 
-#: cogs/tracking.py:1728 cogs/tracking.py:1751
+#: cogs/tracking.py:1712 cogs/tracking.py:1732
 msgid "This watchlist has no registered characters."
 msgstr "Esta lista no tiene personajes registrados."
 
-#: cogs/tracking.py:1732
+#: cogs/tracking.py:1715
 #, python-brace-format
 msgid "Watched Characters in #{channel}"
 msgstr "Personajes registrados en #{channel}"
 
-#: cogs/tracking.py:1740
+#: cogs/tracking.py:1721
 msgid "Shows a list of guilds in the watchlist."
 msgstr "Muestra una lista de guilds en la watchlist."
 
-#: cogs/tracking.py:1755
+#: cogs/tracking.py:1735
 #, python-brace-format
 msgid "Watched Guilds in #{channel}"
 msgstr "Guilds registrados en #{channel}"
 
-#: cogs/tracking.py:1764
+#: cogs/tracking.py:1742
 msgid "Removes a character from a watchlist."
 msgstr "Elimina un personaje de una watchlist."
 
-#: cogs/tracking.py:1773
+#: cogs/tracking.py:1751
 #, python-brace-format
 msgid "There's no character with that name registered in {channel}."
 msgstr "No hay un personaje con ese nombre registrado en {channel}."
 
-#: cogs/tracking.py:1776
+#: cogs/tracking.py:1754
 #, python-brace-format
 msgid "Do you want to remove **{char}** from this watchlist?"
 msgstr "¿Quieres eliminar a **{char}** de esta watchlist?"
 
-#: cogs/tracking.py:1786
+#: cogs/tracking.py:1764
 msgid "Character removed from the watchlist."
 msgstr "Personaje eliminado de la watchlist."
 
-#: cogs/tracking.py:1793
+#: cogs/tracking.py:1771
 msgid "Deletes a watchlist feed."
 msgstr "Elimina una feed de watchlist."
 
-#: cogs/tracking.py:1794
+#: cogs/tracking.py:1772
 msgid ""
 "The given channel must be the watchlist's channel, not the channel where the feed is located, for example:\n"
 "To remove the feed in channel `#enemies-feed`,a feed for the watchlist in `#enemies-45`, the command would be used like: `watchlist removefeed #enemies-45`"
@@ -8236,39 +8247,39 @@ msgstr ""
 "El canal dado debe ser el canal de la watchlist, no el canal donde se encuentra el feed, por ejemplo:\n"
 "Para eliminar el feed en el canal `#enemies-feed`, feed para la lista de seguimiento en `#enemies-45`, el comando sería usado como: `watchlist removefeed #enemies-45`"
 
-#: cogs/tracking.py:1806
+#: cogs/tracking.py:1784
 #, python-brace-format
 msgid "{channel} doesn't have a feed."
 msgstr "{channel} no tiene un feed."
 
-#: cogs/tracking.py:1817
+#: cogs/tracking.py:1795
 #, python-brace-format
 msgid "The feed for {channel.mention} has been removed."
 msgstr "El feed de {channel.mention} ha sido eliminado."
 
-#: cogs/tracking.py:1823
+#: cogs/tracking.py:1801
 msgid "Removes a guild from the watchlist."
 msgstr "Elimina una guild de la watchlist."
 
-#: cogs/tracking.py:1832
+#: cogs/tracking.py:1810
 #, python-brace-format
 msgid "There's no guild with that name registered in {channel}."
 msgstr "No hay ningún guild con ese nombre registrado en {channel}."
 
-#: cogs/tracking.py:1835
+#: cogs/tracking.py:1813
 #, python-brace-format
 msgid "Do you want to remove **{name}** from this watchlist?"
 msgstr "¿Quieres eliminar a **{name}** de esta watchlist?"
 
-#: cogs/tracking.py:1844
+#: cogs/tracking.py:1822
 msgid "Guild removed from the watchlist."
 msgstr "Guild eliminado del watchlist."
 
-#: cogs/tracking.py:1849
+#: cogs/tracking.py:1827
 msgid "Deletes a watchlist, even if the channel doesn't exist anymore."
 msgstr "Elimina una watchlist, incluso si el canal ya no existe."
 
-#: cogs/tracking.py:1850
+#: cogs/tracking.py:1828
 msgid ""
 "The channel that holds the watchlist will be attempted to be deleted. The deletion of the channel may fail due to missing permissions. In this case, the channel may be deleted manually, the watchlist won't be updated anymore.\n"
 "\n"
@@ -8281,20 +8292,20 @@ msgstr ""
 "Esto también le permite eliminar watchlists en canales que ya no existen.\n"
 "Para ver la lista de canales, intenta: `watchlist viewall`."
 
-#: cogs/tracking.py:1874
+#: cogs/tracking.py:1852
 msgid "There's no watchlist registered on that channel."
 msgstr "No hay una watchlist registrada en ese canal."
 
-#: cogs/tracking.py:1877
+#: cogs/tracking.py:1855
 #, python-brace-format
 msgid "Do you want to delete the watchlist from {channel}? All its entries will be lost and {channel} will be deleted too."
 msgstr "¿Quieres eliminar la watchlist de {channel}? Todas sus entradas se perderán y {channel} se eliminará también."
 
-#: cogs/tracking.py:1885
+#: cogs/tracking.py:1863
 msgid "Watchlist deleted."
 msgstr "Watchlist eliminado."
 
-#: cogs/tracking.py:1887
+#: cogs/tracking.py:1865
 #, python-brace-format
 msgid ""
 "Watchlist deleted successfully.\n"
@@ -8303,35 +8314,35 @@ msgstr ""
 "Watchlist eliminada con éxito.\n"
 "{icon} No se pudo eliminar {channel}. Puedes intentar eliminarla manualmente. Su contenido ya no se actualizará."
 
-#: cogs/tracking.py:1892
+#: cogs/tracking.py:1870
 msgid "Watchlist and channel deleted successfully."
 msgstr "Watchlist y canal borrados correctamente."
 
-#: cogs/tracking.py:1895
+#: cogs/tracking.py:1873
 msgid "Watchlist deleted successfully."
 msgstr "Watchlist eliminada exitosamente."
 
-#: cogs/tracking.py:1901
+#: cogs/tracking.py:1879
 msgid "Changes whether the online count will be displayed in the watchlist's channel's name or not."
 msgstr "Cambia si mostrar o no el conteo de personajes en línea en el nombre del canal de watchlist o no."
 
-#: cogs/tracking.py:1909
+#: cogs/tracking.py:1887
 msgid "Showing online count is now enabled. The name will be updated on the next cycle."
 msgstr "Mostrando conteo de jugares en línea. El nombre se actualizará en el próximo ciclo."
 
-#: cogs/tracking.py:1912
+#: cogs/tracking.py:1890
 msgid "Showing online count is now disabled. The name will be updated on the next cycle."
 msgstr "El conteo de personajes en línea esta ahora desactivado. El nombre se actualizará en el próximo ciclo."
 
-#: cogs/tracking.py:1914
+#: cogs/tracking.py:1892
 msgid "That's not a valid option, try `yes` or `no`."
 msgstr "Esa no es una opción válida, intenta `sí` o `no`."
 
-#: cogs/tracking.py:1921
+#: cogs/tracking.py:1899
 msgid "Shows all registered watchlists."
 msgstr "Muestra todos los watchlists."
 
-#: cogs/tracking.py:1922
+#: cogs/tracking.py:1900
 msgid ""
 "When the channel holding a watchlist is deleted, the watchlist is automatically deleted too.\n"
 "However, there may be cases where the watchlist is not deleted, leaving it bound to deleted channel.\n"
@@ -8345,28 +8356,28 @@ msgstr ""
 "Las watchlist vinculadas a los canales eliminados pueden ser eliminadas usando `watchlist removelist` seguido por el id del canal.\n"
 "El id del canal es el número que se muestra aquí para los canales eliminados."
 
-#: cogs/tracking.py:1932
+#: cogs/tracking.py:1910
 msgid "There are no watchlists in this server."
 msgstr "No hay watchlists en este servidor."
 
-#: cogs/tracking.py:1936
+#: cogs/tracking.py:1914
 #, python-brace-format
 msgid "Deleted Channel #{id}"
 msgstr "Canal #{id} eliminado"
 
-#: cogs/tracking.py:1939
+#: cogs/tracking.py:1917
 msgid "Watchlists"
 msgstr "Watchlists"
 
-#: cogs/tracking.py:1946
+#: cogs/tracking.py:1924
 msgid "The whitelist filters in level up and deaths announcements."
 msgstr "La lista blanca filtra niveles y muertes en anuncios."
 
-#: cogs/tracking.py:1955
+#: cogs/tracking.py:1933
 msgid "Adds a guild to the whitelist."
 msgstr "Añade un guild a la lista blanca."
 
-#: cogs/tracking.py:1956 cogs/tracking.py:1988
+#: cogs/tracking.py:1934 cogs/tracking.py:1966
 msgid ""
 "Only characters in whitelisted guilds will have their levels and deaths announced.\n"
 "If the whitelist is empty, all characters will be announced."
@@ -8374,16 +8385,16 @@ msgstr ""
 "Solo los personajes de los guilds en la lista blanca tendrán sus niveles y muertes anunciadas.\n"
 "Si la lista blanca está vacía, todos los personajes serán anunciados."
 
-#: cogs/tracking.py:1965
+#: cogs/tracking.py:1943
 #, python-brace-format
 msgid "The guild {guild} is not in {world}."
 msgstr "El guild {guild} no está en {world}."
 
-#: cogs/tracking.py:1969
+#: cogs/tracking.py:1947
 msgid "This guild is already in the whitelist."
 msgstr "Este guild ya esta en la lista blanca."
 
-#: cogs/tracking.py:1971
+#: cogs/tracking.py:1949
 #, python-brace-format
 msgid ""
 "Do you want to add **{guild}** to the whitelist?\n"
@@ -8392,52 +8403,52 @@ msgstr ""
 "¿Quieres añadir **{guild}** a la lista blanca?\n"
 "*Solo los personajes de este nombre y de otros gremios en la lista blanca serán declarados*"
 
-#: cogs/tracking.py:1981
+#: cogs/tracking.py:1959
 #, python-brace-format
 msgid "**{guild}** has been added to the whitelist."
 msgstr "**{guild}** ha sido añadido a la lista blanca."
 
-#: cogs/tracking.py:1987
+#: cogs/tracking.py:1965
 msgid "Shows the guilds currently in the whitelist."
 msgstr "Muestra los guilds actualmente en la lista blanca."
 
-#: cogs/tracking.py:1994
+#: cogs/tracking.py:1972
 msgid "There are no whitelisted guilds in this server. All level ups and deaths are announced."
 msgstr "No hay guilds en la lista blanca en este servidor. Todos los niveles y muertes son anunciados."
 
-#: cogs/tracking.py:1999
+#: cogs/tracking.py:1976
 msgid "Whitelisted guilds"
 msgstr "Guilds en la lista blanca"
 
-#: cogs/tracking.py:2008
+#: cogs/tracking.py:1983
 msgid "Removes a guild from the whitelist."
 msgstr "Elimina un guild de la lista blanca."
 
-#: cogs/tracking.py:2013
+#: cogs/tracking.py:1988
 msgid "There is no guild with that name in the whitelist."
 msgstr "No hay ningún guild con ese nombre en la lista blanca."
 
-#: cogs/tracking.py:2015
+#: cogs/tracking.py:1990
 #, python-brace-format
 msgid "Do you want to remove **{name}** from the whitelist?"
 msgstr "¿Quieres eliminar a **{name}** de la lista blanca?"
 
-#: cogs/tracking.py:2024
+#: cogs/tracking.py:1999
 #, python-brace-format
 msgid "**{name}** has been removed from the whitelist."
 msgstr "**{name}** ha sido eliminado de la lista blanca."
 
-#: cogs/tracking.py:2176
+#: cogs/tracking.py:2151
 #, python-brace-format
 msgid "Do you want to create a feed channel for {channel}?"
 msgstr "¿Quieres crear un canal de feed para {channel}?"
 
-#: cogs/tracking.py:2189
+#: cogs/tracking.py:2164
 #, python-brace-format
 msgid "Watchlist feed channel created by {user}"
 msgstr "Canal del feed de watchlist creado por {user}"
 
-#: cogs/tracking.py:2194
+#: cogs/tracking.py:2169
 #, python-brace-format
 msgid ""
 "This is the new feed channel for {channel}.\n"
@@ -8450,34 +8461,34 @@ msgstr ""
 "\n"
 "Puede actualizar los permisos de este canal para permitir que otros lo vean."
 
-#: cogs/tracking.py:2199 cogs/tracking.py:2228
+#: cogs/tracking.py:2174 cogs/tracking.py:2203
 msgid "Sorry, I failed to set the feed channel due to missing permissions."
 msgstr "Lo siento, no he podido establecer el canal de feed a que no tengo permisos suficientes."
 
-#: cogs/tracking.py:2201
+#: cogs/tracking.py:2176
 msgid "Something went wrong while creating the new channel."
 msgstr "Algo salió mal al crear el nuevo canal."
 
-#: cogs/tracking.py:2204
+#: cogs/tracking.py:2179
 msgid "Watchlist feed created successfully."
 msgstr "Watchlist feed eliminado exitosamente."
 
-#: cogs/tracking.py:2211
+#: cogs/tracking.py:2186
 #, python-brace-format
 msgid "I need both `Manage Channel` and `Manage Webhooks` permissions in {new_channel} in order to create a feed for {channel}"
 msgstr "Necesito los permisos de `Gestionar canal` y `Gestionar webhooks` en {new_channel} para crear un feed para {channel}"
 
-#: cogs/tracking.py:2214
+#: cogs/tracking.py:2189
 #, python-brace-format
 msgid "Do you want to assign {new_channel} as the feed channel for {channel.mention}?"
 msgstr "¿Desea asignar a {new_channel} como canal de feed para {channel.mention}?"
 
-#: cogs/tracking.py:2221
+#: cogs/tracking.py:2196
 #, python-brace-format
 msgid "Watchlist webhook created by {user}"
 msgstr "Webhook de watchlist creado por {user}"
 
-#: cogs/tracking.py:2224
+#: cogs/tracking.py:2199
 #, python-brace-format
 msgid ""
 "This is the new feed channel for {channel}.\n"
@@ -8486,40 +8497,45 @@ msgstr ""
 "Este es el nuevo canal de feed para {channel}.\n"
 "Los niveles y muertes de personajes en esta watchlist se anunciarán aquí."
 
-#: cogs/tracking.py:2230
+#: cogs/tracking.py:2205
 msgid "Something went wrong while assigning the feed channel."
 msgstr "Algo salió mal al asignar el canal de feed."
 
-#: cogs/tracking.py:2233
+#: cogs/tracking.py:2208
 msgid "Watchlist feed assigned successfully."
 msgstr "Watchlist feed asignado exitosamente."
 
-#: cogs/tracking.py:2336
+#. The characters were already registered to **you**
+#: cogs/tracking.py:2306
+msgid "you"
+msgstr ""
+
+#: cogs/tracking.py:2313
 #, python-brace-format
 msgid "Sorry, a character in that account ({char}) is already registered to someone else."
 msgstr "Lo sentimos, un personaje en esa cuenta ({char}) ya está registrado a otra persona."
 
-#: cogs/tracking.py:2338
+#: cogs/tracking.py:2315
 #, python-brace-format
 msgid "If the character really belongs to {user}, use `{prefix}claim {char}."
 msgstr "Si el personaje realmente pertenece a {user}, use `{prefix}claim {char}."
 
-#: cogs/tracking.py:2345
+#: cogs/tracking.py:2322
 #, python-brace-format
 msgid "The following characters were already registered to {user}"
 msgstr "Los siguientes personajes ya estaban registrados a {user}"
 
-#: cogs/tracking.py:2350
+#: cogs/tracking.py:2327
 #, python-brace-format
 msgid "The following characters were added to {user}"
 msgstr "Los siguientes personajes fueron añadidos a {user}"
 
-#: cogs/tracking.py:2355
+#: cogs/tracking.py:2332
 #, python-brace-format
 msgid "The following characters were reassigned to {user}"
 msgstr "Los siguientes personajes se reasignaron a {user}"
 
-#: cogs/tracking.py:2360
+#: cogs/tracking.py:2337
 msgid "The following characters were reclaimed by you"
 msgstr "Los siguientes personajes fueron reclamados por ti"
 
@@ -8564,3 +8580,7 @@ msgstr "El bot no tiene permiso de `Añadir reacciones`."
 #: models/context.py:266
 msgid "Bot does not have `Read Message History` permission."
 msgstr "El bot no tiene permiso para `Leer el historial de mensajes`."
+
+#, python-brace-format
+#~ msgid "ID: {auction_id} | Auction ending"
+#~ msgstr "ID: {auction_id} | Fin de la subasta"
