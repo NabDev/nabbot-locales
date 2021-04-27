@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-27 07:28-0700\n"
-"PO-Revision-Date: 2021-04-27 14:29\n"
+"PO-Revision-Date: 2021-04-27 14:35\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -720,7 +720,8 @@ msgstr "Cambia el canal donde se anuncian niveles y muertes."
 #: cogs/admin.py:328
 msgid "This is where all level ups and deaths of registered characters will be announced.\n"
 "If this is disabled, announcements won't be made, but deaths and level ups will still be tracked."
-msgstr ""
+msgstr "Aquí es donde se anunciarán todos los niveles y muertes de personajes registrados.\n"
+"Si esto está desactivado, no se realizarán anuncios, pero las muertes y subidas de nivel seguirán siendo seguidas."
 
 #: cogs/admin.py:348
 msgid "Sets the minimum level for death and level up announcements."
@@ -4194,15 +4195,15 @@ msgstr "Terminada"
 
 #: cogs/tibia.py:182
 msgid "Current Bid"
-msgstr ""
+msgstr "Oferta actual"
 
 #: cogs/tibia.py:183
 msgid "Winning Bid"
-msgstr ""
+msgstr "Oferta ganadora"
 
 #: cogs/tibia.py:184
 msgid "Minimum Bid"
-msgstr ""
+msgstr "Oferta mínima"
 
 #: cogs/tibia.py:199
 msgid "Rented"
@@ -5241,7 +5242,7 @@ msgstr "y %d más"
 
 #: cogs/tibia.py:2006
 msgid "Auction ending"
-msgstr ""
+msgstr "Fin de la subasta"
 
 #. The date when this character may be transferred again
 #: cogs/tibia.py:2018
@@ -8037,7 +8038,7 @@ msgstr "Watchlist feed asignado exitosamente."
 #. The characters were already registered to **you**
 #: cogs/tracking.py:2306
 msgid "you"
-msgstr ""
+msgstr "ti"
 
 #: cogs/tracking.py:2313
 #, python-brace-format
