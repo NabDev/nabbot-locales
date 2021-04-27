@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-27 07:28-0700\n"
-"PO-Revision-Date: 2021-04-27 14:29\n"
+"PO-Revision-Date: 2021-04-27 17:39\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -143,7 +143,7 @@ msgstr "`{argument}` nie jest poprawną liczbą."
 #: utils/messages.py:88
 #, python-brace-format
 msgid "**{name}** advanced to level {level}."
-msgstr "**{name}** awansował do poziomu {level}."
+msgstr "Postać **{name}** awansowała do poziomu {level}."
 
 #. Death message used when simple messages is on. Article will always be in English (a/an). May be omitted if fitting.
 #: utils/messages.py:90
