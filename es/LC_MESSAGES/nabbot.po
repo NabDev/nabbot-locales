@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-27 07:28-0700\n"
-"PO-Revision-Date: 2021-04-27 14:35\n"
+"PO-Revision-Date: 2021-04-27 17:39\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1335,7 +1335,7 @@ msgstr "La estamina actual no puede ser mayor que la estamina deseada."
 
 #: cogs/calculators.py:409
 msgid "Current stamina is already equal to target."
-msgstr "La stamina actual ya es igual que la deseada."
+msgstr "La estamina actual ya es igual que la deseada."
 
 #: cogs/calculators.py:425
 #, python-brace-format
@@ -1372,7 +1372,7 @@ msgstr "Muestra hitpoints, maná, capacidad, experiencia total y experiencia al 
 
 #: cogs/calculators.py:453
 msgid "There's no level lower than 1, it doesn't matter how bad you are at Tibia."
-msgstr "No hay nivel menor a 1, no importa lo malo que seas en Tibia."
+msgstr "No hay nivel menor a 1, no importa que tan malo seas en Tibia."
 
 #. Shown when trying to enter a very high level.
 #: cogs/calculators.py:456
