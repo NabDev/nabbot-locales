@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-26 18:55-0700\n"
-"PO-Revision-Date: 2021-04-27 00:49\n"
+"PO-Revision-Date: 2021-04-27 02:59\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -379,7 +379,7 @@ msgstr "Canal de niveles y muertes"
 
 #: cogs/admin.py:42
 msgid "Min Announce Level"
-msgstr "Nivel minimo de anuncios"
+msgstr "Nivel mínimo de anuncios"
 
 #: cogs/admin.py:43
 msgid "Prefix"
@@ -391,7 +391,7 @@ msgstr "Mensaje de bienvenida"
 
 #: cogs/admin.py:45
 msgid "Welcome channel"
-msgstr "Canal de Bienvenida"
+msgstr "Canal de bienvenida"
 
 #: cogs/admin.py:46
 msgid "Default Announcements"
@@ -441,7 +441,7 @@ msgstr "No puedes cambiar la configuración del servidor en mensajes privados."
 
 #: cogs/admin.py:103 cogs/tibia.py:2173
 msgid "Yes"
-msgstr "Si"
+msgstr "Sí"
 
 #: cogs/admin.py:103
 msgid "No"
@@ -5895,7 +5895,7 @@ msgstr "Tiempo de comida"
 
 #: cogs/tibiawiki.py:106
 msgid "Defense Modifier"
-msgstr ""
+msgstr "Modificador de defensa"
 
 #: cogs/tibiawiki.py:107
 msgid "Hangable"
