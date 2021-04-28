@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-27 07:28-0700\n"
+"POT-Creation-Date: 2021-04-27 19:18-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -158,79 +158,79 @@ msgstr ""
 msgid "**{name}** ({level}) was killed by **{killer}**."
 msgstr ""
 
-#: utils/pages.py:104
+#: utils/pages.py:106
 msgid "I need `Add Reactions` permission to display this command."
 msgstr ""
 
-#: utils/pages.py:107
+#: utils/pages.py:109
 msgid "I need `Read Message History` permission to display this command."
 msgstr ""
 
-#: utils/pages.py:124 utils/pages.py:447
+#: utils/pages.py:126 utils/pages.py:449
 msgid "Page"
 msgstr ""
 
-#: utils/pages.py:125
+#: utils/pages.py:127
 #, python-format
 msgid "%d entry"
 msgid_plural "%d entries"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/pages.py:380 utils/pages.py:444
+#: utils/pages.py:382 utils/pages.py:446
 msgid "No help given."
 msgstr ""
 
-#: utils/pages.py:438
+#: utils/pages.py:440
 #, python-brace-format
 msgid "Use \"{prefix}help <command>\" for more info on a command."
 msgstr ""
 
-#: utils/pages.py:448
+#: utils/pages.py:450
 #, python-format
 msgid "%d command"
 msgid_plural "%d commands"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/pages.py:470
+#: utils/pages.py:472
 msgid "Paginator help"
 msgstr ""
 
-#: utils/pages.py:471
+#: utils/pages.py:473
 msgid "Hello! Welcome to the help page."
 msgstr ""
 
-#: utils/pages.py:475
+#: utils/pages.py:477
 msgid "What are these reactions for?"
 msgstr ""
 
-#: utils/pages.py:477 utils/pages.py:506
+#: utils/pages.py:479 utils/pages.py:508
 #, python-brace-format
 msgid "We were on page {page} before this message."
 msgstr ""
 
-#: utils/pages.py:493
+#: utils/pages.py:495
 msgid "argument"
 msgstr ""
 
-#: utils/pages.py:496
+#: utils/pages.py:498
 msgid "This means the argument is __**required**__."
 msgstr ""
 
-#: utils/pages.py:497
+#: utils/pages.py:499
 msgid "This means the argument is __**optional**__."
 msgstr ""
 
-#: utils/pages.py:498
+#: utils/pages.py:500
 msgid "This means it can be __**either A or B**__."
 msgstr ""
 
-#: utils/pages.py:499
+#: utils/pages.py:501
 msgid "This means you can have multiple arguments.\n"
 msgstr ""
 
-#: utils/pages.py:500
+#: utils/pages.py:502
 msgid ""
 "This means the command has subcommands.\n"
 "Check the command's help to see them."
@@ -1359,8 +1359,8 @@ msgid ""
 "Shows hitpoints, mana, capacity, total experience and experience to next level.\n"
 "\n"
 "This command can be used in two ways:\n"
-"1. To calculate the stats for a certain level and vocation. (`stats <level>,<vocation>`)\n"
-"2. To calculate the stats of a character. (`stats <character>`)"
+"1. To calculate the stats for a certain level and vocation. (`stats ≪level≫,≪vocation≫`)\n"
+"2. To calculate the stats of a character. (`stats ≪character≫`)"
 msgstr ""
 
 #: cogs/calculators.py:453
@@ -1541,7 +1541,7 @@ msgstr ""
 msgid "Sorry, the message was too long to send."
 msgstr ""
 
-#: cogs/core.py:369 cogs/info.py:71 cogs/premium.py:571
+#: cogs/core.py:369 cogs/info.py:71 cogs/premium.py:583
 msgid "Support Server"
 msgstr ""
 
@@ -1751,7 +1751,7 @@ msgid ""
 msgstr ""
 
 #: cogs/general.py:170
-msgid "Invalid parameter! I'm expecting `<times>d<rolls>`."
+msgid "Invalid parameter! I'm expecting `≪times≫d≪sides≫`."
 msgstr ""
 
 #: cogs/general.py:173
@@ -1951,7 +1951,7 @@ msgstr ""
 
 #: cogs/info.py:185
 #, python-brace-format
-msgid "To view information of a specific emoji, use '{prefix}{command} <emoji>'"
+msgid "To view information of a specific emoji, use '{prefix}{command} ≪emoji≫'"
 msgstr ""
 
 #. Regular emojis
@@ -2401,6 +2401,11 @@ msgstr ""
 msgid "Nickname removed"
 msgstr ""
 
+#: cogs/logging.py:494
+#, python-brace-format
+msgid "**{nickname}** deleted"
+msgstr ""
+
 #: cogs/logging.py:496
 msgid "Nickname changed"
 msgstr ""
@@ -2698,7 +2703,7 @@ msgstr ""
 msgid "This server's benefits will be removed."
 msgstr ""
 
-#: cogs/premium.py:57 cogs/premium.py:355
+#: cogs/premium.py:57 cogs/premium.py:367
 msgid "Commands related to premium features."
 msgstr ""
 
@@ -2770,27 +2775,39 @@ msgstr ""
 msgid "This server is no longer receiving premium."
 msgstr ""
 
-#: cogs/premium.py:356
+#: cogs/premium.py:354
+msgid "Links to NabBot's Patreon."
+msgstr ""
+
+#: cogs/premium.py:357
+msgid "NabBot's Patreon"
+msgstr ""
+
+#: cogs/premium.py:357
+msgid "Support NabBot by becoming a Patron!"
+msgstr ""
+
+#: cogs/premium.py:368
 msgid "For more details please check [the documentation](https://docs.nabbot.xyz/premium/)"
 msgstr ""
 
-#: cogs/premium.py:365
+#: cogs/premium.py:377
 msgid "Assigns premium to the current server or one you specify."
 msgstr ""
 
 #. Translators: Change the language code in the Discord link, make sure it's available, leave as `en-us` if not.
-#: cogs/premium.py:367
+#: cogs/premium.py:379
 msgid ""
 "If you use it without parameters, it will try to add premium to the current server.\n"
 "\n"
 "To obtain a server's ID, you can use the `serverinfo` command or enable [Developer Settings](https://support.discord.com/hc/en-us/articles/206346498) to view IDs with right click."
 msgstr ""
 
-#: cogs/premium.py:377
+#: cogs/premium.py:389
 msgid "You do not have any premium days to assign and you're not a patreon."
 msgstr ""
 
-#: cogs/premium.py:381
+#: cogs/premium.py:393
 #, python-brace-format
 msgid ""
 "You must tell me the id of the server you want to give premium to.\n"
@@ -2798,42 +2815,42 @@ msgid ""
 "Alternatively, you can use the command in the desired server with no parameters."
 msgstr ""
 
-#: cogs/premium.py:391
+#: cogs/premium.py:403
 msgid "I'm not in any guild with that id."
 msgstr ""
 
-#: cogs/premium.py:394
+#: cogs/premium.py:406
 msgid "You're not in that server."
 msgstr ""
 
-#: cogs/premium.py:399
+#: cogs/premium.py:411
 msgid "You can't assign premium to any more servers."
 msgstr ""
 
-#: cogs/premium.py:409
+#: cogs/premium.py:421
 msgid "Shows your current premium days balance."
 msgstr ""
 
-#: cogs/premium.py:410
+#: cogs/premium.py:422
 msgid ""
 "Premium days in your account can be assigned to servers you're in to give them premium privileges.\n"
 "\n"
 "Note that once you give premium to a server, it can't be taken back, even if you stop being part of the server."
 msgstr ""
 
-#: cogs/premium.py:418
+#: cogs/premium.py:430
 msgid "Premium Status"
 msgstr ""
 
-#: cogs/premium.py:420
+#: cogs/premium.py:432
 msgid "You currently have {days:,} days to assign."
 msgstr ""
 
-#: cogs/premium.py:421
+#: cogs/premium.py:433
 msgid "More info"
 msgstr ""
 
-#: cogs/premium.py:422
+#: cogs/premium.py:434
 #, python-brace-format
 msgid ""
 "`{prefix}premium history` to view your transactions.\n"
@@ -2841,50 +2858,50 @@ msgid ""
 "`{prefix}premium add` to add premium to a new server."
 msgstr ""
 
-#: cogs/premium.py:427
+#: cogs/premium.py:439
 msgid "Last change"
 msgstr ""
 
-#: cogs/premium.py:431
+#: cogs/premium.py:443
 msgid "You're currently a Patreon"
 msgstr ""
 
-#: cogs/premium.py:437
+#: cogs/premium.py:449
 msgid "Registers a Tibia Coin transfer to purchase NabBot premium."
 msgstr ""
 
-#: cogs/premium.py:438
+#: cogs/premium.py:450
 msgid "In order to buy premium, you must transfer the coins to **Nab Broker** and then register the transaction here, including the amount transferred and the character that made the transfer."
 msgstr ""
 
-#: cogs/premium.py:443
+#: cogs/premium.py:455
 msgid "The transferred amount can't be zero or lower."
 msgstr ""
 
-#: cogs/premium.py:446
+#: cogs/premium.py:458
 #, python-brace-format
 msgid "There is no character named **{character}**."
 msgstr ""
 
-#: cogs/premium.py:451
+#: cogs/premium.py:463
 msgid "You already have a pending transaction, wait for it to be reviewed."
 msgstr ""
 
-#: cogs/premium.py:453
+#: cogs/premium.py:465
 #, python-brace-format
 msgid ""
 "Do you confirm that you transferred **{amount}** Tibia coins from **{character}** to **{recipient}**?\n"
 "*Abuse may result in being banned from NabBot services.*"
 msgstr ""
 
-#: cogs/premium.py:461
+#: cogs/premium.py:473
 #, python-brace-format
 msgid ""
 "Payment sent for verification (ID: {id}). It might take some time for premium to be assigned.\n"
 "You will receive confirmation via DM when your payment is approved."
 msgstr ""
 
-#: cogs/premium.py:464
+#: cogs/premium.py:476
 #, python-brace-format
 msgid ""
 "\n"
@@ -2892,43 +2909,43 @@ msgid ""
 "*Make sure you're able to receive direct messages from me*. You can use `{prefix}checkdm` to check."
 msgstr ""
 
-#: cogs/premium.py:471
+#: cogs/premium.py:483
 msgid "Shows your transactions history, and the servers you've given days to."
 msgstr ""
 
-#: cogs/premium.py:472
+#: cogs/premium.py:484
 msgid ""
 "This shows a combination of the purchases you have done, and the servers you've given premium to.\n"
 "\n"
 "To only show purchases, you can add `purchases` at the end.\n"
 "To only show which servers you have given premium to, add `servers` at the end.\n"
 "\n"
-"To view more information about a specific purchase transaction, use `transaction view <id>`."
+"To view more information about a specific purchase transaction, use `transaction view ≪id≫`."
 msgstr ""
 
-#: cogs/premium.py:492
+#: cogs/premium.py:504
 msgid "You currently don't have any transactions."
 msgstr ""
 
-#: cogs/premium.py:506
+#: cogs/premium.py:518
 msgid "unknown server"
 msgstr ""
 
 #. How many days and for which server were the premium days for
-#: cogs/premium.py:508
+#: cogs/premium.py:520
 #, python-brace-format
 msgid "**-{days}d** - For **{server}**"
 msgstr ""
 
-#: cogs/premium.py:513
+#: cogs/premium.py:525
 msgid "Your transactions"
 msgstr ""
 
-#: cogs/premium.py:520
+#: cogs/premium.py:532
 msgid "Shows you a list of the servers you're currently giving premium to as a Patreon."
 msgstr ""
 
-#: cogs/premium.py:521
+#: cogs/premium.py:533
 msgid ""
 "Users that acquired premium through Patreon are given slots that they can use to grant premium to a server.\n"
 "This commands shows them the list of servers they're giving premium to, as well as the number of remaining slots they have.\n"
@@ -2936,64 +2953,64 @@ msgid ""
 "For regular premium users, they can use `premium history` to see which servers they have given premium days to."
 msgstr ""
 
-#: cogs/premium.py:532
+#: cogs/premium.py:544
 #, python-brace-format
 msgid "You currently do not have any premium servers. To assign one use: `{prefix}premium add`"
 msgstr ""
 
-#: cogs/premium.py:543
+#: cogs/premium.py:555
 #, python-brace-format
 msgid "You have used **{slots}** out of **{limit}** premium slots."
 msgstr ""
 
-#: cogs/premium.py:545
+#: cogs/premium.py:557
 msgid "Premium Servers"
 msgstr ""
 
-#: cogs/premium.py:554
+#: cogs/premium.py:566
 msgid "Shows premium prices and information."
 msgstr ""
 
-#: cogs/premium.py:558
+#: cogs/premium.py:570
 #, python-brace-format
 msgid ""
 "The price for **30** days of premium is **{price} {tc_emoji}**.\n"
-"To purchase, transfer to **{recipient}** and then submit the payment using: `{prefix}premium buy <amount> <character>` replacing with the amount sent and the character you transferred the coins from.\n"
+"To purchase, transfer to **{recipient}** and then submit the payment using: `{prefix}premium buy ≪amount≫ ≪character≫` replacing with the amount sent and the character you transferred the coins from.\n"
 "\n"
 "*Remember to remove the `<` `>` symbols!*"
 msgstr ""
 
-#: cogs/premium.py:565
+#: cogs/premium.py:577
 msgid "NabBot Premium Prices"
 msgstr ""
 
-#: cogs/premium.py:568
+#: cogs/premium.py:580
 #, python-brace-format
 msgid "You can also become a [Patron]({url}) to get premium benefits."
 msgstr ""
 
-#: cogs/premium.py:570
+#: cogs/premium.py:582
 msgid "More information"
 msgstr ""
 
-#: cogs/premium.py:572 cogs/tibiawiki.py:1341
+#: cogs/premium.py:584 cogs/tibiawiki.py:1341
 msgid "Premium"
 msgstr ""
 
-#: cogs/premium.py:575
+#: cogs/premium.py:587
 msgid "Other commands"
 msgstr ""
 
-#: cogs/premium.py:576
+#: cogs/premium.py:588
 #, python-brace-format
 msgid "For help and other commands: `{prefix}help premium`"
 msgstr ""
 
-#: cogs/premium.py:582
+#: cogs/premium.py:594
 msgid "Unassigns premium from a server you gave premium to as a Patreon."
 msgstr ""
 
-#: cogs/premium.py:583
+#: cogs/premium.py:595
 msgid ""
 "You can't remove premium days you have given to a server, this is only for servers that a Patreon user gave a slot to.\n"
 "\n"
@@ -3003,7 +3020,7 @@ msgid ""
 "You can't remove a premium server if it was assigned less than 5 days ago."
 msgstr ""
 
-#: cogs/premium.py:595
+#: cogs/premium.py:607
 #, python-brace-format
 msgid ""
 "You must tell me the id of the server you want to remove premium from.\n"
@@ -3011,123 +3028,123 @@ msgid ""
 "Alternatively, you can use the command in the desired server with no parameters."
 msgstr ""
 
-#: cogs/premium.py:607
+#: cogs/premium.py:619
 #, python-brace-format
 msgid "You currently do not have any premium servers. To assign one use: `{prefix}{command} add`"
 msgstr ""
 
-#: cogs/premium.py:612
+#: cogs/premium.py:624
 msgid "You haven't assigned premium to any server with this ID."
 msgstr ""
 
-#: cogs/premium.py:614
+#: cogs/premium.py:626
 msgid "You can't remove premium from a server with premium days."
 msgstr ""
 
-#: cogs/premium.py:616
+#: cogs/premium.py:628
 msgid "You can only unassign a server after 5 days."
 msgstr ""
 
-#: cogs/premium.py:618
+#: cogs/premium.py:630
 #, python-brace-format
 msgid "<Unknown Server {id}>"
 msgstr ""
 
-#: cogs/premium.py:619
+#: cogs/premium.py:631
 #, python-brace-format
 msgid "Are you sure you want to remove premium from **{name}**?"
 msgstr ""
 
-#: cogs/premium.py:624
+#: cogs/premium.py:636
 msgid "Premium server removed."
 msgstr ""
 
-#: cogs/premium.py:630
+#: cogs/premium.py:642
 msgid "Shows a list of the premium days the server has received."
 msgstr ""
 
-#: cogs/premium.py:635
+#: cogs/premium.py:647
 msgid "This server currently has no transaction history."
 msgstr ""
 
-#: cogs/premium.py:639
+#: cogs/premium.py:651
 msgid "<Unknown User>"
 msgstr ""
 
-#: cogs/premium.py:644
+#: cogs/premium.py:656
 msgid "Premium History"
 msgstr ""
 
-#: cogs/premium.py:782
+#: cogs/premium.py:794
 msgid "Shows details about a specific transaction."
 msgstr ""
 
-#: cogs/premium.py:783
+#: cogs/premium.py:795
 msgid "You can only view your own transactions. To see a list of them use `premium history`."
 msgstr ""
 
-#: cogs/premium.py:788
+#: cogs/premium.py:800
 msgid "There is no transaction with that ID or it does not belong to you."
 msgstr ""
 
-#: cogs/premium.py:804
+#: cogs/premium.py:816
 msgid "This server already has premium."
 msgstr ""
 
-#: cogs/premium.py:806
+#: cogs/premium.py:818
 #, python-brace-format
 msgid ""
 "Are you sure you want to assign premium to **{server}**?\n"
 "*There will be a 5 day cooldown to change this premium slot*"
 msgstr ""
 
-#: cogs/premium.py:812
+#: cogs/premium.py:824
 #, python-brace-format
 msgid "**{server}** is now a premium server."
 msgstr ""
 
-#: cogs/premium.py:823
+#: cogs/premium.py:835
 #, python-brace-format
 msgid ""
 "Are you sure you want to give {days} premium days to **{server}**?\n"
 "*These premium days can't be removed.*"
 msgstr ""
 
-#: cogs/premium.py:832
+#: cogs/premium.py:844
 msgid "You cannot assign premium to a server that a Patron is giving premium to."
 msgstr ""
 
-#: cogs/premium.py:841
+#: cogs/premium.py:853
 #, python-brace-format
 msgid "**{server}** has received {days} premium days."
 msgstr ""
 
-#: cogs/premium.py:861
+#: cogs/premium.py:873
 #, python-brace-format
 msgid "Transaction No. {id}"
 msgstr ""
 
-#: cogs/premium.py:863
+#: cogs/premium.py:875
 msgid "Submitted on"
 msgstr ""
 
-#: cogs/premium.py:869 cogs/tibia.py:2264
+#: cogs/premium.py:881 cogs/tibia.py:2264
 msgid "Status"
 msgstr ""
 
-#: cogs/premium.py:872
+#: cogs/premium.py:884
 msgid "Amount"
 msgstr ""
 
-#: cogs/premium.py:874
+#: cogs/premium.py:886
 msgid "Days"
 msgstr ""
 
-#: cogs/premium.py:878
+#: cogs/premium.py:890
 msgid "Details"
 msgstr ""
 
-#: cogs/premium.py:880
+#: cogs/premium.py:892
 msgid "Additional Comments"
 msgstr ""
 
@@ -4046,7 +4063,7 @@ msgstr ""
 msgid "Showing data from {from_date} to {to_date}"
 msgstr ""
 
-#: cogs/stats.py:170
+#: cogs/stats.py:171
 msgid "Could not find data."
 msgstr ""
 
@@ -4801,9 +4818,9 @@ msgstr ""
 #: cogs/tibia.py:1209
 msgid ""
 "There are 3 ways to use this command:\n"
-"- Find a character in share range with another character. (`searchworld <name>`)\n"
-"- Find a character in share range with a certain level. (`searchworld <level>`)\n"
-"- Find a character in a level range. (`searchworld <min>,<max>`)\n"
+"- Find a character in share range with another character. (`searchworld ≪name≫`)\n"
+"- Find a character in share range with a certain level. (`searchworld ≪level≫`)\n"
+"- Find a character in a level range. (`searchworld ≪min≫,≪max≫`)\n"
 "\n"
 "By default, the tracked world is searched, unless specified at the end of the parameters\n"
 "You can add the world where you want to look in by adding a comma, followed by the name of the world.\n"
@@ -4887,9 +4904,9 @@ msgstr ""
 #: cogs/tibia.py:1323
 msgid ""
 "This command can be used in three ways:\n"
-"1. Find the share range of a certain level. (`share <level>`)\n"
-"2. Find the share range of a character. (`share <name>`)\n"
-"3. Find the joint share range of a group of characters. (`share <name1, name2…>`)"
+"1. Find the share range of a certain level. (`share ≪level≫`)\n"
+"2. Find the share range of a character. (`share ≪name≫`)\n"
+"3. Find the joint share range of a group of characters. (`share ≪name1, name2,…≫`)"
 msgstr ""
 
 #: cogs/tibia.py:1336
@@ -5269,7 +5286,7 @@ msgstr ""
 
 #: cogs/tibia.py:2101
 #, python-brace-format
-msgid "To see a specific entry, use the command `{prefix}news <id>`"
+msgid "To see a specific entry, use the command `{prefix}news ≪id≫`"
 msgstr ""
 
 #. The world the character was in before transferring
@@ -5683,7 +5700,7 @@ msgstr ""
 
 #: cogs/tibiawiki.py:224
 #, python-brace-format
-msgid "Use `{prefix}monster <name>` to see more info"
+msgid "Use `{prefix}monster ≪name≫` to see more info"
 msgstr ""
 
 #: cogs/tibiawiki.py:225
@@ -5830,7 +5847,7 @@ msgstr ""
 
 #: cogs/tibiawiki.py:653
 #, python-brace-format
-msgid "Use '{prefix}{command} <name>' to see more information."
+msgid "Use '{prefix}{command} ≪name≫' to see more information."
 msgstr ""
 
 #: cogs/tibiawiki.py:665 cogs/tibiawiki.py:723 cogs/tibiawiki.py:743
@@ -7354,9 +7371,9 @@ msgstr ""
 #: cogs/tracking.py:1149
 msgid ""
 "There are 3 ways to use this command:\n"
-"- Show characters in share range with a specific character. (`searchteam <name>`)\n"
-"- Show characters in share range with a specific level. (`searchteam <level>`)\n"
-"- Show characters in a level range. (`searchteam <min>,<max>`)\n"
+"- Show characters in share range with a specific character. (`searchteam ≪name≫`)\n"
+"- Show characters in share range with a specific level. (`searchteam ≪level≫`)\n"
+"- Show characters in a level range. (`searchteam ≪min≫,≪max≫`)\n"
 "\n"
 "Online characters are shown first on the list, they also have an icon."
 msgstr ""
