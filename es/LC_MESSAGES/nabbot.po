@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-27 19:18-0700\n"
-"PO-Revision-Date: 2021-04-28 02:26\n"
+"PO-Revision-Date: 2021-04-28 03:22\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1365,7 +1365,10 @@ msgid "Shows hitpoints, mana, capacity, total experience and experience to next 
 "This command can be used in two ways:\n"
 "1. To calculate the stats for a certain level and vocation. (`stats ≪level≫,≪vocation≫`)\n"
 "2. To calculate the stats of a character. (`stats ≪character≫`)"
-msgstr ""
+msgstr "Muestra hitpoints, maná, capacidad, experiencia total y experiencia para siguiente nivel.\n\n"
+"Este comando puede utilizarse de dos maneras:\n"
+"1. Para calcular los stats para un cierto nivel y vocación. (`stats ≪nivel>,≪vocación≫`)\n"
+"2. Para calcular las stats de un personaje. (`stats ≪personaje≫`)"
 
 #: cogs/calculators.py:453
 msgid "There's no level lower than 1, it doesn't matter how bad you are at Tibia."
@@ -1761,7 +1764,7 @@ msgstr "Por defecto, tira una vez un dado de 6 caras una vez.\n"
 
 #: cogs/general.py:170
 msgid "Invalid parameter! I'm expecting `≪times≫d≪sides≫`."
-msgstr ""
+msgstr "¡Parámetro no válido! Estoy esperando `≪veces≫d≪lados≫`."
 
 #: cogs/general.py:173
 msgid "You want me to roll the die zero times? Ok… There, done."
@@ -1960,7 +1963,7 @@ msgstr "Emojis personalizados"
 #: cogs/info.py:185
 #, python-brace-format
 msgid "To view information of a specific emoji, use '{prefix}{command} ≪emoji≫'"
-msgstr ""
+msgstr "Para ver la información de un emoji específico, usa '{prefix}{command} ≪emoji≫'"
 
 #. Regular emojis
 #: cogs/info.py:189
@@ -2417,7 +2420,7 @@ msgstr "Apodo eliminado"
 #: cogs/logging.py:494
 #, python-brace-format
 msgid "**{nickname}** deleted"
-msgstr ""
+msgstr "**{nickname}** eliminado"
 
 #: cogs/logging.py:496
 msgid "Nickname changed"
@@ -2794,15 +2797,15 @@ msgstr "Este servidor ya no está recibiendo premium."
 
 #: cogs/premium.py:354
 msgid "Links to NabBot's Patreon."
-msgstr ""
+msgstr "Da un enlace al Patreon de NabBot."
 
 #: cogs/premium.py:357
 msgid "NabBot's Patreon"
-msgstr ""
+msgstr "Patreon de NabBot"
 
 #: cogs/premium.py:357
 msgid "Support NabBot by becoming a Patron!"
-msgstr ""
+msgstr "¡Apoya a NabBot convirtiéndote en Patreon!"
 
 #: cogs/premium.py:368
 msgid "For more details please check [the documentation](https://docs.nabbot.xyz/premium/)"
@@ -2934,7 +2937,10 @@ msgid "This shows a combination of the purchases you have done, and the servers 
 "To only show purchases, you can add `purchases` at the end.\n"
 "To only show which servers you have given premium to, add `servers` at the end.\n\n"
 "To view more information about a specific purchase transaction, use `transaction view ≪id≫`."
-msgstr ""
+msgstr "Esto muestra una combinación de las compras que has hecho y los servidores a los que has dado premio.\n\n"
+"Para mostrar solo las compras, puedes añadir `purchases` al final.\n"
+"Para mostrar únicamente a qué servidores has dado premium, añade `servers` al final.\n\n"
+"Para ver más información acerca de una transacción específica, utilice `transaction view ≪id≫`."
 
 #: cogs/premium.py:504
 msgid "You currently don't have any transactions."
@@ -2989,7 +2995,9 @@ msgstr "Muestra los precios e información de premium."
 msgid "The price for **30** days of premium is **{price} {tc_emoji}**.\n"
 "To purchase, transfer to **{recipient}** and then submit the payment using: `{prefix}premium buy ≪amount≫ ≪character≫` replacing with the amount sent and the character you transferred the coins from.\n\n"
 "*Remember to remove the `<` `>` symbols!*"
-msgstr ""
+msgstr "El precio de **30** días de premium es **{price} {tc_emoji}**.\n"
+"Para comprar, transfiere a **{recipient}** y luego registra el pago utilizando: `{prefix}premium buy ≪cantidad≫ ≪personaje≫` reemplazando con la cantidad enviada y el personaje del que transferiste las monedas.\n\n"
+"*¡Recuerda eliminar los símbolos `<` `>`!*"
 
 #: cogs/premium.py:577
 msgid "NabBot Premium Prices"
@@ -4842,7 +4850,13 @@ msgid "There are 3 ways to use this command:\n"
 "By default, the tracked world is searched, unless specified at the end of the parameters\n"
 "You can add the world where you want to look in by adding a comma, followed by the name of the world.\n"
 "Example: `searchworld Cachero,Calmera`"
-msgstr ""
+msgstr "Hay 3 formas de usar este comando:\n"
+"- Encuentra un personaje en el rango de compartir con otro personaje. (`searchworld ≪nombre≫`)\n"
+"- Encuentra un personaje en el rango de compartir con un cierto nivel. (`searchworld ≪nivel≫`)\n"
+"- Encuentra un personaje en un rango de nivel. (`searchworld ≪min≫,≪max≫`)\n\n"
+"Por defecto, se busca el mundo seguido, a menos que se especifique al final de los parámetros\n"
+"Puede añadir el mundo donde desea buscar añadiendo una coma, seguido del nombre del mundo.\n"
+"Ejemplo: `searchworld Cachero, Calmera`"
 
 #: cogs/tibia.py:1219 cogs/tracking.py:1157
 msgid "Invalid arguments used, examples:"
@@ -4923,7 +4937,10 @@ msgid "This command can be used in three ways:\n"
 "1. Find the share range of a certain level. (`share ≪level≫`)\n"
 "2. Find the share range of a character. (`share ≪name≫`)\n"
 "3. Find the joint share range of a group of characters. (`share ≪name1, name2,…≫`)"
-msgstr ""
+msgstr "Este comando puede utilizarse de tres maneras:\n"
+"1. Encuentra el rango de compartir experiencia de un nivel. (`share ≪level≫`)\n"
+"2. Encuentra el rango de compartir experiencia de un personaje. (`compartir ≪name≫`)\n"
+"3. Encuentra el rango de compartir experiencia conjunto de un grupo de personajes. (`share ≪name1, name2…≫`)"
 
 #: cogs/tibia.py:1336
 #, python-format
@@ -5309,7 +5326,7 @@ msgstr "Noticias recientes"
 #: cogs/tibia.py:2101
 #, python-brace-format
 msgid "To see a specific entry, use the command `{prefix}news ≪id≫`"
-msgstr ""
+msgstr "Para ver una entrada específica, utilice el comando `{prefix} ≪id≫`"
 
 #. The world the character was in before transferring
 #: cogs/tibia.py:2116
@@ -5722,7 +5739,7 @@ msgstr "No hay ninguna clase con ese nombre."
 #: cogs/tibiawiki.py:224
 #, python-brace-format
 msgid "Use `{prefix}monster ≪name≫` to see more info"
-msgstr ""
+msgstr "Usa `{prefix}monstruo ≪nombre≫` para ver más información"
 
 #: cogs/tibiawiki.py:225
 #, python-brace-format
@@ -5871,7 +5888,7 @@ msgstr "Implementado en la versión {version}."
 #: cogs/tibiawiki.py:653
 #, python-brace-format
 msgid "Use '{prefix}{command} ≪name≫' to see more information."
-msgstr ""
+msgstr "Usa'{prefix}{command} ≪name≫' para ver más información."
 
 #: cogs/tibiawiki.py:665 cogs/tibiawiki.py:723 cogs/tibiawiki.py:743
 #: cogs/tibiawiki.py:749 cogs/tibiawiki.py:756
@@ -7408,7 +7425,11 @@ msgid "There are 3 ways to use this command:\n"
 "- Show characters in share range with a specific level. (`searchteam ≪level≫`)\n"
 "- Show characters in a level range. (`searchteam ≪min≫,≪max≫`)\n\n"
 "Online characters are shown first on the list, they also have an icon."
-msgstr ""
+msgstr "Hay 3 maneras de usar este comando:\n"
+"- Mostrar personajes en el rango compartido con un carácter específico. (`searchteam ≪name≫`)\n"
+"- Muestra personajes en el rango de compartir con un nivel específico. (`searchteam ≪level≫`)\n"
+"- Muestra los personajes en un rango de niveles. (`searchteam ≪min≫,≪max≫`)\n\n"
+"Los personajes en línea aparecen primero en la lista, también tienen un icono."
 
 #: cogs/tracking.py:1159
 #, python-brace-format
