@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-27 07:28-0700\n"
-"PO-Revision-Date: 2021-04-27 14:35\n"
+"PO-Revision-Date: 2021-04-28 01:56\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1335,7 +1335,7 @@ msgstr "La estamina actual no puede ser mayor que la estamina deseada."
 
 #: cogs/calculators.py:409
 msgid "Current stamina is already equal to target."
-msgstr "La stamina actual ya es igual que la deseada."
+msgstr "La estamina actual ya es igual que la deseada."
 
 #: cogs/calculators.py:425
 #, python-brace-format
@@ -1372,7 +1372,7 @@ msgstr "Muestra hitpoints, maná, capacidad, experiencia total y experiencia al 
 
 #: cogs/calculators.py:453
 msgid "There's no level lower than 1, it doesn't matter how bad you are at Tibia."
-msgstr "No hay nivel menor a 1, no importa lo malo que seas en Tibia."
+msgstr "No hay nivel menor a 1, no importa que tan malo seas en Tibia."
 
 #. Shown when trying to enter a very high level.
 #: cogs/calculators.py:456
@@ -1437,7 +1437,7 @@ msgstr "La capacidad no puede ser menor que %d."
 #: cogs/calculators.py:506
 msgid "To reach **{capacity:,}** oz. capacity, you need at least the following levels per vocation:\n"
 "\t"
-msgstr "Para alcanzar la capacidad **{capacity:,}** oz. necesitas al menos los siguientes niveles por vocación:\n"
+msgstr "Para alcanzar **{capacity:,}** oz. de capacidad necesitas al menos los siguientes niveles por vocación:\n"
 "\t"
 
 #: cogs/calculators.py:513
@@ -1557,7 +1557,7 @@ msgstr "Servidor de Soporte"
 
 #: cogs/core.py:371
 msgid "Please report this bug in the support server."
-msgstr "Por favor reporte este error en el servidor de soporte."
+msgstr "Por favor reporta este error en el servidor de soporte."
 
 #: cogs/core.py:384
 #, python-brace-format
@@ -2210,7 +2210,7 @@ msgstr "Requiere dos puntos"
 
 #: cogs/info.py:434
 msgid "Role limited"
-msgstr "Limtado a roles"
+msgstr "Limitado a roles"
 
 #: cogs/info.py:437 cogs/tibiawiki.py:1180
 msgid "Attributes"
@@ -2732,7 +2732,7 @@ msgstr "El tiempo premium ha expirado."
 
 #: cogs/premium.py:165
 msgid "Premium expired"
-msgstr "Premium expiro"
+msgstr "Premium expiró"
 
 #: cogs/premium.py:212
 #, python-brace-format
@@ -3099,7 +3099,7 @@ msgstr "Este servidor ya tiene premium."
 msgid "Are you sure you want to assign premium to **{server}**?\n"
 "*There will be a 5 day cooldown to change this premium slot*"
 msgstr "¿Estás seguro de que quieres asignar premium a **{server}**?\n"
-"*No podras cambiar este espacio por 5 días*"
+"*No podrás cambiar este espacio por 5 días*"
 
 #: cogs/premium.py:812
 #, python-brace-format
@@ -3232,7 +3232,7 @@ msgstr "Ahora estás cazando en **{respawn.name}**.\n"
 
 #: cogs/respawn.py:284
 msgid "Removes the current hunter and the entire queue of a respawn."
-msgstr "Eliminza al cazador actual y la cola del respawn."
+msgstr "Elimina al cazador actual y la cola del respawn."
 
 #: cogs/respawn.py:288
 #, python-brace-format
@@ -3793,7 +3793,7 @@ msgstr "No puedo crear un grupo a partir de un rol mayor o igual que mi rol más
 #: cogs/roles.py:388
 #, python-brace-format
 msgid "Group {name} created successfully."
-msgstr "Grupo {name} creado exitosamente."
+msgstr "Grupo {name} creado con éxito."
 
 #: cogs/roles.py:393
 msgid "Shows a list of available groups."
@@ -4314,7 +4314,7 @@ msgstr "El valor total de todos los personajes intercambiados con éxito es **{t
 
 #: cogs/tibia.py:427
 msgid "Most Expensive"
-msgstr "Más caros"
+msgstr "Los más caros"
 
 #: cogs/tibia.py:434
 msgid "Shows a world's bosses predictions."
@@ -4551,11 +4551,11 @@ msgstr "Ver más…"
 #: cogs/tibia.py:760
 #, python-brace-format
 msgid "Posted by {author}"
-msgstr "Posteado por {author}"
+msgstr "Publicado por {author}"
 
 #: cogs/tibia.py:762
 msgid "Posted on"
-msgstr "Posteado el"
+msgstr "Publicado el"
 
 #: cogs/tibia.py:769
 msgid "Shows online characters in a guild."
@@ -4613,7 +4613,7 @@ msgstr "Aplicaciones"
 
 #: cogs/tibia.py:833
 msgid "Homepage"
-msgstr "Página Web"
+msgstr "Página web"
 
 #: cogs/tibia.py:845
 msgid "Members online"
@@ -4995,8 +4995,7 @@ msgstr "Si no se proporciona ningún personaje, se mostrará la línea de tiempo
 "Los personajes deben estar registrados para tener una línea de tiempo.\n"
 "- 🌟 Indica subidas de nivel\n"
 "- ☠ Indica muertes\n"
-"-💀 Indica muertes PvP\n"
-"        "
+"-💀 Indica muertes PvP"
 
 #: cogs/tibia.py:1421
 msgid "Timeline"
@@ -5228,7 +5227,7 @@ msgid "You can pass a list of parameters separated by commas to change the sorti
 msgstr "Puede pasar una lista de parámetros separados por comas para cambiar la clasificación o filtrar mundos.\n"
 "- `online` para ordenar por número de personajes en línea.\n"
 "- `descending` para invertir el orden.\n"
-"- `europe`, `Sudamerica` o `Norteamerica` para filtrar por ubicación.\n"
+"- `europe`, `south america` o `north america` para filtrar por ubicación.\n"
 "- `opcional pvp`, `open pvp`, `retro open pvp`, `hardcore pvp` o `retro hardcore pvp` para filtrar por tipo PvP."
 
 #: cogs/tibia.py:1882
@@ -5526,7 +5525,7 @@ msgstr "{name} (**@{user}**) - En nivel **{level}** por {killer} - hace {time}"
 #, python-format
 msgid "**%d** day"
 msgid_plural "**%d** days"
-msgstr[0] "**%d** días"
+msgstr[0] "**%d** día"
 msgstr[1] "**%d** días"
 
 #. Last time the boss was seen
@@ -5651,7 +5650,7 @@ msgstr "Palabras"
 
 #: cogs/tibiawiki.py:123
 msgid "Volume"
-msgstr "Volúmen"
+msgstr "Volumen"
 
 #: cogs/tibiawiki.py:137
 msgid "Defensive"
@@ -6015,7 +6014,7 @@ msgstr "Habilidades"
 
 #: cogs/tibiawiki.py:1039
 msgid "Through: "
-msgstr "Sobre: "
+msgstr "Camina Sobre: "
 
 #: cogs/tibiawiki.py:1040
 msgid "Around: "

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-27 07:28-0700\n"
-"PO-Revision-Date: 2021-04-27 14:29\n"
+"PO-Revision-Date: 2021-04-27 21:09\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -19,155 +19,155 @@ msgstr ""
 
 #: utils/constants.py:38
 msgid "I don't have a character with that name registered."
-msgstr "Eu não tenho um personagem com esse nome registrado."
+msgstr ""
 
 #: utils/constants.py:39
 msgid "I couldn't find a character with that name."
-msgstr "Não encontrei nenhum personagem com esse nome."
+msgstr ""
 
 #: utils/constants.py:40
 msgid "I couldn't fetch the character, please try again."
-msgstr "Eu não consegui pesquisar o personagem, por favor, tente novamente."
+msgstr ""
 
 #: utils/constants.py:41
 msgid "I'm having network issues, please try again."
-msgstr "Estou tendo problemas de conexão, por favor, tente novamente."
+msgstr ""
 
 #: utils/constants.py:43
 msgid "You took to long to confirm. Aborting."
-msgstr "Você demorou demais para confirmar. Abortando."
+msgstr ""
 
 #: utils/constants.py:44
 msgid "No changes will be done then."
-msgstr "Nenhuma mudança será feita."
+msgstr ""
 
 #: utils/constants.py:46
 msgid "I don't see any users with that name."
-msgstr "Não vejo nenhum usuário com esse nome."
+msgstr ""
 
 #: utils/constants.py:47
 #, python-brace-format
 msgid "I couldn't find any users named `{name}`."
-msgstr "Não encontrei nenhum usuário chamado `{name}`."
+msgstr ""
 
 #: utils/constants.py:48
 msgid "That is not a valid ID."
-msgstr "Este ID não é válido."
+msgstr ""
 
 #: utils/constants.py:49
 msgid "That's not a valid level."
-msgstr "Este nível não é válido."
+msgstr ""
 
 #: utils/constants.py:51
 msgid "There is no world with that name."
-msgstr "Não existe mundo com este nome."
+msgstr ""
 
 #: utils/constants.py:53
 msgid "There is no guild with that name."
-msgstr "Não há nenhuma guilda com esse nome."
+msgstr ""
 
 #: utils/constants.py:55
 msgid "I could not find that channel."
-msgstr "Não encontrei esse canal."
+msgstr ""
 
 #: utils/constants.py:56
 msgid "…and more"
-msgstr "…e mais"
+msgstr ""
 
 #: utils/checks.py:21
 msgid "This command cannot be used in private messages."
-msgstr "Este comando não pode ser utilizado em mensagens privadas."
+msgstr ""
 
 #: utils/checks.py:30
 msgid "You are not allowed to use this command."
-msgstr "Você não tem permissão para usar esse comando."
+msgstr ""
 
 #: utils/checks.py:41
 msgid "You need Administrator permission to use this command."
-msgstr "Você precisa ter permissão de Administrador para usar este comando."
+msgstr ""
 
 #: utils/checks.py:51
 msgid "You need `Manage Server` permissions to use this command."
-msgstr "Você precisa da permissão `Gerenciar Servidor` para usar este comando."
+msgstr ""
 
 #: utils/checks.py:79 utils/checks.py:98
 msgid "You need `Manage Channel` permissions to use this command."
-msgstr "Você precisa da permissão `Gerenciar Canal` para usar este comando."
+msgstr ""
 
 #: utils/checks.py:112 utils/checks.py:127
 msgid "This server is not tracking any worlds."
-msgstr "Este servidor não está rastreando nenhum mundo."
+msgstr ""
 
 #: utils/checks.py:129
 msgid "You're not in any server tracking a world."
-msgstr "Você não está em nenhum servidor que esteja rastreando algum mundo."
+msgstr ""
 
 #: utils/converter.py:46
 msgid "Member \"{}\" not found."
-msgstr "Membro \"{}\" não encontrado."
+msgstr ""
 
 #: utils/converter.py:81
 msgid "Role \"{}\" not found."
-msgstr "Cargo \"{}\" não encontrado."
+msgstr ""
 
 #: utils/converter.py:93 utils/converter.py:97
 msgid "Could not find a channel by ID {argument!r}."
-msgstr "Não encontrei um canal com ID {argument!r}."
+msgstr ""
 
 #: utils/converter.py:117
 msgid "That's not a valid time, try something like this: `1d7h` or `4h20m`"
-msgstr "Não é um tempo válido, tente algo assim: `1d7h` ou `4h20m`"
+msgstr ""
 
 #: utils/converter.py:134
 msgid "That's a bit too far in the future… Try less than 60 days."
-msgstr "Isso está em um futuro muito distante… Tente com menos de 60 dias."
+msgstr ""
 
 #: utils/converter.py:143
 msgid "Invalid stamina format, expected: `hh:mm`"
-msgstr "Formato de stamina inválido, esperado: `hh:mm`"
+msgstr ""
 
 #: utils/converter.py:147
 msgid "Invalid stamina, minutes can't be 60 or greater."
-msgstr "Stamina inválida, o campo de minutos não pode ser maior ou igual a 60."
+msgstr ""
 
 #: utils/converter.py:149
 msgid "Invalid stamina, can't have more than 42 hours."
-msgstr "Stamina inválida, não se pode ter mais de 42 horas."
+msgstr ""
 
 #: utils/converter.py:186
 #, python-brace-format
 msgid "`{argument}` is not a valid number."
-msgstr "`{argument}` não é um número válido."
+msgstr ""
 
 #. Level up message used when simple messages is enabled
 #: utils/messages.py:88
 #, python-brace-format
 msgid "**{name}** advanced to level {level}."
-msgstr "**{name}** avançou para o nível {level}."
+msgstr ""
 
 #. Death message used when simple messages is on. Article will always be in English (a/an). May be omitted if fitting.
 #: utils/messages.py:90
 #, python-brace-format
 msgid "**{name}** ({level}) died to {killer_article}**{killer}**."
-msgstr "**{name}** ({level}) morreu para {killer_article}**{killer}**."
+msgstr ""
 
 #. PvP deaths messages used when simple messages is on.
 #: utils/messages.py:92
 #, python-brace-format
 msgid "**{name}** ({level}) was killed by **{killer}**."
-msgstr "**{name}** ({level}) foi morto por **{killer}**."
+msgstr ""
 
 #: utils/pages.py:104
 msgid "I need `Add Reactions` permission to display this command."
-msgstr "Eu preciso da permissão `Adicionar reações` para exibir este comando."
+msgstr ""
 
 #: utils/pages.py:107
 msgid "I need `Read Message History` permission to display this command."
-msgstr "Eu preciso da permissão `Ler Histórico de Mensagens` para exibir esse comando."
+msgstr ""
 
 #: utils/pages.py:124 utils/pages.py:447
 msgid "Page"
-msgstr "Página"
+msgstr ""
 
 #: utils/pages.py:125
 #, python-format
@@ -348,76 +348,76 @@ msgstr[1] ""
 
 #: cogs/admin.py:35 cogs/tibia.py:2038 cogs/tibia.py:2121
 msgid "World"
-msgstr "Mundo"
+msgstr ""
 
 #: cogs/admin.py:36
 msgid "Language"
-msgstr "Idioma"
+msgstr ""
 
 #: cogs/admin.py:37
 msgid "News channel"
-msgstr "Canal de notícias"
+msgstr ""
 
 #: cogs/admin.py:38
 msgid "News tickers"
-msgstr "Tickers de notícias"
+msgstr ""
 
 #: cogs/admin.py:39
 msgid "Events channel"
-msgstr "Canal de eventos"
+msgstr ""
 
 #: cogs/admin.py:40
 msgid "Server Log channel"
-msgstr "Canal de logs do servidor"
+msgstr ""
 
 #: cogs/admin.py:41
 msgid "Tracking channel"
-msgstr "Canal de monitoramento"
+msgstr ""
 
 #: cogs/admin.py:42
 msgid "Min Announce Level"
-msgstr "Nível mínimo de anúncio"
+msgstr ""
 
 #: cogs/admin.py:43
 msgid "Prefix"
-msgstr "Prefixo"
+msgstr ""
 
 #: cogs/admin.py:44
 msgid "Welcome message"
-msgstr "Mensagem de boas vindas"
+msgstr ""
 
 #: cogs/admin.py:45
 msgid "Welcome channel"
-msgstr "Canal de boas vindas"
+msgstr ""
 
 #: cogs/admin.py:46
 msgid "Default Announcements"
-msgstr "Anúncios padrões"
+msgstr ""
 
 #: cogs/admin.py:47
 msgid "Show User in Announcements"
-msgstr "Mostrar usuário nos Anúncios"
+msgstr ""
 
 #: cogs/admin.py:50
 msgid "I couldn't find that channel, are you sure it exists?"
-msgstr "Eu não consegui encontrar este canal, você tem certeza que ele existe?"
+msgstr ""
 
 #: cogs/admin.py:52
 msgid "yes/no"
-msgstr "sim/não"
+msgstr ""
 
 #: cogs/admin.py:53
 msgid "That's not a valid option, try **yes** or **no**."
-msgstr "Esta opção é inválida, tente **sim** ou **não**."
+msgstr ""
 
 #: cogs/admin.py:54
 msgid "A channel's name or ID, or `disable`."
-msgstr "Um nome ou ID de canal, ou `disable`."
+msgstr ""
 
 #. Used to show that the current setting is the default global setting.
 #: cogs/admin.py:57
 msgid "Global default"
-msgstr "Padrão global"
+msgstr ""
 
 #: cogs/admin.py:77 cogs/admin.py:178
 msgid "unknown language"
@@ -425,12 +425,12 @@ msgstr ""
 
 #: cogs/admin.py:87
 msgid "You can't remove this prefix."
-msgstr "Você não pode remover este prefixo."
+msgstr ""
 
 #: cogs/admin.py:89
 #, python-format
 msgid "The prefix can't be longer than %d characters."
-msgstr "O prefixo não pode ter mais de %d caracteres."
+msgstr ""
 
 #: cogs/admin.py:97
 msgid "You cannot change server settings in private messages."
@@ -438,11 +438,11 @@ msgstr ""
 
 #: cogs/admin.py:103 cogs/tibia.py:2137
 msgid "Yes"
-msgstr "Sim"
+msgstr ""
 
 #: cogs/admin.py:103
 msgid "No"
-msgstr "Não"
+msgstr ""
 
 #: cogs/admin.py:106
 msgid "Commands for server administrators and mods.\n\n"
@@ -461,113 +461,113 @@ msgstr ""
 #: cogs/admin.py:122
 #, python-brace-format
 msgid "**Checking {channel}:**"
-msgstr "**Verificando {channel}:**"
+msgstr ""
 
 #: cogs/admin.py:125
 msgid "I have `Administrator` permission."
-msgstr "Eu tenho permissão de `Administrador`."
+msgstr ""
 
 #: cogs/admin.py:130
 msgid "I won't be able to see commands in here."
-msgstr "Eu não poderei ver comandos aqui."
+msgstr ""
 
 #: cogs/admin.py:130
 msgid "View Channel"
-msgstr "Ver canal"
+msgstr ""
 
 #: cogs/admin.py:131
 msgid "I won't be able to respond in here."
-msgstr "Eu não poderei responder aqui."
+msgstr ""
 
 #: cogs/admin.py:131
 msgid "Send Messages"
-msgstr "Enviar mensagens"
+msgstr ""
 
 #: cogs/admin.py:132 cogs/admin.py:137
 msgid "Pagination or commands that require reaction confirmation won't work."
-msgstr "Paginação ou comandos que exigem confirmação através de reações não funcionarão."
+msgstr ""
 
 #: cogs/admin.py:133
 msgid "Add Reactions"
-msgstr "Adicionar reações"
+msgstr ""
 
 #: cogs/admin.py:134
 msgid "I won't be able to show my emojis in some commands."
-msgstr "Eu não poderei mostrar meus emojis em alguns comandos."
+msgstr ""
 
 #: cogs/admin.py:135
 msgid "Use External Emoji"
-msgstr "Usar emojis externos"
+msgstr ""
 
 #: cogs/admin.py:138
 msgid "Read Message History"
-msgstr "Ler histórico de mensagens"
+msgstr ""
 
 #: cogs/admin.py:139
 msgid "Command pagination won't work well."
-msgstr "A paginação do comando não funcionará bem."
+msgstr ""
 
 #: cogs/admin.py:139
 msgid "Manage Messages"
-msgstr "Gerenciar mensagens"
+msgstr ""
 
 #: cogs/admin.py:140
 msgid "I won't be able to show many of my commands."
-msgstr "Não poderei mostrar muitos dos meus comandos."
+msgstr ""
 
 #: cogs/admin.py:140
 msgid "Embed Links"
-msgstr "Incorporar links"
+msgstr ""
 
 #: cogs/admin.py:141
 msgid "I won't be able to show images in some of my commands."
-msgstr "Não poderei mostrar imagens em alguns dos meus comandos."
+msgstr ""
 
 #: cogs/admin.py:141
 msgid "Attach Files"
-msgstr "Anexar arquivos"
+msgstr ""
 
 #: cogs/admin.py:142
 msgid "I only need this to manage auto roles and joinable roles."
-msgstr "Só preciso disso para gerenciar cargos automáticos e cargos selecionáveis."
+msgstr ""
 
 #: cogs/admin.py:142
 msgid "Manage Roles"
-msgstr "Gerenciar cargos"
+msgstr ""
 
 #: cogs/admin.py:143
 msgid "I only need this to create watchlists."
-msgstr "Eu só preciso disso para criar watchlists."
+msgstr ""
 
 #: cogs/admin.py:143
 msgid "Manage Channels"
-msgstr "Gerenciar canais"
+msgstr ""
 
 #: cogs/admin.py:144
 msgid "I need this to create server logs, news and levels channels, as well as watchlist feeds."
-msgstr "Eu preciso disso para criar logs de servidor, canais de notícias e níveis, assim como feeds para as watchlists."
+msgstr ""
 
 #: cogs/admin.py:145
 msgid "Manage Webhooks"
-msgstr "Gerenciar webhooks"
+msgstr ""
 
 #: cogs/admin.py:146
 msgid "I only need this to show you the author of actions in the server log."
-msgstr "Eu só preciso disso para mostrar o autor das ações no log do servidor."
+msgstr ""
 
 #: cogs/admin.py:147
 msgid "View Audit Log"
-msgstr "Ver registro de auditoria"
+msgstr ""
 
 #. Shown when a specific Discord permission is missing
 #: cogs/admin.py:157
 #, python-brace-format
 msgid "Missing `{name}` permission"
-msgstr "Permissão `{name}` ausente"
+msgstr ""
 
 #: cogs/admin.py:160
 msgid "All permissions are correct!"
-msgstr "Todas as permissões estão corretas!"
+msgstr ""
 
 #: cogs/admin.py:165
 msgid "Sets the language for the current server or your personal language."
@@ -598,7 +598,7 @@ msgstr ""
 
 #: cogs/admin.py:187
 msgid "This language is currently not supported."
-msgstr "Idioma não suportado no momento."
+msgstr ""
 
 #: cogs/admin.py:188
 msgid "The supported languages are:"
@@ -626,15 +626,15 @@ msgstr ""
 
 #: cogs/admin.py:219
 msgid "Checks or sets various server-specific settings."
-msgstr "Verifica ou define várias configurações específicas do servidor."
+msgstr ""
 
 #: cogs/admin.py:224 cogs/admin.py:763
 msgid "Settings"
-msgstr "Configurações"
+msgstr ""
 
 #: cogs/admin.py:225
 msgid "Use the subcommands to change the settings for this server."
-msgstr "Use os subcomandos para alterar as configurações deste servidor."
+msgstr ""
 
 #: cogs/admin.py:236
 msgid "Sets whether simple messages will be used instead of random custom messages for levels and deaths."
@@ -646,11 +646,11 @@ msgstr ""
 
 #: cogs/admin.py:252
 msgid "I will use simple messages from now on."
-msgstr "De agora em diante utilizarei mensagens simples."
+msgstr ""
 
 #: cogs/admin.py:255
 msgid "I will use randomized custom messages from now on."
-msgstr "De agora em diante usarei mensagens personalizadas aleatórias."
+msgstr ""
 
 #: cogs/admin.py:263
 msgid "Changes the channel where upcoming events are announced."
@@ -664,34 +664,34 @@ msgstr ""
 
 #: cogs/admin.py:278
 msgid "Event announcements are already disabled."
-msgstr "Anúncios de eventos já estão desativados."
+msgstr ""
 
 #: cogs/admin.py:280
 msgid "Are you sure you want to disable events announcements?"
-msgstr "Tem certeza que deseja desativar os avisos de eventos?"
+msgstr ""
 
 #: cogs/admin.py:290 cogs/admin.py:606
 #, python-brace-format
 msgid "I don't have permission to use {channel}."
-msgstr "Eu não tenho permissão para usar {channel}."
+msgstr ""
 
 #: cogs/admin.py:292
 #, python-brace-format
 msgid "Are you sure you want {channel} as the new events channel?"
-msgstr "Você tem certeza que deseja {channel} como o novo canal de eventos?"
+msgstr ""
 
 #: cogs/admin.py:302
 msgid "The events channel has been disabled."
-msgstr "O canal de eventos foi desabilitado."
+msgstr ""
 
 #: cogs/admin.py:304
 #, python-brace-format
 msgid "{channel} will now be used for events."
-msgstr "{channel} será usado para eventos."
+msgstr ""
 
 #: cogs/admin.py:310
 msgid "Sets the language for this server."
-msgstr "Define o idioma para este servidor."
+msgstr ""
 
 #: cogs/admin.py:311
 msgid "All messages sent by NabBot in this server will be in the selected language.\n"
@@ -725,20 +725,20 @@ msgstr ""
 
 #: cogs/admin.py:358
 msgid "Any number greater than 1"
-msgstr "Qualquer número maior que 1"
+msgstr ""
 
 #: cogs/admin.py:358
 msgid "level"
-msgstr "nível"
+msgstr ""
 
 #: cogs/admin.py:360
 msgid "Level can't be lower than 1."
-msgstr "O nível não pode ser inferior a 1."
+msgstr ""
 
 #: cogs/admin.py:363
 #, python-brace-format
 msgid "Minimum announce level has been set to `{level}`."
-msgstr "Nível mínimo de anúncio foi definido como `{level}`."
+msgstr ""
 
 #: cogs/admin.py:369
 msgid "Changes the channel where Tibia news are announced."
@@ -759,11 +759,11 @@ msgstr ""
 
 #: cogs/admin.py:403
 msgid "I will announce news ticker along news and featured articles from now on."
-msgstr "De agora em diante, anunciarei tickers de notícia junto das notícias e artigos em destaque."
+msgstr ""
 
 #: cogs/admin.py:406
 msgid "I won't announce news ticker from now on."
-msgstr "De agora em diante, não anunciarei os tickers de notícia."
+msgstr ""
 
 #: cogs/admin.py:414
 msgid "Changes the command prefixes for this server."
@@ -780,44 +780,44 @@ msgstr ""
 #: cogs/admin.py:432
 #, python-brace-format
 msgid "{prefixes} and mentions"
-msgstr "{prefixes} e menções"
+msgstr ""
 
 #: cogs/admin.py:433
 msgid "Mentions only"
-msgstr "Apenas menções"
+msgstr ""
 
 #: cogs/admin.py:434 cogs/admin.py:538
 msgid "Any text"
-msgstr "Qualquer texto"
+msgstr ""
 
 #: cogs/admin.py:434
 msgid "prefix"
-msgstr "prefixo"
+msgstr ""
 
 #: cogs/admin.py:441
 #, python-brace-format
 msgid "Do you want to remove `{prefix}` as a prefix?"
-msgstr "Você quer remover `{prefix}` como um prefixo?"
+msgstr ""
 
 #: cogs/admin.py:445
 #, python-brace-format
 msgid "You can't have more than {limit} command prefixes."
-msgstr "Você não pode ter mais de {limit} prefixos de comando."
+msgstr ""
 
 #: cogs/admin.py:447
 #, python-brace-format
 msgid "Do you want to add `{prefix}` as a prefix?"
-msgstr "Você quer adicionar `{prefix}` como um prefixo?"
+msgstr ""
 
 #: cogs/admin.py:455
 #, python-brace-format
 msgid "The prefix `{prefix}` was removed."
-msgstr "O prefixo `{prefix}` foi removido."
+msgstr ""
 
 #: cogs/admin.py:458
 #, python-brace-format
 msgid "The prefix `{prefix}` was added."
-msgstr "O prefixo `{prefix}` foi adicionado."
+msgstr ""
 
 #: cogs/admin.py:471
 msgid "Changes the channel used as the server log."
@@ -838,11 +838,11 @@ msgstr ""
 
 #: cogs/admin.py:508
 msgid "I will show users on level up and death messages from now on."
-msgstr "De agora em diante, mostrarei os usuários nas mensagens de nível e de morte."
+msgstr ""
 
 #: cogs/admin.py:511
 msgid "I won't show users on level up and death messages from now on."
-msgstr "De agora em diante, não mostrarei os usuários nas mensagens de nível e de morte."
+msgstr ""
 
 #: cogs/admin.py:519
 msgid "Changes the message new members receive when joining."
@@ -865,15 +865,15 @@ msgstr ""
 
 #: cogs/admin.py:538
 msgid "message/disable"
-msgstr "mensagem/inativar"
+msgstr ""
 
 #: cogs/admin.py:542
 msgid "Welcome messages are already disabled."
-msgstr "As mensagens de boas-vindas já estão desabilitadas."
+msgstr ""
 
 #: cogs/admin.py:544
 msgid "Are you sure you want to disable welcome messages?"
-msgstr "Você tem certeza que deseja desabilitar as mensagens de boas-vindas?"
+msgstr ""
 
 #: cogs/admin.py:549
 msgid "This message is too long! ({length:,}/{limit} characters)"
