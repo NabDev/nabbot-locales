@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-27 19:18-0700\n"
+"POT-Creation-Date: 2021-04-29 08:00-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,39 +103,39 @@ msgstr ""
 msgid "You're not in any server tracking a world."
 msgstr ""
 
-#: utils/converter.py:46
+#: utils/converter.py:45
 msgid "Member \"{}\" not found."
 msgstr ""
 
-#: utils/converter.py:81
+#: utils/converter.py:80
 msgid "Role \"{}\" not found."
 msgstr ""
 
-#: utils/converter.py:93 utils/converter.py:97
+#: utils/converter.py:92 utils/converter.py:96
 msgid "Could not find a channel by ID {argument!r}."
 msgstr ""
 
-#: utils/converter.py:117
+#: utils/converter.py:116
 msgid "That's not a valid time, try something like this: `1d7h` or `4h20m`"
 msgstr ""
 
-#: utils/converter.py:134
+#: utils/converter.py:133
 msgid "That's a bit too far in the future… Try less than 60 days."
 msgstr ""
 
-#: utils/converter.py:143
+#: utils/converter.py:142
 msgid "Invalid stamina format, expected: `hh:mm`"
 msgstr ""
 
-#: utils/converter.py:147
+#: utils/converter.py:146
 msgid "Invalid stamina, minutes can't be 60 or greater."
 msgstr ""
 
-#: utils/converter.py:149
+#: utils/converter.py:148
 msgid "Invalid stamina, can't have more than 42 hours."
 msgstr ""
 
-#: utils/converter.py:186
+#: utils/converter.py:185
 #, python-brace-format
 msgid "`{argument}` is not a valid number."
 msgstr ""
@@ -348,321 +348,321 @@ msgid_plural "My command prefixes are:"
 msgstr[0] ""
 msgstr[1] ""
 
-#: cogs/admin.py:35 cogs/tibia.py:2038 cogs/tibia.py:2121
+#: cogs/admin.py:36 cogs/tibia.py:2038 cogs/tibia.py:2121
 msgid "World"
 msgstr ""
 
-#: cogs/admin.py:36
+#: cogs/admin.py:37
 msgid "Language"
 msgstr ""
 
-#: cogs/admin.py:37
+#: cogs/admin.py:38
 msgid "News channel"
 msgstr ""
 
-#: cogs/admin.py:38
+#: cogs/admin.py:39
 msgid "News tickers"
 msgstr ""
 
-#: cogs/admin.py:39
+#: cogs/admin.py:40
 msgid "Events channel"
 msgstr ""
 
-#: cogs/admin.py:40
+#: cogs/admin.py:41
 msgid "Server Log channel"
 msgstr ""
 
-#: cogs/admin.py:41
+#: cogs/admin.py:42
 msgid "Tracking channel"
 msgstr ""
 
-#: cogs/admin.py:42
+#: cogs/admin.py:43
 msgid "Min Announce Level"
 msgstr ""
 
-#: cogs/admin.py:43
+#: cogs/admin.py:44
 msgid "Prefix"
 msgstr ""
 
-#: cogs/admin.py:44
+#: cogs/admin.py:45
 msgid "Welcome message"
 msgstr ""
 
-#: cogs/admin.py:45
+#: cogs/admin.py:46
 msgid "Welcome channel"
 msgstr ""
 
-#: cogs/admin.py:46
+#: cogs/admin.py:47
 msgid "Default Announcements"
 msgstr ""
 
-#: cogs/admin.py:47
+#: cogs/admin.py:48
 msgid "Show User in Announcements"
 msgstr ""
 
-#: cogs/admin.py:50
+#: cogs/admin.py:51
 msgid "I couldn't find that channel, are you sure it exists?"
 msgstr ""
 
-#: cogs/admin.py:52
+#: cogs/admin.py:53
 msgid "yes/no"
 msgstr ""
 
-#: cogs/admin.py:53
+#: cogs/admin.py:54
 msgid "That's not a valid option, try **yes** or **no**."
 msgstr ""
 
-#: cogs/admin.py:54
+#: cogs/admin.py:55
 msgid "A channel's name or ID, or `disable`."
 msgstr ""
 
 #. Used to show that the current setting is the default global setting.
-#: cogs/admin.py:57
+#: cogs/admin.py:58
 msgid "Global default"
 msgstr ""
 
-#: cogs/admin.py:77 cogs/admin.py:178
+#: cogs/admin.py:78 cogs/admin.py:182
 msgid "unknown language"
 msgstr ""
 
-#: cogs/admin.py:87
+#: cogs/admin.py:88
 msgid "You can't remove this prefix."
 msgstr ""
 
-#: cogs/admin.py:89
+#: cogs/admin.py:90
 #, python-format
 msgid "The prefix can't be longer than %d characters."
 msgstr ""
 
-#: cogs/admin.py:97
+#: cogs/admin.py:101
 msgid "You cannot change server settings in private messages."
 msgstr ""
 
-#: cogs/admin.py:103 cogs/tibia.py:2137
+#: cogs/admin.py:107 cogs/tibia.py:2137
 msgid "Yes"
 msgstr ""
 
-#: cogs/admin.py:103
+#: cogs/admin.py:107
 msgid "No"
 msgstr ""
 
-#: cogs/admin.py:106
+#: cogs/admin.py:110
 msgid ""
 "Commands for server administrators and mods.\n"
 "\n"
 "`Manage Server` permission is needed to use these commands."
 msgstr ""
 
-#: cogs/admin.py:114
+#: cogs/admin.py:118
 msgid "Checks the channel's permissions."
 msgstr ""
 
-#: cogs/admin.py:115
+#: cogs/admin.py:119
 msgid ""
 "Makes sure that the bot has all the required permissions to work properly.\n"
 "By default, it checks the current channel, unless a specific channel is provided."
 msgstr ""
 
-#: cogs/admin.py:122
+#: cogs/admin.py:126
 #, python-brace-format
 msgid "**Checking {channel}:**"
 msgstr ""
 
-#: cogs/admin.py:125
+#: cogs/admin.py:129
 msgid "I have `Administrator` permission."
 msgstr ""
 
-#: cogs/admin.py:130
+#: cogs/admin.py:134
 msgid "I won't be able to see commands in here."
 msgstr ""
 
-#: cogs/admin.py:130
+#: cogs/admin.py:134
 msgid "View Channel"
 msgstr ""
 
-#: cogs/admin.py:131
+#: cogs/admin.py:135
 msgid "I won't be able to respond in here."
 msgstr ""
 
-#: cogs/admin.py:131
+#: cogs/admin.py:135
 msgid "Send Messages"
 msgstr ""
 
-#: cogs/admin.py:132 cogs/admin.py:137
+#: cogs/admin.py:136 cogs/admin.py:141
 msgid "Pagination or commands that require reaction confirmation won't work."
 msgstr ""
 
-#: cogs/admin.py:133
+#: cogs/admin.py:137
 msgid "Add Reactions"
 msgstr ""
 
-#: cogs/admin.py:134
+#: cogs/admin.py:138
 msgid "I won't be able to show my emojis in some commands."
 msgstr ""
 
-#: cogs/admin.py:135
+#: cogs/admin.py:139
 msgid "Use External Emoji"
 msgstr ""
 
-#: cogs/admin.py:138
+#: cogs/admin.py:142
 msgid "Read Message History"
 msgstr ""
 
-#: cogs/admin.py:139
+#: cogs/admin.py:143
 msgid "Command pagination won't work well."
 msgstr ""
 
-#: cogs/admin.py:139
+#: cogs/admin.py:143
 msgid "Manage Messages"
 msgstr ""
 
-#: cogs/admin.py:140
+#: cogs/admin.py:144
 msgid "I won't be able to show many of my commands."
 msgstr ""
 
-#: cogs/admin.py:140
+#: cogs/admin.py:144
 msgid "Embed Links"
 msgstr ""
 
-#: cogs/admin.py:141
+#: cogs/admin.py:145
 msgid "I won't be able to show images in some of my commands."
 msgstr ""
 
-#: cogs/admin.py:141
+#: cogs/admin.py:145
 msgid "Attach Files"
 msgstr ""
 
-#: cogs/admin.py:142
+#: cogs/admin.py:146
 msgid "I only need this to manage auto roles and joinable roles."
 msgstr ""
 
-#: cogs/admin.py:142
+#: cogs/admin.py:146
 msgid "Manage Roles"
 msgstr ""
 
-#: cogs/admin.py:143
+#: cogs/admin.py:147
 msgid "I only need this to create watchlists."
 msgstr ""
 
-#: cogs/admin.py:143
+#: cogs/admin.py:147
 msgid "Manage Channels"
 msgstr ""
 
-#: cogs/admin.py:144
+#: cogs/admin.py:148
 msgid "I need this to create server logs, news and levels channels, as well as watchlist feeds."
 msgstr ""
 
-#: cogs/admin.py:145
+#: cogs/admin.py:149
 msgid "Manage Webhooks"
 msgstr ""
 
-#: cogs/admin.py:146
+#: cogs/admin.py:150
 msgid "I only need this to show you the author of actions in the server log."
 msgstr ""
 
-#: cogs/admin.py:147
+#: cogs/admin.py:151
 msgid "View Audit Log"
 msgstr ""
 
 #. Shown when a specific Discord permission is missing
-#: cogs/admin.py:157
+#: cogs/admin.py:161
 #, python-brace-format
 msgid "Missing `{name}` permission"
 msgstr ""
 
-#: cogs/admin.py:160
+#: cogs/admin.py:164
 msgid "All permissions are correct!"
 msgstr ""
 
-#: cogs/admin.py:165
+#: cogs/admin.py:169
 msgid "Sets the language for the current server or your personal language."
 msgstr ""
 
-#: cogs/admin.py:166
+#: cogs/admin.py:170
 msgid ""
 "If used on a Discord server, it will attempt to change the server's language.\n"
 "If used on a private message, it will attempt to change the user's language."
 msgstr ""
 
-#: cogs/admin.py:171
+#: cogs/admin.py:175
 msgid "You need `Manage Server` permission to change the server's language."
 msgstr ""
 
-#: cogs/admin.py:172
+#: cogs/admin.py:176
 msgid "If what you want is to change your personal language, use this command on a private message."
 msgstr ""
 
-#: cogs/admin.py:180
+#: cogs/admin.py:184
 #, python-brace-format
 msgid "Your current personal language is **{language}**. I will use this only in private messages with you."
 msgstr ""
 
-#: cogs/admin.py:183
+#: cogs/admin.py:187
 #, python-brace-format
 msgid "The language for this server is **{language}**."
 msgstr ""
 
-#: cogs/admin.py:187
+#: cogs/admin.py:191
 msgid "This language is currently not supported."
 msgstr ""
 
-#: cogs/admin.py:188
+#: cogs/admin.py:192
 msgid "The supported languages are:"
 msgstr ""
 
-#: cogs/admin.py:192
+#: cogs/admin.py:196
 #, python-brace-format
 msgid "Do you want to set your personal language to `{language}`?"
 msgstr ""
 
-#: cogs/admin.py:195
+#: cogs/admin.py:199
 #, python-brace-format
 msgid "Do you want to set the server's language to `{language}`?"
 msgstr ""
 
-#: cogs/admin.py:209
+#: cogs/admin.py:213
 #, python-brace-format
 msgid "Our private messages will now be in **{language}**."
 msgstr ""
 
-#: cogs/admin.py:211
+#: cogs/admin.py:215
 #, python-brace-format
 msgid "This server's messages will now be in **{language}**."
 msgstr ""
 
-#: cogs/admin.py:219
+#: cogs/admin.py:223
 msgid "Checks or sets various server-specific settings."
 msgstr ""
 
-#: cogs/admin.py:224 cogs/admin.py:763
+#: cogs/admin.py:228 cogs/admin.py:766
 msgid "Settings"
 msgstr ""
 
-#: cogs/admin.py:225
+#: cogs/admin.py:229
 msgid "Use the subcommands to change the settings for this server."
 msgstr ""
 
-#: cogs/admin.py:236
+#: cogs/admin.py:240
 msgid "Sets whether simple messages will be used instead of random custom messages for levels and deaths."
 msgstr ""
 
-#: cogs/admin.py:238
+#: cogs/admin.py:242
 msgid "When enabled, all level up and death messages will be the same, a simple and short message, instead of randomized messages."
 msgstr ""
 
-#: cogs/admin.py:252
+#: cogs/admin.py:256
 msgid "I will use simple messages from now on."
 msgstr ""
 
-#: cogs/admin.py:255
+#: cogs/admin.py:259
 msgid "I will use randomized custom messages from now on."
 msgstr ""
 
-#: cogs/admin.py:263
+#: cogs/admin.py:267
 msgid "Changes the channel where upcoming events are announced."
 msgstr ""
 
-#: cogs/admin.py:264
+#: cogs/admin.py:268
 msgid ""
 "This is where announcements for events that about to happen will be made.\n"
 "If the assigned channel is deleted or the bot no longer has access to it, the top channel will be used.\n"
@@ -670,117 +670,117 @@ msgid ""
 "If this is disabled, users that subscribed to the event will still receive notifications via PM."
 msgstr ""
 
-#: cogs/admin.py:278
+#: cogs/admin.py:282
 msgid "Event announcements are already disabled."
 msgstr ""
 
-#: cogs/admin.py:280
+#: cogs/admin.py:284
 msgid "Are you sure you want to disable events announcements?"
 msgstr ""
 
-#: cogs/admin.py:290 cogs/admin.py:606
+#: cogs/admin.py:294 cogs/admin.py:609
 #, python-brace-format
 msgid "I don't have permission to use {channel}."
 msgstr ""
 
-#: cogs/admin.py:292
+#: cogs/admin.py:296
 #, python-brace-format
 msgid "Are you sure you want {channel} as the new events channel?"
 msgstr ""
 
-#: cogs/admin.py:302
+#: cogs/admin.py:306
 msgid "The events channel has been disabled."
 msgstr ""
 
-#: cogs/admin.py:304
+#: cogs/admin.py:308
 #, python-brace-format
 msgid "{channel} will now be used for events."
 msgstr ""
 
-#: cogs/admin.py:310
+#: cogs/admin.py:314
 msgid "Sets the language for this server."
 msgstr ""
 
-#: cogs/admin.py:311
+#: cogs/admin.py:315
 msgid ""
 "All messages sent by NabBot in this server will be in the selected language.\n"
 "Messages sent on private messages will be in the user's personal language."
 msgstr ""
 
-#: cogs/admin.py:319
+#: cogs/admin.py:323
 msgid "The desired language."
 msgstr ""
 
-#: cogs/admin.py:320
+#: cogs/admin.py:324
 msgid "language"
 msgstr ""
 
-#: cogs/admin.py:327
+#: cogs/admin.py:331
 msgid "Changes the channel where levelup and deaths are announced."
 msgstr ""
 
-#: cogs/admin.py:328
+#: cogs/admin.py:332
 msgid ""
 "This is where all level ups and deaths of registered characters will be announced.\n"
 "If this is disabled, announcements won't be made, but deaths and level ups will still be tracked."
 msgstr ""
 
-#: cogs/admin.py:348
+#: cogs/admin.py:352
 msgid "Sets the minimum level for death and level up announcements."
 msgstr ""
 
-#: cogs/admin.py:349
+#: cogs/admin.py:353
 msgid "Level ups and deaths under the minimum level will still be saved, to be viewed with other commands."
 msgstr ""
 
-#: cogs/admin.py:358
+#: cogs/admin.py:362
 msgid "Any number greater than 1"
 msgstr ""
 
-#: cogs/admin.py:358
+#: cogs/admin.py:362
 msgid "level"
 msgstr ""
 
-#: cogs/admin.py:360
+#: cogs/admin.py:364
 msgid "Level can't be lower than 1."
 msgstr ""
 
-#: cogs/admin.py:363
+#: cogs/admin.py:367
 #, python-brace-format
 msgid "Minimum announce level has been set to `{level}`."
 msgstr ""
 
-#: cogs/admin.py:369
+#: cogs/admin.py:373
 msgid "Changes the channel where Tibia news are announced."
 msgstr ""
 
-#: cogs/admin.py:370
+#: cogs/admin.py:374
 msgid "This is where all news and articles posted in Tibia.com will be announced."
 msgstr ""
 
-#: cogs/admin.py:389
+#: cogs/admin.py:393
 msgid "Enables or disables news tickers from Tibia.com in this server."
 msgstr ""
 
-#: cogs/admin.py:390
+#: cogs/admin.py:394
 msgid ""
 "Disabling this will make NabBot only announce news and featured articles.\n"
 "In order for news ticker to be announced, news announcemnets must be enabled."
 msgstr ""
 
-#: cogs/admin.py:403
+#: cogs/admin.py:407
 msgid "I will announce news ticker along news and featured articles from now on."
 msgstr ""
 
-#: cogs/admin.py:406
+#: cogs/admin.py:410
 msgid "I won't announce news ticker from now on."
 msgstr ""
 
-#: cogs/admin.py:414
+#: cogs/admin.py:418
 msgid "Changes the command prefixes for this server."
 msgstr ""
 
-#: cogs/admin.py:415
+#: cogs/admin.py:419
 msgid ""
 "The prefixes are the characters that go before a command's name, in order for the bot to recognize the command. A maximum of 5 prefixes can be set per server.\n"
 "\n"
@@ -793,80 +793,80 @@ msgid ""
 "Mentioning the bot is always a valid command and can't be changed."
 msgstr ""
 
-#: cogs/admin.py:432
+#: cogs/admin.py:436
 #, python-brace-format
 msgid "{prefixes} and mentions"
 msgstr ""
 
-#: cogs/admin.py:433
+#: cogs/admin.py:437
 msgid "Mentions only"
 msgstr ""
 
-#: cogs/admin.py:434 cogs/admin.py:538
+#: cogs/admin.py:438 cogs/admin.py:541
 msgid "Any text"
 msgstr ""
 
-#: cogs/admin.py:434
+#: cogs/admin.py:438
 msgid "prefix"
 msgstr ""
 
-#: cogs/admin.py:441
+#: cogs/admin.py:444
 #, python-brace-format
 msgid "Do you want to remove `{prefix}` as a prefix?"
 msgstr ""
 
-#: cogs/admin.py:445
+#: cogs/admin.py:448
 #, python-brace-format
 msgid "You can't have more than {limit} command prefixes."
 msgstr ""
 
-#: cogs/admin.py:447
+#: cogs/admin.py:450
 #, python-brace-format
 msgid "Do you want to add `{prefix}` as a prefix?"
 msgstr ""
 
-#: cogs/admin.py:455
+#: cogs/admin.py:458
 #, python-brace-format
 msgid "The prefix `{prefix}` was removed."
 msgstr ""
 
-#: cogs/admin.py:458
+#: cogs/admin.py:461
 #, python-brace-format
 msgid "The prefix `{prefix}` was added."
 msgstr ""
 
-#: cogs/admin.py:471
+#: cogs/admin.py:474
 msgid "Changes the channel used as the server log."
 msgstr ""
 
-#: cogs/admin.py:472
+#: cogs/admin.py:475
 msgid "[Server log](https://docs.nabbot.xyz/features/serverlog/) is a special channel where changes are posted to."
 msgstr ""
 
-#: cogs/admin.py:492
+#: cogs/admin.py:495
 msgid "Sets whether level/death messages should show the user the character is registered to."
 msgstr ""
 
-#: cogs/admin.py:493
+#: cogs/admin.py:496
 msgid ""
 "When enabled, level up and death messages will contain a mention of the user that owns the character.\n"
 "\n"
 "The users are won't receive a notification for this."
 msgstr ""
 
-#: cogs/admin.py:508
+#: cogs/admin.py:511
 msgid "I will show users on level up and death messages from now on."
 msgstr ""
 
-#: cogs/admin.py:511
+#: cogs/admin.py:514
 msgid "I won't show users on level up and death messages from now on."
 msgstr ""
 
-#: cogs/admin.py:519
+#: cogs/admin.py:522
 msgid "Changes the message new members receive when joining."
 msgstr ""
 
-#: cogs/admin.py:520
+#: cogs/admin.py:523
 #, python-brace-format
 msgid ""
 "This is initially disabled.\n"
@@ -885,52 +885,52 @@ msgid ""
 "Be sure to change the welcome channel too.\n"
 msgstr ""
 
-#: cogs/admin.py:538
+#: cogs/admin.py:541
 msgid "message/disable"
 msgstr ""
 
-#: cogs/admin.py:542
+#: cogs/admin.py:545
 msgid "Welcome messages are already disabled."
 msgstr ""
 
-#: cogs/admin.py:544
+#: cogs/admin.py:547
 msgid "Are you sure you want to disable welcome messages?"
 msgstr ""
 
-#: cogs/admin.py:549
+#: cogs/admin.py:552
 msgid "This message is too long! ({length:,}/{limit} characters)"
 msgstr ""
 
-#: cogs/admin.py:554
+#: cogs/admin.py:557
 msgid "Do you want to set this as the new welcome message?"
 msgstr ""
 
-#: cogs/admin.py:555
+#: cogs/admin.py:558
 msgid "*This is how your message would look if **you** joined.*"
 msgstr ""
 
-#: cogs/admin.py:556
+#: cogs/admin.py:559
 msgid "Message Preview"
 msgstr ""
 
-#: cogs/admin.py:561
+#: cogs/admin.py:564
 #, python-brace-format
 msgid "Unknown keyword {key}."
 msgstr ""
 
-#: cogs/admin.py:569
+#: cogs/admin.py:572
 msgid "The welcome message has been disabled."
 msgstr ""
 
-#: cogs/admin.py:571
+#: cogs/admin.py:574
 msgid "Welcome message updated."
 msgstr ""
 
-#: cogs/admin.py:577
+#: cogs/admin.py:580
 msgid "Changes the channel where new members are welcomed."
 msgstr ""
 
-#: cogs/admin.py:578
+#: cogs/admin.py:581
 msgid ""
 "A welcome message must be set for this setting to work.\n"
 "If the channel becomes unavailable, private messages will be used.\n"
@@ -939,182 +939,182 @@ msgid ""
 "To disable this, you must disable welcome messages using `settings welcome`."
 msgstr ""
 
-#: cogs/admin.py:589
+#: cogs/admin.py:592
 msgid "A channel's name or ID, or `private`."
 msgstr ""
 
-#: cogs/admin.py:590
+#: cogs/admin.py:593
 msgid "channel/private"
 msgstr ""
 
-#: cogs/admin.py:592
+#: cogs/admin.py:595
 msgid "private"
 msgstr ""
 
-#: cogs/admin.py:594
+#: cogs/admin.py:597
 msgid "Welcome messages are already private."
 msgstr ""
 
-#: cogs/admin.py:596
+#: cogs/admin.py:599
 msgid "Are you sure you want to make welcome messages private?"
 msgstr ""
 
-#: cogs/admin.py:608
+#: cogs/admin.py:611
 #, python-brace-format
 msgid "Are you sure you want {channel} as the new welcome channel?"
 msgstr ""
 
-#: cogs/admin.py:618
+#: cogs/admin.py:621
 msgid "Welcome messages will be sent privately."
 msgstr ""
 
-#: cogs/admin.py:620
+#: cogs/admin.py:623
 #, python-brace-format
 msgid "{channel} will now be used for welcome messages."
 msgstr ""
 
-#: cogs/admin.py:626
+#: cogs/admin.py:629
 msgid "Changes the world this Discord server tracks."
 msgstr ""
 
-#: cogs/admin.py:627
+#: cogs/admin.py:630
 msgid ""
 "The tracked world is the Tibia world that this Discord server is following.\n"
 "Only characters in that world will be registered."
 msgstr ""
 
-#: cogs/admin.py:632
+#: cogs/admin.py:635
 msgid "Any Tibia world or `none` to disable."
 msgstr ""
 
-#: cogs/admin.py:632
+#: cogs/admin.py:635
 msgid "world/none"
 msgstr ""
 
-#: cogs/admin.py:637
+#: cogs/admin.py:640
 msgid "This server is already not tracking any world."
 msgstr ""
 
-#: cogs/admin.py:639
+#: cogs/admin.py:642
 #, python-brace-format
 msgid "Are you sure you want to unassign **{world}** from this server?"
 msgstr ""
 
-#: cogs/admin.py:646
+#: cogs/admin.py:649
 #, python-brace-format
 msgid "Are you sure you want to assign **{w}** to this server?"
 msgstr ""
 
-#: cogs/admin.py:658
+#: cogs/admin.py:661
 msgid "This server is no longer tracking any world."
 msgstr ""
 
-#: cogs/admin.py:660
+#: cogs/admin.py:663
 #, python-brace-format
 msgid "This server is now tracking **{world}**"
 msgstr ""
 
-#: cogs/admin.py:677
+#: cogs/admin.py:680
 #, python-brace-format
 msgid "The {name} channel was disabled."
 msgstr ""
 
-#: cogs/admin.py:678
+#: cogs/admin.py:681
 #, python-brace-format
 msgid "{name} disabled by {author}."
 msgstr ""
 
-#: cogs/admin.py:684
+#: cogs/admin.py:687
 #, python-brace-format
 msgid "{name} updated by {author}."
 msgstr ""
 
 #. 0 is the new channel, 1 is the type of channel
-#: cogs/admin.py:698
+#: cogs/admin.py:701
 #, python-brace-format
 msgid "{0} will now be used as the {1}."
 msgstr ""
 
-#: cogs/admin.py:701
+#: cogs/admin.py:704
 #, python-brace-format
 msgid "I was not able to create a webhook for channel {0}"
 msgstr ""
 
-#: cogs/admin.py:718
+#: cogs/admin.py:721
 msgid "Private Messages"
 msgstr ""
 
-#: cogs/admin.py:720
+#: cogs/admin.py:723
 msgid "Disabled."
 msgstr ""
 
-#: cogs/admin.py:722 cogs/admin.py:744
+#: cogs/admin.py:725 cogs/admin.py:747
 msgid "None."
 msgstr ""
 
-#: cogs/admin.py:724
+#: cogs/admin.py:727
 msgid "None, previous channel was deleted."
 msgstr ""
 
-#: cogs/admin.py:726
+#: cogs/admin.py:729
 #, python-brace-format
 msgid "{channel}, but I can't use the channel."
 msgstr ""
 
-#: cogs/admin.py:731
+#: cogs/admin.py:734
 msgid " I will send direct messages meanwhile."
 msgstr ""
 
-#: cogs/admin.py:735
+#: cogs/admin.py:738
 msgid " I have no channel to use."
 msgstr ""
 
-#: cogs/admin.py:737
+#: cogs/admin.py:740
 #, python-brace-format
 msgid " I will use {channel} meanwhile."
 msgstr ""
 
-#: cogs/admin.py:751
+#: cogs/admin.py:754
 msgid "None, webhook was deleted by a user."
 msgstr ""
 
-#: cogs/admin.py:753
+#: cogs/admin.py:756
 msgid "I'm not able to get the current value, please try again later."
 msgstr ""
 
-#: cogs/admin.py:766
+#: cogs/admin.py:769
 msgid "Current value"
 msgstr ""
 
-#: cogs/admin.py:767
+#: cogs/admin.py:770
 msgid "Edit"
 msgstr ""
 
-#: cogs/admin.py:768
+#: cogs/admin.py:771
 msgid "Accepted values"
 msgstr ""
 
-#: cogs/admin.py:774
+#: cogs/admin.py:777
 #, python-brace-format
 msgid "Use \"{prefix}help {command} {subcommand}\" for more info."
 msgstr ""
 
-#: cogs/admin.py:791
+#: cogs/admin.py:794
 #, python-brace-format
 msgid "There's no {name} channel set."
 msgstr ""
 
-#: cogs/admin.py:792
+#: cogs/admin.py:795
 #, python-brace-format
 msgid "Are you sure you want to disable the set {name}?"
 msgstr ""
 
-#: cogs/admin.py:801
+#: cogs/admin.py:804
 #, python-brace-format
 msgid "I need `Manage Webhooks` permissions to assign a {name}."
 msgstr ""
 
-#: cogs/admin.py:804
+#: cogs/admin.py:807
 #, python-brace-format
 msgid "Are you sure you want {new_channel} as the new {name}?"
 msgstr ""
@@ -1889,7 +1889,7 @@ msgstr ""
 msgid "Slowmode Delay"
 msgstr ""
 
-#: cogs/info.py:138 cogs/roles.py:593
+#: cogs/info.py:138 cogs/roles.py:579
 msgid "member"
 msgid_plural "members"
 msgstr[0] ""
@@ -1899,7 +1899,7 @@ msgstr[1] ""
 msgid "Visible by"
 msgstr ""
 
-#: cogs/info.py:140 cogs/roles.py:488
+#: cogs/info.py:140 cogs/roles.py:478
 msgid "Mention"
 msgstr ""
 
@@ -1907,7 +1907,7 @@ msgstr ""
 msgid "NSFW"
 msgstr ""
 
-#: cogs/info.py:142 cogs/info.py:252 cogs/roles.py:489
+#: cogs/info.py:142 cogs/info.py:252 cogs/roles.py:479
 msgid "Created on"
 msgstr ""
 
@@ -2025,7 +2025,7 @@ msgstr ""
 msgid "Roles"
 msgstr ""
 
-#: cogs/info.py:271 cogs/roles.py:482
+#: cogs/info.py:271 cogs/roles.py:472
 msgid "Members"
 msgstr ""
 
@@ -2345,7 +2345,7 @@ msgid "Member banned"
 msgstr ""
 
 #: cogs/logging.py:400 cogs/logging.py:419 cogs/logging.py:469
-#: cogs/tracking.py:1661 cogs/tracking.py:1688
+#: cogs/tracking.py:1659 cogs/tracking.py:1686
 msgid "Reason"
 msgstr ""
 
@@ -2644,57 +2644,57 @@ msgstr ""
 msgid "{channel} wasn't ignored."
 msgstr ""
 
-#: cogs/mod.py:218
+#: cogs/mod.py:217
 #, python-brace-format
 msgid "{count} is now ignored."
 msgid_plural "{count} are now unignored."
 msgstr[0] ""
 msgstr[1] ""
 
-#: cogs/mod.py:220
+#: cogs/mod.py:219
 msgid "No entries were unignored."
 msgstr ""
 
-#: cogs/mod.py:226
+#: cogs/mod.py:225
 msgid "Shows a list of users with no registered characters."
 msgstr ""
 
-#: cogs/mod.py:238
+#: cogs/mod.py:237
 msgid "Joined"
 msgstr ""
 
-#: cogs/mod.py:243 cogs/mod.py:287
+#: cogs/mod.py:242 cogs/mod.py:286
 msgid "There are no unregistered users."
 msgstr ""
 
-#: cogs/mod.py:248
+#: cogs/mod.py:247
 msgid "Unregistered members"
 msgstr ""
 
-#: cogs/mod.py:257
+#: cogs/mod.py:256
 msgid "Shows a list of unregistered guild members."
 msgstr ""
 
-#: cogs/mod.py:258
+#: cogs/mod.py:257
 msgid "Unregistered guild members can be either characters not registered to NabBot or registered to users not in the server."
 msgstr ""
 
-#: cogs/mod.py:264
+#: cogs/mod.py:263
 msgid "There's no guild with that name."
 msgstr ""
 
-#: cogs/mod.py:266
+#: cogs/mod.py:265
 #, python-brace-format
 msgid "**{guild}** is not in **{world}**"
 msgstr ""
 
 #. Entries for unregistered guild command
-#: cogs/mod.py:281
+#: cogs/mod.py:280
 #, python-brace-format
 msgid "{rank} — **{name}** (Lvl {level} {voc})"
 msgstr ""
 
-#: cogs/mod.py:291
+#: cogs/mod.py:290
 #, python-brace-format
 msgid "Unregistered members for {guild}"
 msgstr ""
@@ -3514,7 +3514,7 @@ msgstr ""
 msgid "I need `Manage Channels` permission in order to setup the respawn system."
 msgstr ""
 
-#: cogs/respawn.py:599 cogs/tracking.py:1609
+#: cogs/respawn.py:599 cogs/tracking.py:1607
 msgid "Sorry, I don't have permissions to create channels."
 msgstr ""
 
@@ -3582,79 +3582,79 @@ msgid ""
 "Note that current members will be updated until their characters or guilds change."
 msgstr ""
 
-#: cogs/roles.py:178
+#: cogs/roles.py:176
 msgid "`*` - All users with registered characters."
 msgstr ""
 
-#: cogs/roles.py:179
+#: cogs/roles.py:177
 msgid "`*@GuildName` / `GuildName` - All users with characters belonging to **GuildName**."
 msgstr ""
 
-#: cogs/roles.py:180
+#: cogs/roles.py:178
 msgid "`RankName@GuildName` - All users with characters belonging to **GuildName** and with rank **RankName**."
 msgstr ""
 
-#: cogs/roles.py:184
+#: cogs/roles.py:182
 msgid "That's not a valid rule. Valid rules are:"
 msgstr ""
 
-#: cogs/roles.py:195
+#: cogs/roles.py:193
 #, python-brace-format
 msgid "There's no guild named `{name}`"
 msgstr ""
 
-#: cogs/roles.py:202
+#: cogs/roles.py:200
 msgid "Autorole rule already exists."
 msgstr ""
 
-#: cogs/roles.py:207
+#: cogs/roles.py:205
 msgid "You can't create a rule for a role higher or equals than your highest role."
 msgstr ""
 
-#: cogs/roles.py:209
+#: cogs/roles.py:207
 msgid "I can't create a rule for a role higher than my highest role."
 msgstr ""
 
-#: cogs/roles.py:211
+#: cogs/roles.py:209
 #, python-brace-format
 msgid "Members of guild `{name}` and rank `{rank}` will automatically receive the {role} role."
 msgstr ""
 
-#: cogs/roles.py:213
+#: cogs/roles.py:211
 #, python-brace-format
 msgid "Members of guild `{name}` will automatically receive the {role} role. "
 msgstr ""
 
-#: cogs/roles.py:215
+#: cogs/roles.py:213
 #, python-brace-format
 msgid "All users with registered characters will automatically receive the {role} role."
 msgstr ""
 
-#: cogs/roles.py:216 cogs/timers.py:813
+#: cogs/roles.py:214 cogs/timers.py:813
 msgid "Is this correct?"
 msgstr ""
 
-#: cogs/roles.py:224
+#: cogs/roles.py:222
 msgid "Autorole rule created."
 msgstr ""
 
-#: cogs/roles.py:230
+#: cogs/roles.py:228
 msgid "Shows a list of autorole rules."
 msgstr ""
 
-#: cogs/roles.py:235 cogs/roles.py:245
+#: cogs/roles.py:233 cogs/roles.py:243
 msgid "This server has no autorole rules."
 msgstr ""
 
-#: cogs/roles.py:248
+#: cogs/roles.py:246
 msgid "Autorole rules"
 msgstr ""
 
-#: cogs/roles.py:255
+#: cogs/roles.py:253
 msgid "Triggers a refresh on all members."
 msgstr ""
 
-#: cogs/roles.py:256
+#: cogs/roles.py:254
 msgid ""
 "This will apply existing rules to all members.\n"
 "Note that guild changes from members that haven't been online won't be affected.\n"
@@ -3663,49 +3663,49 @@ msgid ""
 "This command can only be used once per server ever day."
 msgstr ""
 
-#: cogs/roles.py:263
+#: cogs/roles.py:261
 msgid ""
 "This will make me check the guilds of all registered characters to apply existing rules.\n"
 "Note that character with outdated information won't be updated until they are online again or checked using `whois`\n"
 "Are you sure you want this?."
 msgstr ""
 
-#: cogs/roles.py:272
+#: cogs/roles.py:270
 msgid "Starting role refreshing…"
 msgstr ""
 
-#: cogs/roles.py:276 cogs/roles.py:278
+#: cogs/roles.py:274 cogs/roles.py:276
 msgid "Refresh done, roles will be updated shortly."
 msgstr ""
 
-#: cogs/roles.py:284
+#: cogs/roles.py:282
 msgid "Removes an autorole rule."
 msgstr ""
 
-#: cogs/roles.py:285
+#: cogs/roles.py:283
 msgid ""
 "Role names, mentions and ids are accepted. Role names with multiple words need to be wrapped in quotes.\n"
 "\n"
 "Note that members that currently have the role won't be affected."
 msgstr ""
 
-#: cogs/roles.py:297
+#: cogs/roles.py:293
 msgid "That rule doesn't exist."
 msgstr ""
 
-#: cogs/roles.py:303
+#: cogs/roles.py:299
 msgid "You can't delete a role rule for a role higher than yours."
 msgstr ""
 
-#: cogs/roles.py:306
+#: cogs/roles.py:302
 msgid "Auto role rule removed. Note that the role won't be removed from current members."
 msgstr ""
 
-#: cogs/roles.py:313
+#: cogs/roles.py:309
 msgid "Joins or leaves a group (role)."
 msgstr ""
 
-#: cogs/roles.py:314
+#: cogs/roles.py:310
 msgid ""
 "If you're not in the group, you will be added.\n"
 "If you're already in the group, you will be removed.\n"
@@ -3713,46 +3713,46 @@ msgid ""
 "To see a list of joinable groups, use `group list`."
 msgstr ""
 
-#: cogs/roles.py:324
+#: cogs/roles.py:318
 #, python-brace-format
 msgid "Role {name} is not a joinable role."
 msgstr ""
 
-#: cogs/roles.py:332
+#: cogs/roles.py:326
 msgid "I can't manage groups of roles higher than mine."
 msgstr ""
 
-#: cogs/roles.py:334
+#: cogs/roles.py:328
 msgid "Joined group"
 msgstr ""
 
-#: cogs/roles.py:336
+#: cogs/roles.py:330
 msgid "Left group"
 msgstr ""
 
-#: cogs/roles.py:338
+#: cogs/roles.py:332
 msgid "I need `Manage Roles` to manage groups."
 msgstr ""
 
-#: cogs/roles.py:340
+#: cogs/roles.py:334
 msgid "Something went wrong. Try again later."
 msgstr ""
 
-#: cogs/roles.py:343
+#: cogs/roles.py:337
 #, python-brace-format
 msgid "You joined {name}."
 msgstr ""
 
-#: cogs/roles.py:345
+#: cogs/roles.py:339
 #, python-brace-format
 msgid "You left {name}."
 msgstr ""
 
-#: cogs/roles.py:352
+#: cogs/roles.py:346
 msgid "Creates a new group for members to join."
 msgstr ""
 
-#: cogs/roles.py:353
+#: cogs/roles.py:347
 msgid ""
 "The group can be a new role that will be created with this command.\n"
 "If the name matches an existent role, that role will become joinable.\n"
@@ -3760,155 +3760,155 @@ msgid ""
 "You need `Manage Roles` permission to use this command."
 msgstr ""
 
-#: cogs/roles.py:370
+#: cogs/roles.py:364
 msgid "I need `Manage Roles` permission to create a group."
 msgstr ""
 
-#: cogs/roles.py:373
+#: cogs/roles.py:367
 msgid "Invalid group name."
 msgstr ""
 
-#: cogs/roles.py:378
+#: cogs/roles.py:372
 #, python-brace-format
 msgid "Group {name} already exists."
 msgstr ""
 
-#: cogs/roles.py:383
+#: cogs/roles.py:377
 msgid "You can't make a group from a role higher or equals than your highest role."
 msgstr ""
 
-#: cogs/roles.py:385
+#: cogs/roles.py:379
 msgid "I can't make a group from a role higher or equals than my highest role."
 msgstr ""
 
-#: cogs/roles.py:388
+#: cogs/roles.py:382
 #, python-brace-format
 msgid "Group {name} created successfully."
 msgstr ""
 
-#: cogs/roles.py:393
+#: cogs/roles.py:387
 msgid "Shows a list of available groups."
 msgstr ""
 
-#: cogs/roles.py:398
+#: cogs/roles.py:392
 msgid "This server has no joinable groups."
 msgstr ""
 
-#: cogs/roles.py:407
+#: cogs/roles.py:401
 #, python-format
 msgid "`%d member`"
 msgid_plural "`%d members`"
 msgstr[0] ""
 msgstr[1] ""
 
-#: cogs/roles.py:411
+#: cogs/roles.py:405
 msgid "Joinable groups"
 msgstr ""
 
-#: cogs/roles.py:419
+#: cogs/roles.py:413
 msgid "Removes a group."
 msgstr ""
 
-#: cogs/roles.py:420
+#: cogs/roles.py:414
 msgid ""
 "Removes a group, making members unable to join.\n"
 "When removing a group, you can optionally delete the role too."
 msgstr ""
 
-#: cogs/roles.py:428
+#: cogs/roles.py:420
 #, python-brace-format
 msgid "{role} is not a group."
 msgstr ""
 
-#: cogs/roles.py:433
+#: cogs/roles.py:425
 msgid "You can't delete a group of a role higher than your highest role."
 msgstr ""
 
-#: cogs/roles.py:435
+#: cogs/roles.py:427
 msgid "I can't delete a group of a role higher than my highest role."
 msgstr ""
 
-#: cogs/roles.py:437
+#: cogs/roles.py:429
 #, python-brace-format
 msgid "Group {name} will be removed. Do you want to remove the role too?"
 msgstr ""
 
-#: cogs/roles.py:442
+#: cogs/roles.py:434
 #, python-brace-format
 msgid "Group removed by {user}"
 msgstr ""
 
-#: cogs/roles.py:443
+#: cogs/roles.py:435
 #, python-brace-format
 msgid "Group {name} was removed and the role was deleted."
 msgstr ""
 
-#: cogs/roles.py:445
+#: cogs/roles.py:437
 #, python-brace-format
 msgid "Group {name} removed."
 msgstr ""
 
-#: cogs/roles.py:446
+#: cogs/roles.py:438
 msgid "I need `Manage Roles` permission to delete the Discord role."
 msgstr ""
 
-#: cogs/roles.py:448
+#: cogs/roles.py:440
 #, python-brace-format
 msgid "Group {name} was removed."
 msgstr ""
 
-#: cogs/roles.py:455
+#: cogs/roles.py:447
 msgid "Shows a list of members with no roles."
 msgstr ""
 
-#: cogs/roles.py:466
+#: cogs/roles.py:458
 msgid "There are no members without roles."
 msgstr ""
 
-#: cogs/roles.py:470
+#: cogs/roles.py:462
 msgid "Members with no roles"
 msgstr ""
 
-#: cogs/roles.py:476
+#: cogs/roles.py:468
 msgid "Shows details about a role."
 msgstr ""
 
-#: cogs/roles.py:483
+#: cogs/roles.py:473
 msgid "Mentionable"
 msgstr ""
 
 #. Whether the role appears separate in the right side of Discord
-#: cogs/roles.py:485
+#: cogs/roles.py:475
 msgid "Hoisted"
 msgstr ""
 
-#: cogs/roles.py:486 cogs/tibia.py:2139 cogs/tibia.py:2163
+#: cogs/roles.py:476 cogs/tibia.py:2139 cogs/tibia.py:2163
 msgid "Position"
 msgstr ""
 
-#: cogs/roles.py:487
+#: cogs/roles.py:477
 msgid "Color"
 msgstr ""
 
-#: cogs/roles.py:496
+#: cogs/roles.py:486
 msgid "Shows a list of members with that role."
 msgstr ""
 
-#: cogs/roles.py:503
+#: cogs/roles.py:491
 #, python-brace-format
 msgid "Seems like there are no members with the role {name}."
 msgstr ""
 
-#: cogs/roles.py:506
+#: cogs/roles.py:494
 #, python-brace-format
 msgid "Members with the role '{name}'"
 msgstr ""
 
-#: cogs/roles.py:517
+#: cogs/roles.py:505
 msgid "Sends a message mentioning a role."
 msgstr ""
 
-#: cogs/roles.py:518
+#: cogs/roles.py:506
 msgid ""
 "This allows using a role mention for roles that have mentioning disabled.\n"
 "Mentions for the role are enabled, the message is sent and role mentions are disabled again.\n"
@@ -3916,15 +3916,15 @@ msgid ""
 "The message is signed by the command author."
 msgstr ""
 
-#: cogs/roles.py:528
+#: cogs/roles.py:514
 msgid "You can't mention a role highest than your highest role."
 msgstr ""
 
-#: cogs/roles.py:531
+#: cogs/roles.py:517
 msgid "I can't mention a role highest than my highest role."
 msgstr ""
 
-#: cogs/roles.py:533
+#: cogs/roles.py:519
 #, python-brace-format
 msgid ""
 "The message will mention the role {name}. Your name will appear at the bottom of the message.\n"
@@ -3932,53 +3932,53 @@ msgid ""
 "You can also say `cancel` to exit."
 msgstr ""
 
-#: cogs/roles.py:547
+#: cogs/roles.py:533
 msgid "The message can't be longer than {limit:,} characters."
 msgstr ""
 
-#: cogs/roles.py:554
+#: cogs/roles.py:540
 #, python-brace-format
 msgid "Turn mentions on for role mention by {user}"
 msgstr ""
 
-#: cogs/roles.py:556
+#: cogs/roles.py:542
 #, python-brace-format
 msgid "Message sent by {user}"
 msgstr ""
 
-#: cogs/roles.py:560
+#: cogs/roles.py:546
 msgid "Reverting mentionable"
 msgstr ""
 
-#: cogs/roles.py:565
+#: cogs/roles.py:551
 msgid "Shows a user's roles or a list of server roles."
 msgstr ""
 
-#: cogs/roles.py:566
+#: cogs/roles.py:552
 msgid ""
 "If a user is specified, it will list their roles.\n"
 "If user is blank, I will list all the server's roles."
 msgstr ""
 
-#: cogs/roles.py:571
+#: cogs/roles.py:557
 msgid "Roles in this server"
 msgstr ""
 
-#: cogs/roles.py:574
+#: cogs/roles.py:560
 msgid "There are no roles in this server."
 msgstr ""
 
-#: cogs/roles.py:579
+#: cogs/roles.py:565
 #, python-brace-format
 msgid "I don't see any user named **{user}**."
 msgstr ""
 
-#: cogs/roles.py:581
+#: cogs/roles.py:567
 #, python-brace-format
 msgid "Roles for @{user}"
 msgstr ""
 
-#: cogs/roles.py:584
+#: cogs/roles.py:570
 #, python-brace-format
 msgid "{user} has no roles."
 msgstr ""
@@ -4827,7 +4827,7 @@ msgid ""
 "Example: `searchworld Cachero,Calmera`"
 msgstr ""
 
-#: cogs/tibia.py:1219 cogs/tracking.py:1157
+#: cogs/tibia.py:1219 cogs/tracking.py:1155
 msgid "Invalid arguments used, examples:"
 msgstr ""
 
@@ -6856,7 +6856,7 @@ msgstr ""
 msgid "There are no participants in this event.{join_prompt}"
 msgstr ""
 
-#: cogs/timers.py:1401 cogs/tracking.py:1362
+#: cogs/timers.py:1401 cogs/tracking.py:1360
 msgid "unknown"
 msgstr ""
 
@@ -7173,80 +7173,80 @@ msgid ""
 "Characters owned by users in the blacklist won't have their level ups and deaths announced."
 msgstr ""
 
-#: cogs/tracking.py:834
+#: cogs/tracking.py:832
 msgid "This user is already in the blacklist."
 msgstr ""
 
-#: cogs/tracking.py:836
+#: cogs/tracking.py:834
 #, python-brace-format
 msgid ""
 "Do you want to add **{user}** to the blacklist?\n"
 "*Their character's level ups and deaths won't be announced anymore.*"
 msgstr ""
 
-#: cogs/tracking.py:846
+#: cogs/tracking.py:844
 #, python-brace-format
 msgid "{user} has been added to the blacklist."
 msgstr ""
 
-#: cogs/tracking.py:852
+#: cogs/tracking.py:850
 msgid "Shows the users currently in the blacklist."
 msgstr ""
 
-#: cogs/tracking.py:853
+#: cogs/tracking.py:851
 msgid "If a user in the list is no longer in the server, it will be shown just by its ID."
 msgstr ""
 
-#: cogs/tracking.py:860
+#: cogs/tracking.py:858
 #, python-format
 msgid "Unknown user %d"
 msgstr ""
 
-#: cogs/tracking.py:863
+#: cogs/tracking.py:861
 msgid "There are no blacklisted users in this server."
 msgstr ""
 
-#: cogs/tracking.py:866
+#: cogs/tracking.py:864
 msgid "Blacklisted users"
 msgstr ""
 
-#: cogs/tracking.py:873
+#: cogs/tracking.py:871
 msgid "Removes a user from the blacklist."
 msgstr ""
 
-#: cogs/tracking.py:874
+#: cogs/tracking.py:872
 msgid "If the user only displays an ID on the list, it can be removed using that ID."
 msgstr ""
 
-#: cogs/tracking.py:881
+#: cogs/tracking.py:879
 #, python-brace-format
 msgid "**{user} is not in the blacklist.**"
 msgstr ""
 
-#: cogs/tracking.py:882
+#: cogs/tracking.py:880
 #, python-brace-format
 msgid "Do you want to remove **{user.name}** from the blacklist?"
 msgstr ""
 
-#: cogs/tracking.py:888
+#: cogs/tracking.py:886
 #, python-brace-format
 msgid "There is user with id **{user}** in the blacklist."
 msgstr ""
 
-#: cogs/tracking.py:889
+#: cogs/tracking.py:887
 #, python-brace-format
 msgid "Do you want to remove user with id **{user}** from the blacklist?"
 msgstr ""
 
-#: cogs/tracking.py:898
+#: cogs/tracking.py:896
 msgid "User removed from the blacklist."
 msgstr ""
 
-#: cogs/tracking.py:902
+#: cogs/tracking.py:900
 msgid "Claims a character, registering to you even if someone else already has it."
 msgstr ""
 
-#: cogs/tracking.py:903
+#: cogs/tracking.py:901
 msgid ""
 "In order for this to work, you have to put a special code in the character's comment.\n"
 "You can see this code by using the command with no parameters. The code looks like this: `/NB-23FC13AC7400000/`\n"
@@ -7257,14 +7257,14 @@ msgid ""
 "No one can claim a character of yours unless you put **their** code in your character's comment."
 msgstr ""
 
-#: cogs/tracking.py:926
+#: cogs/tracking.py:924
 #, python-brace-format
 msgid ""
 "To use this command, add `/NB-{user_code}/` to the comment of the character you want toclaim in Tibia.com, and then use `{prefix}claim character_name`.\n"
 "*Note that it might take a while to reflect the change due to caching.*"
 msgstr ""
 
-#: cogs/tracking.py:946
+#: cogs/tracking.py:944
 #, python-brace-format
 msgid ""
 "Couldn't find verification code on character's comment.\n"
@@ -7272,7 +7272,7 @@ msgid ""
 "*Note that it might take a while to reflect the change due to caching.*"
 msgstr ""
 
-#: cogs/tracking.py:953
+#: cogs/tracking.py:951
 #, python-brace-format
 msgid ""
 "The verification code on the character's comment doesn't match yours.\n"
@@ -7280,16 +7280,16 @@ msgid ""
 "*Note that it might take a while to reflect the change due to caching.*"
 msgstr ""
 
-#: cogs/tracking.py:976 cogs/tracking.py:1030
+#: cogs/tracking.py:974 cogs/tracking.py:1028
 #, python-brace-format
 msgid "Sorry, I couldn't find any characters from the worlds in the context ({0})."
 msgstr ""
 
-#: cogs/tracking.py:986
+#: cogs/tracking.py:984
 msgid "Lets you add your Tibia character(s) for the bot to track."
 msgstr ""
 
-#: cogs/tracking.py:987
+#: cogs/tracking.py:985
 msgid ""
 "If there are other visible characters, the bot will ask for confirmation to add them too.\n"
 "\n"
@@ -7299,76 +7299,76 @@ msgid ""
 "If a character is already registered to someone else, `claim` can be used."
 msgstr ""
 
-#: cogs/tracking.py:1040
+#: cogs/tracking.py:1038
 msgid "Removes a character assigned to you."
 msgstr ""
 
-#: cogs/tracking.py:1041
+#: cogs/tracking.py:1039
 msgid "All registered level ups and deaths will be lost forever."
 msgstr ""
 
-#: cogs/tracking.py:1048
+#: cogs/tracking.py:1046
 #, python-brace-format
 msgid "The character **{name}** is not registered to you."
 msgstr ""
 
-#: cogs/tracking.py:1050
+#: cogs/tracking.py:1048
 #, python-brace-format
 msgid "Are you sure you want to unregister **{name}** ({level} {vocation})?"
 msgstr ""
 
-#: cogs/tracking.py:1059
+#: cogs/tracking.py:1057
 #, python-brace-format
 msgid "**{name}** is no longer registered to you."
 msgstr ""
 
-#: cogs/tracking.py:1067
+#: cogs/tracking.py:1065
 msgid "Shows all your registered characters."
 msgstr ""
 
-#: cogs/tracking.py:1076
+#: cogs/tracking.py:1074
 #, python-brace-format
 msgid "I don't see any user with id {user_id}."
 msgstr ""
 
-#: cogs/tracking.py:1083
+#: cogs/tracking.py:1081
 msgid "You do not have any registered characters."
 msgstr ""
 
-#: cogs/tracking.py:1085
+#: cogs/tracking.py:1083
 msgid "This user has no registered characters."
 msgstr ""
 
-#: cogs/tracking.py:1089
+#: cogs/tracking.py:1087
 #, python-brace-format
 msgid "{name} (Lvl {level} {voc}) - {world}"
 msgstr ""
 
-#: cogs/tracking.py:1096
+#: cogs/tracking.py:1094
 msgid "Registered Characters"
 msgstr ""
 
-#: cogs/tracking.py:1103
+#: cogs/tracking.py:1101
 msgid "Shows you which users are online on Tibia."
 msgstr ""
 
-#: cogs/tracking.py:1114 cogs/tracking.py:1138
+#: cogs/tracking.py:1112 cogs/tracking.py:1136
 msgid "There is no one online from Discord."
 msgstr ""
 
-#: cogs/tracking.py:1137
+#: cogs/tracking.py:1135
 msgid "I just started, give me some time to check online lists…⌛"
 msgstr ""
 
-#: cogs/tracking.py:1141
+#: cogs/tracking.py:1139
 msgid "Users online"
 msgstr ""
 
-#: cogs/tracking.py:1148
+#: cogs/tracking.py:1146
 msgid "Searches for a registered character that meets the criteria."
 msgstr ""
 
-#: cogs/tracking.py:1149
+#: cogs/tracking.py:1147
 msgid ""
 "There are 3 ways to use this command:\n"
 "- Show characters in share range with a specific character. (`searchteam ≪name≫`)\n"
@@ -7378,135 +7378,135 @@ msgid ""
 "Online characters are shown first on the list, they also have an icon."
 msgstr ""
 
-#: cogs/tracking.py:1159
+#: cogs/tracking.py:1157
 #, python-brace-format
 msgid "{prefix}{command} charname"
 msgstr ""
 
-#: cogs/tracking.py:1160
+#: cogs/tracking.py:1158
 #, python-brace-format
 msgid "{prefix}{command} level"
 msgstr ""
 
-#: cogs/tracking.py:1161
+#: cogs/tracking.py:1159
 #, python-brace-format
 msgid "{prefix}{command} minLevel,maxLevel"
 msgstr ""
 
-#: cogs/tracking.py:1189
+#: cogs/tracking.py:1187
 #, python-brace-format
 msgid "Characters in share range with {name}({low}-{high}):"
 msgstr ""
 
-#: cogs/tracking.py:1190
+#: cogs/tracking.py:1188
 #, python-brace-format
 msgid "I didn't find anyone in share range with **{name}**({low}-{high})"
 msgstr ""
 
-#: cogs/tracking.py:1206
+#: cogs/tracking.py:1204
 #, python-brace-format
 msgid "Characters between level {low} and {high}"
 msgstr ""
 
-#: cogs/tracking.py:1207
+#: cogs/tracking.py:1205
 #, python-brace-format
 msgid "I didn't find anyone between levels **{low}** and **{high}**"
 msgstr ""
 
-#: cogs/tracking.py:1214
+#: cogs/tracking.py:1212
 #, python-brace-format
 msgid "Characters in share range with level {level} ({low}-{high})"
 msgstr ""
 
-#: cogs/tracking.py:1216
+#: cogs/tracking.py:1214
 #, python-brace-format
 msgid "I didn't find anyone in share range with level **{level}** ({low}-{high})"
 msgstr ""
 
-#: cogs/tracking.py:1232
+#: cogs/tracking.py:1230
 #, python-brace-format
 msgid "**{name}** - Level {level} {voc} - @**{owner}**"
 msgstr ""
 
-#: cogs/tracking.py:1332
+#: cogs/tracking.py:1330
 msgid "Removes a registered character from someone."
 msgstr ""
 
-#: cogs/tracking.py:1333
+#: cogs/tracking.py:1331
 msgid ""
 "Note that you can only remove chars if they are from users exclusively in your server.\n"
 "You can't remove any characters that would alter other servers NabBot is in."
 msgstr ""
 
-#: cogs/tracking.py:1341
+#: cogs/tracking.py:1339
 msgid "There's no character with that name registered."
 msgstr ""
 
-#: cogs/tracking.py:1343
+#: cogs/tracking.py:1341
 #, python-brace-format
 msgid "The character **{name}** is in a different world."
 msgstr ""
 
-#: cogs/tracking.py:1358
+#: cogs/tracking.py:1356
 #, python-brace-format
 msgid "The user of this server is also in another server tracking **{world}**, where you are not an admin. You can't alter other servers."
 msgstr ""
 
-#: cogs/tracking.py:1364
+#: cogs/tracking.py:1362
 #, python-brace-format
 msgid "**{0}** was removed successfully from **@{1}**."
 msgstr ""
 
-#: cogs/tracking.py:1371
+#: cogs/tracking.py:1369
 msgid "Create or manage watchlists."
 msgstr ""
 
-#: cogs/tracking.py:1372
+#: cogs/tracking.py:1370
 msgid ""
 "Watchlists are channels where the online status of selected characters are shown.\n"
 "You can create multiple watchlists and add characters and guilds to each one separately.\n"
 msgstr ""
 
-#: cogs/tracking.py:1376
+#: cogs/tracking.py:1374
 #, python-brace-format
 msgid ""
 "To manage watchlists, use one of the subcommands.\n"
 "Use `{prefix}help {command}`."
 msgstr ""
 
-#: cogs/tracking.py:1383
+#: cogs/tracking.py:1381
 msgid "Adds a character to a watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1384 cogs/tracking.py:1521
+#: cogs/tracking.py:1382 cogs/tracking.py:1519
 msgid "A reason can be specified by adding it after the character's name, separated by a comma."
 msgstr ""
 
-#: cogs/tracking.py:1407
+#: cogs/tracking.py:1405
 #, python-brace-format
 msgid "This character is not in **{world}**."
 msgstr ""
 
-#: cogs/tracking.py:1410
+#: cogs/tracking.py:1408
 #, python-brace-format
 msgid "Do you want to add **{char.name}** (Level {char.level} {char.vocation}) to the watchlist {channel}"
 msgstr ""
 
-#: cogs/tracking.py:1424
+#: cogs/tracking.py:1422
 #, python-brace-format
 msgid "Character **{name}** added to the watchlist {channel}."
 msgstr ""
 
-#: cogs/tracking.py:1427
+#: cogs/tracking.py:1425
 #, python-brace-format
 msgid "**{name}** is already registered in {channel}"
 msgstr ""
 
-#: cogs/tracking.py:1435
+#: cogs/tracking.py:1433
 msgid "Creates or assigns a channel to be used as a feed for the watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1436
+#: cogs/tracking.py:1434
 msgid ""
 "This feature can only be used on [premium](https://docs.nabbot.xyz/premium) servers.\n"
 "\n"
@@ -7516,122 +7516,122 @@ msgid ""
 "If not specified, a new channel will be created."
 msgstr ""
 
-#: cogs/tracking.py:1450
+#: cogs/tracking.py:1448
 #, python-brace-format
 msgid ""
 "Only premium servers can add a feed channel to their watchlists.\n"
 "For more information, check out: <{docs}/premium>"
 msgstr ""
 
-#: cogs/tracking.py:1455
+#: cogs/tracking.py:1453
 #, python-brace-format
 msgid "{channel.mention} already has a feed channel."
 msgstr ""
 
-#: cogs/tracking.py:1459
+#: cogs/tracking.py:1457
 msgid "I need `Manage Channels` and `Manage Webhooks` permissions to create feed channels."
 msgstr ""
 
-#: cogs/tracking.py:1471
+#: cogs/tracking.py:1469
 msgid "Adds an entire guild to a watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1472
+#: cogs/tracking.py:1470
 msgid "Guilds are displayed in the watchlist as a group."
 msgstr ""
 
-#: cogs/tracking.py:1494
+#: cogs/tracking.py:1492
 #, python-brace-format
 msgid "This guild is not in **{world}**."
 msgstr ""
 
-#: cogs/tracking.py:1497
+#: cogs/tracking.py:1495
 #, python-brace-format
 msgid "Do you want to add the guild **{guild}** to the watchlist {channel}?"
 msgstr ""
 
-#: cogs/tracking.py:1509
+#: cogs/tracking.py:1507
 #, python-brace-format
 msgid "Guild **{guild}** added to the watchlist {channel}."
 msgstr ""
 
-#: cogs/tracking.py:1513
+#: cogs/tracking.py:1511
 #, python-brace-format
 msgid "**{guild}** is already registered in {channel}"
 msgstr ""
 
-#: cogs/tracking.py:1520
+#: cogs/tracking.py:1518
 msgid "Adds the currently registered characters of a user to the watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1540
+#: cogs/tracking.py:1538
 msgid "I don't see any users with that name or id."
 msgstr ""
 
-#: cogs/tracking.py:1543
+#: cogs/tracking.py:1541
 #, python-brace-format
 msgid "This user doesn't have any registered characters in {world}."
 msgstr ""
 
-#: cogs/tracking.py:1547
+#: cogs/tracking.py:1545
 #, python-brace-format
 msgid ""
 "Do you want to add currently registered characters of `{user}` to this watchlist?\n"
 "{char_list}"
 msgstr ""
 
-#: cogs/tracking.py:1563
+#: cogs/tracking.py:1561
 #, python-brace-format
 msgid "I added the following characters to the list {channel}, duplicates where skipped:{results}"
 msgstr ""
 
-#: cogs/tracking.py:1566
+#: cogs/tracking.py:1564
 msgid "No characters where added, as they were all duplicates."
 msgstr ""
 
-#: cogs/tracking.py:1573
+#: cogs/tracking.py:1571
 msgid "Creates a watchlist channel."
 msgstr ""
 
-#: cogs/tracking.py:1574
+#: cogs/tracking.py:1572
 msgid ""
 "The watch list shows which characters from it are online. Entire guilds can be added too.\n"
 "The channel can be renamed at anytime. If the channel is deleted, all its entries are deleted too."
 msgstr ""
 
-#: cogs/tracking.py:1579
+#: cogs/tracking.py:1577
 #, python-format
 msgid "Channel name cannot contain the special character **%s**"
 msgstr ""
 
-#: cogs/tracking.py:1583
+#: cogs/tracking.py:1581
 msgid "I need `Manage Channels` permission in the server to use this command."
 msgstr ""
 
-#: cogs/tracking.py:1590
+#: cogs/tracking.py:1588
 msgid "You have reached the limit of watchlists you can have."
 msgstr ""
 
-#: cogs/tracking.py:1593
+#: cogs/tracking.py:1591
 #, python-format
 msgid "You need to have at least %d members to use watchlists."
 msgstr ""
 
-#: cogs/tracking.py:1596
+#: cogs/tracking.py:1594
 #, python-brace-format
 msgid "Do you want to create a new watchlist named `{name}`?"
 msgstr ""
 
-#: cogs/tracking.py:1611
+#: cogs/tracking.py:1609
 msgid "Something went wrong, the channel name you chose is probably invalid."
 msgstr ""
 
-#: cogs/tracking.py:1614
+#: cogs/tracking.py:1612
 #, python-brace-format
 msgid "Channel created successfully: {channel}\n"
 msgstr ""
 
-#: cogs/tracking.py:1615
+#: cogs/tracking.py:1613
 #, python-brace-format
 msgid ""
 "This is where I will post a list of online watched characters.\n"
@@ -7644,147 +7644,147 @@ msgid ""
 "*This message can be deleted now.*"
 msgstr ""
 
-#: cogs/tracking.py:1631
+#: cogs/tracking.py:1629
 msgid "Removes all entries from watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1637
+#: cogs/tracking.py:1635
 #, python-brace-format
 msgid "Do you want to remove all entries from the watchlist {channel}?"
 msgstr ""
 
-#: cogs/tracking.py:1643
+#: cogs/tracking.py:1641
 #, python-brace-format
 msgid "All entries in {channel} have been removed."
 msgstr ""
 
-#: cogs/tracking.py:1650
+#: cogs/tracking.py:1648
 msgid "Shows information about a watchlist entry."
 msgstr ""
 
-#: cogs/tracking.py:1651 cogs/tracking.py:1676
+#: cogs/tracking.py:1649 cogs/tracking.py:1674
 msgid "This shows who added the player, when, and if there's a reason why they were added."
 msgstr ""
 
-#: cogs/tracking.py:1660
+#: cogs/tracking.py:1658
 #, python-brace-format
 msgid "There's no character with that name registered to {channel}."
 msgstr ""
 
-#: cogs/tracking.py:1664 cogs/tracking.py:1690
+#: cogs/tracking.py:1662 cogs/tracking.py:1688
 msgid "No reason provided"
 msgstr ""
 
-#: cogs/tracking.py:1665 cogs/tracking.py:1691
+#: cogs/tracking.py:1663 cogs/tracking.py:1689
 #, python-brace-format
 msgid "In #{channel}"
 msgstr ""
 
-#: cogs/tracking.py:1668 cogs/tracking.py:1694
+#: cogs/tracking.py:1666 cogs/tracking.py:1692
 #, python-brace-format
 msgid "Added by {user}"
 msgstr ""
 
-#: cogs/tracking.py:1675
+#: cogs/tracking.py:1673
 msgid "Shows details about a guild entry in a watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1685
+#: cogs/tracking.py:1683
 #, python-brace-format
 msgid "There's no guild with that name registered to {channel}."
 msgstr ""
 
-#: cogs/tracking.py:1700
+#: cogs/tracking.py:1698
 msgid "Shows characters belonging to that watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1701
+#: cogs/tracking.py:1699
 msgid "Note that this lists all characters, not just online characters."
 msgstr ""
 
-#: cogs/tracking.py:1708 cogs/tracking.py:1729
+#: cogs/tracking.py:1706 cogs/tracking.py:1727
 msgid "You can't see the list of a watchlist you can't see."
 msgstr ""
 
-#: cogs/tracking.py:1712 cogs/tracking.py:1732
+#: cogs/tracking.py:1710 cogs/tracking.py:1730
 msgid "This watchlist has no registered characters."
 msgstr ""
 
-#: cogs/tracking.py:1715
+#: cogs/tracking.py:1713
 #, python-brace-format
 msgid "Watched Characters in #{channel}"
 msgstr ""
 
-#: cogs/tracking.py:1721
+#: cogs/tracking.py:1719
 msgid "Shows a list of guilds in the watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1735
+#: cogs/tracking.py:1733
 #, python-brace-format
 msgid "Watched Guilds in #{channel}"
 msgstr ""
 
-#: cogs/tracking.py:1742
+#: cogs/tracking.py:1740
 msgid "Removes a character from a watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1751
+#: cogs/tracking.py:1749
 #, python-brace-format
 msgid "There's no character with that name registered in {channel}."
 msgstr ""
 
-#: cogs/tracking.py:1754
+#: cogs/tracking.py:1752
 #, python-brace-format
 msgid "Do you want to remove **{char}** from this watchlist?"
 msgstr ""
 
-#: cogs/tracking.py:1764
+#: cogs/tracking.py:1762
 msgid "Character removed from the watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1771
+#: cogs/tracking.py:1769
 msgid "Deletes a watchlist feed."
 msgstr ""
 
-#: cogs/tracking.py:1772
+#: cogs/tracking.py:1770
 msgid ""
 "The given channel must be the watchlist's channel, not the channel where the feed is located, for example:\n"
 "To remove the feed in channel `#enemies-feed`,a feed for the watchlist in `#enemies-45`, the command would be used like: `watchlist removefeed #enemies-45`"
 msgstr ""
 
-#: cogs/tracking.py:1784
+#: cogs/tracking.py:1782
 #, python-brace-format
 msgid "{channel} doesn't have a feed."
 msgstr ""
 
-#: cogs/tracking.py:1795
+#: cogs/tracking.py:1793
 #, python-brace-format
 msgid "The feed for {channel.mention} has been removed."
 msgstr ""
 
-#: cogs/tracking.py:1801
+#: cogs/tracking.py:1799
 msgid "Removes a guild from the watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1810
+#: cogs/tracking.py:1808
 #, python-brace-format
 msgid "There's no guild with that name registered in {channel}."
 msgstr ""
 
-#: cogs/tracking.py:1813
+#: cogs/tracking.py:1811
 #, python-brace-format
 msgid "Do you want to remove **{name}** from this watchlist?"
 msgstr ""
 
-#: cogs/tracking.py:1822
+#: cogs/tracking.py:1820
 msgid "Guild removed from the watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1827
+#: cogs/tracking.py:1825
 msgid "Deletes a watchlist, even if the channel doesn't exist anymore."
 msgstr ""
 
-#: cogs/tracking.py:1828
+#: cogs/tracking.py:1826
 msgid ""
 "The channel that holds the watchlist will be attempted to be deleted. The deletion of the channel may fail due to missing permissions. In this case, the channel may be deleted manually, the watchlist won't be updated anymore.\n"
 "\n"
@@ -7792,55 +7792,55 @@ msgid ""
 "To see the list of channels, try: `watchlist viewall`."
 msgstr ""
 
-#: cogs/tracking.py:1852
+#: cogs/tracking.py:1850
 msgid "There's no watchlist registered on that channel."
 msgstr ""
 
-#: cogs/tracking.py:1855
+#: cogs/tracking.py:1853
 #, python-brace-format
 msgid "Do you want to delete the watchlist from {channel}? All its entries will be lost and {channel} will be deleted too."
 msgstr ""
 
-#: cogs/tracking.py:1863
+#: cogs/tracking.py:1861
 msgid "Watchlist deleted."
 msgstr ""
 
-#: cogs/tracking.py:1865
+#: cogs/tracking.py:1863
 #, python-brace-format
 msgid ""
 "Watchlist deleted successfully.\n"
 "{icon} Could not delete {channel}. You can try deleting it manually. Its content won't be updated anymore."
 msgstr ""
 
-#: cogs/tracking.py:1870
+#: cogs/tracking.py:1868
 msgid "Watchlist and channel deleted successfully."
 msgstr ""
 
-#: cogs/tracking.py:1873
+#: cogs/tracking.py:1871
 msgid "Watchlist deleted successfully."
 msgstr ""
 
-#: cogs/tracking.py:1879
+#: cogs/tracking.py:1877
 msgid "Changes whether the online count will be displayed in the watchlist's channel's name or not."
 msgstr ""
 
-#: cogs/tracking.py:1887
+#: cogs/tracking.py:1885
 msgid "Showing online count is now enabled. The name will be updated on the next cycle."
 msgstr ""
 
-#: cogs/tracking.py:1890
+#: cogs/tracking.py:1888
 msgid "Showing online count is now disabled. The name will be updated on the next cycle."
 msgstr ""
 
-#: cogs/tracking.py:1892
+#: cogs/tracking.py:1890
 msgid "That's not a valid option, try `yes` or `no`."
 msgstr ""
 
-#: cogs/tracking.py:1899
+#: cogs/tracking.py:1897
 msgid "Shows all registered watchlists."
 msgstr ""
 
-#: cogs/tracking.py:1900
+#: cogs/tracking.py:1898
 msgid ""
 "When the channel holding a watchlist is deleted, the watchlist is automatically deleted too.\n"
 "However, there may be cases where the watchlist is not deleted, leaving it bound to deleted channel.\n"
@@ -7849,95 +7849,95 @@ msgid ""
 "The channel id is the number displayed here for deleted channels."
 msgstr ""
 
-#: cogs/tracking.py:1910
+#: cogs/tracking.py:1908
 msgid "There are no watchlists in this server."
 msgstr ""
 
-#: cogs/tracking.py:1914
+#: cogs/tracking.py:1912
 #, python-brace-format
 msgid "Deleted Channel #{id}"
 msgstr ""
 
-#: cogs/tracking.py:1917
+#: cogs/tracking.py:1915
 msgid "Watchlists"
 msgstr ""
 
-#: cogs/tracking.py:1924
+#: cogs/tracking.py:1922
 msgid "The whitelist filters in level up and deaths announcements."
 msgstr ""
 
-#: cogs/tracking.py:1933
+#: cogs/tracking.py:1931
 msgid "Adds a guild to the whitelist."
 msgstr ""
 
-#: cogs/tracking.py:1934 cogs/tracking.py:1966
+#: cogs/tracking.py:1932 cogs/tracking.py:1964
 msgid ""
 "Only characters in whitelisted guilds will have their levels and deaths announced.\n"
 "If the whitelist is empty, all characters will be announced."
 msgstr ""
 
-#: cogs/tracking.py:1943
+#: cogs/tracking.py:1941
 #, python-brace-format
 msgid "The guild {guild} is not in {world}."
 msgstr ""
 
-#: cogs/tracking.py:1947
+#: cogs/tracking.py:1945
 msgid "This guild is already in the whitelist."
 msgstr ""
 
-#: cogs/tracking.py:1949
+#: cogs/tracking.py:1947
 #, python-brace-format
 msgid ""
 "Do you want to add **{guild}** to the whitelist?\n"
 "*Only characters from this name and other whitelisted guilds will be announced*"
 msgstr ""
 
-#: cogs/tracking.py:1959
+#: cogs/tracking.py:1957
 #, python-brace-format
 msgid "**{guild}** has been added to the whitelist."
 msgstr ""
 
-#: cogs/tracking.py:1965
+#: cogs/tracking.py:1963
 msgid "Shows the guilds currently in the whitelist."
 msgstr ""
 
-#: cogs/tracking.py:1972
+#: cogs/tracking.py:1970
 msgid "There are no whitelisted guilds in this server. All level ups and deaths are announced."
 msgstr ""
 
-#: cogs/tracking.py:1976
+#: cogs/tracking.py:1974
 msgid "Whitelisted guilds"
 msgstr ""
 
-#: cogs/tracking.py:1983
+#: cogs/tracking.py:1981
 msgid "Removes a guild from the whitelist."
 msgstr ""
 
-#: cogs/tracking.py:1988
+#: cogs/tracking.py:1986
 msgid "There is no guild with that name in the whitelist."
 msgstr ""
 
-#: cogs/tracking.py:1990
+#: cogs/tracking.py:1988
 #, python-brace-format
 msgid "Do you want to remove **{name}** from the whitelist?"
 msgstr ""
 
-#: cogs/tracking.py:1999
+#: cogs/tracking.py:1997
 #, python-brace-format
 msgid "**{name}** has been removed from the whitelist."
 msgstr ""
 
-#: cogs/tracking.py:2151
+#: cogs/tracking.py:2149
 #, python-brace-format
 msgid "Do you want to create a feed channel for {channel}?"
 msgstr ""
 
-#: cogs/tracking.py:2164
+#: cogs/tracking.py:2162
 #, python-brace-format
 msgid "Watchlist feed channel created by {user}"
 msgstr ""
 
-#: cogs/tracking.py:2169
+#: cogs/tracking.py:2167
 #, python-brace-format
 msgid ""
 "This is the new feed channel for {channel}.\n"
@@ -7946,79 +7946,79 @@ msgid ""
 "You might update this channel's permissions to allow others to see it."
 msgstr ""
 
-#: cogs/tracking.py:2174 cogs/tracking.py:2203
+#: cogs/tracking.py:2172 cogs/tracking.py:2201
 msgid "Sorry, I failed to set the feed channel due to missing permissions."
 msgstr ""
 
-#: cogs/tracking.py:2176
+#: cogs/tracking.py:2174
 msgid "Something went wrong while creating the new channel."
 msgstr ""
 
-#: cogs/tracking.py:2179
+#: cogs/tracking.py:2177
 msgid "Watchlist feed created successfully."
 msgstr ""
 
-#: cogs/tracking.py:2186
+#: cogs/tracking.py:2184
 #, python-brace-format
 msgid "I need both `Manage Channel` and `Manage Webhooks` permissions in {new_channel} in order to create a feed for {channel}"
 msgstr ""
 
-#: cogs/tracking.py:2189
+#: cogs/tracking.py:2187
 #, python-brace-format
 msgid "Do you want to assign {new_channel} as the feed channel for {channel.mention}?"
 msgstr ""
 
-#: cogs/tracking.py:2196
+#: cogs/tracking.py:2194
 #, python-brace-format
 msgid "Watchlist webhook created by {user}"
 msgstr ""
 
-#: cogs/tracking.py:2199
+#: cogs/tracking.py:2197
 #, python-brace-format
 msgid ""
 "This is the new feed channel for {channel}.\n"
 "Level ups and deaths for characters in this watchlist will be announced here."
 msgstr ""
 
-#: cogs/tracking.py:2205
+#: cogs/tracking.py:2203
 msgid "Something went wrong while assigning the feed channel."
 msgstr ""
 
-#: cogs/tracking.py:2208
+#: cogs/tracking.py:2206
 msgid "Watchlist feed assigned successfully."
 msgstr ""
 
 #. The characters were already registered to **you**
-#: cogs/tracking.py:2306
+#: cogs/tracking.py:2304
 msgid "you"
 msgstr ""
 
-#: cogs/tracking.py:2313
+#: cogs/tracking.py:2311
 #, python-brace-format
 msgid "Sorry, a character in that account ({char}) is already registered to someone else."
 msgstr ""
 
-#: cogs/tracking.py:2315
+#: cogs/tracking.py:2313
 #, python-brace-format
 msgid "If the character really belongs to {user}, use `{prefix}claim {char}."
 msgstr ""
 
-#: cogs/tracking.py:2322
+#: cogs/tracking.py:2320
 #, python-brace-format
 msgid "The following characters were already registered to {user}"
 msgstr ""
 
-#: cogs/tracking.py:2327
+#: cogs/tracking.py:2325
 #, python-brace-format
 msgid "The following characters were added to {user}"
 msgstr ""
 
-#: cogs/tracking.py:2332
+#: cogs/tracking.py:2330
 #, python-brace-format
 msgid "The following characters were reassigned to {user}"
 msgstr ""
 
-#: cogs/tracking.py:2337
+#: cogs/tracking.py:2335
 msgid "The following characters were reclaimed by you"
 msgstr ""
 
