@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-29 08:00-0700\n"
-"PO-Revision-Date: 2021-04-29 15:02\n"
+"PO-Revision-Date: 2021-04-29 22:51\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -944,7 +944,7 @@ msgstr "Debe establecerse un mensaje de bienvenida para que esta configuración 
 
 #: cogs/admin.py:592
 msgid "A channel's name or ID, or `private`."
-msgstr "Nombre de un canal o ID, o `private`."
+msgstr "Nombre o ID de un canal, o `private`."
 
 #: cogs/admin.py:593
 msgid "channel/private"
