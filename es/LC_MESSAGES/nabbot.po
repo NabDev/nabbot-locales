@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-30 08:39-0700\n"
-"PO-Revision-Date: 2021-04-30 15:40\n"
+"PO-Revision-Date: 2021-04-30 15:43\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5923,7 +5923,7 @@ msgstr "Efecto"
 #: cogs/tibiawiki.py:679
 #, python-brace-format
 msgid "**Also known as:** {name}"
-msgstr "**También conocido como:** {name}"
+msgstr "**También conocida como:** {name}"
 
 #: cogs/tibiawiki.py:683
 msgid "Origin"
