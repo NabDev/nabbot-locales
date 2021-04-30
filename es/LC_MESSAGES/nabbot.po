@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-29 16:21-0700\n"
-"PO-Revision-Date: 2021-04-29 23:22\n"
+"PO-Revision-Date: 2021-04-30 00:19\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -281,45 +281,45 @@ msgstr[1] "%d segundos"
 msgctxt "years abbreviation"
 msgid "y"
 msgid_plural "y"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "y"
+msgstr[1] "y"
 
 #. Should be different than abbreviation for minutes
 #: utils/timing.py:109
 msgctxt "months abbreviation"
 msgid "mo"
 msgid_plural "mo"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "me"
+msgstr[1] "me"
 
 #: utils/timing.py:110
 msgctxt "days abbreviation"
 msgid "d"
 msgid_plural "d"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "d"
+msgstr[1] "d"
 
 #: utils/timing.py:111
 msgctxt "hours abbreviation"
 msgid "h"
 msgid_plural "h"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "h"
+msgstr[1] "h"
 
 #. Should be different than abbreviation for months
 #: utils/timing.py:113
 msgctxt "minutes abbreviation"
 msgid "m"
 msgid_plural "m"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "m"
+msgstr[1] "m"
 
 #: utils/timing.py:114
 msgctxt "seconds abbreviation"
 msgid "s"
 msgid_plural "s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "s"
+msgstr[1] "s"
 
 #. For very short times
 #: utils/timing.py:141 utils/timing.py:159
@@ -859,7 +859,8 @@ msgstr "Establece si los mensajes de nivel/muerte deben mostrar al usuario al qu
 #: cogs/admin.py:496
 msgid "When enabled, level up and death messages will contain a mention of the user that owns the character.\n\n"
 "The users won't receive a notification for this."
-msgstr ""
+msgstr "Cuando está activado, los mensajes de nivel y muerte contendrán una mención del usuario que posea el personaje.\n\n"
+"Los usuarios no recibirán una notificación por esto."
 
 #: cogs/admin.py:511
 msgid "I will show users on level up and death messages from now on."
