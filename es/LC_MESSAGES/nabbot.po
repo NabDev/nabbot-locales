@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-30 07:32-0700\n"
-"PO-Revision-Date: 2021-04-30 14:33\n"
+"PO-Revision-Date: 2021-04-30 14:44\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -211,11 +211,11 @@ msgstr "Estábamos en la página {page} antes de este mensaje."
 
 #: utils/pages.py:491
 msgid "Command Help"
-msgstr ""
+msgstr "Ayuda de Comandos"
 
 #: utils/pages.py:492
 msgid "Various symbols are used to represent a command's signature and/or show further info."
-msgstr ""
+msgstr "Se utilizan varios símbolos para representar los parametros de un comando y/o mostrar más información."
 
 #: utils/pages.py:495
 msgid "argument"
@@ -437,7 +437,7 @@ msgstr "Nombre de un canal o ID, o 'deshabilitar'."
 
 #: cogs/admin.py:56
 msgid "channel/disable"
-msgstr ""
+msgstr "canal/deshabilitar"
 
 #. Used to show that the current setting is the default global setting.
 #: cogs/admin.py:58
@@ -4963,7 +4963,7 @@ msgid "This command can be used in three ways:\n"
 "3. Find the joint share range of a group of characters. (`share ≪name1, name2,…≫`)"
 msgstr "Este comando puede utilizarse de tres maneras:\n"
 "1. Encuentra el rango de compartir experiencia de un nivel. (`share ≪level≫`)\n"
-"2. Encuentra el rango de compartir experiencia de un personaje. (`compartir ≪name≫`)\n"
+"2. Encuentra el rango de compartir experiencia de un personaje. (`share ≪name≫`)\n"
 "3. Encuentra el rango de compartir experiencia conjunto de un grupo de personajes. (`share ≪name1, name2…≫`)"
 
 #: cogs/tibia.py:1336
@@ -5346,7 +5346,7 @@ msgstr "Noticias recientes"
 #: cogs/tibia.py:2100
 #, python-brace-format
 msgid "To see a specific entry, use the command `{prefix}news ≪id≫`"
-msgstr "Para ver una entrada específica, utilice el comando `{prefix} ≪id≫`"
+msgstr "Para ver una entrada específica, utilice el comando `{prefix}news ≪id≫`"
 
 #. The world the character was in before transferring
 #: cogs/tibia.py:2115
@@ -5531,7 +5531,7 @@ msgstr "Aceptada"
 
 #: cogs/tibia.py:2285
 msgid "Highest Bid"
-msgstr ""
+msgstr "Oferta más alta"
 
 #: cogs/tibia.py:2286
 msgid "Highest Bidder"
@@ -5759,7 +5759,7 @@ msgstr "No hay ninguna clase con ese nombre."
 #: cogs/tibiawiki.py:224
 #, python-brace-format
 msgid "Use `{prefix}monster ≪name≫` to see more info"
-msgstr "Usa `{prefix}monstruo ≪nombre≫` para ver más información"
+msgstr "Usa `{prefix}monster ≪nombre≫` para ver más información"
 
 #: cogs/tibiawiki.py:225
 #, python-brace-format
@@ -6564,7 +6564,7 @@ msgstr "Todas las ranuras para este evento han sido llenadas. Puedes cambiarlas 
 #: cogs/timers.py:856
 #, python-brace-format
 msgid "Do you want to add **{char}** ({user}) to **{event}**?"
-msgstr ""
+msgstr "¿Quieres agregar a **{char}** ({user}) a **{event}**?"
 
 #: cogs/timers.py:866
 #, python-brace-format
@@ -6692,7 +6692,7 @@ msgstr "Tu evento **{event}** fue renombrado a **{new_name}** por {user}"
 #: cogs/timers.py:1034
 #, python-brace-format
 msgid "The event **{name}** was renamed to **{new_name}**."
-msgstr ""
+msgstr "El evento **{name}** fue renombrado a **{new_name}**."
 
 #: cogs/timers.py:1041
 msgid "Edits an event's number of slots."
