@@ -3,198 +3,192 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-30 08:39-0700\n"
-"PO-Revision-Date: 2021-04-30 15:40\n"
+"PO-Revision-Date: 2021-04-30 15:43\n"
 "Last-Translator: \n"
-"Language-Team: Polish\n"
-"Language: pl_PL\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: nabbot\n"
 "X-Crowdin-Project-ID: 450322\n"
-"X-Crowdin-Language: pl\n"
+"X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /main/nabbot.pot\n"
 "X-Crowdin-File-ID: 6\n"
 
 #: utils/constants.py:38
 msgid "I don't have a character with that name registered."
-msgstr "Nie ma zarejestrowanej postaci o tej nazwie."
+msgstr ""
 
 #: utils/constants.py:39
 msgid "I couldn't find a character with that name."
-msgstr "Nie mogłem znaleźć postaci o tej nazwie."
+msgstr ""
 
 #: utils/constants.py:40
 msgid "I couldn't fetch the character, please try again."
-msgstr "Nie mogłem pobrać postaci, spróbuj ponownie."
+msgstr ""
 
 #: utils/constants.py:41
 msgid "I'm having network issues, please try again."
-msgstr "Mam problemy z siecią, proszę spróbować ponownie."
+msgstr ""
 
 #: utils/constants.py:43
 msgid "You took to long to confirm. Aborting."
-msgstr "Potwierdzenie zajęło ci zbyt wiele czasu. Przerywam."
+msgstr ""
 
 #: utils/constants.py:44
 msgid "No changes will be done then."
-msgstr "Żadne zmiany nie zostaną wprowadzone."
+msgstr ""
 
 #: utils/constants.py:46
 msgid "I don't see any users with that name."
-msgstr "Nie widzę żadnych użytkowników o tej nazwie."
+msgstr ""
 
 #: utils/constants.py:47
 #, python-brace-format
 msgid "I couldn't find any users named `{name}`."
-msgstr "Nie mogłem znaleźć żadnych użytkowników o nazwie `{name}`."
+msgstr ""
 
 #: utils/constants.py:48
 msgid "That is not a valid ID."
-msgstr "To nie jest prawidłowy ID."
+msgstr ""
 
 #: utils/constants.py:49
 msgid "That's not a valid level."
-msgstr "To nie jest poprawny poziom."
+msgstr ""
 
 #: utils/constants.py:51
 msgid "There is no world with that name."
-msgstr "Nie ma świata o takiej nazwie."
+msgstr ""
 
 #: utils/constants.py:53
 msgid "There is no guild with that name."
-msgstr "Nie ma gildii o takiej nazwie."
+msgstr ""
 
 #: utils/constants.py:55
 msgid "I could not find that channel."
-msgstr "Nie mogłem znaleźć tego kanału."
+msgstr ""
 
 #: utils/constants.py:56
 msgid "…and more"
-msgstr "…i więcej"
+msgstr ""
 
 #: utils/checks.py:21
 msgid "This command cannot be used in private messages."
-msgstr "Ta komenda nie może być używana w prywatnych wiadomościach."
+msgstr ""
 
 #: utils/checks.py:30
 msgid "You are not allowed to use this command."
-msgstr "Nie masz uprawnień do używania tej komendy."
+msgstr ""
 
 #: utils/checks.py:41
 msgid "You need Administrator permission to use this command."
-msgstr "Potrzebujesz uprawnień administratora, aby użyć tej komendy."
+msgstr ""
 
 #: utils/checks.py:51
 msgid "You need `Manage Server` permissions to use this command."
-msgstr "Potrzebujesz uprawnienia `Zarządzanie serwerem`, aby użyć tej komendy."
+msgstr ""
 
 #: utils/checks.py:79 utils/checks.py:98
 msgid "You need `Manage Channel` permissions to use this command."
-msgstr "Potrzebujesz uprawnienia `Zarządzanie kanałem`, aby użyć tej komendy."
+msgstr ""
 
 #: utils/checks.py:112 utils/checks.py:127
 msgid "This server is not tracking any worlds."
-msgstr "Ten serwer nie śledzi żadnych światów."
+msgstr ""
 
 #: utils/checks.py:129
 msgid "You're not in any server tracking a world."
-msgstr "Nie jesteś na żadnym serwerze śledzącym świat."
+msgstr ""
 
 #: utils/converter.py:45
 msgid "Member \"{}\" not found."
-msgstr "Użytkownik \"{}\" nie znaleziony."
+msgstr ""
 
 #: utils/converter.py:80
 msgid "Role \"{}\" not found."
-msgstr "Rola \"{}\" nie znaleziona."
+msgstr ""
 
 #: utils/converter.py:92 utils/converter.py:96
 msgid "Could not find a channel by ID {argument!r}."
-msgstr "Nie można znaleźć kanału według ID {argument!r}."
+msgstr ""
 
 #: utils/converter.py:116
 msgid "That's not a valid time, try something like this: `1d7h` or `4h20m`"
-msgstr "To nie jest poprawny czas, spróbuj czegoś takiego: `1d7h` lub `4h20m`"
+msgstr ""
 
 #: utils/converter.py:133
 msgid "That's a bit too far in the future… Try less than 60 days."
-msgstr "To jest trochę za daleko w przyszłości… Spróbuj mniej niż 60 dni."
+msgstr ""
 
 #: utils/converter.py:142
 msgid "Invalid stamina format, expected: `hh:mm`"
-msgstr "Niepoprawny format staminy, oczekiwany: `hh:mm`"
+msgstr ""
 
 #: utils/converter.py:146
 msgid "Invalid stamina, minutes can't be 60 or greater."
-msgstr "Niepoprawna stamina, minuty nie mogą być 60 lub większe."
+msgstr ""
 
 #: utils/converter.py:148
 msgid "Invalid stamina, can't have more than 42 hours."
-msgstr "Niepoprawna stamina, nie może mieć więcej niż 42 godziny."
+msgstr ""
 
 #: utils/converter.py:185
 #, python-brace-format
 msgid "`{argument}` is not a valid number."
-msgstr "`{argument}` nie jest poprawną liczbą."
+msgstr ""
 
 #. Level up message used when simple messages is enabled
 #: utils/messages.py:88
 #, python-brace-format
 msgid "**{name}** advanced to level {level}."
-msgstr "Postać **{name}** awansowała do poziomu {level}."
+msgstr ""
 
 #. Death message used when simple messages is on. Article will always be in English (a/an). May be omitted if fitting.
 #: utils/messages.py:90
 #, python-brace-format
 msgid "**{name}** ({level}) died to {killer_article}**{killer}**."
-msgstr "Postać **{name}** ({level}) została zabita przez: {killer_article}**{killer}**."
+msgstr ""
 
 #. PvP deaths messages used when simple messages is on.
 #: utils/messages.py:92
 #, python-brace-format
 msgid "**{name}** ({level}) was killed by **{killer}**."
-msgstr "Postać **{name}** ({level}) została zabita przez **{killer}**."
+msgstr ""
 
 #: utils/pages.py:106
 msgid "I need `Add Reactions` permission to display this command."
-msgstr "Potrzebuję uprawnienia `Dodawanie reakcji`, aby wyświetlić tą komendę."
+msgstr ""
 
 #: utils/pages.py:109
 msgid "I need `Read Message History` permission to display this command."
-msgstr "Potrzebuję uprawnienia `Czytanie historii czatu` aby wyświetlić tą komendę."
+msgstr ""
 
 #: utils/pages.py:126 utils/pages.py:449
 msgid "Page"
-msgstr "Strona"
+msgstr ""
 
 #: utils/pages.py:127
 #, python-format
 msgid "%d entry"
 msgid_plural "%d entries"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: utils/pages.py:382 utils/pages.py:446
 msgid "No help given."
-msgstr "Brak pomocy."
+msgstr ""
 
 #: utils/pages.py:440
 #, python-brace-format
 msgid "Use \"{prefix}help <command>\" for more info on a command."
-msgstr "Użyj \"{prefix}help <command>\", aby uzyskać więcej informacji o komendzie."
+msgstr ""
 
 #: utils/pages.py:450
 #, python-format
 msgid "%d command"
 msgid_plural "%d commands"
-msgstr[0] "%d komenda"
-msgstr[1] "%d komendy"
-msgstr[2] "%d komend"
-msgstr[3] "%d komend"
+msgstr[0] ""
 
 #: utils/pages.py:472
 msgid "Paginator help"
@@ -202,16 +196,16 @@ msgstr ""
 
 #: utils/pages.py:473
 msgid "Hello! Welcome to the help page."
-msgstr "Cześć! Witamy na stronie pomocy."
+msgstr ""
 
 #: utils/pages.py:477
 msgid "What are these reactions for?"
-msgstr "Do czego służą te reakcje?"
+msgstr ""
 
 #: utils/pages.py:479 utils/pages.py:508
 #, python-brace-format
 msgid "We were on page {page} before this message."
-msgstr "Byliśmy na stronie {page} przed tą wiadomością."
+msgstr ""
 
 #: utils/pages.py:491
 msgid "Command Help"
@@ -223,92 +217,70 @@ msgstr ""
 
 #: utils/pages.py:495
 msgid "argument"
-msgstr "argument"
+msgstr ""
 
 #: utils/pages.py:498
 msgid "This means the argument is __**required**__."
-msgstr "To oznacza, że argument jest __**wymagany**__."
+msgstr ""
 
 #: utils/pages.py:499
 msgid "This means the argument is __**optional**__."
-msgstr "To oznacza, że argument jest __**opcjonalny**__."
+msgstr ""
 
 #: utils/pages.py:500
 msgid "This means it can be __**either A or B**__."
-msgstr "To oznacza, że może to być __**A lub B**__."
+msgstr ""
 
 #: utils/pages.py:501
 msgid "This means you can have multiple arguments.\n"
-msgstr "To oznacza, że możesz mieć wiele argumentów.\n"
+msgstr ""
 
 #: utils/pages.py:502
 msgid "This means the command has subcommands.\n"
 "Check the command's help to see them."
-msgstr "To znaczy, że komenda posiada pod-komendy.\n"
-"Sprawdź pomoc komendy aby je wyświetlić."
+msgstr ""
 
 #: utils/timing.py:99
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] "%d rok"
-msgstr[1] "%d lata"
-msgstr[2] "%d lat"
-msgstr[3] "%d lat"
+msgstr[0] ""
 
 #: utils/timing.py:100
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] "%d miesiąc"
-msgstr[1] "%d miesiące"
-msgstr[2] "%d miesięcy"
-msgstr[3] "%d miesięcy"
+msgstr[0] ""
 
 #: utils/timing.py:101 utils/timing.py:217
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] "%d dzień"
-msgstr[1] "%d dni"
-msgstr[2] "%d dni"
-msgstr[3] "%d dni"
+msgstr[0] ""
 
 #: utils/timing.py:102 utils/timing.py:219
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] "%d godzina"
-msgstr[1] "%d godziny"
-msgstr[2] "%d godzin"
-msgstr[3] "%d godzin"
+msgstr[0] ""
 
 #: utils/timing.py:103 utils/timing.py:221
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "%d minuta"
-msgstr[1] "%d minuty"
-msgstr[2] "%d minut"
-msgstr[3] "%d minut"
+msgstr[0] ""
 
 #: utils/timing.py:104
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] "%d sekunda"
-msgstr[1] "%d sekundy"
-msgstr[2] "%d sekund"
-msgstr[3] "%d sekund"
+msgstr[0] ""
 
 #: utils/timing.py:107
 msgctxt "years abbreviation"
 msgid "y"
 msgid_plural "y"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #. Should be different than abbreviation for minutes
 #: utils/timing.py:109
@@ -316,27 +288,18 @@ msgctxt "months abbreviation"
 msgid "mo"
 msgid_plural "mo"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: utils/timing.py:110
 msgctxt "days abbreviation"
 msgid "d"
 msgid_plural "d"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: utils/timing.py:111
 msgctxt "hours abbreviation"
 msgid "h"
 msgid_plural "h"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #. Should be different than abbreviation for months
 #: utils/timing.py:113
@@ -344,23 +307,17 @@ msgctxt "minutes abbreviation"
 msgid "m"
 msgid_plural "m"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: utils/timing.py:114 cogs/info.py:286
 msgctxt "seconds abbreviation"
 msgid "s"
 msgid_plural "s"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #. For very short times
 #: utils/timing.py:141 utils/timing.py:159
 msgid "now"
-msgstr "teraz"
+msgstr ""
 
 #. To describe times that happened in the past, for example: "1 day ago", "13 hours ago"
 #: utils/timing.py:170
@@ -393,9 +350,6 @@ msgstr ""
 msgid "My command prefix is:"
 msgid_plural "My command prefixes are:"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: cogs/admin.py:36 cogs/tibia.py:2037 cogs/tibia.py:2120
 msgid "World"
@@ -1785,9 +1739,6 @@ msgstr ""
 msgid "{user} rolled a **{sides}**-sided die **{times}** time and got:"
 msgid_plural "{user} rolled a **{sides}**-sided die **{times}** times and got:"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: cogs/general.py:196
 msgid "Who would have thought? 🙄"
@@ -1899,9 +1850,6 @@ msgstr ""
 msgid "member"
 msgid_plural "members"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: cogs/info.py:139
 msgid "Visible by"
@@ -2578,9 +2526,6 @@ msgstr ""
 msgid "%d entry is now ignored."
 msgid_plural "%d entries are now ignored."
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: cogs/mod.py:153
 msgid "The rest was already ignored."
@@ -2638,9 +2583,6 @@ msgstr ""
 msgid "{count} is now ignored."
 msgid_plural "{count} are now ignored."
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: cogs/mod.py:219
 msgid "No entries were unignored."
@@ -3370,9 +3312,6 @@ msgstr ""
 msgid "There is %d person in the queue"
 msgid_plural "There are %d persons in the queue."
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: cogs/respawn.py:477
 #, python-brace-format
@@ -3743,9 +3682,6 @@ msgstr ""
 msgid "`%d member`"
 msgid_plural "`%d members`"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: cogs/roles.py:405
 msgid "Joinable groups"
@@ -3936,9 +3872,6 @@ msgstr ""
 msgid "{count:,} command use"
 msgid_plural "{count:,} command uses"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: cogs/stats.py:53
 msgid "Command Stats"
@@ -3953,9 +3886,6 @@ msgstr ""
 msgid "{count:,} use"
 msgid_plural "{count:,} uses"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: cogs/stats.py:60 cogs/stats.py:101
 msgid "Top commands"
@@ -4512,9 +4442,6 @@ msgstr ""
 msgid "It has **{online}** player online out of **{member_count}**:"
 msgid_plural "It has **{online}** players online out of **{member_count}**:"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: cogs/tibia.py:804
 msgid "Shows basic information and stats about a guild."
@@ -4877,9 +4804,6 @@ msgstr ""
 msgid "**{lowest_name}** ({lowest_level}) needs {diff} more level to share experience with **{highest_name}** ({highest_level})."
 msgid_plural "**{lowest_name}** ({lowest_level}) needs {diff} more levels to share experience with **{highest_name}** ({highest_level})."
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: cogs/tibia.py:1393
 msgid "They can all share experience with each other."
@@ -5236,9 +5160,6 @@ msgstr ""
 msgid "House"
 msgid_plural "Houses"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #. Whether the character was recently traded in the bazaar
 #: cogs/tibia.py:2136
@@ -5274,9 +5195,6 @@ msgstr ""
 msgid "Other Character"
 msgid_plural "Other Characters"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: cogs/tibia.py:2166
 msgctxt "Account creation date"
@@ -5322,9 +5240,6 @@ msgstr ""
 msgid "**{user}**'s character is: {character_list}"
 msgid_plural "**{user}**'s characters are: {character_list}"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: cogs/tibia.py:2241
 msgid "{rent:,} gold per month"
@@ -5422,9 +5337,6 @@ msgstr ""
 msgid "**%d** day"
 msgid_plural "**%d** days"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #. Last time the boss was seen
 #: cogs/tibia.py:2511
@@ -5605,9 +5517,6 @@ msgstr ""
 msgid "creature"
 msgid_plural "creatures"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: cogs/tibiawiki.py:217
 msgid "Bestiary Classes"
@@ -5930,9 +5839,6 @@ msgstr ""
 msgid "point"
 msgid_plural "points"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #. Kills to complete bestiary
 #: cogs/tibiawiki.py:1136
@@ -6013,9 +5919,6 @@ msgstr ""
 msgid "…and {count:,} other"
 msgid_plural "…and {count:,} others"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: cogs/tibiawiki.py:1325
 msgctxt "Spell with variable mana"
@@ -7883,9 +7786,6 @@ msgstr ""
 msgid "…and {count:,} more"
 msgid_plural "…and {count:,} more"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: models/context.py:186
 msgid "Please choose one of the options."
