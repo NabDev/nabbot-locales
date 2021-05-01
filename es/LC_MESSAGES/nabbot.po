@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-01 10:58-0700\n"
-"PO-Revision-Date: 2021-05-01 17:59\n"
+"PO-Revision-Date: 2021-05-01 18:27\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -787,15 +787,16 @@ msgstr "Habilita o deshabilita los tickers de noticias de Tibia.com en este serv
 #: cogs/admin.py:394
 msgid "Disabling this will make NabBot only announce news and featured articles.\n"
 "In order for news tickers to be announced, news announcements must be enabled."
-msgstr ""
+msgstr "Desactivar esto hará que NabBot solo anuncie noticias y artículos destacados.\n"
+"Para que se anuncien los noticias, los anuncios de noticias deben estar habilitados."
 
 #: cogs/admin.py:407
 msgid "I will announce news tickers along news and featured articles from now on."
-msgstr ""
+msgstr "A partir de ahora anunciare news tickers junto con noticias y artículos destacados."
 
 #: cogs/admin.py:410
 msgid "I won't announce news tickers from now on."
-msgstr ""
+msgstr "A partir de ahora no voy a anunciar los nuevos tickers."
 
 #: cogs/admin.py:418
 msgid "Changes the command prefixes for this server."
@@ -1205,8 +1206,8 @@ msgstr " con un bono de loyalty de %d%%."
 #: cogs/calculators.py:109
 msgid "You need **{hits:,}** hit to reach the target level."
 msgid_plural "You need **{hits:,}** hits to reach the target level."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Necesitas **{hits:,}** hit para alcanzar el nivel objetivo."
+msgstr[1] "Necesitas **{hits:,}** hits para alcanzar el nivel objetivo."
 
 #: cogs/calculators.py:184
 msgid "Commands to calculate various Tibia values."
@@ -1243,7 +1244,8 @@ msgstr "Calcula el tiempo de entrenamiento necesario para alcanzar un nivel de d
 #: cogs/calculators.py:215
 msgid "It shows the needed hits, online training time and offline training time.\n"
 "For paladins, it will also show the number of exercise weapons needed."
-msgstr ""
+msgstr "Muestra los hits necesarios, el tiempo de entrenamiento en línea y el tiempo de entrenamiento fuera de línea.\n"
+"Para los paladines, también mostrará el número de exercise weapons necesarias."
 
 #: cogs/calculators.py:237
 msgid "Distance Skill Calculator"
@@ -1511,13 +1513,13 @@ msgstr "Argumentos usados inválidos, ejemplos:"
 #: cogs/calculators.py:727
 #, python-brace-format
 msgid "{prefix}{command} ≪character name≫"
-msgstr ""
+msgstr "{prefix}{command} ≪nombre personaje≫"
 
 #. Arguments example of stats command
 #: cogs/calculators.py:729
 #, python-brace-format
 msgid "{prefix}{command} ≪level≫,≪vocation≫"
-msgstr ""
+msgstr "{prefix}{command} ≪nivel≫,≪vocación≫"
 
 #: cogs/core.py:262
 #, python-brace-format
@@ -1611,7 +1613,7 @@ msgstr "Configura el canal para niveles y muertes usando: `{0}settings`"
 #: cogs/core.py:388
 #, python-brace-format
 msgid "People can register their characters using `{0}im ≪characterName≫`"
-msgstr ""
+msgstr "La gente puede registrar sus personajes usando `{0}im ≪nombrePersonaje≫`"
 
 #: cogs/core.py:389
 #, python-brace-format
@@ -1784,7 +1786,11 @@ msgid "By default, it rolls a 6-sided die once.\n"
 "You can specify how many times you want the die to be rolled.\n\n"
 "You can also specify the number of sides of the die, using the format `TdS` where T is times and S is sides.\n"
 "For example: `3d5` will roll a 5 sided dice 3 times."
-msgstr ""
+msgstr "Por defecto, tira una vez un dado de 6 caras una vez.\n"
+"Puedes especificar cuántas veces quieres que el dado se lance.\n"
+" \n"
+"También puede especificar el número de lados del dado, usando el formato `TdS` donde T son las veces y S los lados.\n"
+" Por ejemplo: `3d5` tirará un dado de 5 lados 3 veces."
 
 #: cogs/general.py:169
 msgid "Invalid parameter! I'm expecting `≪times≫d≪sides≫`."
@@ -1859,7 +1865,7 @@ msgstr "Autores"
 #: cogs/info.py:63
 msgctxt "Bot creation date"
 msgid "Created"
-msgstr ""
+msgstr "Creado el"
 
 #: cogs/info.py:64 cogs/info.py:102
 msgid "Version"
@@ -2148,7 +2154,7 @@ msgstr "Miembro desde"
 #: cogs/info.py:341
 msgctxt "Member creation date"
 msgid "Created"
-msgstr ""
+msgstr "Creado el"
 
 #: cogs/info.py:345
 msgid "Server Owner"
@@ -2180,7 +2186,7 @@ msgstr "Estado del usuario"
 
 #: cogs/info.py:358
 msgid "Servers with NabBot"
-msgstr ""
+msgstr "Servidores con NabBot"
 
 #: cogs/info.py:360
 msgid "Highest role"
@@ -2515,7 +2521,7 @@ msgstr "Necesito permiso de `Adjuntar archivos` para mostrarte esto."
 #: cogs/loot.py:249
 #, python-brace-format
 msgid "Loot scanned in {time}."
-msgstr ""
+msgstr "Loot escaneado en {time}."
 
 #: cogs/loot.py:254
 #, python-brace-format
@@ -2530,8 +2536,8 @@ msgstr "Estos son los resultados:"
 #, python-format
 msgid "**There was %d unknown item.**"
 msgid_plural "**There were %d unknown items.**"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "**Hubo %d elemento desconocido.**"
+msgstr[1] "**Hubo %d elementos desconocidos.**"
 
 #: cogs/loot.py:307
 msgid "\n"
@@ -2746,17 +2752,17 @@ msgstr "Miembros sin registrar de {guild}"
 #: cogs/premium.py:44
 msgctxt "transaction"
 msgid "Pending"
-msgstr ""
+msgstr "Pendiente"
 
 #: cogs/premium.py:45
 msgctxt "transaction"
 msgid "Accepted"
-msgstr ""
+msgstr "Aceptada"
 
 #: cogs/premium.py:46
 msgctxt "transaction"
 msgid "Rejected"
-msgstr ""
+msgstr "Rechazada"
 
 #: cogs/premium.py:54
 msgid "This server's benefits will be removed."
@@ -2863,7 +2869,7 @@ msgstr "Si lo usa sin parámetros, intentará añadir premium al servidor actual
 
 #: cogs/premium.py:396
 msgid "You do not have any premium days to assign and you're not a Patron."
-msgstr ""
+msgstr "No tienes días premium para asignar y no eres un Patreon."
 
 #: cogs/premium.py:400
 #, python-brace-format
@@ -2989,7 +2995,7 @@ msgstr "Actualmente no tienes ninguna transacción."
 #: cogs/premium.py:525
 #, python-brace-format
 msgid "{status} (ID: {id}) - {amount}{TC}"
-msgstr ""
+msgstr "{status} (ID: {id}) - {amount}{TC}"
 
 #: cogs/premium.py:531 cogs/premium.py:561
 msgid "unknown server"
@@ -3038,16 +3044,16 @@ msgstr "Muestra los precios e información de premium."
 #: cogs/premium.py:584
 #, python-brace-format
 msgid "The price for **30** days of premium is **{price} {tc_emoji}**."
-msgstr ""
+msgstr "El precio de **30** días de premium es **{price} {tc_emoji}**."
 
 #: cogs/premium.py:588
 #, python-brace-format
 msgid "To purchase, transfer to **{recipient}** and then submit the payment using: `{prefix}premium buy ≪amount≫ ≪character≫` replacing with the amount sent and the character you transferred the coins from."
-msgstr ""
+msgstr "Para comprar, transfiere a **{recipient}** y luego envía el pago utilizando: `{prefix}premium buy ≪amount≫ ≪character≫` y sustituye la cantidad enviada y el personaje del que has transferido las monedas."
 
 #: cogs/premium.py:594
 msgid "*Remember to remove the `≪` `≫` symbols!*"
-msgstr ""
+msgstr "*¡Recuerda quitar los símbolos `≪` `≫`!*"
 
 #: cogs/premium.py:595
 msgid "NabBot Premium Prices"
@@ -3370,7 +3376,8 @@ msgstr "Elimina un usuario de un respawn o cola."
 #: cogs/respawn.py:362
 msgid "If no user is specified, it will remove the current user hunting in the respawn.\n"
 "To remove a specific user in the queue, specify the name of the user."
-msgstr ""
+msgstr "Si no se especifica ningún usuario, eliminará al usuario actualmente cazando en el respawn.\n"
+"Para eliminar a un usuario específico en la cola, especifique el nombre del usuario."
 
 #: cogs/respawn.py:374
 #, python-brace-format
@@ -3741,7 +3748,9 @@ msgstr "Esto aplicará las reglas existentes a todos los miembros.\n"
 msgid "This will make me check the guilds of all registered characters to apply existing rules.\n"
 "Note that characters with outdated information won't be updated until they are online again or checked using `whois`\n"
 "Are you sure you want this?"
-msgstr ""
+msgstr "Esto me hará comprobar los guilds de todos los personajes registrados para aplicar las reglas existentes.\n"
+"Ten en cuenta que personajes con información desactualizada no se actualizarán hasta que estén en línea de nuevo o se verifique usando `whois`\n"
+"¿Estás seguro de que quieres esto?"
 
 #: cogs/roles.py:270
 msgid "Starting role refreshing…"
@@ -4166,8 +4175,8 @@ msgstr "Sin transferencias salientes"
 #: cogs/tibia.py:144
 msgid "**{value:,}** point"
 msgid_plural "**{value:,}** points"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "**{value:,}** punto"
+msgstr[1] "**{value:,}** puntos"
 
 #: cogs/tibia.py:148
 msgid "Level **{value:,}**"
@@ -4553,7 +4562,7 @@ msgstr "{name} - En nivel **{level}** por {killer} - *hace {time}*"
 
 #: cogs/tibia.py:678
 msgid "There are no registered deaths by this user."
-msgstr ""
+msgstr "No hay muertes registradas de este usuario."
 
 #: cogs/tibia.py:680
 #, python-brace-format
@@ -4628,7 +4637,8 @@ msgstr "Muestra personajes en línea en un guild."
 #: cogs/tibia.py:776
 msgid "Shows the number of members the guild has and a list of their users.\n"
 "It also shows whether the guild has a guildhall or not, and their founding date."
-msgstr ""
+msgstr "Muestra el número de miembros que tiene el guild y una lista de sus usuarios.\n"
+"También muestra si el guild tiene o no un guildhall y cuando fue fundado."
 
 #: cogs/tibia.py:787 cogs/tibia.py:820
 #, python-brace-format
@@ -4735,7 +4745,10 @@ msgid "If the server is already tracking a world, the tracked world will be used
 "To see the highscores of all worlds, use \"global\" or \"all\" as the world parameter.\n\n"
 "Available categories are: experience, magic, sword, club, axe, shielding, fishing, fist, distance, goshnar and loyalty.\n"
 "Available vocations are: all, none, paladin, druid, sorcerer and knight."
-msgstr ""
+msgstr "Si el servidor esta rastreando un mundo, el mundo rastreado será usado si no se especifica ningún mundo.\n"
+"Para ver los highscores de todos los mundos, usa \"global\" o \"all\" como parámetro de mundo.\n\n"
+"Categorías disponibles son: experience, magic, sword, club, axe, shielding, fishing, fist, distance, goshnar, charms y loyalty.\n"
+"Las vocaciones disponibles son: all, none, paladin, druid, sorcerer y knight."
 
 #: cogs/tibia.py:948
 #, python-brace-format
@@ -4871,7 +4884,7 @@ msgstr "No hay ningún artículo con ese ID."
 
 #: cogs/tibia.py:1200
 msgid "Shows the latest news tickers from Tibia.com."
-msgstr ""
+msgstr "Muestra las últimas noticias cortas (tickers) de Tibia.com."
 
 #: cogs/tibia.py:1206
 msgid "Something went wrong getting recent news ticker."
@@ -5242,7 +5255,7 @@ msgstr "El récord de jugadores en línea es {count:,}"
 #: cogs/tibia.py:1800
 msgctxt "World creation date"
 msgid "Created"
-msgstr ""
+msgstr "Creado el"
 
 #. To indicate that the world has always had battleye protection
 #: cogs/tibia.py:1804
@@ -5313,7 +5326,7 @@ msgstr "Skills"
 #: cogs/tibia.py:2045
 msgctxt "Auction created date"
 msgid "Created"
-msgstr ""
+msgstr "Creada"
 
 #: cogs/tibia.py:2046
 msgid "Regular Transfer"
@@ -5759,12 +5772,13 @@ msgstr "Spoiler"
 
 #: cogs/tibiawiki.py:203
 msgid "Displays bestiary classes and their creatures."
-msgstr ""
+msgstr "Muestra las clases del bestiary y sus criaturas."
 
 #: cogs/tibiawiki.py:204
 msgid "If a category is specified, it will list all the creatures that belong to the category.\n"
 "If no category is specified, it will list all the bestiary categories."
-msgstr ""
+msgstr "Si se especifica una categoría, aparecerá una lista de todas las criaturas que pertenecen a la categoría.\n"
+"Si no se especifica ninguna categoría, se listarán todas las categorías del bestiario."
 
 #: cogs/tibiawiki.py:213
 msgid "creature"
@@ -6677,7 +6691,7 @@ msgstr "no unible"
 
 #: cogs/timers.py:978
 msgid "The event is now **joinable**."
-msgstr ""
+msgstr "El evento ahora es **unible**."
 
 #: cogs/timers.py:979
 #, python-brace-format
@@ -6687,7 +6701,7 @@ msgstr ""
 #. Means that users cannot join the event themselves, owner must add them
 #: cogs/timers.py:982
 msgid "The event is now **not joinable**."
-msgstr ""
+msgstr "El evento ahora **no es unible**."
 
 #: cogs/timers.py:983
 #, python-brace-format
@@ -6918,7 +6932,7 @@ msgstr "De acuerdo, de nuevo, dime la descripción que quieres para tu evento.\n
 
 #: cogs/timers.py:1327
 msgid "Alright, now tell me in how much time will the event start from now. e.g. `2d1h20m`, `4h`"
-msgstr ""
+msgstr "Bien, ahora dime en cuánto tiempo comenzará el evento a partir de ahora. p.e. `2d1h20m`, `4h`"
 
 #: cogs/timers.py:1345
 msgid "Again, tell me the start time of the event from now.\n"
@@ -7099,7 +7113,7 @@ msgstr "Elimina uno de tus recordatorios por su id."
 
 #: cogs/timers.py:1607
 msgid "The ID of your reminders can be seen by using the `remindme list` command."
-msgstr ""
+msgstr "El ID de tus recordatorios se puede ver usando el comando `remindme list`."
 
 #: cogs/timers.py:1611
 #, python-brace-format
@@ -7228,7 +7242,7 @@ msgstr "{char} ha abandonado el guild"
 #: cogs/tracking.py:667
 #, python-brace-format
 msgid "{char} has joined the guild."
-msgstr ""
+msgstr "{char} se ha unido al guild."
 
 #: cogs/tracking.py:690
 #, python-brace-format
@@ -7596,7 +7610,7 @@ msgstr "Este personaje no esta en **{world}**."
 #: cogs/tracking.py:1412
 #, python-brace-format
 msgid "Do you want to add **{char.name}** (Level {char.level} {char.vocation}) to the watchlist {channel}?"
-msgstr ""
+msgstr "¿Quieres añadir a **{char.name}** (Nivel {char.level} {char.vocation}) a la lista de seguimiento {channel}?"
 
 #: cogs/tracking.py:1426
 #, python-brace-format
@@ -7691,11 +7705,11 @@ msgstr "¿Quieres añadir los personajes registrados de `{user}` a esta watchlis
 #: cogs/tracking.py:1565
 #, python-brace-format
 msgid "I added the following characters to the list {channel}, duplicates were skipped:{results}"
-msgstr ""
+msgstr "He añadido los siguientes personajes a la watchlist en {channel}, los duplicados se han omitido:{results}"
 
 #: cogs/tracking.py:1568
 msgid "No characters were added, as they were all duplicates."
-msgstr ""
+msgstr "No se añadieron personajes, ya que todos eran duplicados."
 
 #: cogs/tracking.py:1575
 msgid "Creates a watchlist channel."
@@ -8005,7 +8019,8 @@ msgstr "Este guild ya esta en la lista blanca."
 #, python-brace-format
 msgid "Do you want to add **{guild}** to the whitelist?\n"
 "*Only characters from this guild and other whitelisted guilds will be announced*"
-msgstr ""
+msgstr "¿Quieres añadir **{guild}** a la lista blanca?\n"
+"*Solo los personajes de este guild y de otros guilds en la lista blanca serán anunciados*"
 
 #: cogs/tracking.py:1961
 #, python-brace-format
@@ -8116,7 +8131,7 @@ msgstr "Lo sentimos, un personaje en esa cuenta ({char}) ya está registrado a o
 #: cogs/tracking.py:2317
 #, python-brace-format
 msgid "If the character really belongs to {user}, use `{prefix}claim {char}`."
-msgstr ""
+msgstr "Si el personaje realmente pertenece a {user}, usa `{prefix}claim {char}`."
 
 #: cogs/tracking.py:2324
 #, python-brace-format
