@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-01 10:58-0700\n"
+"POT-Creation-Date: 2021-05-01 11:29-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6521,11 +6521,11 @@ msgid ""
 "Once the event is created, the id of the event will be returned. This is used for further edits."
 msgstr ""
 
-#: cogs/timers.py:823 cogs/timers.py:1379
+#: cogs/timers.py:823 cogs/timers.py:1377
 msgid "Your event was created successfully."
 msgstr ""
 
-#: cogs/timers.py:824 cogs/timers.py:1380
+#: cogs/timers.py:824 cogs/timers.py:1378
 #, python-format
 msgid "*To edit this event, use ID **%d***"
 msgstr ""
@@ -6639,407 +6639,399 @@ msgstr ""
 msgid "Do you want **{event.name}** to be joinable? `yes/no/cancel`"
 msgstr ""
 
-#: cogs/timers.py:974
-msgid "joinable"
-msgstr ""
-
-#: cogs/timers.py:974
-msgid "not joinable"
-msgstr ""
-
-#: cogs/timers.py:978
+#: cogs/timers.py:977
 msgid "The event is now **joinable**."
 msgstr ""
 
-#: cogs/timers.py:979
+#: cogs/timers.py:978
 #, python-brace-format
-msgid "Your event **{event}** was changed made **joinable** by {user}."
+msgid "Your event **{event}** was made **joinable** by {user}."
 msgstr ""
 
 #. Means that users cannot join the event themselves, owner must add them
-#: cogs/timers.py:982
+#: cogs/timers.py:981
 msgid "The event is now **not joinable**."
 msgstr ""
 
-#: cogs/timers.py:983
+#: cogs/timers.py:982
 #, python-brace-format
-msgid "Your event **{event}** was changed made **not joinable** by {user}."
+msgid "Your event **{event}** was made **not joinable** by {user}."
 msgstr ""
 
-#: cogs/timers.py:998
+#: cogs/timers.py:996
 msgid "Edits an event's name."
 msgstr ""
 
-#: cogs/timers.py:999
+#: cogs/timers.py:997
 msgid "If no new name is provided initially, the bot will ask for one."
 msgstr ""
 
-#: cogs/timers.py:1008
+#: cogs/timers.py:1006
 #, python-brace-format
 msgid "What would you like to be the new name of **{event}**? You can `cancel` this."
 msgstr ""
 
-#: cogs/timers.py:1022
+#: cogs/timers.py:1020
 #, python-brace-format
 msgid "Do you want to change the name of **{event}** to **{new_name}**?"
 msgstr ""
 
-#: cogs/timers.py:1034
+#: cogs/timers.py:1032
 #, python-brace-format
 msgid "The event renamed successfully to **{new_name}**."
 msgstr ""
 
-#: cogs/timers.py:1038
+#: cogs/timers.py:1036
 #, python-brace-format
 msgid "Your event **{event}** was renamed to **{new_name}** by {user}"
 msgstr ""
 
-#: cogs/timers.py:1040
+#: cogs/timers.py:1038
 #, python-brace-format
 msgid "The event **{name}** was renamed to **{new_name}**."
 msgstr ""
 
-#: cogs/timers.py:1047
+#: cogs/timers.py:1045
 msgid "Edits an event's number of slots."
 msgstr ""
 
-#: cogs/timers.py:1048
+#: cogs/timers.py:1046
 msgid "Slots is the number of characters an event can have. By default this is 0, which means no limit."
 msgstr ""
 
-#: cogs/timers.py:1057
+#: cogs/timers.py:1055
 #, python-brace-format
 msgid ""
 "What would you like to be the new number of slots for  **{event}**? You can `cancel` this.\n"
 " Note that `0` means no slot limit."
 msgstr ""
 
-#: cogs/timers.py:1071
+#: cogs/timers.py:1069
 msgid "You can't have negative slots!"
 msgstr ""
 
-#: cogs/timers.py:1074
+#: cogs/timers.py:1072
 msgid "That's not a number…"
 msgstr ""
 
-#: cogs/timers.py:1076
+#: cogs/timers.py:1074
 #, python-brace-format
 msgid "Do you want the number of slots of **{event}** to **{slots}**?"
 msgstr ""
 
-#: cogs/timers.py:1088
+#: cogs/timers.py:1086
 #, python-brace-format
 msgid "The event slots changed to **{slots}**."
 msgstr ""
 
-#: cogs/timers.py:1092
+#: cogs/timers.py:1090
 #, python-brace-format
 msgid "Your event **{event}** slots were changed to **{slots}** by {user}"
 msgstr ""
 
-#: cogs/timers.py:1100
+#: cogs/timers.py:1098
 msgid "Edits an event's start time."
 msgstr ""
 
-#: cogs/timers.py:1101
+#: cogs/timers.py:1099
 msgid "If no new time is provided initially, the bot will ask for one."
 msgstr ""
 
-#: cogs/timers.py:1110
+#: cogs/timers.py:1108
 #, python-brace-format
 msgid ""
 "When would you like the new start time of **{event}** be?You can `cancel` this.\n"
 " Examples: `1h20m`, `2d10m`"
 msgstr ""
 
-#: cogs/timers.py:1130
+#: cogs/timers.py:1128
 msgid ""
 "This will be the new time of your event.\n"
 "The time in the footer is displayed in your local time.\n"
 "Is this correct?"
 msgstr ""
 
-#: cogs/timers.py:1143
+#: cogs/timers.py:1141
 msgid "The event's time changed successfully."
 msgstr ""
 
-#: cogs/timers.py:1147
+#: cogs/timers.py:1145
 #, python-brace-format
 msgid "The start time of your event **{event.name}** was changed to **{new_time}** by {user}."
 msgstr ""
 
-#: cogs/timers.py:1151
+#: cogs/timers.py:1149
 #, python-brace-format
 msgid "The start time of **{event}** was changed:"
 msgstr ""
 
-#: cogs/timers.py:1159
+#: cogs/timers.py:1157
 msgid "Displays an event's info."
 msgstr ""
 
-#: cogs/timers.py:1160
+#: cogs/timers.py:1158
 msgid "The start time shown in the footer is always displayed in your device's timezone."
 msgstr ""
 
-#: cogs/timers.py:1176
+#: cogs/timers.py:1174
 msgid "Participants"
 msgstr ""
 
 #. Whether people can join the event by themselves
-#: cogs/timers.py:1178
+#: cogs/timers.py:1176
 msgid "Can join"
 msgstr ""
 
-#: cogs/timers.py:1186
+#: cogs/timers.py:1184
 msgid "Join an event with a specific character."
 msgstr ""
 
-#: cogs/timers.py:1187
+#: cogs/timers.py:1185
 msgid ""
 "You can only join an event with a character at a time.\n"
 "Some events may not be joinable and require the creator to add characters themselves."
 msgstr ""
 
-#: cogs/timers.py:1198
+#: cogs/timers.py:1196
 #, python-brace-format
 msgid "You can't join this event.Maybe you meant to subscribe? Try `{prefix}event sub {event_id}`."
 msgstr ""
 
-#: cogs/timers.py:1203
+#: cogs/timers.py:1201
 msgid "All the slots for this event has been filled."
 msgstr ""
 
-#: cogs/timers.py:1206
+#: cogs/timers.py:1204
 msgid "You can only join with characters registered to you."
 msgstr ""
 
-#: cogs/timers.py:1208
+#: cogs/timers.py:1206
 msgid "You can't join with a character from another world."
 msgstr ""
 
-#: cogs/timers.py:1210
+#: cogs/timers.py:1208
 msgid "A character of yours is already in this event."
 msgstr ""
 
-#: cogs/timers.py:1212
+#: cogs/timers.py:1210
 #, python-brace-format
 msgid "Do you want to join the event '**{event}**' as **{char}**?"
 msgstr ""
 
-#: cogs/timers.py:1221
+#: cogs/timers.py:1219
 msgid "You successfully joined this event."
 msgstr ""
 
-#: cogs/timers.py:1227
+#: cogs/timers.py:1225
 msgid "Leave an event you were participating in."
 msgstr ""
 
-#: cogs/timers.py:1236
+#: cogs/timers.py:1234
 msgid "You haven't joined this event."
 msgstr ""
 
-#: cogs/timers.py:1239
+#: cogs/timers.py:1237
 #, python-brace-format
 msgid "Do you want to leave **{event}**?"
 msgstr ""
 
-#: cogs/timers.py:1249
+#: cogs/timers.py:1247
 msgid "You successfully left this event."
 msgstr ""
 
-#: cogs/timers.py:1256
+#: cogs/timers.py:1254
 msgid "Creates an event guiding you step by step."
 msgstr ""
 
-#: cogs/timers.py:1257
+#: cogs/timers.py:1255
 msgid "Instead of using confusing parameters, commas and spaces, this command will guide you through the process."
 msgstr ""
 
-#: cogs/timers.py:1266
+#: cogs/timers.py:1264
 msgid "Let's create an event. What would you like the name to be? You can `cancel` at any time."
 msgstr ""
 
-#: cogs/timers.py:1290
+#: cogs/timers.py:1288
 msgid "This is your event so far:"
 msgstr ""
 
-#: cogs/timers.py:1291
+#: cogs/timers.py:1289
 #, python-brace-format
 msgid "Your event will be named **{name}**."
 msgstr ""
 
-#: cogs/timers.py:1292
+#: cogs/timers.py:1290
 msgid "Now, what description would you like your event to have? `none/blank` to leave it empty. Bold, italics and links are supported."
 msgstr ""
 
-#: cogs/timers.py:1294
+#: cogs/timers.py:1292
 #, python-brace-format
 msgid "You took too long {user}, event making cancelled."
 msgstr ""
 
-#: cogs/timers.py:1310
+#: cogs/timers.py:1308
 msgid "Is this right?"
 msgstr ""
 
-#: cogs/timers.py:1318
+#: cogs/timers.py:1316
 msgid ""
 "Alright, again, tell me the description you want for your event.\n"
 "Remember you can `cancel` the process or tell me `blank` to have no description."
 msgstr ""
 
-#: cogs/timers.py:1327
+#: cogs/timers.py:1325
 msgid "Alright, now tell me in how much time will the event start from now. e.g. `2d1h20m`, `4h`"
 msgstr ""
 
-#: cogs/timers.py:1345
+#: cogs/timers.py:1343
 msgid ""
 "Again, tell me the start time of the event from now.\n"
 "You can `cancel` if you want."
 msgstr ""
 
-#: cogs/timers.py:1352
+#: cogs/timers.py:1350
 msgid "Is this time correct? The footer shows your local timezone."
 msgstr ""
 
-#: cogs/timers.py:1360
+#: cogs/timers.py:1358
 msgid ""
 "Ok, again, tell me when will the event start.\n"
 "Remember you can `cancel` the process."
 msgstr ""
 
-#: cogs/timers.py:1371
+#: cogs/timers.py:1369
 msgid "This will be your event, confirm that everything is correct and we will be done."
 msgstr ""
 
-#: cogs/timers.py:1389
+#: cogs/timers.py:1387
 msgid "Shows the list of characters participating in this event."
 msgstr ""
 
-#: cogs/timers.py:1398
+#: cogs/timers.py:1396
 #, python-brace-format
 msgid " To join, use `{prefix}event join {event_id} characterName`."
 msgstr ""
 
-#: cogs/timers.py:1400
+#: cogs/timers.py:1398
 #, python-brace-format
 msgid "There are no participants in this event.{join_prompt}"
 msgstr ""
 
-#: cogs/timers.py:1410 cogs/tracking.py:1364
+#: cogs/timers.py:1408 cogs/tracking.py:1364
 msgid "unknown"
 msgstr ""
 
-#: cogs/timers.py:1427
+#: cogs/timers.py:1425
 msgid "Deletes or cancels an event."
 msgstr ""
 
-#: cogs/timers.py:1435
+#: cogs/timers.py:1433
 #, python-brace-format
 msgid "Do you want to delete the event **{event.name}**?"
 msgstr ""
 
-#: cogs/timers.py:1446
+#: cogs/timers.py:1444
 msgid "The event was deleted successfully."
 msgstr ""
 
-#: cogs/timers.py:1451
+#: cogs/timers.py:1449
 #, python-brace-format
 msgid "Your event **{event}** was deleted by {user}."
 msgstr ""
 
-#: cogs/timers.py:1455
+#: cogs/timers.py:1453
 #, python-brace-format
 msgid "The event **{event}** was deleted by {user}."
 msgstr ""
 
-#: cogs/timers.py:1462
+#: cogs/timers.py:1460
 msgid "Removes a player from an event."
 msgstr ""
 
-#: cogs/timers.py:1463
+#: cogs/timers.py:1461
 msgid ""
 "Only the event's creator can remove players through this command.\n"
 "Players can remove themselves using `event leave`."
 msgstr ""
 
-#: cogs/timers.py:1475
+#: cogs/timers.py:1473
 msgid "This character is not in this event."
 msgstr ""
 
-#: cogs/timers.py:1478
+#: cogs/timers.py:1476
 #, python-brace-format
 msgid "Do you want to remove **{char}** ({owner}) from **{event}**?"
 msgstr ""
 
-#: cogs/timers.py:1489
+#: cogs/timers.py:1487
 msgid "The character was removed from event."
 msgstr ""
 
-#: cogs/timers.py:1496
+#: cogs/timers.py:1494
 msgid "Subscribe to receive a PM when an event is happening."
 msgstr ""
 
-#: cogs/timers.py:1503
+#: cogs/timers.py:1501
 msgid "You're already subscribed to this event."
 msgstr ""
 
-#: cogs/timers.py:1504
+#: cogs/timers.py:1502
 #, python-brace-format
 msgid "Do you want to subscribe to **{event}**"
 msgstr ""
 
-#: cogs/timers.py:1514
+#: cogs/timers.py:1512
 msgid "You have subscribed successfully to this event. I'll let you know when it's happening."
 msgstr ""
 
-#: cogs/timers.py:1521
+#: cogs/timers.py:1519
 msgid "Unsubscribe to an event."
 msgstr ""
 
-#: cogs/timers.py:1522
+#: cogs/timers.py:1520
 msgid "You will no longer receive private messages when this event is happening or when changes are done."
 msgstr ""
 
-#: cogs/timers.py:1529
+#: cogs/timers.py:1527
 msgid "You can't unsubscribe from your own event."
 msgstr ""
 
-#: cogs/timers.py:1531
+#: cogs/timers.py:1529
 msgid "You are not subscribed to this event."
 msgstr ""
 
-#: cogs/timers.py:1532
+#: cogs/timers.py:1530
 #, python-brace-format
 msgid "Do you want to unsubscribe to **{name}**"
 msgstr ""
 
-#: cogs/timers.py:1540
+#: cogs/timers.py:1538
 msgid "You have unsubscribed from this event."
 msgstr ""
 
-#: cogs/timers.py:1545
+#: cogs/timers.py:1543
 msgid "Creates a personal reminder."
 msgstr ""
 
-#: cogs/timers.py:1546
+#: cogs/timers.py:1544
 msgid "You will be notified in the same channel when the time is over."
 msgstr ""
 
-#: cogs/timers.py:1554
+#: cogs/timers.py:1552
 #, python-brace-format
 msgid "Your reminder's content's exceed the character limit ({length}/{limit})."
 msgstr ""
 
-#: cogs/timers.py:1559
+#: cogs/timers.py:1557
 #, python-brace-format
 msgid "Ok, I will remind you in {time} about: {content}"
 msgstr ""
 
-#: cogs/timers.py:1565
+#: cogs/timers.py:1563
 msgid "Shows you a list of your active reminders."
 msgstr ""
 
-#: cogs/timers.py:1566
+#: cogs/timers.py:1564
 msgid ""
 "The list consists of the reminder's id, the time in which it will be triggered and the content of the reminder, linking to the original message.\n"
 "\n"
@@ -7050,47 +7042,47 @@ msgid ""
 "Note that reminders created under 60 seconds are not displayed here."
 msgstr ""
 
-#: cogs/timers.py:1592
+#: cogs/timers.py:1590
 msgid ""
 "You do not have any active reminders in this server.\n"
 "Use this on a private message to see all your reminders."
 msgstr ""
 
-#: cogs/timers.py:1595
+#: cogs/timers.py:1593
 msgid "You do not have any active reminders."
 msgstr ""
 
-#: cogs/timers.py:1598
+#: cogs/timers.py:1596
 msgid "Your reminders"
 msgstr ""
 
-#: cogs/timers.py:1606
+#: cogs/timers.py:1604
 msgid "Removes one of your reminders by its id."
 msgstr ""
 
-#: cogs/timers.py:1607
+#: cogs/timers.py:1605
 msgid "The ID of your reminders can be seen by using the `remindme list` command."
 msgstr ""
 
-#: cogs/timers.py:1611
+#: cogs/timers.py:1609
 #, python-brace-format
 msgid "ID must be greater than zero. You can see the ID of your active reminders by using `{prefix}remindme list`."
 msgstr ""
 
-#: cogs/timers.py:1616
+#: cogs/timers.py:1614
 #, python-brace-format
 msgid "You do not have any active reminders with that ID. You can see the ID of your active reminders by using `{prefix}remindme list`."
 msgstr ""
 
-#: cogs/timers.py:1619
+#: cogs/timers.py:1617
 msgid "Your reminder was removed successfully."
 msgstr ""
 
-#: cogs/timers.py:1797
+#: cogs/timers.py:1795
 msgid "You can only edit your own events."
 msgstr ""
 
-#: cogs/timers.py:1799
+#: cogs/timers.py:1797
 msgid "That event is not from this server."
 msgstr ""
 
