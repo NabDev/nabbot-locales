@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-30 08:39-0700\n"
-"PO-Revision-Date: 2021-05-01 15:20\n"
+"PO-Revision-Date: 2021-05-01 16:16\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -6016,29 +6016,29 @@ msgstr "Forteca niebieskich djinnów"
 #. Yasir's location
 #: cogs/tibiawiki.py:981
 msgid "his boat"
-msgstr ""
+msgstr "jego łódź"
 
 #. Title of the list of NPCs that buy/sell (action) the item.
 #: cogs/tibiawiki.py:1013
 msgid "{action} {value:,} {currency} by"
-msgstr ""
+msgstr "{action} {value:,} {currency} przez"
 
 #: cogs/tibiawiki.py:1031
 msgid "Abilities"
-msgstr ""
+msgstr "Umiejętności"
 
 #: cogs/tibiawiki.py:1039
 msgid "Through: "
-msgstr ""
+msgstr "Przez: "
 
 #: cogs/tibiawiki.py:1040
 msgid "Around: "
-msgstr ""
+msgstr "W okół: "
 
 #. Fields the monster walks through or around
 #: cogs/tibiawiki.py:1043
 msgid "Field Walking"
-msgstr ""
+msgstr "Przechodzenie przez żywioły"
 
 #: cogs/tibiawiki.py:1083
 msgid "Loot"
@@ -6046,29 +6046,29 @@ msgstr "Loot"
 
 #: cogs/tibiawiki.py:1120 cogs/tibiawiki.py:1140
 msgid "Bestiary Class"
-msgstr ""
+msgstr "Klasa w bestiariuszu"
 
 #. Charm points
 #: cogs/tibiawiki.py:1134
 msgid "point"
 msgid_plural "points"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "punkt"
+msgstr[1] "punkty"
+msgstr[2] "punktów"
+msgstr[3] "punktów"
 
 #. Kills to complete bestiary
 #: cogs/tibiawiki.py:1136
 msgid "kills"
-msgstr ""
+msgstr "zabójstw"
 
 #: cogs/tibiawiki.py:1160
 msgid "Elemental modifiers"
-msgstr ""
+msgstr "Modyfikatory żywiołów"
 
 #: cogs/tibiawiki.py:1170
 msgid "Summonable"
-msgstr ""
+msgstr "Przyzywalny"
 
 #: cogs/tibiawiki.py:1171
 msgid "Convinceable"
@@ -6313,137 +6313,149 @@ msgstr ""
 #: cogs/timers.py:559
 msgid "For privacy reasons, only characters matching the tracked world of the current server will be shown.\n"
 "To see all your characters, try it on a private message."
-msgstr ""
+msgstr "Ze względu na prywatność, tylko postacie pasujące do śledzonego świata bieżącego serwera będą wyświetlane.\n"
+"Aby zobaczyć wszystkie swoje postacie, spróbuj w prywatnej wiadomości."
 
 #: cogs/timers.py:578
 #, python-brace-format
 msgid "You don't have any active cooldowns on characters in {world}.\n"
 "Try on PM to see all your characters."
-msgstr ""
+msgstr "Nie masz żadnych aktywnych cooldownów na postaciach na {world}.\n"
+"Spróbuj w prywatnej wiadomości, aby zobaczyć wszystkie swoje postacie."
 
 #: cogs/timers.py:586
 msgid "Your active cooldowns"
-msgstr ""
+msgstr "Twoje aktywne cooldowny"
 
 #: cogs/timers.py:594
 msgid "Sets the cooldown for a boss."
-msgstr ""
+msgstr "Ustawia czas cooldownu dla bossa."
 
 #: cogs/timers.py:595
 msgid "The cooldown is set as if you had just killed the boss.\n"
 "You will receive a private message when the cooldown is over.\n\n"
 "You can also specify how long ago the boss was killed, so the time is considered in the cooldown."
-msgstr ""
+msgstr "Czas cooldownu jest ustawiony tak, jakbyś właśnie zabił bossa.\n"
+"Otrzymasz prywatną wiadomość po zakończeniu cooldownu.\n\n"
+"Możesz również określić, ile czasu temu boss został zabity, aby wziąć to pod uwagę."
 
 #: cogs/timers.py:603
 #, python-brace-format
 msgid "You must specify for which of your character is the cooldown for.\n"
 "e.g. `{prefix}boss {command} Kroazur,Bubble`\n"
 "You can also specify how long ago you killed: `{prefix}boss {command} Kroazur,Bubble,3h10m`"
-msgstr ""
+msgstr "Musisz określić dla której postaci jest to cooldown.\n"
+"Np. `{prefix}boss {command} Kroazur,Bubble`\n"
+"Możesz również określić, ile czasu temu zabiłeś: `{prefix}boss {command} Kroazur,Bubble,3h10m`"
 
 #: cogs/timers.py:615
 #, python-brace-format
 msgid "There's no boss with that name.\n"
 "For a list of supported bosses, try: `{prefix}boss bosslist`"
-msgstr ""
+msgstr "Nie ma bossa o tej nazwie.\n"
+"Aby zobaczyć listę wspieranych bossów, spróbuj `{prefix}boss bosslist`"
 
 #: cogs/timers.py:622
 msgid "Cooldown is less than how long ago you said you killed the boss."
-msgstr ""
+msgstr "Cooldown jest krótszy niż czas jaki już upłynął od zabicia bossa."
 
 #: cogs/timers.py:629 cogs/timers.py:671
 msgid "That character is not registered to you."
-msgstr ""
+msgstr "Ta postać nie jest zarejestrowana przez Ciebie."
 
 #: cogs/timers.py:636
 #, python-brace-format
 msgid "This character already has a running timer for this boss.\n"
 "You can delete it using `{prefix}{command} clear {boss},{char}`"
-msgstr ""
+msgstr "Ta postać ma już uruchomiony timer dla tego bossa.\n"
+"Możesz go usunąć używając `{prefix}{command} clear {boss},{char}`"
 
 #: cogs/timers.py:642
 #, python-brace-format
 msgid "I will let you know when the cooldown is over via pm.\n"
 "Use `{prefix}checkdm` to make sure you can receive PMs by me."
-msgstr ""
+msgstr "Dam ci znać w wiadomości prywatnej, kiedy czas cooldownu zakończy się.\n"
+"Użyj `{prefix}checkdm` aby upewnić się, że możesz otrzymywać wiadomości prywatne."
 
 #: cogs/timers.py:644
 #, python-brace-format
 msgid "Timer saved for {name}"
-msgstr ""
+msgstr "Timer zapisany dla {name}"
 
 #: cogs/timers.py:646
 msgid "Cooldown expiration time"
-msgstr ""
+msgstr "Czas wygaśnięcia cooldownu"
 
 #: cogs/timers.py:651
 msgid "Removes an active boss cooldown."
-msgstr ""
+msgstr "Usuwa aktywny czas cooldownu bossa."
 
 #: cogs/timers.py:656
 #, python-brace-format
 msgid "You must specify for which of your character is the cooldown for.\n"
 "e.g. `{prefix}{command} remove Kroazur,Bubble`"
-msgstr ""
+msgstr "Musisz określić dla której postaci jest to cooldown.\n"
+"np. `{prefix}{command} remove Kroazur,Bubble`"
 
 #: cogs/timers.py:663
 #, python-brace-format
 msgid "There's no boss with that name.\n"
 "For a list of supported bosses, try: `{prefix}{command} bosslist`"
-msgstr ""
+msgstr "Nie ma bossa o tej nazwie.\n"
+"Aby zobaczyć listę wspieranych bossów, spróbuj `{prefix}{command} bosslist`"
 
 #: cogs/timers.py:676
 #, python-brace-format
 msgid "There's no active timer for boss {name} for {db_char.name}"
-msgstr ""
+msgstr "Nie ma aktywnego timera dla bossa {name} dla {db_char.name}"
 
 #: cogs/timers.py:680
 msgid "Boss timer deleted."
-msgstr ""
+msgstr "Timer bossa usunięty."
 
 #: cogs/timers.py:685
 msgid "Shows the boss that is present today in the Dream Scar."
-msgstr ""
+msgstr "Pokazuje bossa, który jest dziś w Dream Scar."
 
 #: cogs/timers.py:686
 msgid "If no world is specified, the currently tracked world will be used.\n"
 "If used via PM, a world must be specified."
-msgstr ""
+msgstr "Jeśli żaden świat nie jest wskazany, obecnie śledzony świat zostanie użyty.\n"
+"Jeśli jest użyte w prywatnej wiadomości, musi być wskazany świat."
 
 #: cogs/timers.py:693
 #, python-brace-format
 msgid "You must specify a world, example: `{prefix}{command} Antica`"
-msgstr ""
+msgstr "Musisz określić świat, przykład: `{prefix}{command} Antica`"
 
 #: cogs/timers.py:697
 msgid "That is not a valid world."
-msgstr ""
+msgstr "To nie jest prawidłowy świat."
 
 #: cogs/timers.py:701
 msgid "I don't have enough data on this world yet."
-msgstr ""
+msgstr "Jeszcze nie mam wystarczającej ilości danych o tym świecie."
 
 #: cogs/timers.py:702
 msgid "Dream Scar Boss of the Day"
-msgstr ""
+msgstr "Dzisiejszy boss Dream Scar"
 
 #: cogs/timers.py:704
 #, python-brace-format
 msgid "Today **{next_boss}** is in the Dream Scar in **{world}**"
-msgstr ""
+msgstr "Dziś **{next_boss}** jest w Dream Scar na **{world}**"
 
 #: cogs/timers.py:706
 msgid "As of the server save of"
-msgstr ""
+msgstr "Od restartu serwera"
 
 #: cogs/timers.py:722
 msgid "Shows a list of upcoming and recent events."
-msgstr ""
+msgstr "Pokazuje listę nadchodzących i ostatnich wydarzeń."
 
 #: cogs/timers.py:723
 msgid "If a number is specified, it will show details for that event. Same as using `events info`"
-msgstr ""
+msgstr "Jeśli podany zostanie numer, wyświetli szczegóły tego wydarzenia. Tak samo przy użyciu `events info`"
 
 #: cogs/timers.py:729
 #, python-brace-format
