@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-30 08:39-0700\n"
-"PO-Revision-Date: 2021-04-30 15:43\n"
+"PO-Revision-Date: 2021-04-30 17:44\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -6734,7 +6734,7 @@ msgstr "Los espacios de tu evento **{event}** fueron cambiadas a **{slots}** por
 
 #: cogs/timers.py:1094
 msgid "Edits an event's start time."
-msgstr ""
+msgstr "Edita la hora de inicio de un evento."
 
 #: cogs/timers.py:1095
 msgid "If no new time is provided initially, the bot will ask for one."
