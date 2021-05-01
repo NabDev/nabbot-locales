@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-01 11:29-0700\n"
-"PO-Revision-Date: 2021-05-01 19:23\n"
+"PO-Revision-Date: 2021-05-01 21:23\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -6688,7 +6688,7 @@ msgstr "El evento ahora es **unible**."
 #: cogs/timers.py:978
 #, python-brace-format
 msgid "Your event **{event}** was made **joinable** by {user}."
-msgstr ""
+msgstr "Tu evento **{event}** fue hecho **unible** por {user}."
 
 #. Means that users cannot join the event themselves, owner must add them
 #: cogs/timers.py:981
@@ -6698,7 +6698,7 @@ msgstr "El evento ahora **no es unible**."
 #: cogs/timers.py:982
 #, python-brace-format
 msgid "Your event **{event}** was made **not joinable** by {user}."
-msgstr ""
+msgstr "Tu evento **{event}** fue hecho **no unible** por {user}."
 
 #: cogs/timers.py:996
 msgid "Edits an event's name."
