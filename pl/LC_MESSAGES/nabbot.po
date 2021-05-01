@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-30 08:39-0700\n"
-"PO-Revision-Date: 2021-05-01 13:26\n"
+"PO-Revision-Date: 2021-05-01 14:23\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -1321,11 +1321,13 @@ msgstr "Oblicza jak podzielić loot na podstawie Part Hunt Analyzer."
 msgid "Shows the instructions to split the balance between the members, without needing to sell and split the loot.\n"
 "The instructions can be copied by double clicking and then pasted to a bank NPC.\n\n"
 "It also shows the percentage of damage and healing contribution of each member in the party."
-msgstr ""
+msgstr "Pokazuje instrukcje jak podzielić loot między członków party, bez potrzeby sprzedawania i dzielenia loota.\n"
+"Instrukcje mogą być skopiowane przez podwójne kliknięcie i wklejone do NPC w banku.\n\n"
+"Pokazuje również procentowy wkład w obrażenia i leczenie dla każdego członka party."
 
 #: cogs/calculators.py:366
 msgid "Could not parse party session."
-msgstr ""
+msgstr "Nie mogłem zrozumieć sesji party."
 
 #: cogs/calculators.py:369
 msgid "Balance"
@@ -1342,7 +1344,7 @@ msgstr "Loot na godzinę"
 #: cogs/calculators.py:374
 #, python-brace-format
 msgid "Party Hunt Session — {member_count} members"
-msgstr ""
+msgstr "Sesja hunta w party — {member_count} członków"
 
 #: cogs/calculators.py:378
 msgid "Damage"
@@ -1370,7 +1372,10 @@ msgid "To use it, you must provide your current stamina, in this format: `hh:mm`
 "The bot will show the time needed to reach full stamina if you were to start sleeping now.\n\n"
 "Optionally, you can provide the target stamina you want.\n\n"
 "The footer text shows the time in your timezone where your stamina would be at the target stamina."
-msgstr ""
+msgstr "Aby tego użyć, musisz podać aktualną wartość staminy, w formacie: `hh:mm`.\n"
+"Bot pokaże czas potrzebny do osiągnięcia pełnej staminy gdybyś poszedł teraz spać.\n\n"
+"Opcjonalnie, możesz również podać docelową staminę.\n\n"
+"Tekst w stopce pokaże czas w twojej strefie czasowej, kiedy twoja stamina osiągnie cel."
 
 #: cogs/calculators.py:414
 msgid "Current stamina can't be greater than target stamina."
@@ -1528,7 +1533,10 @@ msgid "Invalid arguments, examples:\n"
 "```{prefix}stats player\n"
 "{prefix}stats level, vocation\n"
 "```"
-msgstr ""
+msgstr "Nieprawidłowe argumenty, przykłady:\n"
+"```{prefix}stats gracz\n"
+"{prefix}stats poziom, profesja\n"
+"```"
 
 #: cogs/core.py:262
 #, python-brace-format
@@ -1537,7 +1545,7 @@ msgstr "Na świecie {world} masz zarejestrowane postacie: *{characters}*"
 
 #: cogs/core.py:315
 msgid "Sorry, `Embed Links` permission is required for this command."
-msgstr ""
+msgstr "Wybacz, do użycia tej komendy wymagane jest uprawnienie `Wyświetlanie podglądu linku`."
 
 #: cogs/core.py:317
 #, python-brace-format
@@ -1700,7 +1708,8 @@ msgstr "Możesz otrzymywać prywatne wiadomości."
 #: cogs/general.py:49
 msgid "You can't receive my PMs.\n"
 "To enable, go to `Server > Privacy Settings` and enable the checkbox in any server I'm in."
-msgstr ""
+msgstr "Nie możesz otrzymywać ode mnie prywatnych wiadomości.\n"
+"Aby je włączyć, przejdź do `Serwer > Ustawienia prywatności` i zaznacz opcję na dowolnym serwerze w którym jestem."
 
 #: cogs/general.py:54
 msgid "Chooses between multiple choices."
@@ -1709,7 +1718,8 @@ msgstr "Wybiera spośród różnych opcji."
 #: cogs/general.py:55
 msgid "Each choice is separated by spaces. For choices that contain spaces surround it with quotes.\n"
 "e.g. \"Choice A\" ChoiceB \"Choice C\""
-msgstr ""
+msgstr "Wybory są oddzielone spacjami. Jeśli wybory zawierają spacje, musisz użyć cudzysłowów.\n"
+"Na przykład: \"Wybór A\" WybórB \"Wybór C\""
 
 #: cogs/general.py:60
 msgid "I can't tell you what to choose if you don't give me choices"
@@ -1727,7 +1737,8 @@ msgstr "Pokazuje uprawnienia użytkownika w bieżącym kanale."
 #: cogs/general.py:72
 msgid "If no member is provided, it will show your permissions.\n"
 "Optionally, a channel can be provided as the second parameter, to check permissions in said channel."
-msgstr ""
+msgstr "Jeśli nie jest wskazany żaden użytkownik, pokaże twoje uprawnienia.\n"
+"Opcjonalnie, kanał może być podany jako drugi parametr, aby sprawdzić uprawnienia w danym kanale."
 
 #: cogs/general.py:79
 #, python-brace-format
@@ -1752,7 +1763,10 @@ msgid "In order to get the message's link, you can right click and select **Copy
 "Using a message link is faster than using a message ID.\n\n"
 "Note that the bot won't attempt to search in channels you can't read.\n"
 "Additionally, messages in NSFW channels can't be quoted in regular channels."
-msgstr ""
+msgstr "Aby otrzymać link do wiadomości, możesz kliknąć ją prawym przyciskiem myszy i wybrać \"Kopiuj link z wiadomością\".\n\n"
+"Aby otrzymać ID wiadomości, musisz włączyć [Tryb dewelopera](https://support.discord.com/hc/en-us/articles/206346498).\n\n"
+"Używanie linków do wiadomości jest szybsze niż ID wiadomości.\n\n"
+"Zwróć uwagę, że bot nie będzie próbował szukać w kanałach których nie możesz czytać. Dodatkowo, wiadomości w kanałach NSFW nie mogą być cytowane w zwykłych kanałach."
 
 #: cogs/general.py:121
 msgid "I can't find that message, or it is in a channel you can't access."
@@ -1760,7 +1774,7 @@ msgstr "Nie mogę znaleźć tej wiadomości lub znajduje się ona w kanale, do k
 
 #: cogs/general.py:124
 msgid "I can't quote embed messages."
-msgstr ""
+msgstr "Nie mogę cytować osadzonych wiadomości."
 
 #: cogs/general.py:127
 msgid "I can't quote messages from NSFW channels in regular channels."
@@ -1948,7 +1962,7 @@ msgstr "Widoczne dla"
 
 #: cogs/info.py:140 cogs/roles.py:478
 msgid "Mention"
-msgstr ""
+msgstr "Wzmianka"
 
 #: cogs/info.py:141
 msgid "NSFW"
@@ -1965,7 +1979,8 @@ msgstr "Pokazuje prostą listę wszystkich komend."
 #: cogs/info.py:149
 msgid "This displays all the commands you can use, with no description or subcommand information.\n"
 "Note that different commands might show up in server channels and in private messages."
-msgstr ""
+msgstr "To wyświetla wszystkie komendy których możesz użyć, bez opisów i informacjach o pod-komendach.\n"
+"Zwróć uwagę, że inny komendy mogą zostać pokazane w kanałach serwera i w prywatnych wiadomościach."
 
 #: cogs/info.py:153
 msgid "NabBot commands"
@@ -2211,27 +2226,27 @@ msgstr "System"
 
 #: cogs/info.py:400
 msgid "RAM"
-msgstr ""
+msgstr "RAM"
 
 #: cogs/info.py:401
 msgid "Total RAM"
-msgstr ""
+msgstr "Całkowity RAM"
 
 #: cogs/info.py:405
 msgid "CPU"
-msgstr ""
+msgstr "Procesor"
 
 #: cogs/info.py:429
 msgid "Created at"
-msgstr ""
+msgstr "Utworzono"
 
 #: cogs/info.py:430
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: cogs/info.py:431
 msgid "Usage"
-msgstr ""
+msgstr "Użycie"
 
 #: cogs/info.py:433
 msgid "Twitch integration"
@@ -2239,53 +2254,53 @@ msgstr ""
 
 #: cogs/info.py:434
 msgid "Requires colons"
-msgstr ""
+msgstr "Wymaga dwukropków"
 
 #: cogs/info.py:435
 msgid "Role limited"
-msgstr ""
+msgstr "Ograniczone rolami"
 
 #: cogs/info.py:438 cogs/tibiawiki.py:1180
 msgid "Attributes"
-msgstr ""
+msgstr "Atrybuty"
 
 #: cogs/logging.py:76
 msgid "Autorole changes"
-msgstr ""
+msgstr "Automatyczne zmiany ról"
 
 #: cogs/logging.py:80
 msgid "Added roles"
-msgstr ""
+msgstr "Dodane role"
 
 #: cogs/logging.py:82
 msgid "Removed roles"
-msgstr ""
+msgstr "Usunięte role"
 
 #: cogs/logging.py:93
 msgid "Characters registered"
-msgstr ""
+msgstr "Zarejestrowane postacie"
 
 #: cogs/logging.py:112
 msgid "Reassigned"
-msgstr ""
+msgstr "Przydzielone ponownie"
 
 #: cogs/logging.py:114 cogs/logging.py:119 cogs/logging.py:134
 #: cogs/logging.py:439 cogs/logging.py:459
 msgid "No guild"
-msgstr ""
+msgstr "Brak gildii"
 
 #: cogs/logging.py:131
 msgid "Unregistered characters"
-msgstr ""
+msgstr "Odrejestrowane postacie"
 
 #: cogs/logging.py:165 cogs/logging.py:190
 #, python-brace-format
 msgid "A character of {user}"
-msgstr ""
+msgstr "Postać użytkownika {user}"
 
 #: cogs/logging.py:166
 msgid "Character name change"
-msgstr ""
+msgstr "Zmiana nazwy postaci"
 
 #: cogs/logging.py:167
 #, python-brace-format
@@ -2295,16 +2310,16 @@ msgstr ""
 
 #: cogs/logging.py:192
 msgid "Character transferred"
-msgstr ""
+msgstr "Postać została przeniesiona"
 
 #: cogs/logging.py:211
 msgid "Automatic role deleted"
-msgstr ""
+msgstr "Automatyczna rola usunięta"
 
 #: cogs/logging.py:212
 #, python-brace-format
 msgid "Automatic role **{role}** deleted."
-msgstr ""
+msgstr "Automatyczna rola **{role}** została usunięta."
 
 #: cogs/logging.py:223
 msgid "Group deleted"
@@ -2797,7 +2812,7 @@ msgstr ""
 
 #: cogs/premium.py:309 cogs/premium.py:326
 msgid "Premium Received"
-msgstr ""
+msgstr "Otrzymano Premium"
 
 #: cogs/premium.py:309
 msgid "Server received premium"
@@ -2830,7 +2845,7 @@ msgstr "Wspomóż NabBota zostając Patronem!"
 
 #: cogs/premium.py:368
 msgid "For more details please check [the documentation](https://docs.nabbot.xyz/premium/)"
-msgstr ""
+msgstr "Aby uzyskać więcej informacji, sprawdź [dokumentację](https://docs.nabbot.xyz/premium/)"
 
 #: cogs/premium.py:377
 msgid "Assigns premium to the current server or one you specify."
@@ -2840,7 +2855,8 @@ msgstr "Przydziela premium do bieżącego lub do określonego przez Ciebie serwe
 #: cogs/premium.py:379
 msgid "If you use it without parameters, it will try to add premium to the current server.\n\n"
 "To obtain a server's ID, you can use the `serverinfo` command or enable [Developer Settings](https://support.discord.com/hc/en-us/articles/206346498) to view IDs with right click."
-msgstr ""
+msgstr "W przypadku użycia bez parametrów, spróbuje dodać premium do bieżącego serwera.\n\n"
+"Aby uzyskać ID serwera, możesz użyć komendy `serverinfo` lub włączyć [Tryb dewelopera](https://support.discord.com/hc/en-us/articles/206346498), aby wyświetlić identyfikatory klikając prawym przyciskiem myszy."
 
 #: cogs/premium.py:389
 msgid "You do not have any premium days to assign and you're not a patreon."
@@ -2851,7 +2867,9 @@ msgstr "Nie posiadasz żadnych dni premium do przypisania i nie jesteś patronem
 msgid "You must tell me the id of the server you want to give premium to.\n"
 "You can use `{prefix}serverinfo` on the server to get the ID.\n"
 "Alternatively, you can use the command in the desired server with no parameters."
-msgstr ""
+msgstr "Musisz podać mi identyfikator serwera, na który chcesz przyznać premium.\n"
+"Możesz użyć `{prefix}serverinfo` na serwerze, aby uzyskać ID.\n"
+"Alternatywnie, możesz użyć komendy na żądanym serwerze bez parametrów."
 
 #: cogs/premium.py:403
 msgid "I'm not in any guild with that id."
@@ -2872,7 +2890,8 @@ msgstr "Pokazuje Twoje obecne saldo dni premium."
 #: cogs/premium.py:422
 msgid "Premium days in your account can be assigned to servers you're in to give them premium privileges.\n\n"
 "Note that once you give premium to a server, it can't be taken back, even if you stop being part of the server."
-msgstr ""
+msgstr "Dni premium na Twoim koncie mogą być przypisane do serwerów, aby przyznać im uprawnienia premium.\n\n"
+"Zauważ, że po przyznaniu serwerowi premium nie można go odebrać, nawet jeśli przestaniesz być członkiem serwera."
 
 #: cogs/premium.py:430
 msgid "Premium Status"
@@ -2928,19 +2947,22 @@ msgstr "Masz już oczekującą transakcję, zaczekaj na jej weryfikację."
 #, python-brace-format
 msgid "Do you confirm that you transferred **{amount}** Tibia coins from **{character}** to **{recipient}**?\n"
 "*Abuse may result in being banned from NabBot services.*"
-msgstr ""
+msgstr "Czy potwierdzasz, że przesłałeś **{amount}** Tibia Coins z **{character}** na **{recipient}**?\n"
+"*Nadużywanie może skutkować zablokowaniem z usług NabBot.*"
 
 #: cogs/premium.py:473
 #, python-brace-format
 msgid "Payment sent for verification (ID: {id}). It might take some time for premium to be assigned.\n"
 "You will receive confirmation via DM when your payment is approved."
-msgstr ""
+msgstr "Płatność wysłana do weryfikacji (ID: {id}). Przypisanie premium może zająć trochę czasu.\n"
+"Otrzymasz potwierdzenie za pośrednictwem prywatnej wiadomości, gdy płatność zostanie zatwierdzona."
 
 #: cogs/premium.py:476
 #, python-brace-format
 msgid "\n\n"
 "*Make sure you're able to receive direct messages from me*. You can use `{prefix}checkdm` to check."
-msgstr ""
+msgstr "\n\n"
+"*Upewnij się, że możesz odbierać od mnie prywatne wiadomości*. Możesz użyć `{prefix}checkdm` aby sprawdzić."
 
 #: cogs/premium.py:483
 msgid "Shows your transactions history, and the servers you've given days to."
@@ -2951,7 +2973,10 @@ msgid "This shows a combination of the purchases you have done, and the servers 
 "To only show purchases, you can add `purchases` at the end.\n"
 "To only show which servers you have given premium to, add `servers` at the end.\n\n"
 "To view more information about a specific purchase transaction, use `transaction view ≪id≫`."
-msgstr ""
+msgstr "To pokazuje kombinację zakupów, które wykonałeś i serwerów, na które przyznałeś premium.\n\n"
+"Aby pokazywać tylko zakupy, możesz dodać `purchases` na końcu.\n"
+"Aby pokazać tylko które serwery którym przyznałeś premium, dodaj `servers` na końcu.\n\n"
+"Aby wyświetlić więcej informacji o konkretnej transakcji, użyj `transaction view ≪id≫`."
 
 #: cogs/premium.py:504
 msgid "You currently don't have any transactions."
@@ -2979,17 +3004,19 @@ msgstr "Pokazuje listę serwerów, którym obecnie oferujesz premium jako Patreo
 msgid "Users that acquired premium through Patreon are given slots that they can use to grant premium to a server.\n"
 "This commands shows them the list of servers they're giving premium to, as well as the number of remaining slots they have.\n\n"
 "For regular premium users, they can use `premium history` to see which servers they have given premium days to."
-msgstr ""
+msgstr "Użytkownicy, którzy nabyli premium za pośrednictwem Patreona, otrzymują przydziały które mogą wykorzystać do przyznania serwera premium.\n"
+"Ta komenda pokazuje im listę serwerów, którym przydzielają premium, jak również liczbę pozostałych przydziałów, które im pozostały.\n\n"
+"Dla zwykłych użytkowników premium, może być użyte `premium history`, aby zobaczyć do których serwerów przydzielili dni premium."
 
 #: cogs/premium.py:544
 #, python-brace-format
 msgid "You currently do not have any premium servers. To assign one use: `{prefix}premium add`"
-msgstr ""
+msgstr "Obecnie nie masz żadnych serwerów premium. Aby przypisać jakiś użyj: `{prefix} premium add`"
 
 #: cogs/premium.py:555
 #, python-brace-format
 msgid "You have used **{slots}** out of **{limit}** premium slots."
-msgstr ""
+msgstr "Użyłeś **{slots}** z **{limit}** przydziałów premium."
 
 #: cogs/premium.py:557
 msgid "Premium Servers"
@@ -3004,7 +3031,9 @@ msgstr "Pokazuje cenę i informacje o premium."
 msgid "The price for **30** days of premium is **{price} {tc_emoji}**.\n"
 "To purchase, transfer to **{recipient}** and then submit the payment using: `{prefix}premium buy ≪amount≫ ≪character≫` replacing with the amount sent and the character you transferred the coins from.\n\n"
 "*Remember to remove the `<` `>` symbols!*"
-msgstr ""
+msgstr "Cena za **30** dni premium wynosi **{price} {tc_emoji}**.\n"
+"Aby kupić, wyślij je do **{recipient}**, a następnie użyj `{prefix}premium buy ≪kwota≫ ≪postać≫` zastępując kwotę wysłaną i postać z której wysłałeś TC.\n\n"
+"*Pamiętaj, aby usunąć symbole `<` `>`!*"
 
 #: cogs/premium.py:577
 msgid "NabBot Premium Prices"
@@ -3034,26 +3063,31 @@ msgstr "Aby uzyskać pomoc oraz dostęp do innych komend: `{prefix}help premium`
 
 #: cogs/premium.py:594
 msgid "Unassigns premium from a server you gave premium to as a Patreon."
-msgstr ""
+msgstr "Unieważnia premium z serwera, któremu przydzieliłeś je jako Patreon."
 
 #: cogs/premium.py:595
 msgid "You can't remove premium days you have given to a server, this is only for servers that a Patreon user gave a slot to.\n\n"
 "If you use it without parameters, it will attempt to remove the current server.\n"
 "Otherwise, the server's id must be provided.\n\n"
 "You can't remove a premium server if it was assigned less than 5 days ago."
-msgstr ""
+msgstr "Nie możesz usunąć dni premium, które przydzieliłeś serwowi, to opcja tylko dla serwerów, którym użytkownik Patreon przyznał premium.\n\n"
+"W przypadku użycia bez parametrów, spróbuje usunąć bieżący serwer.\n"
+"W przeciwnym razie musi zostać podany identyfikator serwera.\n\n"
+"Nie można usunąć serwera premium, jeśli zostało ono przypisane mniej niż 5 dni temu."
 
 #: cogs/premium.py:607
 #, python-brace-format
 msgid "You must tell me the id of the server you want to remove premium from.\n"
 "You can use `{prefix}serverinfo` on the server to get the ID.\n"
 "Alternatively, you can use the command in the desired server with no parameters."
-msgstr ""
+msgstr "Musisz podać mi identyfikator serwera, z którego chcesz usunąć premium.\n"
+"Możesz użyć `{prefix}serverinfo` na serwerze, aby uzyskać ID.\n"
+"Alternatywnie, możesz użyć komendy na żądanym serwerze bez parametrów."
 
 #: cogs/premium.py:619
 #, python-brace-format
 msgid "You currently do not have any premium servers. To assign one use: `{prefix}{command} add`"
-msgstr ""
+msgstr "Obecnie nie masz żadnych serwerów premium. Aby przypisać jakiś użyj: `{prefix}{command} add`"
 
 #: cogs/premium.py:624
 msgid "You haven't assigned premium to any server with this ID."
@@ -3061,7 +3095,7 @@ msgstr "Nie przypisałeś premium do żadnego serwera o tym ID."
 
 #: cogs/premium.py:626
 msgid "You can't remove premium from a server with premium days."
-msgstr ""
+msgstr "Nie możesz usunąć premium z serwera z dniami premium."
 
 #: cogs/premium.py:628
 msgid "You can only unassign a server after 5 days."
@@ -3117,7 +3151,8 @@ msgstr "Ten serwer posiada już premium."
 #, python-brace-format
 msgid "Are you sure you want to assign premium to **{server}**?\n"
 "*There will be a 5 day cooldown to change this premium slot*"
-msgstr ""
+msgstr "Czy na pewno chcesz przypisać premium do **{server}**?\n"
+"*Musi minąć 5 dni, zanim będziesz mógł zmienić to przypisanie*"
 
 #: cogs/premium.py:824
 #, python-brace-format
@@ -3128,21 +3163,22 @@ msgstr "**{server}** jest teraz serwerem premium."
 #, python-brace-format
 msgid "Are you sure you want to give {days} premium days to **{server}**?\n"
 "*These premium days can't be removed.*"
-msgstr ""
+msgstr "Czy na pewno chcesz dać {days} dni premium **{server}**?\n"
+"*Te dni premium nie mogą zostać usunięte.*"
 
 #: cogs/premium.py:844
 msgid "You cannot assign premium to a server that a Patron is giving premium to."
-msgstr ""
+msgstr "Nie możesz przypisać premium do serwera, do którego Patron nadaje premium."
 
 #: cogs/premium.py:853
 #, python-brace-format
 msgid "**{server}** has received {days} premium days."
-msgstr ""
+msgstr "**{server}** otrzymał {days} dni premium."
 
 #: cogs/premium.py:873
 #, python-brace-format
 msgid "Transaction No. {id}"
-msgstr ""
+msgstr "Transakcja nr {id}"
 
 #: cogs/premium.py:875
 msgid "Submitted on"
@@ -3166,30 +3202,30 @@ msgstr "Szczegóły"
 
 #: cogs/premium.py:892
 msgid "Additional Comments"
-msgstr ""
+msgstr "Dodatkowe komentarze"
 
 #: cogs/respawn.py:30
 msgid "No respawns were registered."
-msgstr ""
+msgstr "Nie zarejestrowano żadnych respawnów."
 
 #: cogs/respawn.py:59
 msgid "Commands related to the respawn system."
-msgstr ""
+msgstr "Komendy związane z systemem respawnów."
 
 #: cogs/respawn.py:84
 #, python-brace-format
 msgid "Respawn system is not configured for this server. Use `{prefix}respawn setup` to configure."
-msgstr ""
+msgstr "System respawnów nie jest skonfigurowany dla tego serwera. Użyj `{prefix}respawn setup`, aby skonfigurować."
 
 #: cogs/respawn.py:202
 #, python-brace-format
 msgid "Your time at **{respawn}** (Server: {server}) has ended."
-msgstr ""
+msgstr "Twój czas w **{respawn}** (Serwer: {server}) zakończył się."
 
 #: cogs/respawn.py:217
 #, python-brace-format
 msgid "It's your turn to take **{respawn.name}** (`{respawn.code}`). Do you want to take it?"
-msgstr ""
+msgstr "Twoja kolej na **{respawn.name}** (`{respawn.code}`). Przyjmujesz?"
 
 #: cogs/respawn.py:227
 msgid "Alright, the respawn was not assigned to you."
@@ -3206,57 +3242,60 @@ msgstr "Zarządzaj respawnami"
 
 #: cogs/respawn.py:240
 msgid "Try the subcommands for more information."
-msgstr ""
+msgstr "Wypróbuj pod-komendy aby uzyskać więcej informacji."
 
 #: cogs/respawn.py:243
 #, python-brace-format
 msgid "To manage the Respawn List, use one of the subcommands.\n"
 "Try `{prefix}help {command}`."
-msgstr ""
+msgstr "Aby zarządzać listą respawnów, użyj jednej z pod-komend.\n"
+"Spróbuj `{prefix}help {command}`."
 
 #: cogs/respawn.py:251
 msgid "Claims a respawn, indicating you will be hunting there."
-msgstr ""
+msgstr "Rezerwuje respawn, oznaczając że będziesz tam polować."
 
 #: cogs/respawn.py:252
 msgid "The duration of the hunt is determined by the server's configuration."
-msgstr ""
+msgstr "Czas trwania polowania jest określony przez konfigurację serwera."
 
 #: cogs/respawn.py:257
 #, python-brace-format
 msgid "Someone is already hunting in **{respawn.name}**.\n"
 "You can add yourself to the queue using `{prefix}respawn next {code}`."
-msgstr ""
+msgstr "Ktoś już poluje w **{respawn.name}**.\n"
+"Możesz dodać siebie do kolejki używając `{prefix}respawn next {code}`."
 
 #: cogs/respawn.py:267
 #, python-brace-format
 msgid "Do you want to start hunting in **{respawn.name}**? This will end your hunt at **{current_respawn.name}**."
-msgstr ""
+msgstr "Czy chcesz rozpocząć polowanie w **{respawn.name}**? To zakończy Twoje polowanie w **{current_respawn.name}**."
 
 #: cogs/respawn.py:271
 #, python-brace-format
 msgid "Do you want to start hunting in **{respawn.name}**?"
-msgstr ""
+msgstr "Czy chcesz rozpocząć polowanie w **{respawn.name}**?"
 
 #: cogs/respawn.py:277
 #, python-brace-format
 msgid "You are now hunting in **{respawn.name}**.\n"
 "Your hunt should end at the following local time:"
-msgstr ""
+msgstr "Teraz polujesz w **{respawn.name}**.\n"
+"Twoje polowanie powinno zakończyć się o następującym czasie lokalnym:"
 
 #: cogs/respawn.py:284
 msgid "Removes the current hunter and the entire queue of a respawn."
-msgstr ""
+msgstr "Usuwa bieżącego gracza i całą kolejkę respawnu."
 
 #: cogs/respawn.py:288
 #, python-brace-format
 msgid "Do you want to clear **{respawn.name}**?"
-msgstr ""
+msgstr "Czy chcesz wyczyścić **{respawn.name}**?"
 
 #: cogs/respawn.py:293
 #, python-brace-format
 msgid "**{respawn.name}** has been cleared."
-msgstr ""
+msgstr "**{respawn.name}** został wyczyszczony."
 
 #: cogs/respawn.py:297
 msgid "Shows a list of previous hunts in a respawn."
@@ -3318,7 +3357,9 @@ msgstr "Usuwa użytkownika z respawnu lub z kolejki."
 msgid "If no user is specified, it will remove the current user hunting in the respawn.\n"
 "To remove a specific user in the queue, specify the name of the user.\n\n"
 "Only server managers can use this."
-msgstr ""
+msgstr "Jeśli żaden użytkownik nie zostanie wskazany, usunie obecnie polującego użytkownika na respawnie.\n"
+"Aby usunąć konkretnego użytkownika w kolejce, określ nazwę użytkownika.\n\n"
+"Tylko menedżerowie serwerów mogą tego użyć."
 
 #: cogs/respawn.py:376
 #, python-brace-format
@@ -3328,7 +3369,7 @@ msgstr "Aktualnie nikt nie poluje na **{respawn.name}**."
 #: cogs/respawn.py:377
 #, python-brace-format
 msgid "{user} is not hunting or in the queue of **{respawn.name}**."
-msgstr ""
+msgstr "{user} nie poluje ani nie jest w kolejce **{respawn.name}**."
 
 #: cogs/respawn.py:381
 #, python-brace-format
@@ -3365,34 +3406,34 @@ msgstr "Czy na pewno chcesz opuścić **{respawn.name}**?\n"
 #: cogs/respawn.py:411
 #, python-brace-format
 msgid "Are you sure you want to remove yourself from the queue of **{respawn.name}**?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć się z kolejki **{respawn.name}**?"
 
 #: cogs/respawn.py:414
 #, python-brace-format
 msgid "You're currently not hunting or in the queue of **{respawn.name}**."
-msgstr ""
+msgstr "Nie polujesz ani nie jesteś w kolejce do **{respawn.name}**."
 
 #: cogs/respawn.py:421
 #, python-brace-format
 msgid "You have left **{respawn.name}** (`{respawn.code}`)."
-msgstr ""
+msgstr "Opuściłeś **{respawn.name}** (`{respawn.code}`)."
 
 #: cogs/respawn.py:423
 #, python-brace-format
 msgid "You have left the queue for **{respawn.name}** (`{respawn.code}`)."
-msgstr ""
+msgstr "Opuściłeś kolejkę do **{respawn.name}** (`{respawn.code}`)."
 
 #: cogs/respawn.py:429
 msgid "Shows the complete list of respawns."
-msgstr ""
+msgstr "Pokazuje pełną listę respawnów."
 
 #: cogs/respawn.py:444
 msgid "Respawn List"
-msgstr ""
+msgstr "Lista respawnów"
 
 #: cogs/respawn.py:451
 msgid "Joins the queue of a respawn."
-msgstr ""
+msgstr "Dołącza do kolejki respawnu."
 
 #: cogs/respawn.py:452
 msgid "You will be notified when it is your turn for the spawn via direct message.\n"
@@ -3677,15 +3718,15 @@ msgstr ""
 
 #: cogs/roles.py:270
 msgid "Starting role refreshing…"
-msgstr ""
+msgstr "Uruchamianie odświeżania ról…"
 
 #: cogs/roles.py:274 cogs/roles.py:276
 msgid "Refresh done, roles will be updated shortly."
-msgstr ""
+msgstr "Odświeżanie zakończone, role zostaną wkrótce zaktualizowane."
 
 #: cogs/roles.py:282
 msgid "Removes an autorole rule."
-msgstr ""
+msgstr "Usuwa regułę automatycznej roli."
 
 #: cogs/roles.py:283
 msgid "Role names, mentions and ids are accepted. Role names with multiple words need to be wrapped in quotes.\n\n"
