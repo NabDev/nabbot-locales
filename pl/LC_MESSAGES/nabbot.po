@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-30 08:39-0700\n"
-"PO-Revision-Date: 2021-05-01 16:16\n"
+"PO-Revision-Date: 2021-05-01 17:16\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -6461,31 +6461,32 @@ msgstr "Jeśli podany zostanie numer, wyświetli szczegóły tego wydarzenia. Ta
 #, python-brace-format
 msgid "For more info about an event, use `{prefix}{command} info (id)`\n"
 "To receive notifications for an event, use `{prefix}{command} sub (id)`"
-msgstr ""
+msgstr "Aby uzyskać więcej informacji na temat wydarzenia, użyj `{prefix}{command} info (id)`\n"
+"Aby otrzymywać powiadomienia o wydarzeniu użyj `{prefix}{command} sub (id)`"
 
 #: cogs/timers.py:736
 msgid "There are no upcoming events."
-msgstr ""
+msgstr "Nie ma nadchodzących wydarzeń."
 
 #. List format for current events
 #: cogs/timers.py:747
 #, python-brace-format
 msgid "**{name}** (*ID: {id}*) - by {user} - Started {time} ago"
-msgstr ""
+msgstr "**{name}** (*ID: {id}*) - {user} - Rozpoczęte {time} temu"
 
 #: cogs/timers.py:755
 msgid "Recent events"
-msgstr ""
+msgstr "Ostatnie wydarzenia"
 
 #. Line format for upcoming events
 #: cogs/timers.py:764
 #, python-brace-format
 msgid "**{name}** (*ID: {id}*) - by {user} - In {time}"
-msgstr ""
+msgstr "**{name}** (*ID: {id}*) - {user} - Rozpocznie się za {time}"
 
 #: cogs/timers.py:780
 msgid "Creates a new event."
-msgstr ""
+msgstr "Tworzy nowe wydarzenie."
 
 #: cogs/timers.py:781
 msgid "`starts in` is in how much time the event will start from the moment of creation.\n"
@@ -6495,11 +6496,17 @@ msgid "`starts in` is in how much time the event will start from the moment of c
 "Examples: 1d20h5m, 1d30m, 1h40m, 40m\n\n"
 "The event description is optional, you can also use links like: `[link title](link url)`.\n\n"
 "Once the event is created, the id of the event will be returned. This is used for further edits."
-msgstr ""
+msgstr "`starts in` to czas za ile wydarzenie rozpocznie się od momentu utworzenia.\n"
+"Pozwala to uniknąć problemów z różnymi strefami czasowymi.\n"
+"Po prostu powiedz za ile dni/godzin/minut rozpocznie się wydarzenie.\n\n"
+"Czas można ustawić za pomocą jednostek takich jak 'd' dla dni, 'h' dla godzin, 'm' dla minut i 'd' dla sekund.\n"
+"Przykłady: 1d20h5m, 1d30m, 1h40m, 40m\n\n"
+"Opis wydarzenia jest opcjonalny, możesz również użyć linków takich jak: `[tytuł linku](url linku)`.\n\n"
+"Gdy wydarzenie zostanie utworzone, identyfikator wydarzenia zostanie zwrócony. Jest on potrzebny do dalszych edycji."
 
 #: cogs/timers.py:823 cogs/timers.py:1373
 msgid "Your event was created successfully."
-msgstr ""
+msgstr "Twoje wydarzenie zostało pomyślnie utworzone."
 
 #: cogs/timers.py:824 cogs/timers.py:1374
 #, python-format
