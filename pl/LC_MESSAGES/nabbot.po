@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-01 11:29-0700\n"
-"PO-Revision-Date: 2021-05-01 20:24\n"
+"PO-Revision-Date: 2021-05-01 21:23\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -2608,7 +2608,7 @@ msgstr "Wykrywanie slotów na przedmioty"
 
 #: cogs/loot.py:399
 msgid "I couldn't find any inventory slots in your image. Make sure your image is not stretched out or that overscaling is off."
-msgstr ""
+msgstr "Nie mogłem znaleźć żadnych slotów ekwipunku w Twoim obrazie. Upewnij się, że Twój obraz nie jest rozciągnięty i że skalowanie ekranu jest wyłączone."
 
 #: cogs/loot.py:402
 msgid "{slots:,} slots found.\n"
@@ -2622,19 +2622,19 @@ msgstr "Komendy związane z moderacją."
 
 #: cogs/mod.py:97
 msgid "Cleans the channel from bot commands."
-msgstr ""
+msgstr "Czyści kanał z komend bota."
 
 #: cogs/mod.py:98
 msgid "If the bot has `Manage Messages` permission, it will also delete command invocation messages."
-msgstr ""
+msgstr "Jeśli bot ma uprawnienie `Zarządzanie wiadomościami`, usunie również wiadomości wywołujące komendy."
 
 #: cogs/mod.py:112
 msgid "Something went wrong when deleting messages."
-msgstr ""
+msgstr "Coś poszło nie tak podczas usuwania wiadomości."
 
 #: cogs/mod.py:121
 msgid "There are no messages to clean."
-msgstr ""
+msgstr "Brak wiadomości do wyczyszczenia."
 
 #: cogs/mod.py:123
 msgid "Deleted {count:,} messages."
@@ -2642,7 +2642,7 @@ msgstr ""
 
 #: cogs/mod.py:128
 msgid "Makes the bot ignore a channel or user."
-msgstr ""
+msgstr "Sprawia, że bot ignoruje kanał lub użytkownika."
 
 #: cogs/mod.py:129
 msgid "Commands cannot be used in ignored channels or by ignored users.\n\n"
