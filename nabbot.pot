@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-01 11:29-0700\n"
+"POT-Creation-Date: 2021-05-01 15:29-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -352,17 +352,22 @@ msgstr ""
 msgid "moments"
 msgstr ""
 
-#: nabbot.py:232
+#. The bot's description, show in about and help commands.
+#: nabbot.py:119
+msgid "Discord bot with functions for the MMORPG Tibia."
+msgstr ""
+
+#: nabbot.py:233
 #, python-brace-format
 msgid "To see my commands, use: `{prefix}help`."
 msgstr ""
 
 #. Discord mentions, @NabBot, @User, @Person
-#: nabbot.py:237
+#: nabbot.py:238
 msgid "mentions"
 msgstr ""
 
-#: nabbot.py:238
+#: nabbot.py:239
 msgid "My command prefix is:"
 msgid_plural "My command prefixes are:"
 msgstr[0] ""
@@ -377,23 +382,23 @@ msgid "Language"
 msgstr ""
 
 #: cogs/admin.py:38
-msgid "News channel"
+msgid "News Channel"
 msgstr ""
 
 #: cogs/admin.py:39
-msgid "News tickers"
+msgid "News Tickers"
 msgstr ""
 
 #: cogs/admin.py:40
-msgid "Events channel"
+msgid "Events Channel"
 msgstr ""
 
 #: cogs/admin.py:41
-msgid "Server Log channel"
+msgid "Server Log Channel"
 msgstr ""
 
 #: cogs/admin.py:42
-msgid "Tracking channel"
+msgid "Tracking Channel"
 msgstr ""
 
 #: cogs/admin.py:43
@@ -405,11 +410,11 @@ msgid "Prefix"
 msgstr ""
 
 #: cogs/admin.py:45
-msgid "Welcome message"
+msgid "Welcome Message"
 msgstr ""
 
 #: cogs/admin.py:46
-msgid "Welcome channel"
+msgid "Welcome Channel"
 msgstr ""
 
 #: cogs/admin.py:47
@@ -2561,11 +2566,24 @@ msgstr ""
 msgid "I couldn't find any inventory slots in your image. Make sure your image is not stretched out or that overscaling is off."
 msgstr ""
 
-#: cogs/loot.py:402
-msgid ""
-"{slots:,} slots found.\n"
-"{loading} Identifying items…\n"
-"Estimated time: {estimated:.2f} seconds."
+#: cogs/loot.py:404
+msgid "{slots:,} slot found."
+msgid_plural "{slots:,} slots found."
+msgstr[0] ""
+msgstr[1] ""
+
+#: cogs/loot.py:406
+msgid "Identifying items…"
+msgstr ""
+
+#: cogs/loot.py:408
+#, python-brace-format
+msgid "Estimated time: {time}."
+msgstr ""
+
+#. Loot scanning completed
+#: cogs/loot.py:479
+msgid "Complete!"
 msgstr ""
 
 #: cogs/mod.py:74
@@ -2589,14 +2607,16 @@ msgid "There are no messages to clean."
 msgstr ""
 
 #: cogs/mod.py:123
-msgid "Deleted {count:,} messages."
-msgstr ""
+msgid "Deleted {count:,} message."
+msgid_plural "Deleted {count:,} messages."
+msgstr[0] ""
+msgstr[1] ""
 
-#: cogs/mod.py:128
+#: cogs/mod.py:129
 msgid "Makes the bot ignore a channel or user."
 msgstr ""
 
-#: cogs/mod.py:129
+#: cogs/mod.py:130
 msgid ""
 "Commands cannot be used in ignored channels or by ignored users.\n"
 "\n"
@@ -2606,127 +2626,127 @@ msgid ""
 "Ignores are bypassed by users with the `Manage Server` permission."
 msgstr ""
 
-#: cogs/mod.py:146
+#: cogs/mod.py:147
 #, python-brace-format
 msgid "I'm now ignoring **{name}**"
 msgstr ""
 
-#: cogs/mod.py:147
+#: cogs/mod.py:148
 #, python-brace-format
 msgid "{name} is already ignored."
 msgstr ""
 
-#: cogs/mod.py:152 cogs/mod.py:156
+#: cogs/mod.py:153 cogs/mod.py:157
 #, python-format
 msgid "%d entry is now ignored."
 msgid_plural "%d entries are now ignored."
 msgstr[0] ""
 msgstr[1] ""
 
-#: cogs/mod.py:153
+#: cogs/mod.py:154
 msgid "The rest was already ignored."
 msgstr ""
 
-#: cogs/mod.py:158
+#: cogs/mod.py:159
 msgid "No entries were ignored. They were all already ignored."
 msgstr ""
 
-#: cogs/mod.py:163
+#: cogs/mod.py:164
 msgid "Shows a list of ignored channels and users."
 msgstr ""
 
-#: cogs/mod.py:171
+#: cogs/mod.py:172
 msgid "There are no ignored entries in this server."
 msgstr ""
 
-#: cogs/mod.py:175
+#: cogs/mod.py:176
 msgid "Ignored entries"
 msgstr ""
 
-#: cogs/mod.py:183
+#: cogs/mod.py:184
 msgid "Makes the bot say a message."
 msgstr ""
 
-#: cogs/mod.py:184
+#: cogs/mod.py:185
 msgid "If the user using the command doesn't have mention everyone permissions, the message will be cleaned of mass mentions."
 msgstr ""
 
-#: cogs/mod.py:189
+#: cogs/mod.py:190
 msgid "I need `Manage Messages` permissions here to use the command."
 msgstr ""
 
-#: cogs/mod.py:200
+#: cogs/mod.py:201
 msgid "Removes a channel or user from the ignored list."
 msgstr ""
 
-#: cogs/mod.py:201
+#: cogs/mod.py:202
 msgid ""
 "If no parameter is provided, the current channel will be unignored.\n"
 "\n"
 "If the command is used with no parameters, it unignores the current channel."
 msgstr ""
 
-#: cogs/mod.py:210
+#: cogs/mod.py:211
 #, python-brace-format
 msgid "{channel} is no longer ignored."
 msgstr ""
 
-#: cogs/mod.py:211
+#: cogs/mod.py:212
 #, python-brace-format
 msgid "{channel} wasn't ignored."
 msgstr ""
 
-#: cogs/mod.py:217
+#: cogs/mod.py:218
 #, python-brace-format
 msgid "{count} is now ignored."
 msgid_plural "{count} are now ignored."
 msgstr[0] ""
 msgstr[1] ""
 
-#: cogs/mod.py:219
+#: cogs/mod.py:220
 msgid "No entries were unignored."
 msgstr ""
 
-#: cogs/mod.py:225
+#: cogs/mod.py:226
 msgid "Shows a list of users with no registered characters."
 msgstr ""
 
-#: cogs/mod.py:237
+#: cogs/mod.py:238
 msgid "Joined"
 msgstr ""
 
-#: cogs/mod.py:242 cogs/mod.py:286
+#: cogs/mod.py:243 cogs/mod.py:287
 msgid "There are no unregistered users."
 msgstr ""
 
-#: cogs/mod.py:247
+#: cogs/mod.py:248
 msgid "Unregistered members"
 msgstr ""
 
-#: cogs/mod.py:256
+#: cogs/mod.py:257
 msgid "Shows a list of unregistered guild members."
 msgstr ""
 
-#: cogs/mod.py:257
+#: cogs/mod.py:258
 msgid "Unregistered guild members can be either characters not registered to NabBot or registered to users not in the server."
 msgstr ""
 
-#: cogs/mod.py:263
+#: cogs/mod.py:264
 msgid "There's no guild with that name."
 msgstr ""
 
-#: cogs/mod.py:265
+#: cogs/mod.py:266
 #, python-brace-format
 msgid "**{guild}** is not in **{world}**"
 msgstr ""
 
 #. Entries for unregistered guild command
-#: cogs/mod.py:280
+#: cogs/mod.py:281
 #, python-brace-format
 msgid "{rank} — **{name}** (Lvl {level} {voc})"
 msgstr ""
 
-#: cogs/mod.py:290
+#: cogs/mod.py:291
 #, python-brace-format
 msgid "Unregistered members for {guild}"
 msgstr ""
