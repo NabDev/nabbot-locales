@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-01 11:29-0700\n"
-"PO-Revision-Date: 2021-05-01 19:23\n"
+"PO-Revision-Date: 2021-05-01 20:24\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -315,19 +315,19 @@ msgstr[3] ""
 msgctxt "months abbreviation"
 msgid "mo"
 msgid_plural "mo"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "m-c."
+msgstr[1] "m-ce."
+msgstr[2] "m-cy."
+msgstr[3] "m-cy."
 
 #: utils/timing.py:110 cogs/premium.py:522
 msgctxt "days abbreviation"
 msgid "d"
 msgid_plural "d"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "dn."
+msgstr[1] "dn."
+msgstr[2] "dn."
+msgstr[3] "dn."
 
 #: utils/timing.py:111
 msgctxt "hours abbreviation"
@@ -427,7 +427,7 @@ msgstr "Kanał śledzenia"
 
 #: cogs/admin.py:43
 msgid "Min Announce Level"
-msgstr ""
+msgstr "Minimalny poziom powiadomień"
 
 #: cogs/admin.py:44
 msgid "Prefix"
@@ -447,7 +447,7 @@ msgstr "Domyślne ogłoszenia"
 
 #: cogs/admin.py:48
 msgid "Show User in Announcements"
-msgstr ""
+msgstr "Pokaż użytkownika w ogłoszeniach"
 
 #: cogs/admin.py:51
 msgid "I couldn't find that channel, are you sure it exists?"
@@ -472,7 +472,7 @@ msgstr "kanał/disable"
 #. Used to show that the current setting is the default global setting.
 #: cogs/admin.py:58
 msgid "Global default"
-msgstr ""
+msgstr "Ustawienie domyślne"
 
 #: cogs/admin.py:78 cogs/admin.py:182
 msgid "unknown language"
@@ -718,7 +718,9 @@ msgstr "Zmienia kanał, w którym ogłaszane są nadchodzące wydarzenia."
 msgid "This is where announcements for events that about to happen will be made.\n"
 "If the assigned channel is deleted or the bot no longer has access to it, the top channel will be used.\n\n"
 "If this is disabled, users that subscribed to the event will still receive notifications via PM."
-msgstr ""
+msgstr "W tym miejscu będą zamieszczane komunikaty o wydarzeniach, które będą miały miejsce.\n"
+"Jeśli przypisany kanał zostanie usunięty lub bot nie będzie miał już do niego dostępu, zostanie użyty najwyższy kanał.\n\n"
+"Jeśli ta opcja jest wyłączona, użytkownicy, którzy subskrybują wydarzenie nadal będą otrzymywać powiadomienia za pośrednictwem prywatnych wiadomości."
 
 #: cogs/admin.py:282
 msgid "Event announcements are already disabled."
@@ -815,15 +817,16 @@ msgstr "Włącza lub wyłącza krótkie aktualności z Tibia.com na tym serwerze
 #: cogs/admin.py:394
 msgid "Disabling this will make NabBot only announce news and featured articles.\n"
 "In order for news tickers to be announced, news announcements must be enabled."
-msgstr ""
+msgstr "Wyłączenie tego sprawi, że NabBot będzie ogłaszał tylko wiadomości i artykuły.\n"
+"W celu ogłaszania krótkich aktualności, ogłaszanie wiadomości musi być włączone."
 
 #: cogs/admin.py:407
 msgid "I will announce news tickers along news and featured articles from now on."
-msgstr ""
+msgstr "Od teraz będę ogłaszał krótkie aktualności, razem z wiadomościami i artykułami."
 
 #: cogs/admin.py:410
 msgid "I won't announce news tickers from now on."
-msgstr ""
+msgstr "Nie będę już ogłaszał krótkich aktualności."
 
 #: cogs/admin.py:418
 msgid "Changes the command prefixes for this server."
@@ -940,7 +943,7 @@ msgstr "To jest początkowo wyłączone.\n\n"
 
 #: cogs/admin.py:541
 msgid "message/disable"
-msgstr ""
+msgstr "wiadomość/disable"
 
 #: cogs/admin.py:545
 msgid "Welcome messages are already disabled."
@@ -1232,10 +1235,10 @@ msgstr " z bonusem lojalnościowym %d%%."
 #: cogs/calculators.py:109
 msgid "You need **{hits:,}** hit to reach the target level."
 msgid_plural "You need **{hits:,}** hits to reach the target level."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Potrzebujesz **{hits:,}** uderzenia, aby osiągnąć docelowy poziom."
+msgstr[1] "Potrzebujesz **{hits:,}** uderzeń, aby osiągnąć docelowy poziom."
+msgstr[2] "Potrzebujesz **{hits:,}** uderzeń, aby osiągnąć docelowy poziom."
+msgstr[3] "Potrzebujesz **{hits:,}** uderzeń, aby osiągnąć docelowy poziom."
 
 #: cogs/calculators.py:184
 msgid "Commands to calculate various Tibia values."
@@ -1272,7 +1275,8 @@ msgstr "Oblicza czas treningu wymagany do osiągnięcia docelowego poziomu dista
 #: cogs/calculators.py:215
 msgid "It shows the needed hits, online training time and offline training time.\n"
 "For paladins, it will also show the number of exercise weapons needed."
-msgstr ""
+msgstr "Pokazuje potrzebne uderzenia, czas treningu online oraz czas treningu offline.\n"
+"W przypadku paladynów pokazuje również potrzebną ilość exercise weapons."
 
 #: cogs/calculators.py:237
 msgid "Distance Skill Calculator"
@@ -1531,19 +1535,19 @@ msgstr "Umrzesz zanim zdążysz je wszystkie użyć."
 
 #: cogs/calculators.py:724 cogs/tibia.py:1225 cogs/tracking.py:1158
 msgid "Invalid arguments used, examples:"
-msgstr ""
+msgstr "Nieprawidłowe argumenty, przykłady:"
 
 #. Arguments example of stats command
 #: cogs/calculators.py:727
 #, python-brace-format
 msgid "{prefix}{command} ≪character name≫"
-msgstr ""
+msgstr "{prefix}{command} ≪nazwa postaci≫"
 
 #. Arguments example of stats command
 #: cogs/calculators.py:729
 #, python-brace-format
 msgid "{prefix}{command} ≪level≫,≪vocation≫"
-msgstr ""
+msgstr "{prefix}{command} ≪poziom≫,≪profesja≫"
 
 #: cogs/core.py:262
 #, python-brace-format
@@ -1637,7 +1641,7 @@ msgstr "Ustaw kanał awansów i śmierci używając: `{0}settings`"
 #: cogs/core.py:388
 #, python-brace-format
 msgid "People can register their characters using `{0}im ≪characterName≫`"
-msgstr ""
+msgstr "Użytkownicy mogą zarejestrować swoje postacie używając `{0}im ≪nazwaPostaci≫`"
 
 #: cogs/core.py:389
 #, python-brace-format
@@ -1809,7 +1813,10 @@ msgid "By default, it rolls a 6-sided die once.\n"
 "You can specify how many times you want the die to be rolled.\n\n"
 "You can also specify the number of sides of the die, using the format `TdS` where T is times and S is sides.\n"
 "For example: `3d5` will roll a 5 sided dice 3 times."
-msgstr ""
+msgstr "Domyślnie rzucana jest kostka sześciościenna, tylko jeden raz.\n"
+"Możesz określić ile razy chcesz, aby kostka została rzucona.\n\n"
+"Możesz również określić liczbę ścian kostki, używając formatu `TdS`, gdzie T oznacza ilość rzutów, a S ilość ścian kostki.\n"
+"Na przykład: `3d5` rzuci 5-ścienną kostką 3 razy."
 
 #: cogs/general.py:169
 msgid "Invalid parameter! I'm expecting `≪times≫d≪sides≫`."
@@ -1886,7 +1893,7 @@ msgstr "Autorzy"
 #: cogs/info.py:63
 msgctxt "Bot creation date"
 msgid "Created"
-msgstr ""
+msgstr "Utworzono"
 
 #: cogs/info.py:64 cogs/info.py:102
 msgid "Version"
@@ -2176,7 +2183,7 @@ msgstr "Członek od"
 #: cogs/info.py:341
 msgctxt "Member creation date"
 msgid "Created"
-msgstr ""
+msgstr "Utworzono"
 
 #: cogs/info.py:345
 msgid "Server Owner"
@@ -2208,7 +2215,7 @@ msgstr "Status użytkownika"
 
 #: cogs/info.py:358
 msgid "Servers with NabBot"
-msgstr ""
+msgstr "Serwery z NabBot"
 
 #: cogs/info.py:360
 msgid "Highest role"
@@ -2327,12 +2334,12 @@ msgstr "Automatyczna rola **{role}** została usunięta."
 
 #: cogs/logging.py:223
 msgid "Group deleted"
-msgstr ""
+msgstr "Grupa została usunięta"
 
 #: cogs/logging.py:224
 #, python-brace-format
 msgid "Joinable role **{role}** deleted."
-msgstr ""
+msgstr "Rola **{role}** została usunięta."
 
 #: cogs/logging.py:238
 msgid "Watchlist channel deleted"
@@ -2494,7 +2501,14 @@ msgid "An image must be attached with the message. The prices used are NPC price
 "- JPG images are usually not recognized.\n"
 "- PNG images with low compression settings take longer to be scanned or aren't detected at all.\n\n"
 "The bot shows the total loot value, and a list of the items detected, separated into the NPC that buy them."
-msgstr ""
+msgstr "Obraz musi być dołączony do wiadomości. Stosowane ceny to tylko ceny NPC.\n\n"
+"Obraz wymaga następujących elementów:\n"
+"- Musi być zrzutem ekranu okien ekwipunku (plecaki, depo, itp.).\n"
+"- Oryginalny rozmiar, obraz nie może być przeskalowany w górę lub w dół, jednak można by przycięty.\n"
+"- Obraz musi pokazywać cały slot.\n"
+"- Obrazy JPG zwykle nie są rozpoznawane.\n"
+"- Obrazy PNG o niskich ustawieniach kompresji trwają dłużej, aby zostać zeskanowanym lub w ogóle nie są wykryte.\n\n"
+"Bot pokazuje całkowitą wartość loot oraz listę wykrytych przedmiotów, podzielonych na NPC którzy je kupują."
 
 #: cogs/loot.py:124
 msgid "You need to upload a picture of your loot and type the command in the comment."
@@ -2523,11 +2537,11 @@ msgstr "Status: Czytanie"
 #: cogs/loot.py:160
 #, python-brace-format
 msgid "Sorry {user}, I couldn't find any loot in that image. Loot parsing will only work on high quality images, so make sure your image wasn't compressed."
-msgstr ""
+msgstr "Przepraszamy {user}, nie mogłem znaleźć żadnego loota w tym obrazie. Wykrywanie loota będzie działać tylko na wysokiej jakości obrazach, więc upewnij się, że obraz nie został skompresowany."
 
 #: cogs/loot.py:169
 msgid "Shows the meaning of the overlayed icons."
-msgstr ""
+msgstr "Pokazuje znaczenie nakładanych ikon."
 
 #: cogs/loot.py:174
 msgid "I need `Attach Files` permission to show you the loot legend."
@@ -2536,7 +2550,7 @@ msgstr "Potrzebuję uprawnienia `Załączanie plików` aby móc pokazać Ci lege
 #: cogs/loot.py:249
 #, python-brace-format
 msgid "Loot scanned in {time}."
-msgstr ""
+msgstr "Loot zeskanowany w {time}."
 
 #: cogs/loot.py:254
 #, python-brace-format
@@ -2551,10 +2565,10 @@ msgstr "To są otrzymane wyniki:"
 #, python-format
 msgid "**There was %d unknown item.**"
 msgid_plural "**There were %d unknown items.**"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "**Był %d nieznany przedmiot.**"
+msgstr[1] "**Były %d nieznane przedmioty.**"
+msgstr[2] "**Było %d nieznanych przedmiotów.**"
+msgstr[3] "**Było %d nieznanych przedmiotów.**"
 
 #: cogs/loot.py:307
 msgid "\n"
@@ -2582,7 +2596,7 @@ msgstr "w sumie"
 
 #: cogs/loot.py:344
 msgid "Grand Total"
-msgstr ""
+msgstr "Łączna suma"
 
 #: cogs/loot.py:393
 msgid "Either that wasn't an image or I failed to load it, please try again."
@@ -2590,7 +2604,7 @@ msgstr "To albo nie był obraz, albo nie udało mi się go załadować. Proszę 
 
 #: cogs/loot.py:395
 msgid "Detecting item slots"
-msgstr ""
+msgstr "Wykrywanie slotów na przedmioty"
 
 #: cogs/loot.py:399
 msgid "I couldn't find any inventory slots in your image. Make sure your image is not stretched out or that overscaling is off."
