@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-02 07:12-0700\n"
-"PO-Revision-Date: 2021-05-02 17:15\n"
+"PO-Revision-Date: 2021-05-02 18:35\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -56,31 +56,31 @@ msgstr "Este ID não é válido."
 
 #: utils/constants.py:49
 msgid "That's not a valid level."
-msgstr ""
+msgstr "Este level não é válido."
 
 #: utils/constants.py:51
 msgid "There is no world with that name."
-msgstr ""
+msgstr "Não existe mundo com este nome."
 
 #: utils/constants.py:53
 msgid "There is no guild with that name."
-msgstr ""
+msgstr "Não há nenhuma guilda com esse nome."
 
 #: utils/constants.py:55
 msgid "I could not find that channel."
-msgstr ""
+msgstr "Não encontrei esse canal."
 
 #: utils/constants.py:56
 msgid "…and more"
-msgstr ""
+msgstr "…e mais"
 
 #: utils/checks.py:21
 msgid "This command cannot be used in private messages."
-msgstr ""
+msgstr "Este comando não pode ser utilizado em mensagens privadas."
 
 #: utils/checks.py:30
 msgid "You are not allowed to use this command."
-msgstr ""
+msgstr "Você não tem permissão para usar esse comando."
 
 #: utils/checks.py:41
 msgid "You need Administrator permission to use this command."
@@ -96,7 +96,7 @@ msgstr ""
 
 #: utils/checks.py:112 utils/checks.py:127
 msgid "This server is not tracking any worlds."
-msgstr ""
+msgstr "Este servidor não está rastreando nenhum mundo."
 
 #: utils/checks.py:129
 msgid "You're not in any server tracking a world."
@@ -104,15 +104,15 @@ msgstr ""
 
 #: utils/converter.py:45
 msgid "Member \"{}\" not found."
-msgstr ""
+msgstr "Membro \"{}\" não encontrado."
 
 #: utils/converter.py:80
 msgid "Role \"{}\" not found."
-msgstr ""
+msgstr "Cargo \"{}\" não encontrado."
 
 #: utils/converter.py:92 utils/converter.py:96
 msgid "Could not find a channel by ID {argument!r}."
-msgstr ""
+msgstr "Não encontrei um canal com ID {argument!r}."
 
 #: utils/converter.py:116
 msgid "That's not a valid time, try something like this: `1d7h` or `4h20m`"
@@ -120,42 +120,42 @@ msgstr ""
 
 #: utils/converter.py:133
 msgid "That's a bit too far in the future… Try less than 60 days."
-msgstr ""
+msgstr "Isso está em um futuro muito distante… Tente com menos de 60 dias."
 
 #: utils/converter.py:142
 msgid "Invalid stamina format, expected: `hh:mm`"
-msgstr ""
+msgstr "Formato de stamina inválido, esperado: `hh:mm`"
 
 #: utils/converter.py:146
 msgid "Invalid stamina, minutes can't be 60 or greater."
-msgstr ""
+msgstr "Stamina inválida, o campo de minutos não pode ser maior ou igual a 60."
 
 #: utils/converter.py:148
 msgid "Invalid stamina, can't have more than 42 hours."
-msgstr ""
+msgstr "Stamina inválida, não se pode ter mais de 42 horas."
 
 #: utils/converter.py:185
 #, python-brace-format
 msgid "`{argument}` is not a valid number."
-msgstr ""
+msgstr "`{argument}` não é um número válido."
 
 #. Level up message used when simple messages is enabled
 #: utils/messages.py:88
 #, python-brace-format
 msgid "**{name}** advanced to level {level}."
-msgstr ""
+msgstr "**{name}** avançou para o level {level}."
 
 #. Death message used when simple messages is on. Article will always be in English (a/an). May be omitted if fitting.
 #: utils/messages.py:90
 #, python-brace-format
 msgid "**{name}** ({level}) died to {killer_article}**{killer}**."
-msgstr ""
+msgstr "**{name}** ({level}) morreu para {killer_article}**{killer}**."
 
 #. PvP deaths messages used when simple messages is on.
 #: utils/messages.py:92
 #, python-brace-format
 msgid "**{name}** ({level}) was killed by **{killer}**."
-msgstr ""
+msgstr "**{name}** ({level}) foi morto por **{killer}**."
 
 #: utils/pages.py:106
 msgid "I need `Add Reactions` permission to display this command."
