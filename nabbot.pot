@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-01 15:29-0700\n"
+"POT-Creation-Date: 2021-05-01 22:08-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2488,101 +2488,112 @@ msgstr ""
 msgid "I failed to load your image. Please try again."
 msgstr ""
 
-#: cogs/loot.py:149
-msgid "Status: Reading"
+#: cogs/loot.py:147
+#, python-brace-format
+msgid "I've begun parsing your image, {user}. Please be patient, this may take a few moments."
 msgstr ""
 
-#: cogs/loot.py:160
+#. Status for the loot image being read
+#: cogs/loot.py:150
+msgid "Reading"
+msgstr ""
+
+#: cogs/loot.py:151 cogs/loot.py:385
+#, python-brace-format
+msgid "**Status**: {status}"
+msgstr ""
+
+#: cogs/loot.py:162
 #, python-brace-format
 msgid "Sorry {user}, I couldn't find any loot in that image. Loot parsing will only work on high quality images, so make sure your image wasn't compressed."
 msgstr ""
 
-#: cogs/loot.py:169
+#: cogs/loot.py:171
 msgid "Shows the meaning of the overlayed icons."
 msgstr ""
 
-#: cogs/loot.py:174
+#: cogs/loot.py:176
 msgid "I need `Attach Files` permission to show you the loot legend."
 msgstr ""
 
-#: cogs/loot.py:249
+#: cogs/loot.py:251
 #, python-brace-format
 msgid "Loot scanned in {time}."
 msgstr ""
 
-#: cogs/loot.py:254
+#: cogs/loot.py:256
 #, python-brace-format
 msgid "These are the results for your image: {img_link}"
 msgstr ""
 
-#: cogs/loot.py:257
+#: cogs/loot.py:259
 msgid "These are the results:"
 msgstr ""
 
-#: cogs/loot.py:302
+#: cogs/loot.py:304
 #, python-format
 msgid "**There was %d unknown item.**"
 msgid_plural "**There were %d unknown items.**"
 msgstr[0] ""
 msgstr[1] ""
 
-#: cogs/loot.py:307
+#: cogs/loot.py:309
 msgid ""
 "\n"
 "The total loot value is: **{total_value:,}** gold coins."
 msgstr ""
 
-#: cogs/loot.py:309
+#: cogs/loot.py:311
 msgid ""
 "\n"
 "💎 Items marked with this are used in imbuements and might be worth more in the market."
 msgstr ""
 
-#: cogs/loot.py:325
+#: cogs/loot.py:327
 msgid "Original Message"
 msgstr ""
 
-#: cogs/loot.py:329
+#: cogs/loot.py:331
 msgid "The results are too long to display, they have been attached as a text file."
 msgstr ""
 
-#: cogs/loot.py:343
+#: cogs/loot.py:345
 msgid "total"
 msgstr ""
 
-#: cogs/loot.py:344
+#: cogs/loot.py:346
 msgid "Grand Total"
 msgstr ""
 
-#: cogs/loot.py:393
+#: cogs/loot.py:395
 msgid "Either that wasn't an image or I failed to load it, please try again."
 msgstr ""
 
-#: cogs/loot.py:395
+#: cogs/loot.py:397
 msgid "Detecting item slots"
 msgstr ""
 
-#: cogs/loot.py:399
+#: cogs/loot.py:401
 msgid "I couldn't find any inventory slots in your image. Make sure your image is not stretched out or that overscaling is off."
 msgstr ""
 
-#: cogs/loot.py:404
+#: cogs/loot.py:406
 msgid "{slots:,} slot found."
 msgid_plural "{slots:,} slots found."
 msgstr[0] ""
 msgstr[1] ""
 
-#: cogs/loot.py:406
+#: cogs/loot.py:408
 msgid "Identifying items…"
 msgstr ""
 
-#: cogs/loot.py:408
+#: cogs/loot.py:410
 #, python-brace-format
 msgid "Estimated time: {time}."
 msgstr ""
 
 #. Loot scanning completed
-#: cogs/loot.py:479
+#: cogs/loot.py:481
 msgid "Complete!"
 msgstr ""
 
