@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-01 22:13-0700\n"
-"PO-Revision-Date: 2021-05-02 05:14\n"
+"PO-Revision-Date: 2021-05-02 13:31\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -382,7 +382,7 @@ msgstr "chwilę"
 #. The bot's description, show in about and help commands.
 #: nabbot.py:119
 msgid "Discord bot with functions for the MMORPG Tibia."
-msgstr ""
+msgstr "Bot Discorda z funkcjami dla MMORPG Tibia."
 
 #: nabbot.py:233
 #, python-brace-format
@@ -412,23 +412,23 @@ msgstr "Język"
 
 #: cogs/admin.py:38
 msgid "News Channel"
-msgstr ""
+msgstr "Kanał wiadomości"
 
 #: cogs/admin.py:39
 msgid "News Tickers"
-msgstr ""
+msgstr "Krótkie aktualności"
 
 #: cogs/admin.py:40
 msgid "Events Channel"
-msgstr ""
+msgstr "Kanał wydarzeń"
 
 #: cogs/admin.py:41
 msgid "Server Log Channel"
-msgstr ""
+msgstr "Kanał dziennika serwera"
 
 #: cogs/admin.py:42
 msgid "Tracking Channel"
-msgstr ""
+msgstr "Kanał śledzenia"
 
 #: cogs/admin.py:43
 msgid "Min Announce Level"
@@ -440,11 +440,11 @@ msgstr "Prefiks"
 
 #: cogs/admin.py:45
 msgid "Welcome Message"
-msgstr ""
+msgstr "Wiadomość powitalna"
 
 #: cogs/admin.py:46
 msgid "Welcome Channel"
-msgstr ""
+msgstr "Kanał powitalny"
 
 #: cogs/admin.py:47
 msgid "Default Announcements"
@@ -2538,17 +2538,17 @@ msgstr "Nie udało mi się załadować Twojego obrazu. Proszę spróbuj ponownie
 #: cogs/loot.py:147
 #, python-brace-format
 msgid "I've begun parsing your image, {user}. Please be patient, this may take a few moments."
-msgstr ""
+msgstr "Zacząłem analizować twój obraz, {user}. Prosimy o cierpliwość, może to chwilę potrwać."
 
 #. Status for the loot image being read
 #: cogs/loot.py:150
 msgid "Reading"
-msgstr ""
+msgstr "Wczytywanie"
 
 #: cogs/loot.py:151 cogs/loot.py:385
 #, python-brace-format
 msgid "**Status**: {status}"
-msgstr ""
+msgstr "**Status**: {status}"
 
 #: cogs/loot.py:162
 #, python-brace-format
@@ -2602,7 +2602,8 @@ msgstr "\n"
 #: cogs/loot.py:316
 msgid "I've finished parsing your image {user}.\n"
 "The total value is {total_value:,} gold coins."
-msgstr ""
+msgstr "Zakończyłem analizowanie Twojego obrazu {user}.\n"
+"Całkowita wartość to {total_value:,} gp."
 
 #: cogs/loot.py:327
 msgid "Original Message"
