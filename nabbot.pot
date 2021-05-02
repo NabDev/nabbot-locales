@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-01 22:13-0700\n"
+"POT-Creation-Date: 2021-05-02 07:12-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4599,7 +4599,7 @@ msgstr ""
 
 #: cogs/tibia.py:706
 #, python-brace-format
-msgid "For a shorter period, try `{prefix}{name} week` or `{prefix}{name} month`"
+msgid "For a shorter period, try `{prefix}{command} week` or `{prefix}{command} month`"
 msgstr ""
 
 #: cogs/tibia.py:709
@@ -6603,7 +6603,7 @@ msgstr ""
 
 #: cogs/timers.py:866
 #, python-brace-format
-msgid "You successfully added **{char.name}** to this event."
+msgid "You successfully added **{name}** to this event."
 msgstr ""
 
 #: cogs/timers.py:871
