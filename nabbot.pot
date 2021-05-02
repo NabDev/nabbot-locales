@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-01 22:08-0700\n"
+"POT-Creation-Date: 2021-05-01 22:13-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2547,6 +2547,13 @@ msgstr ""
 msgid ""
 "\n"
 "💎 Items marked with this are used in imbuements and might be worth more in the market."
+msgstr ""
+
+#. Short message
+#: cogs/loot.py:316
+msgid ""
+"I've finished parsing your image {user}.\n"
+"The total value is {total_value:,} gold coins."
 msgstr ""
 
 #: cogs/loot.py:327
