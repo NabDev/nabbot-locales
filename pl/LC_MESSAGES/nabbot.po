@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-01 22:13-0700\n"
-"PO-Revision-Date: 2021-05-02 13:31\n"
+"PO-Revision-Date: 2021-05-02 14:09\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -2636,10 +2636,10 @@ msgstr "Nie mogłem znaleźć żadnych slotów ekwipunku w Twoim obrazie. Upewni
 #: cogs/loot.py:406
 msgid "{slots:,} slot found."
 msgid_plural "{slots:,} slots found."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Znaleziono {slots:,} slot."
+msgstr[1] "Znaleziono {slots:,} sloty."
+msgstr[2] "Znaleziono {slots:,} slotów."
+msgstr[3] "Znaleziono {slots:,} slotów."
 
 #: cogs/loot.py:408
 msgid "Identifying items…"
@@ -2678,10 +2678,10 @@ msgstr "Brak wiadomości do wyczyszczenia."
 #: cogs/mod.py:123
 msgid "Deleted {count:,} message."
 msgid_plural "Deleted {count:,} messages."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Usunięto {count:,} wiadomość."
+msgstr[1] "Usunięto {count:,} wiadomości."
+msgstr[2] "Usunięto {count:,} wiadomości."
+msgstr[3] "Usunięto {count:,} wiadomości."
 
 #: cogs/mod.py:129
 msgid "Makes the bot ignore a channel or user."
@@ -2692,7 +2692,10 @@ msgid "Commands cannot be used in ignored channels or by ignored users.\n\n"
 "The command accepts a list of names, ids or mentions of users or channels.\n"
 "If the command is used with no parameters, it ignores the current channel.\n\n"
 "Ignores are bypassed by users with the `Manage Server` permission."
-msgstr ""
+msgstr "Komendy nie mogą być używane w ignorowanych kanałach ani przez zignorowanych użytkowników.\n\n"
+"Komenda akceptuje listę nazw, ID lub wzmianek użytkowników lub kanałów.\n"
+"Jeśli komenda jest użyta bez parametrów, zignoruje bieżący kanał.\n\n"
+"Ignorowanie nie działa na użytkowników z uprawnieniem `Zarządzanie serwerem`."
 
 #: cogs/mod.py:147
 #, python-brace-format
