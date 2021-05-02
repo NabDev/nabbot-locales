@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-01 22:13-0700\n"
-"PO-Revision-Date: 2021-05-02 05:14\n"
+"PO-Revision-Date: 2021-05-02 13:31\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -189,8 +189,8 @@ msgstr ""
 #, python-format
 msgid "%d command"
 msgid_plural "%d commands"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d comando"
+msgstr[1] "%d comandos"
 
 #: utils/pages.py:472
 msgid "Paginator help"
@@ -2704,7 +2704,7 @@ msgstr ""
 #: cogs/premium.py:44
 msgctxt "transaction"
 msgid "Pending"
-msgstr ""
+msgstr "Pendente"
 
 #: cogs/premium.py:45
 msgctxt "transaction"
