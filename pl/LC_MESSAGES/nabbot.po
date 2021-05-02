@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-02 07:12-0700\n"
-"PO-Revision-Date: 2021-05-02 14:13\n"
+"PO-Revision-Date: 2021-05-02 15:16\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -2711,38 +2711,38 @@ msgstr ""
 #, python-format
 msgid "%d entry is now ignored."
 msgid_plural "%d entries are now ignored."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%d wpis jest teraz ignorowany."
+msgstr[1] "%d wpisy są teraz ignorowane."
+msgstr[2] "%d wpisów jest teraz ignorowanych."
+msgstr[3] "%d wpisów jest teraz ignorowanych."
 
 #: cogs/mod.py:154
 msgid "The rest was already ignored."
-msgstr ""
+msgstr "Reszta została już zignorowana."
 
 #: cogs/mod.py:159
 msgid "No entries were ignored. They were all already ignored."
-msgstr ""
+msgstr "Nic nie zostało zignorowane. Wszystkie wpisy zostały już zignorowane."
 
 #: cogs/mod.py:164
 msgid "Shows a list of ignored channels and users."
-msgstr ""
+msgstr "Pokazuje listę ignorowanych kanałów i użytkowników."
 
 #: cogs/mod.py:172
 msgid "There are no ignored entries in this server."
-msgstr ""
+msgstr "Brak zignorowanych wpisów na tym serwerze."
 
 #: cogs/mod.py:176
 msgid "Ignored entries"
-msgstr ""
+msgstr "Ignorowane wpisy"
 
 #: cogs/mod.py:184
 msgid "Makes the bot say a message."
-msgstr ""
+msgstr "Sprawia, że bot wyśle wiadomość."
 
 #: cogs/mod.py:185
 msgid "If the user using the command doesn't have mention everyone permissions, the message will be cleaned of mass mentions."
-msgstr ""
+msgstr "Jeśli użytkownik korzystający z komendy nie ma uprawnień do masowych wzmianek, wiadomość zostanie wyczyszczona z tych wzmianek."
 
 #: cogs/mod.py:190
 msgid "I need `Manage Messages` permissions here to use the command."
