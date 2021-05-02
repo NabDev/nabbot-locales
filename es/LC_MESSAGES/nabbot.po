@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-01 15:29-0700\n"
-"PO-Revision-Date: 2021-05-01 22:31\n"
+"PO-Revision-Date: 2021-05-02 00:17\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -354,7 +354,7 @@ msgstr "un momento"
 #. The bot's description, show in about and help commands.
 #: nabbot.py:119
 msgid "Discord bot with functions for the MMORPG Tibia."
-msgstr ""
+msgstr "Bot de Discord con funciones para el MMORPG Tibia."
 
 #: nabbot.py:233
 #, python-brace-format
@@ -382,23 +382,23 @@ msgstr "Idioma"
 
 #: cogs/admin.py:38
 msgid "News Channel"
-msgstr ""
+msgstr "Canal de noticias"
 
 #: cogs/admin.py:39
 msgid "News Tickers"
-msgstr ""
+msgstr "Noticias cortas"
 
 #: cogs/admin.py:40
 msgid "Events Channel"
-msgstr ""
+msgstr "Canal de eventos"
 
 #: cogs/admin.py:41
 msgid "Server Log Channel"
-msgstr ""
+msgstr "Canal de server log"
 
 #: cogs/admin.py:42
 msgid "Tracking Channel"
-msgstr ""
+msgstr "Canal de niveles y muertes"
 
 #: cogs/admin.py:43
 msgid "Min Announce Level"
@@ -410,11 +410,11 @@ msgstr "Prefijo"
 
 #: cogs/admin.py:45
 msgid "Welcome Message"
-msgstr ""
+msgstr "Mensaje de bienvenida"
 
 #: cogs/admin.py:46
 msgid "Welcome Channel"
-msgstr ""
+msgstr "Canal de bienvenida"
 
 #: cogs/admin.py:47
 msgid "Default Announcements"
@@ -2587,22 +2587,22 @@ msgstr "No he podido encontrar ninguna espacio de inventario en tu imagen. Aseg�
 #: cogs/loot.py:404
 msgid "{slots:,} slot found."
 msgid_plural "{slots:,} slots found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{slots:,} slot encontrado."
+msgstr[1] "{slots:,} slots encontrados."
 
 #: cogs/loot.py:406
 msgid "Identifying items…"
-msgstr ""
+msgstr "Identificando items…"
 
 #: cogs/loot.py:408
 #, python-brace-format
 msgid "Estimated time: {time}."
-msgstr ""
+msgstr "Tiempo estimado: {time}."
 
 #. Loot scanning completed
 #: cogs/loot.py:479
 msgid "Complete!"
-msgstr ""
+msgstr "¡Completado!"
 
 #: cogs/mod.py:74
 msgid "Moderation related commands."
@@ -2627,8 +2627,8 @@ msgstr "No hay mensajes por limpiar."
 #: cogs/mod.py:123
 msgid "Deleted {count:,} message."
 msgid_plural "Deleted {count:,} messages."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{count:,} mensaje eliminado."
+msgstr[1] "{count:,} mensajes eliminados."
 
 #: cogs/mod.py:129
 msgid "Makes the bot ignore a channel or user."
