@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-02 07:12-0700\n"
-"PO-Revision-Date: 2021-05-02 14:13\n"
+"PO-Revision-Date: 2021-05-02 17:15\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: utils/constants.py:39
 msgid "I couldn't find a character with that name."
-msgstr ""
+msgstr "Não encontrei nenhum personagem com esse nome."
 
 #: utils/constants.py:40
 msgid "I couldn't fetch the character, please try again."
@@ -31,28 +31,28 @@ msgstr ""
 
 #: utils/constants.py:41
 msgid "I'm having network issues, please try again."
-msgstr ""
+msgstr "Estou tendo problemas de conexão, por favor, tente novamente."
 
 #: utils/constants.py:43
 msgid "You took to long to confirm. Aborting."
-msgstr ""
+msgstr "Você demorou demais para confirmar. Abortando."
 
 #: utils/constants.py:44
 msgid "No changes will be done then."
-msgstr ""
+msgstr "Nenhuma mudança será feita."
 
 #: utils/constants.py:46
 msgid "I don't see any users with that name."
-msgstr ""
+msgstr "Não vejo nenhum usuário com esse nome."
 
 #: utils/constants.py:47
 #, python-brace-format
 msgid "I couldn't find any users named `{name}`."
-msgstr ""
+msgstr "Não encontrei nenhum usuário chamado `{name}`."
 
 #: utils/constants.py:48
 msgid "That is not a valid ID."
-msgstr ""
+msgstr "Este ID não é válido."
 
 #: utils/constants.py:49
 msgid "That's not a valid level."
