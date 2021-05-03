@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-02 07:12-0700\n"
-"PO-Revision-Date: 2021-05-03 02:34\n"
+"PO-Revision-Date: 2021-05-03 03:29\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -215,7 +215,7 @@ msgstr "Ayuda de Comandos"
 
 #: utils/pages.py:492
 msgid "Various symbols are used to represent a command's signature and/or show further info."
-msgstr "Se utilizan varios símbolos para representar los parametros de un comando y/o mostrar más información."
+msgstr "Se utilizan varios símbolos para representar los parámetros de un comando y/o mostrar más información."
 
 #: utils/pages.py:495
 msgid "argument"
