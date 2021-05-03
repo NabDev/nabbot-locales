@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-02 07:12-0700\n"
-"PO-Revision-Date: 2021-05-02 14:13\n"
+"PO-Revision-Date: 2021-05-03 02:34\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2571,7 +2571,8 @@ msgstr "\n"
 #: cogs/loot.py:316
 msgid "I've finished parsing your image {user}.\n"
 "The total value is {total_value:,} gold coins."
-msgstr ""
+msgstr "He terminado de analizar tu imagen {user}.\n"
+"El valor total es {total_value:,} gold coins."
 
 #: cogs/loot.py:327
 msgid "Original Message"
@@ -4622,7 +4623,7 @@ msgstr "Estadísticas de muertes"
 #: cogs/tibia.py:706
 #, python-brace-format
 msgid "For a shorter period, try `{prefix}{command} week` or `{prefix}{command} month`"
-msgstr ""
+msgstr "Para un período más corto, intenta `{prefix}{command} week` o `{prefix}{command} month`"
 
 #: cogs/tibia.py:709
 #, python-format
@@ -6643,7 +6644,7 @@ msgstr "¿Quieres agregar a **{char}** ({user}) a **{event}**?"
 #: cogs/timers.py:866
 #, python-brace-format
 msgid "You successfully added **{name}** to this event."
-msgstr ""
+msgstr "Has agregado con éxito a **{name}** a este evento."
 
 #: cogs/timers.py:871
 msgid "Edits an event."
