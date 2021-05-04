@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-03 17:21-0700\n"
-"PO-Revision-Date: 2021-05-04 00:23\n"
+"PO-Revision-Date: 2021-05-04 12:22\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: utils/constants.py:38
 msgid "I don't have a character with that name registered."
-msgstr ""
+msgstr "Não tenho personagem registrado com esse nome."
 
 #: utils/constants.py:39
 msgid "I couldn't find a character with that name."
@@ -92,7 +92,7 @@ msgstr ""
 
 #: utils/checks.py:79 utils/checks.py:98
 msgid "You need `Manage Channel` permissions to use this command."
-msgstr ""
+msgstr "Você precisa da permissão `Gerenciar canais` para usar este comando."
 
 #: utils/checks.py:112 utils/checks.py:127
 msgid "This server is not tracking any worlds."
