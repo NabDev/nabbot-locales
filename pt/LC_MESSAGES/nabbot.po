@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-03 17:21-0700\n"
-"PO-Revision-Date: 2021-05-04 14:51\n"
+"PO-Revision-Date: 2021-05-04 16:04\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -27,7 +27,7 @@ msgstr "Não encontrei nenhum personagem com esse nome."
 
 #: utils/constants.py:40
 msgid "I couldn't fetch the character, please try again."
-msgstr ""
+msgstr "Eu não consegui pesquisar o personagem, por favor, tente novamente."
 
 #: utils/constants.py:41
 msgid "I'm having network issues, please try again."
@@ -100,7 +100,7 @@ msgstr "Este servidor não está rastreando nenhum mundo."
 
 #: utils/checks.py:129
 msgid "You're not in any server tracking a world."
-msgstr ""
+msgstr "Você não está em nenhum servidor que esteja rastreando algum mundo."
 
 #: utils/converter.py:45
 msgid "Member \"{}\" not found."
@@ -124,7 +124,7 @@ msgstr "Isso está em um futuro muito distante… Tente com menos de 60 dias."
 
 #: utils/converter.py:142
 msgid "Invalid stamina format, expected: `hh:mm`"
-msgstr "Formato de stamina inválido, esperado: `hh:mm`"
+msgstr "Formato da stamina inválido, esperado: `hh:mm`"
 
 #: utils/converter.py:146
 msgid "Invalid stamina, minutes can't be 60 or greater."
@@ -159,15 +159,15 @@ msgstr "**{name}** ({level}) foi morto por **{killer}**."
 
 #: utils/pages.py:106
 msgid "I need `Add Reactions` permission to display this command."
-msgstr ""
+msgstr "Eu preciso da permissão `Adicionar reações` para exibir este comando."
 
 #: utils/pages.py:109
 msgid "I need `Read Message History` permission to display this command."
-msgstr ""
+msgstr "Eu preciso da permissão `Ler Histórico de Mensagens` para exibir esse comando."
 
 #: utils/pages.py:126 utils/pages.py:449
 msgid "Page"
-msgstr ""
+msgstr "Página"
 
 #: utils/pages.py:127
 #, python-format
@@ -202,12 +202,12 @@ msgstr "Olá! Bem-vindo(a) à página de ajuda."
 
 #: utils/pages.py:477
 msgid "What are these reactions for?"
-msgstr ""
+msgstr "Para que servem estas reações?"
 
 #: utils/pages.py:479 utils/pages.py:508
 #, python-brace-format
 msgid "We were on page {page} before this message."
-msgstr ""
+msgstr "Estávamos na página {page} antes desta mensagem."
 
 #: utils/pages.py:491
 msgid "Command Help"
@@ -219,23 +219,23 @@ msgstr ""
 
 #: utils/pages.py:495
 msgid "argument"
-msgstr ""
+msgstr "parâmetro"
 
 #: utils/pages.py:498
 msgid "This means the argument is __**required**__."
-msgstr ""
+msgstr "Isso significa que o parâmetro é __**obrigatório**__."
 
 #: utils/pages.py:499
 msgid "This means the argument is __**optional**__."
-msgstr ""
+msgstr "Isso significa que o parâmetro é __**opcional**__."
 
 #: utils/pages.py:500
 msgid "This means it can be __**either A or B**__."
-msgstr ""
+msgstr "Isso significa que pode ser __**A ou B**__."
 
 #: utils/pages.py:501
 msgid "This means you can have multiple arguments.\n"
-msgstr ""
+msgstr "Isso significa que você pode ter vários parâmetros.\n"
 
 #: utils/pages.py:502
 msgid "This means the command has subcommands.\n"
@@ -247,43 +247,43 @@ msgstr "Isto significa que o comando tem subcomandos.\n"
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ano"
+msgstr[1] "%d anos"
 
 #: utils/timing.py:100
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d mês"
+msgstr[1] "%d meses"
 
 #: utils/timing.py:101 utils/timing.py:217
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d dia"
+msgstr[1] "%d dias"
 
 #: utils/timing.py:102 utils/timing.py:219
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d hora"
+msgstr[1] "%d horas"
 
 #: utils/timing.py:103 utils/timing.py:221
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d minuto"
+msgstr[1] "%d minutos"
 
 #: utils/timing.py:104
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d segundo"
+msgstr[1] "%d segundos"
 
 #: utils/timing.py:107
 msgctxt "years abbreviation"
@@ -297,92 +297,92 @@ msgstr[1] ""
 msgctxt "months abbreviation"
 msgid "mo"
 msgid_plural "mo"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "m"
+msgstr[1] "m"
 
 #: utils/timing.py:110 cogs/premium.py:522
 msgctxt "days abbreviation"
 msgid "d"
 msgid_plural "d"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "d"
+msgstr[1] "d"
 
 #: utils/timing.py:111
 msgctxt "hours abbreviation"
 msgid "h"
 msgid_plural "h"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "h"
+msgstr[1] "h"
 
 #. Should be different than abbreviation for months
 #: utils/timing.py:113
 msgctxt "minutes abbreviation"
 msgid "m"
 msgid_plural "m"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "min"
+msgstr[1] "min"
 
 #: utils/timing.py:114 cogs/info.py:286
 msgctxt "seconds abbreviation"
 msgid "s"
 msgid_plural "s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "s"
+msgstr[1] "s"
 
 #. For very short times
 #: utils/timing.py:141 utils/timing.py:159
 msgid "now"
-msgstr ""
+msgstr "agora"
 
 #. To describe times that happened in the past, for example: "1 day ago", "13 hours ago"
 #: utils/timing.py:170
 #, python-brace-format
 msgid "{time} ago"
-msgstr ""
+msgstr "{time} atrás"
 
 #. To describe times that will happen in the future, for example: "in 3 hours", "in 3 minutes"
 #: utils/timing.py:173
 #, python-brace-format
 msgid "in {time}"
-msgstr ""
+msgstr "em {time}"
 
 #. Used to describe a low time frame, e.g. 'in moments', 'moments ago'
 #: utils/timing.py:224
 msgid "moments"
-msgstr ""
+msgstr "instantes"
 
 #. The bot's description, show in about and help commands.
 #: nabbot.py:119
 msgid "Discord bot with functions for the MMORPG Tibia."
-msgstr ""
+msgstr "Bot do Discord com funções para o MMORPG Tibia."
 
 #: nabbot.py:233
 #, python-brace-format
 msgid "To see my commands, use: `{prefix}help`."
-msgstr ""
+msgstr "Para ver os meus comandos, use: `{prefix}help`."
 
 #. Discord mentions, @NabBot, @User, @Person
 #: nabbot.py:238
 msgid "mentions"
-msgstr ""
+msgstr "menções"
 
 #: nabbot.py:239
 msgid "My command prefix is:"
 msgid_plural "My command prefixes are:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Meu prefixo de comando é:"
+msgstr[1] "Meus prefixos de comando são:"
 
 #: cogs/admin.py:36 cogs/tibia.py:2074 cogs/tibia.py:2157
 msgid "World"
-msgstr ""
+msgstr "Mundo"
 
 #: cogs/admin.py:37
 msgid "Language"
-msgstr ""
+msgstr "Idioma"
 
 #: cogs/admin.py:38
 msgid "News Channel"
-msgstr ""
+msgstr "Canal de Notícias"
 
 #: cogs/admin.py:39
 msgid "News Tickers"
@@ -390,7 +390,7 @@ msgstr ""
 
 #: cogs/admin.py:40
 msgid "Events Channel"
-msgstr ""
+msgstr "Canal de Eventos"
 
 #: cogs/admin.py:41
 msgid "Server Log Channel"
@@ -406,43 +406,43 @@ msgstr "Lvl Min para Anúncios"
 
 #: cogs/admin.py:44
 msgid "Prefix"
-msgstr ""
+msgstr "Prefixo"
 
 #: cogs/admin.py:45
 msgid "Welcome Message"
-msgstr ""
+msgstr "Mensagem de Boas-vindas"
 
 #: cogs/admin.py:46
 msgid "Welcome Channel"
-msgstr ""
+msgstr "Canal de Boas-vindas"
 
 #: cogs/admin.py:47
 msgid "Default Announcements"
-msgstr ""
+msgstr "Anúncios Padrões"
 
 #: cogs/admin.py:48
 msgid "Show User in Announcements"
-msgstr ""
+msgstr "Mostrar usuário nos Anúncios"
 
 #: cogs/admin.py:51
 msgid "I couldn't find that channel, are you sure it exists?"
-msgstr ""
+msgstr "Não consegui encontrar este canal, você tem certeza que ele existe?"
 
 #: cogs/admin.py:53
 msgid "yes/no"
-msgstr ""
+msgstr "sim/não"
 
 #: cogs/admin.py:54
 msgid "That's not a valid option, try **yes** or **no**."
-msgstr ""
+msgstr "Esta opção é inválida, tente **sim** ou **não**."
 
 #: cogs/admin.py:55
 msgid "A channel's name or ID, or `disable`."
-msgstr ""
+msgstr "Um nome ou ID de canal, ou `disable`."
 
 #: cogs/admin.py:56
 msgid "channel/disable"
-msgstr ""
+msgstr "canal/disable"
 
 #. Used to show that the current setting is the default global setting.
 #: cogs/admin.py:58
@@ -809,7 +809,11 @@ msgid "The prefixes are the characters that go before a command's name, in order
 "Prefixes are case-insensitive, and will always be saved as lowercase.\n\n"
 "If you want to have a space at the end, such as `nabbot help`, you have to wrap the prefix in double quotes. Multiple words also require using quotes.\n\n"
 "Mentioning the bot is always a valid command and can't be changed."
-msgstr ""
+msgstr "Os prefixos são os caracteres que aparecem antes do nome de um comando, para que o bot reconheça o comando. No máximo, 5 prefixos podem ser definidos por servidor.\n\n"
+"Para remover um prefixo existente, use-o como parâmetro.\n\n"
+"Os prefixos não diferenciam maiúsculas de minúsculas e sempre serão salvos como minúsculas.\n\n"
+"Se você quiser ter um espaço no final, como `nabbot help`, você terá que colocar o prefixo entre aspas duplas. Várias palavras também exigem o uso de aspas.\n\n"
+"Mencionar o bot é sempre uma maneira válida de usar comandos, e isso não pode ser alterado."
 
 #: cogs/admin.py:436
 #, python-brace-format
@@ -1322,7 +1326,7 @@ msgstr ""
 
 #: cogs/calculators.py:407
 msgid "Tells you the time you have to wait to restore stamina."
-msgstr "Diz o tempo que você precisa esperar para restaurar a estamina."
+msgstr "Diz o tempo que você precisa esperar para restaurar a stamina."
 
 #: cogs/calculators.py:408
 msgid "To use it, you must provide your current stamina, in this format: `hh:mm`.\n"
@@ -1333,30 +1337,30 @@ msgstr ""
 
 #: cogs/calculators.py:419
 msgid "Current stamina can't be greater than target stamina."
-msgstr "Estamina atual não pode ser maior que a estamina desejada."
+msgstr "Estamina atual não pode ser maior que a stamina desejada."
 
 #: cogs/calculators.py:421
 msgid "Current stamina is already equal to target."
-msgstr "Estamina atual já é igual à desejada."
+msgstr "Stamina atual já é igual à desejada."
 
 #: cogs/calculators.py:437
 #, python-brace-format
 msgid "You need to rest **{remaining}** to get back to full stamina."
-msgstr "Você precisa descansar **{remaining}** ** para restaurar a estamina completamente."
+msgstr "Você precisa descansar **{remaining}** ** para restaurar a stamina completamente."
 
 #: cogs/calculators.py:439
 #, python-brace-format
 msgid "You need to rest **{remaining}** to get back to **{hours}:{minutes:02}** stamina."
-msgstr "Você precisa descansar **{remaining}** para restaurar a estamina para **{hours}:{minutes:02}**."
+msgstr "Você precisa descansar **{remaining}** para restaurar a stamina para **{hours}:{minutes:02}**."
 
 #: cogs/calculators.py:444
 msgid "Full stamina"
-msgstr "Estamina cheia"
+msgstr "Stamina cheia"
 
 #: cogs/calculators.py:446
 #, python-brace-format
 msgid "{target} stamina"
-msgstr "{target} de estamina"
+msgstr "{target} de stamina"
 
 #: cogs/calculators.py:454
 msgid "Calculates character stats based on vocation and level."
@@ -1716,7 +1720,11 @@ msgid "In order to get the message's link, you can right click and select **Copy
 "Using a message link is faster than using a message ID.\n\n"
 "Note that the bot won't attempt to search in channels you can't read.\n"
 "Additionally, messages in NSFW channels can't be quoted in regular channels."
-msgstr ""
+msgstr "Para obter o link da mensagem, você pode clicar com o botão direito e selecionar **Copiar link**.\n\n"
+"Para obter o ID de uma mensagem, você precisa habilitar o [Modo de Desenvolvedor](https://support.discord.com/hc/en-us/articles/206346498).\n\n"
+"Usar um link de mensagem é mais rápido do que usar um ID de mensagem.\n\n"
+"Note que o bot não vai tentar pesquisar em canais que você não pode ler.\n"
+"Além disso, mensagens em canais NSFW não podem ser citadas em canais comuns."
 
 #: cogs/general.py:121
 msgid "I can't find that message, or it is in a channel you can't access."
@@ -2435,7 +2443,14 @@ msgid "An image must be attached with the message. The prices used are NPC price
 "- JPG images are usually not recognized.\n"
 "- PNG images with low compression settings take longer to be scanned or aren't detected at all.\n\n"
 "The bot shows the total loot value, and a list of the items detected, separated into the NPC that buy them."
-msgstr ""
+msgstr "Uma imagem deve ser anexada com a mensagem. Os preços usados são apenas preços de NPC.\n\n"
+"A imagem requer o seguinte:\n"
+"- Deve ser uma screenshot das janelas do inventário (backpacks, depots, etc).\n"
+"- Ter o tamanho original, a imagem não pode ter sido esticada nem encolhida, no entanto ter sido recortada.\n"
+"- A imagem deve mostrar todos os espaços dos recipientes abertos.\n"
+"- Imagens JPG geralmente não são reconhecidas.\n"
+"- Imagens PNG com baixas configurações de compressão demoram mais para ser verificadas ou não são detectadas.\n\n"
+"O bot mostra o valor total do loot, e uma lista de itens detectados, separados pelos NPCs que os compram."
 
 #: cogs/loot.py:124
 msgid "You need to upload a picture of your loot and type the command in the comment."
@@ -4864,7 +4879,13 @@ msgid "There are 3 ways to use this command:\n"
 "By default, the tracked world is searched, unless specified at the end of the parameters\n"
 "You can add the world where you want to look in by adding a comma, followed by the name of the world.\n"
 "Example: `searchworld Cachero,Calmera`"
-msgstr ""
+msgstr "Existem 3 maneiras de usar este comando:\n"
+"- Encontre um personagem no intervalo de compartilhamento com outro personagem. (`searchworld ≪nome≫`)\n"
+"- Encontre um personagem no intervalo de compartilhamento com um certo level. (`searchworld ≪level≫`)\n"
+"- Encontre um personagem em um intervalo de level. (`searchworld ≪min≫,≪max≫`)\n\n"
+"Por padrão, a pesquisa é realizada no mundo monitorado, a não ser que seja especificado no final dos parâmetros.\n"
+"Você pode adicionar o mundo onde quer pesquisar adicionando uma vírgula seguida pelo nome do mundo.\n"
+"Exemplo: `searchworld Cachero,Calmera`"
 
 #: cogs/tibia.py:1248
 #, python-brace-format
@@ -5166,7 +5187,11 @@ msgid "If the parameter matches a Discord user, it displays a list of the charac
 "If the character found is registered to a Discord user, it will show the owner of the character.\n\n"
 "Users can be looked through their username, user#discriminator or their user id.\n\n"
 "Additionally, if the character is in the highscores, their ranking will be shown."
-msgstr ""
+msgstr "Se o parâmetro corresponder a um usuário do Discord, exibirá uma lista de personagens vinculados a este usuário.\n"
+"Se o parâmetro corresponder a um personagem, as informações do personagem serão exibidas.\n\n"
+"Se o personagem encontrado for registrado a um usuário do Discord, irá mostrar o dono do personagem.\n\n"
+"Usuários podem ser visualizados por seu nome de usuário, usuário#discriminador ou seu ID de usuário.\n\n"
+"Adicionalmente, se o personagem estiver em rankings, suas posições serão mostradas."
 
 #: cogs/tibia.py:1755
 msgid "I don't see any user or character with that name."
@@ -5761,7 +5786,11 @@ msgid "You can optionally provide prices for the materials, in the order of the 
 "The total cost will be calculated, as well as the hourly cost.\n"
 "If applicable, it will show the cheapest way to get it using gold tokens.\n\n"
 "It can also accept prices using the 'k' suffix, e.g. 1.5k."
-msgstr ""
+msgstr "Opcionalmente, você pode fornecer preços para os itens, na ordem do nível a que eles pertencem.\n"
+"Além disso, para imbuements de `Vampirism`, `Void` e `Strike`, você pode fornecer o preço dos gold tokens.\n\n"
+"O custo total será calculado, bem como o custo por hora.\n"
+"Se aplicável, irá mostrar a maneira mais barata de obtê-lo usando gold tokens.\n\n"
+"São aceitos preços usando o sufixo 'k', por exemplo, 1.5k."
 
 #: cogs/tibiawiki.py:268 cogs/tibiawiki.py:274
 #, python-brace-format
@@ -6480,7 +6509,13 @@ msgid "`starts in` is in how much time the event will start from the moment of c
 "Examples: 1d20h5m, 1d30m, 1h40m, 40m\n\n"
 "The event description is optional, you can also use links like: `[link title](link url)`.\n\n"
 "Once the event is created, the id of the event will be returned. This is used for further edits."
-msgstr ""
+msgstr "`starts in` se refere ao tempo em que o evento levará para começar a partir do momento da criação.\n"
+"Isso é feito para evitar lidar com fusos horários diferentes.\n"
+"Apenas diga em quantos dias/horas/minutos o evento começa.\n\n"
+"O tempo pode ser definido usando símbolos como 'd' para dias, 'h' para horas, 'm' para minutos e 'd' para segundos.\n"
+"Exemplos: 1d20h5m, 1d30m, 1h40m, 40m\n\n"
+"A descrição do evento é opcional, você também pode usar links como: `[título](url)`.\n\n"
+"Uma vez criado o evento, você receberá o ID do evento. Isso será utilizado para futuras alterações."
 
 #: cogs/timers.py:824 cogs/timers.py:1378
 msgid "Your event was created successfully."
@@ -6988,7 +7023,10 @@ msgid "The list consists of the reminder's id, the time in which it will be trig
 "In order to see all your reminders, use this command on a private message.\n"
 "In order to see all your reminders, use this command on a private message.\n\n"
 "Note that reminders created under 60 seconds are not displayed here."
-msgstr ""
+msgstr "A lista consiste no ID do lembrete, o horário em que ele ocorrerá e o conteúdo do lembrete, com link para a mensagem original.\n\n"
+"Para proteger sua privacidade, só serão mostrados lembretes criados no mesmo servidor.\n"
+"Para ver todos os seus lembretes, use este comando em uma mensagem privada.\n"
+"Note que lembretes criados há menos de 60 segundos não são exibidos aqui."
 
 #: cogs/timers.py:1591
 msgid "You do not have any active reminders in this server.\n"
@@ -7257,7 +7295,12 @@ msgid "In order for this to work, you have to put a special code in the characte
 "Note that it may take some time for the code to be visible to NabBot because of caching.\n\n"
 "This code is unique for your Discord user, so the code will only work for your Discord account and no one elses.\n"
 "No one can claim a character of yours unless you put **their** code in your character's comment."
-msgstr ""
+msgstr "Para que isto funcione, você tem que colocar um código especial no comentário do personagem.\n"
+"Você pode ver este código usando o comando sem parâmetros. O código se parece com isto: `/NB-23FC13AC7400000/`\n"
+"Uma vez que você tenha definido o código, você pode usar o comando com esse personagem, se o código corresponder, ele será reatribuído a você.\n"
+"Note que pode levar algum tempo para que o código seja visível para o NabBot por causa do cache.\n\n"
+"Este código é único para o seu usuário do Discord, então o código só funcionará para a sua conta do Discord e ninguém mais.\n"
+"Ninguém pode reivindicar um personagem seu a menos que você coloque o código **dele** no comentário do seu personagem."
 
 #: cogs/tracking.py:927
 #, python-brace-format
@@ -7508,7 +7551,11 @@ msgid "This feature can only be used on [premium](https://docs.nabbot.xyz/premiu
 "The channel parameter is meant to be an existing watchlist.\n"
 "New channel is the channel that will be assigned as feed channel.\n"
 "If not specified, a new channel will be created."
-msgstr ""
+msgstr "Este recurso só pode ser usado nos servidores [premium](https://docs.nabbot.xyz/premium).\n\n"
+"O canal de feed é onde as mortes e avanços de level dos registros da whatchlist serão publicados.\n"
+"O parâmetro \"canal\" deve ser uma whatchlist existente.\n"
+"\"Novo canal\" é o canal que será atribuído como canal de feed.\n"
+"Se não for especificado, será criado um novo canal."
 
 #: cogs/tracking.py:1452
 #, python-brace-format
@@ -7747,7 +7794,8 @@ msgstr "Remove o feed de uma watchlist."
 #: cogs/tracking.py:1774
 msgid "The given channel must be the watchlist's channel, not the channel where the feed is located, for example:\n"
 "To remove the feed in channel `#enemies-feed`,a feed for the watchlist in `#enemies-45`, the command would be used like: `watchlist removefeed #enemies-45`"
-msgstr ""
+msgstr "O canal fornecido deve ser o canal da watchlist, não o canal onde o feed está localizado, por exemplo:\n"
+"Para remover o feed do canal `#enemies-feed`, um feed para a watchlist `#enemies-45`, o comando deve ser usado como: `watchlist removefeed #enemies-45`"
 
 #: cogs/tracking.py:1786
 #, python-brace-format
@@ -7785,7 +7833,9 @@ msgstr ""
 msgid "The channel that holds the watchlist will be attempted to be deleted. The deletion of the channel may fail due to missing permissions. In this case, the channel may be deleted manually, the watchlist won't be updated anymore.\n\n"
 "This also allows you to delete watchlists in channels that no longer exist.\n"
 "To see the list of channels, try: `watchlist viewall`."
-msgstr ""
+msgstr "O canal que contém a watchlist será excluído. A exclusão do canal pode falhar devido à falta de permissões. Neste caso, o canal pode ser excluído manualmente, a watchlist não será mais atualizada.\n\n"
+"Isso também permite que você delete watchlists em canais que não existem mais.\n"
+"Para ver a lista de canais, tente: `watchlist viewall`."
 
 #: cogs/tracking.py:1854
 msgid "There's no watchlist registered on that channel."
@@ -7839,7 +7889,10 @@ msgid "When the channel holding a watchlist is deleted, the watchlist is automat
 "However, there may be cases where the watchlist is not deleted, leaving it bound to deleted channel.\n\n"
 "Watchlists bound to deleted channels can be deleted using `watchlist removelist` followed by the channel's id.\n"
 "The channel id is the number displayed here for deleted channels."
-msgstr ""
+msgstr "Quando o canal contendo uma watchlist é excluído, a watchlist também é excluída automaticamente.\n"
+"No entanto, pode haver casos em que a watchlist não é excluída, deixando-a vinculada a um canal excluído.\n\n"
+"Watchlists vinculadas a canais excluídos podem ser excluídas usando `watchlist removelist` seguido pelo ID do canal.\n"
+"O ID do canal é o número exibido aqui para canais excluídos."
 
 #: cogs/tracking.py:1912
 msgid "There are no watchlists in this server."
