@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-03 16:29-0700\n"
-"PO-Revision-Date: 2021-05-03 23:30\n"
+"POT-Creation-Date: 2021-05-03 17:21-0700\n"
+"PO-Revision-Date: 2021-05-04 00:23\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
@@ -4678,7 +4678,7 @@ msgstr ""
 #. category will always be in English, translate accordingly.
 #: cogs/tibia.py:1004
 #, python-brace-format
-msgid "{category} highscores for {world} (vocation)"
+msgid "{category} highscores for {world} ({vocation})"
 msgstr ""
 
 #: cogs/tibia.py:1007
