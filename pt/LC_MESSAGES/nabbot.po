@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-03 17:21-0700\n"
-"PO-Revision-Date: 2021-05-04 16:04\n"
+"PO-Revision-Date: 2021-05-04 18:40\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -4460,7 +4460,7 @@ msgstr ""
 
 #: cogs/tibia.py:578
 msgid "There are no CM posts in the last 30 days."
-msgstr "Não há nenhum post de CM nos últimos 30 dias."
+msgstr "Não há post de nenhum CM nos últimos 30 dias."
 
 #. Entry line for CM posts
 #: cogs/tibia.py:585
