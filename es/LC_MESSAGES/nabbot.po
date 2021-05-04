@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-03 17:21-0700\n"
-"PO-Revision-Date: 2021-05-04 00:23\n"
+"PO-Revision-Date: 2021-05-04 00:31\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4629,14 +4629,14 @@ msgstr "Para un período más corto, intenta `{prefix}{command} week` o `{prefix
 #, python-format
 msgid " in the last %d day."
 msgid_plural " in the last %d days."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " en el último %d día."
+msgstr[1] " en los últimos %d días."
 
 #: cogs/tibia.py:726
 msgid "There is a total of {total:,} death registered"
 msgid_plural "There is a total of {total:,} deaths registered"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Hay un total de {total:,} muerte registrada"
+msgstr[1] "Hay un total de {total:,} muertes registradas"
 
 #: cogs/tibia.py:740
 msgid "Most deaths per character"
@@ -4818,8 +4818,8 @@ msgstr "Nvl {level} ({exp:,} exp)"
 #: cogs/tibia.py:989
 msgid "{value:,} point"
 msgid_plural "{value:,} points"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{valor:,} punto"
+msgstr[1] "{value:,} puntos"
 
 #. Describes the level for skill entries in the highscores
 #: cogs/tibia.py:992
@@ -4836,12 +4836,12 @@ msgstr "todos los mundos"
 #: cogs/tibia.py:1004
 #, python-brace-format
 msgid "{category} highscores for {world} ({vocation})"
-msgstr ""
+msgstr "Highscores de {category} de {world} ({vocation})"
 
 #: cogs/tibia.py:1007
 #, python-brace-format
 msgid "{category} highscores for {world}"
-msgstr ""
+msgstr "Highscores de {category} de {world}"
 
 #: cogs/tibia.py:1040
 msgid "Shows info for a house or guildhall."
@@ -4982,17 +4982,17 @@ msgstr "{prefix}{command} nivelMin,nivelMax[,mundo"
 #: cogs/tibia.py:1284
 #, python-brace-format
 msgid "Characters online in share range with {name} ({low}-{high}):"
-msgstr ""
+msgstr "Personajes en línea en rango de compartir experiencia con {name} ({low}-{high}):"
 
 #: cogs/tibia.py:1287
 #, python-brace-format
 msgid "I didn't find anyone online in share range with **{name}** ({low}-{high})"
-msgstr ""
+msgstr "No he encontrado a nadie en el rango para compartir de **{name}** ({low}-{high})"
 
 #: cogs/tibia.py:1304
 #, python-brace-format
 msgid "Characters online between level {low} and {high}"
-msgstr ""
+msgstr "Personajes en línea entre nivel {low} y {high}"
 
 #: cogs/tibia.py:1305 cogs/tracking.py:1205
 #, python-brace-format
@@ -5002,12 +5002,12 @@ msgstr "No encontré a nadie entre los niveles **{low}** y **{high}**"
 #: cogs/tibia.py:1312
 #, python-brace-format
 msgid "Characters online in share range with level {level} ({low}-{high})"
-msgstr ""
+msgstr "Personajes en línea en rango de compartir experiencia con nivel {level} ({low}-{high})"
 
 #: cogs/tibia.py:1315
 #, python-brace-format
 msgid "I didn't find anyone online in share range with level **{level}** ({low}-{high})"
-msgstr ""
+msgstr "No he encontrado a nadie en el rango para compartir experiencia con nivel **{level}** ({low}-{high})"
 
 #: cogs/tibia.py:1320
 msgid "You must tell me the world where you want to search."
@@ -5026,7 +5026,7 @@ msgstr "**{name}** - Nivel {level} {voc}"
 
 #: cogs/tibia.py:1348
 msgid "You're seeing results for a different world than the character you specified."
-msgstr ""
+msgstr "Estás viendo resultados para un mundo diferente al del personaje que especificaste."
 
 #: cogs/tibia.py:1358
 msgid "Shows the sharing range for that level or character or list of characters."
@@ -6170,7 +6170,7 @@ msgstr "kills"
 
 #: cogs/tibiawiki.py:1159
 msgid "Elemental Modifiers"
-msgstr ""
+msgstr "Modificadores elementales"
 
 #: cogs/tibiawiki.py:1169
 msgid "Summonable"
@@ -7556,12 +7556,12 @@ msgstr "{prefix}{command} nivelMin,nivelMax"
 #: cogs/tracking.py:1185
 #, python-brace-format
 msgid "Characters in share range with {name} ({low}-{high}):"
-msgstr ""
+msgstr "Personajes en rango para compartir con {name} ({low}-{high}):"
 
 #: cogs/tracking.py:1187
 #, python-brace-format
 msgid "I didn't find anyone in share range with **{name}** ({low}-{high})"
-msgstr ""
+msgstr "No he encontrado a nadie en el rango para compartir experiencia de **{name}**({low}-{high})"
 
 #: cogs/tracking.py:1204
 #, python-brace-format
