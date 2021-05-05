@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-04 16:08-0700\n"
-"PO-Revision-Date: 2021-05-04 23:09\n"
+"PO-Revision-Date: 2021-05-05 00:26\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -183,7 +183,7 @@ msgstr "No hay ayuda."
 #: utils/pages.py:440
 #, python-brace-format
 msgid "Use \"{prefix}help «command»\" for more info on a command."
-msgstr ""
+msgstr "Usa \"{prefix}help «commando»\" para más información sobre un comando."
 
 #: utils/pages.py:450
 #, python-format
@@ -245,7 +245,7 @@ msgstr "Esto significa que el comando tiene subcomandos.\n"
 
 #: utils/respawn_control.py:210
 msgid "This respawn's queue is already full."
-msgstr ""
+msgstr "La cola de este respawn ya está llena."
 
 #: utils/timing.py:99
 #, python-format
@@ -1400,7 +1400,10 @@ msgid "Shows hitpoints, mana, capacity, total experience and experience to next 
 "This command can be used in two ways:\n"
 "1. To calculate the stats for a certain level and vocation. (`stats «level»,«vocation»`)\n"
 "2. To calculate the stats of a character. (`stats «character»`)"
-msgstr ""
+msgstr "Muestra hitpoints, maná, capacidad, experiencia total y experiencia para siguiente nivel.\n\n"
+"Este comando puede utilizarse de dos maneras:\n"
+"1. Para calcular los stats para un cierto nivel y vocación. (`stats «nivel»,«vocación»`)\n"
+"2. Para calcular las stats de un personaje. (`stats «personaje»`)"
 
 #: cogs/calculators.py:465
 msgid "There's no level lower than 1, it doesn't matter how bad you are at Tibia."
@@ -1519,13 +1522,13 @@ msgstr "Argumentos usados inválidos, ejemplos:"
 #: cogs/calculators.py:727
 #, python-brace-format
 msgid "{prefix}{command} «character name»"
-msgstr ""
+msgstr "{prefix}{command} «nombre personaje»"
 
 #. Arguments example of stats command
 #: cogs/calculators.py:729
 #, python-brace-format
 msgid "{prefix}{command} «level»,«vocation»"
-msgstr ""
+msgstr "{prefix}{command} «nivel»,«vocación»"
 
 #: cogs/core.py:290
 #, python-brace-format
@@ -1619,7 +1622,7 @@ msgstr "Configura el canal para niveles y muertes usando: `{0}settings`"
 #: cogs/core.py:416
 #, python-brace-format
 msgid "People can register their characters using `{0}im «characterName»`"
-msgstr ""
+msgstr "Las personas pueden registrar sus personajes usando `{0}im «nombre personaje»`"
 
 #: cogs/core.py:417
 #, python-brace-format
@@ -1707,7 +1710,8 @@ msgstr "Elige entre opciones múltiples."
 #: cogs/general.py:55
 msgid "Each choice is separated by spaces. For choices that contain spaces, the option must be wrapped in double quotes.\n"
 "e.g. \"Choice A\" ChoiceB \"Choice C\""
-msgstr ""
+msgstr "Cada elección está separada por espacios. Para opciones que contengan espacios rodeada de comillas dobles.\n"
+"ej. \"Opción A\" OpciónB \"Opción C\""
 
 #: cogs/general.py:61
 msgid "I can't tell you what to choose if you don't give me choices"
@@ -1799,7 +1803,7 @@ msgstr "Por defecto, tira una vez un dado de 6 caras una vez.\n"
 
 #: cogs/general.py:170
 msgid "Invalid parameter! I'm expecting `«times»d«sides»`."
-msgstr ""
+msgstr "¡Parámetro no válido! Estoy esperando `«veces»d«lados»`."
 
 #: cogs/general.py:173
 msgid "You want me to roll the die zero times? Ok… There, done."
@@ -1999,7 +2003,7 @@ msgstr "Emojis personalizados"
 #: cogs/info.py:185
 #, python-brace-format
 msgid "To view information of a specific emoji, use '{prefix}{command} «emoji»'"
-msgstr ""
+msgstr "Para ver la información de un emoji específico, usa '{prefix}{command} «emoji»'"
 
 #. Regular emojis
 #: cogs/info.py:189
@@ -2717,7 +2721,7 @@ msgstr "Elimina un canal o usuario de la lista ignorada."
 
 #: cogs/mod.py:202
 msgid "If no parameter is provided, the current channel will be unignored."
-msgstr ""
+msgstr "Si no se proporciona ningún parámetro, el canal actual será designorado."
 
 #: cogs/mod.py:209
 #, python-brace-format
@@ -3017,7 +3021,10 @@ msgid "This shows a combination of the purchases you have done, and the servers 
 "To only show purchases, you can add `purchases` at the end.\n"
 "To only show which servers you have given premium to, add `servers` at the end.\n\n"
 "To view more information about a specific purchase transaction, use `transaction view «id»`."
-msgstr ""
+msgstr "Esto muestra una combinación de las compras que has hecho y los servidores a los que has dado premio.\n\n"
+"Para mostrar solo las compras, puedes añadir `purchases` al final.\n"
+"Para mostrar únicamente a qué servidores has dado premium, añade `servers` al final.\n\n"
+"Para ver más información acerca de una transacción específica, utilice `transaction view «id»`."
 
 #: cogs/premium.py:511
 msgid "You currently don't have any transactions."
@@ -3081,11 +3088,11 @@ msgstr "El precio de **30** días de premium es **{price} {tc_emoji}**."
 #: cogs/premium.py:588
 #, python-brace-format
 msgid "To purchase, transfer to **{recipient}** and then submit the payment using: `{prefix}premium buy «amount» «character»` replacing with the amount sent and the character you transferred the coins from."
-msgstr ""
+msgstr "Para comprar, transfiere a **{recipient}** y luego envía el pago utilizando: `{prefix}premium buy «cantidad» «personaje»` y sustituye la cantidad enviada y el personaje del que has transferido las monedas."
 
 #: cogs/premium.py:594
 msgid "*Remember to remove the `«` `»` symbols!*"
-msgstr ""
+msgstr "*¡Recuerda eliminar los símbolos `«` `»`!*"
 
 #: cogs/premium.py:595
 msgid "NabBot Premium Prices"
@@ -3686,7 +3693,13 @@ msgid "Rules consist of a role and a guild name.\n"
 "You can also specify a required rank in the guild to get the role. For example: `Keeper@Redd Alliance` will give the role only if the character has the rank `Keeper` in `Redd Alliance`.\n\n"
 "Role names, role mentions, or role IDs are allowed. Role names with multiple words must be wrapped in double quotes.\n"
 "Note that current members will be updated until their characters or guilds change."
-msgstr ""
+msgstr "Las reglas consisten en un rol y un nombre de guild.\n"
+"Cuando un usuario tiene un personaje en dicho guild, recibirá el rol.\n"
+"Si dejan de tener un personaje en el guild, el rol es removido.\n\n"
+"Si `*` es usado como guild. Significa que el rol será otorgado por tener cualquier personaje asignado en el mundo seguido.\n\n"
+"También puedes especificar un rango requerido en el guild para obtener el rol. Por ejemplo: `Keeper@Redd Alliance` dará el rol sólo si el personaje tiene el rango `Keeper` en `Redd Alliance`.\n\n"
+"Se permiten nombres de rol, menciones de rol o IDs de rol. Los nombres de rol con múltiples palabras deben estar envueltos en comillas dobles.\n"
+"Tenga en cuenta que los miembros actuales serán actualizados hasta que sus personajes o guilds cambien."
 
 #: cogs/roles.py:176
 msgid "`*` - All users with registered characters."
@@ -3793,7 +3806,8 @@ msgstr "Elimina una regla de autorol."
 #: cogs/roles.py:283
 msgid "Role names, mentions and ids are accepted. Role names with multiple words need to be wrapped in double quotes.\n\n"
 "Note that members that currently have the role won't be affected."
-msgstr ""
+msgstr "Se aceptan nombres, menciones e Ids. Los nombres de rol con varias palabras deben estar envueltos entre comillas dobles.\n\n"
+"Ten en cuenta que los miembros que tienen actualmente el rol no se verán afectados."
 
 #: cogs/roles.py:293
 msgid "That rule doesn't exist."
@@ -4759,7 +4773,9 @@ msgstr "Muestra los highscores de un mundo y una categoría determinados."
 msgid "If the server is already tracking a world, the tracked world will be used if no world is specified.\n"
 "To see the highscores of all worlds, use `global` or `all` as the world parameter.\n"
 "You can use `highscores categories` to see all available categories."
-msgstr ""
+msgstr "Si el servidor ya está rastreando un mundo, el mundo rastreado se utilizará si no se especifica ningún mundo.\n"
+"Para ver las puntuaciones altas de todos los mundos, usa `global` o `all` como parámetro del mundo.\n"
+"Puedes usar `highscores categories` para ver todas las categorías disponibles."
 
 #: cogs/tibia.py:932
 msgid "I couldn't find any highscores entries."
@@ -4801,7 +4817,7 @@ msgstr "Highscores de {category} de {world}"
 
 #: cogs/tibia.py:969
 msgid "Shows the possible categories and vocations you can use to filter highscores."
-msgstr ""
+msgstr "Muestra las posibles categorías y vocaciones que puedes usar para filtrar los highscores."
 
 #: cogs/tibia.py:1004
 msgid "Shows info for a house or guildhall."
@@ -4899,7 +4915,13 @@ msgid "There are 3 ways to use this command:\n"
 "By default, the tracked world is searched, unless specified at the end of the parameters\n"
 "You can add the world where you want to look in by adding a comma, followed by the name of the world.\n"
 "Example: `searchworld Cachero,Calmera`"
-msgstr ""
+msgstr "Hay 3 formas de usar este comando:\n\n"
+"- Encuentra un personaje en el rango de compartir con otro personaje. (`searchworld «nombre»`)\n"
+"- Encuentra un personaje en el rango de compartir con cierto nivel. (`searchworld «nivel»`)\n"
+"- Encuentra un personaje en un rango de nivel. (`searchworld «min»,«max»`)\n\n"
+"Por defecto, se busca en el mundo seguido, a menos que se especifique al final de los parámetros\n"
+"Puede agregar el mundo donde desea buscar añadiendo una coma, seguida por el nombre del mundo.\n"
+"Ejemplo: `searchworld Cachero, Calmera`"
 
 #: cogs/tibia.py:1159
 #, python-brace-format
@@ -4974,7 +4996,10 @@ msgid "This command can be used in three ways:\n"
 "1. Find the share range of a certain level. (`share «level»`)\n"
 "2. Find the share range of a character. (`share «name»`)\n"
 "3. Find the joint share range of a group of characters. (`share «name1, name2,…»`)"
-msgstr ""
+msgstr "Este comando puede utilizarse de tres maneras:\n"
+"1. Encuentra el rango de compartir experiencia de un nivel. (`share «nivel»`)\n"
+"2. Encuentra el rango de compartir experiencia de un personaje. (`share «nombre»`)\n"
+"3. Encuentra el rango de compartir experiencia conjunto de un grupo de personajes. (`share «nombre1, nombre2…»`)"
 
 #: cogs/tibia.py:1283
 #, python-format
@@ -5357,7 +5382,7 @@ msgstr "Noticias recientes"
 #: cogs/tibia.py:1997
 #, python-brace-format
 msgid "To see a specific entry, use the command `{prefix}news «id»`"
-msgstr ""
+msgstr "Para ver una entrada específica, usa el comando `{prefix}news «id»"
 
 #. The world the character was in before transferring
 #: cogs/tibia.py:2012
@@ -5480,11 +5505,11 @@ msgstr[1] "Los personajes de **{user}** son: {character_list}"
 
 #: cogs/tibia.py:2135
 msgid "The valid categories are:"
-msgstr ""
+msgstr "Las categorías válidas son:"
 
 #: cogs/tibia.py:2140
 msgid "The valid vocation filters are:"
-msgstr ""
+msgstr "Los filtros de vocación válidos son:"
 
 #: cogs/tibia.py:2154
 msgid "{rent:,} gold per month"
@@ -5640,12 +5665,12 @@ msgstr "Esperado en {time}"
 #. Parameter validation for highscores command
 #: cogs/tibia.py:2575
 msgid "Invalid category or world."
-msgstr ""
+msgstr "Categoría o mundo inválido."
 
 #. Parameter validation for highscores command
 #: cogs/tibia.py:2584
 msgid "Invalid vocation filter."
-msgstr ""
+msgstr "Filtro de vocación inválido."
 
 #: cogs/tibiawiki.py:51
 msgid "Mapper Link"
@@ -5829,7 +5854,7 @@ msgstr "No hay ninguna clase con ese nombre."
 #: cogs/tibiawiki.py:224
 #, python-brace-format
 msgid "Use `{prefix}monster «name»` to see more info"
-msgstr ""
+msgstr "Usa `{prefix}monster «nombre»` para ver más información"
 
 #: cogs/tibiawiki.py:225
 #, python-brace-format
@@ -5978,7 +6003,7 @@ msgstr "Implementado en la versión {version}."
 #: cogs/tibiawiki.py:651
 #, python-brace-format
 msgid "Use '{prefix}{command} «name»' to see more information."
-msgstr ""
+msgstr "Usa '{prefix}{command} «nombre»' para ver más información."
 
 #: cogs/tibiawiki.py:663 cogs/tibiawiki.py:721 cogs/tibiawiki.py:741
 #: cogs/tibiawiki.py:747 cogs/tibiawiki.py:754
@@ -7516,7 +7541,11 @@ msgid "There are 3 ways to use this command:\n"
 "- Show characters in share range with a specific level. (`searchteam «level»`)\n"
 "- Show characters in a level range. (`searchteam «min»,«max»`)\n\n"
 "Online characters are shown first on the list, they also have an icon."
-msgstr ""
+msgstr "Hay 3 maneras de usar este comando:\n"
+"- Mostrar personajes en el rango compartido con un carácter específico. (`searchteam «nombre»`)\n"
+"- Muestra personajes en el rango de compartir con un nivel específico. (`searchteam «nivel»`)\n"
+"- Muestra los personajes en un rango de niveles. (`searchteam «min»,«max»`)\n\n"
+"Los personajes en línea aparecen primero en la lista, también tienen un icono."
 
 #: cogs/tracking.py:1160
 #, python-brace-format
