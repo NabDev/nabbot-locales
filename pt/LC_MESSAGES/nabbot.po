@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-04 17:27-0700\n"
-"PO-Revision-Date: 2021-05-05 00:30\n"
+"PO-Revision-Date: 2021-05-06 20:57\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -116,7 +116,7 @@ msgstr "Não encontrei um canal com ID {argument!r}."
 
 #: utils/converter.py:116
 msgid "That's not a valid time, try something like this: `1d7h` or `4h20m`"
-msgstr ""
+msgstr "Esse não é um tempo válido, tente algo como: `1d7h` ou `4h20m`"
 
 #: utils/converter.py:133
 msgid "That's a bit too far in the future… Try less than 60 days."
@@ -183,7 +183,7 @@ msgstr ""
 #: utils/pages.py:440
 #, python-brace-format
 msgid "Use \"{prefix}help «command»\" for more info on a command."
-msgstr ""
+msgstr "Use \"{prefix}help «comando»\" para mais informações sobre um comando."
 
 #: utils/pages.py:450
 #, python-format
@@ -211,11 +211,11 @@ msgstr "Estávamos na página {page} antes desta mensagem."
 
 #: utils/pages.py:491
 msgid "Command Help"
-msgstr ""
+msgstr "Ajuda de Comandos"
 
 #: utils/pages.py:492
 msgid "Various symbols are used to represent a command's signature and/or show further info."
-msgstr ""
+msgstr "Vários símbolos são usados para representar os parâmetros de um comando e/ou mostrar outras informações."
 
 #: utils/pages.py:495
 msgid "argument"
@@ -245,7 +245,7 @@ msgstr "Isto significa que o comando tem subcomandos.\n"
 
 #: utils/respawn_control.py:210
 msgid "This respawn's queue is already full."
-msgstr ""
+msgstr "A fila deste respawn já está cheia."
 
 #: utils/timing.py:99
 #, python-format
@@ -293,8 +293,8 @@ msgstr[1] "%d segundos"
 msgctxt "years abbreviation"
 msgid "y"
 msgid_plural "y"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "a"
+msgstr[1] "a"
 
 #. Should be different than abbreviation for minutes
 #: utils/timing.py:109
@@ -390,7 +390,7 @@ msgstr "Canal de Notícias"
 
 #: cogs/admin.py:39
 msgid "News Tickers"
-msgstr ""
+msgstr "Notícias Curtas"
 
 #: cogs/admin.py:40
 msgid "Events Channel"
@@ -451,32 +451,32 @@ msgstr "canal/disable"
 #. Used to show that the current setting is the default global setting.
 #: cogs/admin.py:58
 msgid "Global default"
-msgstr ""
+msgstr "Padrão global"
 
 #: cogs/admin.py:80 cogs/admin.py:184
 msgid "unknown language"
-msgstr ""
+msgstr "idioma desconhecido"
 
 #: cogs/admin.py:90
 msgid "You can't remove this prefix."
-msgstr ""
+msgstr "Você não pode remover este prefixo."
 
 #: cogs/admin.py:92
 #, python-format
 msgid "The prefix can't be longer than %d characters."
-msgstr ""
+msgstr "O prefixo não pode ter mais de %d caracteres."
 
 #: cogs/admin.py:103
 msgid "You cannot change server settings in private messages."
-msgstr ""
+msgstr "Você não pode alterar as configurações do servidor em mensagens privadas."
 
 #: cogs/admin.py:109 cogs/tibia.py:2033
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #: cogs/admin.py:109
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 #: cogs/admin.py:112
 msgid "Commands for server administrators and mods.\n\n"
@@ -486,25 +486,26 @@ msgstr "Comandos para administradores e moderadores do servidor.\n\n"
 
 #: cogs/admin.py:120
 msgid "Checks the channel's permissions."
-msgstr ""
+msgstr "Verifica as permissões do canal."
 
 #: cogs/admin.py:121
 msgid "Makes sure that the bot has all the required permissions to work properly.\n"
 "By default, it checks the current channel, unless a specific channel is provided."
-msgstr ""
+msgstr "Certifique-se de que o bot tem todas as permissões necessárias para funcionar corretamente.\n"
+"Por padrão, ele verifica o canal atual, a menos que um canal específico seja fornecido."
 
 #: cogs/admin.py:128
 #, python-brace-format
 msgid "**Checking {channel}:**"
-msgstr ""
+msgstr "**Verificando {channel}:**"
 
 #: cogs/admin.py:131
 msgid "I have `Administrator` permission."
-msgstr ""
+msgstr "Eu tenho permissão de `Administrador`."
 
 #: cogs/admin.py:136
 msgid "I won't be able to see commands in here."
-msgstr ""
+msgstr "Não poderei ver comandos aqui."
 
 #: cogs/admin.py:136
 msgid "View Channel"
@@ -512,7 +513,7 @@ msgstr ""
 
 #: cogs/admin.py:137
 msgid "I won't be able to respond in here."
-msgstr ""
+msgstr "Não poderei responder aqui."
 
 #: cogs/admin.py:137
 msgid "Send Messages"
