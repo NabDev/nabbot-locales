@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-04 17:27-0700\n"
-"PO-Revision-Date: 2021-05-06 20:57\n"
+"PO-Revision-Date: 2021-05-06 21:59\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -509,7 +509,7 @@ msgstr "Não poderei ver comandos aqui."
 
 #: cogs/admin.py:136
 msgid "View Channel"
-msgstr ""
+msgstr "Ver canal"
 
 #: cogs/admin.py:137
 msgid "I won't be able to respond in here."
@@ -517,7 +517,7 @@ msgstr "Não poderei responder aqui."
 
 #: cogs/admin.py:137
 msgid "Send Messages"
-msgstr ""
+msgstr "Enviar mensagens"
 
 #: cogs/admin.py:138 cogs/admin.py:143
 msgid "Pagination or commands that require reaction confirmation won't work."
@@ -525,7 +525,7 @@ msgstr ""
 
 #: cogs/admin.py:139
 msgid "Add Reactions"
-msgstr ""
+msgstr "Adicionar reações"
 
 #: cogs/admin.py:140
 msgid "I won't be able to show my emojis in some commands."
@@ -537,7 +537,7 @@ msgstr "Usar emojis externos"
 
 #: cogs/admin.py:144
 msgid "Read Message History"
-msgstr ""
+msgstr "Ver histórico de mensagens"
 
 #: cogs/admin.py:145
 msgid "Command pagination won't work well."
@@ -549,19 +549,19 @@ msgstr "Gerenciar mensagens"
 
 #: cogs/admin.py:146
 msgid "I won't be able to show many of my commands."
-msgstr ""
+msgstr "Não poderei mostrar muitos dos meus comandos."
 
 #: cogs/admin.py:146
 msgid "Embed Links"
-msgstr ""
+msgstr "Inserir links"
 
 #: cogs/admin.py:147
 msgid "I won't be able to show images in some of my commands."
-msgstr ""
+msgstr "Não poderei mostrar imagens em alguns dos meus comandos."
 
 #: cogs/admin.py:147
 msgid "Attach Files"
-msgstr ""
+msgstr "Anexar arquivos"
 
 #: cogs/admin.py:148
 msgid "I only need this to manage auto roles and joinable roles."
@@ -593,26 +593,27 @@ msgstr ""
 
 #: cogs/admin.py:153
 msgid "View Audit Log"
-msgstr ""
+msgstr "Ver o registro de auditoria"
 
 #. Shown when a specific Discord permission is missing
 #: cogs/admin.py:163
 #, python-brace-format
 msgid "Missing `{name}` permission"
-msgstr ""
+msgstr "Permissão `{name}` faltando"
 
 #: cogs/admin.py:166
 msgid "All permissions are correct!"
-msgstr ""
+msgstr "Todas as permissões estão corretas!"
 
 #: cogs/admin.py:171
 msgid "Sets the language for the current server or your personal language."
-msgstr ""
+msgstr "Define o idioma para o servidor atual ou seu idioma pessoal."
 
 #: cogs/admin.py:172
 msgid "If used on a Discord server, it will attempt to change the server's language.\n"
 "If used on a private message, it will attempt to change the user's language."
-msgstr ""
+msgstr "Se usado em um servidor do Discord, tentará alterar o idioma do servidor.\n"
+"Se usado em uma mensagem direta, tentará alterar o idioma do usuário."
 
 #: cogs/admin.py:177
 msgid "You need `Manage Server` permission to change the server's language."
@@ -620,53 +621,53 @@ msgstr "Você precisa da permissão `Gerenciar servidor` para alterar o idioma d
 
 #: cogs/admin.py:178
 msgid "If what you want is to change your personal language, use this command on a private message."
-msgstr ""
+msgstr "Se você deseja mudar seu idioma pessoal, use este comando em uma mensagem direta."
 
 #: cogs/admin.py:186
 #, python-brace-format
 msgid "Your current personal language is **{language}**. I will use this only in private messages with you."
-msgstr ""
+msgstr "Seu idioma pessoal atual é **{language}**. Somente o usarei em mensagens diretas com você."
 
 #: cogs/admin.py:189
 #, python-brace-format
 msgid "The language for this server is **{language}**."
-msgstr ""
+msgstr "O idioma deste servidor é **{language}**."
 
 #: cogs/admin.py:193
 msgid "This language is currently not supported."
-msgstr ""
+msgstr "Idioma não suportado no momento."
 
 #: cogs/admin.py:194
 msgid "The supported languages are:"
-msgstr ""
+msgstr "Os idiomas suportados são:"
 
 #: cogs/admin.py:198
 #, python-brace-format
 msgid "Do you want to set your personal language to `{language}`?"
-msgstr ""
+msgstr "Deseja definir `{language}` como o seu idioma pessoal?"
 
 #: cogs/admin.py:201
 #, python-brace-format
 msgid "Do you want to set the server's language to `{language}`?"
-msgstr ""
+msgstr "Deseja definir `{language}` como o idioma do servidor?"
 
 #: cogs/admin.py:215
 #, python-brace-format
 msgid "Our private messages will now be in **{language}**."
-msgstr ""
+msgstr "Nossas mensagens privadas estarão agora em **{language}**."
 
 #: cogs/admin.py:217
 #, python-brace-format
 msgid "This server's messages will now be in **{language}**."
-msgstr ""
+msgstr "As mensagens deste servidor estarão agora em **{language}**."
 
 #: cogs/admin.py:225
 msgid "Checks or sets various server-specific settings."
-msgstr ""
+msgstr "Verifica ou define várias configurações específicas do servidor."
 
 #: cogs/admin.py:230 cogs/admin.py:768
 msgid "Settings"
-msgstr ""
+msgstr "Configurações"
 
 #: cogs/admin.py:231
 msgid "Use the subcommands to change the settings for this server."
@@ -674,60 +675,62 @@ msgstr "Use os subcomandos para alterar as configurações deste servidor."
 
 #: cogs/admin.py:242
 msgid "Sets whether simple messages will be used instead of random custom messages for levels and deaths."
-msgstr ""
+msgstr "Define se serão usadas mensagens simples ao invés de mensagens personalizadas e aleatórias para mortes e avanços de level."
 
 #: cogs/admin.py:244
 msgid "When enabled, all level up and death messages will be the same, a simple and short message, instead of randomized messages."
-msgstr ""
+msgstr "Quando ativado, todas as mensagens de morte e de avanço de level serão iguais, uma mensagem simples e curta, ao invés de mensagens aleatórias."
 
 #: cogs/admin.py:258
 msgid "I will use simple messages from now on."
-msgstr ""
+msgstr "De agora em diante utilizarei mensagens simples."
 
 #: cogs/admin.py:261
 msgid "I will use randomized custom messages from now on."
-msgstr ""
+msgstr "De agora em diante usarei mensagens personalizadas e aleatórias."
 
 #: cogs/admin.py:269
 msgid "Changes the channel where upcoming events are announced."
-msgstr ""
+msgstr "Altera o canal onde os próximos eventos são anunciados."
 
 #: cogs/admin.py:270
 msgid "This is where announcements for events that are about to happen will be made.\n"
 "If the assigned channel is deleted or the bot no longer has access to it, the top channel will be used.\n\n"
 "If this is disabled, users that subscribed to the event will still receive notifications via PM."
-msgstr ""
+msgstr "É aqui que serão anunciados eventos que irão ocorrer em breve.\n"
+"Se o canal especificado for excluído ou o bot não tiver mais acesso a ele, será utilizado o primeiro canal da lista.\n\n"
+"Se for desativado, usuários que se inscreveram no evento ainda receberão notificações por mensagens diretas."
 
 #: cogs/admin.py:284
 msgid "Event announcements are already disabled."
-msgstr ""
+msgstr "Anúncios de eventos já estão desativados."
 
 #: cogs/admin.py:286
 msgid "Are you sure you want to disable events announcements?"
-msgstr ""
+msgstr "Tem certeza que deseja desativar os avisos de eventos?"
 
 #: cogs/admin.py:296 cogs/admin.py:611
 #, python-brace-format
 msgid "I don't have permission to use {channel}."
-msgstr ""
+msgstr "Eu não tenho permissão para usar {channel}."
 
 #: cogs/admin.py:298
 #, python-brace-format
 msgid "Are you sure you want {channel} as the new events channel?"
-msgstr ""
+msgstr "Tem certeza que deseja usar {channel} como o novo canal de eventos?"
 
 #: cogs/admin.py:308
 msgid "The events channel has been disabled."
-msgstr ""
+msgstr "O canal de eventos foi desabilitado."
 
 #: cogs/admin.py:310
 #, python-brace-format
 msgid "{channel} will now be used for events."
-msgstr ""
+msgstr "A partir de agora, {channel} será usado para eventos."
 
 #: cogs/admin.py:316
 msgid "Sets the language for this server."
-msgstr ""
+msgstr "Define o idioma para este servidor."
 
 #: cogs/admin.py:317
 msgid "All messages sent by NabBot in this server will be in the selected language.\n"
@@ -737,15 +740,15 @@ msgstr "Todas as mensagens enviadas pelo NabBot neste servidor estarão no idiom
 
 #: cogs/admin.py:325
 msgid "The desired language."
-msgstr ""
+msgstr "O idioma desejado."
 
 #: cogs/admin.py:326
 msgid "language"
-msgstr ""
+msgstr "idioma"
 
 #: cogs/admin.py:333
 msgid "Changes the channel where levelup and deaths are announced."
-msgstr ""
+msgstr "Altera o canal onde mortes e avanços de level são anunciados."
 
 #: cogs/admin.py:334
 msgid "This is where all level ups and deaths of registered characters will be announced.\n"
@@ -755,36 +758,36 @@ msgstr "É aqui que serão anunciados todas as mortes e avanços de level dos pe
 
 #: cogs/admin.py:354
 msgid "Sets the minimum level for death and level up announcements."
-msgstr ""
+msgstr "Define o level mínimo para mortes e avanços de level."
 
 #: cogs/admin.py:355
 msgid "Level ups and deaths under the minimum level will still be saved, to be viewed with other commands."
-msgstr ""
+msgstr "Mortes e avanços de level abaixo do level mínimo ainda serão salvos para serem vistos com outros comandos."
 
 #: cogs/admin.py:364
 msgid "Any number greater than 1"
-msgstr ""
+msgstr "Qualquer número maior que 1"
 
 #: cogs/admin.py:364
 msgid "level"
-msgstr ""
+msgstr "level"
 
 #: cogs/admin.py:366
 msgid "Level can't be lower than 1."
-msgstr ""
+msgstr "O level não pode ser menor que 1."
 
 #: cogs/admin.py:369
 #, python-brace-format
 msgid "Minimum announce level has been set to `{level}`."
-msgstr ""
+msgstr "O level mínimo para anúncios foi definido como `{level}`."
 
 #: cogs/admin.py:375
 msgid "Changes the channel where Tibia news are announced."
-msgstr ""
+msgstr "Altera o canal onde as notícias do Tibia são anunciadas."
 
 #: cogs/admin.py:376
 msgid "This is where all news and articles posted in Tibia.com will be announced."
-msgstr ""
+msgstr "É aqui que serão anunciadas todas as notícias e artigos publicados no Tibia.com."
 
 #: cogs/admin.py:395
 msgid "Enables or disables news tickers from Tibia.com in this server."
@@ -798,15 +801,15 @@ msgstr "Desabilitar isso fará com que o NabBot só anuncie notícias e artigos 
 
 #: cogs/admin.py:409
 msgid "I will announce news tickers along news and featured articles from now on."
-msgstr ""
+msgstr "De agora em diante anunciarei notícias curtas junto das notícias e artigos em destaque."
 
 #: cogs/admin.py:412
 msgid "I won't announce news tickers from now on."
-msgstr ""
+msgstr "De agora em diante, não anunciarei as notícias curtas."
 
 #: cogs/admin.py:420
 msgid "Changes the command prefixes for this server."
-msgstr ""
+msgstr "Altera os prefixos de comando para este servidor."
 
 #: cogs/admin.py:421
 msgid "The prefixes are the characters that go before a command's name, in order for the bot to recognize the command. A maximum of 5 prefixes can be set per server.\n\n"
@@ -823,24 +826,24 @@ msgstr "Os prefixos são os caracteres que aparecem antes do nome de um comando,
 #: cogs/admin.py:438
 #, python-brace-format
 msgid "{prefixes} and mentions"
-msgstr ""
+msgstr "{prefixes} e menções"
 
 #: cogs/admin.py:439
 msgid "Mentions only"
-msgstr ""
+msgstr "Apenas menções"
 
 #: cogs/admin.py:440 cogs/admin.py:543
 msgid "Any text"
-msgstr ""
+msgstr "Qualquer texto"
 
 #: cogs/admin.py:440
 msgid "prefix"
-msgstr ""
+msgstr "prefixo"
 
 #: cogs/admin.py:446
 #, python-brace-format
 msgid "Do you want to remove `{prefix}` as a prefix?"
-msgstr ""
+msgstr "Deseja remover `{prefix}` como um prefixo?"
 
 #: cogs/admin.py:450
 #, python-brace-format
