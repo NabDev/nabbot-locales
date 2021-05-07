@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-04 17:27-0700\n"
-"PO-Revision-Date: 2021-05-05 00:30\n"
+"PO-Revision-Date: 2021-05-07 19:29\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -185,7 +185,7 @@ msgstr "Brak pomocy."
 #: utils/pages.py:440
 #, python-brace-format
 msgid "Use \"{prefix}help «command»\" for more info on a command."
-msgstr ""
+msgstr "Użyj \"{prefix}help «komenda»\" aby otrzymać więcej informacji na temat danej komendy."
 
 #: utils/pages.py:450
 #, python-format
@@ -249,7 +249,7 @@ msgstr "To znaczy, że komenda posiada pod-komendy.\n"
 
 #: utils/respawn_control.py:210
 msgid "This respawn's queue is already full."
-msgstr ""
+msgstr "Kolejka na ten respawn jest już pełna."
 
 #: utils/timing.py:99
 #, python-format
@@ -727,7 +727,9 @@ msgstr "Zmienia kanał, w którym ogłaszane są nadchodzące wydarzenia."
 msgid "This is where announcements for events that are about to happen will be made.\n"
 "If the assigned channel is deleted or the bot no longer has access to it, the top channel will be used.\n\n"
 "If this is disabled, users that subscribed to the event will still receive notifications via PM."
-msgstr ""
+msgstr "W tym miejscu będą zamieszczane komunikaty o wydarzeniach, które będą miały miejsce.\n"
+"Jeśli przypisany kanał zostanie usunięty lub bot nie będzie miał już do niego dostępu, zostanie użyty najwyższy kanał.\n\n"
+"Jeśli ta opcja jest wyłączona, użytkownicy, którzy subskrybują wydarzenie nadal będą otrzymywać powiadomienia za pośrednictwem prywatnych wiadomości."
 
 #: cogs/admin.py:284
 msgid "Event announcements are already disabled."
@@ -1009,7 +1011,7 @@ msgstr "Nazwa lub ID kanału, albo `private`."
 
 #: cogs/admin.py:595
 msgid "channel/private"
-msgstr ""
+msgstr "kanał/private"
 
 #: cogs/admin.py:597
 msgid "private"
@@ -1426,7 +1428,10 @@ msgid "Shows hitpoints, mana, capacity, total experience and experience to next 
 "This command can be used in two ways:\n"
 "1. To calculate the stats for a certain level and vocation. (`stats «level»,«vocation»`)\n"
 "2. To calculate the stats of a character. (`stats «character»`)"
-msgstr ""
+msgstr "Pokazuje punkty życia, punkty many, cap, zdobyte dotychczas doświadczenie oraz doświadczenie potrzebne do kolejnego poziomu.\n\n"
+"Ta komenda może zostać użyta na dwa sposoby:\n"
+"1. Aby obliczyć statystyki dla określonego poziomu i profesji. (`stats «poziom»,«profesja»`)\n"
+"2. Aby obliczyć statystyki postaci. (`stats «postać»`)"
 
 #: cogs/calculators.py:465
 msgid "There's no level lower than 1, it doesn't matter how bad you are at Tibia."
@@ -1645,7 +1650,7 @@ msgstr "Ustaw kanał awansów i śmierci używając: `{0}settings`"
 #: cogs/core.py:416
 #, python-brace-format
 msgid "People can register their characters using `{0}im «characterName»`"
-msgstr ""
+msgstr "Użytkownicy mogą zarejestrować swoje postaci używając `{0}im «nazwaPostaci» `"
 
 #: cogs/core.py:417
 #, python-brace-format
@@ -1733,7 +1738,8 @@ msgstr "Wybiera spośród różnych opcji."
 #: cogs/general.py:55
 msgid "Each choice is separated by spaces. For choices that contain spaces, the option must be wrapped in double quotes.\n"
 "e.g. \"Choice A\" ChoiceB \"Choice C\""
-msgstr ""
+msgstr "Każda opcja jest oddzielana spacjami. Opcje, które zawierają w sobie spacje muszą zostać dodatkowo opatrzone cudzysłowami.\n"
+"np. \"Opcja A\" OpcjaB \"Opcja C\""
 
 #: cogs/general.py:61
 msgid "I can't tell you what to choose if you don't give me choices"
