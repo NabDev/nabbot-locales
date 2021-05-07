@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-04 17:27-0700\n"
-"PO-Revision-Date: 2021-05-06 23:07\n"
+"PO-Revision-Date: 2021-05-07 00:44\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -1721,29 +1721,30 @@ msgstr "Certo, {user}, escolho: \"{choice}\""
 
 #: cogs/general.py:72
 msgid "Shows a member's permissions in the current channel."
-msgstr ""
+msgstr "Mostra as permissões de um membro no canal atual."
 
 #: cogs/general.py:73
 msgid "If no member is provided, it will show your permissions.\n"
 "Optionally, a channel can be provided as the second parameter, to check permissions in said channel."
-msgstr ""
+msgstr "Se nenhum membro for fornecido, ele mostrará as suas permissões.\n"
+"Opcionalmente, um canal pode ser fornecido como o segundo parâmetro, para verificar as permissões em tal canal."
 
 #: cogs/general.py:80
 #, python-brace-format
 msgid "Permissions in #{channel}"
-msgstr ""
+msgstr "Permissões em #{channel}"
 
 #: cogs/general.py:91
 msgid "Allowed"
-msgstr ""
+msgstr "Permitido"
 
 #: cogs/general.py:94
 msgid "Denied"
-msgstr ""
+msgstr "Negado"
 
 #: cogs/general.py:102
 msgid "Shows a messages by its ID or link."
-msgstr ""
+msgstr "Exibe uma mensagem por seu ID ou link."
 
 #: cogs/general.py:103
 msgid "In order to get the message's link, you can right click and select **Copy Link**.\n\n"
@@ -1759,7 +1760,7 @@ msgstr "Para obter o link da mensagem, você pode clicar com o botão direito e 
 
 #: cogs/general.py:122
 msgid "I can't find that message, or it is in a channel you can't access."
-msgstr ""
+msgstr "Não consigo encontrar essa mensagem, talvez ela esteja em um canal que você não tem acesso."
 
 #: cogs/general.py:125
 msgid "I can't quote embed messages."
@@ -1767,24 +1768,24 @@ msgstr ""
 
 #: cogs/general.py:128
 msgid "I can't quote messages from NSFW channels in regular channels."
-msgstr ""
+msgstr "Não posso citar mensagens de canais NSFW em canais comuns."
 
 #: cogs/general.py:130
 msgid "Jump to original"
-msgstr ""
+msgstr "Ir para o original"
 
 #: cogs/general.py:138
 #, python-brace-format
 msgid "In #{channel_name}"
-msgstr ""
+msgstr "Em #{channel_name}"
 
 #: cogs/general.py:144
 msgid "Attached file"
-msgstr ""
+msgstr "Arquivo anexo"
 
 #: cogs/general.py:150
 msgid "Rolls a die."
-msgstr ""
+msgstr "Joga um dado."
 
 #: cogs/general.py:151
 msgid "By default, it rolls a 6-sided die once.\n"
@@ -1798,7 +1799,7 @@ msgstr "Por padrão, rola um dado de 6 lados uma vez.\n"
 
 #: cogs/general.py:170
 msgid "Invalid parameter! I'm expecting `«times»d«sides»`."
-msgstr ""
+msgstr "Parâmetro inválido! Estou esperando `«vezes»d«lados»`."
 
 #: cogs/general.py:173
 msgid "You want me to roll the die zero times? Ok… There, done."
@@ -1806,131 +1807,131 @@ msgstr "Você quer que eu role os dados zero vezes? Ok… Aqui está, pronto."
 
 #: cogs/general.py:176
 msgid "It's impossible to roll negative times!"
-msgstr ""
+msgstr "É impossível rolar uma quantidade negativa de vezes!"
 
 #: cogs/general.py:179
 msgid "There's no dice with zero or less sides!"
-msgstr ""
+msgstr "Não há dados com zero ou menos faces!"
 
 #: cogs/general.py:182
 #, python-brace-format
 msgid "I can't roll the die that many times. Only up to {limit}."
-msgstr ""
+msgstr "Não posso rolar o dado esse tanto de vezes. Apenas até {limit}."
 
 #: cogs/general.py:185
 #, python-brace-format
 msgid "I don't have dice with more than {limit} sides."
-msgstr ""
+msgstr "Não tenho dados com mais de {limit} faces."
 
 #: cogs/general.py:189
 #, python-brace-format
 msgid "{user} rolled a **{sides}**-sided die **{times}** time and got:"
 msgid_plural "{user} rolled a **{sides}**-sided die **{times}** times and got:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{user} rolou um dado de **{sides}** faces **{times}** vez e tirou:"
+msgstr[1] "{user} rolou um dado de **{sides}** faces **{times}** vezes e tirou:"
 
 #: cogs/general.py:196
 msgid "Who would have thought? 🙄"
-msgstr ""
+msgstr "Quem diria? 🙄"
 
 #: cogs/general.py:199
 #, python-brace-format
 msgid "For a total of **{sum}**"
-msgstr ""
+msgstr "Num total de **{sum}**"
 
 #: cogs/general.py:210
 msgid "That's not a valid message link or message ID."
-msgstr ""
+msgstr "Este não é um link de mensagem ou ID de mensagem válido."
 
 #: cogs/general.py:212
 msgid "I can't quote private messages."
-msgstr ""
+msgstr "Não posso citar mensagens privadas."
 
 #: cogs/general.py:214
 msgid "I can't quote messages from other servers."
-msgstr ""
+msgstr "Não posso citar mensagens de outros servidores."
 
 #: cogs/info.py:41
 msgid "Commands that display general information."
-msgstr ""
+msgstr "Comandos que exibem informações gerais."
 
 #: cogs/info.py:51
 msgid "Shows basic information about the bot."
-msgstr ""
+msgstr "Mostra informações básicas sobre o bot."
 
 #: cogs/info.py:60
 msgid "Prefixes"
-msgstr ""
+msgstr "Prefixos"
 
 #: cogs/info.py:61
 msgid "Authors"
-msgstr ""
+msgstr "Autores"
 
 #: cogs/info.py:63
 msgctxt "Bot creation date"
 msgid "Created"
-msgstr ""
+msgstr "Criado"
 
 #: cogs/info.py:64 cogs/info.py:102
 msgid "Version"
-msgstr ""
+msgstr "Versão"
 
 #: cogs/info.py:65
 msgid "Platform"
-msgstr ""
+msgstr "Plataforma"
 
 #: cogs/info.py:67 cogs/info.py:108
 msgid "Servers"
-msgstr ""
+msgstr "Servidores"
 
 #: cogs/info.py:68 cogs/info.py:110
 msgid "Users"
-msgstr ""
+msgstr "Usuários"
 
 #. Time the bot has been online without interruptions.
 #: cogs/info.py:78 cogs/info.py:103
 msgid "Uptime"
-msgstr ""
+msgstr "Tempo ativo"
 
 #: cogs/info.py:86
 msgid "Shows advanced information about the bot."
-msgstr ""
+msgstr "Mostra informações avançadas sobre o bot."
 
 #: cogs/info.py:107
 msgid "Ping"
-msgstr ""
+msgstr "Ping"
 
 #: cogs/info.py:109 cogs/info.py:260
 msgid "Channels"
-msgstr ""
+msgstr "Canais"
 
 #: cogs/info.py:111
 msgid "Characters"
-msgstr ""
+msgstr "Personagens"
 
 #: cogs/info.py:112
 msgid "Level ups"
-msgstr ""
+msgstr "Avanços de level"
 
 #: cogs/info.py:113
 msgid "Deaths"
-msgstr ""
+msgstr "Mortes"
 
 #: cogs/info.py:123
 msgid "Shows information about a channel."
-msgstr ""
+msgstr "Mostra informações sobre um canal."
 
 #: cogs/info.py:124
 msgid "If no channel is specified, the information for the current channel is shown."
-msgstr ""
+msgstr "Se nenhum canal for especificado, as informações do canal atual serão mostradas."
 
 #: cogs/info.py:130
 msgid "You are not supposed to see that channel, so I can't show you anything."
-msgstr ""
+msgstr "Você não deveria ver esse canal, então não posso te mostrar nada."
 
 #: cogs/info.py:134
 msgid "Category"
-msgstr ""
+msgstr "Categoria"
 
 #: cogs/info.py:136
 msgid "Slowmode Delay"
@@ -1939,28 +1940,28 @@ msgstr ""
 #: cogs/info.py:138 cogs/roles.py:579
 msgid "member"
 msgid_plural "members"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "membro"
+msgstr[1] "membros"
 
 #: cogs/info.py:139
 msgid "Visible by"
-msgstr ""
+msgstr "Visível para"
 
 #: cogs/info.py:140 cogs/roles.py:478
 msgid "Mention"
-msgstr ""
+msgstr "Menção"
 
 #: cogs/info.py:141
 msgid "NSFW"
-msgstr ""
+msgstr "NSFW"
 
 #: cogs/info.py:142 cogs/info.py:252 cogs/roles.py:479
 msgid "Created on"
-msgstr ""
+msgstr "Criado em"
 
 #: cogs/info.py:148
 msgid "Shows a simple list of all commands."
-msgstr ""
+msgstr "Mostra uma lista simples de todos os comandos."
 
 #: cogs/info.py:149
 msgid "This displays all the commands you can use, with no description or subcommand information.\n"
@@ -1975,7 +1976,7 @@ msgstr "Comandos do NabBot"
 #: cogs/info.py:154
 #, python-brace-format
 msgid "For a more detailed list, try '{prefix}help' or '{prefix}help [command_name]'"
-msgstr ""
+msgstr "Para uma lista mais detalhada, tente '{prefix}help' ou '{prefix}help [command_name]'"
 
 #: cogs/info.py:170
 msgid "Shows information about an emoji, or shows all emojis."
@@ -1989,7 +1990,7 @@ msgstr "Se o comando for usado sem argumentos, todos os emojis do servidor serã
 
 #: cogs/info.py:181
 msgid "This server has no custom emojis."
-msgstr ""
+msgstr "Este servidor não possui emojis personalizados."
 
 #: cogs/info.py:184
 msgid "Custom Emojis"
@@ -1998,21 +1999,21 @@ msgstr "Emojis Personalizados"
 #: cogs/info.py:185
 #, python-brace-format
 msgid "To view information of a specific emoji, use '{prefix}{command} «emoji»'"
-msgstr ""
+msgstr "Para ver as informações de um emoji específico, use '{prefix}{command} «emoji»'"
 
 #. Regular emojis
 #: cogs/info.py:189
 msgid "Regular"
-msgstr ""
+msgstr "Estáticos"
 
 #. Animated emojis
 #: cogs/info.py:191
 msgid "Animated"
-msgstr ""
+msgstr "Animados"
 
 #: cogs/info.py:210
 msgid "Shows help about a command or the bot."
-msgstr ""
+msgstr "Mostra ajuda sobre um comando ou sobre o bot."
 
 #: cogs/info.py:211
 msgid "- If no command is specified, it will list all available commands\n"
@@ -2025,16 +2026,16 @@ msgstr "- Se nenhum comando for especificado, listará todos os comandos dispon�
 #: cogs/info.py:224
 #, python-brace-format
 msgid "Command or category \"{name}\" not found."
-msgstr ""
+msgstr "Comando ou categoria \"{name}\" não encontrado."
 
 #: cogs/info.py:237
 msgid "Shows the server's information."
-msgstr ""
+msgstr "Mostra as informações do servidor."
 
 #: cogs/info.py:244
 #, python-brace-format
 msgid "I'm not in any server with ID {server}."
-msgstr ""
+msgstr "Não estou em nenhum servidor com ID {server}."
 
 #: cogs/info.py:246
 msgid "That is not a valid id."
@@ -2042,60 +2043,60 @@ msgstr "Esse não é um ID válido."
 
 #: cogs/info.py:251 cogs/tibia.py:2182
 msgid "Owner"
-msgstr ""
+msgstr "Dono"
 
 #: cogs/info.py:254
 msgid "Voice Region"
-msgstr ""
+msgstr "Região de Voz"
 
 #: cogs/info.py:256
 msgid "Text"
-msgstr ""
+msgstr "Texto"
 
 #: cogs/info.py:257
 msgid "Voice"
-msgstr ""
+msgstr "Voz"
 
 #: cogs/info.py:258
 msgid "Categories"
-msgstr ""
+msgstr "Categorias"
 
 #: cogs/info.py:267
 msgid "Humans"
-msgstr ""
+msgstr "Humanos"
 
 #: cogs/info.py:268
 msgid "Bots"
-msgstr ""
+msgstr "Bots"
 
 #: cogs/info.py:269 cogs/info.py:359
 msgid "Roles"
-msgstr ""
+msgstr "Cargos"
 
 #: cogs/info.py:271 cogs/roles.py:472
 msgid "Members"
-msgstr ""
+msgstr "Membros"
 
 #: cogs/info.py:281
 msgid "Boosters"
-msgstr ""
+msgstr "Impulsos"
 
 #: cogs/info.py:282 cogs/logging.py:114 cogs/logging.py:146 cogs/logging.py:194
 #: cogs/tibia.py:2015 cogs/tibiawiki.py:91 cogs/tibiawiki.py:1335
 msgid "Level"
-msgstr ""
+msgstr "Level"
 
 #: cogs/info.py:284 cogs/info.py:366
 msgid "Boosting"
-msgstr ""
+msgstr "Impulsos"
 
 #: cogs/info.py:288
 msgid "Upload Size"
-msgstr ""
+msgstr "Envio de Arquivos"
 
 #: cogs/info.py:289
 msgid "Voice Bitrate"
-msgstr ""
+msgstr "Qualidade de Áudio"
 
 #: cogs/info.py:290
 msgid "Emoji Limit"
@@ -2103,7 +2104,7 @@ msgstr "Limite de Emojis"
 
 #: cogs/info.py:292
 msgid "Limits"
-msgstr ""
+msgstr "Limites"
 
 #: cogs/info.py:295
 msgid "Tracked World"
@@ -2112,7 +2113,7 @@ msgstr "Mundo Monitorado"
 #. When the bot was added to the server
 #: cogs/info.py:297
 msgid "Added"
-msgstr ""
+msgstr "Adicionado em"
 
 #: cogs/info.py:302
 msgid "Splash screen"
@@ -2120,16 +2121,16 @@ msgstr ""
 
 #: cogs/info.py:307
 msgid "Shows how long the bot has been running."
-msgstr ""
+msgstr "Mostra há quanto tempo o bot está sendo executado."
 
 #: cogs/info.py:310
 #, python-brace-format
 msgid "I have been running for {0}."
-msgstr ""
+msgstr "Estou online há {0}."
 
 #: cogs/info.py:317
 msgid "Shows a user's information."
-msgstr ""
+msgstr "Mostra informações de um usuário."
 
 #: cogs/info.py:318
 msgid "If no user is provided, it shows your own information.\n\n"
@@ -2148,11 +2149,11 @@ msgstr "Se nenhum usuário for informado, mostrará informações sobre você.\n
 #: cogs/info.py:332 cogs/respawn.py:494
 #, python-brace-format
 msgid "Could not find user `{user}`"
-msgstr ""
+msgstr "Não foi possível encontrar o usuário `{user}`"
 
 #: cogs/info.py:340
 msgid "Member since"
-msgstr ""
+msgstr "Membro desde"
 
 #: cogs/info.py:341
 msgctxt "Member creation date"
@@ -2161,31 +2162,31 @@ msgstr ""
 
 #: cogs/info.py:345
 msgid "Server Owner"
-msgstr ""
+msgstr "Dono do Servidor"
 
 #: cogs/info.py:347
 msgid "Server Admin"
-msgstr ""
+msgstr "Admin do Servidor"
 
 #: cogs/info.py:349
 msgid "Server Moderator"
-msgstr ""
+msgstr "Moderador do Servidor"
 
 #: cogs/info.py:351
 msgid "Channel Moderator"
-msgstr ""
+msgstr "Moderador de Canal"
 
 #: cogs/info.py:353
 msgid "Bot"
-msgstr ""
+msgstr "Bot"
 
 #: cogs/info.py:355
 msgid "Regular User"
-msgstr ""
+msgstr "Usuário Regular"
 
 #: cogs/info.py:356
 msgid "User Status"
-msgstr ""
+msgstr "Status do Usuário"
 
 #: cogs/info.py:358
 msgid "Servers with NabBot"
@@ -2193,83 +2194,84 @@ msgstr "Servidores com NabBot"
 
 #: cogs/info.py:360
 msgid "Highest role"
-msgstr ""
+msgstr "Cargo mais alto"
 
 #: cogs/info.py:361
 msgid "Ranking"
-msgstr ""
+msgstr "Ranking"
 
 #: cogs/info.py:362
 #, python-brace-format
 msgid "{0} oldest member\n"
 "{1} oldest account here"
-msgstr ""
+msgstr "{0} membro mais antigo\n"
+"{1} conta mais antiga aqui"
 
 #: cogs/info.py:397
 msgid "System Uptime"
-msgstr ""
+msgstr "Sistema online há"
 
 #: cogs/info.py:398
 msgctxt "Operating System"
 msgid "OS"
-msgstr ""
+msgstr "SO"
 
 #: cogs/info.py:401
 msgid "RAM"
-msgstr ""
+msgstr "RAM"
 
 #: cogs/info.py:402
 msgid "Total RAM"
-msgstr ""
+msgstr "RAM total"
 
 #: cogs/info.py:406
 msgid "CPU"
-msgstr ""
+msgstr "CPU"
 
 #: cogs/info.py:430
 msgid "Created at"
-msgstr ""
+msgstr "Criado em"
 
 #: cogs/info.py:431
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: cogs/info.py:432
 msgid "Usage"
-msgstr ""
+msgstr "Uso"
 
 #: cogs/info.py:434
 msgid "Twitch integration"
-msgstr ""
+msgstr "Integração com Twitch"
 
 #: cogs/info.py:435
 msgid "Requires colons"
-msgstr ""
+msgstr "Requer dois pontos"
 
 #: cogs/info.py:436
 msgid "Role limited"
-msgstr ""
+msgstr "Limitado a cargos"
 
 #: cogs/info.py:439 cogs/tibiawiki.py:1178
 msgid "Attributes"
-msgstr ""
+msgstr "Atributos"
 
 #. Label shown for characters that are not in a guild when joining
 #: cogs/logging.py:64
 msgid "No guild"
-msgstr ""
+msgstr "Sem guild"
 
 #: cogs/logging.py:79
 msgid "Autorole changes"
-msgstr ""
+msgstr "Mudanças de cargos automáticos"
 
 #: cogs/logging.py:83
 msgid "Added roles"
-msgstr ""
+msgstr "Cargos adicionados"
 
 #: cogs/logging.py:85
 msgid "Removed roles"
-msgstr ""
+msgstr "Cargos removidos"
 
 #: cogs/logging.py:96
 msgid "Characters registered"
@@ -2286,28 +2288,28 @@ msgstr "Personagens não registrados"
 #: cogs/logging.py:168 cogs/logging.py:193
 #, python-brace-format
 msgid "A character of {user}"
-msgstr ""
+msgstr "Um personagem de {user}"
 
 #: cogs/logging.py:169
 msgid "Character name change"
-msgstr ""
+msgstr "Mudança de nome de personagem"
 
 #: cogs/logging.py:195
 msgid "Character transferred"
-msgstr ""
+msgstr "Personagem transferido"
 
 #: cogs/logging.py:214
 msgid "Automatic role deleted"
-msgstr ""
+msgstr "Cargo automático excluído"
 
 #: cogs/logging.py:215
 #, python-brace-format
 msgid "Automatic role **{role}** deleted."
-msgstr ""
+msgstr "Cargo automático **{role}** excluído."
 
 #: cogs/logging.py:226
 msgid "Group deleted"
-msgstr ""
+msgstr "Grupo removido"
 
 #: cogs/logging.py:227
 #, python-brace-format
@@ -2331,7 +2333,7 @@ msgstr ""
 #: cogs/logging.py:260
 #, python-brace-format
 msgid "{name} added"
-msgstr ""
+msgstr "{name} adicionado"
 
 #: cogs/logging.py:270
 #, python-brace-format
@@ -2341,12 +2343,12 @@ msgstr ""
 #: cogs/logging.py:273
 #, python-brace-format
 msgid "The {channel} was removed."
-msgstr ""
+msgstr "{channel} foi removido."
 
 #: cogs/logging.py:274
 #, python-brace-format
 msgid "{name} removed"
-msgstr ""
+msgstr "{name} removido"
 
 #: cogs/logging.py:285
 msgid "Tracked World Updated"
@@ -2371,48 +2373,48 @@ msgstr "Emoji renomeado"
 
 #: cogs/logging.py:371
 msgid "Server updated"
-msgstr ""
+msgstr "Servidor Atualizado"
 
 #: cogs/logging.py:375
 #, python-brace-format
 msgid "Name changed from **{before}** to **{after}**"
-msgstr ""
+msgstr "Nome alterado de **{before}** para **{after}**"
 
 #: cogs/logging.py:378
 msgid "Icon changed"
-msgstr ""
+msgstr "Ícone alterado"
 
 #: cogs/logging.py:381
 #, python-brace-format
 msgid "Ownership transferred to {new_owner}"
-msgstr ""
+msgstr "Transferido para {new_owner}"
 
 #: cogs/logging.py:396
 msgid "Member banned"
-msgstr ""
+msgstr "Membro banido"
 
 #: cogs/logging.py:404 cogs/logging.py:423 cogs/logging.py:473
 #: cogs/tracking.py:1663 cogs/tracking.py:1690
 msgid "Reason"
-msgstr ""
+msgstr "Motivo"
 
 #: cogs/logging.py:412
 #, python-brace-format
 msgid "{name} joined."
-msgstr ""
+msgstr "{name} entrou."
 
 #: cogs/logging.py:413
 msgid "Member joined"
-msgstr ""
+msgstr "Membro entrou"
 
 #: cogs/logging.py:415
 msgid "Discord user since"
-msgstr ""
+msgstr "Usuário do Discord desde"
 
 #: cogs/logging.py:418
 #, python-brace-format
 msgid "Bot {name} added."
-msgstr ""
+msgstr "Bot {name} adicionado."
 
 #: cogs/logging.py:444
 msgid "Registered characters"
@@ -2420,7 +2422,7 @@ msgstr "Personagens registrados"
 
 #: cogs/logging.py:453
 msgid "Member kicked or left"
-msgstr ""
+msgstr "Membro expulso ou saiu"
 
 #: cogs/logging.py:459
 msgid "\n"
@@ -2430,32 +2432,32 @@ msgstr "\n"
 
 #: cogs/logging.py:469
 msgid "Member kicked"
-msgstr ""
+msgstr "Membro expulso"
 
 #: cogs/logging.py:477
 msgid "Member left"
-msgstr ""
+msgstr "Membro saiu"
 
 #: cogs/logging.py:491
 msgid "Member updated"
-msgstr ""
+msgstr "Membro atualizado"
 
 #: cogs/logging.py:494
 msgid "New nickname"
-msgstr ""
+msgstr "Novo apelido"
 
 #: cogs/logging.py:497
 msgid "Nickname removed"
-msgstr ""
+msgstr "Apelido removido"
 
 #: cogs/logging.py:498
 #, python-brace-format
 msgid "**{nickname}** deleted"
-msgstr ""
+msgstr "**{nickname}** excluído"
 
 #: cogs/logging.py:500
 msgid "Nickname changed"
-msgstr ""
+msgstr "Apelido alterado"
 
 #: cogs/logging.py:514
 msgid "Member unbanned"
@@ -2485,47 +2487,47 @@ msgstr "Uma imagem deve ser anexada com a mensagem. Os preços usados são apena
 
 #: cogs/loot.py:124
 msgid "You need to upload a picture of your loot and type the command in the comment."
-msgstr ""
+msgstr "Você precisa enviar uma imagem do seu loot e digitar o comando no comentário."
 
 #: cogs/loot.py:129
 msgid "That's not an image!"
-msgstr ""
+msgstr "Isso não é uma imagem!"
 
 #: cogs/loot.py:132
 msgid "That image was too big! Try splitting it into smaller images, or cropping out anything irrelevant."
-msgstr ""
+msgstr "Essa imagem era muito grande! Tente dividi-la em imagens menores ou cortar qualquer coisa irrelevante."
 
 #: cogs/loot.py:136
 msgid "That image is too small to be a loot image."
-msgstr ""
+msgstr "Essa imagem é pequena demais para ser uma imagem de loot."
 
 #: cogs/loot.py:144
 msgid "I failed to load your image. Please try again."
-msgstr ""
+msgstr "Não foi possível carregar a imagem. Tente novamente."
 
 #: cogs/loot.py:147
 #, python-brace-format
 msgid "I've begun parsing your image, {user}. Please be patient, this may take a few moments."
-msgstr ""
+msgstr "Já comecei a analisar sua imagem, {user}. Por favor, seja paciente, isso pode demorar alguns instantes."
 
 #. Status for the loot image being read
 #: cogs/loot.py:150
 msgid "Reading"
-msgstr ""
+msgstr "Lendo"
 
 #: cogs/loot.py:151 cogs/loot.py:385
 #, python-brace-format
 msgid "**Status**: {status}"
-msgstr ""
+msgstr "**Status**: {status}"
 
 #: cogs/loot.py:162
 #, python-brace-format
 msgid "Sorry {user}, I couldn't find any loot in that image. Loot parsing will only work on high quality images, so make sure your image wasn't compressed."
-msgstr ""
+msgstr "Sinto muito, {user}, não consegui encontrar nenhum item nessa imagem. A análise de loot só funciona em imagens de alta qualidade, então certifique-se de que sua imagem não foi comprimida."
 
 #: cogs/loot.py:171
 msgid "Shows the meaning of the overlayed icons."
-msgstr ""
+msgstr "Exibe o significado dos ícones sobrepostos."
 
 #: cogs/loot.py:176
 msgid "I need `Attach Files` permission to show you the loot legend."
@@ -2539,23 +2541,24 @@ msgstr "Itens escaneados em {time}."
 #: cogs/loot.py:256
 #, python-brace-format
 msgid "These are the results for your image: {img_link}"
-msgstr ""
+msgstr "Estes são os resultados para a sua imagem: {img_link}"
 
 #: cogs/loot.py:259
 msgid "These are the results:"
-msgstr ""
+msgstr "Estes são os resultados:"
 
 #: cogs/loot.py:304
 #, python-format
 msgid "**There was %d unknown item.**"
 msgid_plural "**There were %d unknown items.**"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "**Houve %d item desconhecido.**"
+msgstr[1] "**Houve %d itens desconhecidos.**"
 
 #: cogs/loot.py:309
 msgid "\n"
 "The total loot value is: **{total_value:,}** gold coins."
-msgstr ""
+msgstr "\n"
+"O valor total do loot é: **{total_value:,}** gold."
 
 #: cogs/loot.py:311
 msgid "\n"
@@ -2567,19 +2570,20 @@ msgstr "\n"
 #: cogs/loot.py:316
 msgid "I've finished parsing your image {user}.\n"
 "The total value is {total_value:,} gold coins."
-msgstr ""
+msgstr "Eu terminei de analisar a sua imagem, {user}.\n"
+"O valor total é {total_value:,} gold."
 
 #: cogs/loot.py:327
 msgid "Original Message"
-msgstr ""
+msgstr "Mensagem Original"
 
 #: cogs/loot.py:331
 msgid "The results are too long to display, they have been attached as a text file."
-msgstr ""
+msgstr "Os resultados são longos demais para serem exibidos, eles foram anexados como arquivo de texto."
 
 #: cogs/loot.py:345
 msgid "total"
-msgstr ""
+msgstr "total"
 
 #: cogs/loot.py:346
 msgid "Grand Total"
@@ -2587,7 +2591,7 @@ msgstr ""
 
 #: cogs/loot.py:395
 msgid "Either that wasn't an image or I failed to load it, please try again."
-msgstr ""
+msgstr "Isso não foi uma imagem ou eu não consegui carregá-la, por favor, tente novamente."
 
 #: cogs/loot.py:397
 msgid "Detecting item slots"
@@ -2605,21 +2609,21 @@ msgstr[1] ""
 
 #: cogs/loot.py:408
 msgid "Identifying items…"
-msgstr ""
+msgstr "Identificando itens…"
 
 #: cogs/loot.py:410
 #, python-brace-format
 msgid "Estimated time: {time}."
-msgstr ""
+msgstr "Tempo estimado: {time}."
 
 #. Loot scanning completed
 #: cogs/loot.py:481
 msgid "Complete!"
-msgstr ""
+msgstr "Concluído!"
 
 #: cogs/mod.py:74
 msgid "Moderation related commands."
-msgstr ""
+msgstr "Comandos relacionados à moderação."
 
 #: cogs/mod.py:97
 msgid "Cleans the channel from bot commands."
@@ -2631,21 +2635,21 @@ msgstr "Se o bot tiver a permissão `Gerenciar mensagens`, ele também vai apaga
 
 #: cogs/mod.py:112
 msgid "Something went wrong when deleting messages."
-msgstr ""
+msgstr "Algo deu errado ao apagar as mensagens."
 
 #: cogs/mod.py:121
 msgid "There are no messages to clean."
-msgstr ""
+msgstr "Não há mensagens para apagar."
 
 #: cogs/mod.py:123
 msgid "Deleted {count:,} message."
 msgid_plural "Deleted {count:,} messages."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{count:,} mensagem excluída."
+msgstr[1] "{count:,} mensagens excluídas."
 
 #: cogs/mod.py:129
 msgid "Makes the bot ignore a channel or user."
-msgstr ""
+msgstr "Faz com que o bot ignore um canal ou usuário."
 
 #: cogs/mod.py:130
 msgid "Commands cannot be used in ignored channels or by ignored users.\n\n"
@@ -2660,12 +2664,12 @@ msgstr "Comandos não podem ser usados em canais ignorados ou por usuários igno
 #: cogs/mod.py:147
 #, python-brace-format
 msgid "I'm now ignoring **{name}**"
-msgstr ""
+msgstr "Estou ignorando **{name}** a partir de agora"
 
 #: cogs/mod.py:148
 #, python-brace-format
 msgid "{name} is already ignored."
-msgstr ""
+msgstr "{name} já está ignorado."
 
 #: cogs/mod.py:153 cogs/mod.py:157
 #, python-format
@@ -2676,7 +2680,7 @@ msgstr[1] "%d registros foram ignorados."
 
 #: cogs/mod.py:154
 msgid "The rest was already ignored."
-msgstr ""
+msgstr "O restante já estava ignorado."
 
 #: cogs/mod.py:159
 msgid "No entries were ignored. They were all already ignored."
@@ -2684,7 +2688,7 @@ msgstr "Nenhum registro foi ignorado. Todos já estavam ignorados."
 
 #: cogs/mod.py:164
 msgid "Shows a list of ignored channels and users."
-msgstr ""
+msgstr "Mostra uma lista de canais e usuários ignorados."
 
 #: cogs/mod.py:172
 msgid "There are no ignored entries in this server."
@@ -2696,7 +2700,7 @@ msgstr "Registros ignorados"
 
 #: cogs/mod.py:184
 msgid "Makes the bot say a message."
-msgstr ""
+msgstr "Faz com que o bot diga uma mensagem."
 
 #: cogs/mod.py:185
 msgid "If the user using the command doesn't have mention everyone permissions, the message will be cleaned of mass mentions."
@@ -2708,28 +2712,28 @@ msgstr "Preciso da permissão `Gerenciar mensagens` aqui para usar este comando.
 
 #: cogs/mod.py:201
 msgid "Removes a channel or user from the ignored list."
-msgstr ""
+msgstr "Remove um canal ou usuário da lista dos ignorados."
 
 #: cogs/mod.py:202
 msgid "If no parameter is provided, the current channel will be unignored."
-msgstr ""
+msgstr "Se nenhum parâmetro for fornecido, o canal atual deixará de ser ignorado."
 
 #: cogs/mod.py:209
 #, python-brace-format
 msgid "{channel} is no longer ignored."
-msgstr ""
+msgstr "{channel} não está mais ignorado."
 
 #: cogs/mod.py:210
 #, python-brace-format
 msgid "{channel} wasn't ignored."
-msgstr ""
+msgstr "{channel} não estava sendo ignorado."
 
 #: cogs/mod.py:216
 #, python-brace-format
 msgid "{count} is now ignored."
 msgid_plural "{count} are now ignored."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{count} está sendo ignorado agora."
+msgstr[1] "{count} estão sendo ignorados agora."
 
 #: cogs/mod.py:218
 msgid "No entries were unignored."
@@ -2741,7 +2745,7 @@ msgstr "Mostra uma lista de usuários sem personagens registrados."
 
 #: cogs/mod.py:236
 msgid "Joined"
-msgstr ""
+msgstr "Membro desde"
 
 #: cogs/mod.py:241 cogs/mod.py:285
 msgid "There are no unregistered users."
@@ -2761,18 +2765,18 @@ msgstr "Membros não registrados da guild podem ser personagens não registrados
 
 #: cogs/mod.py:262
 msgid "There's no guild with that name."
-msgstr ""
+msgstr "Não há nenhuma guild com esse nome."
 
 #: cogs/mod.py:264
 #, python-brace-format
 msgid "**{guild}** is not in **{world}**"
-msgstr ""
+msgstr "A guild **{guild}** não é de **{world}**"
 
 #. Entries for unregistered guild command
 #: cogs/mod.py:279
 #, python-brace-format
 msgid "{rank} — **{name}** (Lvl {level} {voc})"
-msgstr ""
+msgstr "{rank} — **{name}** (Lvl {level} {voc})"
 
 #: cogs/mod.py:289
 #, python-brace-format
@@ -2800,7 +2804,7 @@ msgstr ""
 
 #: cogs/premium.py:64 cogs/premium.py:374
 msgid "Commands related to premium features."
-msgstr ""
+msgstr "Comandos relacionados com recursos premium."
 
 #: cogs/premium.py:168 cogs/premium.py:352
 msgid "Premium Lost"
@@ -2808,7 +2812,7 @@ msgstr ""
 
 #: cogs/premium.py:168
 msgid "Premium time has expired."
-msgstr ""
+msgstr "O tempo da premium acabou."
 
 #: cogs/premium.py:172
 msgid "Premium expired"
@@ -2818,7 +2822,8 @@ msgstr ""
 #, python-brace-format
 msgid "Congratulations! You are now a patron! To enjoy the benefits in one of your servers, try the `nab.premium add` command on the server of your choice.\n"
 " For more information visit: {url}"
-msgstr ""
+msgstr "Parabéns! Você agora é um apoiador no Patreon! Para aproveitar os benefícios em um dos seus servidores, escreva o comando `nab.premium add` no servidor de sua escolha.\n"
+" Para mais informações, visite: {url}"
 
 #: cogs/premium.py:226
 msgid "It seems like you have lost your Patron status. The privileges of any premium servers you had will be lost. If you believe this was a mistake, let us know."
@@ -2834,23 +2839,23 @@ msgstr "Você deixou o servidor do NabBot. Não podemos mais validar seu status 
 #. Announce on the server's server log (if present)
 #: cogs/premium.py:265 cogs/premium.py:282 cogs/premium.py:301
 msgid "Premium Removed"
-msgstr ""
+msgstr "Premium Removida"
 
 #: cogs/premium.py:266
 msgid "The member giving premium has left this server."
-msgstr ""
+msgstr "O membro que estava dando premium saiu deste servidor."
 
 #: cogs/premium.py:283
 msgid "The member giving premium has left the official server and their status can no longer be validated."
-msgstr ""
+msgstr "O membro que estava dando premium deixou o servidor oficial e seu status não pode mais ser validado."
 
 #: cogs/premium.py:302
 msgid "The member giving premium is no longer a Patron."
-msgstr ""
+msgstr "O membro que estava dando premium não é mais um apoiador no Patreon."
 
 #: cogs/premium.py:316 cogs/premium.py:333
 msgid "Premium Received"
-msgstr ""
+msgstr "Premium Recebida"
 
 #: cogs/premium.py:316
 msgid "Server received premium"
