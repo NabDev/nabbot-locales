@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-04 17:27-0700\n"
-"PO-Revision-Date: 2021-05-07 00:44\n"
+"PO-Revision-Date: 2021-05-07 01:39\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -2704,7 +2704,7 @@ msgstr "Faz com que o bot diga uma mensagem."
 
 #: cogs/mod.py:185
 msgid "If the user using the command doesn't have mention everyone permissions, the message will be cleaned of mass mentions."
-msgstr ""
+msgstr "Se o usuário que usar o comando não tiver permissão de mencionar todos, a mensagem não conterá menções em massa."
 
 #: cogs/mod.py:190
 msgid "I need `Manage Messages` permissions here to use the command."
@@ -2808,7 +2808,7 @@ msgstr "Comandos relacionados com recursos premium."
 
 #: cogs/premium.py:168 cogs/premium.py:352
 msgid "Premium Lost"
-msgstr ""
+msgstr "Status Premium Perdido"
 
 #: cogs/premium.py:168
 msgid "Premium time has expired."
@@ -2864,11 +2864,11 @@ msgstr ""
 #: cogs/premium.py:334
 #, python-brace-format
 msgid "Server received {days} premium days."
-msgstr ""
+msgstr "Servidor recebeu {days} dias premium."
 
 #: cogs/premium.py:335
 msgid "Premium will expire on"
-msgstr ""
+msgstr "A premium irá expirar em"
 
 #: cogs/premium.py:353
 msgid "This server is no longer receiving premium."
