@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-04 17:27-0700\n"
-"PO-Revision-Date: 2021-05-07 16:56\n"
+"PO-Revision-Date: 2021-05-07 17:59\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -4690,17 +4690,17 @@ msgstr "Mostra a descrição, o site, a guildhall, a quantidade de membros e mui
 #: cogs/tibia.py:833
 msgctxt "Guild application status"
 msgid "Open"
-msgstr ""
+msgstr "Permitido"
 
 #: cogs/tibia.py:835
 msgctxt "Guild application status"
 msgid "Closed"
-msgstr ""
+msgstr "Não permitido"
 
 #. Guild applications
 #: cogs/tibia.py:838
 msgid "Applications"
-msgstr ""
+msgstr "Apply"
 
 #: cogs/tibia.py:840
 msgid "Homepage"
@@ -4708,27 +4708,27 @@ msgstr ""
 
 #: cogs/tibia.py:852
 msgid "Members online"
-msgstr ""
+msgstr "Membros online"
 
 #: cogs/tibia.py:853
 msgid "Average level"
-msgstr ""
+msgstr "Level médio"
 
 #: cogs/tibia.py:854
 msgid "Highest member"
-msgstr ""
+msgstr "Membro mais alto"
 
 #: cogs/tibia.py:856
 msgid "Vocation distribution"
-msgstr ""
+msgstr "Distribuição por vocação"
 
 #: cogs/tibia.py:863
 msgid "Shows a list of all guild members."
-msgstr ""
+msgstr "Exibe uma lista de todos os membros da guild."
 
 #: cogs/tibia.py:864
 msgid "Online members have an icon next to their name."
-msgstr ""
+msgstr "Membros online têm um ícone ao lado do seu nome."
 
 #. Line for each guild member displayed in commands.
 #: cogs/tibia.py:879
@@ -4738,32 +4738,34 @@ msgstr "{rank} — {online}**{name}** {title} (Lvl {level} {vocation})"
 
 #: cogs/tibia.py:891
 msgid "Shows the list of guilds of a world."
-msgstr ""
+msgstr "Mostra a lista de guilds de um mundo."
 
 #: cogs/tibia.py:899
 msgid "There are no guilds in this world."
-msgstr ""
+msgstr "Não há guilds nesse mundo."
 
 #. For guilds that are still not fully consolidated, e.g. doesn't have 4 vices yet
 #: cogs/tibia.py:904
 msgid "In formation"
-msgstr ""
+msgstr "Em formação"
 
 #: cogs/tibia.py:910
 #, python-brace-format
 msgid "Guilds in {world}"
-msgstr ""
+msgstr "Guilds em {world}"
 
 #: cogs/tibia.py:920
 msgid "Shows the highscores for a given world and category."
-msgstr ""
+msgstr "Mostra os rankings de um determinado mundo e categoria."
 
 #. Do not translate global and all keywords.
 #: cogs/tibia.py:922
 msgid "If the server is already tracking a world, the tracked world will be used if no world is specified.\n"
 "To see the highscores of all worlds, use `global` or `all` as the world parameter.\n"
 "You can use `highscores categories` to see all available categories."
-msgstr ""
+msgstr "Se o servidor já estiver monitorando um mundo, o mundo monitorado será usado caso nenhum mundo seja especificado.\n"
+"Para ver os ranking de todos os mundos, use `global` ou `all` no lugar do mundo.\n"
+"Você pode usar `highscores categories` para ver todas as categorias disponíveis."
 
 #: cogs/tibia.py:932
 msgid "I couldn't find any highscores entries."
@@ -4778,38 +4780,38 @@ msgstr "Lvl {level} ({exp:,} exp)"
 #: cogs/tibia.py:944
 msgid "{value:,} point"
 msgid_plural "{value:,} points"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{value:,} ponto"
+msgstr[1] "{value:,} pontos"
 
 #. Describes the level for skill entries in the highscores
 #: cogs/tibia.py:947
 #, python-brace-format
 msgid "Level {value}"
-msgstr ""
+msgstr "Level {value}"
 
 #. Instead of saying the world the highscores it is for, it will say this
 #: cogs/tibia.py:955
 msgid "all worlds"
-msgstr ""
+msgstr "todos os mundos"
 
 #. category will always be in English, translate accordingly.
 #: cogs/tibia.py:959
 #, python-brace-format
 msgid "{category} highscores for {world} ({vocation})"
-msgstr ""
+msgstr "Ranking de {category} de {world} ({vocation})"
 
 #: cogs/tibia.py:962
 #, python-brace-format
 msgid "{category} highscores for {world}"
-msgstr ""
+msgstr "Ranking de {category} de {world}"
 
 #: cogs/tibia.py:969
 msgid "Shows the possible categories and vocations you can use to filter highscores."
-msgstr ""
+msgstr "Mostra as categorias e vocações possíveis que você pode usar para filtrar os rankings."
 
 #: cogs/tibia.py:1004
 msgid "Shows info for a house or guildhall."
-msgstr ""
+msgstr "Exibe informações de uma casa ou guildhall."
 
 #: cogs/tibia.py:1005
 msgid "By default, it shows the current status of a house for the current tracked world (if any).\n"
@@ -4825,11 +4827,11 @@ msgstr "O módulo TibiaWiki não está disponível no momento, tente mais tarde.
 
 #: cogs/tibia.py:1019
 msgid "I couldn't find a house with that name."
-msgstr ""
+msgstr "Não consegui encontrar uma casa com esse nome."
 
 #: cogs/tibia.py:1047
 msgid "Shows a character's or everyone's recent level ups."
-msgstr ""
+msgstr "Mostra os avanços de level recentes de um personagem ou de todos os personagens no servidor."
 
 #: cogs/tibia.py:1048
 msgid "If a character is specified, it displays a list of its recent level ups.\n"
@@ -4852,7 +4854,7 @@ msgstr "Mostra os avanços de level recentes dos personagens registrados a um ce
 #: cogs/tibia.py:1094 cogs/tibia.py:1407
 #, python-brace-format
 msgid "{name} - Level **{level}** - *{time} ago*"
-msgstr ""
+msgstr "{name} - Level **{level}** - *{time} atrás*"
 
 #: cogs/tibia.py:1100
 msgid "There are not registered level ups by this user."
@@ -4861,11 +4863,11 @@ msgstr "Não há avanços de level registrados para este usuário."
 #: cogs/tibia.py:1103 cogs/tibia.py:2314
 #, python-brace-format
 msgid "{name} latest level ups"
-msgstr ""
+msgstr "Últimos avanços de level de {name}"
 
 #: cogs/tibia.py:1111
 msgid "Shows the latest news articles from Tibia.com."
-msgstr ""
+msgstr "Mostra as últimas notícias do Tibia.com."
 
 #: cogs/tibia.py:1112
 msgid "If no id is supplied, a list of recent articles is shown, otherwise, a snippet of the article is shown."
@@ -4873,27 +4875,27 @@ msgstr "Se nenhum ID for fornecido, será apresentada uma lista de artigos recen
 
 #: cogs/tibia.py:1120
 msgid "Something went wrong getting recent news."
-msgstr ""
+msgstr "Algo deu errado ao obter as notícias recentes."
 
 #: cogs/tibia.py:1125
 msgid "There's no article with that ID."
-msgstr ""
+msgstr "Não há notícia com este ID."
 
 #: cogs/tibia.py:1132
 msgid "Shows the latest news tickers from Tibia.com."
-msgstr ""
+msgstr "Mostra as últimas notícias curtas do Tibia.com."
 
 #: cogs/tibia.py:1138
 msgid "Something went wrong getting recent news ticker."
-msgstr ""
+msgstr "Algo deu errado ao obter as notícias curtas recentes."
 
 #: cogs/tibia.py:1140
 msgid "Recent news ticker"
-msgstr ""
+msgstr "Notícias curtas recentes"
 
 #: cogs/tibia.py:1146
 msgid "Searches for online characters that meet the criteria."
-msgstr ""
+msgstr "Pesquisa por personagens online que atendam aos critérios."
 
 #: cogs/tibia.py:1147
 msgid "There are 3 ways to use this command:\n"
@@ -4908,17 +4910,17 @@ msgstr ""
 #: cogs/tibia.py:1159
 #, python-brace-format
 msgid "{prefix}{command} charname[,world]"
-msgstr ""
+msgstr "{prefix}{command} Nome do Personagem[,mundo]"
 
 #: cogs/tibia.py:1160
 #, python-brace-format
 msgid "{prefix}{command} level[,world]"
-msgstr ""
+msgstr "{prefix}{command} level[,mundo]"
 
 #: cogs/tibia.py:1161
 #, python-brace-format
 msgid "{prefix}{command} minLevel,maxLevel[,world"
-msgstr ""
+msgstr "{prefix}{command} levelMin,levelMax[,mundo"
 
 #: cogs/tibia.py:1195
 #, python-brace-format
@@ -4933,7 +4935,7 @@ msgstr "Não encontrei ninguém online no intervalo de compartilhamento com **{n
 #: cogs/tibia.py:1215
 #, python-brace-format
 msgid "Characters online between level {low} and {high}"
-msgstr ""
+msgstr "Personagens online entre level {low} e {high}"
 
 #: cogs/tibia.py:1216 cogs/tracking.py:1205
 #, python-brace-format
@@ -4952,22 +4954,22 @@ msgstr "Não encontrei ninguém online no intervalo de compartilhamento com leve
 
 #: cogs/tibia.py:1231
 msgid "You must tell me the world where you want to search."
-msgstr ""
+msgstr "Você deve me dizer o mundo onde quer realizar a busca."
 
 #: cogs/tibia.py:1240
 #, python-brace-format
 msgid "There is no one online in {world}."
-msgstr ""
+msgstr "Ninguém está online em {world}."
 
 #. Line for entries in seachworld command
 #: cogs/tibia.py:1253
 #, python-brace-format
 msgid "**{name}** - Level {level} {voc}"
-msgstr ""
+msgstr "**{name}** - Level {level} {voc}"
 
 #: cogs/tibia.py:1259
 msgid "You're seeing results for a different world than the character you specified."
-msgstr ""
+msgstr "Você está vendo resultados para um mundo diferente do personagem que você especificou."
 
 #: cogs/tibia.py:1269
 msgid "Shows the sharing range for that level or character or list of characters."
@@ -4983,12 +4985,12 @@ msgstr ""
 #: cogs/tibia.py:1283
 #, python-format
 msgid "The level must be %d or higher."
-msgstr ""
+msgstr "O level deve ser %d ou maior."
 
 #: cogs/tibia.py:1285
 #, python-format
 msgid "The level must be %d or lower."
-msgstr ""
+msgstr "O level deve ser %d ou menor."
 
 #: cogs/tibia.py:1287
 msgid "A level {level:,} can share experience with levels **{low:,}** to **{high:,}**."
@@ -4997,12 +4999,12 @@ msgstr ""
 #: cogs/tibia.py:1294
 #, python-format
 msgid "You must specify a level, a character's name or up to %d character names."
-msgstr ""
+msgstr "Você deve especificar um level, um nome de um personagem ou até %d nomes de personagens."
 
 #: cogs/tibia.py:1297
 #, python-format
 msgid "I can only check up to %d characters at a time."
-msgstr ""
+msgstr "Só posso verificar até %d personagens de cada vez."
 
 #: cogs/tibia.py:1307
 msgid "**{name}** ({level:,}) can share experience with levels **{low:,}** to **{high:,}**."
@@ -5010,12 +5012,12 @@ msgstr ""
 
 #: cogs/tibia.py:1312
 msgid "I'm not sure if sharing with yourself counts as sharing, but yes, you can share."
-msgstr ""
+msgstr "Não tenho certeza se compartilhar com você mesmo conta como compartilhar, mas sim, você pode compartilhar."
 
 #: cogs/tibia.py:1318
 #, python-brace-format
 msgid "There is no character named **{name}**."
-msgstr ""
+msgstr "Não há personagem chamado **{name}**."
 
 #: cogs/tibia.py:1330
 #, python-brace-format
@@ -5026,11 +5028,11 @@ msgstr[1] ""
 
 #: cogs/tibia.py:1340
 msgid "They can all share experience with each other."
-msgstr ""
+msgstr "Todos eles podem compartilhar experiência uns com os outros."
 
 #: cogs/tibia.py:1342
 msgid "**{lowest_name}** ({lowest_level:,}) and **{highest_name}** ({highest_level:,}) can share experience."
-msgstr ""
+msgstr "**{lowest_name}** ({lowest_level:,}) e **{highest_name}** ({highest_level:,}) podem compartilhar experiência."
 
 #: cogs/tibia.py:1345
 msgid "Their share range is from level **{low:,}** to **{high:,}**."
@@ -5038,7 +5040,7 @@ msgstr "Seu intervalo de compartilhamento é do level **{low:,}** a **{high:,}**
 
 #: cogs/tibia.py:1352
 msgid "Shows a character's recent level ups and deaths."
-msgstr ""
+msgstr "Mostra as mortes e os avanços de level recentes de um personagem."
 
 #: cogs/tibia.py:1353
 msgid "If no character is provided, the timeline of all registered characters in the server will be shown.\n"
@@ -5054,7 +5056,7 @@ msgstr "Se nenhum personagem for fornecido, será mostrada a linha de tempo de t
 
 #: cogs/tibia.py:1367 cogs/tibia.py:1413
 msgid "There are no registered deaths or level ups."
-msgstr ""
+msgstr "Não há avanços de level nem mortes registados."
 
 #: cogs/tibia.py:1379
 msgid "Shows a user's recent level ups and deaths on their characters."
@@ -5067,7 +5069,7 @@ msgstr ""
 
 #: cogs/tibia.py:1422
 msgid "Displays Tibia server's time and time until server save."
-msgstr ""
+msgstr "Mostra a hora do servidor do Tibia e quanto tempo falta até o próximo server save."
 
 #: cogs/tibia.py:1423
 msgid "Server moderators can manage displayed timezones using the subcommands."
