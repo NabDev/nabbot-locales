@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-04 17:27-0700\n"
-"PO-Revision-Date: 2021-05-07 19:29\n"
+"PO-Revision-Date: 2021-05-07 20:29\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -1550,13 +1550,13 @@ msgstr "Nieprawidłowe argumenty, przykłady:"
 #: cogs/calculators.py:727
 #, python-brace-format
 msgid "{prefix}{command} «character name»"
-msgstr ""
+msgstr "{prefix}{command} «nazwa postaci»"
 
 #. Arguments example of stats command
 #: cogs/calculators.py:729
 #, python-brace-format
 msgid "{prefix}{command} «level»,«vocation»"
-msgstr ""
+msgstr "{prefix}{command} «poziom»,«profesja»"
 
 #: cogs/core.py:290
 #, python-brace-format
@@ -1829,7 +1829,7 @@ msgstr "Domyślnie rzucana jest kostka sześciościenna, tylko jeden raz.\n"
 
 #: cogs/general.py:170
 msgid "Invalid parameter! I'm expecting `«times»d«sides»`."
-msgstr ""
+msgstr "Nieprawidłowy parametr! Poproszę o `«rzuty»d«ścianki»`."
 
 #: cogs/general.py:173
 msgid "You want me to roll the die zero times? Ok… There, done."
@@ -2033,7 +2033,7 @@ msgstr "Emoji serwera"
 #: cogs/info.py:185
 #, python-brace-format
 msgid "To view information of a specific emoji, use '{prefix}{command} «emoji»'"
-msgstr ""
+msgstr "Aby wyświetlić informacje o określonym emoji, użyj '{prefix}{command} «emoji»'"
 
 #. Regular emojis
 #: cogs/info.py:189
@@ -2113,7 +2113,7 @@ msgstr "Członkowie"
 
 #: cogs/info.py:281
 msgid "Boosters"
-msgstr ""
+msgstr "Boostery"
 
 #: cogs/info.py:282 cogs/logging.py:114 cogs/logging.py:146 cogs/logging.py:194
 #: cogs/tibia.py:2015 cogs/tibiawiki.py:91 cogs/tibiawiki.py:1335
@@ -2276,7 +2276,7 @@ msgstr "Użycie"
 
 #: cogs/info.py:434
 msgid "Twitch integration"
-msgstr ""
+msgstr "Integracja z Twitch"
 
 #: cogs/info.py:435
 msgid "Requires colons"
@@ -2647,17 +2647,17 @@ msgstr[3] "Znaleziono {slots:,} slotów."
 
 #: cogs/loot.py:408
 msgid "Identifying items…"
-msgstr ""
+msgstr "Identyfikuję przedmioty…"
 
 #: cogs/loot.py:410
 #, python-brace-format
 msgid "Estimated time: {time}."
-msgstr ""
+msgstr "Szacunkowy czas: {time}."
 
 #. Loot scanning completed
 #: cogs/loot.py:481
 msgid "Complete!"
-msgstr ""
+msgstr "Gotowe!"
 
 #: cogs/mod.py:74
 msgid "Moderation related commands."
@@ -2704,12 +2704,12 @@ msgstr "Komendy nie mogą być używane w ignorowanych kanałach ani przez zigno
 #: cogs/mod.py:147
 #, python-brace-format
 msgid "I'm now ignoring **{name}**"
-msgstr ""
+msgstr "Od teraz ignoruję **{name}**"
 
 #: cogs/mod.py:148
 #, python-brace-format
 msgid "{name} is already ignored."
-msgstr ""
+msgstr "{name} jest już ignorowany."
 
 #: cogs/mod.py:153 cogs/mod.py:157
 #, python-format
@@ -2750,25 +2750,25 @@ msgstr "Jeśli użytkownik korzystający z komendy nie ma uprawnień do masowych
 
 #: cogs/mod.py:190
 msgid "I need `Manage Messages` permissions here to use the command."
-msgstr ""
+msgstr "Potrzebuję uprawnienia `Zarządzanie wiadomościami`, aby użyć tej komendy."
 
 #: cogs/mod.py:201
 msgid "Removes a channel or user from the ignored list."
-msgstr ""
+msgstr "Usuwa kanał lub użytkownika z listy ignorowanych."
 
 #: cogs/mod.py:202
 msgid "If no parameter is provided, the current channel will be unignored."
-msgstr ""
+msgstr "Jeśli żaden parametr nie zostanie podany, to bieżący kanał przestanie być ignorowany."
 
 #: cogs/mod.py:209
 #, python-brace-format
 msgid "{channel} is no longer ignored."
-msgstr ""
+msgstr "{channel} nie jest już ignorowany."
 
 #: cogs/mod.py:210
 #, python-brace-format
 msgid "{channel} wasn't ignored."
-msgstr ""
+msgstr "{channel} nie był ignorowany."
 
 #: cogs/mod.py:216
 #, python-brace-format
@@ -2781,31 +2781,31 @@ msgstr[3] ""
 
 #: cogs/mod.py:218
 msgid "No entries were unignored."
-msgstr ""
+msgstr "Żadne wpisy nie zostały usunięte z listy ignorowanych."
 
 #: cogs/mod.py:224
 msgid "Shows a list of users with no registered characters."
-msgstr ""
+msgstr "Pokazuje listę użytkowników, którzy nie posiadają zarejestrowanych postaci."
 
 #: cogs/mod.py:236
 msgid "Joined"
-msgstr ""
+msgstr "Dołączono"
 
 #: cogs/mod.py:241 cogs/mod.py:285
 msgid "There are no unregistered users."
-msgstr ""
+msgstr "Nie ma żadnych niezarejestrowanych użytkowników."
 
 #: cogs/mod.py:246
 msgid "Unregistered members"
-msgstr ""
+msgstr "Niezarejestrowani użytkownicy"
 
 #: cogs/mod.py:255
 msgid "Shows a list of unregistered guild members."
-msgstr ""
+msgstr "Wyświetla listę niezarejestrowanych członków gildii."
 
 #: cogs/mod.py:256
 msgid "Unregistered guild members can be either characters not registered to NabBot or registered to users not in the server."
-msgstr ""
+msgstr "Niezarejestrowanymi członkami gildii mogą być zarówno postacie niezarejestrowane w NabBocie, jak również postacie przypisane do użytkowników spoza serwera."
 
 #: cogs/mod.py:262
 msgid "There's no guild with that name."
@@ -2820,31 +2820,31 @@ msgstr "**{guild}** nie istnieje na **{world}**"
 #: cogs/mod.py:279
 #, python-brace-format
 msgid "{rank} — **{name}** (Lvl {level} {voc})"
-msgstr ""
+msgstr "{rank} — **{name}** (Poziom {level} {voc})"
 
 #: cogs/mod.py:289
 #, python-brace-format
 msgid "Unregistered members for {guild}"
-msgstr ""
+msgstr "Niezarejestrowani użytkownicy z {guild}"
 
 #: cogs/premium.py:44
 msgctxt "transaction"
 msgid "Pending"
-msgstr ""
+msgstr "Oczekująca"
 
 #: cogs/premium.py:45
 msgctxt "transaction"
 msgid "Accepted"
-msgstr ""
+msgstr "Zaakceptowana"
 
 #: cogs/premium.py:46
 msgctxt "transaction"
 msgid "Rejected"
-msgstr ""
+msgstr "Odrzucona"
 
 #: cogs/premium.py:54
 msgid "This server's benefits will be removed."
-msgstr ""
+msgstr "Korzyści tego serwera zostaną usunięte."
 
 #: cogs/premium.py:64 cogs/premium.py:374
 msgid "Commands related to premium features."
@@ -2871,30 +2871,31 @@ msgstr "Gratulacje! Zostałeś patronem! Aby cieszyć się korzyściami na jedny
 
 #: cogs/premium.py:226
 msgid "It seems like you have lost your Patron status. The privileges of any premium servers you had will be lost. If you believe this was a mistake, let us know."
-msgstr ""
+msgstr "Wygląda na to, że straciłeś swój status Patrona. Przywileje na wszystkich serwerach premium zostaną utracone. Jeśli uważasz, że to pomyłka, to daj nam znać."
 
 #: cogs/premium.py:247
 #, python-brace-format
 msgid "You have left NabBot's server. We cannot validate your patron status anymore.\n"
 "Please join again to enjoy your benefits: <{url}>"
-msgstr ""
+msgstr "Opuściłeś serwer NabBot. Nie możemy już zweryfikować twojego statusu patrona.\n"
+"Dołącz ponownie aby cieszyć się swoimi korzyściami: <{url}>"
 
 #. Announce on the server's server log (if present)
 #: cogs/premium.py:265 cogs/premium.py:282 cogs/premium.py:301
 msgid "Premium Removed"
-msgstr ""
+msgstr "Usunięto status Premium"
 
 #: cogs/premium.py:266
 msgid "The member giving premium has left this server."
-msgstr ""
+msgstr "Członek oferujący premium opuścił ten serwer."
 
 #: cogs/premium.py:283
 msgid "The member giving premium has left the official server and their status can no longer be validated."
-msgstr ""
+msgstr "Użytkownik premium opuścił oficjalny serwer i jego status nie może być już zweryfikowany."
 
 #: cogs/premium.py:302
 msgid "The member giving premium is no longer a Patron."
-msgstr ""
+msgstr "Członek oferujący premium nie jest już Patronem."
 
 #: cogs/premium.py:316 cogs/premium.py:333
 msgid "Premium Received"
@@ -2946,7 +2947,7 @@ msgstr "W przypadku użycia bez parametrów, spróbuje dodać premium do bieżą
 
 #: cogs/premium.py:396
 msgid "You do not have any premium days to assign and you're not a Patron."
-msgstr ""
+msgstr "Nie posiadasz żadnych dni premium do przydzielenia i nie jesteś patronem."
 
 #: cogs/premium.py:400
 #, python-brace-format
@@ -3059,7 +3060,10 @@ msgid "This shows a combination of the purchases you have done, and the servers 
 "To only show purchases, you can add `purchases` at the end.\n"
 "To only show which servers you have given premium to, add `servers` at the end.\n\n"
 "To view more information about a specific purchase transaction, use `transaction view «id»`."
-msgstr ""
+msgstr "To pokazuje kombinację zakupów, które wykonałeś i serwerów, na które przyznałeś premium.\n\n"
+"Aby pokazywać tylko zakupy, możesz dodać `purchases` na końcu.\n"
+"Aby pokazać tylko które serwery którym przyznałeś premium, dodaj `servers` na końcu.\n\n"
+"Aby wyświetlić więcej informacji o konkretnej transakcji, użyj `transaction view «id»`."
 
 #: cogs/premium.py:511
 msgid "You currently don't have any transactions."
@@ -3069,7 +3073,7 @@ msgstr "Obecnie nie masz żadnych transakcji."
 #: cogs/premium.py:525
 #, python-brace-format
 msgid "{status} (ID: {id}) - {amount}{TC}"
-msgstr ""
+msgstr "{status} (ID: {id}) - {amount}{TC}"
 
 #: cogs/premium.py:531 cogs/premium.py:561
 msgid "unknown server"
@@ -3118,16 +3122,16 @@ msgstr "Pokazuje cenę i informacje o premium."
 #: cogs/premium.py:584
 #, python-brace-format
 msgid "The price for **30** days of premium is **{price} {tc_emoji}**."
-msgstr ""
+msgstr "Cena za **30** dni premium wynosi **{price} {tc_emoji}**."
 
 #: cogs/premium.py:588
 #, python-brace-format
 msgid "To purchase, transfer to **{recipient}** and then submit the payment using: `{prefix}premium buy «amount» «character»` replacing with the amount sent and the character you transferred the coins from."
-msgstr ""
+msgstr "Aby kupić, przelej do **{recipient}**, a następnie prześlij płatność za pomocą: {prefix}premium buy «kwota» «postać»`, zastępując kwotę wysłaną i postać z której przelałeś monety."
 
 #: cogs/premium.py:594
 msgid "*Remember to remove the `«` `»` symbols!*"
-msgstr ""
+msgstr "*Pamiętaj, aby usunąć znaki: `«` `»`!*"
 
 #: cogs/premium.py:595
 msgid "NabBot Premium Prices"
@@ -3530,7 +3534,9 @@ msgstr "Dołącza do kolejki respawnu."
 msgid "You will be notified when it is your turn for the spawn via direct message.\n"
 "It is important to ensure you can receive private messages using the `checkdm` command.\n\n"
 "To instead, claim a respawn that is not taken, use `respawn claim`."
-msgstr ""
+msgstr "Zostaniesz powiadomiony, gdy przyjdzie twoja kolej na spawn poprzez wiadomość prywatną.\n"
+"Ważne jest, aby upewnić się, że możesz odbierać prywatne wiadomości za pomocą komendy `checkdm`.\n\n"
+"Zamiast tego, aby zająć respawn który nie jest zajęty, użyj `respawn claim`."
 
 #: cogs/respawn.py:462
 #, python-brace-format
@@ -3674,7 +3680,12 @@ msgid "This is where I will post a list of spawns **currently taken**.The attach
 "If this channel is deleted, you will have to setup respawns again.\n"
 "**It is important to not allow anyone to write in here**\n"
 "*This message can be deleted now.*"
-msgstr ""
+msgstr "Tutaj będę publikować listę spawnów, które są **teraz zajęte**. Załączony obraz wyświetla **kompletną** listę spawnów z ich kodami.\n"
+"Edytuj uprawnienia tego kanału, aby nadać uprawnienia rolom którym chcesz.\n"
+"Ten kanał może mieć dowolną nazwę.\n"
+"Jeśli kanał zostanie usunięty, będziesz musiał ponownie skonfigurować respawny.\n"
+"**Ważne jest, aby nie zezwalać nikomu na pisanie tutaj**\n"
+"*Ta wiadomość może być teraz usunięta.*"
 
 #: cogs/respawn.py:612
 msgid "Chanel created successfully"
@@ -3702,11 +3713,11 @@ msgstr ""
 
 #: cogs/roles.py:146
 msgid "Autorole commands"
-msgstr ""
+msgstr "Komendy autoroli"
 
 #: cogs/roles.py:147
 msgid "All the subcommands require having `Manage Roles` permission."
-msgstr ""
+msgstr "Wszystkie pod-komendy wymagają uprawnienia `Zarządzanie rolami`."
 
 #: cogs/roles.py:156
 msgid "Creates a new autorole rule."
