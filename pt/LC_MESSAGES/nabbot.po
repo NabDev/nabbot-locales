@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-04 17:27-0700\n"
-"PO-Revision-Date: 2021-05-07 03:35\n"
+"PO-Revision-Date: 2021-05-07 14:42\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -3710,34 +3710,34 @@ msgstr "`RankName@GuildName` - Todos os usuários com personagens pertencentes �
 
 #: cogs/roles.py:182
 msgid "That's not a valid rule. Valid rules are:"
-msgstr ""
+msgstr "Essa não é uma regra válida. Regras válidas são:"
 
 #: cogs/roles.py:193
 #, python-brace-format
 msgid "There's no guild named `{name}`"
-msgstr ""
+msgstr "Não há guild chamada `{name}`"
 
 #: cogs/roles.py:200
 msgid "Autorole rule already exists."
-msgstr ""
+msgstr "Essa regra de cargo automático já existe."
 
 #: cogs/roles.py:205
 msgid "You can't create a rule for a role higher or equals than your highest role."
-msgstr ""
+msgstr "Você não pode criar uma regra para um cargo maior ou igual ao seu maior cargo."
 
 #: cogs/roles.py:207
 msgid "I can't create a rule for a role higher than my highest role."
-msgstr ""
+msgstr "Não consigo criar uma regra para um cargo maior que meu cargo mais alto."
 
 #: cogs/roles.py:209
 #, python-brace-format
 msgid "Members of guild `{name}` and rank `{rank}` will automatically receive the {role} role."
-msgstr ""
+msgstr "Membros do rank `{rank}` da guild `{name}` receberão automaticamente o cargo {role}."
 
 #: cogs/roles.py:211
 #, python-brace-format
 msgid "Members of guild `{name}` will automatically receive the {role} role. "
-msgstr ""
+msgstr "Membros da guild `{name}` receberão automaticamente o cargo {role}. "
 
 #: cogs/roles.py:213
 #, python-brace-format
@@ -3746,27 +3746,27 @@ msgstr "Todos os usuários com personagens registrados receberão automaticament
 
 #: cogs/roles.py:214 cogs/timers.py:816
 msgid "Is this correct?"
-msgstr ""
+msgstr "É isso mesmo?"
 
 #: cogs/roles.py:222
 msgid "Autorole rule created."
-msgstr ""
+msgstr "Regra de cargos automáticos criada."
 
 #: cogs/roles.py:228
 msgid "Shows a list of autorole rules."
-msgstr ""
+msgstr "Mostra uma lista de regras de cargos automáticos."
 
 #: cogs/roles.py:233 cogs/roles.py:243
 msgid "This server has no autorole rules."
-msgstr ""
+msgstr "Este servidor não tem regras de cargos automáticos."
 
 #: cogs/roles.py:246
 msgid "Autorole rules"
-msgstr ""
+msgstr "Regras de cargos automáticos"
 
 #: cogs/roles.py:253
 msgid "Triggers a refresh on all members."
-msgstr ""
+msgstr "Ativa a atualização de todos os membros."
 
 #: cogs/roles.py:254
 msgid "This will apply existing rules to all members.\n"
@@ -3785,7 +3785,7 @@ msgstr "Isto me fará verificar as guilds de todos os personagens registrados pa
 
 #: cogs/roles.py:270
 msgid "Starting role refreshing…"
-msgstr ""
+msgstr "Iniciando atualização de cargos…"
 
 #: cogs/roles.py:274 cogs/roles.py:276
 msgid "Refresh done, roles will be updated shortly."
@@ -3802,25 +3802,27 @@ msgstr ""
 
 #: cogs/roles.py:293
 msgid "That rule doesn't exist."
-msgstr ""
+msgstr "Essa regra não existe."
 
 #: cogs/roles.py:299
 msgid "You can't delete a role rule for a role higher than yours."
-msgstr ""
+msgstr "Você não pode excluir uma regra de cargo para um cargo maior que o seu."
 
 #: cogs/roles.py:302
 msgid "Auto role rule removed. Note that the role won't be removed from current members."
-msgstr ""
+msgstr "Regra de cargos automáticos removida. Observe que o cargo não será removido dos membros atuais."
 
 #: cogs/roles.py:309
 msgid "Joins or leaves a group (role)."
-msgstr ""
+msgstr "Entra ou deixa um grupo (cargo)."
 
 #: cogs/roles.py:310
 msgid "If you're not in the group, you will be added.\n"
 "If you're already in the group, you will be removed.\n\n"
 "To see a list of joinable groups, use `group list`."
-msgstr ""
+msgstr "Se você não estiver no grupo, será adicionado.\n"
+"Se você já estiver no grupo, será removido.\n\n"
+"Para ver uma lista de grupos disponíveis, use `group list`."
 
 #: cogs/roles.py:318
 #, python-brace-format
@@ -3829,15 +3831,15 @@ msgstr ""
 
 #: cogs/roles.py:326
 msgid "I can't manage groups of roles higher than mine."
-msgstr ""
+msgstr "Não posso administrar grupos de cargos mais altos que o meu."
 
 #: cogs/roles.py:328
 msgid "Joined group"
-msgstr ""
+msgstr "Entrou no grupo"
 
 #: cogs/roles.py:330
 msgid "Left group"
-msgstr ""
+msgstr "Saiu do grupo"
 
 #: cogs/roles.py:332
 msgid "I need `Manage Roles` to manage groups."
@@ -3845,7 +3847,7 @@ msgstr "Preciso da permissão `Gerenciar cargos` para gerenciar grupos."
 
 #: cogs/roles.py:334
 msgid "Something went wrong. Try again later."
-msgstr ""
+msgstr "Algo deu errado. Por favor, tente novamente mais tarde."
 
 #: cogs/roles.py:337
 #, python-brace-format
