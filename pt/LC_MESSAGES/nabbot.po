@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-04 17:27-0700\n"
-"PO-Revision-Date: 2021-05-07 14:42\n"
+"PO-Revision-Date: 2021-05-07 15:40\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -3789,16 +3789,17 @@ msgstr "Iniciando atualização de cargos…"
 
 #: cogs/roles.py:274 cogs/roles.py:276
 msgid "Refresh done, roles will be updated shortly."
-msgstr ""
+msgstr "Atualização completa, cargos serão atualizadas em breve."
 
 #: cogs/roles.py:282
 msgid "Removes an autorole rule."
-msgstr ""
+msgstr "Remove uma regra de cargos automáticos."
 
 #: cogs/roles.py:283
 msgid "Role names, mentions and ids are accepted. Role names with multiple words need to be wrapped in double quotes.\n\n"
 "Note that members that currently have the role won't be affected."
-msgstr ""
+msgstr "Nomes de cargos, menções e IDs são aceitos. Nomes de cargos com múltiplas palavras precisam estar entre aspas duplas.\n\n"
+"Note que membros que já possuam o cargo não serão afetados."
 
 #: cogs/roles.py:293
 msgid "That rule doesn't exist."
@@ -3852,16 +3853,16 @@ msgstr "Algo deu errado. Por favor, tente novamente mais tarde."
 #: cogs/roles.py:337
 #, python-brace-format
 msgid "You joined {name}."
-msgstr ""
+msgstr "Você entrou no grupo {name}."
 
 #: cogs/roles.py:339
 #, python-brace-format
 msgid "You left {name}."
-msgstr ""
+msgstr "Você saiu do grupo {name}."
 
 #: cogs/roles.py:346
 msgid "Creates a new group for members to join."
-msgstr ""
+msgstr "Cria um novo grupo para os membros entrarem."
 
 #: cogs/roles.py:347
 msgid "The group can be a new role that will be created with this command.\n"
@@ -3877,25 +3878,25 @@ msgstr "Preciso da permissão `Gerenciar cargos` para criar um grupo."
 
 #: cogs/roles.py:367
 msgid "Invalid group name."
-msgstr ""
+msgstr "Nome de grupo inválido."
 
 #: cogs/roles.py:372
 #, python-brace-format
 msgid "Group {name} already exists."
-msgstr ""
+msgstr "O grupo {name} já existe."
 
 #: cogs/roles.py:377
 msgid "You can't make a group from a role higher or equals than your highest role."
-msgstr ""
+msgstr "Você não pode criar um grupo a partir de um cargo maior ou igual ao seu cargo mais alto."
 
 #: cogs/roles.py:379
 msgid "I can't make a group from a role higher or equals than my highest role."
-msgstr ""
+msgstr "Não consigo criar um grupo de um cargo maior ou igual ao meu cargo mais alto."
 
 #: cogs/roles.py:382
 #, python-brace-format
 msgid "Group {name} created successfully."
-msgstr ""
+msgstr "Grupo {name} criado com sucesso."
 
 #: cogs/roles.py:387
 msgid "Shows a list of available groups."
@@ -3909,8 +3910,8 @@ msgstr ""
 #, python-format
 msgid "`%d member`"
 msgid_plural "`%d members`"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "`%d membro`"
+msgstr[1] "`%d membros`"
 
 #: cogs/roles.py:405
 msgid "Joinable groups"
@@ -3918,7 +3919,7 @@ msgstr ""
 
 #: cogs/roles.py:413
 msgid "Removes a group."
-msgstr ""
+msgstr "Remove um grupo."
 
 #: cogs/roles.py:414
 msgid "Removes a group, making members unable to join.\n"
@@ -3928,35 +3929,35 @@ msgstr ""
 #: cogs/roles.py:420
 #, python-brace-format
 msgid "{role} is not a group."
-msgstr ""
+msgstr "{role} não é um grupo."
 
 #: cogs/roles.py:425
 msgid "You can't delete a group of a role higher than your highest role."
-msgstr ""
+msgstr "Você não pode excluir um grupo de um cargo maior que o seu maior cargo."
 
 #: cogs/roles.py:427
 msgid "I can't delete a group of a role higher than my highest role."
-msgstr ""
+msgstr "Não consigo excluir um grupo de um cargo maior que meu cargo mais alto."
 
 #: cogs/roles.py:429
 #, python-brace-format
 msgid "Group {name} will be removed. Do you want to remove the role too?"
-msgstr ""
+msgstr "O grupo {name} será removido. Deseja remover o cargo também?"
 
 #: cogs/roles.py:434
 #, python-brace-format
 msgid "Group removed by {user}"
-msgstr ""
+msgstr "Grupo removido por {user}"
 
 #: cogs/roles.py:435
 #, python-brace-format
 msgid "Group {name} was removed and the role was deleted."
-msgstr ""
+msgstr "O grupo {name} foi removido e o cargo foi excluído."
 
 #: cogs/roles.py:437
 #, python-brace-format
 msgid "Group {name} removed."
-msgstr ""
+msgstr "Grupo {name} removido."
 
 #: cogs/roles.py:438
 msgid "I need `Manage Roles` permission to delete the Discord role."
@@ -3965,23 +3966,23 @@ msgstr "Preciso da permissão 'Gerenciar cargos' para remover o cargo do Discord
 #: cogs/roles.py:440
 #, python-brace-format
 msgid "Group {name} was removed."
-msgstr ""
+msgstr "Grupo {name} foi removido."
 
 #: cogs/roles.py:447
 msgid "Shows a list of members with no roles."
-msgstr ""
+msgstr "Mostra uma lista de membros sem cargos."
 
 #: cogs/roles.py:458
 msgid "There are no members without roles."
-msgstr ""
+msgstr "Não há membros sem cargos."
 
 #: cogs/roles.py:462
 msgid "Members with no roles"
-msgstr ""
+msgstr "Membros sem cargos"
 
 #: cogs/roles.py:468
 msgid "Shows details about a role."
-msgstr ""
+msgstr "Mostra detalhes de um cargo."
 
 #: cogs/roles.py:473
 msgid "Mentionable"
@@ -3990,58 +3991,62 @@ msgstr "Mencionavél"
 #. Whether the role appears separate in the right side of Discord
 #: cogs/roles.py:475
 msgid "Hoisted"
-msgstr ""
+msgstr "Separado"
 
 #: cogs/roles.py:476 cogs/tibia.py:2035 cogs/tibia.py:2059
 msgid "Position"
-msgstr ""
+msgstr "Posição"
 
 #: cogs/roles.py:477
 msgid "Color"
-msgstr ""
+msgstr "Cor"
 
 #: cogs/roles.py:486
 msgid "Shows a list of members with that role."
-msgstr ""
+msgstr "Mostra uma lista de membros com esse cargo."
 
 #: cogs/roles.py:491
 #, python-brace-format
 msgid "Seems like there are no members with the role {name}."
-msgstr ""
+msgstr "Parece que não há membros com o cargo {name}."
 
 #: cogs/roles.py:494
 #, python-brace-format
 msgid "Members with the role '{name}'"
-msgstr ""
+msgstr "Membros com o cargo '{name}'"
 
 #: cogs/roles.py:505
 msgid "Sends a message mentioning a role."
-msgstr ""
+msgstr "Envia uma mensagem mencionando um cargo."
 
 #: cogs/roles.py:506
 msgid "This allows using a role mention for roles that have mentioning disabled.\n"
 "Mentions for the role are enabled, the message is sent and role mentions are disabled again.\n\n"
 "The message is signed by the command author."
-msgstr ""
+msgstr "Isto permite utilizar menções a um cargo para cargos que tem menções desativadas. \n"
+"As menções para o cargo são ativadas, a mensagem é enviada e as menções para o cargo são desativadas novamente.\n\n"
+"A mensagem é assinada pelo autor do comando."
 
 #: cogs/roles.py:514
 msgid "You can't mention a role highest than your highest role."
-msgstr ""
+msgstr "Você não pode mencionar um cargo mais alto do que o seu cargo mais alto."
 
 #: cogs/roles.py:517
 msgid "I can't mention a role highest than my highest role."
-msgstr ""
+msgstr "Não posso mencionar um cargo mais alto que o meu cargo mais alto."
 
 #: cogs/roles.py:519
 #, python-brace-format
 msgid "The message will mention the role {name}. Your name will appear at the bottom of the message.\n"
 "Please tell me the content of the message.\n"
 "You can also say `cancel` to exit."
-msgstr ""
+msgstr "A mensagem mencionará o cargo {name}. Seu nome aparecerá na parte inferior da mensagem.\n"
+"Por favor, me diga o conteúdo da mensagem.\n"
+"Você também pode dizer `cancel` para sair."
 
 #: cogs/roles.py:533
 msgid "The message can't be longer than {limit:,} characters."
-msgstr ""
+msgstr "A mensagem não pode ter mais de {limit:,} caracteres."
 
 #: cogs/roles.py:540
 #, python-brace-format
@@ -4051,7 +4056,7 @@ msgstr ""
 #: cogs/roles.py:542
 #, python-brace-format
 msgid "Message sent by {user}"
-msgstr ""
+msgstr "Mensagem enviada por {user}"
 
 #: cogs/roles.py:546
 msgid "Reverting mentionable"
@@ -4059,35 +4064,36 @@ msgstr ""
 
 #: cogs/roles.py:551
 msgid "Shows a user's roles or a list of server roles."
-msgstr ""
+msgstr "Mostra os cargos de um usuário ou uma lista de cargos do servidor."
 
 #: cogs/roles.py:552
 msgid "If a user is specified, it will list their roles.\n"
 "If user is blank, I will list all the server's roles."
-msgstr ""
+msgstr "Se um usuário for especificado, seus cargos serão listados.\n"
+"Se o usuário estiver em branco, vou listar todas os cargos do servidor."
 
 #: cogs/roles.py:557
 msgid "Roles in this server"
-msgstr ""
+msgstr "Cargos neste servidor"
 
 #: cogs/roles.py:560
 msgid "There are no roles in this server."
-msgstr ""
+msgstr "Não há cargos neste servidor."
 
 #: cogs/roles.py:565
 #, python-brace-format
 msgid "I don't see any user named **{user}**."
-msgstr ""
+msgstr "Não vejo nenhum usuário chamado **{user}**."
 
 #: cogs/roles.py:567
 #, python-brace-format
 msgid "Roles for @{user}"
-msgstr ""
+msgstr "Cargos de @{user}"
 
 #: cogs/roles.py:570
 #, python-brace-format
 msgid "{user} has no roles."
-msgstr ""
+msgstr "{user} não tem nenhum cargo."
 
 #: cogs/stats.py:28
 msgid "Commands related to statistics about the bot and Tibia."
@@ -4095,17 +4101,17 @@ msgstr ""
 
 #: cogs/stats.py:36
 msgid "Shows command statistics."
-msgstr ""
+msgstr "Mostra estatísticas de comandos usados no servidor."
 
 #: cogs/stats.py:51 cogs/stats.py:92
 msgid "{count:,} command use"
 msgid_plural "{count:,} command uses"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{count:,} comando utilizado"
+msgstr[1] "{count:,} comandos utilizados"
 
 #: cogs/stats.py:53
 msgid "Command Stats"
-msgstr ""
+msgstr "Estatísticas de Comandos"
 
 #: cogs/stats.py:54 cogs/stats.py:95
 msgid "Tracking usage since"
@@ -4115,12 +4121,12 @@ msgstr "Monitorando usos desde"
 #: cogs/stats.py:116
 msgid "{count:,} use"
 msgid_plural "{count:,} uses"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{count:,} uso"
+msgstr[1] "{count:,} usos"
 
 #: cogs/stats.py:60 cogs/stats.py:101
 msgid "Top commands"
-msgstr ""
+msgstr "Comandos mais usados"
 
 #: cogs/stats.py:65 cogs/stats.py:115
 #, python-brace-format
@@ -4129,19 +4135,19 @@ msgstr "<Usuário {id}>"
 
 #: cogs/stats.py:68 cogs/stats.py:118
 msgid "Top users"
-msgstr ""
+msgstr "Ranking de usuários"
 
 #: cogs/stats.py:77
 msgid "Shows command statistics of all servers."
-msgstr ""
+msgstr "Mostra estatísticas de comandos usados em todos os servidores."
 
 #: cogs/stats.py:94
 msgid "Global Command Stats"
-msgstr ""
+msgstr "Estatísticas Globais de Comandos"
 
 #: cogs/stats.py:106
 msgid "Private Message"
-msgstr ""
+msgstr "Mensagem Privada"
 
 #: cogs/stats.py:108
 #, python-brace-format
@@ -4150,7 +4156,7 @@ msgstr "<Servidor {id}>"
 
 #: cogs/stats.py:111
 msgid "Top servers"
-msgstr ""
+msgstr "Ranking de servidores"
 
 #: cogs/stats.py:144
 msgid "Displays a graph of the server count's history in the last 30 days."
@@ -4167,49 +4173,49 @@ msgstr ""
 #: cogs/stats.py:154
 #, python-brace-format
 msgid "Showing data from {from_date} to {to_date}"
-msgstr ""
+msgstr "Mostrando dados de {from_date} até {to_date}"
 
 #: cogs/stats.py:171
 msgid "Could not find data."
-msgstr ""
+msgstr "Nenhum dado encontrado."
 
 #: cogs/tibia.py:74
 msgid "North America"
-msgstr ""
+msgstr "América do Norte"
 
 #: cogs/tibia.py:75
 msgid "South America"
-msgstr ""
+msgstr "América do Sul"
 
 #: cogs/tibia.py:76
 msgid "Europe"
-msgstr ""
+msgstr "Europa"
 
 #: cogs/tibia.py:99
 msgid "Transfers allowed"
-msgstr ""
+msgstr "Transferências permitidas"
 
 #: cogs/tibia.py:100
 msgid "No inbound transfers"
-msgstr ""
+msgstr "Sem transferências de entrada"
 
 #: cogs/tibia.py:101
 msgid "No outbound transfers"
-msgstr ""
+msgstr "Sem transferências de saída"
 
 #: cogs/tibia.py:159
 msgid "**{value:,}** point"
 msgid_plural "**{value:,}** points"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "**{value:,}** ponto"
+msgstr[1] "**{value:,}** pontos"
 
 #: cogs/tibia.py:163
 msgid "Level **{value:,}**"
-msgstr ""
+msgstr "Level **{value:,}**"
 
 #: cogs/tibia.py:167 cogs/tibia.py:1927 cogs/tibia.py:2030
 msgid "Achievement Points"
-msgstr ""
+msgstr "Pontos de Achievements"
 
 #: cogs/tibia.py:168
 msgid "Axe Fighting"
@@ -4217,19 +4223,19 @@ msgstr "Axe Fighting"
 
 #: cogs/tibia.py:169 cogs/tibiawiki.py:660
 msgid "Charm Points"
-msgstr ""
+msgstr "Charm Points"
 
 #: cogs/tibia.py:170
 msgid "Club Fighting"
-msgstr ""
+msgstr "Club Fighting"
 
 #: cogs/tibia.py:171
 msgid "Distance Fighting"
-msgstr ""
+msgstr "Distance Fighting"
 
 #: cogs/tibia.py:172
 msgid "Experience Points"
-msgstr ""
+msgstr "Pontos de Experiência"
 
 #: cogs/tibia.py:173
 msgid "Experience Points (Rookgaard)"
@@ -4237,35 +4243,35 @@ msgstr "Pontos de Experiência (Rookgaard)"
 
 #: cogs/tibia.py:174
 msgid "Fishing"
-msgstr ""
+msgstr "Fishing"
 
 #: cogs/tibia.py:175
 msgid "Fist Fighting"
-msgstr ""
+msgstr "Fist Fighting"
 
 #: cogs/tibia.py:176
 msgid "Loyalty Points"
-msgstr ""
+msgstr "Pontos de Loyalty"
 
 #: cogs/tibia.py:177 cogs/tibiawiki.py:110 cogs/tibiawiki.py:111
 msgid "Magic Level"
-msgstr ""
+msgstr "Magic Level"
 
 #: cogs/tibia.py:178
 msgid "Magic Level (knights)"
-msgstr ""
+msgstr "Magic Level (knights)"
 
 #: cogs/tibia.py:179
 msgid "Magic Level (paladins)"
-msgstr ""
+msgstr "Magic Level (paladins)"
 
 #: cogs/tibia.py:180
 msgid "Shielding"
-msgstr ""
+msgstr "Shielding"
 
 #: cogs/tibia.py:181
 msgid "Sword Fighting"
-msgstr ""
+msgstr "Sword Fighting"
 
 #: cogs/tibia.py:182
 msgid "Goshnar's Taint"
@@ -4273,69 +4279,70 @@ msgstr "Goshnar's Taint"
 
 #: cogs/tibia.py:195
 msgid "In progress"
-msgstr ""
+msgstr "Em Andamento"
 
 #: cogs/tibia.py:196
 msgid "Currently processed"
-msgstr ""
+msgstr "Processados"
 
 #: cogs/tibia.py:197
 msgid "Pending transfer"
-msgstr ""
+msgstr "Transferências Pendentes"
 
 #: cogs/tibia.py:198
 msgid "Cancelled"
-msgstr ""
+msgstr "Cancelados"
 
 #: cogs/tibia.py:199
 msgid "Finished"
-msgstr ""
+msgstr "Concluídos"
 
 #: cogs/tibia.py:203
 msgid "Current Bid"
-msgstr ""
+msgstr "Lance Atual"
 
 #: cogs/tibia.py:204
 msgid "Winning Bid"
-msgstr ""
+msgstr "Lance Vencedor"
 
 #: cogs/tibia.py:205
 msgid "Minimum Bid"
-msgstr ""
+msgstr "Lance Mínimo"
 
 #: cogs/tibia.py:220
 msgid "Rented"
-msgstr ""
+msgstr "Alugado"
 
 #: cogs/tibia.py:221
 msgid "Auctioned"
-msgstr ""
+msgstr "Em leilão"
 
 #: cogs/tibia.py:225
 msgid "Commands related to Tibia, gathered from information present in Tibia.com."
-msgstr ""
+msgstr "Comandos relacionados ao Tibia, a partir de informações presentes no Tibia.com."
 
 #: cogs/tibia.py:307
 msgid "Shows information about a bazaar auction."
-msgstr ""
+msgstr "Mostra informações sobre um leilão de personagem no Bazaar."
 
 #: cogs/tibia.py:312
 #, python-brace-format
 msgid "There is no auction with ID {auction_id}"
-msgstr ""
+msgstr "Não há leilão com o ID {auction_id}"
 
 #: cogs/tibia.py:320
 msgid "Shows all the auctions a character has been involved in."
-msgstr ""
+msgstr "Mostra todos os leilões de um certo personagem."
 
 #: cogs/tibia.py:321
 msgid "An indicator is shown for finished auctions, showing if it was successful (character was sold) or not.\n"
 "If the auction is still being processed, it is unknown if the auction will be successful or not."
-msgstr ""
+msgstr "Um indicador é mostrado para leilões concluídos, mostrando se foram bem-sucedidos (o personagem foi vendido) ou não.\n"
+"Se o leilão ainda está sendo processado, não há como saber se o leilão será bem-sucedido ou não."
 
 #: cogs/tibia.py:335
 msgid "Could not find any auctions for this character."
-msgstr ""
+msgstr "Não foi possível encontrar nenhum leilão para este personagem."
 
 #. Format string for entries in the auction character command
 #: cogs/tibia.py:349
@@ -4344,24 +4351,24 @@ msgstr "{id} - Lvl {level} {voc} - {world} - {bid:,}{tc} - "
 
 #: cogs/tibia.py:356
 msgid "Sold"
-msgstr ""
+msgstr "Vendido"
 
 #: cogs/tibia.py:362
 #, python-brace-format
 msgid "Auctions of {name}"
-msgstr ""
+msgstr "Leilões de {name}"
 
 #: cogs/tibia.py:369
 msgid "Shows currently active auctions containing a specific item."
-msgstr ""
+msgstr "Mostra leilões ativos que contenham um item específico."
 
 #: cogs/tibia.py:370
 msgid "Only auctions in progress are shown. The data displayed is not live and bid amounts might be outdated."
-msgstr ""
+msgstr "Apenas leilões em andamento são mostrados. Os dados exibidos não estão ao vivo e os lances podem estar desatualizados."
 
 #: cogs/tibia.py:385
 msgid "That item does not exist or it has never been in an auction."
-msgstr ""
+msgstr "Esse item não existe ou nunca esteve em um leilão."
 
 #. Format string for entries in the auction item command
 #: cogs/tibia.py:408
@@ -4376,45 +4383,46 @@ msgstr ""
 
 #: cogs/tibia.py:417
 msgid "There are no active auctions with that item."
-msgstr ""
+msgstr "Não há leilões ativos com esse item."
 
 #: cogs/tibia.py:421
 #, python-brace-format
 msgid "Auctions with {item}"
-msgstr ""
+msgstr "Leilões com {item}"
 
 #: cogs/tibia.py:431
 msgid "Shows a summary of auctions."
-msgstr ""
+msgstr "Mostra estatísticas de leilões."
 
 #: cogs/tibia.py:436
 msgid "Auction Statistics"
-msgstr ""
+msgstr "Estatísticas de Leilões"
 
 #: cogs/tibia.py:436 cogs/tibia.py:500 cogs/tracking.py:488
 msgid "Last updated"
-msgstr ""
+msgstr "Última atualização"
 
 #: cogs/tibia.py:437
 msgid "There's a total of **{count:,}** auctions."
-msgstr ""
+msgstr "Há um total de **{count:,}** leilões."
 
 #: cogs/tibia.py:439
 msgid "By Status"
-msgstr ""
+msgstr "Por Status"
 
 #: cogs/tibia.py:445
 msgid "The total worth of all characters successfully traded is **{total_tc:,.0f}** {TC}.\n"
 "The total of all fees and commissions paid is **{total_fees:,.0f}** {TC}"
-msgstr ""
+msgstr "O valor total de todos os personagens negociados com sucesso é **{total_tc:,.0f}** {TC}.\n"
+"O total de todas as taxas e comissões pagas é **{total_fees:,.0f}** {TC}"
 
 #: cogs/tibia.py:448
 msgid "Most Expensive"
-msgstr ""
+msgstr "Mais Caros"
 
 #: cogs/tibia.py:455
 msgid "Shows a world's bosses predictions."
-msgstr ""
+msgstr "Mostra as previsões de bosses para um mundo."
 
 #: cogs/tibia.py:456
 msgid "Shows the chances of boss respawning, the last time a boss was seen, or the expected time to see the boss.\n"
@@ -4423,11 +4431,11 @@ msgstr ""
 
 #: cogs/tibia.py:464
 msgid "You must specify the world you want predictions for."
-msgstr ""
+msgstr "Você deve especificar o mundo para o qual você deseja as previsões."
 
 #: cogs/tibia.py:471
 msgid "Could not fetch boss predictions."
-msgstr ""
+msgstr "Não foi possível obter as previsões."
 
 #: cogs/tibia.py:475
 msgid "For premium predictions, check out [TibiaBosses.com](https://www.tibiabosses.com/premium/)"
@@ -4436,7 +4444,7 @@ msgstr ""
 #: cogs/tibia.py:477
 #, python-brace-format
 msgid "Boss predictions for {world}"
-msgstr ""
+msgstr "Previsões de bosses para {world}"
 
 #: cogs/tibia.py:488
 msgid "Gets the boosted creature of the day."
@@ -4470,23 +4478,23 @@ msgstr "Criaturas Boostadas Recentemente"
 #: cogs/tibia.py:527
 #, python-brace-format
 msgid "Events for {month}"
-msgstr ""
+msgstr "Eventos de {month}"
 
 #: cogs/tibia.py:528
 msgid "All events start and end at the server save of the day specified."
-msgstr ""
+msgstr "Todos os eventos iniciam e terminam no server save do dia especificado."
 
 #: cogs/tibia.py:548
 msgid "Previous events"
-msgstr ""
+msgstr "Eventos passados"
 
 #: cogs/tibia.py:550
 msgid "Current events"
-msgstr ""
+msgstr "Eventos atuais"
 
 #: cogs/tibia.py:552 cogs/timers.py:773
 msgid "Upcoming events"
-msgstr ""
+msgstr "Próximos eventos"
 
 #: cogs/tibia.py:557
 msgid "Shows the latest CM posts in the forum."
@@ -4494,7 +4502,7 @@ msgstr "Mostra os últimos posts dos CMs no fórum."
 
 #: cogs/tibia.py:558
 msgid "Posts made by Community Managers on the Tibia forums."
-msgstr ""
+msgstr "Posts feitos pelos Community Managers nos fóruns do Tibia."
 
 #: cogs/tibia.py:563
 msgid "There are no CM posts in the last 30 days."
@@ -4512,7 +4520,7 @@ msgstr "Posts recentes dos CMs"
 
 #: cogs/tibia.py:587
 msgid "Shows a character's recent deaths or the recent deaths of characters in the server."
-msgstr ""
+msgstr "Mostra as mortes recentes de um personagem ou as mortes recentes de todos os personagens no servidor."
 
 #: cogs/tibia.py:588
 msgid "When no name is specified, the recent deaths of characters in the server are displayed.\n"
@@ -4521,38 +4529,39 @@ msgstr ""
 
 #: cogs/tibia.py:593
 msgid "This server is not tracking any Tibia worlds."
-msgstr ""
+msgstr "Este servidor não está monitorando nenhum mundo do Tibia."
 
 #: cogs/tibia.py:599
 msgid "Cannot use this command without parameters in private messages.\n"
 "Please specify the name of a character."
-msgstr ""
+msgstr "Não é possível usar este comando sem parâmetros em mensagens privadas.\n"
+"Por favor especifique o nome de um personagem."
 
 #: cogs/tibia.py:602
 msgid "Recent deaths"
-msgstr ""
+msgstr "Mortes recentes"
 
 #: cogs/tibia.py:611
 msgid "There are no recent deaths."
-msgstr ""
+msgstr "Não há mortes recentes."
 
 #: cogs/tibia.py:625
 msgid "Shows the latest deaths caused by a specific monster."
-msgstr ""
+msgstr "Mostra as mortes mais recentes causadas por um monstro específico."
 
 #: cogs/tibia.py:640
 #, python-brace-format
 msgid "{name} (**@{user}**) - At level **{level}** - *{time} ago*"
-msgstr ""
+msgstr "{name} (**@{user}**) - No level **{level}** - *{time} atrás*"
 
 #: cogs/tibia.py:646
 msgid "There are no registered deaths by that monster."
-msgstr ""
+msgstr "Não há mortes registadas para esse monstro."
 
 #: cogs/tibia.py:649
 #, python-brace-format
 msgid "Latest deaths by {monster}"
-msgstr ""
+msgstr "Últimas mortes por {monster}"
 
 #: cogs/tibia.py:656
 msgid "Shows a user's recent deaths on his/her registered characters."
@@ -4563,7 +4572,7 @@ msgstr "Mostra as mortes recentes dos personagens registrados a um certo usuári
 #: cogs/tibia.py:672 cogs/tibia.py:1401
 #, python-brace-format
 msgid "{name} - At level **{level}** by {killer} - *{time} ago*"
-msgstr ""
+msgstr "{name} - No level **{level}** por {killer} - *{time} atrás*"
 
 #: cogs/tibia.py:678
 msgid "There are no registered deaths by this user."
@@ -4572,20 +4581,21 @@ msgstr "Não há mortes registradas para esse usuário."
 #: cogs/tibia.py:680
 #, python-brace-format
 msgid "{user} latest deaths"
-msgstr ""
+msgstr "Últimas mortes de {user}"
 
 #: cogs/tibia.py:691
 msgid "Shows death statistics"
-msgstr ""
+msgstr "Mostra estatísticas de morte"
 
 #: cogs/tibia.py:692
 msgid "Shows the total number of deaths, the characters and users with more deaths, and the most common killers.\n\n"
 "To see a shorter period, use `week` or `month` as a parameter."
-msgstr ""
+msgstr "Mostra o número total de mortes, personagens e usuários com mais mortes e os assassinos mais comuns.\n\n"
+"Para ver um período mais curto, use `week` ou `month` como parâmetro."
 
 #: cogs/tibia.py:699
 msgid "Death Statistics"
-msgstr ""
+msgstr "Estatísticas de Mortes"
 
 #: cogs/tibia.py:706
 #, python-brace-format
