@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-04 17:27-0700\n"
-"PO-Revision-Date: 2021-05-07 15:40\n"
+"PO-Revision-Date: 2021-05-07 16:56\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -4600,7 +4600,7 @@ msgstr "Estatísticas de Mortes"
 #: cogs/tibia.py:706
 #, python-brace-format
 msgid "For a shorter period, try `{prefix}{command} week` or `{prefix}{command} month`"
-msgstr ""
+msgstr "Para um período menor, tente `{prefix}{command} week` ou `{prefix}{command} month`"
 
 #: cogs/tibia.py:709
 #, python-format
@@ -4617,19 +4617,19 @@ msgstr[1] "Há um total de {total:,} mortes registradas"
 
 #: cogs/tibia.py:725
 msgid "Most deaths per character"
-msgstr ""
+msgstr "Personagens com mais mortes"
 
 #: cogs/tibia.py:737
 msgid "Most deaths per user"
-msgstr ""
+msgstr "Usuários com mais mortes"
 
 #: cogs/tibia.py:747
 msgid "Most deaths per killer"
-msgstr ""
+msgstr "Maiores assassinos"
 
 #: cogs/tibia.py:752
 msgid "Shows the contents of a forum post."
-msgstr ""
+msgstr "Exibe o conteúdo de um post do fórum."
 
 #: cogs/tibia.py:757
 msgid "There's no forum with that id."
@@ -4637,46 +4637,47 @@ msgstr "Não há fórum com esse ID."
 
 #: cogs/tibia.py:762
 msgid "See more…"
-msgstr ""
+msgstr "Ver mais…"
 
 #: cogs/tibia.py:767
 #, python-brace-format
 msgid "Posted by {author}"
-msgstr ""
+msgstr "Postado por {author}"
 
 #: cogs/tibia.py:769
 msgid "Posted on"
-msgstr ""
+msgstr "Postado no"
 
 #: cogs/tibia.py:776
 msgid "Shows online characters in a guild."
-msgstr ""
+msgstr "Mostra os personagens online de uma guild."
 
 #: cogs/tibia.py:777
 msgid "Shows the number of members the guild has and a list of their users.\n"
 "It also shows whether the guild has a guildhall or not, and their founding date."
-msgstr ""
+msgstr "Mostra a quantidade de membros da guild e uma lista de seus usuários.\n"
+"Também mostra se a guild tem um guildhall ou não, e sua data de fundação."
 
 #: cogs/tibia.py:788 cogs/tibia.py:821
 #, python-brace-format
 msgid "The guild was founded on {date}"
-msgstr ""
+msgstr "A guild foi fundada em {date}"
 
 #: cogs/tibia.py:793 cogs/tibia.py:831
 #, python-brace-format
 msgid "They own the guildhall {gh}."
-msgstr ""
+msgstr "Eles são donos da guildhall {gh}."
 
 #: cogs/tibia.py:797
 msgid "Nobody is online. It has **{guild.member_count:,}** members."
-msgstr ""
+msgstr "Ninguém está online. Possui **{guild.member_count:,}** membros."
 
 #: cogs/tibia.py:801
 #, python-brace-format
 msgid "It has **{online}** player online out of **{member_count}**:"
 msgid_plural "It has **{online}** players online out of **{member_count}**:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tem **{online}** jogador online de **{member_count}**:"
+msgstr[1] "Tem **{online}** jogadores online de **{member_count}**:"
 
 #: cogs/tibia.py:811
 msgid "Shows basic information and stats about a guild."
@@ -4684,7 +4685,7 @@ msgstr ""
 
 #: cogs/tibia.py:812
 msgid "It shows their description, homepage, guildhall, number of members and more."
-msgstr ""
+msgstr "Mostra a descrição, o site, a guildhall, a quantidade de membros e muito mais."
 
 #: cogs/tibia.py:833
 msgctxt "Guild application status"
