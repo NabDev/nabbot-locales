@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-04 17:27-0700\n"
-"PO-Revision-Date: 2021-05-07 02:34\n"
+"PO-Revision-Date: 2021-05-07 03:35\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -3065,7 +3065,7 @@ msgstr "Você atualmente não tem nenhum servidor premium. Para atribuir premium
 #: cogs/premium.py:569
 #, python-brace-format
 msgid "You have used **{slots}** out of **{limit}** premium slots."
-msgstr ""
+msgstr "Você já usou **{slots}** de **{limit}** slots de premium."
 
 #: cogs/premium.py:571
 msgid "Premium Servers"
@@ -3205,7 +3205,8 @@ msgstr "Este servidor já é premium."
 #, python-brace-format
 msgid "Are you sure you want to assign premium to **{server}**?\n"
 "*There will be a 5 day cooldown to change this premium slot*"
-msgstr ""
+msgstr "Tem certeza que deseja atribuir premium a **{server}**?\n"
+"*Haverá um tempo de espera de 5 dias para alterar este slot de premium*"
 
 #: cogs/premium.py:842
 #, python-brace-format
@@ -3287,7 +3288,7 @@ msgstr "Certo, o respawn não foi atribuído a você."
 #: cogs/respawn.py:234
 #, python-brace-format
 msgid "You are now hunting in **{respawn.name}** (`{respawn.code}`)."
-msgstr ""
+msgstr "Você está caçando agora em **{respawn.name}** (`{respawn.code}`)."
 
 #: cogs/respawn.py:242
 msgid "Manages respawns"
@@ -3310,7 +3311,7 @@ msgstr "Reivindica um respawn, indicando que você vai caçar lá."
 
 #: cogs/respawn.py:255
 msgid "The duration of the hunt is determined by the server's configuration."
-msgstr ""
+msgstr "A duração da hunt é determinada pela configuração do servidor."
 
 #: cogs/respawn.py:260
 #, python-brace-format
@@ -3322,18 +3323,19 @@ msgstr "Alguém já está caçando em **{respawn.name}**.\n"
 #: cogs/respawn.py:270
 #, python-brace-format
 msgid "Do you want to start hunting in **{respawn.name}**? This will end your hunt at **{current_respawn.name}**."
-msgstr ""
+msgstr "Deseja começar a caçar em **{respawn.name}**? Isso encerrará a sua hunt em **{current_respawn.name}**."
 
 #: cogs/respawn.py:274
 #, python-brace-format
 msgid "Do you want to start hunting in **{respawn.name}**?"
-msgstr ""
+msgstr "Deseja começar a caçar em **{respawn.name}**?"
 
 #: cogs/respawn.py:280
 #, python-brace-format
 msgid "You are now hunting in **{respawn.name}**.\n"
 "Your hunt should end at the following local time:"
-msgstr ""
+msgstr "Você agora está caçando em **{respawn.name}**.\n"
+"Sua hunt deve terminar no seguinte horário local:"
 
 #: cogs/respawn.py:287
 msgid "Removes the current hunter and the entire queue of a respawn."
@@ -3342,12 +3344,12 @@ msgstr "Remove o jogador caçando no momento e toda a fila de um respawn."
 #: cogs/respawn.py:291
 #, python-brace-format
 msgid "Do you want to clear **{respawn.name}**?"
-msgstr ""
+msgstr "Deseja limpar **{respawn.name}**?"
 
 #: cogs/respawn.py:296
 #, python-brace-format
 msgid "**{respawn.name}** has been cleared."
-msgstr ""
+msgstr "**{respawn.name}** foi limpo."
 
 #: cogs/respawn.py:300
 msgid "Shows a list of previous hunts in a respawn."
@@ -3363,7 +3365,7 @@ msgstr "Não há histórico de hunts nesse respawn."
 
 #: cogs/respawn.py:319
 msgid "History"
-msgstr ""
+msgstr "Histórico"
 
 #: cogs/respawn.py:327
 msgid "Shows information about a respawn place."
@@ -3371,15 +3373,15 @@ msgstr "Exibe informações sobre um local de respawn."
 
 #: cogs/respawn.py:336 cogs/respawn.py:345
 msgid "an unknown user"
-msgstr ""
+msgstr "um usuário desconhecido"
 
 #: cogs/respawn.py:338
 msgid "Current hunt should end at"
-msgstr ""
+msgstr "A hunt atual deve terminar em"
 
 #: cogs/respawn.py:339 cogs/respawn.py:512
 msgid "Time left"
-msgstr ""
+msgstr "Tempo restante"
 
 #: cogs/respawn.py:341
 #, python-brace-format
@@ -3389,7 +3391,7 @@ msgstr "Esse respawn está sendo usado por {user_name}."
 #. Next user on a respawn
 #: cogs/respawn.py:348 cogs/respawn.py:711
 msgid "Next"
-msgstr ""
+msgstr "Próximo"
 
 #: cogs/respawn.py:350
 msgid "This respawn is currently available."
@@ -3399,7 +3401,7 @@ msgstr "Este respawn está disponível no momento."
 #: cogs/respawn.py:355 cogs/tibia.py:1693 cogs/tibiawiki.py:446
 #: cogs/tibiawiki.py:470 cogs/tibiawiki.py:679
 msgid "Location"
-msgstr ""
+msgstr "Localização"
 
 #: cogs/respawn.py:364
 msgid "Removes a user from a respawn or a queue."
@@ -3414,37 +3416,37 @@ msgstr "Se nenhum usuário for especificado, irá remover o usuário atual que e
 #: cogs/respawn.py:377
 #, python-brace-format
 msgid "There is no one hunting in **{respawn.name}**."
-msgstr ""
+msgstr "Ninguém está caçando em **{respawn.name}**."
 
 #: cogs/respawn.py:378
 #, python-brace-format
 msgid "{user} is not hunting or in the queue of **{respawn.name}**."
-msgstr ""
+msgstr "{user} não está caçando nem está na fila de **{respawn.name}**."
 
 #: cogs/respawn.py:382
 #, python-brace-format
 msgid "Do you want to kick {user} from **{respawn.name}**?"
-msgstr ""
+msgstr "Deseja expulsar {user} de **{respawn.name}**?"
 
 #: cogs/respawn.py:384
 #, python-brace-format
 msgid "Do you want to remove {user} from the queue of **{respawn.name}**?"
-msgstr ""
+msgstr "Deseja remover {user} da fila de **{respawn.name}**?"
 
 #: cogs/respawn.py:391
 #, python-brace-format
 msgid "{user} was kicked from **{respawn.name}**."
-msgstr ""
+msgstr "{user} foi expulso de **{respawn.name}**."
 
 #: cogs/respawn.py:393
 #, python-brace-format
 msgid "{user} was removed from the queue of **{respawn.name}**."
-msgstr ""
+msgstr "{user} foi removido da fila de **{respawn.name}**."
 
 #: cogs/respawn.py:405
 #, python-brace-format
 msgid "You're not hunting nor in the queue of **{respawn.name}**."
-msgstr ""
+msgstr "Você não está caçando nem está na fila de **{respawn.name}**."
 
 #: cogs/respawn.py:408
 #, python-brace-format
@@ -3456,22 +3458,22 @@ msgstr "Você tem certeza que quer sair de **{respawn.name}**?\n"
 #: cogs/respawn.py:412
 #, python-brace-format
 msgid "Are you sure you want to remove yourself from the queue of **{respawn.name}**?"
-msgstr ""
+msgstr "Você tem certeza que deseja se remover da fila de **{respawn.name}**?"
 
 #: cogs/respawn.py:415
 #, python-brace-format
 msgid "You're currently not hunting or in the queue of **{respawn.name}**."
-msgstr ""
+msgstr "Atualmente você não está caçando nem está na fila de **{respawn.name}**."
 
 #: cogs/respawn.py:422
 #, python-brace-format
 msgid "You have left **{respawn.name}** (`{respawn.code}`)."
-msgstr ""
+msgstr "Você saiu de **{respawn.name}** (`{respawn.code}`)."
 
 #: cogs/respawn.py:424
 #, python-brace-format
 msgid "You have left the queue for **{respawn.name}** (`{respawn.code}`)."
-msgstr ""
+msgstr "Você deixou a fila de **{respawn.name}** (`{respawn.code}`)."
 
 #: cogs/respawn.py:430
 msgid "Shows the complete list of respawns."
@@ -3501,24 +3503,24 @@ msgstr "O respawn **{respawn.name}** ** está disponível no momento. Tente usar
 #: cogs/respawn.py:466
 #, python-brace-format
 msgid "You're already hunting in **{respawn.name}**."
-msgstr ""
+msgstr "Você já está caçando em **{respawn.name}**."
 
 #: cogs/respawn.py:468
 #, python-brace-format
 msgid "You're already in the queue for **{respawn.name}**."
-msgstr ""
+msgstr "Você já está na fila de **{respawn.name}**."
 
 #: cogs/respawn.py:469
 #, python-brace-format
 msgid "Do you want to join the queue for **{respawn.name}** (`{respawn.code}`)?"
-msgstr ""
+msgstr "Deseja entrar na fila de **{respawn.name}** (`{respawn.code}`)?"
 
 #: cogs/respawn.py:471
 #, python-format
 msgid "There is %d person in the queue"
 msgid_plural "There are %d persons in the queue."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Há %d pessoa na fila"
+msgstr[1] "Há %d pessoas na fila."
 
 #: cogs/respawn.py:478
 #, python-brace-format
@@ -3540,7 +3542,7 @@ msgstr "Se nenhum parâmetro for fornecido, mostrará informações sobre você 
 #: cogs/respawn.py:501
 #, python-brace-format
 msgid "{user} is currently not hunting or in any queues."
-msgstr ""
+msgstr "{user} não está caçando nem está em fila alguma."
 
 #: cogs/respawn.py:508 cogs/respawn.py:520
 msgid "Unknown Respawn"
@@ -3548,34 +3550,34 @@ msgstr "Respawn Desconhecido"
 
 #: cogs/respawn.py:516
 msgid "Currently hunting in"
-msgstr ""
+msgstr "Atualmente caçando em"
 
 #. Respawns which the user is waiting for
 #: cogs/respawn.py:525
 msgid "Currently waiting for"
-msgstr ""
+msgstr "Aguardando por"
 
 #: cogs/respawn.py:531
 msgid "Setups the default duration for new hunts in this server."
-msgstr ""
+msgstr "Configura a duração padrão para novas hunts neste servidor."
 
 #: cogs/respawn.py:532
 msgid "This does not affect the duration of existing hunts."
-msgstr ""
+msgstr "Isso não afeta a duração das hunts existentes."
 
 #: cogs/respawn.py:538
 #, python-format
 msgid "The default duration cannot be more than %d hours."
-msgstr ""
+msgstr "A duração padrão não pode ser mais do que %d horas."
 
 #: cogs/respawn.py:542
 #, python-brace-format
 msgid "Do you want to set the default duration for hunts for this server to **{new_duration}**?"
-msgstr ""
+msgstr "Deseja definir a duração padrão para as hunts deste servidor para **{new_duration}**?"
 
 #: cogs/respawn.py:551
 msgid "The hunt default duration has been updated."
-msgstr ""
+msgstr "A duração padrão das hunts foi atualizada."
 
 #: cogs/respawn.py:556
 msgid "Sets the maximum number of people in a respawn's queue."
@@ -3583,12 +3585,12 @@ msgstr "Define o número máximo de pessoas na fila de um respawn."
 
 #: cogs/respawn.py:557
 msgid "Note that changing this won't affect existing queues."
-msgstr ""
+msgstr "Note que alterar isto não afetará as filas existentes."
 
 #: cogs/respawn.py:563 cogs/respawn.py:565
 #, python-format
 msgid "The limit cannot be lower than %d."
-msgstr ""
+msgstr "O limite não pode ser menor que %d."
 
 #: cogs/respawn.py:567
 #, python-format
@@ -3597,7 +3599,7 @@ msgstr "Deseja definir o limite de fila de respawn para este servidor para **%d*
 
 #: cogs/respawn.py:572
 msgid "The queue limit has been updated."
-msgstr ""
+msgstr "O tamanho máximo da fila foi atualizado."
 
 #: cogs/respawn.py:577
 msgid "Setups the respawn system for this server."
@@ -3610,7 +3612,7 @@ msgstr "Isso criará um canal onde os respawns atualmente ocupados serão coloca
 #: cogs/respawn.py:582
 #, python-brace-format
 msgid "This feature is only for premium users. For more information on how to get premium use: `{prefix}premium info`"
-msgstr ""
+msgstr "Este recurso está disponível apenas para usuários premium. Para mais informações sobre como obter premium: `{prefix}premium info`"
 
 #: cogs/respawn.py:586
 msgid "This server's respawn system is already setup."
@@ -3622,11 +3624,11 @@ msgstr "Eu preciso da permissão 'Gerenciar Canais' para configurar o sistema de
 
 #: cogs/respawn.py:600 cogs/tracking.py:1611
 msgid "Sorry, I don't have permissions to create channels."
-msgstr ""
+msgstr "Desculpe, não tenho permissão para criar canais."
 
 #: cogs/respawn.py:602
 msgid "Something went wrong, please try again later."
-msgstr ""
+msgstr "Algo deu errado, por favor, tente novamente mais tarde."
 
 #: cogs/respawn.py:604
 msgid "This is where I will post a list of spawns **currently taken**.The attached image displays the **complete** respawn list with their codes.\n"
@@ -3656,7 +3658,7 @@ msgstr "Atualmente, ninguém está caçando em respawn algum."
 
 #: cogs/respawn.py:703 cogs/respawn.py:709
 msgid "Unknown User"
-msgstr ""
+msgstr "Usuário Desconhecido"
 
 #: cogs/roles.py:39
 msgid "Commands related to role management."
@@ -3664,11 +3666,11 @@ msgstr "Comandos relacionados ao gerenciamento de cargos."
 
 #: cogs/roles.py:109 cogs/roles.py:110
 msgid "Automatic roles"
-msgstr ""
+msgstr "Cargos automáticos"
 
 #: cogs/roles.py:146
 msgid "Autorole commands"
-msgstr ""
+msgstr "Comandos de cargos automáticos"
 
 #: cogs/roles.py:147
 msgid "All the subcommands require having `Manage Roles` permission."
@@ -3676,7 +3678,7 @@ msgstr "Todos os subcomandos requerem a permissão `Gerenciar Cargos`."
 
 #: cogs/roles.py:156
 msgid "Creates a new autorole rule."
-msgstr ""
+msgstr "Cria uma nova regra de cargos automáticos."
 
 #: cogs/roles.py:157
 msgid "Rules consist of a role and a guild name.\n"
@@ -3686,7 +3688,13 @@ msgid "Rules consist of a role and a guild name.\n"
 "You can also specify a required rank in the guild to get the role. For example: `Keeper@Redd Alliance` will give the role only if the character has the rank `Keeper` in `Redd Alliance`.\n\n"
 "Role names, role mentions, or role IDs are allowed. Role names with multiple words must be wrapped in double quotes.\n"
 "Note that current members won't be updated until their characters or guilds change."
-msgstr ""
+msgstr "Regras consistem em um cargo e um nome de guild.\n"
+"Quando um usuário tem um personagem registrado numa guild para a qual existe uma rega, ele receberá o cargo correspondente.\n"
+"Se ele não tiver mais um personagem na guild, o cargo será removido.\n\n"
+"Se `*` for usado no lugar da guild, o cargo será dado para todos usuários que tiverem personagens no mundo monitorado.\n\n"
+"Você também pode especificar um rank necessário na guild para obter o cargo. Por exemplo: `Keeper@Redd Alliance` dará o cargo apenas se o personagem tiver o rank `Keeper` na guild `Redd Alliance`.\n\n"
+"São permitidos nomes dos cargos, menções a cargos ou IDs de cargos. Nomes de cargos com várias palavras devem estar entre aspas duplas.\n"
+"Observe que os membros atuais não serão atualizados até que seus personagens ou guilds sejam alterados."
 
 #: cogs/roles.py:176
 msgid "`*` - All users with registered characters."
