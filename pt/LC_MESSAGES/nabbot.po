@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-04 17:27-0700\n"
-"PO-Revision-Date: 2021-05-07 01:39\n"
+"PO-Revision-Date: 2021-05-07 02:34\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -2158,7 +2158,7 @@ msgstr "Membro desde"
 #: cogs/info.py:341
 msgctxt "Member creation date"
 msgid "Created"
-msgstr ""
+msgstr "Criação da Conta"
 
 #: cogs/info.py:345
 msgid "Server Owner"
@@ -2800,7 +2800,7 @@ msgstr ""
 
 #: cogs/premium.py:54
 msgid "This server's benefits will be removed."
-msgstr ""
+msgstr "Os benefícios deste servidor serão removidos."
 
 #: cogs/premium.py:64 cogs/premium.py:374
 msgid "Commands related to premium features."
@@ -2816,7 +2816,7 @@ msgstr "O tempo da premium acabou."
 
 #: cogs/premium.py:172
 msgid "Premium expired"
-msgstr ""
+msgstr "Premium expirou"
 
 #: cogs/premium.py:219
 #, python-brace-format
@@ -2827,7 +2827,7 @@ msgstr "Parabéns! Você agora é um apoiador no Patreon! Para aproveitar os ben
 
 #: cogs/premium.py:226
 msgid "It seems like you have lost your Patron status. The privileges of any premium servers you had will be lost. If you believe this was a mistake, let us know."
-msgstr ""
+msgstr "Parece que você perdeu seu status de apoiador no Patreon. Os privilégios de qualquer servidor premium que você tinha serão perdidos. Se você acredita que isso foi um erro, avise-nos."
 
 #: cogs/premium.py:247
 #, python-brace-format
@@ -2859,7 +2859,7 @@ msgstr "Premium Recebida"
 
 #: cogs/premium.py:316
 msgid "Server received premium"
-msgstr ""
+msgstr "Servidor recebeu premium"
 
 #: cogs/premium.py:334
 #, python-brace-format
@@ -2872,7 +2872,7 @@ msgstr "A premium irá expirar em"
 
 #: cogs/premium.py:353
 msgid "This server is no longer receiving premium."
-msgstr ""
+msgstr "Este servidor não está mais recebendo premium."
 
 #: cogs/premium.py:361
 msgid "Links to NabBot's Patreon."
@@ -2888,11 +2888,11 @@ msgstr "Apoie o NabBot no Patreon!"
 
 #: cogs/premium.py:375
 msgid "For more details please check [the documentation](https://docs.nabbot.xyz/premium/)"
-msgstr ""
+msgstr "Para mais detalhes, consulte [a documentação](https://docs.nabbot.xyz/premium/)"
 
 #: cogs/premium.py:384
 msgid "Assigns premium to the current server or one you specify."
-msgstr ""
+msgstr "Atribui premium ao servidor atual ou a um que você especificar."
 
 #. Translators: Change the language code in the Discord link, make sure it's available, leave as `en-us` if not.
 #: cogs/premium.py:386
@@ -2920,43 +2920,46 @@ msgstr "Não estou em nenhuma guild com esse ID."
 
 #: cogs/premium.py:413
 msgid "You're not in that server."
-msgstr ""
+msgstr "Você não está nesse servidor."
 
 #: cogs/premium.py:418
 msgid "You can't assign premium to any more servers."
-msgstr ""
+msgstr "Você não pode atribuir premium a mais nenhum servidor."
 
 #: cogs/premium.py:428
 msgid "Shows your current premium days balance."
-msgstr ""
+msgstr "Mostra o seu saldo atual de dias de premium."
 
 #: cogs/premium.py:429
 msgid "Premium days in your account can be assigned to servers you're in to give them premium privileges.\n\n"
 "Note that once you give premium to a server, it can't be taken back, even if you stop being part of the server."
-msgstr ""
+msgstr "Dias de premium na sua conta podem ser atribuído a servidores em que você está para lhes dar privilégios premium.\n\n"
+"Note que uma vez que você atribuir premium a um servidor, ela não poderá ser recuperada, mesmo se você deixar de fazer parte do servidor."
 
 #: cogs/premium.py:437
 msgid "Premium Status"
-msgstr ""
+msgstr "Status Premium"
 
 #: cogs/premium.py:439
 msgid "You currently have {days:,} days to assign."
-msgstr ""
+msgstr "Você tem {days:,} dias para atribuir."
 
 #: cogs/premium.py:440
 msgid "More info"
-msgstr ""
+msgstr "Mais informações"
 
 #: cogs/premium.py:441
 #, python-brace-format
 msgid "`{prefix}premium history` to view your transactions.\n"
 "`{prefix}premium buy` to buy premium with Tibia Coins.\n"
 "`{prefix}premium add` to add premium to a new server."
-msgstr ""
+msgstr "`{prefix}premium history` para ver suas transações.\n"
+"`{prefix}premium buy` para comprar premium com Tibia Coins.\n"
+"{prefix}premium add` para adicionar premium a um novo servidor."
 
 #: cogs/premium.py:446
 msgid "Last change"
-msgstr ""
+msgstr "Última alteração"
 
 #: cogs/premium.py:450
 msgid "You're currently a Patreon"
@@ -2968,20 +2971,20 @@ msgstr "Registra uma transferência de Tibia Coins para comprar o NabBot Premium
 
 #: cogs/premium.py:457
 msgid "In order to buy premium, you must transfer the coins to **Nab Broker** and then register the transaction here, including the amount transferred and the character that made the transfer."
-msgstr ""
+msgstr "Para comprar premium, você deve transferir as Coins para **Nab Broker** e, em seguida, registrar a transação aqui, incluindo a quantia transferida e o personagem que fez a transferência."
 
 #: cogs/premium.py:462
 msgid "The transferred amount can't be zero or lower."
-msgstr ""
+msgstr "O valor transferido não pode ser zero ou menor que zero."
 
 #: cogs/premium.py:465
 #, python-brace-format
 msgid "There is no character named **{character}**."
-msgstr ""
+msgstr "Não há personagem chamado **{character}**."
 
 #: cogs/premium.py:470
 msgid "You already have a pending transaction, wait for it to be reviewed."
-msgstr ""
+msgstr "Você já tem uma transação pendente, aguarde sua revisão."
 
 #: cogs/premium.py:472
 #, python-brace-format
@@ -2994,7 +2997,8 @@ msgstr "Você confirma que transferiu **{amount}** Tibia Coins de **{character}*
 #, python-brace-format
 msgid "Payment sent for verification (ID: {id}). It might take some time for premium to be assigned.\n"
 "You will receive confirmation via DM when your payment is approved."
-msgstr ""
+msgstr "Pagamento enviado para verificação (ID: {id}). Pode levar algum tempo para a premium ser atribuída.\n"
+"Você receberá a confirmação por Mensagem Direta quando seu pagamento for aprovado."
 
 #: cogs/premium.py:483
 #, python-brace-format
@@ -3005,38 +3009,41 @@ msgstr "\n\n"
 
 #: cogs/premium.py:490
 msgid "Shows your transactions history, and the servers you've given days to."
-msgstr ""
+msgstr "Mostra o histórico de suas transações e os servidores que você escolheu."
 
 #: cogs/premium.py:491
 msgid "This shows a combination of the purchases you have done, and the servers you've given premium to.\n\n"
 "To only show purchases, you can add `purchases` at the end.\n"
 "To only show which servers you have given premium to, add `servers` at the end.\n\n"
 "To view more information about a specific purchase transaction, use `transaction view «id»`."
-msgstr ""
+msgstr "Isso mostra uma combinação das compras que você fez e dos servidores para os quais você deu premium.\n\n"
+"Para apenas mostrar compras, você pode adicionar `purchases` no final.\n"
+"Para mostrar apenas para quais servidores você deu premium, adicione `servers` no final.\n\n"
+"Para ver mais informações sobre uma transação de compra específica, use o `transaction view «ID»`."
 
 #: cogs/premium.py:511
 msgid "You currently don't have any transactions."
-msgstr ""
+msgstr "Você não realizou nenhuma transação."
 
 #. Line for premium transaction history
 #: cogs/premium.py:525
 #, python-brace-format
 msgid "{status} (ID: {id}) - {amount}{TC}"
-msgstr ""
+msgstr "{status} (ID: {id}) - {amount}{TC}"
 
 #: cogs/premium.py:531 cogs/premium.py:561
 msgid "unknown server"
-msgstr ""
+msgstr "servidor desconhecido"
 
 #. How many days and for which server were the premium days for
 #: cogs/premium.py:533
 #, python-brace-format
 msgid "**-{days}d** - For **{server}**"
-msgstr ""
+msgstr "**-{days}d** - Para **{server}**"
 
 #: cogs/premium.py:538
 msgid "Your transactions"
-msgstr ""
+msgstr "Suas transações"
 
 #: cogs/premium.py:545
 msgid "Shows you a list of the servers you're currently giving premium to as a Patreon."
@@ -3053,7 +3060,7 @@ msgstr "Os usuários que adquiriram premium por meio do Patreon recebem slots qu
 #: cogs/premium.py:557
 #, python-brace-format
 msgid "You currently do not have any premium servers. To assign one use: `{prefix}premium add`"
-msgstr ""
+msgstr "Você atualmente não tem nenhum servidor premium. Para atribuir premium, use: `{prefix}premium add`"
 
 #: cogs/premium.py:569
 #, python-brace-format
@@ -3062,25 +3069,25 @@ msgstr ""
 
 #: cogs/premium.py:571
 msgid "Premium Servers"
-msgstr ""
+msgstr "Servidores Premium"
 
 #: cogs/premium.py:580
 msgid "Shows premium prices and information."
-msgstr ""
+msgstr "Mostra informações e preços premium."
 
 #: cogs/premium.py:584
 #, python-brace-format
 msgid "The price for **30** days of premium is **{price} {tc_emoji}**."
-msgstr ""
+msgstr "O preço por **30** dias de premium é **{price} {tc_emoji}**."
 
 #: cogs/premium.py:588
 #, python-brace-format
 msgid "To purchase, transfer to **{recipient}** and then submit the payment using: `{prefix}premium buy «amount» «character»` replacing with the amount sent and the character you transferred the coins from."
-msgstr ""
+msgstr "Para comprar, transfira para **{recipient}** e submeta o pagamento usando: `{prefix}premium buy «quantidade» «personagem»`, substituindo pela quantidade enviada e pelo nome do personagem do qual você transferiu os Tibia Coins."
 
 #: cogs/premium.py:594
 msgid "*Remember to remove the `«` `»` symbols!*"
-msgstr ""
+msgstr "*Não se esqueça de remover os símbolos `«` `»`!*"
 
 #: cogs/premium.py:595
 msgid "NabBot Premium Prices"
@@ -3089,24 +3096,24 @@ msgstr "Preços da Premium do NabBot"
 #: cogs/premium.py:598
 #, python-brace-format
 msgid "You can also become a [Patron]({url}) to get premium benefits."
-msgstr ""
+msgstr "Você também pode se tornar um apoiador no [Patron]({url}) para obter benefícios premium."
 
 #: cogs/premium.py:600
 msgid "More information"
-msgstr ""
+msgstr "Mais informações"
 
 #: cogs/premium.py:602 cogs/tibiawiki.py:1339
 msgid "Premium"
-msgstr ""
+msgstr "Premium"
 
 #: cogs/premium.py:605
 msgid "Other commands"
-msgstr ""
+msgstr "Outros comandos"
 
 #: cogs/premium.py:606
 #, python-brace-format
 msgid "For help and other commands: `{prefix}help premium`"
-msgstr ""
+msgstr "Para ajuda e outros comandos: `{prefix}help premium`"
 
 #: cogs/premium.py:612
 msgid "Unassigns premium from a server you gave premium to as a Patreon."
@@ -3134,41 +3141,41 @@ msgstr "Você deve me dizer o ID do servidor do qual deseja remover a premium.\n
 #: cogs/premium.py:637
 #, python-brace-format
 msgid "You currently do not have any premium servers. To assign one use: `{prefix}{command} add`"
-msgstr ""
+msgstr "Você atualmente não tem nenhum servidor premium. Para atribuir premium, use: `{prefix}{command} add`"
 
 #: cogs/premium.py:642
 msgid "You haven't assigned premium to any server with this ID."
-msgstr ""
+msgstr "Você não atribuiu premium a nenhum servidor com esse ID."
 
 #: cogs/premium.py:644
 msgid "You can't remove premium from a server with premium days."
-msgstr ""
+msgstr "Você não pode remover a premium de um servidor para o qual você atribuiu dias de premium."
 
 #: cogs/premium.py:646
 msgid "You can only unassign a server after 5 days."
-msgstr ""
+msgstr "Você só pode remover a premium de um servidor 5 dias após ter atribuído premium a ele."
 
 #: cogs/premium.py:648
 #, python-brace-format
 msgid "<Unknown Server {id}>"
-msgstr ""
+msgstr "<Unknown Server {id}>"
 
 #: cogs/premium.py:649
 #, python-brace-format
 msgid "Are you sure you want to remove premium from **{name}**?"
-msgstr ""
+msgstr "Você tem certeza que deseja remover a premium de **{name}**?"
 
 #: cogs/premium.py:654
 msgid "Premium server removed."
-msgstr ""
+msgstr "Premium removida do servidor."
 
 #: cogs/premium.py:660
 msgid "Shows a list of the premium days the server has received."
-msgstr ""
+msgstr "Mostra uma lista dos dias de premium que o servidor recebeu."
 
 #: cogs/premium.py:665
 msgid "This server currently has no transaction history."
-msgstr ""
+msgstr "Este servidor não tem histórico de transações."
 
 #: cogs/premium.py:669
 msgid "<Unknown User>"
@@ -3176,23 +3183,23 @@ msgstr "<Usuário Desconhecido>"
 
 #: cogs/premium.py:674
 msgid "Premium History"
-msgstr ""
+msgstr "Histórico de Premium"
 
 #: cogs/premium.py:812
 msgid "Shows details about a specific transaction."
-msgstr ""
+msgstr "Mostra detalhes sobre uma transação específica."
 
 #: cogs/premium.py:813
 msgid "You can only view your own transactions. To see a list of them use `premium history`."
-msgstr ""
+msgstr "Você só pode ver suas próprias transações. Para ver uma lista delas, use `premium history`."
 
 #: cogs/premium.py:818
 msgid "There is no transaction with that ID or it does not belong to you."
-msgstr ""
+msgstr "Não há nenhuma transação com esse ID ou ela não pertence a você."
 
 #: cogs/premium.py:834
 msgid "This server already has premium."
-msgstr ""
+msgstr "Este servidor já é premium."
 
 #: cogs/premium.py:836
 #, python-brace-format
@@ -3203,43 +3210,44 @@ msgstr ""
 #: cogs/premium.py:842
 #, python-brace-format
 msgid "**{server}** is now a premium server."
-msgstr ""
+msgstr "**{server}** agora é um servidor premium."
 
 #: cogs/premium.py:853
 #, python-brace-format
 msgid "Are you sure you want to give {days} premium days to **{server}**?\n"
 "*These premium days can't be removed.*"
-msgstr ""
+msgstr "Você tem certeza que quer dar {days} dias de premium a **{server}**?\n"
+"*Esses dias de premium não podem ser removidos.*"
 
 #: cogs/premium.py:862
 msgid "You cannot assign premium to a server that a Patron is giving premium to."
-msgstr ""
+msgstr "Você não pode atribuir premium a um servidor ao qual um apoiador do Patreon já está dando premium."
 
 #: cogs/premium.py:871
 #, python-brace-format
 msgid "**{server}** has received {days} premium days."
-msgstr ""
+msgstr "**{server}** recebeu {days} dias premium."
 
 #: cogs/premium.py:891
 #, python-brace-format
 msgid "Transaction No. {id}"
-msgstr ""
+msgstr "Transação N° {id}"
 
 #: cogs/premium.py:893
 msgid "Submitted on"
-msgstr ""
+msgstr "Enviado em"
 
 #: cogs/premium.py:899 cogs/tibia.py:2176
 msgid "Status"
-msgstr ""
+msgstr "Situação"
 
 #: cogs/premium.py:902
 msgid "Amount"
-msgstr ""
+msgstr "Quantidade"
 
 #: cogs/premium.py:904
 msgid "Days"
-msgstr ""
+msgstr "Dias"
 
 #: cogs/premium.py:908
 msgid "Details"
@@ -3247,7 +3255,7 @@ msgstr "Detalhes"
 
 #: cogs/premium.py:910
 msgid "Additional Comments"
-msgstr ""
+msgstr "Comentários Adicionais"
 
 #: cogs/respawn.py:30
 msgid "No respawns were registered."
@@ -3265,7 +3273,7 @@ msgstr "Sistema de respawn não está configurado para este servidor. Use `{pref
 #: cogs/respawn.py:204
 #, python-brace-format
 msgid "Your time at **{respawn}** (Server: {server}) has ended."
-msgstr ""
+msgstr "Seu tempo em **{respawn}** (Servidor: {server}) terminou."
 
 #: cogs/respawn.py:220
 #, python-brace-format
