@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-04 17:27-0700\n"
+"POT-Creation-Date: 2021-05-08 08:42-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2035,7 +2035,7 @@ msgstr ""
 msgid "That is not a valid id."
 msgstr ""
 
-#: cogs/info.py:251 cogs/tibia.py:2182
+#: cogs/info.py:251 cogs/tibia.py:2183
 msgid "Owner"
 msgstr ""
 
@@ -3225,7 +3225,7 @@ msgstr ""
 msgid "Submitted on"
 msgstr ""
 
-#: cogs/premium.py:899 cogs/tibia.py:2176
+#: cogs/premium.py:899 cogs/tibia.py:2177
 msgid "Status"
 msgstr ""
 
@@ -3628,7 +3628,7 @@ msgid ""
 msgstr ""
 
 #: cogs/respawn.py:612
-msgid "Chanel created successfully"
+msgid "Channel created successfully"
 msgstr ""
 
 #: cogs/respawn.py:678 cogs/respawn.py:694
@@ -3755,7 +3755,7 @@ msgid ""
 "Note that guild changes from members that haven't been online won't be affected.\n"
 "Deleted rules won't have any effect.\n"
 "\n"
-"This command can only be used once per server ever day."
+"This command can only be used once per server per day."
 msgstr ""
 
 #: cogs/roles.py:261
@@ -4845,7 +4845,7 @@ msgstr ""
 msgid "There are not registered level ups by this user."
 msgstr ""
 
-#: cogs/tibia.py:1103 cogs/tibia.py:2314
+#: cogs/tibia.py:1103 cogs/tibia.py:2315
 #, python-brace-format
 msgid "{name} latest level ups"
 msgstr ""
@@ -5047,7 +5047,7 @@ msgstr ""
 msgid "Shows a user's recent level ups and deaths on their characters."
 msgstr ""
 
-#: cogs/tibia.py:1392 cogs/tibia.py:2361
+#: cogs/tibia.py:1392 cogs/tibia.py:2362
 #, python-brace-format
 msgid "{name} timeline"
 msgstr ""
@@ -5454,102 +5454,103 @@ msgstr ""
 msgid "{name}{online_icon} (Lvl {level} {voc})"
 msgstr ""
 
-#: cogs/tibia.py:2124
-#, python-brace-format
-msgid "and {count} more"
+#. Indicates that the list was cut short and there are still more entries. (e.g. and 4 more). Don't add "and"
+#: cogs/tibia.py:2125
+#, python-format
+msgid "%d more"
 msgstr ""
 
-#: cogs/tibia.py:2126
+#: cogs/tibia.py:2127
 #, python-brace-format
 msgid "**{user}**'s character is: {character_list}"
 msgid_plural "**{user}**'s characters are: {character_list}"
 msgstr[0] ""
 msgstr[1] ""
 
-#: cogs/tibia.py:2135
+#: cogs/tibia.py:2136
 msgid "The valid categories are:"
 msgstr ""
 
-#: cogs/tibia.py:2140
+#: cogs/tibia.py:2141
 msgid "The valid vocation filters are:"
 msgstr ""
 
-#: cogs/tibia.py:2154
+#: cogs/tibia.py:2155
 msgid "{rent:,} gold per month"
 msgstr ""
 
-#: cogs/tibia.py:2156 cogs/tibiawiki.py:662
+#: cogs/tibia.py:2157 cogs/tibiawiki.py:662
 msgid "Type"
 msgstr ""
 
-#: cogs/tibia.py:2156
+#: cogs/tibia.py:2157
 msgctxt "House type"
 msgid "House"
 msgstr ""
 
-#: cogs/tibia.py:2156
+#: cogs/tibia.py:2157
 msgctxt "House type"
 msgid "Guildhall"
 msgstr ""
 
-#: cogs/tibia.py:2157
+#: cogs/tibia.py:2158
 msgid "Bed Limit"
 msgstr ""
 
-#: cogs/tibia.py:2158
+#: cogs/tibia.py:2159
 msgid "Size"
 msgstr ""
 
-#: cogs/tibia.py:2159
+#: cogs/tibia.py:2160
 msgid "City"
 msgstr ""
 
-#: cogs/tibia.py:2160
+#: cogs/tibia.py:2161
 msgid "Rent"
 msgstr ""
 
-#: cogs/tibia.py:2162
+#: cogs/tibia.py:2163
 msgid "Information"
 msgstr ""
 
-#: cogs/tibia.py:2169
+#: cogs/tibia.py:2170
 msgid "TibiaWiki article"
 msgstr ""
 
-#: cogs/tibia.py:2183
+#: cogs/tibia.py:2184
 msgid "Paid Until"
 msgstr ""
 
-#: cogs/tibia.py:2187
+#: cogs/tibia.py:2188
 msgid "Moving out on"
 msgstr ""
 
-#: cogs/tibia.py:2192
+#: cogs/tibia.py:2193
 msgid "Transferring to"
 msgstr ""
 
-#: cogs/tibia.py:2193
+#: cogs/tibia.py:2194
 msgid "Transfer Price"
 msgstr ""
 
-#: cogs/tibia.py:2194
+#: cogs/tibia.py:2195
 msgid "Accepted"
 msgstr ""
 
-#: cogs/tibia.py:2198
+#: cogs/tibia.py:2199
 msgid "Highest Bid"
 msgstr ""
 
-#: cogs/tibia.py:2199
+#: cogs/tibia.py:2200
 msgid "Highest Bidder"
 msgstr ""
 
-#: cogs/tibia.py:2200
+#: cogs/tibia.py:2201
 msgid "Auction End"
 msgstr ""
 
 #. The world where the house is in
-#: cogs/tibia.py:2203
+#: cogs/tibia.py:2204
 #, python-brace-format
 msgid "In {world}"
 msgstr ""
@@ -5557,56 +5558,56 @@ msgstr ""
 #. Entry for character deaths
 #. Level up entry for levels command
 #. Level up entry for timeline command for a specific character
-#: cogs/tibia.py:2232 cogs/tibia.py:2266 cogs/tibia.py:2368
+#: cogs/tibia.py:2233 cogs/tibia.py:2267 cogs/tibia.py:2369
 #, python-brace-format
 msgid "At level **{level}** by {killer} - *{time} ago*"
 msgstr ""
 
-#: cogs/tibia.py:2258
+#: cogs/tibia.py:2259
 #, python-brace-format
 msgid "{name} latest deaths"
 msgstr ""
 
 #. Entries for recent deaths
-#: cogs/tibia.py:2290
+#: cogs/tibia.py:2291
 #, python-brace-format
 msgid "{name} (**@{user}**) - At level **{level}** by {killer} - {time} ago"
 msgstr ""
 
 #. Entry for levels command, for a specific character
 #. Death entry for timeline command for a specific character
-#: cogs/tibia.py:2319 cogs/tibia.py:2374
+#: cogs/tibia.py:2320 cogs/tibia.py:2375
 #, python-brace-format
 msgid "Level **{level}** - *{time} ago*"
 msgstr ""
 
-#: cogs/tibia.py:2325
+#: cogs/tibia.py:2326
 msgid "Latest level ups"
 msgstr ""
 
 #. Lines in levels command
-#: cogs/tibia.py:2339
+#: cogs/tibia.py:2340
 #, python-brace-format
 msgid "{name} - Level **{level}** - **@{user}** - *{time} ago*"
 msgstr ""
 
-#: cogs/tibia.py:2382
+#: cogs/tibia.py:2383
 msgid "Timeline"
 msgstr ""
 
 #. Death entry for timeline commamd
-#: cogs/tibia.py:2401
+#: cogs/tibia.py:2402
 #, python-brace-format
 msgid "{name} (**@{user}**) - At level **{level}** by {killer} - *{time} ago*"
 msgstr ""
 
 #. Level up entry for timeline command
-#: cogs/tibia.py:2408
+#: cogs/tibia.py:2409
 #, python-brace-format
 msgid "{name} (**@{user}**) - Level **{level}** - *{time} ago*"
 msgstr ""
 
-#: cogs/tibia.py:2538
+#: cogs/tibia.py:2539
 #, python-format
 msgid "**%d** day"
 msgid_plural "**%d** days"
@@ -5614,24 +5615,24 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. Last time the boss was seen
-#: cogs/tibia.py:2541
+#: cogs/tibia.py:2542
 #, python-brace-format
 msgid "Last seen {time} ago"
 msgstr ""
 
 #. Time to expect the boss to show up again
-#: cogs/tibia.py:2544
+#: cogs/tibia.py:2545
 #, python-brace-format
 msgid "Expect in {time}"
 msgstr ""
 
 #. Parameter validation for highscores command
-#: cogs/tibia.py:2575
+#: cogs/tibia.py:2576
 msgid "Invalid category or world."
 msgstr ""
 
 #. Parameter validation for highscores command
-#: cogs/tibia.py:2584
+#: cogs/tibia.py:2585
 msgid "Invalid vocation filter."
 msgstr ""
 
@@ -6687,7 +6688,7 @@ msgstr ""
 msgid ""
 "Changes whether anyone can join an event or only the owner may add people.\n"
 "\n"
-"        If an event is joinable, anyone can join using `event join id`  .\n"
+"        If an event is joinable, anyone can join using `event join id`.\n"
 "        Otherwise, the event creator has to add people with `event addplayer id`."
 msgstr ""
 
@@ -6759,7 +6760,7 @@ msgstr ""
 #: cogs/timers.py:1056
 #, python-brace-format
 msgid ""
-"What would you like to be the new number of slots for  **{event}**? You can `cancel` this.\n"
+"What would you like to be the new number of slots for **{event}**? You can `cancel` this.\n"
 " Note that `0` means no slot limit."
 msgstr ""
 
