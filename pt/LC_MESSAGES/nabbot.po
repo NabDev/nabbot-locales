@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-08 08:42-0700\n"
-"PO-Revision-Date: 2021-05-08 15:46\n"
+"PO-Revision-Date: 2021-05-08 17:03\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -5265,7 +5265,7 @@ msgstr ""
 #: cogs/tibia.py:1796
 #, python-format
 msgid "and %d more"
-msgstr ""
+msgstr "e mais %d"
 
 #: cogs/tibia.py:1877
 #, python-brace-format
@@ -5470,7 +5470,7 @@ msgstr "{name}{online_icon} (Lvl {level} {voc})"
 #: cogs/tibia.py:2125
 #, python-format
 msgid "%d more"
-msgstr ""
+msgstr "mais %d"
 
 #: cogs/tibia.py:2127
 #, python-brace-format
