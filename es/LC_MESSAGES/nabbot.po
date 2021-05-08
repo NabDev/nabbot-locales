@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-08 08:42-0700\n"
-"PO-Revision-Date: 2021-05-08 15:46\n"
+"PO-Revision-Date: 2021-05-08 17:03\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3651,7 +3651,7 @@ msgstr "Aquí es donde publicaré una lista de spawns **actualmente ocupados**. 
 
 #: cogs/respawn.py:612
 msgid "Channel created successfully"
-msgstr ""
+msgstr "Canal creado con éxito"
 
 #: cogs/respawn.py:678 cogs/respawn.py:694
 msgid "Respawns"
@@ -3778,7 +3778,10 @@ msgid "This will apply existing rules to all members.\n"
 "Note that guild changes from members that haven't been online won't be affected.\n"
 "Deleted rules won't have any effect.\n\n"
 "This command can only be used once per server per day."
-msgstr ""
+msgstr "Esto aplicará las reglas existentes a todos los miembros.\n"
+"Tenga en cuenta que los cambios de los miembros que no se han conectado no se verán afectados.\n"
+"Las reglas eliminadas no tendrán ningún efecto.\n\n"
+"Este comando sólo puede utilizarse una vez al día en el servidor."
 
 #: cogs/roles.py:261
 msgid "This will make me check the guilds of all registered characters to apply existing rules.\n"
@@ -5492,7 +5495,7 @@ msgstr "{name}{online_icon} (Nvl {level} {voc})"
 #: cogs/tibia.py:2125
 #, python-format
 msgid "%d more"
-msgstr ""
+msgstr "%d más"
 
 #: cogs/tibia.py:2127
 #, python-brace-format
@@ -6798,7 +6801,8 @@ msgstr "Los espacios son el número de personajes que un evento puede tener. Por
 #, python-brace-format
 msgid "What would you like to be the new number of slots for **{event}**? You can `cancel` this.\n"
 " Note that `0` means no slot limit."
-msgstr ""
+msgstr "¿Cuál te gustaría ser el nuevo número de espacios para **{event}**? Puedes `cancelar` esto.\n"
+" Ten en cuenta que `0` significa que no hay límite de espacios."
 
 #: cogs/timers.py:1070
 msgid "You can't have negative slots!"
