@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-11 07:51-0700\n"
-"PO-Revision-Date: 2021-05-11 15:30\n"
+"PO-Revision-Date: 2021-05-11 18:30\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4051,7 +4051,7 @@ msgid "The message will mention the role {name}. Your name will appear at the bo
 "You can also say `cancel` to exit."
 msgstr "El mensaje mencionará el rol {name}. Tu nombre aparecerá al final del mensaje.\n"
 "Por favor, dime el contenido del mensaje.\n"
-"También puedes decir `cancel` para salir."
+"También puedes decir `cancelar` para salir."
 
 #: cogs/roles.py:533
 msgid "The message can't be longer than {limit:,} characters."
