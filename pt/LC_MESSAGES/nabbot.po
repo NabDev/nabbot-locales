@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-11 07:51-0700\n"
-"PO-Revision-Date: 2021-05-11 22:40\n"
+"PO-Revision-Date: 2021-05-11 23:19\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -178,7 +178,7 @@ msgstr[1] "%d registros"
 
 #: utils/pages.py:354 utils/pages.py:418
 msgid "No help given."
-msgstr ""
+msgstr "Não há ajuda para esse comando."
 
 #: utils/pages.py:412
 #, python-brace-format
@@ -1143,7 +1143,7 @@ msgstr "O canal {name} não foi definido."
 #: cogs/admin.py:799
 #, python-brace-format
 msgid "Are you sure you want to disable the set {name}?"
-msgstr ""
+msgstr "Tem certeza que deseja desativar o {name}?"
 
 #: cogs/admin.py:808
 #, python-brace-format
@@ -1638,7 +1638,7 @@ msgstr "Para mais informações e links em: `{0}about`"
 
 #: cogs/core.py:421
 msgid "getting started guide"
-msgstr ""
+msgstr "guia de introdução"
 
 #: cogs/core.py:422
 #, python-brace-format
@@ -2600,7 +2600,7 @@ msgstr "Detectando slots de itens"
 
 #: cogs/loot.py:400
 msgid "I couldn't find any inventory slots in your image. Make sure your image is not stretched out or that overscaling is off."
-msgstr ""
+msgstr "Não consegui encontrar nenhum slot no inventário em sua imagem. Certifique-se de que sua imagem não esteja esticada ou que o aumento de escala esteja desativado."
 
 #: cogs/loot.py:405
 msgid "{slots:,} slot found."
@@ -3774,7 +3774,10 @@ msgid "This will apply existing rules to all members.\n"
 "Note that guild changes from members that haven't been online won't be affected.\n"
 "Deleted rules won't have any effect.\n\n"
 "This command can only be used once per server per day."
-msgstr ""
+msgstr "Isto aplicará as regras existentes para todos os membros.\n"
+"Observe que alterações nas guilds dos membros que não estiveram online não serão detectadas.\n"
+"Regras excluídas não terão qualquer efeito.\n\n"
+"Este comando só pode ser usado uma vez por servidor a cada dia."
 
 #: cogs/roles.py:261
 msgid "This will make me check the guilds of all registered characters to apply existing rules.\n"
@@ -4072,7 +4075,7 @@ msgstr "Mostra os cargos de um usuário ou uma lista de cargos do servidor."
 msgid "If a user is specified, it will list their roles.\n"
 "If user is blank, I will list all the server's roles."
 msgstr "Se um usuário for especificado, seus cargos serão listados.\n"
-"Se o usuário estiver em branco, vou listar todas os cargos do servidor."
+"Se o usuário estiver em branco, todos os cargos do servidor serão listados."
 
 #: cogs/roles.py:557
 msgid "Roles in this server"
@@ -5132,7 +5135,7 @@ msgstr "O horário em `{timezone}` é **{local_time}**.\n"
 #: cogs/tibia.py:1489 cogs/tibia.py:1554
 #, python-format
 msgid "The display name can't be longer than %d characters."
-msgstr ""
+msgstr "O nome de exibição não pode ter mais de %d caracteres."
 
 #: cogs/tibia.py:1495
 msgid "That timezone already exists."
