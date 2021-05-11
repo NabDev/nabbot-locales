@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-08 08:42-0700\n"
-"PO-Revision-Date: 2021-05-11 04:02\n"
+"PO-Revision-Date: 2021-05-11 13:53\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -5959,11 +5959,11 @@ msgstr "Mostra onde o Rashid está hoje."
 
 #: cogs/tibiawiki.py:479
 msgid "Displays information about a spell."
-msgstr ""
+msgstr "Exibe informações sobre uma magia."
 
 #: cogs/tibiawiki.py:488
 msgid "I couldn't find a spell with that name or words."
-msgstr ""
+msgstr "Não consegui encontrar uma magia com esse nome ou palavras."
 
 #: cogs/tibiawiki.py:532
 msgid "Shows information about the TibiaWiki database."
@@ -5980,86 +5980,86 @@ msgstr ""
 #: cogs/tibiawiki.py:603
 #, python-brace-format
 msgid "Implemented in version {version}."
-msgstr ""
+msgstr "Implementado na versão {version}."
 
 #: cogs/tibiawiki.py:651
 #, python-brace-format
 msgid "Use '{prefix}{command} «name»' to see more information."
-msgstr ""
+msgstr "Use '{prefix}{command} «name»' para ver mais informações."
 
 #: cogs/tibiawiki.py:663 cogs/tibiawiki.py:721 cogs/tibiawiki.py:741
 #: cogs/tibiawiki.py:747 cogs/tibiawiki.py:754
 msgid "Cost"
-msgstr ""
+msgstr "Custo"
 
 #: cogs/tibiawiki.py:666 cogs/tibiawiki.py:695
 msgid "Effect"
-msgstr ""
+msgstr "Efeito"
 
 #. Common names for the key
 #: cogs/tibiawiki.py:677
 #, python-brace-format
 msgid "**Also known as:** {name}"
-msgstr ""
+msgstr "**Também conhecida como:** {name}"
 
 #: cogs/tibiawiki.py:681
 msgid "Origin"
-msgstr ""
+msgstr "Origem"
 
 #: cogs/tibiawiki.py:683
 msgid "Notes/Use"
-msgstr ""
+msgstr "Notas/Uso"
 
 #: cogs/tibiawiki.py:697
 #, python-brace-format
 msgid "Provide material prices to calculate costs. More info: {prefix}help {command}"
-msgstr ""
+msgstr "Forneça os preços dos materiais para calcular os custos. Mais informações: {prefix}help {command}"
 
 #: cogs/tibiawiki.py:700
 msgid "Not enough material prices provided for this tier."
-msgstr ""
+msgstr "Não foram fornecidos preços de todos os materiais para o imbuement neste nível."
 
 #. Gold fees for each tier
 #. Gold fees for each tier with 100% chance
 #: cogs/tibiawiki.py:704 cogs/tibiawiki.py:720 cogs/tibiawiki.py:728
 #: cogs/tibiawiki.py:767
 msgid "Materials"
-msgstr ""
+msgstr "Materiais"
 
 #: cogs/tibiawiki.py:723
 msgid "Add gold token price at the end to find the cheapest option."
-msgstr ""
+msgstr "Adicione o preço do gold token no final para encontrar a opção mais barata."
 
 #. Price per individual item
 #: cogs/tibiawiki.py:727 cogs/tibiawiki.py:786
 msgid "gold each"
-msgstr ""
+msgstr "gold cada"
 
 #: cogs/tibiawiki.py:740
 msgid "Getting the materials is cheaper."
-msgstr ""
+msgstr "É mais barato comprar os materiais."
 
 #: cogs/tibiawiki.py:746
 msgid "Getting all the materials with gold tokens is cheaper."
-msgstr ""
+msgstr "É mais barato adquirir os materiais com gold tokens."
 
 #: cogs/tibiawiki.py:752
 #, python-brace-format
 msgid "Getting the materials for **{tier} {imbuement}** with gold tokens and buying the rest is cheaper."
-msgstr ""
+msgstr "É mais barato adquirir os materiais para **{tier} {imbuement}** com gold tokens e comprar o restante."
 
 #: cogs/tibiawiki.py:769
 msgid "gold/hour"
-msgstr ""
+msgstr "gold/hora"
 
 #: cogs/tibiawiki.py:770
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: cogs/tibiawiki.py:771
 #, python-format
 msgid "100% chance"
-msgstr ""
+msgstr "100% de chance"
 
 #: cogs/tibiawiki.py:804
 msgid "Sold for"
