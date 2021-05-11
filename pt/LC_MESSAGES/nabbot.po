@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-11 07:51-0700\n"
-"PO-Revision-Date: 2021-05-11 17:27\n"
+"PO-Revision-Date: 2021-05-11 18:30\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -4843,7 +4843,7 @@ msgstr "Se um personagem for especificado, ele exibe uma lista dos avanços de l
 
 #: cogs/tibia.py:1062
 msgid "There are no registered levels."
-msgstr "Não há nenhum level registrado."
+msgstr "Não há nenhum avanço de level registrado."
 
 #: cogs/tibia.py:1075
 msgid "Shows a user's recent level ups on their registered characters."
@@ -6674,7 +6674,7 @@ msgstr "Se uma nova descrição não for fornecida, o bot solicitará uma.\n"
 #: cogs/timers.py:901
 #, python-brace-format
 msgid "What would you like to be the new description of **{event}**?You can `cancel` this or set a `blank` description."
-msgstr ""
+msgstr "Qual você gostaria que fosse a nova descrição de **{event}**? Você pode `cancelar` isto ou deixar a descrição `em branco`."
 
 #: cogs/timers.py:921
 msgid "Do you want this to be the new description?"
@@ -6811,7 +6811,8 @@ msgstr "Se um novo horário não for inicialmente fornecido, o bot solicitará u
 #, python-brace-format
 msgid "When would you like the new start time of **{event}** be?You can `cancel` this.\n"
 " Examples: `1h20m`, `2d10m`"
-msgstr ""
+msgstr "Qual você gostaria que fosse o novo horário de início de **{event}**? Você pode `cancelar` isso.\n"
+" Exemplos: `1h20m`, `2d10m`"
 
 #: cogs/timers.py:1125
 msgid "This will be the new time of your event.\n"
@@ -6864,7 +6865,7 @@ msgstr ""
 #: cogs/timers.py:1193
 #, python-brace-format
 msgid "You can't join this event.Maybe you meant to subscribe? Try `{prefix}event sub {event_id}`."
-msgstr ""
+msgstr "Você não pode participar deste evento. Talvez você queira se inscrever nele? Use `{prefix}event sub {event_id}`."
 
 #: cogs/timers.py:1198
 msgid "All the slots for this event has been filled."
@@ -6880,7 +6881,7 @@ msgstr "Você não pode participar com um personagem de outro mundo."
 
 #: cogs/timers.py:1205
 msgid "A character of yours is already in this event."
-msgstr ""
+msgstr "Um personagem seu já está inscrito neste evento."
 
 #: cogs/timers.py:1207
 #, python-brace-format
@@ -6893,7 +6894,7 @@ msgstr "Você está agora participando deste evento."
 
 #: cogs/timers.py:1222
 msgid "Leave an event you were participating in."
-msgstr ""
+msgstr "Sai de um evento no qual você está participando."
 
 #: cogs/timers.py:1231
 msgid "You haven't joined this event."
@@ -6910,15 +6911,15 @@ msgstr "Você saiu com êxito deste evento."
 
 #: cogs/timers.py:1251
 msgid "Creates an event guiding you step by step."
-msgstr ""
+msgstr "Cria um evento guiando você passo a passo."
 
 #: cogs/timers.py:1252
 msgid "Instead of using confusing parameters, commas and spaces, this command will guide you through the process."
-msgstr ""
+msgstr "Em vez de usar parâmetros confusos, vírgulas e espaços, este comando irá guiá-lo passo a passo pelo processo."
 
 #: cogs/timers.py:1261
 msgid "Let's create an event. What would you like the name to be? You can `cancel` at any time."
-msgstr ""
+msgstr "Vamos criar um evento. Qual você gostaria que fosse o nome dele? Você pode `cancelar` a qualquer momento."
 
 #: cogs/timers.py:1285
 msgid "This is your event so far:"
@@ -6931,12 +6932,12 @@ msgstr "Seu evento será chamado **{name}**."
 
 #: cogs/timers.py:1287
 msgid "Now, what description would you like your event to have? `none/blank` to leave it empty. Bold, italics and links are supported."
-msgstr ""
+msgstr "Agora, qual descrição você gostaria que seu evento tivesse? Envie `nada` ou `vazio` para deixá-lo vazio. Negrito, itálico e links são suportados."
 
 #: cogs/timers.py:1289
 #, python-brace-format
 msgid "You took too long {user}, event making cancelled."
-msgstr ""
+msgstr "Você demorou muito, {user}, a criação do evento foi cancelada."
 
 #: cogs/timers.py:1305
 msgid "Is this right?"
@@ -6970,11 +6971,11 @@ msgstr "Ok, novamente, diga quando o evento começará.\n"
 
 #: cogs/timers.py:1366
 msgid "This will be your event, confirm that everything is correct and we will be done."
-msgstr ""
+msgstr "Este será o seu evento, confirme se tudo está certo e estaremos prontos."
 
 #: cogs/timers.py:1384
 msgid "Shows the list of characters participating in this event."
-msgstr ""
+msgstr "Mostra a lista de personagens que participam deste evento."
 
 #: cogs/timers.py:1393
 #, python-brace-format
@@ -6984,7 +6985,7 @@ msgstr ""
 #: cogs/timers.py:1395
 #, python-brace-format
 msgid "There are no participants in this event.{join_prompt}"
-msgstr ""
+msgstr "Não há participantes neste evento.{join_prompt}"
 
 #: cogs/timers.py:1405 cogs/tracking.py:1364
 msgid "unknown"
@@ -6992,90 +6993,91 @@ msgstr ""
 
 #: cogs/timers.py:1422
 msgid "Deletes or cancels an event."
-msgstr ""
+msgstr "Exclui ou cancela um evento."
 
 #: cogs/timers.py:1430
 #, python-brace-format
 msgid "Do you want to delete the event **{event}**?"
-msgstr ""
+msgstr "Deseja excluir o evento **{event}**?"
 
 #: cogs/timers.py:1441
 msgid "The event was deleted successfully."
-msgstr ""
+msgstr "O evento foi excluído com sucesso."
 
 #: cogs/timers.py:1446
 #, python-brace-format
 msgid "Your event **{event}** was deleted by {user}."
-msgstr ""
+msgstr "Seu evento **{event}** foi excluído por {user}."
 
 #: cogs/timers.py:1450
 #, python-brace-format
 msgid "The event **{event}** was deleted by {user}."
-msgstr ""
+msgstr "O evento **{event}** foi excluído por {user}."
 
 #: cogs/timers.py:1457
 msgid "Removes a player from an event."
-msgstr ""
+msgstr "Remove um jogador de um evento."
 
 #: cogs/timers.py:1458
 msgid "Only the event's creator can remove players through this command.\n"
 "Players can remove themselves using `event leave`."
-msgstr ""
+msgstr "Apenas o criador do evento pode remover jogadores através desse comando.\n"
+"Jogadores podem se remover usando `event leave`."
 
 #: cogs/timers.py:1470
 msgid "This character is not in this event."
-msgstr ""
+msgstr "Esse personagem não está neste evento."
 
 #: cogs/timers.py:1473
 #, python-brace-format
 msgid "Do you want to remove **{char}** ({owner}) from **{event}**?"
-msgstr ""
+msgstr "Deseja remover **{char}** ({owner}) de **{event}**?"
 
 #: cogs/timers.py:1484
 msgid "The character was removed from event."
-msgstr ""
+msgstr "O personagem foi removido do evento."
 
 #: cogs/timers.py:1491
 msgid "Subscribe to receive a PM when an event is happening."
-msgstr ""
+msgstr "Inscreva-se para receber uma mensagem privada quando um evento estiver acontecendo."
 
 #: cogs/timers.py:1498
 msgid "You're already subscribed to this event."
-msgstr ""
+msgstr "Você já está inscrito neste evento."
 
 #: cogs/timers.py:1499
 #, python-brace-format
 msgid "Do you want to subscribe to **{event}**"
-msgstr ""
+msgstr "Deseja se inscrever em **{event}**"
 
 #: cogs/timers.py:1509
 msgid "You have subscribed successfully to this event. I'll let you know when it's happening."
-msgstr ""
+msgstr "Você se inscreveu com sucesso neste evento. Avisarei quando ele estiver acontecendo."
 
 #: cogs/timers.py:1516
 msgid "Unsubscribe to an event."
-msgstr ""
+msgstr "Cancela a inscrição em um evento."
 
 #: cogs/timers.py:1517
 msgid "You will no longer receive private messages when this event is happening or when changes are done."
-msgstr ""
+msgstr "Você não receberá mais mensagens privadas quando este evento estiver acontecendo ou quando alterações forem feitas."
 
 #: cogs/timers.py:1524
 msgid "You can't unsubscribe from your own event."
-msgstr ""
+msgstr "Você não pode cancelar a inscrição em seu próprio evento."
 
 #: cogs/timers.py:1526
 msgid "You are not subscribed to this event."
-msgstr ""
+msgstr "Você não está inscrito para este evento."
 
 #: cogs/timers.py:1527
 #, python-brace-format
 msgid "Do you want to unsubscribe to **{name}**"
-msgstr ""
+msgstr "Deseja cancelar a inscrição para **{name}**"
 
 #: cogs/timers.py:1535
 msgid "You have unsubscribed from this event."
-msgstr ""
+msgstr "Você cancelou a inscrição neste evento."
 
 #: cogs/timers.py:1540
 msgid "Creates a personal reminder."
