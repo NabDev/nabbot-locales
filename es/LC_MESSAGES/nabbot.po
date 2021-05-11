@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-11 07:51-0700\n"
-"PO-Revision-Date: 2021-05-11 14:53\n"
+"PO-Revision-Date: 2021-05-11 15:30\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2569,7 +2569,8 @@ msgstr "\n"
 #, python-brace-format
 msgid "\n"
 "{emoji} Items marked with this are used in imbuements and might be worth more in the market."
-msgstr ""
+msgstr "\n"
+"{emoji} Los ítems marcados con esto se utilizan en las imbuements y podrían valer más en el mercado."
 
 #. Short message
 #: cogs/loot.py:316
@@ -5133,7 +5134,7 @@ msgstr "No se encontraron zonas horarias que coincidan con ese nombre."
 msgid "The time in `{timezone}` is **{local_time}**.\n"
 "What display name do you want to assign? You can `cancel` if you changed your mind."
 msgstr "El tiempo en `{timezone}` es **{local_time}**.\n"
-"¿Qué nombre mostrar quieres asignar? Puedes 'cancelar' si cambiaste de opinión."
+"¿Qué nombre mostrar quieres asignar? Puedes `cancelar` si cambiaste de opinión."
 
 #: cogs/tibia.py:1489 cogs/tibia.py:1554
 #, python-format
@@ -5229,7 +5230,7 @@ msgstr "Este mundo está offline."
 
 #: cogs/tibia.py:1673
 msgid "Players Online"
-msgstr ""
+msgstr "Jugadores en línea"
 
 #: cogs/tibia.py:1674
 msgid "The players online record is {count:,}"
@@ -5247,7 +5248,7 @@ msgstr "Siempre"
 
 #: cogs/tibia.py:1688
 msgid "BattlEye Since"
-msgstr ""
+msgstr "BattlEye desde"
 
 #: cogs/tibia.py:1693
 msgid "PvP Type"
@@ -5255,7 +5256,7 @@ msgstr "Tipo de PvP"
 
 #: cogs/tibia.py:1695
 msgid "Premium Restricted"
-msgstr ""
+msgstr "Limitado a premium"
 
 #: cogs/tibia.py:1697
 msgid "Transfers"
@@ -5263,7 +5264,7 @@ msgstr "Transferencias"
 
 #: cogs/tibia.py:1701
 msgid "Vocations Distribution"
-msgstr ""
+msgstr "Distribución por vocación"
 
 #: cogs/tibia.py:1714
 msgid "Shows a list of worlds."
@@ -7019,7 +7020,7 @@ msgstr "Borra o cancela un evento."
 #: cogs/timers.py:1430
 #, python-brace-format
 msgid "Do you want to delete the event **{event}**?"
-msgstr ""
+msgstr "¿Deseas eliminar el evento **{event}**?"
 
 #: cogs/timers.py:1441
 msgid "The event was deleted successfully."
@@ -7206,7 +7207,7 @@ msgstr "Watchlist desactivada debido a exceder el limite permitido."
 #: cogs/tracking.py:458
 #, python-brace-format
 msgid "{name} — Level {level} {vocation}"
-msgstr ""
+msgstr "{name} — Nivel {level} {vocation}"
 
 #: cogs/tracking.py:468
 msgid "There are no watched characters online."
