@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-11 07:51-0700\n"
-"PO-Revision-Date: 2021-05-11 15:30\n"
+"PO-Revision-Date: 2021-05-11 16:30\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -194,7 +194,7 @@ msgstr[1] "%d comandos"
 
 #: utils/pages.py:444
 msgid "Paginator help"
-msgstr ""
+msgstr "Ajuda do paginador"
 
 #: utils/pages.py:445
 msgid "Hello! Welcome to the help page."
@@ -521,7 +521,7 @@ msgstr "Enviar mensagens"
 
 #: cogs/admin.py:140 cogs/admin.py:145
 msgid "Pagination or commands that require reaction confirmation won't work."
-msgstr ""
+msgstr "Paginação ou comandos que exigem confirmação através de reações não funcionarão."
 
 #: cogs/admin.py:141
 msgid "Add Reactions"
@@ -541,7 +541,7 @@ msgstr "Ver histórico de mensagens"
 
 #: cogs/admin.py:147
 msgid "Command pagination won't work well."
-msgstr ""
+msgstr "A paginação do comando não funcionará bem."
 
 #: cogs/admin.py:147
 msgid "Manage Messages"
@@ -565,7 +565,7 @@ msgstr "Anexar arquivos"
 
 #: cogs/admin.py:150
 msgid "I only need this to manage auto roles and joinable roles."
-msgstr ""
+msgstr "Só preciso disso para gerenciar cargos automáticos e cargos selecionáveis."
 
 #: cogs/admin.py:150
 msgid "Manage Roles"
@@ -1138,7 +1138,7 @@ msgstr "Use \"{prefix}help {command} {subcommand}\" para mais informações."
 #: cogs/admin.py:798
 #, python-brace-format
 msgid "There's no {name} channel set."
-msgstr ""
+msgstr "O canal {name} não foi definido."
 
 #: cogs/admin.py:799
 #, python-brace-format
@@ -1153,7 +1153,7 @@ msgstr ""
 #: cogs/admin.py:811
 #, python-brace-format
 msgid "Are you sure you want {new_channel} as the new {name}?"
-msgstr ""
+msgstr "Tem certeza que deseja {new_channel} como o novo {name}?"
 
 #: cogs/calculators.py:91
 msgid "Unknown vocation."
@@ -1634,7 +1634,7 @@ msgstr "Se precisar de ajuda, junte-se ao meu servidor de suporte: **<{0}>**"
 #: cogs/core.py:419
 #, python-brace-format
 msgid "For more information and links in: `{0}about`"
-msgstr ""
+msgstr "Para mais informações e links em: `{0}about`"
 
 #: cogs/core.py:421
 msgid "getting started guide"
@@ -1643,7 +1643,7 @@ msgstr ""
 #: cogs/core.py:422
 #, python-brace-format
 msgid "Hi, I've been added to this server. Check out our {guide}"
-msgstr ""
+msgstr "Olá, eu fui adicionado a este servidor. Confira o nosso {guide}"
 
 #: cogs/core.py:425
 msgid "Some things you should know:"
@@ -1675,7 +1675,7 @@ msgstr "NabBot está agora em {count:,} servidores do Discord"
 
 #: cogs/general.py:32
 msgid "General use commands."
-msgstr ""
+msgstr "Comandos gerais."
 
 #: cogs/general.py:39
 msgid "Checks if you can receive PMs from the bot."
@@ -1764,7 +1764,7 @@ msgstr "Não consigo encontrar essa mensagem, talvez ela esteja em um canal que 
 
 #: cogs/general.py:125
 msgid "I can't quote embed messages."
-msgstr ""
+msgstr "Não posso citar mensagens embutidas."
 
 #: cogs/general.py:128
 msgid "I can't quote messages from NSFW channels in regular channels."
@@ -2117,7 +2117,7 @@ msgstr "Adicionado em"
 
 #: cogs/info.py:303
 msgid "Splash screen"
-msgstr ""
+msgstr "Janela inicial"
 
 #: cogs/info.py:308
 msgid "Shows how long the bot has been running."
@@ -2279,7 +2279,7 @@ msgstr "Personagens registrados"
 
 #: cogs/logging.py:116
 msgid "Reassigned"
-msgstr ""
+msgstr "Reatribuído"
 
 #: cogs/logging.py:135
 msgid "Unregistered characters"
@@ -2328,7 +2328,7 @@ msgstr "O canal `#{channel}` foi excluído. Todos os seus registros também fora
 #: cogs/logging.py:260
 #, python-brace-format
 msgid "This channel will be used as the {name}."
-msgstr ""
+msgstr "Este canal será usado como o {name}."
 
 #: cogs/logging.py:261
 #, python-brace-format
@@ -2587,7 +2587,7 @@ msgstr "total"
 
 #: cogs/loot.py:345
 msgid "Grand Total"
-msgstr ""
+msgstr "Total geral"
 
 #: cogs/loot.py:394
 msgid "Either that wasn't an image or I failed to load it, please try again."
@@ -2604,8 +2604,8 @@ msgstr ""
 #: cogs/loot.py:405
 msgid "{slots:,} slot found."
 msgid_plural "{slots:,} slots found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{slots:,} slot encontrado."
+msgstr[1] "{slots:,} slots encontrados."
 
 #: cogs/loot.py:407
 msgid "Identifying items…"
@@ -2627,7 +2627,7 @@ msgstr "Comandos relacionados à moderação."
 
 #: cogs/mod.py:97
 msgid "Cleans the channel from bot commands."
-msgstr ""
+msgstr "Limpa o canal dos comandos do bot."
 
 #: cogs/mod.py:98
 msgid "If the bot has `Manage Messages` permission, it will also delete command invocation messages."
@@ -2791,12 +2791,12 @@ msgstr "Pendente"
 #: cogs/premium.py:45
 msgctxt "transaction"
 msgid "Accepted"
-msgstr ""
+msgstr "Aceita"
 
 #: cogs/premium.py:46
 msgctxt "transaction"
 msgid "Rejected"
-msgstr ""
+msgstr "Rejeitada"
 
 #: cogs/premium.py:54
 msgid "This server's benefits will be removed."
@@ -3357,7 +3357,7 @@ msgstr "Mostra a lista de hunts realizadas anteriormente em um respawn."
 
 #: cogs/respawn.py:306
 msgid "Hunting History"
-msgstr ""
+msgstr "Histórico de Caça"
 
 #: cogs/respawn.py:307
 msgid "There is no hunt history for this respawn."
@@ -3646,7 +3646,7 @@ msgstr "Aqui é onde vou postar a lista de respawns **atualmente ocupados**. A i
 
 #: cogs/respawn.py:612
 msgid "Channel created successfully"
-msgstr ""
+msgstr "Canal criado com sucesso"
 
 #: cogs/respawn.py:678 cogs/respawn.py:694
 msgid "Respawns"
