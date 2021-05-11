@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-11 07:51-0700\n"
-"PO-Revision-Date: 2021-05-11 21:23\n"
+"PO-Revision-Date: 2021-05-11 22:40\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -2314,7 +2314,7 @@ msgstr "Grupo removido"
 #: cogs/logging.py:228
 #, python-brace-format
 msgid "Joinable role **{role}** deleted."
-msgstr ""
+msgstr "Cargo selecionável **{role}** excluído."
 
 #: cogs/logging.py:242
 msgid "Watchlist channel deleted"
@@ -3822,14 +3822,14 @@ msgstr "Entra ou deixa um grupo (cargo)."
 msgid "If you're not in the group, you will be added.\n"
 "If you're already in the group, you will be removed.\n\n"
 "To see a list of joinable groups, use `group list`."
-msgstr "Se você não estiver no grupo, será adicionado.\n"
-"Se você já estiver no grupo, será removido.\n\n"
-"Para ver uma lista de grupos disponíveis, use `group list`."
+msgstr "Se você não estiver no grupo, você será adicionado.\n"
+"Se você já estiver no grupo, você será removido.\n\n"
+"Para ver uma lista de grupos selecionáveis, use `group list`."
 
 #: cogs/roles.py:318
 #, python-brace-format
 msgid "Role {name} is not a joinable role."
-msgstr ""
+msgstr "Cargo {name} não é um cargo selecionável."
 
 #: cogs/roles.py:326
 msgid "I can't manage groups of roles higher than mine."
@@ -3870,7 +3870,7 @@ msgid "The group can be a new role that will be created with this command.\n"
 "If the name matches an existent role, that role will become joinable.\n\n"
 "You need `Manage Roles` permission to use this command."
 msgstr "O grupo pode ser um novo cargo que será criado com esse comando.\n"
-"Se o nome coincidir com um cargo existente, esse cargo se tornará disponível.\n\n"
+"Se o nome coincidir com um cargo existente, esse cargo se tornará selecionável.\n\n"
 "Você precisa da permissão `Gerenciar cargos` para usar este comando."
 
 #: cogs/roles.py:364
@@ -3905,7 +3905,7 @@ msgstr "Mostra uma lista de grupos disponíveis."
 
 #: cogs/roles.py:392
 msgid "This server has no joinable groups."
-msgstr ""
+msgstr "Este servidor não tem grupos selecionáveis."
 
 #: cogs/roles.py:401
 #, python-format
@@ -3916,7 +3916,7 @@ msgstr[1] "`%d membros`"
 
 #: cogs/roles.py:405
 msgid "Joinable groups"
-msgstr ""
+msgstr "Grupos Selecionáveis"
 
 #: cogs/roles.py:413
 msgid "Removes a group."
