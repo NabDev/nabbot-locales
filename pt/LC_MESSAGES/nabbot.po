@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-11 07:51-0700\n"
-"PO-Revision-Date: 2021-05-11 16:30\n"
+"PO-Revision-Date: 2021-05-11 17:27\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -1870,7 +1870,7 @@ msgstr "Autores"
 #: cogs/info.py:63
 msgctxt "Bot creation date"
 msgid "Created"
-msgstr "Criado"
+msgstr "Criação"
 
 #: cogs/info.py:65 cogs/info.py:103
 msgid "Version"
@@ -1957,7 +1957,7 @@ msgstr "NSFW"
 
 #: cogs/info.py:143 cogs/info.py:253 cogs/roles.py:479
 msgid "Created on"
-msgstr "Criado em"
+msgstr "Data de Criação"
 
 #: cogs/info.py:149
 msgid "Shows a simple list of all commands."
@@ -2158,7 +2158,7 @@ msgstr "Membro desde"
 #: cogs/info.py:342
 msgctxt "Member creation date"
 msgid "Created"
-msgstr "Criação da Conta"
+msgstr "Data de Criação"
 
 #: cogs/info.py:346
 msgid "Server Owner"
@@ -2230,7 +2230,7 @@ msgstr "CPU"
 
 #: cogs/info.py:431
 msgid "Created at"
-msgstr "Criado em"
+msgstr "Data de Criação"
 
 #: cogs/info.py:432
 msgid "ID"
@@ -5219,7 +5219,7 @@ msgstr "O recorde de jogadores online é {count:,}"
 #: cogs/tibia.py:1677
 msgctxt "World creation date"
 msgid "Created"
-msgstr "Criado em"
+msgstr "Criado Em"
 
 #. To indicate that the world has always had BattlEye protection
 #: cogs/tibia.py:1682
@@ -5766,15 +5766,15 @@ msgstr "Volume"
 
 #: cogs/tibiawiki.py:137
 msgid "Defensive"
-msgstr ""
+msgstr "Defensivas"
 
 #: cogs/tibiawiki.py:137
 msgid "Offensive"
-msgstr ""
+msgstr "Ofensivas"
 
 #: cogs/tibiawiki.py:137
 msgid "Passive"
-msgstr ""
+msgstr "Passivas"
 
 #. Used next to a numeric value to describe a price paid with the in-game currency
 #: cogs/tibiawiki.py:143 cogs/tibiawiki.py:769
@@ -5843,11 +5843,11 @@ msgstr "Criaturas na classe {name}"
 
 #: cogs/tibiawiki.py:237
 msgid "Displays information about a charm."
-msgstr ""
+msgstr "Mostra informações sobre uma charm."
 
 #: cogs/tibiawiki.py:238
 msgid "If no name is specified, displays a list of all charms for the user to choose from."
-msgstr ""
+msgstr "Se nenhum nome for especificado, exibe uma lista de todas as charms para o usuário escolher uma."
 
 #: cogs/tibiawiki.py:254
 msgid "Displays information about an imbuement."
@@ -5973,7 +5973,7 @@ msgstr "Estatísticas da base de dados do TibiaWiki"
 
 #: cogs/tibiawiki.py:564
 msgid "Database generation date"
-msgstr ""
+msgstr "Data da geração da base de dados"
 
 #: cogs/tibiawiki.py:603
 #, python-brace-format
@@ -6305,7 +6305,7 @@ msgstr "**{time}** antes do server save de **{date}**"
 
 #: cogs/timers.py:294
 msgid "Commands related to time operations."
-msgstr ""
+msgstr "Comandos relacionados a passagem de tempo."
 
 #: cogs/timers.py:396 cogs/timers.py:739
 msgid "unknown user"
@@ -6623,12 +6623,12 @@ msgstr "Personagem não registrado a ninguém deste servidor."
 
 #: cogs/timers.py:847
 msgid "You can't add characters from another world."
-msgstr ""
+msgstr "Você não pode adicionar personagens de outro mundo."
 
 #: cogs/timers.py:850
 #, python-brace-format
 msgid "A character of {user} is already participating."
-msgstr ""
+msgstr "Um personagem de {user} já está participando."
 
 #: cogs/timers.py:853
 #, python-brace-format
@@ -6638,16 +6638,16 @@ msgstr "Todas as vagas para este evento foram preenchidas. Você pode alterar a 
 #: cogs/timers.py:857
 #, python-brace-format
 msgid "Do you want to add **{char}** ({user}) to **{event}**?"
-msgstr ""
+msgstr "Deseja adicionar **{char}** ({user}) a **{event}**?"
 
 #: cogs/timers.py:867
 #, python-brace-format
 msgid "You successfully added **{name}** to this event."
-msgstr ""
+msgstr "Você adicionou **{name}** com sucesso a este evento."
 
 #: cogs/timers.py:872
 msgid "Edits an event."
-msgstr ""
+msgstr "Edita um evento."
 
 #: cogs/timers.py:873
 msgid "Use one of the subcommands to edit the event.\n"
@@ -6663,12 +6663,13 @@ msgstr "Para editar um evento, use os subcomandos:"
 
 #: cogs/timers.py:890
 msgid "Edits an event's description."
-msgstr ""
+msgstr "Edita a descrição de um evento."
 
 #: cogs/timers.py:891
 msgid "If no new description is provided initially, the bot will ask for one.\n"
 "To remove the description, say `blank`."
-msgstr ""
+msgstr "Se uma nova descrição não for fornecida, o bot solicitará uma.\n"
+"Para remover a descrição, diga `em branco`."
 
 #: cogs/timers.py:901
 #, python-brace-format
@@ -6677,25 +6678,25 @@ msgstr ""
 
 #: cogs/timers.py:921
 msgid "Do you want this to be the new description?"
-msgstr ""
+msgstr "Deseja que esta seja a nova descrição?"
 
 #: cogs/timers.py:932
 msgid "The event's description was changed successfully."
-msgstr ""
+msgstr "A descrição do evento foi alterada com êxito."
 
 #: cogs/timers.py:937
 #, python-brace-format
 msgid "Your event **{event}** had its description changed by {user}"
-msgstr ""
+msgstr "Seu evento **{event}** teve sua descrição alterada por {user}"
 
 #: cogs/timers.py:941
 #, python-brace-format
 msgid "The description of event **{event.name}** was changed."
-msgstr ""
+msgstr "A descrição do evento **{event.name}** foi alterada."
 
 #: cogs/timers.py:947
 msgid "Changes whether anyone can join an event or only the owner may add people."
-msgstr ""
+msgstr "Muda se qualquer um pode participar de um evento ou se apenas o dono pode adicionar usuários ao evento."
 
 #: cogs/timers.py:948
 msgid "If an event is joinable, anyone can join using `event join id`.\n"
@@ -6729,40 +6730,40 @@ msgstr ""
 
 #: cogs/timers.py:993
 msgid "Edits an event's name."
-msgstr ""
+msgstr "Edita o nome de um evento."
 
 #: cogs/timers.py:994
 msgid "If no new name is provided initially, the bot will ask for one."
-msgstr ""
+msgstr "Se um novo nome não for inicialmente fornecido, o bot solicitará um."
 
 #: cogs/timers.py:1003
 #, python-brace-format
 msgid "What would you like to be the new name of **{event}**? You can `cancel` this."
-msgstr ""
+msgstr "Qual você gostaria que fosse o novo nome de **{event}**? Você pode `cancelar` isso."
 
 #: cogs/timers.py:1017
 #, python-brace-format
 msgid "Do you want to change the name of **{event}** to **{new_name}**?"
-msgstr ""
+msgstr "Deseja mudar o nome de **{event}** para **{new_name}**?"
 
 #: cogs/timers.py:1029
 #, python-brace-format
 msgid "The event renamed successfully to **{new_name}**."
-msgstr ""
+msgstr "O evento foi renomeado com êxito para **{new_name}**."
 
 #: cogs/timers.py:1033
 #, python-brace-format
 msgid "Your event **{event}** was renamed to **{new_name}** by {user}"
-msgstr ""
+msgstr "Seu evento **{event}** foi renomeado para **{new_name}** por {user}"
 
 #: cogs/timers.py:1035
 #, python-brace-format
 msgid "The event **{name}** was renamed to **{new_name}**."
-msgstr ""
+msgstr "O evento **{name}** foi renomeado para **{new_name}**."
 
 #: cogs/timers.py:1042
 msgid "Edits an event's number of slots."
-msgstr ""
+msgstr "Edita a quantidade de vagas de um evento."
 
 #: cogs/timers.py:1043
 msgid "Slots is the number of characters an event can have. By default this is 0, which means no limit."
@@ -6772,38 +6773,39 @@ msgstr ""
 #, python-brace-format
 msgid "What would you like to be the new number of slots for **{event}**? You can `cancel` this.\n"
 " Note that `0` means no slot limit."
-msgstr ""
+msgstr "Qual você gostaria que fosse a nova quantidade de vagas para **{event}**? Você pode `cancelar` isto.\n"
+" Note que `0` significa que não há limite de vagas."
 
 #: cogs/timers.py:1066
 msgid "You can't have negative slots!"
-msgstr ""
+msgstr "Você não pode ter uma quantidade negativa de vagas!"
 
 #: cogs/timers.py:1069
 msgid "That's not a number…"
-msgstr ""
+msgstr "Isso não é um número…"
 
 #: cogs/timers.py:1071
 #, python-brace-format
 msgid "Do you want the number of slots of **{event}** to **{slots}**?"
-msgstr ""
+msgstr "Deseja que a quantidade de vagas de **{event}** seja **{slots}**?"
 
 #: cogs/timers.py:1083
 #, python-brace-format
 msgid "The event slots changed to **{slots}**."
-msgstr ""
+msgstr "A quantidade de vagas para o evento mudou para **{slots}**."
 
 #: cogs/timers.py:1087
 #, python-brace-format
 msgid "Your event **{event}** slots were changed to **{slots}** by {user}"
-msgstr ""
+msgstr "A quantidade de vagas para seu evento **{event}** foi alterada para **{slots}** por {user}"
 
 #: cogs/timers.py:1095
 msgid "Edits an event's start time."
-msgstr ""
+msgstr "Edita o horário de início de um evento."
 
 #: cogs/timers.py:1096
 msgid "If no new time is provided initially, the bot will ask for one."
-msgstr ""
+msgstr "Se um novo horário não for inicialmente fornecido, o bot solicitará um."
 
 #: cogs/timers.py:1105
 #, python-brace-format
@@ -6815,38 +6817,40 @@ msgstr ""
 msgid "This will be the new time of your event.\n"
 "The time in the footer is displayed in your local time.\n"
 "Is this correct?"
-msgstr ""
+msgstr "Este será o novo horário do seu evento.\n"
+"O horário no rodapé é exibido em seu horário local.\n"
+"Está certo?"
 
 #: cogs/timers.py:1138
 msgid "The event's time changed successfully."
-msgstr ""
+msgstr "O horário do evento foi alterado com sucesso."
 
 #: cogs/timers.py:1142
 #, python-brace-format
 msgid "The start time of your event **{event.name}** was changed to **{new_time}** by {user}."
-msgstr ""
+msgstr "O horário de início do seu evento **{event.name}** foi alterado para **{new_time}** por {user}."
 
 #: cogs/timers.py:1146
 #, python-brace-format
 msgid "The start time of **{event}** was changed:"
-msgstr ""
+msgstr "O horário de início de **{event}** foi alterado:"
 
 #: cogs/timers.py:1154
 msgid "Displays an event's info."
-msgstr ""
+msgstr "Exibe informações de um evento."
 
 #: cogs/timers.py:1155
 msgid "The start time shown in the footer is always displayed in your device's timezone."
-msgstr ""
+msgstr "O horário de início exibido no rodapé está sempre no fuso horário do seu dispositivo."
 
 #: cogs/timers.py:1171
 msgid "Participants"
-msgstr ""
+msgstr "Participantes"
 
 #. Whether people can join the event by themselves
 #: cogs/timers.py:1173
 msgid "Can join"
-msgstr ""
+msgstr "Participável"
 
 #: cogs/timers.py:1181
 msgid "Join an event with a specific character."
@@ -6864,7 +6868,7 @@ msgstr ""
 
 #: cogs/timers.py:1198
 msgid "All the slots for this event has been filled."
-msgstr ""
+msgstr "Todas as vagas para este evento foram preenchidas."
 
 #: cogs/timers.py:1201
 msgid "You can only join with characters registered to you."
@@ -6872,7 +6876,7 @@ msgstr "Você só pode se inscrever com personagens registrados a você."
 
 #: cogs/timers.py:1203
 msgid "You can't join with a character from another world."
-msgstr ""
+msgstr "Você não pode participar com um personagem de outro mundo."
 
 #: cogs/timers.py:1205
 msgid "A character of yours is already in this event."
@@ -6881,11 +6885,11 @@ msgstr ""
 #: cogs/timers.py:1207
 #, python-brace-format
 msgid "Do you want to join the event '**{event}**' as **{char}**?"
-msgstr ""
+msgstr "Deseja participar do evento '**{event}**' como **{char}**?"
 
 #: cogs/timers.py:1216
 msgid "You successfully joined this event."
-msgstr ""
+msgstr "Você está agora participando deste evento."
 
 #: cogs/timers.py:1222
 msgid "Leave an event you were participating in."
@@ -6893,16 +6897,16 @@ msgstr ""
 
 #: cogs/timers.py:1231
 msgid "You haven't joined this event."
-msgstr ""
+msgstr "Você não está participando deste evento."
 
 #: cogs/timers.py:1234
 #, python-brace-format
 msgid "Do you want to leave **{event}**?"
-msgstr ""
+msgstr "Deseja sair de **{event}**?"
 
 #: cogs/timers.py:1244
 msgid "You successfully left this event."
-msgstr ""
+msgstr "Você saiu com êxito deste evento."
 
 #: cogs/timers.py:1251
 msgid "Creates an event guiding you step by step."
@@ -6918,12 +6922,12 @@ msgstr ""
 
 #: cogs/timers.py:1285
 msgid "This is your event so far:"
-msgstr ""
+msgstr "Este é seu evento até agora:"
 
 #: cogs/timers.py:1286
 #, python-brace-format
 msgid "Your event will be named **{name}**."
-msgstr ""
+msgstr "Seu evento será chamado **{name}**."
 
 #: cogs/timers.py:1287
 msgid "Now, what description would you like your event to have? `none/blank` to leave it empty. Bold, italics and links are supported."
@@ -6936,25 +6940,27 @@ msgstr ""
 
 #: cogs/timers.py:1305
 msgid "Is this right?"
-msgstr ""
+msgstr "Está certo?"
 
 #: cogs/timers.py:1313
 msgid "Alright, again, tell me the description you want for your event.\n"
 "Remember you can `cancel` the process or tell me `blank` to have no description."
-msgstr ""
+msgstr "Certo, novamente, me diga a descrição que você quer para o seu evento.\n"
+"Lembre-se de que você pode `cancelar` o processo ou me dizer `em branco` para não ter nenhuma descrição."
 
 #: cogs/timers.py:1322
 msgid "Alright, now tell me in how much time will the event start from now. e.g. `2d1h20m`, `4h`"
-msgstr ""
+msgstr "Certo, agora me diga em quanto tempo o evento começará a partir de agora. Por exemplo: `2d1h20m`, `4h`"
 
 #: cogs/timers.py:1340
 msgid "Again, tell me the start time of the event from now.\n"
 "You can `cancel` if you want."
-msgstr ""
+msgstr "Novamente, diga-me o horário de início do evento a partir de agora.\n"
+" Você pode `cancelar`, se quiser."
 
 #: cogs/timers.py:1347
 msgid "Is this time correct? The footer shows your local timezone."
-msgstr ""
+msgstr "Este horário está certo? O rodapé mostra seu fuso horário local."
 
 #: cogs/timers.py:1355
 msgid "Ok, again, tell me when will the event start.\n"
