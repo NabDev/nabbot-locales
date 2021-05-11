@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-11 07:51-0700\n"
-"PO-Revision-Date: 2021-05-11 19:31\n"
+"PO-Revision-Date: 2021-05-11 20:27\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -5528,7 +5528,7 @@ msgstr "Limite de Camas"
 
 #: cogs/tibia.py:2156
 msgid "Size"
-msgstr ""
+msgstr "Tamanho"
 
 #: cogs/tibia.py:2157
 msgid "City"
@@ -6408,7 +6408,7 @@ msgstr ""
 
 #: cogs/timers.py:546
 msgid "Shows a list of supported boss cooldowns."
-msgstr ""
+msgstr "Exibe uma lista de cooldowns de bosses suportados."
 
 #: cogs/timers.py:552
 msgid "Supported Boss Cooldowns"
@@ -6555,7 +6555,7 @@ msgstr "Hoje, **{next_boss}** está na Dream Scar em **{world}**"
 
 #: cogs/timers.py:707
 msgid "As of the server save of"
-msgstr ""
+msgstr "Conforme o server save de"
 
 #: cogs/timers.py:723
 msgid "Shows a list of upcoming and recent events."
@@ -6574,7 +6574,7 @@ msgstr "Para mais informações sobre um evento, use `{prefix}{command} info (ID
 
 #: cogs/timers.py:737
 msgid "There are no upcoming events."
-msgstr ""
+msgstr "Não há próximos eventos."
 
 #. List format for current events
 #: cogs/timers.py:748
@@ -6628,7 +6628,8 @@ msgstr "Adiciona um personagem a um evento."
 #: cogs/timers.py:834
 msgid "Only the creator can add characters to an event.\n"
 "If the event is joinable, anyone can join an event using `event join`"
-msgstr ""
+msgstr "Somente o criador pode adicionar personagens a um evento.\n"
+"Se o evento for participável, qualquer um pode participar dele usando `event join`"
 
 #: cogs/timers.py:845
 msgid "Character not registered to anyone in this server."
@@ -6720,26 +6721,26 @@ msgstr "Se um evento for participável, qualquer um pode entrar usando `event jo
 #: cogs/timers.py:958
 #, python-brace-format
 msgid "Do you want **{event.name}** to be joinable? `yes/no/cancel`"
-msgstr ""
+msgstr "Deseja que **{event.name}** seja participável? `sim/não/cancelar`"
 
 #: cogs/timers.py:974
 msgid "The event is now **joinable**."
-msgstr ""
+msgstr "O evento agora é **participável**."
 
 #: cogs/timers.py:975
 #, python-brace-format
 msgid "Your event **{event}** was made **joinable** by {user}."
-msgstr ""
+msgstr "Seu evento **{event}** foi alterado para **participável** por {user}."
 
 #. Means that users cannot join the event themselves, owner must add them
 #: cogs/timers.py:978
 msgid "The event is now **not joinable**."
-msgstr ""
+msgstr "O evento agora é **não participável**."
 
 #: cogs/timers.py:979
 #, python-brace-format
 msgid "Your event **{event}** was made **not joinable** by {user}."
-msgstr ""
+msgstr "Seu evento **{event}** foi alterado para **não participável** por {user}."
 
 #: cogs/timers.py:993
 msgid "Edits an event's name."
@@ -6868,12 +6869,13 @@ msgstr "Participável"
 
 #: cogs/timers.py:1181
 msgid "Join an event with a specific character."
-msgstr ""
+msgstr "Participa de um evento com um personagem específico."
 
 #: cogs/timers.py:1182
 msgid "You can only join an event with a character at a time.\n"
 "Some events may not be joinable and require the creator to add characters themselves."
-msgstr ""
+msgstr "Você só pode participar de um evento com um personagem de cada vez.\n"
+"Alguns eventos podem não ser participáveis e exigem que o criador adicione cada personagem."
 
 #: cogs/timers.py:1193
 #, python-brace-format
@@ -6993,7 +6995,7 @@ msgstr "Mostra a lista de personagens que participam deste evento."
 #: cogs/timers.py:1393
 #, python-brace-format
 msgid " To join, use `{prefix}event join {event_id} characterName`."
-msgstr ""
+msgstr " Para participar, use `{prefix}event join {event_id} Nome do Personagem`."
 
 #: cogs/timers.py:1395
 #, python-brace-format
@@ -7180,7 +7182,7 @@ msgstr "Obtendo personagens…"
 #: cogs/tracking.py:75
 #, python-brace-format
 msgid "{channel} is not a watchlist channel."
-msgstr ""
+msgstr "{channel} não é um canal de watchlist."
 
 #: cogs/tracking.py:76
 #, python-brace-format
@@ -7446,11 +7448,11 @@ msgstr "Se houver outros personagens visíveis, o bot irá pedir confirmação p
 
 #: cogs/tracking.py:1041
 msgid "Removes a character assigned to you."
-msgstr ""
+msgstr "Remove um personagem atribuído a você."
 
 #: cogs/tracking.py:1042
 msgid "All registered level ups and deaths will be lost forever."
-msgstr ""
+msgstr "Todas as mortes e avanços de level registados serão perdidos para sempre."
 
 #: cogs/tracking.py:1049
 #, python-brace-format
@@ -7495,11 +7497,11 @@ msgstr "Personagens Registrados"
 
 #: cogs/tracking.py:1104
 msgid "Shows you which users are online on Tibia."
-msgstr ""
+msgstr "Mostra quais usuários estão online no Tibia."
 
 #: cogs/tracking.py:1115 cogs/tracking.py:1139
 msgid "There is no one online from Discord."
-msgstr ""
+msgstr "Ninguém está online no Discord."
 
 #: cogs/tracking.py:1138
 msgid "I just started, give me some time to check online lists…⌛"
@@ -7507,7 +7509,7 @@ msgstr ""
 
 #: cogs/tracking.py:1142
 msgid "Users online"
-msgstr ""
+msgstr "Usuários online"
 
 #: cogs/tracking.py:1149
 msgid "Searches for a registered character that meets the criteria."
@@ -7524,17 +7526,17 @@ msgstr ""
 #: cogs/tracking.py:1160
 #, python-brace-format
 msgid "{prefix}{command} charname"
-msgstr ""
+msgstr "{prefix}{command} nome do personagem"
 
 #: cogs/tracking.py:1161
 #, python-brace-format
 msgid "{prefix}{command} level"
-msgstr ""
+msgstr "{prefix}{command} level"
 
 #: cogs/tracking.py:1162
 #, python-brace-format
 msgid "{prefix}{command} minLevel,maxLevel"
-msgstr ""
+msgstr "{prefix}{command} levelMin,levelMax"
 
 #: cogs/tracking.py:1185
 #, python-brace-format
@@ -7564,7 +7566,7 @@ msgstr "Não encontrei ninguém no intervalo de compartilhamento com o level **{
 #: cogs/tracking.py:1234
 #, python-brace-format
 msgid "**{name}** - Level {level} {voc} - @**{owner}**"
-msgstr ""
+msgstr "**{name}** - Level {level} {voc} - @**{owner}**"
 
 #: cogs/tracking.py:1334
 msgid "Removes a registered character from someone."
@@ -7583,7 +7585,7 @@ msgstr "Não há personagem registrado com esse nome."
 #: cogs/tracking.py:1345
 #, python-brace-format
 msgid "The character **{name}** is in a different world."
-msgstr ""
+msgstr "O personagem **{name}** está em um mundo diferente."
 
 #: cogs/tracking.py:1360
 #, python-brace-format
@@ -7593,7 +7595,7 @@ msgstr "O usuário deste servidor também está em outro servidor que monitora *
 #: cogs/tracking.py:1366
 #, python-brace-format
 msgid "**{0}** was removed successfully from **@{1}**."
-msgstr ""
+msgstr "**{0}** foi removido com sucesso de **@{1}**."
 
 #: cogs/tracking.py:1373
 msgid "Create or manage watchlists."
@@ -7618,12 +7620,12 @@ msgstr ""
 
 #: cogs/tracking.py:1386 cogs/tracking.py:1523
 msgid "A reason can be specified by adding it after the character's name, separated by a comma."
-msgstr ""
+msgstr "Um motivo pode ser especificado adicionando-o após o nome do personagem, separados por uma vírgula."
 
 #: cogs/tracking.py:1409
 #, python-brace-format
 msgid "This character is not in **{world}**."
-msgstr ""
+msgstr "Esse personagem não é de **{world}**."
 
 #: cogs/tracking.py:1412
 #, python-brace-format
