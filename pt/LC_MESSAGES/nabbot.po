@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-08 08:42-0700\n"
-"PO-Revision-Date: 2021-05-11 02:41\n"
+"PO-Revision-Date: 2021-05-11 04:02\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -5768,15 +5768,15 @@ msgstr "Volume"
 
 #: cogs/tibiawiki.py:137
 msgid "Defensive"
-msgstr "Defensivas"
+msgstr ""
 
 #: cogs/tibiawiki.py:137
 msgid "Offensive"
-msgstr "Ofensivas"
+msgstr ""
 
 #: cogs/tibiawiki.py:137
 msgid "Passive"
-msgstr "Passivas"
+msgstr ""
 
 #. Used next to a numeric value to describe a price paid with the in-game currency
 #: cogs/tibiawiki.py:143 cogs/tibiawiki.py:768
@@ -5845,7 +5845,7 @@ msgstr "Criaturas na classe {name}"
 
 #: cogs/tibiawiki.py:237
 msgid "Displays information about a charm."
-msgstr "Mostra informações sobre uma charm."
+msgstr ""
 
 #: cogs/tibiawiki.py:238
 msgid "If no name is specified, displays a list of all charms for the user to choose from."
@@ -5913,43 +5913,45 @@ msgstr "Procura uma chave por palavras-chave."
 msgid "Search for matches on the key's names, location, origin or uses.\n"
 "If there are multiple matches, a list is shown.\n"
 "If only one matches, the key's information is shown directly."
-msgstr ""
+msgstr "Pesquisa por chaves pelo nome, localização, origem ou uso.\n"
+"Se houver várias correspondências, uma lista será mostrada.\n"
+"Se houver apenas uma correspondência, as informações da chave serão mostradas diretamente."
 
 #: cogs/tibiawiki.py:359
 msgid "I couldn't find any related keys."
-msgstr ""
+msgstr "Não consegui encontrar nenhuma chave relacionada."
 
 #: cogs/tibiawiki.py:363
 msgid "Possible keys"
-msgstr ""
+msgstr "Possíveis Chaves"
 
 #: cogs/tibiawiki.py:376
 msgid "Shows information about a monster."
-msgstr ""
+msgstr "Exibe informações sobre um monstro."
 
 #: cogs/tibiawiki.py:380
 msgid "Tell me the name of the monster you want to search."
-msgstr ""
+msgstr "Diga-me o nome do monstro que você quer procurar."
 
 #: cogs/tibiawiki.py:385
 msgid "I couldn't find a monster with that name."
-msgstr ""
+msgstr "Não consegui encontrar um monstro com esse nome."
 
 #: cogs/tibiawiki.py:400
 msgid "Displays information about a mount."
-msgstr ""
+msgstr "Exibe informações sobre uma montaria."
 
 #: cogs/tibiawiki.py:405
 msgid "I couldn't find a mount with that name."
-msgstr ""
+msgstr "Não consegui encontrar uma montaria com esse nome."
 
 #: cogs/tibiawiki.py:421
 msgid "Displays information about a NPC."
-msgstr ""
+msgstr "Exibe informações sobre um NPC."
 
 #: cogs/tibiawiki.py:426
 msgid "I couldn't find a NPC with that name."
-msgstr ""
+msgstr "Não consegui encontrar um NPC com esse nome."
 
 #: cogs/tibiawiki.py:455
 msgid "Shows where Rashid is today."
@@ -6149,8 +6151,8 @@ msgstr ""
 #: cogs/tibiawiki.py:1132
 msgid "point"
 msgid_plural "points"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ponto"
+msgstr[1] "pontos"
 
 #. Kills to complete bestiary
 #: cogs/tibiawiki.py:1134
