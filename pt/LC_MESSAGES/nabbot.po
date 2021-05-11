@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-08 08:42-0700\n"
-"PO-Revision-Date: 2021-05-08 17:03\n"
+"PO-Revision-Date: 2021-05-11 01:39\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -5084,13 +5084,13 @@ msgstr ""
 #: cogs/tibia.py:1440 cogs/tibiawiki.py:462
 #, python-brace-format
 msgid "Rashid is in **{city}** today."
-msgstr ""
+msgstr "Hoje Rashid está em **{city}**."
 
 #. The local time in a city/timezone.
 #: cogs/tibia.py:1452
 #, python-brace-format
 msgid "**{time}** in {name}"
-msgstr ""
+msgstr "**{time}** em {name}"
 
 #: cogs/tibia.py:1460
 msgid "Adds a new timezone to display."
@@ -5100,17 +5100,20 @@ msgstr ""
 msgid "You can look by city, country or region.\n"
 "Once the timezone is found, you can set the name you want to show on the `time` command.\n\n"
 "Only Server Moderators can use this command."
-msgstr ""
+msgstr "Você pode pesquisar por cidade, país ou região.\n"
+"Quando o fuso horário for encontrado, você pode definir o nome que você quer que seja mostrado ao usar o comando `time`.\n\n"
+"Somente Moderadores de Servidores podem usar este comando."
 
 #: cogs/tibia.py:1473
 msgid "No timezones found matching that name."
-msgstr ""
+msgstr "Nenhum fuso horário encontrado com este nome."
 
 #: cogs/tibia.py:1478
 #, python-brace-format
 msgid "The time in `{timezone}` is **{local_time}**.\n"
 "What display name do you want to assign? You can `cancel` if you changed your mind."
-msgstr ""
+msgstr "O horário em `{timezone}` é **{local_time}**.\n"
+"Qual nome de exibição você quer atribuir? Você pode `cancelar` se mudar de ideia."
 
 #: cogs/tibia.py:1490 cogs/tibia.py:1555
 #, python-format
@@ -5119,60 +5122,62 @@ msgstr ""
 
 #: cogs/tibia.py:1496
 msgid "That timezone already exists."
-msgstr ""
+msgstr "Esse fuso horário já existe."
 
 #: cogs/tibia.py:1497
 #, python-brace-format
 msgid "Timezone `{name}` saved successfully as `{display_name}`."
-msgstr ""
+msgstr "O fuso horário `{name}` foi salvo com sucesso como `{display_name}`."
 
 #: cogs/tibia.py:1504
 msgid "Shows a list of all the currently added timezones."
-msgstr ""
+msgstr "Mostra uma lista de todos os fusos horários adicionados."
 
 #: cogs/tibia.py:1505 cogs/tibia.py:1520 cogs/tibia.py:1539
 msgid "Only Server Moderators can use this command."
-msgstr ""
+msgstr "Somente moderadores do servidor podem usar esse comando."
 
 #: cogs/tibia.py:1510 cogs/tibia.py:1544
 msgid "This server doesn't have any timezones saved yet."
-msgstr ""
+msgstr "Este servidor ainda não possui nenhum fuso horário salvo."
 
 #: cogs/tibia.py:1513
 msgid "Saved timezones"
-msgstr ""
+msgstr "Fusos horários salvos"
 
 #: cogs/tibia.py:1519
 msgid "Removes a timezone from the list."
-msgstr ""
+msgstr "Remove um fuso horário da lista."
 
 #: cogs/tibia.py:1527
 msgid "There's no timezone saved with that name.\n"
 "Remember to use the timezone's real name, not the display name.\n"
-msgstr ""
+msgstr "Não há fuso horário salvo com este nome.\n"
+"Lembre-se de usar o nome real do fuso horário, não o nome de exibição.\n"
 
 #: cogs/tibia.py:1532
 #, python-brace-format
 msgid "Timezone {name} ({display_name}) removed successfully."
-msgstr ""
+msgstr "O fuso horário {name} ({display_name}) foi removido com sucesso."
 
 #: cogs/tibia.py:1538
 msgid "Renames a timezone"
-msgstr ""
+msgstr "Renomeia um fuso horário"
 
 #: cogs/tibia.py:1551
 msgid "There's no timezone saved with that name.\n"
 "Remember to use the timezone's real name, not the display name."
-msgstr ""
+msgstr "Não há fuso horário salvo com este nome.\n"
+"Lembre-se de usar o nome real do fuso horário, não o nome de exibição."
 
 #: cogs/tibia.py:1559
 #, python-brace-format
 msgid "Timezone `{timezone}` was renamed from `{old_name}` to `{new_name}`."
-msgstr ""
+msgstr "O fuso horário `{timezone}` foi renomeado de `{old_name}` para `{new_name}`."
 
 #: cogs/tibia.py:1565
 msgid "Shows a character's or a Discord user's information."
-msgstr ""
+msgstr "Exibe informações de um personagem ou de um usuário do Discord."
 
 #: cogs/tibia.py:1566
 msgid "If the parameter matches a Discord user, it displays a list of the characters linked to that user.\n"
@@ -5188,11 +5193,11 @@ msgstr "Se o parâmetro corresponder a um usuário do Discord, exibirá uma list
 
 #: cogs/tibia.py:1602
 msgid "I don't see any user or character with that name."
-msgstr ""
+msgstr "Não vejo nenhum usuário ou personagem com esse nome."
 
 #: cogs/tibia.py:1656
 msgid "Shows basic information about a Tibia world."
-msgstr ""
+msgstr "Mostra informações básicas sobre um mundo do Tibia."
 
 #: cogs/tibia.py:1657
 msgid "Shows information like PvP type, online count, server location, vocation distribution, and more."
@@ -5200,15 +5205,15 @@ msgstr "Mostra informações como o tipo de PvP, quantidade de jogadores online,
 
 #: cogs/tibia.py:1670
 msgid "This world is offline."
-msgstr ""
+msgstr "Este mundo está offline."
 
 #: cogs/tibia.py:1674
 msgid "Players online"
-msgstr ""
+msgstr "Jogadores online"
 
 #: cogs/tibia.py:1675
 msgid "The players online record is {count:,}"
-msgstr ""
+msgstr "O recorde de jogadores online é {count:,}"
 
 #: cogs/tibia.py:1678
 msgctxt "World creation date"
@@ -5218,13 +5223,13 @@ msgstr ""
 #. To indicate that the world has always had battleye protection
 #: cogs/tibia.py:1682
 msgid "Always"
-msgstr ""
+msgstr "Sempre"
 
 #. The date when battleye protectetion was applied to this server
 #: cogs/tibia.py:1686
 #, python-brace-format
 msgid "Since {battleye_date}"
-msgstr ""
+msgstr "Desde {battleye_date}"
 
 #: cogs/tibia.py:1696
 msgid "PvP Type"
