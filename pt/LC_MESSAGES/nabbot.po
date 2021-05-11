@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-11 07:51-0700\n"
-"PO-Revision-Date: 2021-05-11 14:53\n"
+"PO-Revision-Date: 2021-05-11 15:30\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -6225,7 +6225,7 @@ msgstr "Destinos"
 #: cogs/tibiawiki.py:1302
 #, python-brace-format
 msgid "Teaches ({voc}s)"
-msgstr ""
+msgstr "Ensina ({voc}s)"
 
 #: cogs/tibiawiki.py:1308
 msgid "…and {count:,} other"
