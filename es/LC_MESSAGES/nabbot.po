@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-11 16:20-0700\n"
-"PO-Revision-Date: 2021-05-11 23:21\n"
+"PO-Revision-Date: 2021-05-11 23:40\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3644,7 +3644,13 @@ msgid "This is where I will post a list of spawns **currently taken**.\n"
 "If this channel is deleted, you will have to setup respawns again.\n"
 "**It is important to not allow anyone to write in here**\n"
 "*This message can be deleted now.*"
-msgstr ""
+msgstr "Aquí es donde publicaré una lista de spawns **actualmente ocupados**.\n"
+"La imagen adjunta muestra la lista de respawns **completa** con sus códigos.\n"
+"Edita los permisos de este canal para permitir los roles que quieras.\n"
+"Este canal puede ser renombrado libremente.\n"
+"Si este canal es eliminado, tendrás que configurar los respawns de nuevo.\n"
+"**Es importante no permitir que nadie escriba aquí**\n"
+"*Este mensaje puede ser eliminado ahora.*"
 
 #: cogs/respawn.py:612
 msgid "Channel created successfully"
@@ -4058,7 +4064,7 @@ msgstr "El mensaje no puede tener más de {limit:,} caracteres."
 #: cogs/roles.py:541
 #, python-brace-format
 msgid "Turning mentions on for role mention by {user}"
-msgstr ""
+msgstr "Activando menciones para mención de rol por {user}"
 
 #: cogs/roles.py:543
 #, python-brace-format
@@ -4067,7 +4073,7 @@ msgstr "Mensaje enviado por {user}"
 
 #: cogs/roles.py:547
 msgid "Turning mentions back off after role mention"
-msgstr ""
+msgstr "Desactivando las menciones después de la mención al rol"
 
 #: cogs/roles.py:552
 msgid "Shows a user's roles or a list of server roles."
@@ -6696,7 +6702,7 @@ msgstr "Si no se proporciona ninguna nueva descripción inicialmente, el bot ped
 #: cogs/timers.py:901
 #, python-brace-format
 msgid "What would you like to be the new description of **{event}**? You can `cancel` this or set a `blank` description."
-msgstr ""
+msgstr "¿Cuál te gustaría que fuera la nueva descripción de **{event}**? Puedes `cancelar` esto o establecer una descripción `en blanco`."
 
 #: cogs/timers.py:921
 msgid "Do you want this to be the new description?"
@@ -6836,7 +6842,8 @@ msgstr "Si no se proporciona una nueva hora inicialmente, el bot pedirá una."
 #, python-brace-format
 msgid "When would you like the new start time of **{event}** be?You can `cancel` this.\n"
 "Examples: `1h20m`, `2d10m`"
-msgstr ""
+msgstr "¿Cuándo quieres que la nueva hora de inicio de **{event}** sea? Puedes `cancelar` esto.\n"
+"Ejemplos: `1h20m`, `2d10m`"
 
 #: cogs/timers.py:1128
 msgid "This will be the new time of your event.\n"
@@ -6890,7 +6897,7 @@ msgstr "Sólo puedes unirte a un evento con un personaje a la vez.\n"
 #: cogs/timers.py:1196
 #, python-brace-format
 msgid "You can't join this event. Maybe you meant to subscribe? Try `{prefix}event sub {event_id}`."
-msgstr ""
+msgstr "No puedes unirte a este evento. ¿Tal vez hayas querías suscribirte? Prueba con `{prefix}event sub {event_id}`."
 
 #: cogs/timers.py:1201
 msgid "All the slots for this event has been filled."
@@ -6919,7 +6926,7 @@ msgstr "Te has unido exitosamente a este evento."
 
 #: cogs/timers.py:1225
 msgid "Leaves an event you are participating in."
-msgstr ""
+msgstr "Deja un evento en el que estabas participando."
 
 #: cogs/timers.py:1234
 msgid "You haven't joined this event."
@@ -7696,7 +7703,7 @@ msgstr "Solo los servidores premium pueden añadir un feed a sus watchlists.\n"
 #: cogs/tracking.py:1481
 #, python-brace-format
 msgid "{channel} already has a feed channel."
-msgstr ""
+msgstr "{channel} ya tiene un canal de feed."
 
 #: cogs/tracking.py:1485
 msgid "I need `Manage Channels` and `Manage Webhooks` permissions to create feed channels."
@@ -7936,7 +7943,7 @@ msgstr "{channel} no tiene un feed."
 #: cogs/tracking.py:1822
 #, python-brace-format
 msgid "The feed for {channel} has been removed."
-msgstr ""
+msgstr "El feed de {channel} ha sido eliminado."
 
 #: cogs/tracking.py:1828
 msgid "Removes a guild from the watchlist."
@@ -8144,7 +8151,7 @@ msgstr "Necesito los permisos de `Gestionar canal` y `Gestionar webhooks` en {ne
 #: cogs/tracking.py:2214
 #, python-brace-format
 msgid "Do you want to assign {new_channel} as the feed channel for {channel}?"
-msgstr ""
+msgstr "¿Deseas asignar a {new_channel} como canal de feed para {channel}?"
 
 #: cogs/tracking.py:2221
 #, python-brace-format
