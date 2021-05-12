@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-11 16:20-0700\n"
-"PO-Revision-Date: 2021-05-11 23:21\n"
+"PO-Revision-Date: 2021-05-12 00:37\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -3639,7 +3639,13 @@ msgid "This is where I will post a list of spawns **currently taken**.\n"
 "If this channel is deleted, you will have to setup respawns again.\n"
 "**It is important to not allow anyone to write in here**\n"
 "*This message can be deleted now.*"
-msgstr ""
+msgstr "Aqui é onde vou postar a lista de respawns **atualmente ocupados**.\n"
+"A imagem anexada exibe a lista de respawns **completa** com seus códigos.\n"
+"Edite as permissões deste canal para permitir os cargos desejados.\n"
+"Este canal pode ser renomeado livremente.\n"
+"Se este canal for excluído, você terá que configurar os respawns novamente.\n"
+"**É importante não permitir que ninguém escreva aqui**\n"
+"*Esta mensagem pode ser excluída agora.*"
 
 #: cogs/respawn.py:612
 msgid "Channel created successfully"
@@ -4054,7 +4060,7 @@ msgstr "A mensagem não pode ter mais de {limit:,} caracteres."
 #: cogs/roles.py:541
 #, python-brace-format
 msgid "Turning mentions on for role mention by {user}"
-msgstr ""
+msgstr "Ativando menções para menção de cargo por {user}"
 
 #: cogs/roles.py:543
 #, python-brace-format
@@ -4063,7 +4069,7 @@ msgstr "Mensagem enviada por {user}"
 
 #: cogs/roles.py:547
 msgid "Turning mentions back off after role mention"
-msgstr ""
+msgstr "Desativando novamente menções após menção de cargo"
 
 #: cogs/roles.py:552
 msgid "Shows a user's roles or a list of server roles."
@@ -4163,7 +4169,7 @@ msgstr "Ranking de servidores"
 
 #: cogs/stats.py:146
 msgid "Displays a graph of the server count's history in the last 30 days."
-msgstr ""
+msgstr "Mostra um gráfico do histórico da quantidade de servidores com NabBot nos últimos 30 dias."
 
 #: cogs/stats.py:152
 msgid "There is not enough data to build the graph."
@@ -4171,7 +4177,7 @@ msgstr "Não há dados suficientes para criar o gráfico."
 
 #: cogs/stats.py:154
 msgid "Server Count History"
-msgstr ""
+msgstr "Histórico da Quantidade de Servidores com NabBot"
 
 #: cogs/stats.py:156
 #, python-brace-format
@@ -5037,8 +5043,8 @@ msgstr "Não há personagem chamado **{name}**."
 #, python-brace-format
 msgid "**{lowest_name}** ({lowest_level}) needs {diff} more level to share experience with **{highest_name}** ({highest_level})."
 msgid_plural "**{lowest_name}** ({lowest_level}) needs {diff} more levels to share experience with **{highest_name}** ({highest_level})."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "**{lowest_name}** ({lowest_level}) precisa mais {diff} level para compartilhar experiência com **{highest_name}** ({highest_level})."
+msgstr[1] "**{lowest_name}** ({lowest_level}) precisa mais {diff} leveis para compartilhar experiência com **{highest_name}** ({highest_level})."
 
 #: cogs/tibia.py:1339
 msgid "They can all share experience with each other."
@@ -6692,7 +6698,7 @@ msgstr "Se uma nova descrição não for fornecida, o bot solicitará uma.\n"
 #: cogs/timers.py:901
 #, python-brace-format
 msgid "What would you like to be the new description of **{event}**? You can `cancel` this or set a `blank` description."
-msgstr ""
+msgstr "Qual você gostaria que fosse a nova descrição de **{event}**? Você pode `cancelar` isto ou deixar a descrição `em branco`."
 
 #: cogs/timers.py:921
 msgid "Do you want this to be the new description?"
@@ -6832,7 +6838,8 @@ msgstr "Se um novo horário não for inicialmente fornecido, o bot solicitará u
 #, python-brace-format
 msgid "When would you like the new start time of **{event}** be?You can `cancel` this.\n"
 "Examples: `1h20m`, `2d10m`"
-msgstr ""
+msgstr "Qual você gostaria que fosse o novo horário de início de **{event}**? Você pode `cancelar` isso.\n"
+"Exemplos: `1h20m`, `2d10m`"
 
 #: cogs/timers.py:1128
 msgid "This will be the new time of your event.\n"
@@ -6886,7 +6893,7 @@ msgstr "Você só pode participar de um evento com um personagem de cada vez.\n"
 #: cogs/timers.py:1196
 #, python-brace-format
 msgid "You can't join this event. Maybe you meant to subscribe? Try `{prefix}event sub {event_id}`."
-msgstr ""
+msgstr "Você não pode participar deste evento. Talvez você queira se inscrever nele? Use `{prefix}event sub {event_id}`."
 
 #: cogs/timers.py:1201
 msgid "All the slots for this event has been filled."
@@ -6915,7 +6922,7 @@ msgstr "Você está agora participando deste evento."
 
 #: cogs/timers.py:1225
 msgid "Leaves an event you are participating in."
-msgstr ""
+msgstr "Sai de um evento no qual você está participando."
 
 #: cogs/timers.py:1234
 msgid "You haven't joined this event."
@@ -7686,7 +7693,7 @@ msgstr "Apenas servidores premium podem adicionar um canal de feed às suas watc
 #: cogs/tracking.py:1481
 #, python-brace-format
 msgid "{channel} already has a feed channel."
-msgstr ""
+msgstr "{channel} já tem um canal de feed."
 
 #: cogs/tracking.py:1485
 msgid "I need `Manage Channels` and `Manage Webhooks` permissions to create feed channels."
@@ -7926,7 +7933,7 @@ msgstr "{channel} não tem um feed."
 #: cogs/tracking.py:1822
 #, python-brace-format
 msgid "The feed for {channel} has been removed."
-msgstr ""
+msgstr "O feed de {channel} foi removido."
 
 #: cogs/tracking.py:1828
 msgid "Removes a guild from the watchlist."
@@ -8133,7 +8140,7 @@ msgstr "Preciso das permissões `Gerenciar canais` e `Gerenciar webhooks` em {ne
 #: cogs/tracking.py:2214
 #, python-brace-format
 msgid "Do you want to assign {new_channel} as the feed channel for {channel}?"
-msgstr ""
+msgstr "Deseja utilizar {new_channel} como o canal de feed para {channel}?"
 
 #: cogs/tracking.py:2221
 #, python-brace-format
