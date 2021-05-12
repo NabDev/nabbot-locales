@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-11 16:20-0700\n"
-"PO-Revision-Date: 2021-05-12 03:09\n"
+"PO-Revision-Date: 2021-05-12 16:23\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -6588,7 +6588,7 @@ msgstr "Não há próximos eventos."
 #: cogs/timers.py:746
 #, python-brace-format
 msgid "**{name}** (*ID: {id}*) - by {user} - Started {time} ago"
-msgstr ""
+msgstr "**{name}** (*ID: {id}*) - por {user} - Iniciado há {time}"
 
 #: cogs/timers.py:754
 msgid "Recent events"
@@ -6792,7 +6792,7 @@ msgstr "Edita a quantidade de vagas de um evento."
 
 #: cogs/timers.py:1044
 msgid "Slots is the number of characters an event can have. By default this is 0, which means no limit."
-msgstr ""
+msgstr "Vagas é a quantidade de personagens que um evento pode ter. Por padrão é 0, o que significa que não há limite."
 
 #. `cancel` can be translated
 #: cogs/timers.py:1054
@@ -7204,7 +7204,7 @@ msgstr "{channel} não é um canal de watchlist."
 #: cogs/tracking.py:78
 #, python-brace-format
 msgid "You need `Manage Channel` permissions in {channel} to add entries."
-msgstr ""
+msgstr "Você precisa da permissão `Gerenciar canal` em {channel} para adicionar registros."
 
 #: cogs/tracking.py:103
 msgid "Commands related to NabBot's tracking system."
@@ -7212,7 +7212,7 @@ msgstr "Comandos relacionados ao sistema de monitoramento do NabBot."
 
 #: cogs/tracking.py:397
 msgid "Watchlist disabled due to exceeding allowed limit."
-msgstr ""
+msgstr "Watchlist desativada devido a exceder o limite permitido."
 
 #: cogs/tracking.py:460
 #, python-brace-format
@@ -7233,11 +7233,11 @@ msgstr "Watchlist"
 
 #: cogs/tracking.py:515
 msgid "Removing online count"
-msgstr ""
+msgstr "Removendo contagem online"
 
 #: cogs/tracking.py:520
 msgid "Online count changed"
-msgstr ""
+msgstr "Contagem online modificada"
 
 #: cogs/tracking.py:543
 msgid "Watchlist Disabled"
@@ -7368,7 +7368,7 @@ msgstr "Se um usuário na lista não estiver mais no servidor, ele será mostrad
 #: cogs/tracking.py:880
 #, python-format
 msgid "Unknown user %d"
-msgstr ""
+msgstr "Usuário desconhecido %d"
 
 #: cogs/tracking.py:883
 msgid "There are no blacklisted users in this server."
@@ -7456,7 +7456,7 @@ msgstr "O código de verificação do comentário do personagem não corresponde
 #: cogs/tracking.py:996 cogs/tracking.py:1050
 #, python-brace-format
 msgid "Sorry, I couldn't find any characters from the worlds in the context ({0})."
-msgstr ""
+msgstr "Desculpe, não consegui encontrar nenhum personagem dos mundos no contexto ({0})."
 
 #: cogs/tracking.py:1006
 msgid "Lets you add your Tibia character(s) for the bot to track."
@@ -7531,7 +7531,7 @@ msgstr "Ninguém está online no Discord."
 
 #: cogs/tracking.py:1157
 msgid "I just started, give me some time to check online lists…⌛"
-msgstr ""
+msgstr "Acabei de começar, dê-me algum tempo para verificar as listas online…⌛"
 
 #: cogs/tracking.py:1161
 msgid "Users online"
