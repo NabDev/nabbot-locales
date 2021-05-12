@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-11 16:20-0700\n"
-"PO-Revision-Date: 2021-05-12 02:01\n"
+"PO-Revision-Date: 2021-05-12 03:09\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -5564,11 +5564,11 @@ msgstr ""
 
 #: cogs/tibia.py:2197
 msgid "Transferring to"
-msgstr ""
+msgstr "Transferindo Para"
 
 #: cogs/tibia.py:2198
 msgid "Transfer Price"
-msgstr ""
+msgstr "Preço da Transferência"
 
 #: cogs/tibia.py:2199
 msgid "Accepted"
@@ -6108,7 +6108,7 @@ msgstr "Propriedades"
 
 #: cogs/tibiawiki.py:860
 msgid "Used for"
-msgstr ""
+msgstr "Necessário para"
 
 #: cogs/tibiawiki.py:862
 msgid "Resistances"
@@ -6262,7 +6262,7 @@ msgstr "Variável"
 #: cogs/tibiawiki.py:1352
 msgctxt "price"
 msgid "Free"
-msgstr ""
+msgstr "Grátis"
 
 #: cogs/tibiawiki.py:1353
 msgid "Cooldown"
