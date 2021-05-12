@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-11 16:20-0700\n"
-"PO-Revision-Date: 2021-05-12 00:37\n"
+"PO-Revision-Date: 2021-05-12 02:01\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -4780,7 +4780,7 @@ msgstr "Se o servidor já estiver monitorando um mundo, o mundo monitorado será
 
 #: cogs/tibia.py:932
 msgid "I couldn't find any highscores entries."
-msgstr ""
+msgstr "Não consegui encontrar este ranking."
 
 #. Describes the level and experience in experience highscores entries. Shorter forms preferred
 #: cogs/tibia.py:940
@@ -5068,8 +5068,8 @@ msgid "If no character is provided, the timeline of all registered characters in
 "- 🌟 Indicates level ups\n"
 "- ☠ Indicates deaths\n"
 "- 💀 Indicates PvP deaths"
-msgstr "Se nenhum personagem for fornecido, será mostrada a linha de tempo de todos os personagens registrados no servidor.\n"
-"Os personagens devem estar registrados para ter uma linha de tempo.\n"
+msgstr "Se nenhum personagem for fornecido, será mostrada a linha cronológica de todos os personagens registrados no servidor.\n"
+"Os personagens devem estar registrados para ter uma linha cronológica.\n"
 "- 🌟 Indica avanços de level\n"
 "- ☠ Indica mortes\n"
 "- 💀 Indica mortes em PvP"
@@ -5085,7 +5085,7 @@ msgstr "Mostra as mortes e os avanços de level recentes dos personagens registr
 #: cogs/tibia.py:1391 cogs/tibia.py:2367
 #, python-brace-format
 msgid "{name} timeline"
-msgstr ""
+msgstr "Linha Cronológica de {name}"
 
 #: cogs/tibia.py:1421
 msgid "Displays Tibia server's time and time until server save."
@@ -5115,7 +5115,7 @@ msgstr "**{time}** em {name}"
 
 #: cogs/tibia.py:1459
 msgid "Adds a new timezone to display."
-msgstr ""
+msgstr "Adiciona um novo fuso horário no qual horários serão exibidos."
 
 #: cogs/tibia.py:1460
 msgid "You can look by city, country or region.\n"
@@ -5630,7 +5630,7 @@ msgstr "{name} - Level **{level}** - **@{user}** - *{time} atrás*"
 
 #: cogs/tibia.py:2388
 msgid "Timeline"
-msgstr ""
+msgstr "Linha Cronológica"
 
 #. Death entry for timeline commamd
 #: cogs/tibia.py:2407
@@ -6082,11 +6082,11 @@ msgstr "100% de chance"
 
 #: cogs/tibiawiki.py:806
 msgid "Sold for"
-msgstr ""
+msgstr "Vendido por"
 
 #: cogs/tibiawiki.py:807
 msgid "Bought for"
-msgstr ""
+msgstr "Comprado por"
 
 #. Abbreviation for ounces
 #: cogs/tibiawiki.py:824
@@ -6134,7 +6134,7 @@ msgstr "Fortaleza dos Blue Djinn"
 #. Yasir's location
 #: cogs/tibiawiki.py:986
 msgid "his boat"
-msgstr ""
+msgstr "seu barco"
 
 #. Title of the list of NPCs that buy/sell (action) the item.
 #: cogs/tibiawiki.py:1020
@@ -6251,8 +6251,8 @@ msgstr "Ensina ({voc}s)"
 #: cogs/tibiawiki.py:1322
 msgid "…and {count:,} other"
 msgid_plural "…and {count:,} others"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "…e mais {count:,}"
+msgstr[1] "…e mais {count:,}"
 
 #: cogs/tibiawiki.py:1338
 msgctxt "Spell with variable mana"
@@ -6598,7 +6598,7 @@ msgstr "Eventos recentes"
 #: cogs/timers.py:763
 #, python-brace-format
 msgid "**{name}** (*ID: {id}*) - by {user} - In {time}"
-msgstr ""
+msgstr "**{name}** (*ID: {id}*) - por {user} - Em {time}"
 
 #: cogs/timers.py:779
 msgid "Creates a new event."
@@ -7432,21 +7432,26 @@ msgstr "Para que isto funcione, você tem que colocar um código especial no com
 #, python-brace-format
 msgid "To use this command, add `/NB-{user_code}/` to the comment of the character you want toclaim in Tibia.com, and then use `{prefix}claim character_name`.\n"
 "*Note that it might take a while to reflect the change due to caching.*"
-msgstr ""
+msgstr "Para usar este comando, adicione `/NB-{user_code}/` ao comentário do personagem que você deseja reivindicar no Tibia.com, e então use `{prefix}claim Nome do Personagem`.\n"
+"*Note que pode demorar um pouco para refletir a mudança devido ao cache.*"
 
 #: cogs/tracking.py:966
 #, python-brace-format
 msgid "Couldn't find verification code on character's comment.\n"
 "Add `/NB-{user_code}/` to the comment to authenticate.\n"
 "*Note that it might take a while to reflect the change due to caching.*"
-msgstr ""
+msgstr "Não foi possível encontrar o código de verificação no comentário do personagem.\n"
+"Adicione `/NB-{user_code}/` ao comentário para autenticar.\n"
+"*Observe que pode levar um tempo para refletir a mudança devido ao cache.*"
 
 #: cogs/tracking.py:973
 #, python-brace-format
 msgid "The verification code on the character's comment doesn't match yours.\n"
 "Use `/NB-{user_code}/` to authenticate.\n"
 "*Note that it might take a while to reflect the change due to caching.*"
-msgstr ""
+msgstr "O código de verificação do comentário do personagem não corresponde ao seu.\n"
+"Use `/NB-{user_code}/` para autenticar.\n"
+"*Observe que pode levar um tempo para refletir a mudança devido ao cache.*"
 
 #: cogs/tracking.py:996 cogs/tracking.py:1050
 #, python-brace-format
@@ -8025,7 +8030,7 @@ msgstr "Quando o canal contendo uma watchlist é excluído, a watchlist também 
 
 #: cogs/tracking.py:1937
 msgid "There are no watchlists in this server."
-msgstr ""
+msgstr "Não há nenhuma watchlist neste servidor."
 
 #: cogs/tracking.py:1941
 #, python-brace-format
@@ -8207,8 +8212,8 @@ msgstr "Nenhum resultado encontrado."
 #: models/context.py:182
 msgid "…and {count:,} more"
 msgid_plural "…and {count:,} more"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "…e mais {count:,}"
+msgstr[1] "…e mais {count:,}"
 
 #: models/context.py:189
 msgid "Please choose one of the options."
