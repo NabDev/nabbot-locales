@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-12 10:04-0700\n"
-"PO-Revision-Date: 2021-05-12 17:46\n"
+"PO-Revision-Date: 2021-05-12 18:43\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -7450,7 +7450,7 @@ msgid "Couldn't find verification code on character's comment.\n"
 "*Note that it might take a while to reflect the change due to caching.*"
 msgstr "Não foi possível encontrar o código de verificação no comentário do personagem.\n"
 "Adicione `/NB-{user_code}/` ao comentário para autenticar.\n"
-"*Observe que pode levar um tempo para refletir a mudança devido ao cache.*"
+"*Note que a mudança pode demorar um pouco para surtir efeito devido ao caching.*"
 
 #: cogs/tracking.py:973
 #, python-brace-format
@@ -7459,7 +7459,7 @@ msgid "The verification code on the character's comment doesn't match yours.\n"
 "*Note that it might take a while to reflect the change due to caching.*"
 msgstr "O código de verificação do comentário do personagem não corresponde ao seu.\n"
 "Use `/NB-{user_code}/` para autenticar.\n"
-"*Observe que pode levar um tempo para refletir a mudança devido ao cache.*"
+"*Note que a mudança pode demorar um pouco para surtir efeito devido ao caching.*"
 
 #: cogs/tracking.py:996 cogs/tracking.py:1050
 #, python-brace-format
