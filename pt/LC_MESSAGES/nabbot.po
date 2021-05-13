@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-12 21:07-0700\n"
-"PO-Revision-Date: 2021-05-13 10:06\n"
+"PO-Revision-Date: 2021-05-13 11:17\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -3970,12 +3970,12 @@ msgstr "Este servidor não tem grupos selecionáveis."
 #, python-format
 msgid "%d member"
 msgid_plural "%d members"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d membro"
+msgstr[1] "%d membros"
 
 #: cogs/roles.py:406
 msgid "Joinable Groups"
-msgstr ""
+msgstr "Grupos Selecionáveis"
 
 #: cogs/roles.py:415
 msgid "Removes a group."
@@ -5624,7 +5624,7 @@ msgstr "Pago Até"
 
 #: cogs/tibia.py:2195
 msgid "Moving out on"
-msgstr ""
+msgstr "Se mudando em"
 
 #: cogs/tibia.py:2200
 msgid "Transferring to"
