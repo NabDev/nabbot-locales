@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-13 11:19-0700\n"
-"PO-Revision-Date: 2021-05-13 18:21\n"
+"PO-Revision-Date: 2021-05-13 19:27\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1536,7 +1536,7 @@ msgstr "{prefix}{command} «nivel»,«vocación»"
 #: cogs/core.py:148
 #, python-brace-format
 msgid "You're using this too much! Try again in {time}."
-msgstr ""
+msgstr "¡Estás usando esto demasiado! Inténtalo de nuevo en {time}."
 
 #: cogs/core.py:235
 #, python-brace-format
@@ -3385,23 +3385,25 @@ msgstr "La duración de la cacería está determinada por la configuración del 
 #, python-brace-format
 msgid "Someone is already hunting in **{respawn}**.\n"
 "You can add yourself to the queue using `{prefix}respawn next {code}`."
-msgstr ""
+msgstr "Alguien ya está cazando en **{respawn}**.\n"
+"Puedes añadirse a ti mismo a la cola usando `{prefix}respawn next {code}`."
 
 #: cogs/respawn.py:278
 #, python-brace-format
 msgid "Do you want to start hunting in **{respawn}**? This will end your hunt at **{current_respawn.name}**."
-msgstr ""
+msgstr "¿Quieres empezar a cazar en **{respawn}**? Esto acabará con tu cacería en **{current_respawn.name}**."
 
 #: cogs/respawn.py:282
 #, python-brace-format
 msgid "Do you want to start hunting in **{respawn}**?"
-msgstr ""
+msgstr "¿Quieres empezar a cazar en **{respawn}**?"
 
 #: cogs/respawn.py:288
 #, python-brace-format
 msgid "You are now hunting in **{respawn}**.\n"
 "Your hunt should end at the following local time:"
-msgstr ""
+msgstr "Ahora estás cazando en **{respawn}**.\n"
+"Tu cacería debería terminar en la siguiente hora local:"
 
 #: cogs/respawn.py:296
 msgid "Removes the current hunter and the entire queue of a respawn."
@@ -6319,28 +6321,28 @@ msgstr "Destinos"
 
 #: cogs/tibiawiki.py:1258
 msgid "Job"
-msgstr ""
+msgstr "Profesión"
 
 #: cogs/tibiawiki.py:1261
 msgid "Race"
-msgstr ""
+msgstr "Raza"
 
 #: cogs/tibiawiki.py:1263
 msgid "Male"
-msgstr ""
+msgstr "Masculino"
 
 #: cogs/tibiawiki.py:1264
 msgid "Female"
-msgstr ""
+msgstr "Femenino"
 
 #: cogs/tibiawiki.py:1265
 msgctxt "Gender"
 msgid "Unknown"
-msgstr ""
+msgstr "Desconocido"
 
 #: cogs/tibiawiki.py:1268
 msgid "Gender"
-msgstr ""
+msgstr "Género"
 
 #. Title for the list of spells the NPC teaches to a vocation
 #: cogs/tibiawiki.py:1324
