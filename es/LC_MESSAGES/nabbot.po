@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-13 07:07-0700\n"
-"PO-Revision-Date: 2021-05-13 14:08\n"
+"PO-Revision-Date: 2021-05-13 15:05\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2167,7 +2167,7 @@ msgstr "Pantalla de bienvenida"
 #: cogs/info.py:326
 msgctxt "Server features"
 msgid "Membership Screening"
-msgstr ""
+msgstr "Cribado de miembros"
 
 #: cogs/info.py:333
 msgid "Additional Features"
@@ -2175,7 +2175,7 @@ msgstr "Características adicionales"
 
 #: cogs/info.py:335
 msgid "Server Invite Background"
-msgstr ""
+msgstr "Fondo de invitación al servidor"
 
 #: cogs/info.py:340
 msgid "Shows how long the bot has been running."
