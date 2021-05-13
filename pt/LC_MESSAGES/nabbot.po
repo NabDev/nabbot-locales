@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-13 14:09-0700\n"
-"PO-Revision-Date: 2021-05-13 22:06\n"
+"PO-Revision-Date: 2021-05-13 23:03\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -5301,7 +5301,7 @@ msgstr "Mostra informações básicas sobre um mundo do Tibia."
 
 #: cogs/tibia.py:1660
 msgid "Shows information like PvP type, online count, server location, vocation distribution, and more."
-msgstr "Mostra informações como o tipo de PvP, quantidade de jogadores online, localização do servidor, distribuição de vocação e muito mais."
+msgstr "Mostra informações como o tipo de PvP, a quantidade de jogadores online, a localização do servidor, a distribuição por vocação e muito mais."
 
 #: cogs/tibia.py:1673
 msgid "This world is offline."
@@ -5356,7 +5356,7 @@ msgid "You can pass a list of parameters separated by commas to change the sorti
 "- `europe`, `south america` or `north america` to filter by location.\n"
 "- `optional pvp`, `open pvp`, `retro open pvp`, `hardcore pvp` or `retro hardcore pvp` to filter by PvP type."
 msgstr "Você pode passar uma lista de parâmetros separados por vírgulas para alterar a classificação ou filtrar os mundos.\n"
-"- `online` para classificar por quantidade de jogadores online.\n"
+"- `online` para classificar pela quantidade de jogadores online.\n"
 "- `descendente` para inverter a ordem.\n"
 "- `europe`, `south america` ou `north america` para filtrar por local.\n"
 "- `optional pvp`, `open pvp`, `retro open pvp`, `hardcore pvp` ou `retro hardcore pvp` para filtrar pelo tipo de PvP."
@@ -7339,11 +7339,11 @@ msgstr "Watchlist"
 
 #: cogs/tracking.py:516
 msgid "Removing online count"
-msgstr "Removendo contagem online"
+msgstr "Removendo contagem de jogadores online"
 
 #: cogs/tracking.py:521
 msgid "Online count changed"
-msgstr "Contagem online modificada"
+msgstr "Contagem de jogadores online atualizada"
 
 #: cogs/tracking.py:544
 msgid "Watchlist Disabled"
@@ -7562,7 +7562,7 @@ msgstr "O código de verificação do comentário do personagem não corresponde
 #: cogs/tracking.py:997 cogs/tracking.py:1051
 #, python-brace-format
 msgid "Sorry, I couldn't find any characters from the worlds in the context ({0})."
-msgstr "Desculpe, não consegui encontrar nenhum personagem dos mundos no contexto ({0})."
+msgstr "Desculpe, não consegui encontrar nenhum personagem do(s) mundo(s) deste contexto ({0})."
 
 #: cogs/tracking.py:1007
 msgid "Lets you add your Tibia character(s) for the bot to track."
@@ -8110,11 +8110,11 @@ msgstr "Muda se a contagem de jogadores online será exibida no nome do canal da
 
 #: cogs/tracking.py:1915
 msgid "Showing online count is now enabled. The name will be updated on the next cycle."
-msgstr "A contagem de jogadores online está agora ativada. O nome será atualizado no próximo ciclo."
+msgstr "A contagem de jogadores online está ativada agora. O nome do canal será atualizado no próximo ciclo."
 
 #: cogs/tracking.py:1918
 msgid "Showing online count is now disabled. The name will be updated on the next cycle."
-msgstr "A contagem de jogadores online está agora desativada. O nome será atualizado no próximo ciclo."
+msgstr "A contagem de jogadores online está desativada agora. O nome do canal será atualizado no próximo ciclo."
 
 #: cogs/tracking.py:1920
 msgid "That's not a valid option, try `yes` or `no`."
