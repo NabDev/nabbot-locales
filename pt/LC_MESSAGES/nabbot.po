@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-12 21:07-0700\n"
-"PO-Revision-Date: 2021-05-13 11:17\n"
+"PO-Revision-Date: 2021-05-13 14:00\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -2071,7 +2071,7 @@ msgstr "Voz"
 
 #: cogs/info.py:275
 msgid "Stage"
-msgstr ""
+msgstr "Palco"
 
 #: cogs/info.py:284
 msgid "Humans"
@@ -2128,7 +2128,7 @@ msgstr "Regiões de voz VIP"
 #: cogs/info.py:319
 msgctxt "Server features"
 msgid "Vanity URL"
-msgstr ""
+msgstr "URL personalizada"
 
 #: cogs/info.py:320
 msgctxt "Server features"
@@ -2148,7 +2148,7 @@ msgstr "Servidor da Comunidade"
 #: cogs/info.py:323
 msgctxt "Server features"
 msgid "Discoverable"
-msgstr ""
+msgstr "Descobrir"
 
 #: cogs/info.py:324
 msgctxt "Server features"
@@ -2163,7 +2163,7 @@ msgstr "Tela de Boas-vindas"
 #: cogs/info.py:326
 msgctxt "Server features"
 msgid "Verification Gate"
-msgstr ""
+msgstr "Porta de Verificação"
 
 #: cogs/info.py:333
 msgid "Additional Features"
@@ -4065,7 +4065,7 @@ msgstr "Cor"
 #. Indicates that the role is for a bot
 #: cogs/roles.py:484
 msgid "Bot Role"
-msgstr ""
+msgstr "Cargo de Bot"
 
 #: cogs/roles.py:492
 msgid "Shows a list of members with that role."
