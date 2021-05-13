@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-13 11:19-0700\n"
-"PO-Revision-Date: 2021-05-13 20:24\n"
+"PO-Revision-Date: 2021-05-13 21:05\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -1244,7 +1244,7 @@ msgstr "Neste level, você pagará **{price:,}** {gold} por cada blessing comum,
 
 #: cogs/calculators.py:238
 msgid "Mountain blessings cost **{mountain_bless_price:,}**{gold} each, for a total of **{mountain_total:,}**{gold}."
-msgstr "As enhanced blessings custam **{mountain_bess_price:,}**{gold} cada, em um total de **{mountain_total:,}**{gold}."
+msgstr "As enhanced blessings custam **{mountain_bless_price:,}**{gold} cada, em um total de **{mountain_total:,}**{gold}."
 
 #: cogs/calculators.py:247
 msgid "Calculates the training time required to reach a target distance skill level."
@@ -1372,7 +1372,7 @@ msgstr "Stamina atual já é igual à desejada."
 #: cogs/calculators.py:472
 #, python-brace-format
 msgid "You need to rest **{remaining}** to get back to full stamina."
-msgstr "Você precisa descansar **{remaining}** ** para restaurar a stamina completamente."
+msgstr "Você precisa descansar **{remaining}** para restaurar a stamina completamente."
 
 #: cogs/calculators.py:474
 #, python-brace-format
