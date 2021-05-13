@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-12 21:07-0700\n"
+"POT-Creation-Date: 2021-05-13 07:07-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2156,7 +2156,7 @@ msgstr ""
 
 #: cogs/info.py:326
 msgctxt "Server features"
-msgid "Verification Gate"
+msgid "Membership Screening"
 msgstr ""
 
 #: cogs/info.py:333
@@ -2164,7 +2164,7 @@ msgid "Additional Features"
 msgstr ""
 
 #: cogs/info.py:335
-msgid "Splash Screen"
+msgid "Server Invite Background"
 msgstr ""
 
 #: cogs/info.py:340
