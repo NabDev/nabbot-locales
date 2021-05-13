@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-13 14:09-0700\n"
-"PO-Revision-Date: 2021-05-13 21:09\n"
+"PO-Revision-Date: 2021-05-13 22:06\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -1484,7 +1484,8 @@ msgstr "A quantidade de hitpoints não pode ser inferior a %d."
 #: cogs/calculators.py:568
 msgid "To reach **{hitpoints:,}** hitpoints, you need at least the following levels per vocation:\n"
 "\t"
-msgstr ""
+msgstr "Para atingir **{hitpoints:,}** hitpoints, você precisa de pelo menos os seguintes levels por vocação:\n"
+"\t"
 
 #: cogs/calculators.py:575
 msgid "Calculates the level required to reach the specified mana."
@@ -7636,7 +7637,7 @@ msgstr "Ninguém está online no Discord."
 
 #: cogs/tracking.py:1158
 msgid "I just started, give me some time to check online lists…⌛"
-msgstr "Acabei de começar, dê-me algum tempo para verificar as listas online…⌛"
+msgstr "Acabei de começar, dê-me algum tempo para verificar as listas de personagens online…⌛"
 
 #: cogs/tracking.py:1162
 msgid "Users online"
