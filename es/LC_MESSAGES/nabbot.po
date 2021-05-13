@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-12 21:07-0700\n"
-"PO-Revision-Date: 2021-05-13 04:08\n"
+"PO-Revision-Date: 2021-05-13 05:07\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1236,15 +1236,15 @@ msgstr "El nivel debe ser mayor que 1."
 
 #: cogs/calculators.py:205
 msgid "Blessing of the Inquisition costs **{price:,}**{gold}."
-msgstr ""
+msgstr "Blessing of the Inquisition cuesta **{price:,}**{gold}."
 
 #: cogs/calculators.py:208
 msgid "At that level you will pay **{price:,}** {gold} per blessing for a total of **{total:,}**{gold}."
-msgstr ""
+msgstr "En ese nivel pagarás **{price:,}**{gold} por blessing para un total de **{total:,}**{gold}."
 
 #: cogs/calculators.py:212
 msgid "Mountain blessings cost **{mountain_bless_price:,}**{gold} each, for a total of **{mountain_total:,}**{gold}."
-msgstr ""
+msgstr "Las mountain blessing cuestan **{mountain_bless_price:,}**{gold} cada una, para un total de **{mountain_total:,}**{gold}."
 
 #: cogs/calculators.py:221
 msgid "Calculates the training time required to reach a target distance skill level."
@@ -1502,7 +1502,8 @@ msgstr "Para alcanzar **{mana:,}** puntos de maná, necesitas al menos los sigui
 #: cogs/calculators.py:656
 msgid "You would need **{weapons:,}** exercise weapons.\n"
 "Costing **{weapons_cost:,}**{gold} or **{tc_cost:,}**{tc}.\n"
-msgstr ""
+msgstr "Necesitarías **{weapons:,}** exercise weapons.\n"
+"Costando **{weapons_cost:,}**{gold} o **{tc_cost:,}**{tc}.\n"
 
 #: cogs/calculators.py:663
 #, python-brace-format
@@ -2074,7 +2075,7 @@ msgstr "Voz"
 
 #: cogs/info.py:275
 msgid "Stage"
-msgstr ""
+msgstr "Escenario"
 
 #: cogs/info.py:284
 msgid "Humans"
@@ -2125,56 +2126,56 @@ msgstr "Añadido el"
 #: cogs/info.py:318
 msgctxt "Server features"
 msgid "VIP voice regions"
-msgstr ""
+msgstr "Regiones de voz VIP"
 
 #. NOSONAR
 #: cogs/info.py:319
 msgctxt "Server features"
 msgid "Vanity URL"
-msgstr ""
+msgstr "URL personalizada"
 
 #: cogs/info.py:320
 msgctxt "Server features"
 msgid "Verified Server"
-msgstr ""
+msgstr "Servidor verificado"
 
 #: cogs/info.py:321
 msgctxt "Server features"
 msgid "Partnered Server"
-msgstr ""
+msgstr "Servidor asociado"
 
 #: cogs/info.py:322
 msgctxt "Server features"
 msgid "Community Server"
-msgstr ""
+msgstr "Servidor comunitario"
 
 #: cogs/info.py:323
 msgctxt "Server features"
 msgid "Discoverable"
-msgstr ""
+msgstr "Descubrible"
 
 #: cogs/info.py:324
 msgctxt "Server features"
 msgid "Can use animated icon"
-msgstr ""
+msgstr "Puede usar icono animado"
 
 #: cogs/info.py:325
 msgctxt "Server features"
 msgid "Welcome Screen"
-msgstr ""
+msgstr "Pantalla de bienvenida"
 
 #: cogs/info.py:326
 msgctxt "Server features"
 msgid "Verification Gate"
-msgstr ""
+msgstr "Puerta de verificación"
 
 #: cogs/info.py:333
 msgid "Additional Features"
-msgstr ""
+msgstr "Características adicionales"
 
 #: cogs/info.py:335
 msgid "Splash Screen"
-msgstr ""
+msgstr "Pantalla de inicio"
 
 #: cogs/info.py:340
 msgid "Shows how long the bot has been running."
@@ -3823,7 +3824,7 @@ msgstr "Este servidor no tiene reglas de autoroles."
 
 #: cogs/roles.py:247
 msgid "Autorole Rules"
-msgstr ""
+msgstr "Reglas de autoroles"
 
 #: cogs/roles.py:254
 msgid "Triggers a refresh on all members."
@@ -3973,12 +3974,12 @@ msgstr "Este servidor no tiene grupos que se pueden unir."
 #, python-format
 msgid "%d member"
 msgid_plural "%d members"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d miembro"
+msgstr[1] "%d miembros"
 
 #: cogs/roles.py:406
 msgid "Joinable Groups"
-msgstr ""
+msgstr "Grupos Unibles"
 
 #: cogs/roles.py:415
 msgid "Removes a group."
@@ -4068,7 +4069,7 @@ msgstr "Color"
 #. Indicates that the role is for a bot
 #: cogs/roles.py:484
 msgid "Bot Role"
-msgstr ""
+msgstr "Rol de bot"
 
 #: cogs/roles.py:492
 msgid "Shows a list of members with that role."
