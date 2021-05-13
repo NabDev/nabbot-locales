@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-13 14:09-0700\n"
-"PO-Revision-Date: 2021-05-13 21:09\n"
+"PO-Revision-Date: 2021-05-13 22:06\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1487,7 +1487,8 @@ msgstr "Los hitpoints no pueden ser inferiores a %d."
 #: cogs/calculators.py:568
 msgid "To reach **{hitpoints:,}** hitpoints, you need at least the following levels per vocation:\n"
 "\t"
-msgstr ""
+msgstr "Para alcanzar **{hitpoints:,}** hitpoints, necesitas al menos los siguientes niveles por vocación:\n"
+"\t"
 
 #: cogs/calculators.py:575
 msgid "Calculates the level required to reach the specified mana."
