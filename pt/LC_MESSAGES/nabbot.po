@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-12 21:07-0700\n"
-"PO-Revision-Date: 2021-05-13 04:08\n"
+"PO-Revision-Date: 2021-05-13 10:06\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -1236,15 +1236,15 @@ msgstr "Level deve ser maior que 1."
 
 #: cogs/calculators.py:205
 msgid "Blessing of the Inquisition costs **{price:,}**{gold}."
-msgstr ""
+msgstr "Blessing da Inquisition custa **{price:,}**{gold}."
 
 #: cogs/calculators.py:208
 msgid "At that level you will pay **{price:,}** {gold} per blessing for a total of **{total:,}**{gold}."
-msgstr ""
+msgstr "Neste level, você pagará **{price:,}** {gold} por cada blessing comum, em um total de **{total:,}**{gold}."
 
 #: cogs/calculators.py:212
 msgid "Mountain blessings cost **{mountain_bless_price:,}**{gold} each, for a total of **{mountain_total:,}**{gold}."
-msgstr ""
+msgstr "As enhanced blessings custam **{mountain_bess_price:,}**{gold} cada, em um total de **{mountain_total:,}**{gold}."
 
 #: cogs/calculators.py:221
 msgid "Calculates the training time required to reach a target distance skill level."
@@ -1499,7 +1499,8 @@ msgstr "Para atingir **{mana:,}** pontos de mana, você precisa de pelo menos os
 #: cogs/calculators.py:656
 msgid "You would need **{weapons:,}** exercise weapons.\n"
 "Costing **{weapons_cost:,}**{gold} or **{tc_cost:,}**{tc}.\n"
-msgstr ""
+msgstr "Você precisaria de **{weapons:,}** exercise weapons.\n"
+"Custando **{weapons_cost:,}**{gold} ou **{tc_cost:,}**{tc}.\n"
 
 #: cogs/calculators.py:663
 #, python-brace-format
@@ -2121,7 +2122,7 @@ msgstr "Adicionado em"
 #: cogs/info.py:318
 msgctxt "Server features"
 msgid "VIP voice regions"
-msgstr ""
+msgstr "Regiões de voz VIP"
 
 #. NOSONAR
 #: cogs/info.py:319
@@ -2132,17 +2133,17 @@ msgstr ""
 #: cogs/info.py:320
 msgctxt "Server features"
 msgid "Verified Server"
-msgstr ""
+msgstr "Servidor Verificado"
 
 #: cogs/info.py:321
 msgctxt "Server features"
 msgid "Partnered Server"
-msgstr ""
+msgstr "Servidor Parceiro"
 
 #: cogs/info.py:322
 msgctxt "Server features"
 msgid "Community Server"
-msgstr ""
+msgstr "Servidor da Comunidade"
 
 #: cogs/info.py:323
 msgctxt "Server features"
@@ -2152,12 +2153,12 @@ msgstr ""
 #: cogs/info.py:324
 msgctxt "Server features"
 msgid "Can use animated icon"
-msgstr ""
+msgstr "Pode usar um ícone animado"
 
 #: cogs/info.py:325
 msgctxt "Server features"
 msgid "Welcome Screen"
-msgstr ""
+msgstr "Tela de Boas-vindas"
 
 #: cogs/info.py:326
 msgctxt "Server features"
@@ -2166,11 +2167,11 @@ msgstr ""
 
 #: cogs/info.py:333
 msgid "Additional Features"
-msgstr ""
+msgstr "Recursos Adicionais"
 
 #: cogs/info.py:335
 msgid "Splash Screen"
-msgstr ""
+msgstr "Tela Inicial"
 
 #: cogs/info.py:340
 msgid "Shows how long the bot has been running."
@@ -3818,7 +3819,7 @@ msgstr "Este servidor não tem regras de cargos automáticos."
 
 #: cogs/roles.py:247
 msgid "Autorole Rules"
-msgstr ""
+msgstr "Regras de Cargos Automáticos"
 
 #: cogs/roles.py:254
 msgid "Triggers a refresh on all members."
