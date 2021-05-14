@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-13 16:30-0700\n"
-"PO-Revision-Date: 2021-05-14 00:36\n"
+"PO-Revision-Date: 2021-05-14 17:09\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -659,7 +659,7 @@ msgstr "Nossas mensagens privadas estarão agora em **{language}**."
 #: cogs/admin.py:225
 #, python-brace-format
 msgid "This server's messages will now be in **{language}**."
-msgstr "As mensagens deste servidor estarão agora em **{language}**."
+msgstr "As mensagens deste servidor a partir de agora estarão em **{language}**."
 
 #: cogs/admin.py:233
 msgid "Checks or sets various server-specific settings."
