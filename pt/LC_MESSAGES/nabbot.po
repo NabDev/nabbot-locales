@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-13 16:30-0700\n"
-"PO-Revision-Date: 2021-05-14 17:09\n"
+"PO-Revision-Date: 2021-05-14 20:09\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -1669,7 +1669,7 @@ msgstr "NabBot entrou no servidor"
 
 #: cogs/core.py:445 cogs/info.py:73
 msgid "Invite NabBot"
-msgstr "Invitar NabBot"
+msgstr "Convidar NabBot"
 
 #: cogs/core.py:446 cogs/info.py:75
 msgid "Docs"
