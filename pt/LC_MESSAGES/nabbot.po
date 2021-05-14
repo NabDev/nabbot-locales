@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-13 16:30-0700\n"
-"PO-Revision-Date: 2021-05-13 23:32\n"
+"PO-Revision-Date: 2021-05-14 00:36\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -6897,7 +6897,8 @@ msgstr "Edita a quantidade de vagas de um evento."
 #: cogs/timers.py:1044
 msgid "Slots is the number of characters an event can have. By default this is 0, which means no limit.\n"
 "Replace `[new slots]` with the number of slots you would like the event to have."
-msgstr ""
+msgstr "As vagas são o número de personagens que um evento pode ter. Por padrão é 0, o que significa que não há limite.\n"
+"Substitua `[new slots]` pelo número de vagas que você deseja que o evento tenha."
 
 #. `cancel` can be translated
 #: cogs/timers.py:1055
