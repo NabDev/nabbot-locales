@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-13 16:30-0700\n"
-"PO-Revision-Date: 2021-05-14 20:09\n"
+"PO-Revision-Date: 2021-05-14 21:17\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -6686,7 +6686,7 @@ msgstr "Para mais informações sobre um evento, use `{prefix}{command} info (ID
 
 #: cogs/timers.py:735
 msgid "There are no upcoming events."
-msgstr "Não há próximos eventos."
+msgstr ""
 
 #. List format for current events
 #: cogs/timers.py:746
