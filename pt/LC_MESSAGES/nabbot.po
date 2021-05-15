@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-13 16:30-0700\n"
-"PO-Revision-Date: 2021-05-14 21:17\n"
+"PO-Revision-Date: 2021-05-15 11:33\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -3165,7 +3165,7 @@ msgstr "Preços da Premium do NabBot"
 #: cogs/premium.py:597
 #, python-brace-format
 msgid "You can also become a [Patron]({url}) to get premium benefits."
-msgstr "Você também pode se tornar um apoiador no [Patron]({url}) para obter benefícios premium."
+msgstr "Você também pode se tornar um [Patron]({url}) para obter benefícios premium."
 
 #: cogs/premium.py:599
 msgid "More information"
