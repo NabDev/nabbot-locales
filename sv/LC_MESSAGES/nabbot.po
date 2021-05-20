@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-19 18:09-0700\n"
-"PO-Revision-Date: 2021-05-20 01:10\n"
+"POT-Creation-Date: 2021-05-19 18:12-0700\n"
+"PO-Revision-Date: 2021-05-20 01:12\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
@@ -6195,7 +6195,7 @@ msgid "Group Cooldown"
 msgstr ""
 
 #: cogs/tibiawiki.py:1379
-msgid "2nd Group 2 Cooldown"
+msgid "2nd Group Cooldown"
 msgstr ""
 
 #: cogs/tibiawiki.py:1384
