@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-19 18:12-0700\n"
-"PO-Revision-Date: 2021-05-20 01:12\n"
+"PO-Revision-Date: 2021-05-20 23:52\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3406,7 +3406,7 @@ msgstr "¿Quieres empezar a cazar en **{respawn}**?"
 
 #: cogs/respawn.py:287
 msgid "Local Time"
-msgstr ""
+msgstr "Hora local"
 
 #: cogs/respawn.py:288
 #, python-brace-format
@@ -5355,7 +5355,7 @@ msgstr "Distribución por vocación"
 
 #: cogs/tibia.py:1715
 msgid "Merged From"
-msgstr ""
+msgstr "Combinado de"
 
 #: cogs/tibia.py:1722
 msgid "Shows a list of worlds."
@@ -6089,7 +6089,7 @@ msgstr "Fecha de generación de bases de datos"
 #: cogs/tibiawiki.py:624
 #, python-brace-format
 msgid "Implemented in version {version}"
-msgstr ""
+msgstr "Implementado en la versión {version}"
 
 #: cogs/tibiawiki.py:674
 #, python-brace-format
@@ -6386,15 +6386,15 @@ msgstr "Cooldown"
 
 #: cogs/tibiawiki.py:1373
 msgid "Group Cooldown"
-msgstr ""
+msgstr "Cooldown de grupo"
 
 #: cogs/tibiawiki.py:1379
 msgid "2nd Group Cooldown"
-msgstr ""
+msgstr "Cooldown de 2do grupo"
 
 #: cogs/tibiawiki.py:1384
 msgid "Rune Group"
-msgstr ""
+msgstr "Grupo de Runa"
 
 #. Whether a vocation promotion is required for the spell
 #: cogs/tibiawiki.py:1389
@@ -7337,7 +7337,7 @@ msgstr "{channel} no es un canal de watchlist."
 #: cogs/tracking.py:79
 #, python-brace-format
 msgid "You need `Manage Channel` permissions in {channel} to create new entries in this watchlist."
-msgstr ""
+msgstr "Necesitas permisos de `Gestionar canal` en {channel} para crear nuevas entradas en este watchlist."
 
 #: cogs/tracking.py:105
 msgid "Commands related to NabBot's tracking system."
@@ -7421,7 +7421,7 @@ msgstr " y se unió al guild: **{new_guild}**"
 #: cogs/tracking.py:662
 #, python-brace-format
 msgid "{char} has joined the guild **{guild}**."
-msgstr ""
+msgstr "{char} se ha unido al guild **{guild}**."
 
 #: cogs/tracking.py:671
 #, python-brace-format
