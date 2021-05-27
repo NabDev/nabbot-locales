@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-19 18:12-0700\n"
-"PO-Revision-Date: 2021-05-20 01:12\n"
+"PO-Revision-Date: 2021-05-27 18:47\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -2168,13 +2168,13 @@ msgstr "Dodano"
 #: cogs/info.py:320
 msgctxt "Server features"
 msgid "VIP voice regions"
-msgstr ""
+msgstr "Regiony głosowe VIP"
 
 #. NOSONAR
 #: cogs/info.py:321
 msgctxt "Server features"
 msgid "Vanity URL"
-msgstr ""
+msgstr "Własny URL"
 
 #: cogs/info.py:322
 msgctxt "Server features"
@@ -2184,12 +2184,12 @@ msgstr ""
 #: cogs/info.py:323
 msgctxt "Server features"
 msgid "Partnered Server"
-msgstr ""
+msgstr "Serwer Partnerski"
 
 #: cogs/info.py:324
 msgctxt "Server features"
 msgid "Community Server"
-msgstr ""
+msgstr "Serwer Społeczności"
 
 #: cogs/info.py:325
 msgctxt "Server features"
@@ -2209,7 +2209,7 @@ msgstr ""
 #: cogs/info.py:328
 msgctxt "Server features"
 msgid "Membership Screening"
-msgstr ""
+msgstr "Sprawdzanie Użytkowników"
 
 #: cogs/info.py:335
 msgid "Additional Features"
@@ -3749,7 +3749,13 @@ msgid "This is where I will post a list of spawns **currently taken**.\n"
 "If this channel is deleted, you will have to setup respawns again.\n"
 "**It is important to not allow anyone to write in here**\n"
 "*This message can be deleted now.*"
-msgstr ""
+msgstr "Tutaj będę publikować listę spawnów, które są **teraz zajęte**.\n"
+"Załączony obraz wyświetla **kompletną** listę spawnów z ich kodami.\n"
+"Edytuj uprawnienia tego kanału, aby nadać uprawnienia rolom którym chcesz.\n"
+"Ten kanał może mieć dowolną nazwę.\n"
+"Jeśli kanał zostanie usunięty, będziesz musiał ponownie skonfigurować respawny.\n"
+"**Ważne jest, aby nie zezwalać nikomu na pisanie tutaj**\n"
+"*Ta wiadomość może być teraz usunięta.*"
 
 #: cogs/respawn.py:620
 msgid "Channel created successfully"
@@ -3795,7 +3801,13 @@ msgid "Rules consist of a role and a guild name.\n"
 "You can also specify a required rank in the guild to get the role. For example: `Keeper@Redd Alliance` will give the role only if the character has the rank `Keeper` in `Redd Alliance`.\n\n"
 "Role names, role mentions, or role IDs are allowed. Role names with multiple words must be wrapped in double quotes.\n"
 "Note that current members won't be updated until their characters or guilds change."
-msgstr ""
+msgstr "Reguły składają się z roli i nazwy gildii.\n"
+"Kiedy użytkownik ma postać zarejestrowaną w tej gildii, otrzyma rolę.\n"
+"Jeśli przestają mieć postać w gildii, rola zostanie usunięta.\n\n"
+"Jeśli `*` jest używany jako gildia. Oznacza to, że rola zostanie przyznana za posiadanie przypisanej postaci w śledzonym świecie.\n\n"
+"Możesz również określić wymaganą rangę w gildii, aby otrzymać rolę. Na przykład: `Keeper@Redd Alliance` nada rolę tylko wtedy, gdy postać ma rangę `Keeper` w `Redd Alliance`.\n\n"
+"Dozwolone są nazwy roli, wzmianki o roli lub identyfikatory roli. Nazwy ról z wieloma słowami muszą być w cudzysłowach.\n"
+"Pamiętaj, że bieżący użytkownicy nie będą aktualizowani do czasu aktualizacji ich postaci lub gildii."
 
 #: cogs/roles.py:178
 msgid "`*` - All users with registered characters."
@@ -3863,7 +3875,7 @@ msgstr ""
 
 #: cogs/roles.py:246
 msgid "Autorole Rules"
-msgstr ""
+msgstr "Reguły autoroli"
 
 #: cogs/roles.py:253
 msgid "Triggers a refresh on all members."
@@ -3874,13 +3886,18 @@ msgid "This will apply existing rules to all members.\n"
 "Note that guild changes from members that haven't been online won't be affected.\n"
 "Deleted rules won't have any effect.\n\n"
 "This command can only be used once per server per day."
-msgstr ""
+msgstr "Spowoduje to zastosowanie istniejących reguł do wszystkich członków.\n"
+"Zauważ, że zmiany gildii członków, którzy nie byli online, nie zostaną wzięte pod uwagę.\n"
+"Usunięte reguły nie będą miały żadnego efektu.\n\n"
+"Ta komenda może być użyta tylko raz na serwer dziennie."
 
 #: cogs/roles.py:261
 msgid "This will make me check the guilds of all registered characters to apply existing rules.\n"
 "Note that characters with outdated information won't be updated until they are online again or checked using `whois`\n"
 "Are you sure you want this?"
-msgstr ""
+msgstr "To sprawi, że sprawdzę gildię wszystkich zarejestrowanych postaci, aby zastosować istniejące reguły.\n"
+"Zauważ, że postacie z przestarzałymi informacjami nie będą aktualizowane dopóki nie staną się ponownie online lub zostaną sprawdzone za pomocą `whois`\n"
+"Czy na pewno chcesz to zrobić?"
 
 #: cogs/roles.py:270
 msgid "Starting role refreshing…"
@@ -3897,7 +3914,8 @@ msgstr "Usuwa regułę automatycznej roli."
 #: cogs/roles.py:283
 msgid "Role names, mentions and ids are accepted. Role names with multiple words need to be wrapped in double quotes.\n\n"
 "Note that members that currently have the role won't be affected."
-msgstr ""
+msgstr "Nazwy ról, wzmianki i identyfikatory są akceptowane. Nazwy ról z wieloma słowami muszą być w cudzysłowach.\n\n"
+"Zauważ, że członkowie, którzy mają obecnie rolę nie zostaną dotknięci."
 
 #: cogs/roles.py:292
 msgid "That rule doesn't exist."
@@ -4008,14 +4026,14 @@ msgstr "Ten serwer nie ma dołączalnych grup."
 #, python-format
 msgid "%d member"
 msgid_plural "%d members"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%d członek"
+msgstr[1] "%d członków"
+msgstr[2] "%d członków"
+msgstr[3] "%d członków"
 
 #: cogs/roles.py:405
 msgid "Joinable Groups"
-msgstr ""
+msgstr "Dołączalne grupy"
 
 #: cogs/roles.py:414
 msgid "Removes a group."
@@ -4105,7 +4123,7 @@ msgstr "Kolor"
 #. Indicates that the role is for a bot
 #: cogs/roles.py:483
 msgid "Bot Role"
-msgstr ""
+msgstr "Rola bota"
 
 #: cogs/roles.py:491
 msgid "Shows a list of members with that role."
@@ -4129,7 +4147,9 @@ msgstr ""
 msgid "This allows using a role mention for roles that have mentioning disabled.\n"
 "Mentions for the role are enabled, the message is sent and role mentions are disabled again.\n\n"
 "The message is signed by the command author."
-msgstr ""
+msgstr "Pozwala to na użycie wzmianki o roli dla roli, która ma wzmianki wyłączone.\n"
+"Wzmianki o roli są włączane, wiadomość jest wysyłana, i wzmianki o roli są ponownie wyłączone.\n\n"
+"Wiadomość jest podpisana przez autora komendy."
 
 #: cogs/roles.py:519
 msgid "You can't mention a role highest than your highest role."
