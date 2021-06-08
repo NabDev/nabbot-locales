@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-05 11:42-0700\n"
-"PO-Revision-Date: 2021-06-05 19:47\n"
+"PO-Revision-Date: 2021-06-08 15:30\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4872,7 +4872,7 @@ msgstr "Nvl {level} ({exp:,} exp)"
 #: cogs/tibia.py:942
 msgid "{value:,} point"
 msgid_plural "{value:,} points"
-msgstr[0] "{valor:,} punto"
+msgstr[0] "{value:,} punto"
 msgstr[1] "{value:,} puntos"
 
 #. Describes the level for skill entries in the highscores
