@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-23 12:57-0700\n"
-"PO-Revision-Date: 2021-06-23 21:09\n"
+"PO-Revision-Date: 2021-06-23 22:26\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -2290,7 +2290,7 @@ msgstr "{0} membro mais antigo\n"
 
 #: cogs/info.py:414
 msgid "Boosting Since"
-msgstr ""
+msgstr "Impulsionando Desde"
 
 #: cogs/info.py:445
 msgid "System Uptime"
