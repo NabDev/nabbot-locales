@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-23 12:57-0700\n"
-"PO-Revision-Date: 2021-06-23 19:58\n"
+"PO-Revision-Date: 2021-06-23 22:26\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1385,7 +1385,7 @@ msgstr "Necesitas descansar **{remaining}** para volver a **{hours}:{minutes:02}
 #: cogs/calculators.py:478
 #, python-brace-format
 msgid "If you start resting now, you will reach your target stamina on {date}."
-msgstr ""
+msgstr "Si comienzas a descansar ahora, alcanzarás la estamina deseada el {date}."
 
 #: cogs/calculators.py:487
 msgid "Calculates character stats based on vocation and level."
@@ -2137,13 +2137,13 @@ msgstr "Añadido el"
 #: cogs/info.py:323
 #, python-brace-format
 msgid "Granted by {user}"
-msgstr ""
+msgstr "Otorgado por {user}"
 
 #. When does premium expire. in_time is a relative time, e.g. "in 6 days".
 #: cogs/info.py:327
 #, python-brace-format
 msgid "Expires {in_time}"
-msgstr ""
+msgstr "Expira {in_time}"
 
 #: cogs/info.py:329 cogs/premium.py:599 cogs/tibiawiki.py:1387
 msgid "Premium"
@@ -2239,12 +2239,12 @@ msgstr "No pude encontrar al usuario `{user}`"
 #: cogs/info.py:387
 msgctxt "Discord account creation date"
 msgid "Account Created"
-msgstr ""
+msgstr "Cuenta creada"
 
 #: cogs/info.py:389
 msgctxt "Member join date"
 msgid "Joined Server"
-msgstr ""
+msgstr "Se unió a servidor"
 
 #: cogs/info.py:393
 msgid "Server Owner"
@@ -2295,7 +2295,7 @@ msgstr "{0} miembro más antiguo\n"
 
 #: cogs/info.py:414
 msgid "Boosting Since"
-msgstr ""
+msgstr "Mejorando desde"
 
 #: cogs/info.py:445
 msgid "System Uptime"
@@ -3360,7 +3360,7 @@ msgstr "El sistema de respawns no esta configurado para este servidor. Usa `{pre
 
 #: cogs/respawn.py:91
 msgid "You do not have access to the respawn system in this server."
-msgstr ""
+msgstr "No tienes acceso al sistema de respawns en este servidor."
 
 #: cogs/respawn.py:217
 #, python-brace-format
@@ -3448,15 +3448,15 @@ msgstr "**{respawn.name}** ha sido limpiado."
 
 #: cogs/respawn.py:322
 msgid "Clears all respawns, removing anyone hunting and all the queues."
-msgstr ""
+msgstr "Limpia todas las respawns, eliminando a cualquiera cazando y todas las colas."
 
 #: cogs/respawn.py:325
 msgid "Are you sure you want to clear all the respawns and their queues?"
-msgstr ""
+msgstr "¿Estás seguro de que quieres limpiar todos los respawns y sus colas?"
 
 #: cogs/respawn.py:330
 msgid "All respawns have been cleared."
-msgstr ""
+msgstr "Se han borrado todos los respawns."
 
 #: cogs/respawn.py:334
 msgid "Shows a list of previous hunts in a respawn."
@@ -3484,7 +3484,7 @@ msgstr "un usuario desconocido"
 
 #: cogs/respawn.py:372 cogs/respawn.py:545
 msgid "Hunt End"
-msgstr ""
+msgstr "Fin de la caza"
 
 #: cogs/respawn.py:374
 #, python-brace-format
@@ -3727,7 +3727,7 @@ msgstr "Necesito permiso `Gestionar canales` para configurar el sistema de respa
 #. Audit Log reason for creating a channel for respawn system
 #: cogs/respawn.py:633
 msgid "Created for Respawn System"
-msgstr ""
+msgstr "Creado para el sistema de respawns"
 
 #: cogs/respawn.py:638 cogs/tracking.py:1655
 msgid "Sorry, I don't have permissions to create channels."
@@ -4626,7 +4626,7 @@ msgstr "No hay posts de CMs en los ultimos 30 días."
 #: cogs/tibia.py:564
 #, python-brace-format
 msgid "`{id}` - {post} - *{time}*"
-msgstr ""
+msgstr "`{id}` - {post} - *{time}*"
 
 #: cogs/tibia.py:571
 msgid "Recent CM Posts"
@@ -4667,7 +4667,7 @@ msgstr "Muestra las últimas muertes causadas por un monstruo específico."
 #: cogs/tibia.py:633
 #, python-brace-format
 msgid "{name} (**@{user}**) - At level **{level}** - *{time}*"
-msgstr ""
+msgstr "{name} (**@{user}**) - En nivel **{level}** - *{time}*"
 
 #: cogs/tibia.py:639
 msgid "There are no registered deaths by that monster."
@@ -4687,7 +4687,7 @@ msgstr "Muestra las muertes recientes de un usuario en sus caracteres registrado
 #: cogs/tibia.py:665 cogs/tibia.py:1398
 #, python-brace-format
 msgid "{name} - At level **{level}** by {killer} - *{time}*"
-msgstr ""
+msgstr "{name} - En nivel **{level}** por {killer} - *{time}*"
 
 #: cogs/tibia.py:672
 msgid "There are no registered deaths by this user."
@@ -4974,7 +4974,7 @@ msgstr "Muestra los niveles recientes de un usuario en sus personajes registrado
 #: cogs/tibia.py:1091 cogs/tibia.py:1404
 #, python-brace-format
 msgid "{name} - Level **{level}** - *{time}*"
-msgstr ""
+msgstr "{name} - Nivel **{level}** - *{time}*"
 
 #: cogs/tibia.py:1097
 msgid "There are not registered level ups by this user."
@@ -5208,7 +5208,8 @@ msgstr "Los moderadores del servidor pueden administrar las zonas horarias mostr
 #, python-brace-format
 msgid "It's currently **{tibia_time}** in Tibia's website ({timezone_name}).\n"
 "Server save: {time_until}."
-msgstr ""
+msgstr "Actualmente son las **{tibia_time}** en el sitio web de Tibia ({timezone_name}).\n"
+"El server save es: {time_until}."
 
 #: cogs/tibia.py:1436 cogs/tibiawiki.py:484
 #, python-brace-format
@@ -5436,7 +5437,7 @@ msgstr "Skills"
 #: cogs/tibia.py:1925
 msgctxt "Character creation date"
 msgid "Created"
-msgstr ""
+msgstr "Creado"
 
 #: cogs/tibia.py:1926
 msgid "Regular Transfer"
@@ -5472,7 +5473,7 @@ msgstr "Bestiary completado"
 
 #: cogs/tibia.py:1940
 msgid "Auction Start"
-msgstr ""
+msgstr "Inicio de subasta"
 
 #: cogs/tibia.py:1941 cogs/tibia.py:2215
 msgid "Auction End"
@@ -5714,7 +5715,7 @@ msgstr "En {world}"
 #: cogs/tibia.py:2246 cogs/tibia.py:2280 cogs/tibia.py:2383
 #, python-brace-format
 msgid "At level **{level}** by {killer} - *{time}*"
-msgstr ""
+msgstr "En nivel **{level}** por {killer} - *{time}*"
 
 #: cogs/tibia.py:2272
 #, python-brace-format
@@ -5725,14 +5726,14 @@ msgstr "Muertes más recientes de {name}"
 #: cogs/tibia.py:2305
 #, python-brace-format
 msgid "{name} (**@{user}**) - At level **{level}** by {killer} - {time}"
-msgstr ""
+msgstr "{name} (**@{user}**) - En nivel **{level}** por {killer} - {time}"
 
 #. Entry for levels command, for a specific character
 #. Death entry for timeline command for a specific character
 #: cogs/tibia.py:2333 cogs/tibia.py:2389
 #, python-brace-format
 msgid "Level **{level}** - *{time}*"
-msgstr ""
+msgstr "Nivel **{level}** - *{time}*"
 
 #: cogs/tibia.py:2340
 msgid "Latest level ups"
@@ -5742,7 +5743,7 @@ msgstr "Últimos niveles"
 #: cogs/tibia.py:2353
 #, python-brace-format
 msgid "{name} - Level **{level}** - **@{user}** - *{time}*"
-msgstr ""
+msgstr "{name} - Nivel **{level}** - **@{user}** - *{time}*"
 
 #: cogs/tibia.py:2397
 msgid "Timeline"
@@ -5752,13 +5753,13 @@ msgstr "Línea de tiempo"
 #: cogs/tibia.py:2416
 #, python-brace-format
 msgid "{name} (**@{user}**) - At level **{level}** by {killer} - *{time}*"
-msgstr ""
+msgstr "{name} (**@{user}**) - En nivel **{level}** por {killer} - *{time}*"
 
 #. Level up entry for timeline command
 #: cogs/tibia.py:2423
 #, python-brace-format
 msgid "{name} (**@{user}**) - Level **{level}** - *{time}*"
-msgstr ""
+msgstr "{name} (**@{user}**) - Nivel **{level}** - *{time}*"
 
 #: cogs/tibia.py:2567
 #, python-format
@@ -6463,7 +6464,7 @@ msgstr "El nombre del evento no puede tener más de %d caracteres."
 
 #: cogs/timers.py:279
 msgid "Start Time"
-msgstr ""
+msgstr "Hora de inicio"
 
 #: cogs/timers.py:284
 #, python-brace-format
@@ -6487,7 +6488,7 @@ msgstr "usuario desconocido"
 #: cogs/timers.py:400
 #, python-brace-format
 msgid "Event: **{name}** (ID: {id} | by {user}) - Is starting {in_time}"
-msgstr ""
+msgstr "Evento: **{name}** (ID: {id} | por {user}) - Empieza {in_time}"
 
 #. Message received when a reminder is due
 #: cogs/timers.py:432
@@ -6536,7 +6537,7 @@ msgstr "Tu tiempo de cooldown para **{boss}** terminará en {diff}."
 #: cogs/timers.py:511
 #, python-brace-format
 msgid "**{char}** - Expires {in_time}"
-msgstr ""
+msgstr "**{char}** - Expira {in_time}"
 
 #: cogs/timers.py:514
 #, python-brace-format
@@ -6739,7 +6740,7 @@ msgstr "No hay eventos próximos."
 #: cogs/timers.py:746
 #, python-brace-format
 msgid "**{name}** (*ID: {id}*) - by {user} - Started {time}"
-msgstr ""
+msgstr "**{name}** (*ID: {id}*) - por {user} - Comenzó {time}"
 
 #: cogs/timers.py:754
 msgid "Recent events"
@@ -6749,7 +6750,7 @@ msgstr "Eventos recientes"
 #: cogs/timers.py:763
 #, python-brace-format
 msgid "**{name}** (*ID: {id}*) - by {user} - {time}"
-msgstr ""
+msgstr "**{name}** (*ID: {id}*) - por {user} - {time}"
 
 #: cogs/timers.py:779
 msgid "Creates a new event."
@@ -6991,11 +6992,12 @@ msgstr "Si no se proporciona una nueva hora inicialmente, el bot pedirá una."
 #, python-brace-format
 msgid "When would you like the new start time of **{event}** be? You can `cancel` this.\n"
 "Examples: `1h20m`, `2d10m`"
-msgstr ""
+msgstr "¿Cuándo quieres que la nueva hora de inicio de **{event}** sea? Puedes `cancelar` esto.\n"
+"Ejemplos: `1h20m`, `2d10m`"
 
 #: cogs/timers.py:1126
 msgid "Is the time of your event correct? Time is displayed in your local timezone."
-msgstr ""
+msgstr "¿Es correcta la hora de tu evento? La hora se muestra en tu zona horaria local."
 
 #: cogs/timers.py:1138
 msgid "The event's time changed successfully."
@@ -7140,7 +7142,7 @@ msgstr "De nuevo, dime la hora de inicio del evento a partir de ahora.\n"
 
 #: cogs/timers.py:1349
 msgid "Is this time correct? Time is displayed in your local timezone."
-msgstr ""
+msgstr "¿Es correcta la hora? La hora se muestra en tu zona horaria local."
 
 #. `cancel` can be translated
 #: cogs/timers.py:1358
@@ -7277,7 +7279,7 @@ msgstr "El contenido de tu recordatorio excede el límite de caracteres ({length
 #: cogs/timers.py:1558
 #, python-brace-format
 msgid "Ok, I will remind you {time} about: {content}"
-msgstr ""
+msgstr "Ok, te recordaré {time} sobre: {content}"
 
 #: cogs/timers.py:1564
 msgid "Shows you a list of your active reminders."
