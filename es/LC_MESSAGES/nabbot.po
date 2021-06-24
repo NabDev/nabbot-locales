@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-24 15:56-0700\n"
-"PO-Revision-Date: 2021-06-24 22:58\n"
+"PO-Revision-Date: 2021-06-24 23:02\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3425,7 +3425,8 @@ msgstr "¿Quieres empezar a cazar en **{respawn}**?"
 #, python-brace-format
 msgid "You are now hunting in **{respawn}**.\n"
 "Your hunt should end at **{time}**."
-msgstr ""
+msgstr "Ahora estás cazando en **{respawn}**.\n"
+"Tu cacería debería terminar a las **{time}**."
 
 #: cogs/respawn.py:306
 msgid "Removes the current hunter and the entire queue of a respawn."
@@ -3550,7 +3551,8 @@ msgstr "No estás cazando ni en la cola de **{respawn.name}**."
 #, python-brace-format
 msgid "Are you sure you want to leave **{respawn.name}**?\n"
 "You hunt would end at {time}."
-msgstr ""
+msgstr "¿Estás seguro de que quieres salir de **{respawn.name}**?\n"
+"Tu caza termina a las {time}."
 
 #: cogs/respawn.py:445
 #, python-brace-format
@@ -5584,7 +5586,7 @@ msgstr "Nunca ha iniciado sesión."
 
 #: cogs/tibia.py:2094
 msgid "Last Login"
-msgstr ""
+msgstr "Último login"
 
 #: cogs/tibia.py:2097
 msgid "See more"
@@ -7407,7 +7409,7 @@ msgstr "**{name}** (Nivel {level} {voc})"
 #: cogs/tracking.py:625
 #, python-brace-format
 msgid "{name} was killed by {killer}"
-msgstr ""
+msgstr "{name} fue asesinado por {killer}"
 
 #. Message for deaths by monsters, article can be " a", "an ", "The ", or empty "".
 #: cogs/tracking.py:631
