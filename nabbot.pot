@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-24 15:56-0700\n"
+"POT-Creation-Date: 2021-06-24 16:07-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1511,7 +1511,7 @@ msgstr ""
 msgid "You will be dead before you can use them all."
 msgstr ""
 
-#: cogs/calculators.py:765 cogs/tibia.py:1154 cogs/tracking.py:1206
+#: cogs/calculators.py:765 cogs/tibia.py:1154 cogs/tracking.py:1207
 msgid "Invalid arguments used, examples:"
 msgstr ""
 
@@ -2217,7 +2217,7 @@ msgid ""
 "- **Channel Moderator:** User with `Manage Channels` permissions in at least one channel."
 msgstr ""
 
-#: cogs/info.py:380 cogs/respawn.py:526
+#: cogs/info.py:380 cogs/respawn.py:528
 #, python-brace-format
 msgid "Could not find user `{user}`"
 msgstr ""
@@ -2470,7 +2470,7 @@ msgid "Member banned"
 msgstr ""
 
 #: cogs/logging.py:424 cogs/logging.py:443 cogs/logging.py:493
-#: cogs/tracking.py:1717 cogs/tracking.py:1744
+#: cogs/tracking.py:1718 cogs/tracking.py:1745
 msgid "Reason"
 msgstr ""
 
@@ -3403,172 +3403,174 @@ msgstr ""
 msgid "Do you want to start hunting in **{respawn}**?"
 msgstr ""
 
-#: cogs/respawn.py:298
+#. Time is hh:mm (e.g. "08:34")
+#: cogs/respawn.py:299
 #, python-brace-format
 msgid ""
 "You are now hunting in **{respawn}**.\n"
 "Your hunt should end at **{time}**."
 msgstr ""
 
-#: cogs/respawn.py:306
+#: cogs/respawn.py:307
 msgid "Removes the current hunter and the entire queue of a respawn."
 msgstr ""
 
-#: cogs/respawn.py:310
+#: cogs/respawn.py:311
 #, python-brace-format
 msgid "Do you want to clear **{respawn.name}**?"
 msgstr ""
 
-#: cogs/respawn.py:315
+#: cogs/respawn.py:316
 #, python-brace-format
 msgid "**{respawn.name}** has been cleared."
 msgstr ""
 
-#: cogs/respawn.py:321
+#: cogs/respawn.py:322
 msgid "Clears all respawns, removing anyone hunting and all the queues."
 msgstr ""
 
-#: cogs/respawn.py:324
+#: cogs/respawn.py:325
 msgid "Are you sure you want to clear all the respawns and their queues?"
 msgstr ""
 
-#: cogs/respawn.py:329
+#: cogs/respawn.py:330
 msgid "All respawns have been cleared."
 msgstr ""
 
-#: cogs/respawn.py:333
+#: cogs/respawn.py:334
 msgid "Shows a list of previous hunts in a respawn."
 msgstr ""
 
-#: cogs/respawn.py:339
+#: cogs/respawn.py:340
 msgid "Hunting History"
 msgstr ""
 
-#: cogs/respawn.py:340
+#: cogs/respawn.py:341
 msgid "There is no hunt history for this respawn."
 msgstr ""
 
-#: cogs/respawn.py:352
+#: cogs/respawn.py:353
 msgid "History"
 msgstr ""
 
-#: cogs/respawn.py:360
+#: cogs/respawn.py:361
 msgid "Shows information about a respawn place."
 msgstr ""
 
-#: cogs/respawn.py:369 cogs/respawn.py:377
+#: cogs/respawn.py:370 cogs/respawn.py:378
 msgid "an unknown user"
 msgstr ""
 
-#: cogs/respawn.py:371 cogs/respawn.py:544
+#: cogs/respawn.py:372 cogs/respawn.py:546
 msgid "Hunt End"
 msgstr ""
 
-#: cogs/respawn.py:373
+#: cogs/respawn.py:374
 #, python-brace-format
 msgid "This spawn is currently being used by {user_name}."
 msgstr ""
 
 #. Next user on a respawn
-#: cogs/respawn.py:380 cogs/respawn.py:748
+#: cogs/respawn.py:381 cogs/respawn.py:750
 msgid "Next"
 msgstr ""
 
-#: cogs/respawn.py:382
+#: cogs/respawn.py:383
 msgid "This respawn is currently available."
 msgstr ""
 
 #. Title for the link to the TibiaWiki mapper
-#: cogs/respawn.py:387 cogs/tibia.py:1688 cogs/tibiawiki.py:468
+#: cogs/respawn.py:388 cogs/tibia.py:1688 cogs/tibiawiki.py:468
 #: cogs/tibiawiki.py:492 cogs/tibiawiki.py:699
 msgid "Location"
 msgstr ""
 
-#: cogs/respawn.py:396
+#: cogs/respawn.py:397
 msgid "Removes a user from a respawn or a queue."
 msgstr ""
 
-#: cogs/respawn.py:397
+#: cogs/respawn.py:398
 msgid ""
 "If no user is specified, it will remove the current user hunting in the respawn.\n"
 "To remove a specific user in the queue, specify the name of the user."
 msgstr ""
 
-#: cogs/respawn.py:409
+#: cogs/respawn.py:410
 #, python-brace-format
 msgid "There is no one hunting in **{respawn.name}**."
 msgstr ""
 
-#: cogs/respawn.py:410
+#: cogs/respawn.py:411
 #, python-brace-format
 msgid "{user} is not hunting or in the queue of **{respawn.name}**."
 msgstr ""
 
-#: cogs/respawn.py:414
+#: cogs/respawn.py:415
 #, python-brace-format
 msgid "Do you want to kick {user} from **{respawn.name}**?"
 msgstr ""
 
-#: cogs/respawn.py:416
+#: cogs/respawn.py:417
 #, python-brace-format
 msgid "Do you want to remove {user} from the queue of **{respawn.name}**?"
 msgstr ""
 
-#: cogs/respawn.py:423
+#: cogs/respawn.py:424
 #, python-brace-format
 msgid "{user} was kicked from **{respawn.name}**."
 msgstr ""
 
-#: cogs/respawn.py:425
+#: cogs/respawn.py:426
 #, python-brace-format
 msgid "{user} was removed from the queue of **{respawn.name}**."
 msgstr ""
 
-#: cogs/respawn.py:437
+#: cogs/respawn.py:438
 #, python-brace-format
 msgid "You're not hunting nor in the queue of **{respawn.name}**."
 msgstr ""
 
-#: cogs/respawn.py:440
+#. Time is hh:mm (e.g. "08:34")
+#: cogs/respawn.py:442
 #, python-brace-format
 msgid ""
 "Are you sure you want to leave **{respawn.name}**?\n"
 "You hunt would end at {time}."
 msgstr ""
 
-#: cogs/respawn.py:445
+#: cogs/respawn.py:447
 #, python-brace-format
 msgid "Are you sure you want to remove yourself from the queue of **{respawn.name}**?"
 msgstr ""
 
-#: cogs/respawn.py:448
+#: cogs/respawn.py:450
 #, python-brace-format
 msgid "You're currently not hunting or in the queue of **{respawn.name}**."
 msgstr ""
 
-#: cogs/respawn.py:455
+#: cogs/respawn.py:457
 #, python-brace-format
 msgid "You have left **{respawn.name}** (`{respawn.code}`)."
 msgstr ""
 
-#: cogs/respawn.py:457
+#: cogs/respawn.py:459
 #, python-brace-format
 msgid "You have left the queue for **{respawn.name}** (`{respawn.code}`)."
 msgstr ""
 
-#: cogs/respawn.py:463
+#: cogs/respawn.py:465
 msgid "Shows the complete list of respawns."
 msgstr ""
 
-#: cogs/respawn.py:477
+#: cogs/respawn.py:479
 msgid "Respawn List"
 msgstr ""
 
-#: cogs/respawn.py:484
+#: cogs/respawn.py:486
 msgid "Joins the queue of a respawn."
 msgstr ""
 
-#: cogs/respawn.py:485
+#: cogs/respawn.py:487
 msgid ""
 "You will be notified when it is your turn for the spawn via direct message.\n"
 "It is important to ensure you can receive private messages using the `checkdm` command.\n"
@@ -3576,147 +3578,147 @@ msgid ""
 "To instead, claim a respawn that is not taken, use `respawn claim`."
 msgstr ""
 
-#: cogs/respawn.py:494
+#: cogs/respawn.py:496
 #, python-brace-format
 msgid "The respawn **{respawn.name}** is currently available. Try using `{prefix}respawn claim` instead."
 msgstr ""
 
-#: cogs/respawn.py:498
+#: cogs/respawn.py:500
 #, python-brace-format
 msgid "You're already hunting in **{respawn.name}**."
 msgstr ""
 
-#: cogs/respawn.py:500
+#: cogs/respawn.py:502
 #, python-brace-format
 msgid "You're already in the queue for **{respawn.name}**."
 msgstr ""
 
-#: cogs/respawn.py:501
+#: cogs/respawn.py:503
 #, python-brace-format
 msgid "Do you want to join the queue for **{respawn.name}** (`{respawn.code}`)?"
 msgstr ""
 
-#: cogs/respawn.py:503
+#: cogs/respawn.py:505
 #, python-format
 msgid "There is %d person in the queue"
 msgid_plural "There are %d persons in the queue."
 msgstr[0] ""
 msgstr[1] ""
 
-#: cogs/respawn.py:510
+#: cogs/respawn.py:512
 #, python-brace-format
 msgid ""
 "You have joined the queue for **{respawn.name}** (`{respawn.code}`).\n"
 "Make sure you can receive DMs by using `{prefix}checkdm`"
 msgstr ""
 
-#: cogs/respawn.py:516
+#: cogs/respawn.py:518
 msgid "Shows a user's current hunt or queues."
 msgstr ""
 
-#: cogs/respawn.py:517
+#: cogs/respawn.py:519
 msgid ""
 "If no parameter is provided, it will show your own information.\n"
 "A username, user id, mention or user#discriminator can be provided as parameter."
 msgstr ""
 
-#: cogs/respawn.py:533
+#: cogs/respawn.py:535
 #, python-brace-format
 msgid "{user} is currently not hunting or in any queues."
 msgstr ""
 
-#: cogs/respawn.py:540 cogs/respawn.py:553
+#: cogs/respawn.py:542 cogs/respawn.py:555
 msgid "Unknown Respawn"
 msgstr ""
 
-#: cogs/respawn.py:549
+#: cogs/respawn.py:551
 msgid "Currently hunting in"
 msgstr ""
 
 #. Respawns which the user is waiting for
-#: cogs/respawn.py:558
+#: cogs/respawn.py:560
 msgid "Currently waiting for"
 msgstr ""
 
-#: cogs/respawn.py:564
+#: cogs/respawn.py:566
 msgid "Setups the default duration for new hunts in this server."
 msgstr ""
 
-#: cogs/respawn.py:565
+#: cogs/respawn.py:567
 msgid "This does not affect the duration of existing hunts."
 msgstr ""
 
-#: cogs/respawn.py:571
+#: cogs/respawn.py:573
 #, python-format
 msgid "The default duration cannot be more than %d hours."
 msgstr ""
 
-#: cogs/respawn.py:575
+#: cogs/respawn.py:577
 #, python-brace-format
 msgid "Do you want to set the default duration for hunts for this server to **{new_duration}**?"
 msgstr ""
 
-#: cogs/respawn.py:584
+#: cogs/respawn.py:586
 msgid "The hunt default duration has been updated."
 msgstr ""
 
-#: cogs/respawn.py:589
+#: cogs/respawn.py:591
 msgid "Sets the maximum number of people in a respawn's queue."
 msgstr ""
 
-#: cogs/respawn.py:590
+#: cogs/respawn.py:592
 msgid "Note that changing this won't affect existing queues."
 msgstr ""
 
-#: cogs/respawn.py:596 cogs/respawn.py:598
+#: cogs/respawn.py:598 cogs/respawn.py:600
 #, python-format
 msgid "The limit cannot be lower than %d."
 msgstr ""
 
-#: cogs/respawn.py:600
+#: cogs/respawn.py:602
 #, python-format
 msgid "Do you want to set respawn queue limit for this server to **%d**?"
 msgstr ""
 
-#: cogs/respawn.py:605
+#: cogs/respawn.py:607
 msgid "The queue limit has been updated."
 msgstr ""
 
-#: cogs/respawn.py:610
+#: cogs/respawn.py:612
 msgid "Setups the respawn system for this server."
 msgstr ""
 
-#: cogs/respawn.py:611
+#: cogs/respawn.py:613
 msgid "This will create a channel where the currently occupied respawns will be placed."
 msgstr ""
 
-#: cogs/respawn.py:615
+#: cogs/respawn.py:617
 #, python-brace-format
 msgid "This feature is only for premium users. For more information on how to get premium use: `{prefix}premium info`"
 msgstr ""
 
-#: cogs/respawn.py:619
+#: cogs/respawn.py:621
 msgid "This server's respawn system is already setup."
 msgstr ""
 
-#: cogs/respawn.py:622
+#: cogs/respawn.py:624
 msgid "I need `Manage Channels` permission in order to setup the respawn system."
 msgstr ""
 
 #. Audit Log reason for creating a channel for respawn system
-#: cogs/respawn.py:632
+#: cogs/respawn.py:634
 msgid "Created for Respawn System"
 msgstr ""
 
-#: cogs/respawn.py:637 cogs/tracking.py:1664
+#: cogs/respawn.py:639 cogs/tracking.py:1665
 msgid "Sorry, I don't have permissions to create channels."
 msgstr ""
 
-#: cogs/respawn.py:639
+#: cogs/respawn.py:641
 msgid "Something went wrong, please try again later."
 msgstr ""
 
-#: cogs/respawn.py:641
+#: cogs/respawn.py:643
 msgid ""
 "This is where I will post a list of spawns **currently taken**.\n"
 "The attached image displays the **complete** respawn list with their codes.\n"
@@ -3727,19 +3729,19 @@ msgid ""
 "*This message can be deleted now.*"
 msgstr ""
 
-#: cogs/respawn.py:649
+#: cogs/respawn.py:651
 msgid "Channel created successfully"
 msgstr ""
 
-#: cogs/respawn.py:715 cogs/respawn.py:731
+#: cogs/respawn.py:717 cogs/respawn.py:733
 msgid "Respawns"
 msgstr ""
 
-#: cogs/respawn.py:716
+#: cogs/respawn.py:718
 msgid "There is currently no one hunting in any respawns."
 msgstr ""
 
-#: cogs/respawn.py:740 cogs/respawn.py:746
+#: cogs/respawn.py:742 cogs/respawn.py:748
 msgid "Unknown User"
 msgstr ""
 
@@ -5024,7 +5026,7 @@ msgstr ""
 msgid "Characters online between level {low} and {high}"
 msgstr ""
 
-#: cogs/tibia.py:1213 cogs/tracking.py:1253
+#: cogs/tibia.py:1213 cogs/tracking.py:1254
 #, python-brace-format
 msgid "I didn't find anyone between levels **{low}** and **{high}**"
 msgstr ""
@@ -7118,7 +7120,7 @@ msgid "There are no participants in this event.{join_prompt}"
 msgstr ""
 
 #. When the user, owner of a participating character is no longer in server
-#: cogs/timers.py:1410 cogs/tracking.py:1417
+#: cogs/timers.py:1410 cogs/tracking.py:1418
 msgctxt "user"
 msgid "unknown"
 msgstr ""
@@ -7357,163 +7359,164 @@ msgstr ""
 msgid "**{char}** ({voc}) advanced to level {level}."
 msgstr ""
 
-#: cogs/tracking.py:618 cogs/tracking.py:660 cogs/tracking.py:679
-#: cogs/tracking.py:692 cogs/tracking.py:715 cogs/tracking.py:741
+#: cogs/tracking.py:618 cogs/tracking.py:661 cogs/tracking.py:680
+#: cogs/tracking.py:693 cogs/tracking.py:716 cogs/tracking.py:742
 #, python-brace-format
 msgid "**{name}** (Level {level} {voc})"
 msgstr ""
 
-#: cogs/tracking.py:625
+#. Killer might be a list of killers instead.
+#: cogs/tracking.py:626
 #, python-brace-format
 msgid "{name} was killed by {killer}"
 msgstr ""
 
 #. Message for deaths by monsters, article can be " a", "an ", "The ", or empty "".
-#: cogs/tracking.py:631
+#: cogs/tracking.py:632
 #, python-brace-format
 msgid "{name} died to {article}**{killer}**"
 msgstr ""
 
-#: cogs/tracking.py:666
+#: cogs/tracking.py:667
 #, python-brace-format
 msgid "{char} has left the guild **{guild}**"
 msgstr ""
 
-#: cogs/tracking.py:669 cogs/tracking.py:686
+#: cogs/tracking.py:670 cogs/tracking.py:687
 #, python-brace-format
 msgid " and joined guild: **{new_guild}**"
 msgstr ""
 
-#: cogs/tracking.py:674
+#: cogs/tracking.py:675
 #, python-brace-format
 msgid "{char} has joined the guild **{guild}**."
 msgstr ""
 
-#: cogs/tracking.py:683
+#: cogs/tracking.py:684
 #, python-brace-format
 msgid "{char} has left the guild"
 msgstr ""
 
-#: cogs/tracking.py:696
+#: cogs/tracking.py:697
 #, python-brace-format
 msgid "{char} has joined the guild."
 msgstr ""
 
-#: cogs/tracking.py:720
+#: cogs/tracking.py:721
 #, python-brace-format
 msgid "Character renamed from **{old_name}** to {new_name}"
 msgstr ""
 
-#: cogs/tracking.py:746
+#: cogs/tracking.py:747
 #, python-brace-format
 msgid "{name} transferred from **{old_world}** to **{new_world}**"
 msgstr ""
 
-#: cogs/tracking.py:813
+#: cogs/tracking.py:814
 msgid "Register a character and optionally all other visible characters to a discord user."
 msgstr ""
 
-#: cogs/tracking.py:814
+#: cogs/tracking.py:815
 msgid "This command can only be used by server moderators."
 msgstr ""
 
-#: cogs/tracking.py:826
+#: cogs/tracking.py:827
 msgid "You can't register characters to Discord bots!"
 msgstr ""
 
-#: cogs/tracking.py:857
+#: cogs/tracking.py:858
 #, python-brace-format
 msgid "Sorry, I couldn't find any characters in **{world}**."
 msgstr ""
 
-#: cogs/tracking.py:867
+#: cogs/tracking.py:868
 msgid "The blacklist filters out level up and deaths announcements."
 msgstr ""
 
-#: cogs/tracking.py:876
+#: cogs/tracking.py:877
 msgid "Adds a user to the blacklist."
 msgstr ""
 
-#: cogs/tracking.py:877
+#: cogs/tracking.py:878
 msgid ""
 "Users can be added by their name, mention, name and discriminator or their user ID.\n"
 "Characters owned by users in the blacklist won't have their level ups and deaths announced."
 msgstr ""
 
-#: cogs/tracking.py:883
+#: cogs/tracking.py:884
 msgid "This user is already in the blacklist."
 msgstr ""
 
-#: cogs/tracking.py:885
+#: cogs/tracking.py:886
 #, python-brace-format
 msgid ""
 "Do you want to add **{user}** to the blacklist?\n"
 "*Their character's level ups and deaths won't be announced anymore.*"
 msgstr ""
 
-#: cogs/tracking.py:895
+#: cogs/tracking.py:896
 #, python-brace-format
 msgid "{user} has been added to the blacklist."
 msgstr ""
 
-#: cogs/tracking.py:901
+#: cogs/tracking.py:902
 msgid "Shows the users currently in the blacklist."
 msgstr ""
 
-#: cogs/tracking.py:902
+#: cogs/tracking.py:903
 msgid "If a user in the list is no longer in the server, it will be shown just by its ID."
 msgstr ""
 
-#: cogs/tracking.py:909
+#: cogs/tracking.py:910
 #, python-format
 msgid "Unknown user %d"
 msgstr ""
 
-#: cogs/tracking.py:912
+#: cogs/tracking.py:913
 msgid "There are no blacklisted users in this server."
 msgstr ""
 
-#: cogs/tracking.py:915
+#: cogs/tracking.py:916
 msgid "Blacklisted users"
 msgstr ""
 
-#: cogs/tracking.py:922
+#: cogs/tracking.py:923
 msgid "Removes a user from the blacklist."
 msgstr ""
 
-#: cogs/tracking.py:923
+#: cogs/tracking.py:924
 msgid "If the user only displays an ID on the list, it can be removed using that ID."
-msgstr ""
-
-#: cogs/tracking.py:930
-#, python-brace-format
-msgid "**{user} is not in the blacklist.**"
 msgstr ""
 
 #: cogs/tracking.py:931
 #, python-brace-format
-msgid "Do you want to remove **{user.name}** from the blacklist?"
+msgid "**{user} is not in the blacklist.**"
 msgstr ""
 
-#: cogs/tracking.py:937
+#: cogs/tracking.py:932
 #, python-brace-format
-msgid "There is user with id **{user}** in the blacklist."
+msgid "Do you want to remove **{user.name}** from the blacklist?"
 msgstr ""
 
 #: cogs/tracking.py:938
 #, python-brace-format
+msgid "There is user with id **{user}** in the blacklist."
+msgstr ""
+
+#: cogs/tracking.py:939
+#, python-brace-format
 msgid "Do you want to remove user with id **{user}** from the blacklist?"
 msgstr ""
 
-#: cogs/tracking.py:947
+#: cogs/tracking.py:948
 msgid "User removed from the blacklist."
 msgstr ""
 
-#: cogs/tracking.py:951
+#: cogs/tracking.py:952
 msgid "Claims a character, registering to you even if someone else already has it."
 msgstr ""
 
-#: cogs/tracking.py:952
+#: cogs/tracking.py:953
 msgid ""
 "In order for this to work, you have to put a special code in the character's comment.\n"
 "You can see this code by using the command with no parameters. The code looks like this: `/NB-23FC13AC7400000/`\n"
@@ -7524,14 +7527,14 @@ msgid ""
 "No one can claim a character of yours unless you put **their** code in your character's comment."
 msgstr ""
 
-#: cogs/tracking.py:975
+#: cogs/tracking.py:976
 #, python-brace-format
 msgid ""
 "To use this command, add `/NB-{user_code}/` to the comment of the character you want to claim in Tibia.com, and then use `{prefix}claim character_name`.\n"
 "*Note that it might take a while to reflect the change due to caching.*"
 msgstr ""
 
-#: cogs/tracking.py:995
+#: cogs/tracking.py:996
 #, python-brace-format
 msgid ""
 "Couldn't find verification code on character's comment.\n"
@@ -7539,7 +7542,7 @@ msgid ""
 "*Note that it might take a while to reflect the change due to caching.*"
 msgstr ""
 
-#: cogs/tracking.py:1002
+#: cogs/tracking.py:1003
 #, python-brace-format
 msgid ""
 "The verification code on the character's comment doesn't match yours.\n"
@@ -7547,16 +7550,16 @@ msgid ""
 "*Note that it might take a while to reflect the change due to caching.*"
 msgstr ""
 
-#: cogs/tracking.py:1025 cogs/tracking.py:1079
+#: cogs/tracking.py:1026 cogs/tracking.py:1080
 #, python-brace-format
 msgid "Sorry, I couldn't find any characters from the worlds in the context ({0})."
 msgstr ""
 
-#: cogs/tracking.py:1035
+#: cogs/tracking.py:1036
 msgid "Lets you add your Tibia character(s) for the bot to track."
 msgstr ""
 
-#: cogs/tracking.py:1036
+#: cogs/tracking.py:1037
 msgid ""
 "If there are other visible characters, the bot will ask for confirmation to add them too.\n"
 "\n"
@@ -7566,76 +7569,76 @@ msgid ""
 "If a character is already registered to someone else, `claim` can be used."
 msgstr ""
 
-#: cogs/tracking.py:1089
+#: cogs/tracking.py:1090
 msgid "Removes a character assigned to you."
 msgstr ""
 
-#: cogs/tracking.py:1090
+#: cogs/tracking.py:1091
 msgid "All registered level ups and deaths will be lost forever."
 msgstr ""
 
-#: cogs/tracking.py:1097
+#: cogs/tracking.py:1098
 #, python-brace-format
 msgid "The character **{name}** is not registered to you."
 msgstr ""
 
-#: cogs/tracking.py:1099
+#: cogs/tracking.py:1100
 #, python-brace-format
 msgid "Are you sure you want to unregister **{name}** ({level} {vocation})?"
 msgstr ""
 
-#: cogs/tracking.py:1108
+#: cogs/tracking.py:1109
 #, python-brace-format
 msgid "**{name}** is no longer registered to you."
 msgstr ""
 
-#: cogs/tracking.py:1116
+#: cogs/tracking.py:1117
 msgid "Shows all your registered characters."
 msgstr ""
 
-#: cogs/tracking.py:1125
+#: cogs/tracking.py:1126
 #, python-brace-format
 msgid "I don't see any user with id {user_id}."
 msgstr ""
 
-#: cogs/tracking.py:1132
+#: cogs/tracking.py:1133
 msgid "You do not have any registered characters."
 msgstr ""
 
-#: cogs/tracking.py:1134
+#: cogs/tracking.py:1135
 msgid "This user has no registered characters."
 msgstr ""
 
-#: cogs/tracking.py:1138
+#: cogs/tracking.py:1139
 #, python-brace-format
 msgid "{name} (Lvl {level} {voc}) - {world}"
 msgstr ""
 
-#: cogs/tracking.py:1145
+#: cogs/tracking.py:1146
 msgid "Registered Characters"
 msgstr ""
 
-#: cogs/tracking.py:1152
+#: cogs/tracking.py:1153
 msgid "Shows you which users are online on Tibia."
 msgstr ""
 
-#: cogs/tracking.py:1163 cogs/tracking.py:1187
+#: cogs/tracking.py:1164 cogs/tracking.py:1188
 msgid "There is no one online from Discord."
 msgstr ""
 
-#: cogs/tracking.py:1186
+#: cogs/tracking.py:1187
 msgid "I just started, give me some time to check online lists…⌛"
 msgstr ""
 
-#: cogs/tracking.py:1190
+#: cogs/tracking.py:1191
 msgid "Users online"
 msgstr ""
 
-#: cogs/tracking.py:1197
+#: cogs/tracking.py:1198
 msgid "Searches for a registered character that meets the criteria."
 msgstr ""
 
-#: cogs/tracking.py:1198
+#: cogs/tracking.py:1199
 msgid ""
 "There are 3 ways to use this command:\n"
 "- Show characters in share range with a specific character. (`searchteam «name»`)\n"
@@ -7645,130 +7648,130 @@ msgid ""
 "Online characters are shown first on the list, they also have an icon."
 msgstr ""
 
-#: cogs/tracking.py:1208
+#: cogs/tracking.py:1209
 #, python-brace-format
 msgid "{prefix}{command} charname"
 msgstr ""
 
-#: cogs/tracking.py:1209
+#: cogs/tracking.py:1210
 #, python-brace-format
 msgid "{prefix}{command} level"
 msgstr ""
 
-#: cogs/tracking.py:1210
+#: cogs/tracking.py:1211
 #, python-brace-format
 msgid "{prefix}{command} minLevel,maxLevel"
 msgstr ""
 
-#: cogs/tracking.py:1233
+#: cogs/tracking.py:1234
 #, python-brace-format
 msgid "Characters in share range with {name} ({low}-{high}):"
 msgstr ""
 
-#: cogs/tracking.py:1235
+#: cogs/tracking.py:1236
 #, python-brace-format
 msgid "I didn't find anyone in share range with **{name}** ({low}-{high})"
 msgstr ""
 
-#: cogs/tracking.py:1252
+#: cogs/tracking.py:1253
 #, python-brace-format
 msgid "Characters between level {low} and {high}"
 msgstr ""
 
-#: cogs/tracking.py:1260
+#: cogs/tracking.py:1261
 #, python-brace-format
 msgid "Characters in share range with level {level} ({low}-{high})"
 msgstr ""
 
-#: cogs/tracking.py:1263
+#: cogs/tracking.py:1264
 #, python-brace-format
 msgid "I didn't find anyone in share range with level **{level}** ({low}-{high})"
 msgstr ""
 
-#: cogs/tracking.py:1284
+#: cogs/tracking.py:1285
 #, python-brace-format
 msgid "**{name}** - Level {level} {voc} - @**{owner}**"
 msgstr ""
 
-#: cogs/tracking.py:1387
+#: cogs/tracking.py:1388
 msgid "Removes a registered character from someone."
 msgstr ""
 
-#: cogs/tracking.py:1388
+#: cogs/tracking.py:1389
 msgid ""
 "Note that you can only remove chars if they are from users exclusively in your server.\n"
 "You can't remove any characters that would alter other servers NabBot is in."
 msgstr ""
 
-#: cogs/tracking.py:1396
+#: cogs/tracking.py:1397
 msgid "There's no character with that name registered."
 msgstr ""
 
-#: cogs/tracking.py:1398
+#: cogs/tracking.py:1399
 #, python-brace-format
 msgid "The character **{name}** is in a different world."
 msgstr ""
 
-#: cogs/tracking.py:1413
+#: cogs/tracking.py:1414
 #, python-brace-format
 msgid "The user of this server is also in another server tracking **{world}**, where you are not an admin. You can't alter other servers."
 msgstr ""
 
-#: cogs/tracking.py:1419
+#: cogs/tracking.py:1420
 #, python-brace-format
 msgid "**{0}** was removed successfully from **@{1}**."
 msgstr ""
 
-#: cogs/tracking.py:1426
+#: cogs/tracking.py:1427
 msgid "Create or manage watchlists."
 msgstr ""
 
-#: cogs/tracking.py:1427
+#: cogs/tracking.py:1428
 msgid ""
 "Watchlists are channels where the online status of selected characters are shown.\n"
 "You can create multiple watchlists and add characters and guilds to each one separately.\n"
 msgstr ""
 
-#: cogs/tracking.py:1431
+#: cogs/tracking.py:1432
 #, python-brace-format
 msgid ""
 "To manage watchlists, use one of the subcommands.\n"
 "Use `{prefix}help {command}`."
 msgstr ""
 
-#: cogs/tracking.py:1438
+#: cogs/tracking.py:1439
 msgid "Adds a character to a watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1439 cogs/tracking.py:1576
+#: cogs/tracking.py:1440 cogs/tracking.py:1577
 msgid "A reason can be specified by adding it after the character's name, separated by a comma."
 msgstr ""
 
-#: cogs/tracking.py:1462
+#: cogs/tracking.py:1463
 #, python-brace-format
 msgid "This character is not in **{world}**."
 msgstr ""
 
-#: cogs/tracking.py:1465
+#: cogs/tracking.py:1466
 #, python-brace-format
 msgid "Do you want to add **{char.name}** (Level {char.level} {char.vocation}) to the watchlist {channel}?"
 msgstr ""
 
-#: cogs/tracking.py:1479
+#: cogs/tracking.py:1480
 #, python-brace-format
 msgid "Character **{name}** added to the watchlist {channel}."
 msgstr ""
 
-#: cogs/tracking.py:1482
+#: cogs/tracking.py:1483
 #, python-brace-format
 msgid "**{name}** is already registered in {channel}"
 msgstr ""
 
-#: cogs/tracking.py:1490
+#: cogs/tracking.py:1491
 msgid "Creates or assigns a channel to be used as a feed for the watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1491
+#: cogs/tracking.py:1492
 msgid ""
 "This feature can only be used on [premium](https://docs.nabbot.xyz/premium) servers.\n"
 "\n"
@@ -7778,122 +7781,122 @@ msgid ""
 "If not specified, a new channel will be created."
 msgstr ""
 
-#: cogs/tracking.py:1505
+#: cogs/tracking.py:1506
 #, python-brace-format
 msgid ""
 "Only premium servers can add a feed channel to their watchlists.\n"
 "For more information, check out: <{docs}/premium>"
 msgstr ""
 
-#: cogs/tracking.py:1510
+#: cogs/tracking.py:1511
 #, python-brace-format
 msgid "{channel} already has a feed channel."
 msgstr ""
 
-#: cogs/tracking.py:1514
+#: cogs/tracking.py:1515
 msgid "I need `Manage Channels` and `Manage Webhooks` permissions to create feed channels."
 msgstr ""
 
-#: cogs/tracking.py:1526
+#: cogs/tracking.py:1527
 msgid "Adds an entire guild to a watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1527
+#: cogs/tracking.py:1528
 msgid "Guilds are displayed in the watchlist as a group."
 msgstr ""
 
-#: cogs/tracking.py:1549
+#: cogs/tracking.py:1550
 #, python-brace-format
 msgid "This guild is not in **{world}**."
 msgstr ""
 
-#: cogs/tracking.py:1552
+#: cogs/tracking.py:1553
 #, python-brace-format
 msgid "Do you want to add the guild **{guild}** to the watchlist {channel}?"
 msgstr ""
 
-#: cogs/tracking.py:1564
+#: cogs/tracking.py:1565
 #, python-brace-format
 msgid "Guild **{guild}** added to the watchlist {channel}."
 msgstr ""
 
-#: cogs/tracking.py:1568
+#: cogs/tracking.py:1569
 #, python-brace-format
 msgid "**{guild}** is already registered in {channel}"
 msgstr ""
 
-#: cogs/tracking.py:1575
+#: cogs/tracking.py:1576
 msgid "Adds the currently registered characters of a user to the watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1595
+#: cogs/tracking.py:1596
 msgid "I don't see any users with that name or id."
 msgstr ""
 
-#: cogs/tracking.py:1598
+#: cogs/tracking.py:1599
 #, python-brace-format
 msgid "This user doesn't have any registered characters in {world}."
 msgstr ""
 
-#: cogs/tracking.py:1602
+#: cogs/tracking.py:1603
 #, python-brace-format
 msgid ""
 "Do you want to add currently registered characters of `{user}` to this watchlist?\n"
 "{char_list}"
 msgstr ""
 
-#: cogs/tracking.py:1618
+#: cogs/tracking.py:1619
 #, python-brace-format
 msgid "I added the following characters to the list {channel}, duplicates were skipped:{results}"
 msgstr ""
 
-#: cogs/tracking.py:1621
+#: cogs/tracking.py:1622
 msgid "No characters were added, as they were all duplicates."
 msgstr ""
 
-#: cogs/tracking.py:1628
+#: cogs/tracking.py:1629
 msgid "Creates a watchlist channel."
 msgstr ""
 
-#: cogs/tracking.py:1629
+#: cogs/tracking.py:1630
 msgid ""
 "The watch list shows which characters from it are online. Entire guilds can be added too.\n"
 "The channel can be renamed at anytime. If the channel is deleted, all its entries are deleted too."
 msgstr ""
 
-#: cogs/tracking.py:1634
+#: cogs/tracking.py:1635
 #, python-format
 msgid "Channel name cannot contain the special character **%s**"
 msgstr ""
 
-#: cogs/tracking.py:1638
+#: cogs/tracking.py:1639
 msgid "I need `Manage Channels` permission in the server to use this command."
 msgstr ""
 
-#: cogs/tracking.py:1645
+#: cogs/tracking.py:1646
 msgid "You have reached the limit of watchlists you can have."
 msgstr ""
 
-#: cogs/tracking.py:1648
+#: cogs/tracking.py:1649
 #, python-format
 msgid "You need to have at least %d members to use watchlists."
 msgstr ""
 
-#: cogs/tracking.py:1651
+#: cogs/tracking.py:1652
 #, python-brace-format
 msgid "Do you want to create a new watchlist named `{name}`?"
 msgstr ""
 
-#: cogs/tracking.py:1666
+#: cogs/tracking.py:1667
 msgid "Something went wrong, the channel name you chose is probably invalid."
 msgstr ""
 
-#: cogs/tracking.py:1669
+#: cogs/tracking.py:1670
 #, python-brace-format
 msgid "Channel created successfully: {channel}\n"
 msgstr ""
 
-#: cogs/tracking.py:1670
+#: cogs/tracking.py:1671
 #, python-brace-format
 msgid ""
 "This is where I will post a list of online watched characters.\n"
@@ -7906,147 +7909,147 @@ msgid ""
 "*This message can be deleted now.*"
 msgstr ""
 
-#: cogs/tracking.py:1686
+#: cogs/tracking.py:1687
 msgid "Removes all entries from watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1692
+#: cogs/tracking.py:1693
 #, python-brace-format
 msgid "Do you want to remove all entries from the watchlist {channel}?"
 msgstr ""
 
-#: cogs/tracking.py:1698
+#: cogs/tracking.py:1699
 #, python-brace-format
 msgid "All entries in {channel} have been removed."
 msgstr ""
 
-#: cogs/tracking.py:1705
+#: cogs/tracking.py:1706
 msgid "Shows information about a watchlist entry."
 msgstr ""
 
-#: cogs/tracking.py:1706 cogs/tracking.py:1732
+#: cogs/tracking.py:1707 cogs/tracking.py:1733
 msgid "This shows who added the player, when, and if there's a reason why they were added."
 msgstr ""
 
-#: cogs/tracking.py:1715
+#: cogs/tracking.py:1716
 #, python-brace-format
 msgid "There's no character with that name registered to {channel}."
 msgstr ""
 
-#: cogs/tracking.py:1720 cogs/tracking.py:1746
+#: cogs/tracking.py:1721 cogs/tracking.py:1747
 msgid "No reason provided"
 msgstr ""
 
-#: cogs/tracking.py:1721 cogs/tracking.py:1747
+#: cogs/tracking.py:1722 cogs/tracking.py:1748
 #, python-brace-format
 msgid "In #{channel}"
 msgstr ""
 
-#: cogs/tracking.py:1724 cogs/tracking.py:1750
+#: cogs/tracking.py:1725 cogs/tracking.py:1751
 #, python-brace-format
 msgid "Added by {user}"
 msgstr ""
 
-#: cogs/tracking.py:1731
+#: cogs/tracking.py:1732
 msgid "Shows details about a guild entry in a watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1741
+#: cogs/tracking.py:1742
 #, python-brace-format
 msgid "There's no guild with that name registered to {channel}."
 msgstr ""
 
-#: cogs/tracking.py:1756
+#: cogs/tracking.py:1757
 msgid "Shows characters belonging to that watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1757
+#: cogs/tracking.py:1758
 msgid "Note that this lists all characters, not just online characters."
 msgstr ""
 
-#: cogs/tracking.py:1764 cogs/tracking.py:1785
+#: cogs/tracking.py:1765 cogs/tracking.py:1786
 msgid "You can't see the list of a watchlist you can't see."
 msgstr ""
 
-#: cogs/tracking.py:1768 cogs/tracking.py:1788
+#: cogs/tracking.py:1769 cogs/tracking.py:1789
 msgid "This watchlist has no registered characters."
 msgstr ""
 
-#: cogs/tracking.py:1771
+#: cogs/tracking.py:1772
 #, python-brace-format
 msgid "Watched Characters in #{channel}"
 msgstr ""
 
-#: cogs/tracking.py:1777
+#: cogs/tracking.py:1778
 msgid "Shows a list of guilds in the watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1791
+#: cogs/tracking.py:1792
 #, python-brace-format
 msgid "Watched Guilds in #{channel}"
 msgstr ""
 
-#: cogs/tracking.py:1798
+#: cogs/tracking.py:1799
 msgid "Removes a character from a watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1807
+#: cogs/tracking.py:1808
 #, python-brace-format
 msgid "There's no character with that name registered in {channel}."
 msgstr ""
 
-#: cogs/tracking.py:1810
+#: cogs/tracking.py:1811
 #, python-brace-format
 msgid "Do you want to remove **{char}** from this watchlist?"
 msgstr ""
 
-#: cogs/tracking.py:1820
+#: cogs/tracking.py:1821
 msgid "Character removed from the watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1827
+#: cogs/tracking.py:1828
 msgid "Deletes a watchlist feed."
 msgstr ""
 
-#: cogs/tracking.py:1828
+#: cogs/tracking.py:1829
 msgid ""
 "The given channel must be the watchlist's channel, not the channel where the feed is located, for example:\n"
 "To remove the feed in channel `#enemies-feed`,a feed for the watchlist in `#enemies-45`, the command would be used like: `watchlist removefeed #enemies-45`"
 msgstr ""
 
-#: cogs/tracking.py:1840
+#: cogs/tracking.py:1841
 #, python-brace-format
 msgid "{channel} doesn't have a feed."
 msgstr ""
 
-#: cogs/tracking.py:1851
+#: cogs/tracking.py:1852
 #, python-brace-format
 msgid "The feed for {channel} has been removed."
 msgstr ""
 
-#: cogs/tracking.py:1857
+#: cogs/tracking.py:1858
 msgid "Removes a guild from the watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1866
+#: cogs/tracking.py:1867
 #, python-brace-format
 msgid "There's no guild with that name registered in {channel}."
 msgstr ""
 
-#: cogs/tracking.py:1869
+#: cogs/tracking.py:1870
 #, python-brace-format
 msgid "Do you want to remove **{name}** from this watchlist?"
 msgstr ""
 
-#: cogs/tracking.py:1878
+#: cogs/tracking.py:1879
 msgid "Guild removed from the watchlist."
 msgstr ""
 
-#: cogs/tracking.py:1883
+#: cogs/tracking.py:1884
 msgid "Deletes a watchlist, even if the channel doesn't exist anymore."
 msgstr ""
 
-#: cogs/tracking.py:1884
+#: cogs/tracking.py:1885
 msgid ""
 "The channel that holds the watchlist will be attempted to be deleted. The deletion of the channel may fail due to missing permissions. In this case, the channel may be deleted manually, the watchlist won't be updated anymore.\n"
 "\n"
@@ -8054,55 +8057,55 @@ msgid ""
 "To see the list of channels, try: `watchlist viewall`."
 msgstr ""
 
-#: cogs/tracking.py:1908
+#: cogs/tracking.py:1909
 msgid "There's no watchlist registered on that channel."
 msgstr ""
 
-#: cogs/tracking.py:1911
+#: cogs/tracking.py:1912
 #, python-brace-format
 msgid "Do you want to delete the watchlist from {channel}? All its entries will be lost and {channel} will be deleted too."
 msgstr ""
 
-#: cogs/tracking.py:1919
+#: cogs/tracking.py:1920
 msgid "Watchlist deleted."
 msgstr ""
 
-#: cogs/tracking.py:1921
+#: cogs/tracking.py:1922
 #, python-brace-format
 msgid ""
 "Watchlist deleted successfully.\n"
 "{icon} Could not delete {channel}. You can try deleting it manually. Its content won't be updated anymore."
 msgstr ""
 
-#: cogs/tracking.py:1926
+#: cogs/tracking.py:1927
 msgid "Watchlist and channel deleted successfully."
 msgstr ""
 
-#: cogs/tracking.py:1929
+#: cogs/tracking.py:1930
 msgid "Watchlist deleted successfully."
 msgstr ""
 
-#: cogs/tracking.py:1935
+#: cogs/tracking.py:1936
 msgid "Changes whether the online count will be displayed in the watchlist's channel's name or not."
 msgstr ""
 
-#: cogs/tracking.py:1943
+#: cogs/tracking.py:1944
 msgid "Showing online count is now enabled. The name will be updated on the next cycle."
 msgstr ""
 
-#: cogs/tracking.py:1946
+#: cogs/tracking.py:1947
 msgid "Showing online count is now disabled. The name will be updated on the next cycle."
 msgstr ""
 
-#: cogs/tracking.py:1948
+#: cogs/tracking.py:1949
 msgid "That's not a valid option, try `yes` or `no`."
 msgstr ""
 
-#: cogs/tracking.py:1955
+#: cogs/tracking.py:1956
 msgid "Shows all registered watchlists."
 msgstr ""
 
-#: cogs/tracking.py:1956
+#: cogs/tracking.py:1957
 msgid ""
 "When the channel holding a watchlist is deleted, the watchlist is automatically deleted too.\n"
 "However, there may be cases where the watchlist is not deleted, leaving it bound to deleted channel.\n"
@@ -8111,95 +8114,95 @@ msgid ""
 "The channel id is the number displayed here for deleted channels."
 msgstr ""
 
-#: cogs/tracking.py:1966
+#: cogs/tracking.py:1967
 msgid "There are no watchlists in this server."
 msgstr ""
 
-#: cogs/tracking.py:1970
+#: cogs/tracking.py:1971
 #, python-brace-format
 msgid "Deleted Channel #{id}"
 msgstr ""
 
-#: cogs/tracking.py:1973
+#: cogs/tracking.py:1974
 msgid "Watchlists"
 msgstr ""
 
-#: cogs/tracking.py:1980
+#: cogs/tracking.py:1981
 msgid "The whitelist filters in level up and deaths announcements."
 msgstr ""
 
-#: cogs/tracking.py:1989
+#: cogs/tracking.py:1990
 msgid "Adds a guild to the whitelist."
 msgstr ""
 
-#: cogs/tracking.py:1990 cogs/tracking.py:2022
+#: cogs/tracking.py:1991 cogs/tracking.py:2023
 msgid ""
 "Only characters in whitelisted guilds will have their levels and deaths announced.\n"
 "If the whitelist is empty, all characters will be announced."
 msgstr ""
 
-#: cogs/tracking.py:1999
+#: cogs/tracking.py:2000
 #, python-brace-format
 msgid "The guild {guild} is not in {world}."
 msgstr ""
 
-#: cogs/tracking.py:2003
+#: cogs/tracking.py:2004
 msgid "This guild is already in the whitelist."
 msgstr ""
 
-#: cogs/tracking.py:2005
+#: cogs/tracking.py:2006
 #, python-brace-format
 msgid ""
 "Do you want to add **{guild}** to the whitelist?\n"
 "*Only characters from this guild and other whitelisted guilds will be announced*"
 msgstr ""
 
-#: cogs/tracking.py:2015
+#: cogs/tracking.py:2016
 #, python-brace-format
 msgid "**{guild}** has been added to the whitelist."
 msgstr ""
 
-#: cogs/tracking.py:2021
+#: cogs/tracking.py:2022
 msgid "Shows the guilds currently in the whitelist."
 msgstr ""
 
-#: cogs/tracking.py:2028
+#: cogs/tracking.py:2029
 msgid "There are no whitelisted guilds in this server. All level ups and deaths are announced."
 msgstr ""
 
-#: cogs/tracking.py:2032
+#: cogs/tracking.py:2033
 msgid "Whitelisted guilds"
 msgstr ""
 
-#: cogs/tracking.py:2039
+#: cogs/tracking.py:2040
 msgid "Removes a guild from the whitelist."
 msgstr ""
 
-#: cogs/tracking.py:2044
+#: cogs/tracking.py:2045
 msgid "There is no guild with that name in the whitelist."
 msgstr ""
 
-#: cogs/tracking.py:2046
+#: cogs/tracking.py:2047
 #, python-brace-format
 msgid "Do you want to remove **{name}** from the whitelist?"
 msgstr ""
 
-#: cogs/tracking.py:2055
+#: cogs/tracking.py:2056
 #, python-brace-format
 msgid "**{name}** has been removed from the whitelist."
 msgstr ""
 
-#: cogs/tracking.py:2208
+#: cogs/tracking.py:2209
 #, python-brace-format
 msgid "Do you want to create a feed channel for {channel}?"
 msgstr ""
 
-#: cogs/tracking.py:2221
+#: cogs/tracking.py:2222
 #, python-brace-format
 msgid "Watchlist feed channel created by {user}"
 msgstr ""
 
-#: cogs/tracking.py:2226
+#: cogs/tracking.py:2227
 #, python-brace-format
 msgid ""
 "This is the new feed channel for {channel}.\n"
@@ -8208,79 +8211,79 @@ msgid ""
 "You might update this channel's permissions to allow others to see it."
 msgstr ""
 
-#: cogs/tracking.py:2231 cogs/tracking.py:2260
+#: cogs/tracking.py:2232 cogs/tracking.py:2261
 msgid "Sorry, I failed to set the feed channel due to missing permissions."
 msgstr ""
 
-#: cogs/tracking.py:2233
+#: cogs/tracking.py:2234
 msgid "Something went wrong while creating the new channel."
 msgstr ""
 
-#: cogs/tracking.py:2236
+#: cogs/tracking.py:2237
 msgid "Watchlist feed created successfully."
 msgstr ""
 
-#: cogs/tracking.py:2243
+#: cogs/tracking.py:2244
 #, python-brace-format
 msgid "I need both `Manage Channel` and `Manage Webhooks` permissions in {new_channel} in order to create a feed for {channel}"
 msgstr ""
 
-#: cogs/tracking.py:2246
+#: cogs/tracking.py:2247
 #, python-brace-format
 msgid "Do you want to assign {new_channel} as the feed channel for {channel}?"
 msgstr ""
 
-#: cogs/tracking.py:2253
+#: cogs/tracking.py:2254
 #, python-brace-format
 msgid "Watchlist webhook created by {user}"
 msgstr ""
 
-#: cogs/tracking.py:2256
+#: cogs/tracking.py:2257
 #, python-brace-format
 msgid ""
 "This is the new feed channel for {channel}.\n"
 "Level ups and deaths for characters in this watchlist will be announced here."
 msgstr ""
 
-#: cogs/tracking.py:2262
+#: cogs/tracking.py:2263
 msgid "Something went wrong while assigning the feed channel."
 msgstr ""
 
-#: cogs/tracking.py:2265
+#: cogs/tracking.py:2266
 msgid "Watchlist feed assigned successfully."
 msgstr ""
 
 #. The characters were already registered to **you**
-#: cogs/tracking.py:2363
+#: cogs/tracking.py:2364
 msgid "you"
 msgstr ""
 
-#: cogs/tracking.py:2370
+#: cogs/tracking.py:2371
 #, python-brace-format
 msgid "Sorry, a character in that account ({char}) is already registered to someone else."
 msgstr ""
 
-#: cogs/tracking.py:2373
+#: cogs/tracking.py:2374
 #, python-brace-format
 msgid "If the character really belongs to {user}, use `{prefix}claim {char}`."
 msgstr ""
 
-#: cogs/tracking.py:2381
+#: cogs/tracking.py:2382
 #, python-brace-format
 msgid "The following characters were already registered to {user}"
 msgstr ""
 
-#: cogs/tracking.py:2386
+#: cogs/tracking.py:2387
 #, python-brace-format
 msgid "The following characters were added to {user}"
 msgstr ""
 
-#: cogs/tracking.py:2391
+#: cogs/tracking.py:2392
 #, python-brace-format
 msgid "The following characters were reassigned to {user}"
 msgstr ""
 
-#: cogs/tracking.py:2396
+#: cogs/tracking.py:2397
 msgid "The following characters were reclaimed by you"
 msgstr ""
 
