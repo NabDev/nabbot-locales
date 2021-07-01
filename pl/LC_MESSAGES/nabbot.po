@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-24 16:07-0700\n"
-"PO-Revision-Date: 2021-06-24 23:08\n"
+"PO-Revision-Date: 2021-07-01 18:59\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -1413,7 +1413,7 @@ msgstr "Musisz odczekać **{remaining}** aby zregenerować się do **{hours}:{mi
 #: cogs/calculators.py:478
 #, python-brace-format
 msgid "If you start resting now, you will reach your target stamina on {date}."
-msgstr ""
+msgstr "Jeśli zaczniesz odpoczywać teraz, osiągniesz docelową staminę o czasie: {date}."
 
 #: cogs/calculators.py:487
 msgid "Calculates character stats based on vocation and level."
@@ -2113,7 +2113,7 @@ msgstr "Głosowe"
 
 #: cogs/info.py:278
 msgid "Stage"
-msgstr ""
+msgstr "Scena"
 
 #: cogs/info.py:287
 msgid "Humans"
@@ -2165,13 +2165,13 @@ msgstr "Dodano"
 #: cogs/info.py:323
 #, python-brace-format
 msgid "Granted by {user}"
-msgstr ""
+msgstr "Nadane przez {user}"
 
 #. When does premium expire. in_time is a relative time, e.g. "in 6 days".
 #: cogs/info.py:327
 #, python-brace-format
 msgid "Expires {in_time}"
-msgstr ""
+msgstr "Wygasa {in_time}"
 
 #: cogs/info.py:329 cogs/premium.py:599 cogs/tibiawiki.py:1387
 msgid "Premium"
@@ -2206,7 +2206,7 @@ msgstr "Serwer Społeczności"
 #: cogs/info.py:338
 msgctxt "Server features"
 msgid "Discoverable"
-msgstr ""
+msgstr "Widoczny"
 
 #: cogs/info.py:339
 msgctxt "Server features"
@@ -2266,12 +2266,12 @@ msgstr "Nie można znaleźć użytkownika `{user}`"
 #: cogs/info.py:387
 msgctxt "Discord account creation date"
 msgid "Account Created"
-msgstr ""
+msgstr "Konto utworzone"
 
 #: cogs/info.py:389
 msgctxt "Member join date"
 msgid "Joined Server"
-msgstr ""
+msgstr "Dołączył do serwera"
 
 #: cogs/info.py:393
 msgid "Server Owner"
@@ -2322,7 +2322,7 @@ msgstr "{0} najstarszy członek\n"
 
 #: cogs/info.py:414
 msgid "Boosting Since"
-msgstr ""
+msgstr "Boostuje od"
 
 #: cogs/info.py:445
 msgid "System Uptime"
@@ -3396,7 +3396,7 @@ msgstr "System respawnów nie jest skonfigurowany dla tego serwera. Użyj `{pref
 
 #: cogs/respawn.py:91
 msgid "You do not have access to the respawn system in this server."
-msgstr ""
+msgstr "Nie masz dostępu do systemu respawnów na tym serwerze."
 
 #: cogs/respawn.py:217
 #, python-brace-format
