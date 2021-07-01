@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-24 16:07-0700\n"
-"PO-Revision-Date: 2021-07-01 18:59\n"
+"PO-Revision-Date: 2021-07-01 20:43\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -3461,7 +3461,8 @@ msgstr ""
 #, python-brace-format
 msgid "You are now hunting in **{respawn}**.\n"
 "Your hunt should end at **{time}**."
-msgstr ""
+msgstr "Teraz polujesz w **{respawn}**.\n"
+"Twoje polowanie powinno zakończyć się o **{time}**."
 
 #: cogs/respawn.py:307
 msgid "Removes the current hunter and the entire queue of a respawn."
@@ -3479,15 +3480,15 @@ msgstr "**{respawn.name}** został wyczyszczony."
 
 #: cogs/respawn.py:322
 msgid "Clears all respawns, removing anyone hunting and all the queues."
-msgstr ""
+msgstr "Czyści wszystkie respawny, usuwając każdego polującego i wszystkie kolejki."
 
 #: cogs/respawn.py:325
 msgid "Are you sure you want to clear all the respawns and their queues?"
-msgstr ""
+msgstr "Czy na pewno chcesz wyczyścić wszystkie respawny i ich kolejki?"
 
 #: cogs/respawn.py:330
 msgid "All respawns have been cleared."
-msgstr ""
+msgstr "Wszystkie respawny zostały wyczyszczone."
 
 #: cogs/respawn.py:334
 msgid "Shows a list of previous hunts in a respawn."
