@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-24 16:07-0700\n"
-"PO-Revision-Date: 2021-06-24 23:08\n"
+"PO-Revision-Date: 2021-07-06 15:45\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3033,7 +3033,7 @@ msgstr "Estado Premium"
 
 #: cogs/premium.py:439
 msgid "You currently have {days:,} days to assign."
-msgstr "Actualmente tienes {días:,} días para asignar."
+msgstr "Actualmente tienes {days:,} días para asignar."
 
 #: cogs/premium.py:440
 msgid "More info"
