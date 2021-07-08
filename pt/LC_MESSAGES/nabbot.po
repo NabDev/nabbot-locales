@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-08 15:57-0700\n"
-"PO-Revision-Date: 2021-07-08 22:59\n"
+"PO-Revision-Date: 2021-07-08 23:29\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -663,44 +663,44 @@ msgstr "As mensagens deste servidor a partir de agora estarão em **{language}**
 
 #: cogs/admin.py:231
 msgid "Shows the list of available languages and the progress of other languages."
-msgstr ""
+msgstr "Mostra a lista de idiomas disponíveis e o progresso de outros idiomas."
 
 #: cogs/admin.py:234
 msgid "Languages"
-msgstr ""
+msgstr "Idiomas"
 
 #: cogs/admin.py:236
 msgid "Visit Crowdin to contribute with translations"
-msgstr ""
+msgstr "Visite o Crowdin para contribuir com traduções"
 
 #: cogs/admin.py:237
 msgid "Available Languages"
-msgstr ""
+msgstr "Idiomas Disponíveis"
 
 #. Header for the list of languages with their translation and approval progress
 #: cogs/admin.py:241
 msgid "**Name** — **Translated/Approved**"
-msgstr ""
+msgstr "**Nome** — **Traduzido/Aprovado**"
 
 #: cogs/admin.py:245
 msgid "Translation Progress"
-msgstr ""
+msgstr "Progresso da Tradução"
 
 #: cogs/admin.py:250
 msgid "Shows statistics about languages used by servers and users."
-msgstr ""
+msgstr "Mostra estatísticas sobre os idiomas usados pelos servidores e usuários."
 
 #: cogs/admin.py:267
 msgid "Language Statistics"
-msgstr ""
+msgstr "Estatísticas do Idiomas"
 
 #: cogs/admin.py:276
 msgid "Servers Per Language"
-msgstr ""
+msgstr "Servidores por Idioma"
 
 #: cogs/admin.py:286
 msgid "Users Per Language"
-msgstr ""
+msgstr "Usuários por Idioma"
 
 #: cogs/admin.py:295
 msgid "Checks or sets various server-specific settings."
@@ -1089,7 +1089,7 @@ msgstr "Este servidor não está mais monitorando nenhum mundo."
 #: cogs/admin.py:736
 #, python-brace-format
 msgid "This server is now tracking **{world}**."
-msgstr ""
+msgstr "A partir de agora, este servidor está monitorando **{world}**."
 
 #: cogs/admin.py:754
 #, python-brace-format
@@ -5076,7 +5076,7 @@ msgstr "{prefix}{command} level[,mundo]"
 #: cogs/tibia.py:1165
 #, python-brace-format
 msgid "{prefix}{command} minLevel,maxLevel[,world]"
-msgstr ""
+msgstr "{prefix}{command} levelMin,levelMax[,mundo]"
 
 #: cogs/tibia.py:1199
 #, python-brace-format
@@ -5647,8 +5647,8 @@ msgstr "{name}{online_icon} (Lvl {level} {voc})"
 #, python-format
 msgid "%d more"
 msgid_plural "%d more"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "mais %d"
+msgstr[1] "mais %d"
 
 #: cogs/tibia.py:2144
 #, python-brace-format
@@ -8355,7 +8355,7 @@ msgstr "Feed da watchlist atribuído com sucesso."
 #: cogs/tracking.py:2286
 #, python-brace-format
 msgid "{summon} of {player}"
-msgstr ""
+msgstr "{summon} de {player}"
 
 #. The characters were already registered to **you**
 #: cogs/tracking.py:2398
