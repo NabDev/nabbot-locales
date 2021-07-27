@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-27 13:09-0700\n"
-"PO-Revision-Date: 2021-07-27 20:10\n"
+"PO-Revision-Date: 2021-07-27 21:06\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -590,7 +590,7 @@ msgstr "Gerenciar canais"
 
 #: cogs/admin.py:153
 msgid "I need this to create server logs, news and levels channels, as well as watchlist feeds."
-msgstr "Preciso disso para criar logs do servidor, canais de notícias e de avanços de level, bem como feeds para as watchlists."
+msgstr "Preciso disso para criar canais de server log, notícias e de avanços de level, bem como feeds para as watchlists."
 
 #: cogs/admin.py:154
 msgid "Manage Webhooks"
@@ -3166,7 +3166,8 @@ msgstr "Isso mostra uma combinação das compras que você fez e dos servidores 
 #: cogs/premium.py:518
 msgid "That's not a valid filter, the valid filters are `purchases` or `servers`.\n"
 "Leave blank to show all transactions together."
-msgstr ""
+msgstr "Esse não é um filtro válido, os filtros válidos são `purchases` ou `servers`.\n"
+"Deixe em branco para mostrar todas as transações."
 
 #: cogs/premium.py:529
 msgid "You currently don't have any transactions."
@@ -5924,27 +5925,27 @@ msgstr "Tipo de Dano"
 
 #: cogs/tibiawiki.py:115
 msgid "Holy Magic Level"
-msgstr ""
+msgstr "Holy Magic Level"
 
 #: cogs/tibiawiki.py:116
 msgid "Fire Magic Level"
-msgstr ""
+msgstr "Fire Magic Level"
 
 #: cogs/tibiawiki.py:117
 msgid "Ice Magic Level"
-msgstr ""
+msgstr "Ice Magic Level"
 
 #: cogs/tibiawiki.py:118
 msgid "Death Magic Level"
-msgstr ""
+msgstr "Death Magic Level"
 
 #: cogs/tibiawiki.py:119
 msgid "Healing Magic Level"
-msgstr ""
+msgstr "Magic Level de Cura"
 
 #: cogs/tibiawiki.py:120
 msgid "Earth Magic Level"
-msgstr ""
+msgstr "Earth Magic Level"
 
 #: cogs/tibiawiki.py:122 cogs/tibiawiki.py:1362
 msgid "Mana"
@@ -7136,7 +7137,7 @@ msgstr "Selecione o personagem com o qual você deseja participar do evento:"
 
 #: cogs/timers.py:1253
 msgid "You must select a character to join with."
-msgstr ""
+msgstr "Você deve selecionar um personagem com o qual deseja participar."
 
 #: cogs/timers.py:1261
 msgid "You can only join with characters registered to you."
