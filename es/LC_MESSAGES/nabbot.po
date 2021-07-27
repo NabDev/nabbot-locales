@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-27 11:35-0700\n"
-"PO-Revision-Date: 2021-07-27 18:36\n"
+"PO-Revision-Date: 2021-07-27 19:49\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -272,7 +272,7 @@ msgstr "un momento"
 #: utils/ui.py:28
 #, python-brace-format
 msgid "Only {user} may interact. Use this command yourself to interact."
-msgstr ""
+msgstr "Solo {user} puede interactuar. Usa este comando tú mismo para interactuar."
 
 #: utils/ui.py:40 cogs/admin.py:93 cogs/tibia.py:2343
 msgid "Yes"
@@ -284,7 +284,7 @@ msgstr "No"
 
 #: utils/ui.py:73
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: utils/ui.py:95 models/context.py:257
 msgid "Alright, choosing cancelled."
@@ -303,7 +303,7 @@ msgstr[1] "%d entradas"
 
 #: utils/ui.py:235
 msgid "I need `Embed Links` permission to display this command."
-msgstr ""
+msgstr "Necesito permiso de `Insertar enlaces` para mostrar este comando."
 
 #: utils/ui.py:379 utils/ui.py:438
 msgid "No help given."
@@ -311,7 +311,7 @@ msgstr "No hay ayuda."
 
 #: utils/ui.py:385
 msgid "Other Commands"
-msgstr ""
+msgstr "Otros comandos"
 
 #: utils/ui.py:433
 #, python-brace-format
@@ -362,15 +362,15 @@ msgstr "Estábamos en la página {page} antes de este mensaje."
 
 #: utils/ui.py:491
 msgid "Go back"
-msgstr ""
+msgstr "Volver"
 
 #: utils/ui.py:491
 msgid "Help"
-msgstr ""
+msgstr "Ayuda"
 
 #: utils/ui.py:502
 msgid "Jump to section…"
-msgstr ""
+msgstr "Ir a la sección…"
 
 #. The bot's description, show in about and help commands.
 #: nabbot.py:118
@@ -1840,7 +1840,7 @@ msgstr "Ir al original"
 #: cogs/general.py:133
 #, python-brace-format
 msgid "In thread: {thread_name}"
-msgstr ""
+msgstr "En hilo: {thread_name}"
 
 #: cogs/general.py:135
 #, python-brace-format
@@ -2879,8 +2879,8 @@ msgstr "{channel} no estaba siendo ignorado."
 #, python-brace-format
 msgid "{count} is now unignored."
 msgid_plural "{count} are now unignored."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{count} es ahora designorado."
+msgstr[1] "{count} son ahora designorados."
 
 #: cogs/mod.py:217
 msgid "No entries were unignored."
@@ -3171,7 +3171,8 @@ msgstr "Esto muestra una combinación de las compras que has hecho y los servido
 #: cogs/premium.py:518
 msgid "That's not a valid filter, the valid filters are `purchases` or `servers`.\n"
 "Leave blank to show all transactions together."
-msgstr ""
+msgstr "Eso no es un filtro válido, los filtros válidos son `purchases` o `servers`.\n"
+"Deja en blanco para mostrar todas las transacciones juntas."
 
 #: cogs/premium.py:529
 msgid "You currently don't have any transactions."
@@ -4591,15 +4592,15 @@ msgstr "No hay subastas activas con este ítem."
 #: cogs/tibia.py:572
 #, python-brace-format
 msgid "Active auctions with {item}"
-msgstr ""
+msgstr "Subastas activas con {item}"
 
 #: cogs/tibia.py:579
 msgid "Shows auctions containing a specific item."
-msgstr ""
+msgstr "Muestra subastas que contienen un item específico."
 
 #: cogs/tibia.py:593
 msgid "There are no auctions with that item."
-msgstr ""
+msgstr "No hay subastas con este ítem."
 
 #: cogs/tibia.py:596
 #, python-brace-format
@@ -5928,23 +5929,23 @@ msgstr "Tipo de daño"
 
 #: cogs/tibiawiki.py:115
 msgid "Holy Magic Level"
-msgstr ""
+msgstr "Holy Magic Level"
 
 #: cogs/tibiawiki.py:116
 msgid "Fire Magic Level"
-msgstr ""
+msgstr "Fire Magic Level"
 
 #: cogs/tibiawiki.py:117
 msgid "Ice Magic Level"
-msgstr ""
+msgstr "Ice Magic Level"
 
 #: cogs/tibiawiki.py:118
 msgid "Death Magic Level"
-msgstr ""
+msgstr "Death Magic Level"
 
 #: cogs/tibiawiki.py:119
 msgid "Healing Magic Level"
-msgstr ""
+msgstr "Healing Magic Level"
 
 #: cogs/tibiawiki.py:120
 msgid "earth Magic Level"
@@ -6705,11 +6706,11 @@ msgstr "El tiempo de cooldown es menor al tiempo que dices que mataste al boss."
 
 #: cogs/timers.py:625
 msgid "Select the character you killed the boss with:"
-msgstr ""
+msgstr "Selecciona el personaje con el que mataste al boss:"
 
 #: cogs/timers.py:626 cogs/timers.py:675
 msgid "You must select a character."
-msgstr ""
+msgstr "Debes seleccionar un personaje."
 
 #: cogs/timers.py:634 cogs/timers.py:681
 msgid "That character is not registered to you."
@@ -6751,7 +6752,7 @@ msgstr "No hay ningún boss con ese nombre.\n"
 
 #: cogs/timers.py:674
 msgid "Select for which character you want to remove the cooldown:"
-msgstr ""
+msgstr "Selecciona para qué personaje quieres eliminar el cooldown:"
 
 #: cogs/timers.py:687
 #, python-brace-format
@@ -6800,7 +6801,7 @@ msgstr "A partir del server save de"
 
 #: cogs/timers.py:740
 msgid "Shows the current Dream Scar boss in every world."
-msgstr ""
+msgstr "Muestra el actual boss del Dream Scar en cada mundo."
 
 #: cogs/timers.py:757
 msgid "Shows a list of upcoming and recent events."
@@ -7136,11 +7137,11 @@ msgstr "Se han llenado todos los espacios para este evento."
 
 #: cogs/timers.py:1253
 msgid "Select the character you want to join the event with:"
-msgstr ""
+msgstr "Selecciona el personaje con el que quieres unirte al evento:"
 
 #: cogs/timers.py:1254
 msgid "You must select a character to join with."
-msgstr ""
+msgstr "Debes seleccionar un personaje con el que unirte."
 
 #: cogs/timers.py:1262
 msgid "You can only join with characters registered to you."
@@ -7436,7 +7437,7 @@ msgstr "Este evento no es de este servidor."
 #: cogs/timers.py:1932
 #, python-brace-format
 msgid "You need to have registered characters in {world}"
-msgstr ""
+msgstr "Necesitas tener personajes registrados en {world}"
 
 #: cogs/timers.py:1936 cogs/tracking.py:1165
 msgid "You do not have any registered characters."
@@ -8461,7 +8462,7 @@ msgstr "Los siguientes personajes fueron reclamados por ti"
 
 #: models/context.py:194
 msgid "I found more than one result, please select one to proceed:"
-msgstr ""
+msgstr "Encontré más de un resultado, por favor selecciona uno para continuar:"
 
 #: models/context.py:196 models/context.py:223
 msgid "No results found."
@@ -8469,7 +8470,7 @@ msgstr "No se encontraron resultados."
 
 #: models/context.py:208
 msgid "Select an option"
-msgstr ""
+msgstr "Selecciona una opción"
 
 #: models/context.py:221
 msgid "Suggestions"
