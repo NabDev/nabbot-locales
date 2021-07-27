@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-27 13:09-0700\n"
-"PO-Revision-Date: 2021-07-27 20:10\n"
+"PO-Revision-Date: 2021-07-27 21:06\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5949,7 +5949,7 @@ msgstr "Healing Magic Level"
 
 #: cogs/tibiawiki.py:120
 msgid "Earth Magic Level"
-msgstr ""
+msgstr "Earth Magic Level"
 
 #: cogs/tibiawiki.py:122 cogs/tibiawiki.py:1362
 msgid "Mana"
