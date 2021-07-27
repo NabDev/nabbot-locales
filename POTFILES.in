@@ -2,10 +2,10 @@ utils/constants.py
 utils/checks.py
 utils/converter.py
 utils/messages.py
-utils/pages.py
 utils/respawn_control.py
 utils/tibia.py
 utils/timing.py
+utils/ui.py
 nabbot.py
 cogs/admin.py
 cogs/calculators.py
