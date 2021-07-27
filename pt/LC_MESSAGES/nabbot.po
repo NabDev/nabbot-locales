@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-27 11:35-0700\n"
-"PO-Revision-Date: 2021-07-27 18:36\n"
+"PO-Revision-Date: 2021-07-27 20:09\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -272,7 +272,7 @@ msgstr "instantes"
 #: utils/ui.py:28
 #, python-brace-format
 msgid "Only {user} may interact. Use this command yourself to interact."
-msgstr ""
+msgstr "Apenas {user} pode interagir. Use este comando você mesmo para interagir."
 
 #: utils/ui.py:40 cogs/admin.py:93 cogs/tibia.py:2343
 msgid "Yes"
@@ -284,7 +284,7 @@ msgstr "Não"
 
 #: utils/ui.py:73
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: utils/ui.py:95 models/context.py:257
 msgid "Alright, choosing cancelled."
@@ -303,7 +303,7 @@ msgstr[1] "%d registros"
 
 #: utils/ui.py:235
 msgid "I need `Embed Links` permission to display this command."
-msgstr ""
+msgstr "Preciso da permissão `Inserir links` para exibir este comando."
 
 #: utils/ui.py:379 utils/ui.py:438
 msgid "No help given."
@@ -311,7 +311,7 @@ msgstr "Não há ajuda para esse comando."
 
 #: utils/ui.py:385
 msgid "Other Commands"
-msgstr ""
+msgstr "Outros Comandos"
 
 #: utils/ui.py:433
 #, python-brace-format
@@ -362,15 +362,15 @@ msgstr "Estávamos na página {page} antes desta mensagem."
 
 #: utils/ui.py:491
 msgid "Go back"
-msgstr ""
+msgstr "Voltar"
 
 #: utils/ui.py:491
 msgid "Help"
-msgstr ""
+msgstr "Ajuda"
 
 #: utils/ui.py:502
 msgid "Jump to section…"
-msgstr ""
+msgstr "Ir para a seção…"
 
 #. The bot's description, show in about and help commands.
 #: nabbot.py:118
@@ -1837,7 +1837,7 @@ msgstr "Ir para o original"
 #: cogs/general.py:133
 #, python-brace-format
 msgid "In thread: {thread_name}"
-msgstr ""
+msgstr "No tópico: {thread_name}"
 
 #: cogs/general.py:135
 #, python-brace-format
@@ -2874,8 +2874,8 @@ msgstr "{channel} não estava sendo ignorado."
 #, python-brace-format
 msgid "{count} is now unignored."
 msgid_plural "{count} are now unignored."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{count} está sendo designorado agora."
+msgstr[1] "{count} estão sendo designorados agora."
 
 #: cogs/mod.py:217
 msgid "No entries were unignored."
@@ -4587,15 +4587,15 @@ msgstr "Não há leilões ativos com esse item."
 #: cogs/tibia.py:572
 #, python-brace-format
 msgid "Active auctions with {item}"
-msgstr ""
+msgstr "Leilões ativos com {item}"
 
 #: cogs/tibia.py:579
 msgid "Shows auctions containing a specific item."
-msgstr ""
+msgstr "Mostra leilões contendo um item específico."
 
 #: cogs/tibia.py:593
 msgid "There are no auctions with that item."
-msgstr ""
+msgstr "Não há leilões com este item."
 
 #: cogs/tibia.py:596
 #, python-brace-format
@@ -6701,11 +6701,11 @@ msgstr "O cooldown é menor que o tempo que você disse que matou o boss."
 
 #: cogs/timers.py:625
 msgid "Select the character you killed the boss with:"
-msgstr ""
+msgstr "Selecione o personagem com o qual você matou o boss:"
 
 #: cogs/timers.py:626 cogs/timers.py:675
 msgid "You must select a character."
-msgstr ""
+msgstr "Você deve selecionar um personagem."
 
 #: cogs/timers.py:634 cogs/timers.py:681
 msgid "That character is not registered to you."
@@ -6747,7 +6747,7 @@ msgstr "Não há boss com esse nome.\n"
 
 #: cogs/timers.py:674
 msgid "Select for which character you want to remove the cooldown:"
-msgstr ""
+msgstr "Selecione para qual personagem você deseja remover o cooldown:"
 
 #: cogs/timers.py:687
 #, python-brace-format
@@ -6796,7 +6796,7 @@ msgstr "Conforme o server save de"
 
 #: cogs/timers.py:740
 msgid "Shows the current Dream Scar boss in every world."
-msgstr ""
+msgstr "Mostra o boss atual da Dream Scar em cada mundo."
 
 #: cogs/timers.py:757
 msgid "Shows a list of upcoming and recent events."
@@ -7132,7 +7132,7 @@ msgstr "Todas as vagas para este evento foram preenchidas."
 
 #: cogs/timers.py:1253
 msgid "Select the character you want to join the event with:"
-msgstr ""
+msgstr "Selecione o personagem com o qual você deseja participar do evento:"
 
 #: cogs/timers.py:1254
 msgid "You must select a character to join with."
@@ -7432,7 +7432,7 @@ msgstr "Esse evento não é deste servidor."
 #: cogs/timers.py:1932
 #, python-brace-format
 msgid "You need to have registered characters in {world}"
-msgstr ""
+msgstr "Você precisa ter personagens registrados em {world}"
 
 #: cogs/timers.py:1936 cogs/tracking.py:1165
 msgid "You do not have any registered characters."
@@ -8455,7 +8455,7 @@ msgstr "Os seguintes personagens foram reivindicados por você"
 
 #: models/context.py:194
 msgid "I found more than one result, please select one to proceed:"
-msgstr ""
+msgstr "Encontrei mais de um resultado, por favor, selecione um para prosseguir:"
 
 #: models/context.py:196 models/context.py:223
 msgid "No results found."
@@ -8463,7 +8463,7 @@ msgstr "Nenhum resultado encontrado."
 
 #: models/context.py:208
 msgid "Select an option"
-msgstr ""
+msgstr "Selecione uma opção"
 
 #: models/context.py:221
 msgid "Suggestions"
