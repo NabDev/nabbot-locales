@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 13:09-0700\n"
+"POT-Creation-Date: 2021-08-03 15:09-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -162,49 +162,49 @@ msgstr ""
 msgid "This respawn's queue is already full."
 msgstr ""
 
-#: utils/timing.py:92
+#: utils/timing.py:94
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/timing.py:93
+#: utils/timing.py:95
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/timing.py:94 utils/timing.py:211
+#: utils/timing.py:96 utils/timing.py:213
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/timing.py:95 utils/timing.py:213
+#: utils/timing.py:97 utils/timing.py:215
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/timing.py:96 utils/timing.py:215
+#: utils/timing.py:98 utils/timing.py:217
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/timing.py:97
+#: utils/timing.py:99
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/timing.py:100
+#: utils/timing.py:102
 msgctxt "years abbreviation"
 msgid "y"
 msgid_plural "y"
@@ -212,21 +212,21 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. Should be different than abbreviation for minutes
-#: utils/timing.py:102
+#: utils/timing.py:104
 msgctxt "months abbreviation"
 msgid "mo"
 msgid_plural "mo"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/timing.py:103 cogs/premium.py:539
+#: utils/timing.py:105 cogs/premium.py:539
 msgctxt "days abbreviation"
 msgid "d"
 msgid_plural "d"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/timing.py:104
+#: utils/timing.py:106
 msgctxt "hours abbreviation"
 msgid "h"
 msgid_plural "h"
@@ -234,14 +234,14 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. Should be different than abbreviation for months
-#: utils/timing.py:106
+#: utils/timing.py:108
 msgctxt "minutes abbreviation"
 msgid "m"
 msgid_plural "m"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/timing.py:107 cogs/info.py:151 cogs/info.py:308
+#: utils/timing.py:109 cogs/info.py:151 cogs/info.py:309
 msgctxt "seconds abbreviation"
 msgid "s"
 msgid_plural "s"
@@ -249,24 +249,24 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. For very short times
-#: utils/timing.py:134 utils/timing.py:152
+#: utils/timing.py:136 utils/timing.py:154
 msgid "now"
 msgstr ""
 
 #. To describe times that happened in the past, for example: "1 day ago", "13 hours ago"
-#: utils/timing.py:163
+#: utils/timing.py:165
 #, python-brace-format
 msgid "{time} ago"
 msgstr ""
 
 #. To describe times that will happen in the future, for example: "in 3 hours", "in 3 minutes"
-#: utils/timing.py:166
+#: utils/timing.py:168
 #, python-brace-format
 msgid "in {time}"
 msgstr ""
 
 #. Used to describe a low time frame, e.g. 'in moments', 'moments ago'
-#: utils/timing.py:218
+#: utils/timing.py:220
 msgid "moments"
 msgstr ""
 
@@ -275,120 +275,120 @@ msgstr ""
 msgid "Only {user} may interact. Use this command yourself to interact."
 msgstr ""
 
-#: utils/ui.py:52 cogs/admin.py:93 cogs/tibia.py:2343
+#: utils/ui.py:53 cogs/admin.py:93 cogs/tibia.py:2343
 msgid "Yes"
 msgstr ""
 
-#: utils/ui.py:53 cogs/admin.py:93
+#: utils/ui.py:54 cogs/admin.py:93
 msgid "No"
 msgstr ""
 
-#: utils/ui.py:79
+#: utils/ui.py:80
 msgid "Cancel"
 msgstr ""
 
-#: utils/ui.py:94 models/context.py:257
+#: utils/ui.py:95 models/context.py:257
 msgid "Alright, choosing cancelled."
 msgstr ""
 
-#: utils/ui.py:174 utils/ui.py:435
+#: utils/ui.py:175 utils/ui.py:436
 msgid "Page"
 msgstr ""
 
-#: utils/ui.py:175
+#: utils/ui.py:176
 #, python-format
 msgid "%d entry"
 msgid_plural "%d entries"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/ui.py:228
+#: utils/ui.py:229
 msgid "I need `Embed Links` permission to display this command."
 msgstr ""
 
-#: utils/ui.py:372 utils/ui.py:431
+#: utils/ui.py:373 utils/ui.py:432
 msgid "No help given."
 msgstr ""
 
-#: utils/ui.py:378
+#: utils/ui.py:379
 msgid "Other Commands"
 msgstr ""
 
-#: utils/ui.py:426
+#: utils/ui.py:427
 #, python-brace-format
 msgid "Use \"{prefix}help «command»\" for more info on a command."
 msgstr ""
 
-#: utils/ui.py:436 utils/ui.py:504
+#: utils/ui.py:437 utils/ui.py:506
 #, python-format
 msgid "%d command"
 msgid_plural "%d commands"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/ui.py:443
+#: utils/ui.py:444
 msgid "Command Help"
 msgstr ""
 
-#: utils/ui.py:446
+#: utils/ui.py:447
 msgid "argument"
 msgstr ""
 
-#: utils/ui.py:449
+#: utils/ui.py:450
 msgid "This means the argument is __**required**__."
 msgstr ""
 
-#: utils/ui.py:450
+#: utils/ui.py:451
 msgid "This means the argument is __**optional**__."
 msgstr ""
 
-#: utils/ui.py:451
+#: utils/ui.py:452
 msgid "This means it can be __**either A or B**__."
 msgstr ""
 
-#: utils/ui.py:452
+#: utils/ui.py:453
 msgid "This means you can have multiple arguments.\n"
 msgstr ""
 
-#: utils/ui.py:453
+#: utils/ui.py:454
 msgid ""
 "This means the command has subcommands.\n"
 "Check the command's help to see them."
 msgstr ""
 
-#: utils/ui.py:457
+#: utils/ui.py:459
 #, python-brace-format
 msgid "We were on page {page} before this message."
 msgstr ""
 
-#: utils/ui.py:484
+#: utils/ui.py:486
 msgid "Go back"
 msgstr ""
 
-#: utils/ui.py:484
+#: utils/ui.py:486
 msgid "Help"
 msgstr ""
 
-#: utils/ui.py:495
+#: utils/ui.py:497
 msgid "Jump to section…"
 msgstr ""
 
 #. The bot's description, show in about and help commands.
-#: nabbot.py:118
+#: nabbot.py:119
 msgid "Discord bot with functions for the MMORPG Tibia."
 msgstr ""
 
-#: nabbot.py:242
+#: nabbot.py:247
 #, python-brace-format
 msgid "To see my commands, use: `{prefix}help`."
 msgstr ""
 
 #. Discord mentions, @NabBot, @User, @Person
-#: nabbot.py:247
+#: nabbot.py:252
 msgid "mentions"
 msgstr ""
 
-#: nabbot.py:248
+#: nabbot.py:253
 msgid "My command prefix is:"
 msgid_plural "My command prefixes are:"
 msgstr[0] ""
@@ -1960,7 +1960,7 @@ msgstr ""
 msgid "Ping"
 msgstr ""
 
-#: cogs/info.py:110 cogs/info.py:282
+#: cogs/info.py:110 cogs/info.py:283
 msgid "Channels"
 msgstr ""
 
@@ -2014,7 +2014,7 @@ msgstr ""
 msgid "Mention"
 msgstr ""
 
-#: cogs/info.py:152 cogs/info.py:311
+#: cogs/info.py:152 cogs/info.py:312
 msgid "Voice Bitrate"
 msgstr ""
 
@@ -2022,7 +2022,7 @@ msgstr ""
 msgid "Voice Region"
 msgstr ""
 
-#: cogs/info.py:158 cogs/info.py:293 cogs/roles.py:473
+#: cogs/info.py:158 cogs/info.py:294 cogs/roles.py:473
 msgid "Members"
 msgstr ""
 
@@ -2132,137 +2132,125 @@ msgstr ""
 msgid "Stage"
 msgstr ""
 
-#: cogs/info.py:289
-msgid "Humans"
+#: cogs/info.py:281
+msgid "Threads"
 msgstr ""
 
 #: cogs/info.py:290
+msgid "Humans"
+msgstr ""
+
+#: cogs/info.py:291
 msgid "Bots"
 msgstr ""
 
-#: cogs/info.py:291 cogs/info.py:409
+#: cogs/info.py:292 cogs/info.py:400
 msgid "Roles"
 msgstr ""
 
-#: cogs/info.py:303
+#: cogs/info.py:304
 msgid "Boosters"
 msgstr ""
 
-#: cogs/info.py:304 cogs/logging.py:124 cogs/logging.py:157 cogs/logging.py:207
+#: cogs/info.py:305 cogs/logging.py:124 cogs/logging.py:157 cogs/logging.py:207
 #: cogs/tibia.py:2325 cogs/tibiawiki.py:95 cogs/tibiawiki.py:1361
-#: cogs/timers.py:1936
+#: cogs/timers.py:1935
 msgid "Level"
 msgstr ""
 
-#: cogs/info.py:306
+#: cogs/info.py:307
 msgid "Boosting"
 msgstr ""
 
-#: cogs/info.py:310
+#: cogs/info.py:311
 msgid "Upload Size"
 msgstr ""
 
-#: cogs/info.py:312
+#: cogs/info.py:313
 msgid "Emoji Limit"
 msgstr ""
 
-#: cogs/info.py:314
+#: cogs/info.py:315
 msgid "Limits"
 msgstr ""
 
-#: cogs/info.py:317
+#: cogs/info.py:318
 msgid "Tracked World"
 msgstr ""
 
 #. When the bot was added to the server
-#: cogs/info.py:319
+#: cogs/info.py:320
 msgid "Added"
 msgstr ""
 
-#. The user that gave premium to the server.
-#: cogs/info.py:325
-#, python-brace-format
-msgid "Granted by {user}"
-msgstr ""
-
-#. When does premium expire. in_time is a relative time, e.g. "in 6 days".
-#: cogs/info.py:329
-#, python-brace-format
-msgid "Expires {in_time}"
-msgstr ""
-
-#: cogs/info.py:331 cogs/premium.py:612 cogs/tibiawiki.py:1379
-msgid "Premium"
-msgstr ""
-
-#: cogs/info.py:335
+#: cogs/info.py:326
 msgctxt "Server features"
 msgid "VIP voice regions"
 msgstr ""
 
 #. NOSONAR
-#: cogs/info.py:336
+#: cogs/info.py:327
 msgctxt "Server features"
 msgid "Vanity URL"
 msgstr ""
 
-#: cogs/info.py:337
+#: cogs/info.py:328
 msgctxt "Server features"
 msgid "Verified Server"
 msgstr ""
 
-#: cogs/info.py:338
+#: cogs/info.py:329
 msgctxt "Server features"
 msgid "Partnered Server"
 msgstr ""
 
-#: cogs/info.py:339
+#: cogs/info.py:330
 msgctxt "Server features"
 msgid "Community Server"
 msgstr ""
 
-#: cogs/info.py:340
+#: cogs/info.py:331
 msgctxt "Server features"
 msgid "Discoverable"
 msgstr ""
 
-#: cogs/info.py:341
+#: cogs/info.py:332
 msgctxt "Server features"
 msgid "Can use animated icon"
 msgstr ""
 
-#: cogs/info.py:342
+#: cogs/info.py:333
 msgctxt "Server features"
 msgid "Welcome Screen"
 msgstr ""
 
-#: cogs/info.py:343
+#: cogs/info.py:334
 msgctxt "Server features"
 msgid "Membership Screening"
 msgstr ""
 
-#: cogs/info.py:350
+#: cogs/info.py:341
 msgid "Additional Features"
 msgstr ""
 
-#: cogs/info.py:352
+#: cogs/info.py:343
 msgid "Server Invite Background"
 msgstr ""
 
-#: cogs/info.py:357
+#: cogs/info.py:348
 msgid "Shows how long the bot has been running."
 msgstr ""
 
-#: cogs/info.py:360
+#: cogs/info.py:351
 #, python-brace-format
 msgid "I have been running for {0}."
 msgstr ""
 
-#: cogs/info.py:367
+#: cogs/info.py:358
 msgid "Shows a user's information."
 msgstr ""
 
-#: cogs/info.py:368
+#: cogs/info.py:359
 msgid ""
 "If no user is provided, it shows your own information.\n"
 "\n"
@@ -2273,119 +2261,135 @@ msgid ""
 "- **Channel Moderator:** User with `Manage Channels` permissions in at least one channel."
 msgstr ""
 
-#: cogs/info.py:382 cogs/respawn.py:554
+#: cogs/info.py:373 cogs/respawn.py:554
 #, python-brace-format
 msgid "Could not find user `{user}`"
 msgstr ""
 
-#: cogs/info.py:389
+#: cogs/info.py:380
 msgctxt "Discord account creation date"
 msgid "Account Created"
 msgstr ""
 
-#: cogs/info.py:391
+#: cogs/info.py:382
 msgctxt "Member join date"
 msgid "Joined Server"
 msgstr ""
 
-#: cogs/info.py:395
+#: cogs/info.py:386
 msgid "Server Owner"
 msgstr ""
 
-#: cogs/info.py:397
+#: cogs/info.py:388
 msgid "Server Admin"
 msgstr ""
 
-#: cogs/info.py:399
+#: cogs/info.py:390
 msgid "Server Moderator"
 msgstr ""
 
-#: cogs/info.py:401
+#: cogs/info.py:392
 msgid "Channel Moderator"
 msgstr ""
 
-#: cogs/info.py:403
+#: cogs/info.py:394
 msgid "Bot"
 msgstr ""
 
-#: cogs/info.py:405
+#: cogs/info.py:396
 msgid "Regular User"
 msgstr ""
 
-#: cogs/info.py:406
+#: cogs/info.py:397
 msgid "User Status"
 msgstr ""
 
-#: cogs/info.py:408
+#: cogs/info.py:399
 msgid "Servers with NabBot"
 msgstr ""
 
-#: cogs/info.py:410
+#: cogs/info.py:401
 msgid "Highest role"
 msgstr ""
 
-#: cogs/info.py:411
+#: cogs/info.py:402
 msgid "Ranking"
 msgstr ""
 
-#: cogs/info.py:412
+#: cogs/info.py:403
 #, python-brace-format
 msgid ""
 "{0} oldest member\n"
 "{1} oldest account here"
 msgstr ""
 
-#: cogs/info.py:416
+#: cogs/info.py:407
 msgid "Boosting Since"
 msgstr ""
 
-#: cogs/info.py:447
+#: cogs/info.py:438
 msgid "System Uptime"
 msgstr ""
 
-#: cogs/info.py:448
+#: cogs/info.py:439
 msgctxt "Operating System"
 msgid "OS"
 msgstr ""
 
-#: cogs/info.py:451
+#: cogs/info.py:442
 msgid "RAM"
 msgstr ""
 
-#: cogs/info.py:452
+#: cogs/info.py:443
 msgid "Total RAM"
 msgstr ""
 
-#: cogs/info.py:456
+#: cogs/info.py:447
 msgid "CPU"
 msgstr ""
 
-#: cogs/info.py:483
+#: cogs/info.py:474
 msgid "Created at"
 msgstr ""
 
-#: cogs/info.py:484
+#: cogs/info.py:475
 msgid "ID"
 msgstr ""
 
-#: cogs/info.py:485
+#: cogs/info.py:476
 msgid "Usage"
 msgstr ""
 
-#: cogs/info.py:487
+#: cogs/info.py:478
 msgid "Twitch integration"
 msgstr ""
 
-#: cogs/info.py:488
+#: cogs/info.py:479
 msgid "Requires colons"
 msgstr ""
 
-#: cogs/info.py:489
+#: cogs/info.py:480
 msgid "Role limited"
 msgstr ""
 
-#: cogs/info.py:492 cogs/tibiawiki.py:1201
+#: cogs/info.py:483 cogs/tibiawiki.py:1201
 msgid "Attributes"
+msgstr ""
+
+#. The user that gave premium to the server.
+#: cogs/info.py:513
+#, python-brace-format
+msgid "Granted by {user}"
+msgstr ""
+
+#. When does premium expire. in_time is a relative time, e.g. "in 6 days".
+#: cogs/info.py:517
+#, python-brace-format
+msgid "Expires {in_time}"
+msgstr ""
+
+#: cogs/info.py:519 cogs/premium.py:612 cogs/tibiawiki.py:1379
+msgid "Premium"
 msgstr ""
 
 #. Label shown for characters that are not in a guild when joining
@@ -2593,6 +2597,10 @@ msgstr ""
 
 #: cogs/logging.py:535
 msgid "Member unbanned"
+msgstr ""
+
+#: cogs/loot.py:97
+msgid "Commands related to loot scanning."
 msgstr ""
 
 #: cogs/loot.py:109
@@ -3889,7 +3897,7 @@ msgstr ""
 msgid "All users with registered characters will automatically receive the {role} role."
 msgstr ""
 
-#: cogs/roles.py:213 cogs/timers.py:851
+#: cogs/roles.py:213 cogs/timers.py:852
 msgid "Is this correct?"
 msgstr ""
 
@@ -4684,7 +4692,7 @@ msgstr ""
 msgid "Current events"
 msgstr ""
 
-#: cogs/tibia.py:727 cogs/timers.py:807
+#: cogs/tibia.py:727 cogs/timers.py:808
 msgid "Upcoming events"
 msgstr ""
 
@@ -6491,162 +6499,162 @@ msgstr ""
 msgid "Taught by"
 msgstr ""
 
-#: cogs/timers.py:268
+#: cogs/timers.py:269
 msgid "There's no active event with that id."
 msgstr ""
 
-#: cogs/timers.py:269
-msgid "Alright, event making cancelled."
-msgstr ""
-
 #: cogs/timers.py:270
-#, python-format
-msgid "You can only have %d active events simultaneously. Delete or edit an active event."
+msgid "Alright, event making cancelled."
 msgstr ""
 
 #: cogs/timers.py:271
 #, python-format
+msgid "You can only have %d active events simultaneously. Delete or edit an active event."
+msgstr ""
+
+#: cogs/timers.py:272
+#, python-format
 msgid "The event's name can't be longer than %d characters."
 msgstr ""
 
-#: cogs/timers.py:284
+#: cogs/timers.py:285
 msgid "Start Time"
 msgstr ""
 
-#: cogs/timers.py:289
+#: cogs/timers.py:290
 #, python-brace-format
 msgid "**{time}** after the server save of **{date}**"
 msgstr ""
 
-#: cogs/timers.py:293
+#: cogs/timers.py:294
 #, python-brace-format
 msgid "**{time}** before the server save of **{date}**"
 msgstr ""
 
-#: cogs/timers.py:299
+#: cogs/timers.py:300
 msgid "Commands related to time operations."
 msgstr ""
 
-#: cogs/timers.py:400 cogs/timers.py:773
+#: cogs/timers.py:401 cogs/timers.py:774
 msgid "unknown user"
 msgstr ""
 
 #. Event notification
-#: cogs/timers.py:405
+#: cogs/timers.py:406
 #, python-brace-format
 msgid "Event: **{name}** (ID: {id} | by {user}) - Is starting {in_time}"
 msgstr ""
 
 #. Message received when a reminder is due
-#: cogs/timers.py:437
+#: cogs/timers.py:438
 #, python-brace-format
 msgid "{user}, you asked me to remind you this:"
 msgstr ""
 
-#: cogs/timers.py:451
+#: cogs/timers.py:452
 #, python-brace-format
 msgid "The cooldown for **{boss}** is over now for **{char}**."
 msgstr ""
 
-#: cogs/timers.py:473
+#: cogs/timers.py:474
 msgid "Shows the remaining cooldown time for a specific boss."
 msgstr ""
 
-#: cogs/timers.py:477
+#: cogs/timers.py:478
 #, python-brace-format
 msgid ""
 "Tell me the name of the boss you want to check.\n"
 "For a list of your active cooldowns, use: `{prefix}{command} list`"
 msgstr ""
 
-#: cogs/timers.py:487
+#: cogs/timers.py:488
 #, python-brace-format
 msgid ""
 "There's no boss with that name.\n"
 "For a list of supported bosses, use: `{prefix}{command} bosslist`"
 msgstr ""
 
-#: cogs/timers.py:496
+#: cogs/timers.py:497
 #, python-brace-format
 msgid "You don't have any registered character named `{char}`."
 msgstr ""
 
-#: cogs/timers.py:502
+#: cogs/timers.py:503
 #, python-brace-format
 msgid "**{char}** doesn't have any active cooldowns for **{boss}**."
 msgstr ""
 
-#: cogs/timers.py:507
+#: cogs/timers.py:508
 #, python-brace-format
 msgid "Your cooldown for **{boss}** will be over in {diff}."
 msgstr ""
 
-#: cogs/timers.py:523
+#: cogs/timers.py:524
 #, python-brace-format
 msgid "**{char}** - Expires {in_time}"
 msgstr ""
 
-#: cogs/timers.py:526
+#: cogs/timers.py:527
 #, python-brace-format
 msgid "You don't have any active cooldowns for **{boss}**."
 msgstr ""
 
-#: cogs/timers.py:528 cogs/timers.py:588
+#: cogs/timers.py:529 cogs/timers.py:589
 #, python-brace-format
 msgid "Only characters in {world} are show. Use on PM to see more."
 msgstr ""
 
-#: cogs/timers.py:532
+#: cogs/timers.py:533
 #, python-brace-format
 msgid "Your active {boss} cooldowns"
 msgstr ""
 
-#: cogs/timers.py:537
+#: cogs/timers.py:538
 msgid "Shows a list of boss aliases."
 msgstr ""
 
-#: cogs/timers.py:538
+#: cogs/timers.py:539
 msgid "These are names you can use instead of using the full names. These are case-insensitive."
 msgstr ""
 
-#: cogs/timers.py:547
+#: cogs/timers.py:548
 msgid "Boss Aliases"
 msgstr ""
 
-#: cogs/timers.py:552
+#: cogs/timers.py:553
 msgid "Shows a list of supported boss cooldowns."
 msgstr ""
 
-#: cogs/timers.py:558
+#: cogs/timers.py:559
 msgid "Supported Boss Cooldowns"
 msgstr ""
 
-#: cogs/timers.py:563
+#: cogs/timers.py:564
 msgid "Shows a list of all your active cooldowns."
 msgstr ""
 
-#: cogs/timers.py:564
+#: cogs/timers.py:565
 msgid ""
 "For privacy reasons, only characters matching the tracked world of the current server will be shown.\n"
 "To see all your characters, try it on a private message."
 msgstr ""
 
-#: cogs/timers.py:583
+#: cogs/timers.py:584
 #, python-brace-format
 msgid ""
 "You don't have any active cooldowns on characters in {world}.\n"
 "Try on PM to see all your characters."
 msgstr ""
 
-#: cogs/timers.py:592
+#: cogs/timers.py:593
 msgid "Your active cooldowns"
 msgstr ""
 
-#: cogs/timers.py:598
+#: cogs/timers.py:599
 msgid "Sets the cooldown for a boss."
 msgstr ""
 
-#: cogs/timers.py:599
+#: cogs/timers.py:600
 msgid ""
 "The cooldown is set as if you had just killed the boss.\n"
 "You will receive a private message when the cooldown is over.\n"
@@ -6654,156 +6662,156 @@ msgid ""
 "You can also specify how long ago the boss was killed, so the time is considered in the cooldown."
 msgstr ""
 
-#: cogs/timers.py:612
+#: cogs/timers.py:613
 #, python-brace-format
 msgid ""
 "There's no boss with that name.\n"
 "For a list of supported bosses, try: `{prefix}boss bosslist`"
 msgstr ""
 
-#: cogs/timers.py:620
+#: cogs/timers.py:621
 msgid "Cooldown is less than how long ago you said you killed the boss."
 msgstr ""
 
-#: cogs/timers.py:624
+#: cogs/timers.py:625
 msgid "Select the character you killed the boss with:"
 msgstr ""
 
-#: cogs/timers.py:625 cogs/timers.py:674
+#: cogs/timers.py:626 cogs/timers.py:675
 msgid "You must select a character."
 msgstr ""
 
-#: cogs/timers.py:633 cogs/timers.py:680
+#: cogs/timers.py:634 cogs/timers.py:681
 msgid "That character is not registered to you."
 msgstr ""
 
-#: cogs/timers.py:641
+#: cogs/timers.py:642
 #, python-brace-format
 msgid ""
 "This character already has a running timer for this boss.\n"
 "You can delete it using `{prefix}{command} clear {boss},{char}`"
 msgstr ""
 
-#: cogs/timers.py:647
+#: cogs/timers.py:648
 #, python-brace-format
 msgid ""
 "I will let you know when the cooldown is over via pm.\n"
 "Use `{prefix}checkdm` to make sure you can receive PMs by me."
 msgstr ""
 
-#: cogs/timers.py:649
+#: cogs/timers.py:650
 #, python-brace-format
 msgid "Timer saved for {name}"
 msgstr ""
 
-#: cogs/timers.py:651
+#: cogs/timers.py:652
 msgid "Cooldown expiration time"
 msgstr ""
 
-#: cogs/timers.py:656
+#: cogs/timers.py:657
 msgid "Removes an active boss cooldown."
 msgstr ""
 
-#: cogs/timers.py:664
+#: cogs/timers.py:665
 #, python-brace-format
 msgid ""
 "There's no boss with that name.\n"
 "For a list of supported bosses, try: `{prefix}{command} bosslist`"
 msgstr ""
 
-#: cogs/timers.py:673
+#: cogs/timers.py:674
 msgid "Select for which character you want to remove the cooldown:"
 msgstr ""
 
-#: cogs/timers.py:686
+#: cogs/timers.py:687
 #, python-brace-format
 msgid "There's no active timer for boss {name} for {db_char.name}"
 msgstr ""
 
-#: cogs/timers.py:692
+#: cogs/timers.py:693
 msgid "Boss timer deleted."
 msgstr ""
 
-#: cogs/timers.py:699
+#: cogs/timers.py:700
 msgid "Shows the boss that is present today in the Dream Scar."
 msgstr ""
 
-#: cogs/timers.py:700
+#: cogs/timers.py:701
 msgid ""
 "If no world is specified, the currently tracked world will be used.\n"
 "If used via PM, a world must be specified."
 msgstr ""
 
-#: cogs/timers.py:707
+#: cogs/timers.py:708
 #, python-brace-format
 msgid "You must specify a world, example: `{prefix}{command} Antica`"
 msgstr ""
 
-#: cogs/timers.py:713
+#: cogs/timers.py:714
 msgid "That is not a valid world."
 msgstr ""
 
-#: cogs/timers.py:718
+#: cogs/timers.py:719
 msgid "I don't have enough data on this world yet."
 msgstr ""
 
-#: cogs/timers.py:720
+#: cogs/timers.py:721
 msgid "Dream Scar Boss of the Day"
 msgstr ""
 
-#: cogs/timers.py:722
+#: cogs/timers.py:723
 #, python-brace-format
 msgid "Today **{next_boss}** is in the Dream Scar in **{world}**"
 msgstr ""
 
-#: cogs/timers.py:724
+#: cogs/timers.py:725
 msgid "As of the server save of"
 msgstr ""
 
-#: cogs/timers.py:739
+#: cogs/timers.py:740
 msgid "Shows the current Dream Scar boss in every world."
 msgstr ""
 
-#: cogs/timers.py:756
+#: cogs/timers.py:757
 msgid "Shows a list of upcoming and recent events."
 msgstr ""
 
-#: cogs/timers.py:757
+#: cogs/timers.py:758
 msgid "If a number is specified, it will show details for that event. Same as using `events info`"
 msgstr ""
 
-#: cogs/timers.py:764
+#: cogs/timers.py:765
 #, python-brace-format
 msgid ""
 "For more info about an event, use `{prefix}{command} info (id)`\n"
 "To receive notifications for an event, use `{prefix}{command} sub (id)`"
 msgstr ""
 
-#: cogs/timers.py:771
+#: cogs/timers.py:772
 msgid "There are no upcoming events."
 msgstr ""
 
 #. List format for current events
-#: cogs/timers.py:782
+#: cogs/timers.py:783
 #, python-brace-format
 msgid "**{name}** (*ID: {id}*) - by {user} - Started {time}"
 msgstr ""
 
-#: cogs/timers.py:790
+#: cogs/timers.py:791
 msgid "Recent events"
 msgstr ""
 
 #. Line format for upcoming events
-#: cogs/timers.py:799
+#: cogs/timers.py:800
 #, python-brace-format
 msgid "**{name}** (*ID: {id}*) - by {user} - {time}"
 msgstr ""
 
-#: cogs/timers.py:815
+#: cogs/timers.py:816
 msgid "Creates a new event."
 msgstr ""
 
-#: cogs/timers.py:816
+#: cogs/timers.py:817
 msgid ""
 "`starts in` is in how much time the event will start from the moment of creation.\n"
 "This is done to avoid dealing with different timezones.\n"
@@ -6817,11 +6825,11 @@ msgid ""
 "Once the event is created, the id of the event will be returned. This is used for further edits."
 msgstr ""
 
-#: cogs/timers.py:861 cogs/timers.py:1443
+#: cogs/timers.py:861 cogs/timers.py:1444
 msgid "Your event was created successfully."
 msgstr ""
 
-#: cogs/timers.py:862 cogs/timers.py:1444
+#: cogs/timers.py:862 cogs/timers.py:1445
 #, python-format
 msgid "*To edit this event, use ID **%d***"
 msgstr ""
@@ -7039,7 +7047,7 @@ msgid ""
 "Examples: `1h20m`, `2d10m`"
 msgstr ""
 
-#: cogs/timers.py:1179
+#: cogs/timers.py:1180
 msgid "Is the time of your event correct? Time is displayed in your local timezone."
 msgstr ""
 
@@ -7118,120 +7126,120 @@ msgstr ""
 msgid "Do you want to join the event '**{event}**' as **{char}**?"
 msgstr ""
 
-#: cogs/timers.py:1281
+#: cogs/timers.py:1282
 msgid "You successfully joined this event."
 msgstr ""
 
-#: cogs/timers.py:1287
+#: cogs/timers.py:1288
 msgid "Leaves an event you are participating in."
 msgstr ""
 
-#: cogs/timers.py:1297
+#: cogs/timers.py:1298
 msgid "You haven't joined this event."
 msgstr ""
 
-#: cogs/timers.py:1300
+#: cogs/timers.py:1301
 #, python-brace-format
 msgid "Do you want to leave **{event}**?"
 msgstr ""
 
-#: cogs/timers.py:1310
+#: cogs/timers.py:1311
 msgid "You successfully left this event."
 msgstr ""
 
-#: cogs/timers.py:1317
+#: cogs/timers.py:1318
 msgid "Creates an event guiding you step by step."
 msgstr ""
 
-#: cogs/timers.py:1318
+#: cogs/timers.py:1319
 msgid "Instead of using confusing parameters, commas and spaces, this command will guide you through the process."
 msgstr ""
 
 #. `cancel` can be translated
-#: cogs/timers.py:1328
+#: cogs/timers.py:1329
 msgid "Let's create an event. What would you like the name to be? You can `cancel` at any time."
 msgstr ""
 
-#: cogs/timers.py:1352
+#: cogs/timers.py:1353
 msgid "This is your event so far:"
 msgstr ""
 
-#: cogs/timers.py:1353
+#: cogs/timers.py:1354
 #, python-brace-format
 msgid "Your event will be named **{name}**."
 msgstr ""
 
-#: cogs/timers.py:1354
+#: cogs/timers.py:1355
 msgid "Now, what description would you like your event to have? `none/blank` to leave it empty. Bold, italics and links are supported."
 msgstr ""
 
-#: cogs/timers.py:1356
+#: cogs/timers.py:1357
 #, python-brace-format
 msgid "You took too long {user}, event making cancelled."
 msgstr ""
 
-#: cogs/timers.py:1372
+#: cogs/timers.py:1373
 msgid "Is this right?"
 msgstr ""
 
 #. `cancel` and `blank` can be translated
-#: cogs/timers.py:1381
+#: cogs/timers.py:1382
 msgid ""
 "Alright, again, tell me the description you want for your event.\n"
 "Remember you can `cancel` the process or tell me `blank` to have no description."
 msgstr ""
 
-#: cogs/timers.py:1390
+#: cogs/timers.py:1391
 msgid "Alright, now tell me in how much time will the event start from now. e.g. `2d1h20m`, `4h`"
 msgstr ""
 
 #. `cancel` can be translated
-#: cogs/timers.py:1409
+#: cogs/timers.py:1410
 msgid ""
 "Again, tell me the start time of the event from now.\n"
 "You can `cancel` if you want."
 msgstr ""
 
-#: cogs/timers.py:1416
+#: cogs/timers.py:1417
 msgid "Is this time correct? Time is displayed in your local timezone."
 msgstr ""
 
 #. `cancel` can be translated
-#: cogs/timers.py:1425
+#: cogs/timers.py:1426
 msgid ""
 "Ok, again, tell me when will the event start.\n"
 "Remember you can `cancel` the process."
 msgstr ""
 
-#: cogs/timers.py:1435
+#: cogs/timers.py:1436
 msgid "This will be your event, confirm that everything is correct and we will be done."
 msgstr ""
 
-#: cogs/timers.py:1453
+#: cogs/timers.py:1454
 msgid "Shows the list of characters participating in this event."
 msgstr ""
 
-#: cogs/timers.py:1463
+#: cogs/timers.py:1464
 #, python-brace-format
 msgid " To join, use `{prefix}event join {event_id} characterName`."
 msgstr ""
 
-#: cogs/timers.py:1466
+#: cogs/timers.py:1467
 #, python-brace-format
 msgid "There are no participants in this event.{join_prompt}"
 msgstr ""
 
 #. When the user, owner of a participating character is no longer in server
-#: cogs/timers.py:1479 cogs/tracking.py:1465
+#: cogs/timers.py:1480 cogs/tracking.py:1465
 msgctxt "user"
 msgid "unknown"
 msgstr ""
 
-#: cogs/timers.py:1494
+#: cogs/timers.py:1495
 msgid "Deletes or cancels an event."
 msgstr ""
 
-#: cogs/timers.py:1503
+#: cogs/timers.py:1504
 #, python-brace-format
 msgid "Do you want to delete the event **{event}**?"
 msgstr ""
@@ -7269,19 +7277,19 @@ msgstr ""
 msgid "Do you want to remove **{char}** ({owner}) from **{event}**?"
 msgstr ""
 
-#: cogs/timers.py:1560
+#: cogs/timers.py:1561
 msgid "The character was removed from event."
 msgstr ""
 
-#: cogs/timers.py:1567
+#: cogs/timers.py:1568
 msgid "Subscribe to receive a PM when an event is happening."
 msgstr ""
 
-#: cogs/timers.py:1575
+#: cogs/timers.py:1576
 msgid "You're already subscribed to this event."
 msgstr ""
 
-#: cogs/timers.py:1577
+#: cogs/timers.py:1578
 #, python-brace-format
 msgid "Do you want to subscribe to **{event}**"
 msgstr ""
@@ -7311,33 +7319,33 @@ msgstr ""
 msgid "Do you want to unsubscribe to **{name}**"
 msgstr ""
 
-#: cogs/timers.py:1618
+#: cogs/timers.py:1617
 msgid "You have unsubscribed from this event."
 msgstr ""
 
-#: cogs/timers.py:1623
+#: cogs/timers.py:1622
 msgid "Creates a personal reminder."
 msgstr ""
 
-#: cogs/timers.py:1624
+#: cogs/timers.py:1623
 msgid "You will be notified in the same channel when the time is over."
 msgstr ""
 
-#: cogs/timers.py:1632
+#: cogs/timers.py:1631
 #, python-brace-format
 msgid "Your reminder's content's exceed the character limit ({length}/{limit})."
 msgstr ""
 
-#: cogs/timers.py:1638
+#: cogs/timers.py:1637
 #, python-brace-format
 msgid "Ok, I will remind you {time} about: {content}"
 msgstr ""
 
-#: cogs/timers.py:1644
+#: cogs/timers.py:1643
 msgid "Shows you a list of your active reminders."
 msgstr ""
 
-#: cogs/timers.py:1645
+#: cogs/timers.py:1644
 msgid ""
 "The list consists of the reminder's id, the time in which it will be triggered and the content of the reminder, linking to the original message.\n"
 "\n"
@@ -7348,56 +7356,56 @@ msgid ""
 "Note that reminders created under 60 seconds are not displayed here."
 msgstr ""
 
-#: cogs/timers.py:1670
+#: cogs/timers.py:1669
 msgid ""
 "You do not have any active reminders in this server.\n"
 "Use this on a private message to see all your reminders."
 msgstr ""
 
-#: cogs/timers.py:1674
+#: cogs/timers.py:1673
 msgid "You do not have any active reminders."
 msgstr ""
 
-#: cogs/timers.py:1678
+#: cogs/timers.py:1677
 msgid "Your reminders"
 msgstr ""
 
-#: cogs/timers.py:1684
+#: cogs/timers.py:1683
 msgid "Removes one of your reminders by its id."
 msgstr ""
 
-#: cogs/timers.py:1685
+#: cogs/timers.py:1684
 msgid "The ID of your reminders can be seen by using the `remindme list` command."
 msgstr ""
 
-#: cogs/timers.py:1689
+#: cogs/timers.py:1688
 #, python-brace-format
 msgid "ID must be greater than zero. You can see the ID of your active reminders by using `{prefix}remindme list`."
 msgstr ""
 
-#: cogs/timers.py:1695
+#: cogs/timers.py:1694
 #, python-brace-format
 msgid "You do not have any active reminders with that ID. You can see the ID of your active reminders by using `{prefix}remindme list`."
 msgstr ""
 
-#: cogs/timers.py:1698
+#: cogs/timers.py:1697
 msgid "Your reminder was removed successfully."
 msgstr ""
 
-#: cogs/timers.py:1882
+#: cogs/timers.py:1881
 msgid "You can only edit your own events."
 msgstr ""
 
-#: cogs/timers.py:1884
+#: cogs/timers.py:1883
 msgid "That event is not from this server."
 msgstr ""
 
-#: cogs/timers.py:1931
+#: cogs/timers.py:1930
 #, python-brace-format
 msgid "You need to have registered characters in {world}"
 msgstr ""
 
-#: cogs/timers.py:1935 cogs/tracking.py:1165
+#: cogs/timers.py:1934 cogs/tracking.py:1165
 msgid "You do not have any registered characters."
 msgstr ""
 
