@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 15:09-0700\n"
-"PO-Revision-Date: 2021-08-03 22:15\n"
+"PO-Revision-Date: 2021-08-04 05:33\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -2140,7 +2140,7 @@ msgstr "Palco"
 
 #: cogs/info.py:281
 msgid "Threads"
-msgstr ""
+msgstr "Tópicos"
 
 #: cogs/info.py:290
 msgid "Humans"
@@ -2610,7 +2610,7 @@ msgstr "Membro desbanido"
 
 #: cogs/loot.py:97
 msgid "Commands related to loot scanning."
-msgstr ""
+msgstr "Comandos relacionados a escaneamento de loot."
 
 #: cogs/loot.py:109
 msgid "Scans an image of a container looking for Tibia items and shows an approximate loot value."
