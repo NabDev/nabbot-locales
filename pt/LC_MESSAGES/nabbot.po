@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-11 15:06-0700\n"
-"PO-Revision-Date: 2021-08-11 22:07\n"
+"PO-Revision-Date: 2021-08-11 23:06\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -419,12 +419,12 @@ msgstr ""
 #: utils/ui.py:757
 #, python-brace-format
 msgid "Rotation ends {end_time}"
-msgstr ""
+msgstr "Rotação termina {end_time}"
 
 #: utils/ui.py:759
 #, python-brace-format
 msgid "Rotation ended {end_time}"
-msgstr ""
+msgstr "Rotação finalizada {end_time}"
 
 #: utils/ui.py:764
 #, python-brace-format
@@ -434,43 +434,43 @@ msgstr ""
 #: utils/ui.py:827
 #, python-brace-format
 msgid "Rotation {rotation_id}"
-msgstr ""
+msgstr "Rotação {rotation_id}"
 
 #: utils/ui.py:828
 #, python-brace-format
 msgid "End date: {end_date}"
-msgstr ""
+msgstr "Data de término: {end_date}"
 
 #: utils/ui.py:913
 #, python-brace-format
 msgid "{name} - {size}m² - {rent}/month - Rented"
-msgstr ""
+msgstr "{name} - {size}m² - {rent}/mês - Alugada"
 
 #: utils/ui.py:921
 #, python-brace-format
 msgid "{name} - {size}m² - {rent}/month - Highest Bid: {highest_bid} - Ends {ends_in}"
-msgstr ""
+msgstr "{name} - {size}m² - {rent}/mês - Maior Lance: {highest_bid} - Termina {ends_in}"
 
 #: utils/ui.py:926
 #, python-brace-format
 msgid "{name} - {size}m² - {rent}/month - Auction not started"
-msgstr ""
+msgstr "{name} - {size}m² - {rent}/mês - Leilão não iniciado"
 
 #: utils/ui.py:935 utils/ui.py:1070
 msgctxt "House type"
 msgid "Houses"
-msgstr ""
+msgstr "Casas"
 
 #: utils/ui.py:937 utils/ui.py:1072
 msgctxt "House type"
 msgid "Guildhalls"
-msgstr ""
+msgstr "Guildhalls"
 
 #. {house_type} can be Houses/Guildhalls
 #: utils/ui.py:939
 #, python-brace-format
 msgid "{house_type} on {world} in {town}"
-msgstr ""
+msgstr "{house_type} em {world} em {town}"
 
 #: utils/ui.py:1083
 msgid "Any status"
@@ -5089,11 +5089,11 @@ msgstr "Não consegui encontrar uma casa com esse nome."
 
 #: cogs/tibia.py:1021
 msgid "Shows a list of houses or guilds in a specific world and city."
-msgstr ""
+msgstr "Mostra uma lista de casas ou guildhalls em um mundo e cidade específicos."
 
 #: cogs/tibia.py:1027
 msgid "You must specify a world."
-msgstr ""
+msgstr "Você deve especificar um mundo."
 
 #: cogs/tibia.py:1030
 msgid "I couldn't find any houses in this world."
@@ -5101,7 +5101,7 @@ msgstr ""
 
 #: cogs/tibia.py:1033
 msgid "That is not a valid world name."
-msgstr ""
+msgstr "Esse não é um mundo válido."
 
 #: cogs/tibia.py:1041
 msgid "Shows the leaderboard for a specific world."
