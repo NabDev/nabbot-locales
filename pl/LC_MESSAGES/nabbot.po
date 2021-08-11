@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-11 15:06-0700\n"
-"PO-Revision-Date: 2021-08-11 22:07\n"
+"PO-Revision-Date: 2021-08-11 23:06\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -308,7 +308,7 @@ msgstr "Nie"
 
 #: utils/ui.py:106
 msgid "Cancel"
-msgstr ""
+msgstr "Anuluj"
 
 #: utils/ui.py:121 models/context.py:263
 msgid "Alright, choosing cancelled."
@@ -337,7 +337,7 @@ msgstr "Brak pomocy."
 
 #: utils/ui.py:409
 msgid "Other Commands"
-msgstr ""
+msgstr "Inne Komendy"
 
 #: utils/ui.py:457
 #, python-brace-format
@@ -390,15 +390,15 @@ msgstr "Byliśmy na stronie {page} przed tą wiadomością."
 
 #: utils/ui.py:516
 msgid "Go back"
-msgstr ""
+msgstr "Wstecz"
 
 #: utils/ui.py:516
 msgid "Help"
-msgstr ""
+msgstr "Pomoc"
 
 #: utils/ui.py:527
 msgid "Jump to section…"
-msgstr ""
+msgstr "Przejdź do sekcji…"
 
 #. Describes the level and experience in experience highscores entries. Shorter forms preferred
 #: utils/ui.py:573
@@ -444,32 +444,32 @@ msgstr ""
 #: utils/ui.py:750
 #, python-brace-format
 msgid "{rank}. {name} - Drome Level {level}"
-msgstr ""
+msgstr "{rank}. {name} - Poziom Drome {level}"
 
 #: utils/ui.py:757
 #, python-brace-format
 msgid "Rotation ends {end_time}"
-msgstr ""
+msgstr "Rotacja kończy się {end_time}"
 
 #: utils/ui.py:759
 #, python-brace-format
 msgid "Rotation ended {end_time}"
-msgstr ""
+msgstr "Rotacja zakończona {end_time}"
 
 #: utils/ui.py:764
 #, python-brace-format
 msgid "Tibia Drome Leaderboard for {world}"
-msgstr ""
+msgstr "Tablica wyników Tibia Drome dla {world}"
 
 #: utils/ui.py:827
 #, python-brace-format
 msgid "Rotation {rotation_id}"
-msgstr ""
+msgstr "Rotacja {rotation_id}"
 
 #: utils/ui.py:828
 #, python-brace-format
 msgid "End date: {end_date}"
-msgstr ""
+msgstr "Data zakończenia: {end_date}"
 
 #: utils/ui.py:913
 #, python-brace-format
@@ -489,12 +489,12 @@ msgstr ""
 #: utils/ui.py:935 utils/ui.py:1070
 msgctxt "House type"
 msgid "Houses"
-msgstr ""
+msgstr "Domki"
 
 #: utils/ui.py:937 utils/ui.py:1072
 msgctxt "House type"
 msgid "Guildhalls"
-msgstr ""
+msgstr "Guildhalle"
 
 #. {house_type} can be Houses/Guildhalls
 #: utils/ui.py:939
