@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-11 15:06-0700\n"
-"PO-Revision-Date: 2021-08-11 23:06\n"
+"PO-Revision-Date: 2021-08-12 00:15\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -23,11 +23,11 @@ msgstr "Não tenho personagem registrado com esse nome."
 
 #: utils/constants.py:45
 msgid "I couldn't find a character with that name."
-msgstr "Não encontrei nenhum personagem com esse nome."
+msgstr "Não consegui encontrar nenhum personagem com esse nome."
 
 #: utils/constants.py:46
 msgid "I couldn't fetch the character, please try again."
-msgstr "Eu não consegui pesquisar o personagem, por favor, tente novamente."
+msgstr "Não consegui pesquisar o personagem, por favor, tente novamente."
 
 #: utils/constants.py:47
 msgid "I'm having network issues, please try again."
@@ -48,7 +48,7 @@ msgstr "Não vejo nenhum usuário com esse nome."
 #: utils/constants.py:53
 #, python-brace-format
 msgid "I couldn't find any users named `{name}`."
-msgstr "Não encontrei nenhum usuário chamado `{name}`."
+msgstr "Não consegui encontrar nenhum usuário chamado `{name}`."
 
 #: utils/constants.py:54
 msgid "That is not a valid ID."
@@ -429,7 +429,7 @@ msgstr "Rotação finalizada {end_time}"
 #: utils/ui.py:764
 #, python-brace-format
 msgid "Tibia Drome Leaderboard for {world}"
-msgstr ""
+msgstr "Classificação do Tibiadrome para {world}"
 
 #: utils/ui.py:827
 #, python-brace-format
@@ -474,7 +474,7 @@ msgstr "{house_type} em {world} em {town}"
 
 #: utils/ui.py:1083
 msgid "Any status"
-msgstr ""
+msgstr "Qualquer estado"
 
 #. The bot's description, show in about and help commands.
 #: nabbot.py:119
@@ -551,7 +551,7 @@ msgstr "Mostrar usuário nos Anúncios"
 
 #: cogs/admin.py:48
 msgid "I couldn't find that channel, are you sure it exists?"
-msgstr "Não consegui encontrar este canal, você tem certeza que ele existe?"
+msgstr "Não consegui encontrar esse canal, você tem certeza que ele existe?"
 
 #: cogs/admin.py:50
 msgid "yes/no"
@@ -3496,7 +3496,7 @@ msgstr "Enviado em"
 
 #: cogs/premium.py:921 cogs/tibia.py:2296
 msgid "Status"
-msgstr "Situação"
+msgstr "Estado"
 
 #: cogs/premium.py:924
 msgid "Amount"
@@ -5056,7 +5056,7 @@ msgid "If the server is already tracking a world, the tracked world will be used
 "To see the highscores of all worlds, use `global` or `all` as the world parameter.\n"
 "You can use `highscores categories` to see all available categories."
 msgstr "Se o servidor já estiver monitorando um mundo, o mundo monitorado será usado caso nenhum mundo seja especificado.\n"
-"Para ver os ranking de todos os mundos, use `global` ou `all` no lugar do mundo.\n"
+"Para ver os rankings de todos os mundos, use `global` ou `all` no lugar do mundo.\n"
 "Você pode usar `highscores categories` para ver todas as categorias disponíveis."
 
 #: cogs/tibia.py:934
@@ -5097,7 +5097,7 @@ msgstr "Você deve especificar um mundo."
 
 #: cogs/tibia.py:1030
 msgid "I couldn't find any houses in this world."
-msgstr ""
+msgstr "Não consegui encontrar nenhuma casa neste mundo."
 
 #: cogs/tibia.py:1033
 msgid "That is not a valid world name."
@@ -5105,11 +5105,11 @@ msgstr "Esse não é um mundo válido."
 
 #: cogs/tibia.py:1041
 msgid "Shows the leaderboard for a specific world."
-msgstr ""
+msgstr "Mostra a classificação para um mundo específico."
 
 #: cogs/tibia.py:1047
 msgid "I couldn't find any leaderboard entries."
-msgstr ""
+msgstr "Não consegui encontrar nenhum registro de classificação."
 
 #: cogs/tibia.py:1057
 msgid "Shows a character's or everyone's recent level ups."
