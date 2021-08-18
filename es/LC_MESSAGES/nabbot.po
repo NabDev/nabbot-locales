@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-18 15:52-0700\n"
-"PO-Revision-Date: 2021-08-18 22:57\n"
+"PO-Revision-Date: 2021-08-18 23:46\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5978,7 +5978,7 @@ msgstr "Espacios de imbuements"
 #. For items like food
 #: cogs/tibiawiki.py:106
 msgid "Consumable"
-msgstr ""
+msgstr "Consumible"
 
 #: cogs/tibiawiki.py:107
 msgid "Duration"
@@ -6044,19 +6044,19 @@ msgstr "Volumen"
 
 #: cogs/tibiawiki.py:124
 msgid "Walkable"
-msgstr ""
+msgstr "Caminable"
 
 #: cogs/tibiawiki.py:125
 msgid "Blocks Path"
-msgstr ""
+msgstr "Bloquea el camino"
 
 #: cogs/tibiawiki.py:126
 msgid "Blocks Projectiles"
-msgstr ""
+msgstr "Bloquea proyectiles"
 
 #: cogs/tibiawiki.py:127
 msgid "Walking Speed"
-msgstr ""
+msgstr "Velocidad al caminar"
 
 #: cogs/tibiawiki.py:149
 msgid "Defensive"
@@ -6377,15 +6377,15 @@ msgstr "Regeneración más rápida"
 
 #: cogs/tibiawiki.py:858
 msgid "Pickupable"
-msgstr ""
+msgstr "Recogible"
 
 #: cogs/tibiawiki.py:860
 msgid "Stackable"
-msgstr ""
+msgstr "Apilable"
 
 #: cogs/tibiawiki.py:861
 msgid "Marketable"
-msgstr ""
+msgstr "Mercadeable"
 
 #: cogs/tibiawiki.py:862
 msgid "Properties"
@@ -6393,7 +6393,7 @@ msgstr "Propiedades"
 
 #: cogs/tibiawiki.py:862
 msgid "Other Properties"
-msgstr ""
+msgstr "Otras propiedades"
 
 #: cogs/tibiawiki.py:866
 msgid "Used for"
@@ -6401,7 +6401,7 @@ msgstr "Usado para"
 
 #: cogs/tibiawiki.py:884
 msgid "Requirements"
-msgstr ""
+msgstr "Requerimientos"
 
 #: cogs/tibiawiki.py:890 cogs/tibiawiki.py:1352
 msgid "Armor"
@@ -6414,7 +6414,7 @@ msgstr "Ataque"
 
 #: cogs/tibiawiki.py:892
 msgid "Hit%+"
-msgstr ""
+msgstr "Hit%+"
 
 #: cogs/tibiawiki.py:893
 msgid "Range"
@@ -6430,7 +6430,7 @@ msgstr "Modificador de defensa"
 
 #: cogs/tibiawiki.py:896
 msgid "Damage Reflection"
-msgstr ""
+msgstr "Reflejo de daño"
 
 #: cogs/tibiawiki.py:898
 msgid "Damage Type"
@@ -6438,11 +6438,11 @@ msgstr "Tipo de daño"
 
 #: cogs/tibiawiki.py:899
 msgid "Weapon Type"
-msgstr ""
+msgstr "Tipo de arma"
 
 #: cogs/tibiawiki.py:900
 msgid "Mana Cost"
-msgstr ""
+msgstr "Costo de mana"
 
 #. Hands needed for the weapon
 #: cogs/tibiawiki.py:902
@@ -6451,63 +6451,63 @@ msgstr "Manos"
 
 #: cogs/tibiawiki.py:903
 msgid "Cleave"
-msgstr ""
+msgstr "Cleave"
 
 #: cogs/tibiawiki.py:920
 msgid "Perfect Shot"
-msgstr ""
+msgstr "Perfect Shot"
 
 #. Perfect Shot description
 #: cogs/tibiawiki.py:922
 #, python-brace-format
 msgid "{bonus} at range {range}"
-msgstr ""
+msgstr "{bonus} en rango de {range}"
 
 #: cogs/tibiawiki.py:928
 msgid "Magic Shield Capacity"
-msgstr ""
+msgstr "Capacidad de Magic Shield"
 
 #: cogs/tibiawiki.py:931
 msgid "Combat Properties"
-msgstr ""
+msgstr "Propiedades de combate"
 
 #: cogs/tibiawiki.py:955
 msgid "Fist"
-msgstr ""
+msgstr "Fist"
 
 #: cogs/tibiawiki.py:956
 msgid "Distance"
-msgstr ""
+msgstr "Distance"
 
 #: cogs/tibiawiki.py:957
 msgid "Sword"
-msgstr ""
+msgstr "Sword"
 
 #: cogs/tibiawiki.py:958
 msgid "Axe"
-msgstr ""
+msgstr "Axe"
 
 #: cogs/tibiawiki.py:959
 msgid "Club"
-msgstr ""
+msgstr "Club"
 
 #: cogs/tibiawiki.py:976
 msgid "Mana Leech"
-msgstr ""
+msgstr "Mana Leech"
 
 #: cogs/tibiawiki.py:977
 msgid "HP Leech"
-msgstr ""
+msgstr "HP Leech"
 
 #: cogs/tibiawiki.py:978
 msgid "Critical Hit"
-msgstr ""
+msgstr "Golpe crítico"
 
 #. Used to describe mana leech, hp leech and critical hit attributes
 #: cogs/tibiawiki.py:988
 #, python-brace-format
 msgid "{percentage} with {chance} chance"
-msgstr ""
+msgstr "{percentage} con {chance} de probabilidad"
 
 #: cogs/tibiawiki.py:1044
 msgid "Resistances"
@@ -6537,7 +6537,7 @@ msgstr "su barco"
 
 #: cogs/tibiawiki.py:1131
 msgid "Sold in the Tibia Store"
-msgstr ""
+msgstr "Vendido en la Tibia Store"
 
 #. Title of the list of NPCs that buy/sell (action) the item.
 #: cogs/tibiawiki.py:1163
