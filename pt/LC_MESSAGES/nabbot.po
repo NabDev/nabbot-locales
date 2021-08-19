@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-18 15:52-0700\n"
-"PO-Revision-Date: 2021-08-19 15:05\n"
+"PO-Revision-Date: 2021-08-19 16:11\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -6381,7 +6381,7 @@ msgstr "Agrupável"
 
 #: cogs/tibiawiki.py:861
 msgid "Marketable"
-msgstr ""
+msgstr "Comercializável no Market"
 
 #: cogs/tibiawiki.py:862
 msgid "Properties"
@@ -6503,7 +6503,7 @@ msgstr ""
 #: cogs/tibiawiki.py:988
 #, python-brace-format
 msgid "{percentage} with {chance} chance"
-msgstr ""
+msgstr "{percentage} com {chance} de chance"
 
 #: cogs/tibiawiki.py:1044
 msgid "Resistances"
