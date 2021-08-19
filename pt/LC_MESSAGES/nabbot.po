@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-18 15:52-0700\n"
-"PO-Revision-Date: 2021-08-19 17:12\n"
+"PO-Revision-Date: 2021-08-19 18:13\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -6451,7 +6451,7 @@ msgstr "Cleave"
 
 #: cogs/tibiawiki.py:920
 msgid "Perfect Shot"
-msgstr ""
+msgstr "Perfect Shot"
 
 #. Perfect Shot description
 #: cogs/tibiawiki.py:922
