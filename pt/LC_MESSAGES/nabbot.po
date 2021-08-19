@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-18 15:52-0700\n"
-"PO-Revision-Date: 2021-08-19 16:11\n"
+"PO-Revision-Date: 2021-08-19 17:12\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -6426,7 +6426,7 @@ msgstr "Modificador de Defesa"
 
 #: cogs/tibiawiki.py:896
 msgid "Damage Reflection"
-msgstr ""
+msgstr "Reflexão de Dano"
 
 #: cogs/tibiawiki.py:898
 msgid "Damage Type"
@@ -6447,7 +6447,7 @@ msgstr "Mãos"
 
 #: cogs/tibiawiki.py:903
 msgid "Cleave"
-msgstr ""
+msgstr "Cleave"
 
 #: cogs/tibiawiki.py:920
 msgid "Perfect Shot"
@@ -6457,11 +6457,11 @@ msgstr ""
 #: cogs/tibiawiki.py:922
 #, python-brace-format
 msgid "{bonus} at range {range}"
-msgstr ""
+msgstr "{bonus} a uma distância de {range}"
 
 #: cogs/tibiawiki.py:928
 msgid "Magic Shield Capacity"
-msgstr ""
+msgstr "Capacidade do Magic Shield"
 
 #: cogs/tibiawiki.py:931
 msgid "Combat Properties"
@@ -6497,7 +6497,7 @@ msgstr "HP Leech"
 
 #: cogs/tibiawiki.py:978
 msgid "Critical Hit"
-msgstr ""
+msgstr "Dano Crítico"
 
 #. Used to describe mana leech, hp leech and critical hit attributes
 #: cogs/tibiawiki.py:988
