@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-09 13:30-0700\n"
-"PO-Revision-Date: 2021-09-09 20:32\n"
+"PO-Revision-Date: 2021-09-09 22:37\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -6081,7 +6081,7 @@ msgstr "gold"
 
 #: cogs/tibiawiki.py:173
 msgid "Show full content"
-msgstr ""
+msgstr "Mostrar contenido completo"
 
 #: cogs/tibiawiki.py:183
 msgid "Commands that show information about Tibia, provided by TibiaWiki.\n\n"
@@ -6145,15 +6145,15 @@ msgstr "Criaturas en la clase {name}"
 
 #: cogs/tibiawiki.py:274
 msgid "Displays information about a book and a snippet of its content."
-msgstr ""
+msgstr "Muestra información sobre un libro y un fragmento de su contenido."
 
 #: cogs/tibiawiki.py:281
 msgid "I couldn't find a book with that name."
-msgstr ""
+msgstr "No pude encontrar un libro con ese nombre."
 
 #: cogs/tibiawiki.py:300
 msgid "Searches in the book content of all known books in the game."
-msgstr ""
+msgstr "Busca en el contenido de todos los libros conocidos en el juego."
 
 #: cogs/tibiawiki.py:306 cogs/tibiawiki.py:440
 msgid "I couldn't find any related keys."
@@ -6161,7 +6161,7 @@ msgstr "No pude encontrar ninguna llave relacionada."
 
 #: cogs/tibiawiki.py:316 cogs/tibiawiki.py:317
 msgid "Possible books"
-msgstr ""
+msgstr "Libros posibles"
 
 #: cogs/tibiawiki.py:328
 msgid "Displays information about a charm."
@@ -6300,23 +6300,23 @@ msgstr "Implementado en la versión {version}"
 
 #: cogs/tibiawiki.py:755
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: cogs/tibiawiki.py:757
 msgid "Previous book"
-msgstr ""
+msgstr "Libro anterior"
 
 #: cogs/tibiawiki.py:759
 msgid "Next book"
-msgstr ""
+msgstr "Siguiente libro"
 
 #: cogs/tibiawiki.py:768
 msgid "Content Preview"
-msgstr ""
+msgstr "Vista previa de contenido"
 
 #: cogs/tibiawiki.py:775
 msgid "Content"
-msgstr ""
+msgstr "Contenido"
 
 #: cogs/tibiawiki.py:789
 #, python-brace-format
@@ -6742,7 +6742,7 @@ msgstr "Cooldown de grupo"
 
 #: cogs/tibiawiki.py:1624
 msgid "Magic Type"
-msgstr ""
+msgstr "Tipo mágico"
 
 #: cogs/tibiawiki.py:1628
 msgid "2nd Group Cooldown"
