@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-08 15:48-0700\n"
-"PO-Revision-Date: 2021-09-08 22:51\n"
+"PO-Revision-Date: 2021-09-09 02:13\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -478,7 +478,7 @@ msgstr "Qualquer estado"
 
 #: utils/ui.py:1110
 msgid "Registering…"
-msgstr ""
+msgstr "Registrando…"
 
 #. The bot's description, show in about and help commands.
 #: nabbot.py:119
@@ -1750,7 +1750,7 @@ msgstr "Estou tendo problemas de rede agora. Por favor, tente novamente daqui a 
 #: cogs/core.py:430
 #, python-brace-format
 msgid "You have too many registered characters ({count}/{limit})."
-msgstr ""
+msgstr "Você tem muitos personagens registrados ({count}/{limit})."
 
 #: cogs/core.py:436
 msgid "Sorry, the message was too long to send."
@@ -7850,7 +7850,8 @@ msgstr "Permite que você adicione o(s) seu(s) personagem(ns) para que o bot os 
 #: cogs/tracking.py:939
 msgid "Characters in other worlds other than the currently tracked world are skipped.\n"
 "If it finds a character owned by another user, the whole process will be stopped.\n"
-msgstr ""
+msgstr "Personagens de outros mundos que não o mundo atualmente monitorado são ignorados.\n"
+"Se um personagem de outro usuário for encontrado, todo o processo será interrompido.\n"
 
 #: cogs/tracking.py:961
 #, python-brace-format
@@ -7859,30 +7860,30 @@ msgstr "Desculpe, não consegui encontrar nenhum personagem do(s) mundo(s) deste
 
 #: cogs/tracking.py:965
 msgid "One or more characters in this account are already registed to a different Discord user:"
-msgstr ""
+msgstr "Um ou mais personagens dessa conta já estão registrados a um outro usuário do Discord:"
 
 #: cogs/tracking.py:967
 msgid "If the character really belongs to you, copy the following code (including slashes) into the character's comment section in Tibia.com:"
-msgstr ""
+msgstr "Se o personagem realmente pertence a você, copie o seguinte código (incluindo as barras) na seção de comentários do personagem no Tibia.com:"
 
 #: cogs/tracking.py:969
 msgid "Note that it might take a couple minutes for the change to be detected."
-msgstr ""
+msgstr "Note que pode levar alguns minutos para que a alteração seja detectada."
 
 #: cogs/tracking.py:982
 msgid "Select the characters you want to register:"
-msgstr ""
+msgstr "Selecione os personagens que você deseja registrar:"
 
 #: cogs/tracking.py:985
 #, python-brace-format
 msgid "You may only select up to {limit} character."
 msgid_plural "You may only select up to {limit} characters."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Você só pode selecionar até {limit} personagem."
+msgstr[1] "Você só pode selecionar até {limit} personagens."
 
 #: cogs/tracking.py:991
 msgid "There are no characters to register, the following are already registered to you:"
-msgstr ""
+msgstr "Não há personagens para registrar, os seguintes já estão registrados:"
 
 #: cogs/tracking.py:1015
 msgid "Removes a character assigned to you."
@@ -8554,15 +8555,15 @@ msgstr "{summon} de {player}"
 
 #: cogs/tracking.py:2331
 msgid "The following characters were already registered to you"
-msgstr ""
+msgstr "Os seguintes personagens já estavam registrados a você"
 
 #: cogs/tracking.py:2337
 msgid "The following characters were added to you"
-msgstr ""
+msgstr "Os seguintes personagens foram adicionados a você"
 
 #: cogs/tracking.py:2342
 msgid "The following characters were reassigned to you"
-msgstr ""
+msgstr "Os seguintes personagens foram reatribuídos a você"
 
 #: cogs/tracking.py:2347
 msgid "The following characters were reclaimed by you"
