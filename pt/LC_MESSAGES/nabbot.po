@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 17:39-0700\n"
-"PO-Revision-Date: 2021-10-06 00:41\n"
+"PO-Revision-Date: 2021-10-06 03:04\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -3943,7 +3943,7 @@ msgstr "Usuário Desconhecido"
 
 #: cogs/respawn.py:824
 msgid "PENDING"
-msgstr ""
+msgstr "PENDENTE"
 
 #: cogs/roles.py:36
 msgid "Commands related to role management."
@@ -6622,11 +6622,11 @@ msgstr "kills"
 
 #: cogs/tibiawiki.py:1436
 msgid "Max Damage"
-msgstr ""
+msgstr "Dano Máx."
 
 #: cogs/tibiawiki.py:1437
 msgid "Summons Damage"
-msgstr ""
+msgstr "Dano dos Summons"
 
 #: cogs/tibiawiki.py:1463
 msgid "Elemental Modifiers"
