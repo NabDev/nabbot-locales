@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 17:39-0700\n"
-"PO-Revision-Date: 2021-11-14 18:06\n"
+"PO-Revision-Date: 2021-11-14 19:10\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -7956,24 +7956,24 @@ msgstr "Jeśli postać naprawdę należy do Ciebie, skopiuj następujący kod (w
 
 #: cogs/tracking.py:969
 msgid "Note that it might take a couple minutes for the change to be detected."
-msgstr ""
+msgstr "Pamiętaj, że wykrycie zmiany może zająć kilka minut."
 
 #: cogs/tracking.py:982
 msgid "Select the characters you want to register:"
-msgstr ""
+msgstr "Wybierz postacie, które chcesz zarejestrować:"
 
 #: cogs/tracking.py:985
 #, python-brace-format
 msgid "You may only select up to {limit} character."
 msgid_plural "You may only select up to {limit} characters."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Możesz wybrać maksymalnie {limit} postać."
+msgstr[1] "Możesz wybrać maksymalnie {limit} postacie."
+msgstr[2] "Możesz wybrać maksymalnie {limit} postaci."
+msgstr[3] "Możesz wybrać maksymalnie {limit} postaci."
 
 #: cogs/tracking.py:991
 msgid "There are no characters to register, the following are already registered to you:"
-msgstr ""
+msgstr "Nie ma postaci do rejestracji, następujące postacie są już dla Ciebie zarejestrowane:"
 
 #: cogs/tracking.py:1015
 msgid "Removes a character assigned to you."
