@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-05 17:39-0700\n"
+"POT-Creation-Date: 2022-01-04 11:19-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1581,7 +1581,7 @@ msgstr ""
 msgid "A level **{level}** {vocation}, has:"
 msgstr ""
 
-#: cogs/calculators.py:551 cogs/tibiawiki.py:1496
+#: cogs/calculators.py:551 cogs/tibiawiki.py:1497
 msgctxt "Hitpoints"
 msgid "HP"
 msgstr ""
@@ -1595,7 +1595,7 @@ msgstr ""
 msgid "Capacity"
 msgstr ""
 
-#: cogs/calculators.py:556 cogs/tibiawiki.py:1497
+#: cogs/calculators.py:556 cogs/tibiawiki.py:1498
 msgid "Experience"
 msgstr ""
 
@@ -2220,7 +2220,7 @@ msgstr ""
 msgid "That is not a valid id."
 msgstr ""
 
-#: cogs/info.py:273 cogs/tibia.py:2308
+#: cogs/info.py:273 cogs/tibia.py:2309
 msgid "Owner"
 msgstr ""
 
@@ -2262,7 +2262,7 @@ msgstr ""
 
 #: cogs/info.py:305 cogs/logging.py:125 cogs/logging.py:159 cogs/logging.py:209
 #: cogs/tibia.py:2187 cogs/tibiawiki.py:104 cogs/tibiawiki.py:995
-#: cogs/tibiawiki.py:1641 cogs/timers.py:1936
+#: cogs/tibiawiki.py:1642 cogs/timers.py:1936
 msgid "Level"
 msgstr ""
 
@@ -2480,7 +2480,7 @@ msgstr ""
 msgid "Role limited"
 msgstr ""
 
-#: cogs/info.py:483 cogs/tibiawiki.py:1483
+#: cogs/info.py:483 cogs/tibiawiki.py:1484
 msgid "Attributes"
 msgstr ""
 
@@ -2496,7 +2496,7 @@ msgstr ""
 msgid "Expires {in_time}"
 msgstr ""
 
-#: cogs/info.py:519 cogs/premium.py:612 cogs/tibiawiki.py:1661
+#: cogs/info.py:519 cogs/premium.py:612 cogs/tibiawiki.py:1662
 msgid "Premium"
 msgstr ""
 
@@ -3485,7 +3485,7 @@ msgstr ""
 msgid "Submitted on"
 msgstr ""
 
-#: cogs/premium.py:921 cogs/tibia.py:2302
+#: cogs/premium.py:921 cogs/tibia.py:2303
 msgid "Status"
 msgstr ""
 
@@ -4527,7 +4527,7 @@ msgstr ""
 msgid "Loyalty Points"
 msgstr ""
 
-#: cogs/tibia.py:162 cogs/tibiawiki.py:996 cogs/tibiawiki.py:1070
+#: cogs/tibia.py:162 cogs/tibiawiki.py:996 cogs/tibiawiki.py:1071
 msgid "Magic Level"
 msgstr ""
 
@@ -4539,7 +4539,7 @@ msgstr ""
 msgid "Magic Level (paladins)"
 msgstr ""
 
-#: cogs/tibia.py:165 cogs/tibiawiki.py:1083
+#: cogs/tibia.py:165 cogs/tibiawiki.py:1084
 msgid "Shielding"
 msgstr ""
 
@@ -5128,7 +5128,7 @@ msgstr ""
 msgid "There are not registered level ups by this user."
 msgstr ""
 
-#: cogs/tibia.py:1111 cogs/tibia.py:2437
+#: cogs/tibia.py:1111 cogs/tibia.py:2438
 #, python-brace-format
 msgid "{name} latest level ups"
 msgstr ""
@@ -5330,7 +5330,7 @@ msgstr ""
 msgid "Shows a user's recent level ups and deaths on their characters."
 msgstr ""
 
-#: cogs/tibia.py:1417 cogs/tibia.py:2482
+#: cogs/tibia.py:1417 cogs/tibia.py:2483
 #, python-brace-format
 msgid "{name} timeline"
 msgstr ""
@@ -5620,7 +5620,7 @@ msgstr ""
 msgid "Auction Start"
 msgstr ""
 
-#: cogs/tibia.py:2046 cogs/tibia.py:2325
+#: cogs/tibia.py:2046 cogs/tibia.py:2326
 msgid "Auction End"
 msgstr ""
 
@@ -5758,100 +5758,100 @@ msgid "{name}{online_icon} (Lvl {level} {voc})"
 msgstr ""
 
 #. Indicates that the list was cut short and there are still more entries. (e.g. and 4 more). Don't add "and"
-#: cogs/tibia.py:2251 cogs/tracking.py:2232
+#: cogs/tibia.py:2252 cogs/tracking.py:2232
 #, python-format
 msgid "%d more"
 msgid_plural "%d more"
 msgstr[0] ""
 msgstr[1] ""
 
-#: cogs/tibia.py:2253
+#: cogs/tibia.py:2254
 #, python-brace-format
 msgid "**{user}**'s character is: {character_list}"
 msgid_plural "**{user}**'s characters are: {character_list}"
 msgstr[0] ""
 msgstr[1] ""
 
-#: cogs/tibia.py:2262
+#: cogs/tibia.py:2263
 msgid "The valid categories are:"
 msgstr ""
 
-#: cogs/tibia.py:2267
+#: cogs/tibia.py:2268
 msgid "The valid vocation filters are:"
 msgstr ""
 
-#: cogs/tibia.py:2280
+#: cogs/tibia.py:2281
 msgid "{rent:,} gold per month"
 msgstr ""
 
-#: cogs/tibia.py:2282 cogs/tibiawiki.py:799
+#: cogs/tibia.py:2283 cogs/tibiawiki.py:799
 msgid "Type"
 msgstr ""
 
-#: cogs/tibia.py:2282
+#: cogs/tibia.py:2283
 msgctxt "House type"
 msgid "House"
 msgstr ""
 
-#: cogs/tibia.py:2282
+#: cogs/tibia.py:2283
 msgctxt "House type"
 msgid "Guildhall"
 msgstr ""
 
-#: cogs/tibia.py:2283
+#: cogs/tibia.py:2284
 msgid "Bed Limit"
 msgstr ""
 
-#: cogs/tibia.py:2284
+#: cogs/tibia.py:2285
 msgid "Size"
 msgstr ""
 
-#: cogs/tibia.py:2285 cogs/tibiawiki.py:1549
+#: cogs/tibia.py:2286 cogs/tibiawiki.py:1550
 msgid "City"
 msgstr ""
 
-#: cogs/tibia.py:2286
+#: cogs/tibia.py:2287
 msgid "Rent"
 msgstr ""
 
-#: cogs/tibia.py:2288 cogs/tibiawiki.py:761 cogs/tibiawiki.py:1562
+#: cogs/tibia.py:2289 cogs/tibiawiki.py:761 cogs/tibiawiki.py:1563
 msgid "Information"
 msgstr ""
 
-#: cogs/tibia.py:2295
+#: cogs/tibia.py:2296
 msgid "TibiaWiki article"
 msgstr ""
 
-#: cogs/tibia.py:2309
+#: cogs/tibia.py:2310
 msgid "Paid Until"
 msgstr ""
 
-#: cogs/tibia.py:2313
+#: cogs/tibia.py:2314
 msgid "Moving out on"
 msgstr ""
 
-#: cogs/tibia.py:2317
+#: cogs/tibia.py:2318
 msgid "Transferring to"
 msgstr ""
 
-#: cogs/tibia.py:2318
+#: cogs/tibia.py:2319
 msgid "Transfer Price"
 msgstr ""
 
-#: cogs/tibia.py:2319
+#: cogs/tibia.py:2320
 msgid "Accepted"
 msgstr ""
 
-#: cogs/tibia.py:2323
+#: cogs/tibia.py:2324
 msgid "Highest Bid"
 msgstr ""
 
-#: cogs/tibia.py:2324
+#: cogs/tibia.py:2325
 msgid "Highest Bidder"
 msgstr ""
 
 #. The world where the house is in
-#: cogs/tibia.py:2328
+#: cogs/tibia.py:2329
 #, python-brace-format
 msgid "In {world}"
 msgstr ""
@@ -5859,56 +5859,56 @@ msgstr ""
 #. Entry for character deaths
 #. Level up entry for levels command
 #. Level up entry for timeline command for a specific character
-#: cogs/tibia.py:2356 cogs/tibia.py:2389 cogs/tibia.py:2489
+#: cogs/tibia.py:2357 cogs/tibia.py:2390 cogs/tibia.py:2490
 #, python-brace-format
 msgid "At level **{level}** by {killer} - *{time}*"
 msgstr ""
 
-#: cogs/tibia.py:2381
+#: cogs/tibia.py:2382
 #, python-brace-format
 msgid "{name} latest deaths"
 msgstr ""
 
 #. Entries for recent deaths
-#: cogs/tibia.py:2414
+#: cogs/tibia.py:2415
 #, python-brace-format
 msgid "{name} (**@{user}**) - At level **{level}** by {killer} - {time}"
 msgstr ""
 
 #. Entry for levels command, for a specific character
 #. Death entry for timeline command for a specific character
-#: cogs/tibia.py:2441 cogs/tibia.py:2495
+#: cogs/tibia.py:2442 cogs/tibia.py:2496
 #, python-brace-format
 msgid "Level **{level}** - *{time}*"
 msgstr ""
 
-#: cogs/tibia.py:2448
+#: cogs/tibia.py:2449
 msgid "Latest level ups"
 msgstr ""
 
 #. Lines in levels command
-#: cogs/tibia.py:2460
+#: cogs/tibia.py:2461
 #, python-brace-format
 msgid "{name} - Level **{level}** - **@{user}** - *{time}*"
 msgstr ""
 
-#: cogs/tibia.py:2503
+#: cogs/tibia.py:2504
 msgid "Timeline"
 msgstr ""
 
 #. Death entry for timeline command
-#: cogs/tibia.py:2522
+#: cogs/tibia.py:2523
 #, python-brace-format
 msgid "{name} (**@{user}**) - At level **{level}** by {killer} - *{time}*"
 msgstr ""
 
 #. Level up entry for timeline command
-#: cogs/tibia.py:2528
+#: cogs/tibia.py:2529
 #, python-brace-format
 msgid "{name} (**@{user}**) - Level **{level}** - *{time}*"
 msgstr ""
 
-#: cogs/tibia.py:2672
+#: cogs/tibia.py:2673
 #, python-format
 msgid "**%d** day"
 msgid_plural "**%d** days"
@@ -5916,24 +5916,24 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. Last time the boss was seen
-#: cogs/tibia.py:2675
+#: cogs/tibia.py:2676
 #, python-brace-format
 msgid "Last seen {time} ago"
 msgstr ""
 
 #. Time to expect the boss to show up again
-#: cogs/tibia.py:2678
+#: cogs/tibia.py:2679
 #, python-brace-format
 msgid "Expect in {time}"
 msgstr ""
 
 #. Parameter validation for highscores command
-#: cogs/tibia.py:2709
+#: cogs/tibia.py:2710
 msgid "Invalid category or world."
 msgstr ""
 
 #. Parameter validation for highscores command
-#: cogs/tibia.py:2718
+#: cogs/tibia.py:2719
 msgid "Invalid vocation filter."
 msgstr ""
 
@@ -5998,7 +5998,7 @@ msgstr ""
 msgid "Regeneration"
 msgstr ""
 
-#: cogs/tibiawiki.py:121 cogs/tibiawiki.py:1498
+#: cogs/tibiawiki.py:121 cogs/tibiawiki.py:1499
 msgid "Speed"
 msgstr ""
 
@@ -6412,11 +6412,11 @@ msgstr ""
 msgid "Requirements"
 msgstr ""
 
-#: cogs/tibiawiki.py:1013 cogs/tibiawiki.py:1501
+#: cogs/tibiawiki.py:1013 cogs/tibiawiki.py:1502
 msgid "Armor"
 msgstr ""
 
-#: cogs/tibiawiki.py:1014 cogs/tibiawiki.py:1137 cogs/tibiawiki.py:1141
+#: cogs/tibiawiki.py:1014 cogs/tibiawiki.py:1138 cogs/tibiawiki.py:1142
 msgid "Attack"
 msgstr ""
 
@@ -6461,288 +6461,292 @@ msgstr ""
 msgid "Cleave"
 msgstr ""
 
-#: cogs/tibiawiki.py:1043
+#: cogs/tibiawiki.py:1027
+msgid "Upgrade Classification"
+msgstr ""
+
+#: cogs/tibiawiki.py:1044
 msgid "Perfect Shot"
 msgstr ""
 
 #. Perfect Shot description
-#: cogs/tibiawiki.py:1045
+#: cogs/tibiawiki.py:1046
 #, python-brace-format
 msgid "{bonus} at range {range}"
 msgstr ""
 
-#: cogs/tibiawiki.py:1051
+#: cogs/tibiawiki.py:1052
 msgid "Magic Shield Capacity"
 msgstr ""
 
-#: cogs/tibiawiki.py:1054
+#: cogs/tibiawiki.py:1055
 msgid "Combat Properties"
 msgstr ""
 
-#: cogs/tibiawiki.py:1078
+#: cogs/tibiawiki.py:1079
 msgid "Fist"
 msgstr ""
 
-#: cogs/tibiawiki.py:1079
+#: cogs/tibiawiki.py:1080
 msgid "Distance"
 msgstr ""
 
-#: cogs/tibiawiki.py:1080
+#: cogs/tibiawiki.py:1081
 msgid "Sword"
 msgstr ""
 
-#: cogs/tibiawiki.py:1081
+#: cogs/tibiawiki.py:1082
 msgid "Axe"
 msgstr ""
 
-#: cogs/tibiawiki.py:1082
+#: cogs/tibiawiki.py:1083
 msgid "Club"
 msgstr ""
 
-#: cogs/tibiawiki.py:1099
+#: cogs/tibiawiki.py:1100
 msgid "Mana Leech"
 msgstr ""
 
-#: cogs/tibiawiki.py:1100
+#: cogs/tibiawiki.py:1101
 msgid "HP Leech"
 msgstr ""
 
-#: cogs/tibiawiki.py:1101
+#: cogs/tibiawiki.py:1102
 msgid "Critical Hit"
 msgstr ""
 
 #. Used to describe mana leech, hp leech and critical hit attributes
-#: cogs/tibiawiki.py:1111
+#: cogs/tibiawiki.py:1112
 #, python-brace-format
 msgid "{percentage} with {chance} chance"
 msgstr ""
 
-#: cogs/tibiawiki.py:1167
+#: cogs/tibiawiki.py:1168
 msgid "Resistances"
 msgstr ""
 
-#: cogs/tibiawiki.py:1195
+#: cogs/tibiawiki.py:1196
 msgid "Dropped By"
 msgstr ""
 
 #. Quests that give this item as reward
-#: cogs/tibiawiki.py:1210
+#: cogs/tibiawiki.py:1211
 msgid "Awarded in"
 msgstr ""
 
-#: cogs/tibiawiki.py:1230
+#: cogs/tibiawiki.py:1231
 msgid "Green Djinn's Fortress"
 msgstr ""
 
-#: cogs/tibiawiki.py:1233
+#: cogs/tibiawiki.py:1234
 msgid "Blue Djinn's Fortress"
 msgstr ""
 
 #. Yasir's location
-#: cogs/tibiawiki.py:1239
+#: cogs/tibiawiki.py:1240
 msgid "his boat"
 msgstr ""
 
-#: cogs/tibiawiki.py:1254
+#: cogs/tibiawiki.py:1255
 msgid "Sold in the Tibia Store"
 msgstr ""
 
 #. Title of the list of NPCs that buy/sell (action) the item.
-#: cogs/tibiawiki.py:1286
+#: cogs/tibiawiki.py:1287
 msgid "{action} {value:,} {currency} by"
 msgstr ""
 
-#: cogs/tibiawiki.py:1313
+#: cogs/tibiawiki.py:1314
 msgid "Through: "
 msgstr ""
 
-#: cogs/tibiawiki.py:1314
+#: cogs/tibiawiki.py:1315
 msgid "Around: "
 msgstr ""
 
 #. Fields the monster walks through or around
-#: cogs/tibiawiki.py:1317
+#: cogs/tibiawiki.py:1318
 msgid "Field Walking"
 msgstr ""
 
-#: cogs/tibiawiki.py:1359
+#: cogs/tibiawiki.py:1360
 msgid "Loot"
 msgstr ""
 
-#: cogs/tibiawiki.py:1399 cogs/tibiawiki.py:1419
+#: cogs/tibiawiki.py:1400 cogs/tibiawiki.py:1420
 msgid "Bestiary Class"
 msgstr ""
 
 #. Charm points
-#: cogs/tibiawiki.py:1413
+#: cogs/tibiawiki.py:1414
 msgid "point"
 msgid_plural "points"
 msgstr[0] ""
 msgstr[1] ""
 
 #. Kills to complete bestiary
-#: cogs/tibiawiki.py:1415
+#: cogs/tibiawiki.py:1416
 msgid "kills"
 msgstr ""
 
-#: cogs/tibiawiki.py:1436
+#: cogs/tibiawiki.py:1437
 msgid "Max Damage"
 msgstr ""
 
-#: cogs/tibiawiki.py:1437
+#: cogs/tibiawiki.py:1438
 msgid "Summons Damage"
 msgstr ""
 
-#: cogs/tibiawiki.py:1463
+#: cogs/tibiawiki.py:1464
 msgid "Elemental Modifiers"
 msgstr ""
 
-#: cogs/tibiawiki.py:1473
+#: cogs/tibiawiki.py:1474
 msgid "Summonable"
 msgstr ""
 
-#: cogs/tibiawiki.py:1474
+#: cogs/tibiawiki.py:1475
 msgid "Convinceable"
 msgstr ""
 
-#: cogs/tibiawiki.py:1475
+#: cogs/tibiawiki.py:1476
 msgid "Illusionable"
 msgstr ""
 
-#: cogs/tibiawiki.py:1476
+#: cogs/tibiawiki.py:1477
 msgid "Pushable"
 msgstr ""
 
-#: cogs/tibiawiki.py:1477
+#: cogs/tibiawiki.py:1478
 msgid "Pushes Objects"
 msgstr ""
 
-#: cogs/tibiawiki.py:1478
+#: cogs/tibiawiki.py:1479
 msgid "Paralysable"
 msgstr ""
 
-#: cogs/tibiawiki.py:1479
+#: cogs/tibiawiki.py:1480
 msgid "Sees Invisible"
 msgstr ""
 
-#: cogs/tibiawiki.py:1483
+#: cogs/tibiawiki.py:1484
 msgctxt "Attributes"
 msgid "Unknown"
 msgstr ""
 
-#: cogs/tibiawiki.py:1510 cogs/tibiawiki.py:1643
+#: cogs/tibiawiki.py:1511 cogs/tibiawiki.py:1644
 msgid "Price"
 msgstr ""
 
-#: cogs/tibiawiki.py:1512
+#: cogs/tibiawiki.py:1513
 msgid "Achievement"
 msgstr ""
 
-#: cogs/tibiawiki.py:1513
+#: cogs/tibiawiki.py:1514
 msgid "Taming Method"
 msgstr ""
 
-#: cogs/tibiawiki.py:1521
+#: cogs/tibiawiki.py:1522
 msgid "Selling"
 msgstr ""
 
-#: cogs/tibiawiki.py:1522
+#: cogs/tibiawiki.py:1523
 msgid "Buying"
 msgstr ""
 
-#: cogs/tibiawiki.py:1527
+#: cogs/tibiawiki.py:1528
 msgid "Destinations"
 msgstr ""
 
-#: cogs/tibiawiki.py:1550
+#: cogs/tibiawiki.py:1551
 msgid "Job"
 msgstr ""
 
-#: cogs/tibiawiki.py:1553
+#: cogs/tibiawiki.py:1554
 msgid "Race"
 msgstr ""
 
-#: cogs/tibiawiki.py:1555
+#: cogs/tibiawiki.py:1556
 msgid "Male"
 msgstr ""
 
-#: cogs/tibiawiki.py:1556
+#: cogs/tibiawiki.py:1557
 msgid "Female"
 msgstr ""
 
-#: cogs/tibiawiki.py:1557
+#: cogs/tibiawiki.py:1558
 msgctxt "Gender"
 msgid "Unknown"
 msgstr ""
 
-#: cogs/tibiawiki.py:1560
+#: cogs/tibiawiki.py:1561
 msgid "Gender"
 msgstr ""
 
 #. Title for the list of spells the NPC teaches to a vocation
-#: cogs/tibiawiki.py:1616
+#: cogs/tibiawiki.py:1617
 #, python-brace-format
 msgid "Teaches ({voc}s)"
 msgstr ""
 
-#: cogs/tibiawiki.py:1622
+#: cogs/tibiawiki.py:1623
 msgid "…and {count:,} other"
 msgid_plural "…and {count:,} others"
 msgstr[0] ""
 msgstr[1] ""
 
-#: cogs/tibiawiki.py:1637
+#: cogs/tibiawiki.py:1638
 msgctxt "Spell with variable mana"
 msgid "Variable"
 msgstr ""
 
-#: cogs/tibiawiki.py:1642
+#: cogs/tibiawiki.py:1643
 msgid "Mana"
 msgstr ""
 
-#: cogs/tibiawiki.py:1643
+#: cogs/tibiawiki.py:1644
 msgctxt "price"
 msgid "Free"
 msgstr ""
 
-#: cogs/tibiawiki.py:1644
+#: cogs/tibiawiki.py:1645
 msgid "Cooldown"
 msgstr ""
 
-#: cogs/tibiawiki.py:1645
+#: cogs/tibiawiki.py:1646
 msgid "Group Cooldown"
 msgstr ""
 
-#: cogs/tibiawiki.py:1649
+#: cogs/tibiawiki.py:1650
 msgid "Magic Type"
 msgstr ""
 
-#: cogs/tibiawiki.py:1653
+#: cogs/tibiawiki.py:1654
 msgid "2nd Group Cooldown"
 msgstr ""
 
-#: cogs/tibiawiki.py:1658
+#: cogs/tibiawiki.py:1659
 msgid "Rune Group"
 msgstr ""
 
 #. Whether a vocation promotion is required for the spell
-#: cogs/tibiawiki.py:1663
+#: cogs/tibiawiki.py:1664
 msgid "Vocations"
 msgstr ""
 
-#: cogs/tibiawiki.py:1663
+#: cogs/tibiawiki.py:1664
 msgctxt "vocations that can use spell"
 msgid "Any"
 msgstr ""
 
 #. Title for the list of NPCs that teach this spell for a specific vocation
-#: cogs/tibiawiki.py:1716
+#: cogs/tibiawiki.py:1717
 #, python-brace-format
 msgid "Taught by ({voc})"
 msgstr ""
 
 #. Title for the list of NPCs that teach this spell for any vocation
-#: cogs/tibiawiki.py:1719
+#: cogs/tibiawiki.py:1720
 msgid "Taught by"
 msgstr ""
 
