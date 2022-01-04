@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 17:39-0700\n"
-"PO-Revision-Date: 2021-10-06 00:41\n"
+"PO-Revision-Date: 2021-11-14 19:10\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -296,7 +296,7 @@ msgstr "chwilę"
 #: utils/ui.py:35
 #, python-brace-format
 msgid "Only {user} may interact. Use this command yourself to interact."
-msgstr ""
+msgstr "Tylko {user} może wchodzić w interakcje. Użyj tej komendy samodzielnie, aby wejść w interakcję."
 
 #: utils/ui.py:81 cogs/admin.py:93 cogs/tibia.py:2205
 msgid "Yes"
@@ -474,17 +474,17 @@ msgstr "Data zakończenia: {end_date}"
 #: utils/ui.py:914
 #, python-brace-format
 msgid "{name} - {size}m² - {rent}/month - Rented"
-msgstr ""
+msgstr "{name} - {size}m² - {rent}/miesiąc - Wynajęty"
 
 #: utils/ui.py:922
 #, python-brace-format
 msgid "{name} - {size}m² - {rent}/month - Highest Bid: {highest_bid} - Ends {ends_in}"
-msgstr ""
+msgstr "{name} - {size}m² - {rent}/miesiąc - Najwyższa oferta: {highest_bid} - Kończy się {ends_in}"
 
 #: utils/ui.py:927
 #, python-brace-format
 msgid "{name} - {size}m² - {rent}/month - Auction not started"
-msgstr ""
+msgstr "{name} - {size}m² - {rent}/miesiąc - Aukcja nie rozpoczęta"
 
 #: utils/ui.py:936 utils/ui.py:1071
 msgctxt "House type"
@@ -500,15 +500,15 @@ msgstr "Guildhalle"
 #: utils/ui.py:940
 #, python-brace-format
 msgid "{house_type} on {world} in {town}"
-msgstr ""
+msgstr "{house_type} na {world} w {town}"
 
 #: utils/ui.py:1084
 msgid "Any status"
-msgstr ""
+msgstr "Dowolny status"
 
 #: utils/ui.py:1109
 msgid "Registering…"
-msgstr ""
+msgstr "Rejestrowanie…"
 
 #. The bot's description, show in about and help commands.
 #: nabbot.py:119
@@ -829,7 +829,7 @@ msgstr ""
 #. Header for the list of languages with their translation and approval progress
 #: cogs/admin.py:239
 msgid "**Name** — **Translated/Approved**"
-msgstr ""
+msgstr "**Nazwa** — **Przetłumaczone/Zatwierdzone**"
 
 #: cogs/admin.py:243
 msgid "Translation Progress"
@@ -1781,7 +1781,7 @@ msgstr "Mam problemy z siecią. Spróbuj ponownie za chwilę."
 #: cogs/core.py:430
 #, python-brace-format
 msgid "You have too many registered characters ({count}/{limit})."
-msgstr ""
+msgstr "Masz zbyt wiele zarejestrowanych postaci ({count}/{limit})."
 
 #: cogs/core.py:436
 msgid "Sorry, the message was too long to send."
@@ -1975,7 +1975,7 @@ msgstr "Przejdź do oryginału"
 #: cogs/general.py:133
 #, python-brace-format
 msgid "In thread: {thread_name}"
-msgstr ""
+msgstr "W wątku: {thread_name}"
 
 #: cogs/general.py:135
 #, python-brace-format
@@ -2282,7 +2282,7 @@ msgstr "Scena"
 
 #: cogs/info.py:281
 msgid "Threads"
-msgstr ""
+msgstr "Wątki"
 
 #: cogs/info.py:290
 msgid "Humans"
@@ -2752,7 +2752,7 @@ msgstr "Użytkownik został odbanowany"
 
 #: cogs/loot.py:97
 msgid "Commands related to loot scanning."
-msgstr ""
+msgstr "Komendy związane ze skanowaniem loota."
 
 #: cogs/loot.py:109
 msgid "Scans an image of a container looking for Tibia items and shows an approximate loot value."
@@ -3031,10 +3031,10 @@ msgstr "{channel} nie był ignorowany."
 #, python-brace-format
 msgid "{count} is now unignored."
 msgid_plural "{count} are now unignored."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "{count} jest teraz nieignorowany."
+msgstr[1] "{count} są teraz nieignorowane."
+msgstr[2] "{count} jest teraz nieignorowanych."
+msgstr[3] "{count} jest teraz nieignorowanych."
 
 #: cogs/mod.py:217
 msgid "No entries were unignored."
@@ -4620,7 +4620,7 @@ msgstr "Goshnar's Taint"
 
 #: cogs/tibia.py:168
 msgid "Drome Score"
-msgstr ""
+msgstr "Wynik Drome"
 
 #: cogs/tibia.py:181
 msgid "In progress"
@@ -4724,15 +4724,15 @@ msgstr ""
 #: cogs/tibia.py:393
 #, python-brace-format
 msgid "Active auctions with {item}"
-msgstr ""
+msgstr "Aktywne aukcje z {item}"
 
 #: cogs/tibia.py:400
 msgid "Shows auctions containing a specific item."
-msgstr ""
+msgstr "Pokazuje aukcje, które zawierają konkretny przedmiot."
 
 #: cogs/tibia.py:414
 msgid "There are no auctions with that item."
-msgstr ""
+msgstr "Nie ma aukcji z tym przedmiotem."
 
 #: cogs/tibia.py:417
 #, python-brace-format
@@ -5140,27 +5140,27 @@ msgstr ""
 
 #: cogs/tibia.py:1021
 msgid "Shows a list of houses or guilds in a specific world and city."
-msgstr ""
+msgstr "Pokazuje listę domków lub gildii na określonym świecie i mieście."
 
 #: cogs/tibia.py:1027
 msgid "You must specify a world."
-msgstr ""
+msgstr "Musisz podać świat."
 
 #: cogs/tibia.py:1030
 msgid "I couldn't find any houses in this world."
-msgstr ""
+msgstr "Nie znalazłem żadnych domków na tym świecie."
 
 #: cogs/tibia.py:1033
 msgid "That is not a valid world name."
-msgstr ""
+msgstr "To nie jest prawidłowa nazwa świata."
 
 #: cogs/tibia.py:1041
 msgid "Shows the leaderboard for a specific world."
-msgstr ""
+msgstr "Pokazuje tablicę wyników dla określonego świata."
 
 #: cogs/tibia.py:1047
 msgid "I couldn't find any leaderboard entries."
-msgstr ""
+msgstr "Nie mogłem znaleźć żadnych najwyższych wyników."
 
 #: cogs/tibia.py:1057
 msgid "Shows a character's or everyone's recent level ups."
@@ -5257,7 +5257,7 @@ msgstr ""
 #: cogs/tibia.py:1172
 #, python-brace-format
 msgid "{prefix}{command} minLevel,maxLevel[,world]"
-msgstr ""
+msgstr "{prefix}{command} minLevel,maxLevel[,świat]"
 
 #: cogs/tibia.py:1209
 #, python-brace-format
@@ -5840,10 +5840,10 @@ msgstr ""
 #, python-format
 msgid "%d more"
 msgid_plural "%d more"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%d więcej"
+msgstr[1] "%d więcej"
+msgstr[2] "%d więcej"
+msgstr[3] "%d więcej"
 
 #: cogs/tibia.py:2253
 #, python-brace-format
@@ -6032,7 +6032,7 @@ msgstr ""
 #. For items like food
 #: cogs/tibiawiki.py:108
 msgid "Consumable"
-msgstr ""
+msgstr "Zużywalne"
 
 #: cogs/tibiawiki.py:109
 msgid "Duration"
@@ -6098,19 +6098,19 @@ msgstr ""
 
 #: cogs/tibiawiki.py:126
 msgid "Walkable"
-msgstr ""
+msgstr "Możliwe do przejścia"
 
 #: cogs/tibiawiki.py:127
 msgid "Blocks Path"
-msgstr ""
+msgstr "Blokuje Drogę"
 
 #: cogs/tibiawiki.py:128
 msgid "Blocks Projectiles"
-msgstr ""
+msgstr "Blokuje Pociski"
 
 #: cogs/tibiawiki.py:129
 msgid "Walking Speed"
-msgstr ""
+msgstr "Szybkość Chodzenia"
 
 #: cogs/tibiawiki.py:151
 msgid "Defensive"
@@ -6131,7 +6131,7 @@ msgstr ""
 
 #: cogs/tibiawiki.py:174
 msgid "Show full content"
-msgstr ""
+msgstr "Pokaż pełną zawartość"
 
 #: cogs/tibiawiki.py:184
 msgid "Commands that show information about Tibia, provided by TibiaWiki.\n\n"
@@ -6196,15 +6196,15 @@ msgstr ""
 
 #: cogs/tibiawiki.py:275
 msgid "Displays information about a book and a snippet of its content."
-msgstr ""
+msgstr "Wyświetla informacje o książce i fragment jej zawartości."
 
 #: cogs/tibiawiki.py:282
 msgid "I couldn't find a book with that name."
-msgstr ""
+msgstr "Nie mogłem znaleźć książki o tej nazwie."
 
 #: cogs/tibiawiki.py:301
 msgid "Searches in the book content of all known books in the game."
-msgstr ""
+msgstr "Wyszukuje w zawartości wszystkich znanych książek w grze."
 
 #: cogs/tibiawiki.py:307 cogs/tibiawiki.py:441
 msgid "I couldn't find any related keys."
@@ -6212,7 +6212,7 @@ msgstr "Nie mogłem znaleźć żadnych powiązanych kluczy."
 
 #: cogs/tibiawiki.py:317 cogs/tibiawiki.py:318
 msgid "Possible books"
-msgstr ""
+msgstr "Możliwe książki"
 
 #: cogs/tibiawiki.py:329
 msgid "Displays information about a charm."
@@ -6253,7 +6253,7 @@ msgstr ""
 
 #: cogs/tibiawiki.py:388
 msgid "The embed is colored if a major loot NPC buys it, so it can be noted at quick glance: yellow for Rashid, blue and green for djinns and purple for gems."
-msgstr ""
+msgstr "Okienko jest zakolorowane, jeśli kupuje go znany NPC skupujący loot. W ten sposób można szybko zobaczyć: żółty dla Rashida, niebieski i zielony dla dżinów i fioletowy dla gemów."
 
 #: cogs/tibiawiki.py:394
 msgid "I couldn't find an item with that name."
@@ -6270,7 +6270,7 @@ msgstr ""
 #: cogs/tibiawiki.py:418
 #, python-brace-format
 msgid "Tell me a numeric value, to search keys, try: `{prefix}key search`"
-msgstr ""
+msgstr "Powiedz mi wartość liczbową, aby wyszukać klucze, spróbuj: `{prefix}key search`"
 
 #: cogs/tibiawiki.py:424
 msgid "There's no key with that number."
@@ -6349,23 +6349,23 @@ msgstr ""
 
 #: cogs/tibiawiki.py:756
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: cogs/tibiawiki.py:758
 msgid "Previous book"
-msgstr ""
+msgstr "Poprzednia książka"
 
 #: cogs/tibiawiki.py:760
 msgid "Next book"
-msgstr ""
+msgstr "Następna książka"
 
 #: cogs/tibiawiki.py:769
 msgid "Content Preview"
-msgstr ""
+msgstr "Podgląd treści"
 
 #: cogs/tibiawiki.py:776
 msgid "Content"
-msgstr ""
+msgstr "Treść"
 
 #: cogs/tibiawiki.py:790
 #, python-brace-format
@@ -6470,15 +6470,15 @@ msgstr "Szybsza regeneracja"
 
 #: cogs/tibiawiki.py:981
 msgid "Pickupable"
-msgstr ""
+msgstr "Możliwe do podniesienia"
 
 #: cogs/tibiawiki.py:983
 msgid "Stackable"
-msgstr ""
+msgstr "Grupowalne"
 
 #: cogs/tibiawiki.py:984
 msgid "Marketable"
-msgstr ""
+msgstr "W markecie"
 
 #: cogs/tibiawiki.py:985
 msgid "Properties"
@@ -6486,7 +6486,7 @@ msgstr "Właściwości"
 
 #: cogs/tibiawiki.py:985
 msgid "Other Properties"
-msgstr ""
+msgstr "Inne właściwości"
 
 #: cogs/tibiawiki.py:989
 msgid "Used for"
@@ -6494,7 +6494,7 @@ msgstr "Używane do"
 
 #: cogs/tibiawiki.py:1007
 msgid "Requirements"
-msgstr ""
+msgstr "Wymagania"
 
 #: cogs/tibiawiki.py:1013 cogs/tibiawiki.py:1501
 msgid "Armor"
@@ -7679,7 +7679,8 @@ msgstr ""
 #: cogs/timers.py:1669
 msgid "You do not have any active reminders in this server.\n"
 "Use this on a private message to see all your reminders."
-msgstr ""
+msgstr "Nie masz żadnych aktywnych przypomnień na tym serwerze.\n"
+"Użyj tego na prywatnej wiadomości, aby zobaczyć wszystkie swoje przypomnienia."
 
 #: cogs/timers.py:1673
 msgid "You do not have any active reminders."
@@ -7722,7 +7723,7 @@ msgstr ""
 #: cogs/timers.py:1931
 #, python-brace-format
 msgid "You need to have registered characters in {world}"
-msgstr ""
+msgstr "Musisz mieć zarejestrowane postacie na {world}"
 
 #: cogs/timers.py:1935 cogs/tracking.py:1065
 msgid "You do not have any registered characters."
@@ -7773,7 +7774,7 @@ msgstr ""
 
 #: cogs/tracking.py:549
 msgid "Removing online count"
-msgstr ""
+msgstr "Usuwanie licznika online"
 
 #: cogs/tracking.py:554
 msgid "Online count changed"
@@ -7805,7 +7806,7 @@ msgstr ""
 #: cogs/tracking.py:655
 #, python-brace-format
 msgid "{name} was killed by {killer}"
-msgstr ""
+msgstr "{name} został(a) zabity(a) przez {killer}"
 
 #. Message for deaths by monsters, article can be " a", "an ", "The ", or empty "".
 #: cogs/tracking.py:664
@@ -7859,7 +7860,8 @@ msgstr ""
 #: cogs/tracking.py:855
 msgid "Users can be added by their name, mention, name and discriminator or their user ID.\n"
 "Characters owned by users in the blacklist won't have their level ups and deaths announced."
-msgstr ""
+msgstr "Użytkownicy mogą być dodani za pomocą ich nazwy, wzmianki, nazwy i dyskryminatora lub ich identyfikatora użytkownika.\n"
+"Postacie należące do użytkowników z czarnej listy nie będą miały ogłaszanych wzrostów poziomu ani śmierci."
 
 #: cogs/tracking.py:861
 msgid "This user is already in the blacklist."
@@ -7903,7 +7905,7 @@ msgstr ""
 
 #: cogs/tracking.py:904
 msgid "If the user only displays an ID on the list, it can be removed using that ID."
-msgstr ""
+msgstr "Jeśli użytkownik wyświetla tylko identyfikator na liście, można go usunąć za pomocą tego identyfikatora."
 
 #: cogs/tracking.py:911
 #, python-brace-format
@@ -7936,7 +7938,8 @@ msgstr ""
 #: cogs/tracking.py:939
 msgid "Characters in other worlds other than the currently tracked world are skipped.\n"
 "If it finds a character owned by another user, the whole process will be stopped.\n"
-msgstr ""
+msgstr "Postacie na innych światach niż obecnie śledzony świat są pomijane.\n"
+"Jeśli znajdzie postać będącą własnością innego użytkownika, cały proces zostanie zatrzymany.\n"
 
 #: cogs/tracking.py:961
 #, python-brace-format
@@ -7945,32 +7948,32 @@ msgstr ""
 
 #: cogs/tracking.py:965
 msgid "One or more characters in this account are already registed to a different Discord user:"
-msgstr ""
+msgstr "Jedna lub więcej postaci na tym koncie jest już zarejestrowanych do innego użytkownika Discorda:"
 
 #: cogs/tracking.py:967
 msgid "If the character really belongs to you, copy the following code (including slashes) into the character's comment section in Tibia.com:"
-msgstr ""
+msgstr "Jeśli postać naprawdę należy do Ciebie, skopiuj następujący kod (w tym ukośniki) do komentarza postaci na Tibia.com:"
 
 #: cogs/tracking.py:969
 msgid "Note that it might take a couple minutes for the change to be detected."
-msgstr ""
+msgstr "Pamiętaj, że wykrycie zmiany może zająć kilka minut."
 
 #: cogs/tracking.py:982
 msgid "Select the characters you want to register:"
-msgstr ""
+msgstr "Wybierz postacie, które chcesz zarejestrować:"
 
 #: cogs/tracking.py:985
 #, python-brace-format
 msgid "You may only select up to {limit} character."
 msgid_plural "You may only select up to {limit} characters."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Możesz wybrać maksymalnie {limit} postać."
+msgstr[1] "Możesz wybrać maksymalnie {limit} postacie."
+msgstr[2] "Możesz wybrać maksymalnie {limit} postaci."
+msgstr[3] "Możesz wybrać maksymalnie {limit} postaci."
 
 #: cogs/tracking.py:991
 msgid "There are no characters to register, the following are already registered to you:"
-msgstr ""
+msgstr "Nie ma postaci do rejestracji, następujące postacie są już dla Ciebie zarejestrowane:"
 
 #: cogs/tracking.py:1015
 msgid "Removes a character assigned to you."
