@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-13 09:35-0700\n"
-"PO-Revision-Date: 2022-01-13 18:43\n"
+"PO-Revision-Date: 2022-01-13 19:50\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -6544,7 +6544,7 @@ msgstr ""
 
 #: cogs/tibiawiki.py:1026
 msgid "Cleave"
-msgstr ""
+msgstr "Cleave"
 
 #: cogs/tibiawiki.py:1027
 msgid "Upgrade Classification"
@@ -6552,59 +6552,59 @@ msgstr "Klasyfikacja Ulepszenia"
 
 #: cogs/tibiawiki.py:1044
 msgid "Perfect Shot"
-msgstr ""
+msgstr "Perfect Shot"
 
 #. Perfect Shot description
 #: cogs/tibiawiki.py:1046
 #, python-brace-format
 msgid "{bonus} at range {range}"
-msgstr ""
+msgstr "{bonus} w zasięgu {range}"
 
 #: cogs/tibiawiki.py:1052
 msgid "Magic Shield Capacity"
-msgstr ""
+msgstr "Pojemność Magic Shield"
 
 #: cogs/tibiawiki.py:1055
 msgid "Combat Properties"
-msgstr ""
+msgstr "Właściwości Bojowe"
 
 #: cogs/tibiawiki.py:1079
 msgid "Fist"
-msgstr ""
+msgstr "Fist"
 
 #: cogs/tibiawiki.py:1080
 msgid "Distance"
-msgstr ""
+msgstr "Distance"
 
 #: cogs/tibiawiki.py:1081
 msgid "Sword"
-msgstr ""
+msgstr "Sword"
 
 #: cogs/tibiawiki.py:1082
 msgid "Axe"
-msgstr ""
+msgstr "Axe"
 
 #: cogs/tibiawiki.py:1083
 msgid "Club"
-msgstr ""
+msgstr "Club"
 
 #: cogs/tibiawiki.py:1100
 msgid "Mana Leech"
-msgstr ""
+msgstr "Mana Leech"
 
 #: cogs/tibiawiki.py:1101
 msgid "HP Leech"
-msgstr ""
+msgstr "HP Leech"
 
 #: cogs/tibiawiki.py:1102
 msgid "Critical Hit"
-msgstr ""
+msgstr "Critical Hit"
 
 #. Used to describe mana leech, hp leech and critical hit attributes
 #: cogs/tibiawiki.py:1112
 #, python-brace-format
 msgid "{percentage} with {chance} chance"
-msgstr ""
+msgstr "{percentage} z {chance} szansą"
 
 #: cogs/tibiawiki.py:1168
 msgid "Resistances"
@@ -6678,11 +6678,11 @@ msgstr "zabójstw"
 
 #: cogs/tibiawiki.py:1437
 msgid "Max Damage"
-msgstr ""
+msgstr "Maksymalne Obrażenia"
 
 #: cogs/tibiawiki.py:1438
 msgid "Summons Damage"
-msgstr ""
+msgstr "Obrażenia Summonów"
 
 #: cogs/tibiawiki.py:1464
 msgid "Elemental Modifiers"
@@ -6694,11 +6694,11 @@ msgstr "Przyzywalny"
 
 #: cogs/tibiawiki.py:1475
 msgid "Convinceable"
-msgstr ""
+msgstr "Przekonywalny"
 
 #: cogs/tibiawiki.py:1476
 msgid "Illusionable"
-msgstr ""
+msgstr "Iluzjonowalny"
 
 #: cogs/tibiawiki.py:1477
 msgid "Pushable"
@@ -6804,15 +6804,15 @@ msgstr ""
 
 #: cogs/tibiawiki.py:1646
 msgid "Group Cooldown"
-msgstr ""
+msgstr "Cooldown Grupy"
 
 #: cogs/tibiawiki.py:1650
 msgid "Magic Type"
-msgstr ""
+msgstr "Typ Magii"
 
 #: cogs/tibiawiki.py:1654
 msgid "2nd Group Cooldown"
-msgstr ""
+msgstr "Cooldown Drugiej Grupy"
 
 #: cogs/tibiawiki.py:1659
 msgid "Rune Group"
@@ -6859,7 +6859,7 @@ msgstr ""
 
 #: cogs/timers.py:285
 msgid "Start Time"
-msgstr ""
+msgstr "Czas Rozpoczęcia"
 
 #: cogs/timers.py:290
 #, python-brace-format
@@ -6883,7 +6883,7 @@ msgstr ""
 #: cogs/timers.py:406
 #, python-brace-format
 msgid "Event: **{name}** (ID: {id} | by {user}) - Is starting {in_time}"
-msgstr ""
+msgstr "Wydarzenie: **{name}** (ID: {id} | przez {user}) - Zaczyna się za {in_time}"
 
 #. Message received when a reminder is due
 #: cogs/timers.py:438
@@ -6930,7 +6930,7 @@ msgstr ""
 #: cogs/timers.py:524
 #, python-brace-format
 msgid "**{char}** - Expires {in_time}"
-msgstr ""
+msgstr "**{char}** - Wygaśnie za {in_time}"
 
 #: cogs/timers.py:527
 #, python-brace-format
@@ -6949,7 +6949,7 @@ msgstr ""
 
 #: cogs/timers.py:538
 msgid "Shows a list of boss aliases."
-msgstr ""
+msgstr "Pokazuje listę aliasów bossów."
 
 #: cogs/timers.py:539
 msgid "These are names you can use instead of using the full names. These are case-insensitive."
@@ -6957,15 +6957,15 @@ msgstr ""
 
 #: cogs/timers.py:548
 msgid "Boss Aliases"
-msgstr ""
+msgstr "Aliasy Bossów"
 
 #: cogs/timers.py:553
 msgid "Shows a list of supported boss cooldowns."
-msgstr ""
+msgstr "Pokazuje listę wspieranych cooldownów bossów."
 
 #: cogs/timers.py:559
 msgid "Supported Boss Cooldowns"
-msgstr ""
+msgstr "Obsługiwane Cooldowny Bossów"
 
 #: cogs/timers.py:564
 msgid "Shows a list of all your active cooldowns."
@@ -7013,11 +7013,11 @@ msgstr "Cooldown jest krótszy niż czas jaki już upłynął od zabicia bossa."
 
 #: cogs/timers.py:625
 msgid "Select the character you killed the boss with:"
-msgstr ""
+msgstr "Wybierz postać, którą zabiłeś/aś bossa:"
 
 #: cogs/timers.py:626 cogs/timers.py:675
 msgid "You must select a character."
-msgstr ""
+msgstr "Musisz wybrać postać."
 
 #: cogs/timers.py:634 cogs/timers.py:681
 msgid "That character is not registered to you."
@@ -7059,7 +7059,7 @@ msgstr "Nie ma bossa o tej nazwie.\n"
 
 #: cogs/timers.py:674
 msgid "Select for which character you want to remove the cooldown:"
-msgstr ""
+msgstr "Wybierz, dla której postaci chcesz usunąć cooldown:"
 
 #: cogs/timers.py:687
 #, python-brace-format
@@ -7108,7 +7108,7 @@ msgstr "Od restartu serwera"
 
 #: cogs/timers.py:740
 msgid "Shows the current Dream Scar boss in every world."
-msgstr ""
+msgstr "Pokazuje obecnego bossa Dream Scar w każdym świecie."
 
 #: cogs/timers.py:757
 msgid "Shows a list of upcoming and recent events."
@@ -7133,7 +7133,7 @@ msgstr "Nie ma nadchodzących wydarzeń."
 #: cogs/timers.py:783
 #, python-brace-format
 msgid "**{name}** (*ID: {id}*) - by {user} - Started {time}"
-msgstr ""
+msgstr "**{name}** (*ID: {id}*) - {user} - Rozpoczęto {time} temu"
 
 #: cogs/timers.py:791
 msgid "Recent events"
@@ -7143,7 +7143,7 @@ msgstr "Ostatnie wydarzenia"
 #: cogs/timers.py:800
 #, python-brace-format
 msgid "**{name}** (*ID: {id}*) - by {user} - {time}"
-msgstr ""
+msgstr "**{name}** (*ID: {id}*) - przez {user} - {time}"
 
 #: cogs/timers.py:816
 msgid "Creates a new event."
@@ -7378,11 +7378,12 @@ msgstr ""
 #, python-brace-format
 msgid "When would you like the new start time of **{event}** be? You can `cancel` this.\n"
 "Examples: `1h20m`, `2d10m`"
-msgstr ""
+msgstr "Na kiedy chciałbyś ustawić nowy czas rozpoczęcia **{event}**? Możesz anulować używając `cancel`.\n"
+"Np: `1h20min`, `2d10min`"
 
 #: cogs/timers.py:1180
 msgid "Is the time of your event correct? Time is displayed in your local timezone."
-msgstr ""
+msgstr "Czy czas twojego wydarzenia jest poprawny? Czas jest wyświetlany w lokalnej strefie czasowej."
 
 #: cogs/timers.py:1191
 msgid "The event's time changed successfully."
@@ -7427,7 +7428,7 @@ msgstr ""
 #: cogs/timers.py:1243
 #, python-brace-format
 msgid "You can't join this event. Maybe you meant to subscribe? Try `{prefix}event sub {event_id}`."
-msgstr ""
+msgstr "Nie możesz dołączyć do tego wydarzenia. Może chcesz subskrybować? Wypróbuj `{prefix}event sub {event_id}`."
 
 #: cogs/timers.py:1248
 msgid "All the slots for this event has been filled."
@@ -7435,11 +7436,11 @@ msgstr ""
 
 #: cogs/timers.py:1252
 msgid "Select the character you want to join the event with:"
-msgstr ""
+msgstr "Wybierz postać, którą chcesz dołączyć wydarzenia:"
 
 #: cogs/timers.py:1253
 msgid "You must select a character to join with."
-msgstr ""
+msgstr "Musisz wybrać postać, którą chcesz dołączyć."
 
 #: cogs/timers.py:1261
 msgid "You can only join with characters registered to you."
@@ -7532,7 +7533,7 @@ msgstr ""
 
 #: cogs/timers.py:1417
 msgid "Is this time correct? Time is displayed in your local timezone."
-msgstr ""
+msgstr "Czy czas jest poprawny? Czas jest wyświetlany w lokalnej strefie czasowej."
 
 #. `cancel` can be translated
 #: cogs/timers.py:1426
@@ -7667,7 +7668,7 @@ msgstr ""
 #: cogs/timers.py:1637
 #, python-brace-format
 msgid "Ok, I will remind you {time} about: {content}"
-msgstr ""
+msgstr "Ok, przypomnę ci za {time} o: {content}"
 
 #: cogs/timers.py:1643
 msgid "Shows you a list of your active reminders."
@@ -7679,7 +7680,10 @@ msgid "The list consists of the reminder's id, the time in which it will be trig
 "In order to see all your reminders, use this command on a private message.\n"
 "In order to see all your reminders, use this command on a private message.\n\n"
 "Note that reminders created under 60 seconds are not displayed here."
-msgstr ""
+msgstr "Lista składa się z identyfikatora przypomnienia, czasu i treści przypomnienia, łącząc się z oryginalną wiadomością.\n\n"
+"Aby chronić Twoją prywatność, wyświetlone zostaną tylko przypomnienia utworzone na tym samym serwerze.\n"
+"Aby zobaczyć wszystkie Twoje przypomnienia, użyj tej komendy w prywatnej wiadomości.\n\n"
+"Zauważ, że przypomnienia stworzone poniżej 60 sekund nie są tutaj wyświetlane."
 
 #: cogs/timers.py:1669
 msgid "You do not have any active reminders in this server.\n"
@@ -8151,18 +8155,23 @@ msgid "This feature can only be used on [premium](https://docs.nabbot.xyz/premiu
 "The channel parameter is meant to be an existing watchlist.\n"
 "New channel is the channel that will be assigned as feed channel.\n"
 "If not specified, a new channel will be created."
-msgstr ""
+msgstr "Ta funkcja może być użyta tylko na serwerach [premium](https://docs.nabbot.xyz/premium).\n\n"
+"Kanał feed to miejsce, w którym zostaną zamieszczone zdobyte levele i wpisy śmierci z listy obserwowanych.\n"
+"Parametr channel ma być istniejącą listą obserwowanych.\n"
+"Nowy kanał to kanał, który zostanie przypisany jako kanał feed.\n"
+"Jeśli nie zostanie określony, zostanie utworzony nowy kanał."
 
 #: cogs/tracking.py:1414
 #, python-brace-format
 msgid "Only premium servers can add a feed channel to their watchlists.\n"
 "For more information, check out: <{docs}/premium>"
-msgstr ""
+msgstr "Tylko serwery premium mogą dodać kanał feed do listy obserwowanych.\n"
+"Aby uzyskać więcej informacji, sprawdź <{docs}/premium>"
 
 #: cogs/tracking.py:1421
 #, python-brace-format
 msgid "{channel} already has a feed channel."
-msgstr ""
+msgstr "{channel} ma już kanał feed."
 
 #: cogs/tracking.py:1427
 msgid "I need `Manage Channels` and `Manage Webhooks` permissions to create feed channels."
@@ -8231,7 +8240,8 @@ msgstr ""
 #: cogs/tracking.py:1548
 msgid "The watch list shows which characters from it are online. Entire guilds can be added too.\n"
 "The channel can be renamed at anytime. If the channel is deleted, all its entries are deleted too."
-msgstr ""
+msgstr "Lista obserwacyjna pokazuje, które postacie z niej są online. Można również dodać całą gildię.\n"
+"Nazwa kanału może być zmieniona w dowolnym momencie. Jeśli kanał zostanie usunięty, wszystkie jego wpisy również zostaną usunięte."
 
 #: cogs/tracking.py:1553
 #, python-format
@@ -8275,7 +8285,14 @@ msgid "This is where I will post a list of online watched characters.\n"
 "If this channel is deleted, all related entries will be lost.\n"
 "**It is important to not allow anyone to write in here**\n"
 "*This message can be deleted now.*"
-msgstr ""
+msgstr "Tutaj będę publikować listę obserwowanych postaci online.\n"
+"Edytuj uprawnienia tego kanału, aby umożliwić dostęp rolom, którym chcesz.\n"
+"Nazwa tego kanału może być zmieniona swobodnie.\n"
+"Każdy z uprawnieniami `Zarządzanie Kanałem` może dodawać wpisy.\n"
+"Przykład: {prefix}{command} add {channel} Galarzaa Fidera\n"
+"Jeśli ten kanał zostanie usunięty, wszystkie powiązane wpisy zostaną utracone.\n"
+"**Ważne jest, aby nikt nie mógł tutaj pisać**\n"
+"*Ta wiadomość może być teraz usunięta.*"
 
 #: cogs/tracking.py:1608
 msgid "Removes all entries from watchlist."
@@ -8626,15 +8643,15 @@ msgstr ""
 
 #: cogs/tracking.py:2342
 msgid "The following characters were reassigned to you"
-msgstr ""
+msgstr "Następujące postacie zostały przypisane do ciebie"
 
 #: cogs/tracking.py:2347
 msgid "The following characters were reclaimed by you"
-msgstr ""
+msgstr "Następujące postacie zostały ponownie przypisanie do ciebie"
 
 #: models/context.py:185
 msgid "I found more than one result, please select one to proceed:"
-msgstr ""
+msgstr "Znalazłem więcej niż jeden wynik, proszę wybrać jeden, aby kontynuować:"
 
 #: models/context.py:187 models/context.py:219
 msgid "No results found."
@@ -8642,7 +8659,7 @@ msgstr ""
 
 #: models/context.py:204
 msgid "Select an option"
-msgstr ""
+msgstr "Wybierz opcję"
 
 #: models/context.py:217
 msgid "Suggestions"
