@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-04 11:19-0700\n"
-"PO-Revision-Date: 2022-01-04 19:45\n"
+"PO-Revision-Date: 2022-01-13 16:31\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -6498,7 +6498,7 @@ msgstr "Cleave"
 
 #: cogs/tibiawiki.py:1027
 msgid "Upgrade Classification"
-msgstr ""
+msgstr "Grupo de Upgrade"
 
 #: cogs/tibiawiki.py:1044
 msgid "Perfect Shot"
