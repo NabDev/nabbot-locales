@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-13 09:35-0700\n"
-"PO-Revision-Date: 2022-01-13 17:33\n"
+"PO-Revision-Date: 2022-01-13 18:43\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -3325,7 +3325,8 @@ msgstr "To pokazuje kombinację zakupów, które wykonałeś i serwerów, na kt�
 #: cogs/premium.py:518
 msgid "That's not a valid filter, the valid filters are `purchases` or `servers`.\n"
 "Leave blank to show all transactions together."
-msgstr ""
+msgstr "To nie jest prawidłowy filtr, prawidłowymi filtrami są `purchases` lub `servers`.\n"
+"Pozostaw puste, aby pokazać wszystkie tranzakcje razem."
 
 #: cogs/premium.py:529
 msgid "You currently don't have any transactions."
@@ -3983,7 +3984,7 @@ msgstr "Nieznany użytkownik"
 
 #: cogs/respawn.py:824
 msgid "PENDING"
-msgstr ""
+msgstr "OCZEKUJE"
 
 #: cogs/roles.py:36
 msgid "Commands related to role management."
@@ -6506,7 +6507,7 @@ msgstr ""
 
 #: cogs/tibiawiki.py:1015
 msgid "Hit%+"
-msgstr ""
+msgstr "Hit%+"
 
 #: cogs/tibiawiki.py:1016
 msgid "Range"
@@ -6522,7 +6523,7 @@ msgstr ""
 
 #: cogs/tibiawiki.py:1019
 msgid "Damage Reflection"
-msgstr ""
+msgstr "Odbicie Obrażeń"
 
 #: cogs/tibiawiki.py:1021
 msgid "Damage Type"
@@ -6530,11 +6531,11 @@ msgstr "Rodzaj obrażeń"
 
 #: cogs/tibiawiki.py:1022
 msgid "Weapon Type"
-msgstr ""
+msgstr "Typ Broni"
 
 #: cogs/tibiawiki.py:1023
 msgid "Mana Cost"
-msgstr ""
+msgstr "Koszt Many"
 
 #. Hands needed for the weapon
 #: cogs/tibiawiki.py:1025
@@ -7390,7 +7391,7 @@ msgstr ""
 #: cogs/timers.py:1195
 #, python-brace-format
 msgid "The start time of your event **{event}** was changed to **{new_time}** by {user}."
-msgstr ""
+msgstr "Czas rozpoczęcia Twojego wydarzenia **{event}** został zmieniony na **{new_time}** przez {user}."
 
 #: cogs/timers.py:1199
 #, python-brace-format
