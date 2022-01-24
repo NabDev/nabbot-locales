@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-13 09:35-0700\n"
-"PO-Revision-Date: 2022-01-13 17:33\n"
+"PO-Revision-Date: 2022-01-24 16:51\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -7347,7 +7347,7 @@ msgstr "O horário do evento foi alterado com sucesso."
 #: cogs/timers.py:1195
 #, python-brace-format
 msgid "The start time of your event **{event}** was changed to **{new_time}** by {user}."
-msgstr ""
+msgstr "O horário de início do seu evento **{event}** foi alterado para **{new_time}** por {user}."
 
 #: cogs/timers.py:1199
 #, python-brace-format
