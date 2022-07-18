@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-18 13:58-0700\n"
-"PO-Revision-Date: 2022-07-18 21:09\n"
+"PO-Revision-Date: 2022-07-18 22:08\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -4736,7 +4736,7 @@ msgstr "Mostra as chances do boss aparecer, a última vez que o boss foi visto o
 
 #: cogs/tibia.py:457
 msgid "This command is temporarily disabled. Sorry for the inconvenience."
-msgstr ""
+msgstr "Esse comando está temporariamente desativado. Desculpe-nos pelo inconveniente."
 
 #: cogs/tibia.py:462
 msgid "Gets the boosted creature of the day."
