@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-02 17:42-0700\n"
-"PO-Revision-Date: 2022-08-03 00:51\n"
+"PO-Revision-Date: 2022-08-03 02:00\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -4511,7 +4511,7 @@ msgstr "Level **{value:,}**"
 
 #: cogs/tibia.py:154 cogs/tibia.py:2014 cogs/tibia.py:2184
 msgid "Achievement Points"
-msgstr "Pontos de Achievements"
+msgstr "Pontos de Achievement"
 
 #: cogs/tibia.py:155
 msgid "Axe Fighting"
@@ -4579,7 +4579,7 @@ msgstr "Pontuação do Drome"
 
 #: cogs/tibia.py:171 cogs/tibia.py:2015
 msgid "Boss Points"
-msgstr ""
+msgstr "Pontos de Boss"
 
 #: cogs/tibia.py:184
 msgid "In progress"
