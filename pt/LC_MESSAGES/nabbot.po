@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-14 09:25-0700\n"
-"PO-Revision-Date: 2023-02-14 16:35\n"
+"POT-Creation-Date: 2023-02-15 11:15-0700\n"
+"PO-Revision-Date: 2023-02-15 18:32\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -274,7 +274,7 @@ msgstr "instantes"
 msgid "Only {user} may interact. Use this command yourself to interact."
 msgstr "Apenas {user} pode interagir. Use este comando você mesmo para interagir."
 
-#: utils/ui.py:81 cogs/admin.py:93 cogs/tibia.py:2190
+#: utils/ui.py:81 cogs/admin.py:93 cogs/tibia.py:2199
 msgid "Yes"
 msgstr "Sim"
 
@@ -501,7 +501,7 @@ msgid_plural "My command prefixes are:"
 msgstr[0] "Meu prefixo de comando é:"
 msgstr[1] "Meus prefixos de comando são:"
 
-#: cogs/admin.py:33 cogs/tibia.py:2012 cogs/tibia.py:2174
+#: cogs/admin.py:33 cogs/tibia.py:2012 cogs/tibia.py:2183
 msgid "World"
 msgstr "Mundo"
 
@@ -2215,7 +2215,7 @@ msgstr "Não estou em nenhum servidor com ID {server}."
 msgid "That is not a valid id."
 msgstr "Esse não é um ID válido."
 
-#: cogs/info.py:273 cogs/tibia.py:2293
+#: cogs/info.py:273 cogs/tibia.py:2302
 msgid "Owner"
 msgstr "Dono"
 
@@ -2256,7 +2256,7 @@ msgid "Boosters"
 msgstr "Impulsos"
 
 #: cogs/info.py:305 cogs/logging.py:125 cogs/logging.py:159 cogs/logging.py:209
-#: cogs/tibia.py:2172 cogs/tibiawiki.py:104 cogs/tibiawiki.py:995
+#: cogs/tibia.py:2181 cogs/tibiawiki.py:104 cogs/tibiawiki.py:995
 #: cogs/tibiawiki.py:1642 cogs/timers.py:1948
 msgid "Level"
 msgstr "Level"
@@ -3487,7 +3487,7 @@ msgstr "Transação N° {id}"
 msgid "Submitted on"
 msgstr "Enviado em"
 
-#: cogs/premium.py:923 cogs/tibia.py:2287
+#: cogs/premium.py:923 cogs/tibia.py:2296
 msgid "Status"
 msgstr "Estado"
 
@@ -4271,7 +4271,7 @@ msgstr "Mencionavél"
 msgid "Hoisted"
 msgstr "Separado"
 
-#: cogs/roles.py:477 cogs/tibia.py:2156 cogs/tibia.py:2192
+#: cogs/roles.py:477 cogs/tibia.py:2165 cogs/tibia.py:2201
 msgid "Position"
 msgstr "Posição"
 
@@ -4498,7 +4498,7 @@ msgstr[1] "**{value:,}** pontos"
 msgid "Level **{value:,}**"
 msgstr "Level **{value:,}**"
 
-#: cogs/tibia.py:154 cogs/tibia.py:2017 cogs/tibia.py:2187
+#: cogs/tibia.py:154 cogs/tibia.py:2017 cogs/tibia.py:2196
 msgid "Achievement Points"
 msgstr "Pontos de Achievement"
 
@@ -5130,7 +5130,7 @@ msgstr "{name} - Level **{level}** - *{time}*"
 msgid "There are not registered level ups by this user."
 msgstr "Não há avanços de level registrados para este usuário."
 
-#: cogs/tibia.py:1095 cogs/tibia.py:2422
+#: cogs/tibia.py:1095 cogs/tibia.py:2431
 #, python-brace-format
 msgid "{name} latest level ups"
 msgstr "Últimos avanços de level de {name}"
@@ -5341,7 +5341,7 @@ msgstr "Não há avanços de level nem mortes registados."
 msgid "Shows a user's recent level ups and deaths on their characters."
 msgstr "Mostra as mortes e os avanços de level recentes dos personagens registrados a um certo usuário."
 
-#: cogs/tibia.py:1401 cogs/tibia.py:2467
+#: cogs/tibia.py:1401 cogs/tibia.py:2476
 #, python-brace-format
 msgid "{name} timeline"
 msgstr "Linha Cronológica de {name}"
@@ -5634,7 +5634,7 @@ msgstr "Bestiários Completos"
 msgid "Auction Start"
 msgstr "Início do Leilão"
 
-#: cogs/tibia.py:2031 cogs/tibia.py:2310
+#: cogs/tibia.py:2031 cogs/tibia.py:2319
 msgid "Auction End"
 msgstr "Fim do Leilão"
 
@@ -5665,207 +5665,211 @@ msgid "To see a specific entry, use the command `{prefix}news «id»`"
 msgstr "Para ver uma notícia específica, use o comando `{prefix} news «ID»`"
 
 #. The way rank is displayed in the highscores part of whois command
-#: cogs/tibia.py:2132
+#: cogs/tibia.py:2136
 #, python-format
 msgid "Rank **%d**"
 msgstr "Posição **%d**"
 
-#: cogs/tibia.py:2139
+#: cogs/tibia.py:2146
 msgid "Highscores entries"
 msgstr "Rankings"
 
-#: cogs/tibia.py:2141
+#: cogs/tibia.py:2148
+msgid "Highscores entries (cont.)"
+msgstr ""
+
+#: cogs/tibia.py:2151
 msgid "Global Highscores entries"
 msgstr "Rankings Globais"
 
-#: cogs/tibia.py:2147
+#: cogs/tibia.py:2156
 msgctxt "Premium/Free"
 msgid "Status"
 msgstr "Status"
 
-#: cogs/tibia.py:2150
+#: cogs/tibia.py:2159
 msgid "Character is hidden."
 msgstr "O personagem está oculto."
 
-#: cogs/tibia.py:2154
+#: cogs/tibia.py:2163
 msgid "Loyalty Title"
 msgstr "Título de Loyalty"
 
-#: cogs/tibia.py:2158
+#: cogs/tibia.py:2167
 msgid "Other Character"
 msgid_plural "Other Characters"
 msgstr[0] "Outro Personagem"
 msgstr[1] "Outros Personagens"
 
-#: cogs/tibia.py:2160
+#: cogs/tibia.py:2169
 msgctxt "Account creation date"
 msgid "Created"
 msgstr "Data de Criação"
 
-#: cogs/tibia.py:2164
+#: cogs/tibia.py:2173
 msgid "Account Information"
 msgstr "Informações da Conta"
 
 #. The world the character was in before transferring
-#: cogs/tibia.py:2169
+#: cogs/tibia.py:2178
 #, python-brace-format
 msgid "formerly in {world}"
 msgstr "antes em {world}"
 
-#: cogs/tibia.py:2173 cogs/tibiawiki.py:105 cogs/tibiawiki.py:997
+#: cogs/tibia.py:2182 cogs/tibiawiki.py:105 cogs/tibiawiki.py:997
 msgid "Vocation"
 msgstr "Vocação"
 
-#: cogs/tibia.py:2175
+#: cogs/tibia.py:2184
 msgid "Residence"
 msgstr "Residência"
 
-#: cogs/tibia.py:2178
+#: cogs/tibia.py:2187
 msgid "Title"
 msgstr "Título"
 
-#: cogs/tibia.py:2180
+#: cogs/tibia.py:2189
 #, python-brace-format
 msgid "__{rank}__ of the {guild}"
 msgstr "__{rank}__ da {guild}"
 
-#: cogs/tibia.py:2181
+#: cogs/tibia.py:2190
 msgid "Guild"
 msgstr "Guild"
 
-#: cogs/tibia.py:2183
+#: cogs/tibia.py:2192
 msgid "Married to"
 msgstr "Casado com"
 
-#: cogs/tibia.py:2185
+#: cogs/tibia.py:2194
 msgid "House"
 msgid_plural "Houses"
 msgstr[0] "Casa"
 msgstr[1] "Casas"
 
 #. Whether the character was recently traded in the bazaar
-#: cogs/tibia.py:2190
+#: cogs/tibia.py:2199
 msgid "Traded"
 msgstr "Comprado"
 
-#: cogs/tibia.py:2193
+#: cogs/tibia.py:2202
 msgid "Never logged in."
 msgstr "Nunca logou."
 
-#: cogs/tibia.py:2194
+#: cogs/tibia.py:2203
 msgid "Last Login"
 msgstr "Último Login"
 
-#: cogs/tibia.py:2197
+#: cogs/tibia.py:2206
 msgid "See more"
 msgstr "Ver mais"
 
-#: cogs/tibia.py:2218
+#: cogs/tibia.py:2227
 #, python-brace-format
 msgid "**{user}** has no registered characters here."
 msgstr "**{user}** não tem personagens registrados aqui."
 
 #. User's listed characters in the whois command. Online icon is empty if offline.
-#: cogs/tibia.py:2227
+#: cogs/tibia.py:2236
 #, python-brace-format
 msgid "{name}{online_icon} (Lvl {level} {voc})"
 msgstr "{name}{online_icon} (Lvl {level} {voc})"
 
 #. Indicates that the list was cut short and there are still more entries. (e.g. and 4 more). Don't add "and"
-#: cogs/tibia.py:2236 cogs/tracking.py:2245
+#: cogs/tibia.py:2245 cogs/tracking.py:2245
 #, python-format
 msgid "%d more"
 msgid_plural "%d more"
 msgstr[0] "mais %d"
 msgstr[1] "mais %d"
 
-#: cogs/tibia.py:2238
+#: cogs/tibia.py:2247
 #, python-brace-format
 msgid "**{user}**'s character is: {character_list}"
 msgid_plural "**{user}**'s characters are: {character_list}"
 msgstr[0] "O personagem de **{user}** é: {character_list}"
 msgstr[1] "Os personagens de **{user}** são: {character_list}"
 
-#: cogs/tibia.py:2247
+#: cogs/tibia.py:2256
 msgid "The valid categories are:"
 msgstr "As categorias válidas são:"
 
-#: cogs/tibia.py:2252
+#: cogs/tibia.py:2261
 msgid "The valid vocation filters are:"
 msgstr "Os filtros de vocação válidos são:"
 
-#: cogs/tibia.py:2265
+#: cogs/tibia.py:2274
 msgid "{rent:,} gold per month"
 msgstr "{rent:,} gold por mês"
 
-#: cogs/tibia.py:2267 cogs/tibiawiki.py:799
+#: cogs/tibia.py:2276 cogs/tibiawiki.py:799
 msgid "Type"
 msgstr "Tipo"
 
-#: cogs/tibia.py:2267
+#: cogs/tibia.py:2276
 msgctxt "House type"
 msgid "House"
 msgstr "Casa"
 
-#: cogs/tibia.py:2267
+#: cogs/tibia.py:2276
 msgctxt "House type"
 msgid "Guildhall"
 msgstr "Guildhall"
 
-#: cogs/tibia.py:2268
+#: cogs/tibia.py:2277
 msgid "Bed Limit"
 msgstr "Limite de Camas"
 
-#: cogs/tibia.py:2269
+#: cogs/tibia.py:2278
 msgid "Size"
 msgstr "Tamanho"
 
-#: cogs/tibia.py:2270 cogs/tibiawiki.py:1550
+#: cogs/tibia.py:2279 cogs/tibiawiki.py:1550
 msgid "City"
 msgstr "Cidade"
 
-#: cogs/tibia.py:2271
+#: cogs/tibia.py:2280
 msgid "Rent"
 msgstr "Aluguel"
 
-#: cogs/tibia.py:2273 cogs/tibiawiki.py:761 cogs/tibiawiki.py:1563
+#: cogs/tibia.py:2282 cogs/tibiawiki.py:761 cogs/tibiawiki.py:1563
 msgid "Information"
 msgstr "Informações"
 
-#: cogs/tibia.py:2280
+#: cogs/tibia.py:2289
 msgid "TibiaWiki article"
 msgstr "Artigo no TibiaWiki"
 
-#: cogs/tibia.py:2294
+#: cogs/tibia.py:2303
 msgid "Paid Until"
 msgstr "Pago Até"
 
-#: cogs/tibia.py:2298
+#: cogs/tibia.py:2307
 msgid "Moving out on"
 msgstr "Se mudando em"
 
-#: cogs/tibia.py:2302
+#: cogs/tibia.py:2311
 msgid "Transferring to"
 msgstr "Transferindo Para"
 
-#: cogs/tibia.py:2303
+#: cogs/tibia.py:2312
 msgid "Transfer Price"
 msgstr "Preço da Transferência"
 
-#: cogs/tibia.py:2304
+#: cogs/tibia.py:2313
 msgid "Accepted"
 msgstr "Aceita"
 
-#: cogs/tibia.py:2308
+#: cogs/tibia.py:2317
 msgid "Highest Bid"
 msgstr "Maior Lance"
 
-#: cogs/tibia.py:2309
+#: cogs/tibia.py:2318
 msgid "Highest Bidder"
 msgstr "Dono do Lance"
 
 #. The world where the house is in
-#: cogs/tibia.py:2313
+#: cogs/tibia.py:2322
 #, python-brace-format
 msgid "In {world}"
 msgstr "Em {world}"
@@ -5873,56 +5877,56 @@ msgstr "Em {world}"
 #. Entry for character deaths
 #. Level up entry for levels command
 #. Level up entry for timeline command for a specific character
-#: cogs/tibia.py:2341 cogs/tibia.py:2374 cogs/tibia.py:2474
+#: cogs/tibia.py:2350 cogs/tibia.py:2383 cogs/tibia.py:2483
 #, python-brace-format
 msgid "At level **{level}** by {killer} - *{time}*"
 msgstr "No level **{level}** por {killer} - *{time}*"
 
-#: cogs/tibia.py:2366
+#: cogs/tibia.py:2375
 #, python-brace-format
 msgid "{name} latest deaths"
 msgstr "Últimas mortes de {name}"
 
 #. Entries for recent deaths
-#: cogs/tibia.py:2399
+#: cogs/tibia.py:2408
 #, python-brace-format
 msgid "{name} (**@{user}**) - At level **{level}** by {killer} - {time}"
 msgstr "{name} (**@{user}**) - No level **{level}** por {killer} - {time}"
 
 #. Entry for levels command, for a specific character
 #. Death entry for timeline command for a specific character
-#: cogs/tibia.py:2426 cogs/tibia.py:2480
+#: cogs/tibia.py:2435 cogs/tibia.py:2489
 #, python-brace-format
 msgid "Level **{level}** - *{time}*"
 msgstr "Level **{level}** - *{time}*"
 
-#: cogs/tibia.py:2433
+#: cogs/tibia.py:2442
 msgid "Latest level ups"
 msgstr "Últimos avanços de level"
 
 #. Lines in levels command
-#: cogs/tibia.py:2445
+#: cogs/tibia.py:2454
 #, python-brace-format
 msgid "{name} - Level **{level}** - **@{user}** - *{time}*"
 msgstr "{name} - Level **{level}** - **@{user}** - *{time}*"
 
-#: cogs/tibia.py:2488
+#: cogs/tibia.py:2497
 msgid "Timeline"
 msgstr "Linha Cronológica"
 
 #. Death entry for timeline command
-#: cogs/tibia.py:2507
+#: cogs/tibia.py:2516
 #, python-brace-format
 msgid "{name} (**@{user}**) - At level **{level}** by {killer} - *{time}*"
 msgstr "{name} (**@{user}**) - No level **{level}** por {killer} - *{time}*"
 
 #. Level up entry for timeline command
-#: cogs/tibia.py:2513
+#: cogs/tibia.py:2522
 #, python-brace-format
 msgid "{name} (**@{user}**) - Level **{level}** - *{time}*"
 msgstr "{name} (**@{user}**) - Level **{level}** - *{time}*"
 
-#: cogs/tibia.py:2657
+#: cogs/tibia.py:2666
 #, python-format
 msgid "**%d** day"
 msgid_plural "**%d** days"
@@ -5930,24 +5934,24 @@ msgstr[0] "**%d** dia"
 msgstr[1] "**%d** dias"
 
 #. Last time the boss was seen
-#: cogs/tibia.py:2660
+#: cogs/tibia.py:2669
 #, python-brace-format
 msgid "Last seen {time} ago"
 msgstr "Visto pela última vez há {time}"
 
 #. Time to expect the boss to show up again
-#: cogs/tibia.py:2663
+#: cogs/tibia.py:2672
 #, python-brace-format
 msgid "Expect in {time}"
 msgstr "Previsto para daqui a {time}"
 
 #. Parameter validation for highscores command
-#: cogs/tibia.py:2694
+#: cogs/tibia.py:2703
 msgid "Invalid category or world."
 msgstr "Categoria ou mundo inválido."
 
 #. Parameter validation for highscores command
-#: cogs/tibia.py:2703
+#: cogs/tibia.py:2712
 msgid "Invalid vocation filter."
 msgstr "Filtro de vocação inválido."
 
