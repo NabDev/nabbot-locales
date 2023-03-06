@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 11:15-0700\n"
-"PO-Revision-Date: 2023-02-15 18:32\n"
+"PO-Revision-Date: 2023-03-06 00:39\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -5676,7 +5676,7 @@ msgstr "Rankings"
 
 #: cogs/tibia.py:2148
 msgid "Highscores entries (cont.)"
-msgstr ""
+msgstr "Rankings (cont.)"
 
 #: cogs/tibia.py:2151
 msgid "Global Highscores entries"
