@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 11:15-0700\n"
-"PO-Revision-Date: 2023-03-09 01:24\n"
+"PO-Revision-Date: 2023-03-09 01:25\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5680,7 +5680,7 @@ msgstr "Entradas en highscores"
 
 #: cogs/tibia.py:2148
 msgid "Highscores entries (cont.)"
-msgstr ""
+msgstr "Entradas en highscores (cont.)"
 
 #: cogs/tibia.py:2151
 msgid "Global Highscores entries"
@@ -7335,7 +7335,7 @@ msgstr "La hora del evento cambió correctamente."
 #: cogs/timers.py:1206
 #, python-brace-format
 msgid "The start time of your event **{event}** was changed to **{new_time}** by {user}."
-msgstr ""
+msgstr "La hora de inicio de tu evento **{event}** fue cambiada a **{new_time}** por {user}."
 
 #: cogs/timers.py:1210
 #, python-brace-format
