@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 11:15-0700\n"
-"PO-Revision-Date: 2023-02-15 18:32\n"
+"PO-Revision-Date: 2023-03-09 01:24\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4572,7 +4572,7 @@ msgstr "Drome Score"
 
 #: cogs/tibia.py:171 cogs/tibia.py:2018
 msgid "Boss Points"
-msgstr ""
+msgstr "Puntos de boss"
 
 #: cogs/tibia.py:184
 msgid "In progress"
@@ -4733,7 +4733,7 @@ msgstr "Muestra las posibilidades de que un boss esté presente, la última vez 
 
 #: cogs/tibia.py:463
 msgid "This command is temporarily disabled. Sorry for the inconvenience."
-msgstr ""
+msgstr "Este comando está temporalmente desactivado. Perdón por la inconveniencia."
 
 #: cogs/tibia.py:468
 msgid "Gets the boosted creature of the day."
