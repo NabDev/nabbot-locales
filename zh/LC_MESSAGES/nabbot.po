@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nabbot\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-08 18:30-0700\n"
+"POT-Creation-Date: 2023-05-19 14:11-0700\n"
 "PO-Revision-Date: 2023-03-09 01:25\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -1368,58 +1368,58 @@ msgstr ""
 msgid "Level must be higher than 1."
 msgstr ""
 
-#: cogs/calculators.py:229
+#: cogs/calculators.py:230
 msgid "Blessing of the Inquisition costs **{price:,}**{gold}."
 msgstr ""
 
-#: cogs/calculators.py:232
+#: cogs/calculators.py:233
 msgid "At that level you will pay **{price:,}** {gold} per blessing for a total of **{total:,}**{gold}."
 msgstr ""
 
-#: cogs/calculators.py:236
+#: cogs/calculators.py:237
 msgid "Mountain blessings cost **{mountain_bless_price:,}**{gold} each, for a total of **{mountain_total:,}**{gold}."
 msgstr ""
 
-#: cogs/calculators.py:245
+#: cogs/calculators.py:246
 msgid "Calculates the training time required to reach a target distance skill level."
 msgstr ""
 
-#: cogs/calculators.py:246
+#: cogs/calculators.py:247
 msgid ""
 "It shows the needed hits, online training time and offline training time.\n"
 "For paladins, it will also show the number of exercise weapons needed."
 msgstr ""
 
-#: cogs/calculators.py:274
+#: cogs/calculators.py:275
 msgid "Distance Skill Calculator"
 msgstr ""
 
-#: cogs/calculators.py:276 cogs/calculators.py:338 cogs/calculators.py:391
+#: cogs/calculators.py:277 cogs/calculators.py:339 cogs/calculators.py:392
 #, python-brace-format
 msgid "From level {current} ({percentage}% to next level) to {target} as a {voc}{loyalty_str}"
 msgstr ""
 
-#: cogs/calculators.py:300
+#: cogs/calculators.py:301
 msgid "Calculates the training time required to reach a target magic level."
 msgstr ""
 
-#: cogs/calculators.py:301
+#: cogs/calculators.py:302
 msgid "It shows the needed mana, offline training time and exercise weapons needed."
 msgstr ""
 
-#: cogs/calculators.py:336
+#: cogs/calculators.py:337
 msgid "Magic Level Calculator"
 msgstr ""
 
-#: cogs/calculators.py:350
+#: cogs/calculators.py:351
 msgid "You need to spend **{mana:,}** mana to reach magic level {target}"
 msgstr ""
 
-#: cogs/calculators.py:357
+#: cogs/calculators.py:358
 msgid "Calculates the training time required to reach a target skill level."
 msgstr ""
 
-#: cogs/calculators.py:358
+#: cogs/calculators.py:359
 msgid ""
 "It shows the needed hits, online training time and offline training time.\n"
 "For knights, it also shows exercise weapons needed.\n"
@@ -1427,15 +1427,15 @@ msgid ""
 "This only applies to axe, club and sword fighting."
 msgstr ""
 
-#: cogs/calculators.py:389
+#: cogs/calculators.py:390
 msgid "Melee Skill Calculator"
 msgstr ""
 
-#: cogs/calculators.py:413
+#: cogs/calculators.py:414
 msgid "Calculates the way to split loot based on the Party Hunt Analyzer."
 msgstr ""
 
-#: cogs/calculators.py:414
+#: cogs/calculators.py:415
 msgid ""
 "Shows the instructions to split the balance between the members, without needing to sell and split the loot.\n"
 "The instructions can be copied by double clicking and then pasted to a bank NPC.\n"
@@ -1443,49 +1443,49 @@ msgid ""
 "It also shows the percentage of damage and healing contribution of each member in the party."
 msgstr ""
 
-#: cogs/calculators.py:423
+#: cogs/calculators.py:424
 msgid "Could not parse party session."
 msgstr ""
 
-#: cogs/calculators.py:428
+#: cogs/calculators.py:429
 msgid "Balance"
 msgstr ""
 
-#: cogs/calculators.py:429
+#: cogs/calculators.py:430
 msgid "Individual balance"
 msgstr ""
 
-#: cogs/calculators.py:430
+#: cogs/calculators.py:431
 msgid "Loot per hour"
 msgstr ""
 
-#: cogs/calculators.py:433
+#: cogs/calculators.py:434
 #, python-brace-format
 msgid "Party Hunt Session — {member_count} members"
 msgstr ""
 
-#: cogs/calculators.py:437 cogs/tibiawiki.py:1020
+#: cogs/calculators.py:438 cogs/tibiawiki.py:1020
 msgid "Damage"
 msgstr ""
 
-#: cogs/calculators.py:441
+#: cogs/calculators.py:442
 msgid "Healing"
 msgstr ""
 
-#: cogs/calculators.py:453
+#: cogs/calculators.py:454
 msgid "Splitting Instructions"
 msgstr ""
 
-#: cogs/calculators.py:454
+#: cogs/calculators.py:455
 #, python-brace-format
 msgid "{duration}h hunt on {date}"
 msgstr ""
 
-#: cogs/calculators.py:461
+#: cogs/calculators.py:462
 msgid "Tells you the time you have to wait to restore stamina."
 msgstr ""
 
-#: cogs/calculators.py:462
+#: cogs/calculators.py:463
 msgid ""
 "To use it, you must provide your current stamina, in this format: `hh:mm`.\n"
 "The bot will show the time needed to reach full stamina if you were to start sleeping now.\n"
@@ -1495,34 +1495,34 @@ msgid ""
 "The footer text shows the time in your timezone where your stamina would be at the target stamina."
 msgstr ""
 
-#: cogs/calculators.py:473
+#: cogs/calculators.py:474
 msgid "Current stamina can't be greater than target stamina."
 msgstr ""
 
-#: cogs/calculators.py:476
+#: cogs/calculators.py:477
 msgid "Current stamina is already equal to target."
 msgstr ""
 
-#: cogs/calculators.py:493
+#: cogs/calculators.py:494
 #, python-brace-format
 msgid "You need to rest **{remaining}** to get back to full stamina."
 msgstr ""
 
-#: cogs/calculators.py:495
+#: cogs/calculators.py:496
 #, python-brace-format
 msgid "You need to rest **{remaining}** to get back to **{hours}:{minutes:02}** stamina."
 msgstr ""
 
-#: cogs/calculators.py:499
+#: cogs/calculators.py:500
 #, python-brace-format
 msgid "If you start resting now, you will reach your target stamina on {date}."
 msgstr ""
 
-#: cogs/calculators.py:508
+#: cogs/calculators.py:509
 msgid "Calculates character stats based on vocation and level."
 msgstr ""
 
-#: cogs/calculators.py:509
+#: cogs/calculators.py:510
 msgid ""
 "Shows hitpoints, mana, capacity, total experience and experience to next level.\n"
 "\n"
@@ -1531,135 +1531,135 @@ msgid ""
 "2. To calculate the stats of a character. (`stats «character»`)"
 msgstr ""
 
-#: cogs/calculators.py:519
+#: cogs/calculators.py:520
 msgid "There's no level lower than 1, it doesn't matter how bad you are at Tibia."
 msgstr ""
 
 #. Shown when trying to enter a very high level.
-#: cogs/calculators.py:523
+#: cogs/calculators.py:524
 msgid "Why do you care? You will __**never**__ reach this level 🙄"
 msgstr ""
 
-#: cogs/calculators.py:540
+#: cogs/calculators.py:541
 #, python-brace-format
 msgid "**{name}** is a level **{level}** with no vocation, with:"
 msgstr ""
 
-#: cogs/calculators.py:542
+#: cogs/calculators.py:543
 #, python-brace-format
 msgid "**{name}** is a level **{level}** {vocation}, with:"
 msgstr ""
 
-#: cogs/calculators.py:546
+#: cogs/calculators.py:547
 #, python-brace-format
 msgid "A level **{level}** with no vocation, has:"
 msgstr ""
 
-#: cogs/calculators.py:548
+#: cogs/calculators.py:549
 #, python-brace-format
 msgid "A level **{level}** {vocation}, has:"
 msgstr ""
 
-#: cogs/calculators.py:551 cogs/tibiawiki.py:1497
+#: cogs/calculators.py:552 cogs/tibiawiki.py:1497
 msgctxt "Hitpoints"
 msgid "HP"
 msgstr ""
 
-#: cogs/calculators.py:552
+#: cogs/calculators.py:553
 msgctxt "Mana"
 msgid "MP"
 msgstr ""
 
-#: cogs/calculators.py:553
+#: cogs/calculators.py:554
 msgid "Capacity"
 msgstr ""
 
-#: cogs/calculators.py:556 cogs/tibiawiki.py:1498
+#: cogs/calculators.py:557 cogs/tibiawiki.py:1498
 msgid "Experience"
 msgstr ""
 
-#: cogs/calculators.py:557
+#: cogs/calculators.py:558
 msgid "To next level"
 msgstr ""
 
-#: cogs/calculators.py:567
+#: cogs/calculators.py:568
 msgid "Calculates the level required to reach the specified capacity."
 msgstr ""
 
-#: cogs/calculators.py:568 cogs/calculators.py:584 cogs/calculators.py:599
+#: cogs/calculators.py:569 cogs/calculators.py:585 cogs/calculators.py:600
 msgid "The levels needed for each vocation are shown."
 msgstr ""
 
-#: cogs/calculators.py:573
+#: cogs/calculators.py:574
 #, python-format
 msgid "Capacity can't be lower than %d."
 msgstr ""
 
-#: cogs/calculators.py:576
+#: cogs/calculators.py:577
 msgid ""
 "To reach **{capacity:,}** oz. capacity, you need at least the following levels per vocation:\n"
 "\t"
 msgstr ""
 
-#: cogs/calculators.py:583
+#: cogs/calculators.py:584
 msgid "Calculates the level required to reach the specified hitpoints."
 msgstr ""
 
-#: cogs/calculators.py:589
+#: cogs/calculators.py:590
 #, python-format
 msgid "Hitpoints can't be lower than %d."
 msgstr ""
 
-#: cogs/calculators.py:591
+#: cogs/calculators.py:592
 msgid ""
 "To reach **{hitpoints:,}** hitpoints, you need at least the following levels per vocation:\n"
 "\t"
 msgstr ""
 
-#: cogs/calculators.py:598
+#: cogs/calculators.py:599
 msgid "Calculates the level required to reach the specified mana."
 msgstr ""
 
-#: cogs/calculators.py:604
+#: cogs/calculators.py:605
 #, python-format
 msgid "Mana can't be lower than %d."
 msgstr ""
 
-#: cogs/calculators.py:606
+#: cogs/calculators.py:607
 msgid ""
 "To reach **{mana:,}** mana points, you need at least the following levels per vocation:\n"
 "\t"
 msgstr ""
 
-#: cogs/calculators.py:707
+#: cogs/calculators.py:708
 msgid ""
 "You would need **{weapons:,}** exercise weapons.\n"
 "Costing **{weapons_cost:,}**{gold} or **{tc_cost:,}**{tc}.\n"
 msgstr ""
 
 #. The time it would take to use the exercise weapons.
-#: cogs/calculators.py:715
+#: cogs/calculators.py:716
 #, python-brace-format
 msgid "Using them would take *{time}*."
 msgstr ""
 
 #. Shown when the time to use all exercise weapons is excessively long.
-#: cogs/calculators.py:718
+#: cogs/calculators.py:719
 msgid "You will be dead before you can use them all."
 msgstr ""
 
-#: cogs/calculators.py:792 cogs/tibia.py:1152 cogs/tracking.py:1149
+#: cogs/calculators.py:793 cogs/tibia.py:1152 cogs/tracking.py:1149
 msgid "Invalid arguments used, examples:"
 msgstr ""
 
 #. Arguments example of stats command
-#: cogs/calculators.py:795
+#: cogs/calculators.py:796
 #, python-brace-format
 msgid "{prefix}{command} «character name»"
 msgstr ""
 
 #. Arguments example of stats command
-#: cogs/calculators.py:797
+#: cogs/calculators.py:798
 #, python-brace-format
 msgid "{prefix}{command} «level»,«vocation»"
 msgstr ""
